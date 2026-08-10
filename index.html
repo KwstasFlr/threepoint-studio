@@ -1,0 +1,617 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>3POINT</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #080a0d;
+            color: #e9edf2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+        /* NAV */
+
+        nav {
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 7%;
+            border-bottom: 1px solid #171c22;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #3b8edb;
+        }
+
+        nav a {
+            color: #8d969f;
+            margin-left: 30px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+
+        /* HERO */
+
+        .hero {
+            min-height: 650px;
+            padding: 90px 7%;
+            display: flex;
+            align-items: center;
+            gap: 70px;
+            border-bottom: 1px solid #171c22;
+        }
+
+        .hero-left {
+            flex: 1;
+        }
+
+        .hello {
+            color: #3b8edb;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 75px;
+            line-height: 0.95;
+            margin-bottom: 25px;
+            letter-spacing: -3px;
+        }
+
+        .hero h1 span {
+            color: #3b8edb;
+        }
+
+        .hero p {
+            max-width: 500px;
+            color: #929ba5;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .hero-image {
+            width: 430px;
+            height: 430px;
+            border: 1px solid #29323b;
+            background: #0d1116;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .image-text {
+            color: #525d67;
+            font-size: 14px;
+            text-align: center;
+        }
+
+
+        /* PROJECTS */
+
+        .projects {
+            padding: 90px 7%;
+        }
+
+        .heading {
+            margin-bottom: 45px;
+        }
+
+        .heading small {
+            color: #3b8edb;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .heading h2 {
+            font-size: 42px;
+            margin-top: 10px;
+        }
+
+        .heading p {
+            color: #7f8992;
+            margin-top: 12px;
+        }
+
+        .project {
+            display: grid;
+            grid-template-columns: 70px 1fr 180px;
+            align-items: center;
+            gap: 25px;
+
+            padding: 27px 0;
+            border-top: 1px solid #1b2128;
+        }
+
+        .project:last-child {
+            border-bottom: 1px solid #1b2128;
+        }
+
+        .project-number {
+            color: #3b8edb;
+            font-size: 14px;
+        }
+
+        .project h3 {
+            font-size: 22px;
+            margin-bottom: 7px;
+        }
+
+        .project p {
+            color: #7e8892;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .project-type {
+            color: #68737d;
+            font-size: 12px;
+            text-align: right;
+        }
+
+        .project:hover h3 {
+            color: #3b8edb;
+        }
+
+
+        /* ABOUT */
+
+        .about {
+            padding: 90px 7%;
+            background: #0b0e12;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+        }
+
+        .about h2 {
+            font-size: 42px;
+            margin-top: 10px;
+        }
+
+        .about p {
+            color: #858f99;
+            line-height: 1.8;
+            margin-top: 20px;
+            max-width: 550px;
+        }
+
+        .founders-link {
+            display: inline-block;
+            margin-top: 25px;
+            color: #3b8edb;
+            font-size: 13px;
+            transition: 0.2s;
+        }
+
+        .founders-link:hover {
+            color: white;
+        }
+
+        .numbers {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .number strong {
+            display: block;
+            font-size: 38px;
+            color: #3b8edb;
+        }
+
+        .number span {
+            color: #68737d;
+            font-size: 12px;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            padding: 35px 7%;
+            display: flex;
+            justify-content: space-between;
+            color: #5e6871;
+            font-size: 13px;
+        }
+
+        footer strong {
+            color: #dfe5ea;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 800px) {
+
+            .hero {
+                flex-direction: column;
+                align-items: flex-start;
+                padding-top: 60px;
+            }
+
+            .hero h1 {
+                font-size: 55px;
+            }
+
+            .hero-image {
+                width: 100%;
+                height: 350px;
+            }
+
+            .project {
+                grid-template-columns: 40px 1fr;
+            }
+
+            .project-type {
+                display: none;
+            }
+
+            .about {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .numbers {
+                gap: 30px;
+            }
+
+            nav div:last-child {
+                display: none;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <div class="logo">
+        3<span>POINT</span>
+    </div>
+
+    <div>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+    </div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <div class="hello">
+            THREE POINT STUDIO
+        </div>
+
+        <h1>
+            Where Ideas <span>Become Real</span>
+        </h1>
+
+        <p>
+            We build apps, websites and small digital
+            projects that start as an idea and turn into
+            something people can actually use.
+        </p>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <!--
+        ΒΑΛΕ ΕΔΩ ΤΗΝ ΕΙΚΟΝΑ ΣΟΥ
+
+        Παράδειγμα:
+
+        <img src="target.png" alt="3POINT">
+        -->
+
+        <div class="image-text">
+            Your image here
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section class="projects" id="projects">
+
+    <div class="heading">
+
+        <small>OUR PROJECTS</small>
+
+        <h2>Things we're working on.</h2>
+
+        <p>
+            A few ideas we've turned into actual projects.
+        </p>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">
+            01
+        </div>
+
+        <div>
+
+            <h3>
+                Interactive Quizzes
+            </h3>
+
+            <p>
+                Fun and engaging quizzes across sports,
+                movies, series and more.
+            </p>
+
+        </div>
+
+        <div class="project-type">
+            APP
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">
+            02
+        </div>
+
+        <div>
+
+            <h3>
+                Movie & Series Tracker
+            </h3>
+
+            <p>
+                Keep track of movies and series you've
+                watched or want to watch.
+            </p>
+
+        </div>
+
+        <div class="project-type">
+            WEB APP
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">
+            03
+        </div>
+
+        <div>
+
+            <h3>
+                Productivity Apps
+            </h3>
+
+            <p>
+                Simple apps for tracking workouts,
+                budgets, tasks and everyday activities.
+            </p>
+
+        </div>
+
+        <div class="project-type">
+            WEB APP
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">
+            04
+        </div>
+
+        <div>
+
+            <h3>
+                Business Websites
+            </h3>
+
+            <p>
+                Modern websites for restaurants, cafés,
+                fast-food spots, local businesses and
+                retail stores.
+            </p>
+
+        </div>
+
+        <div class="project-type">
+            WEBSITE
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div class="project-number">
+            05
+        </div>
+
+        <div>
+
+            <h3>
+                More Ideas
+            </h3>
+
+            <p>
+                New projects and ideas currently
+                in development.
+            </p>
+
+        </div>
+
+        <div class="project-type">
+            IN PROGRESS
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <div>
+
+        <div class="heading">
+
+            <small>ABOUT US</small>
+
+            <h2>
+                Small team.<br>
+                Endless ideas.
+            </h2>
+
+        </div>
+
+
+        <p>
+            THREEPOINT STUDIO is a small digital studio
+            based in Athens, Greece, with 8+ years of
+            experience in websites, apps, 3D modeling
+            and graphic design.
+        </p>
+
+
+        <p>
+            We turn ideas into digital experiences,
+            combining creativity, technology and a
+            hands-on approach to every project.
+        </p>
+
+
+        <p>
+            Some projects are useful. Some are just for fun.
+            Most start with a simple question:
+        </p>
+
+
+        <p>
+            <span style="color: #3b8edb;">
+                “What if we made this?”
+            </span>
+        </p>
+
+
+        <a href="founders.html" class="founders-link">
+            Meet the Co-Founders →
+        </a>
+
+    </div>
+
+
+    <div class="numbers">
+
+        <div class="number">
+
+            <strong>3</strong>
+
+            <span>
+                POINT
+            </span>
+
+        </div>
+
+
+        <div class="number">
+
+            <strong>∞</strong>
+
+            <span>
+                IDEAS
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div>
+        © 2026 <strong>3POINT</strong>
+    </div>
+
+    <div>
+        Made with ideas.
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
+```

@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Co-Founders — 3POINT</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #080a0d;
+            color: #e9edf2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+        /* NAV */
+
+        nav {
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 7%;
+            border-bottom: 1px solid #171c22;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #3b8edb;
+        }
+
+        .back {
+            color: #8d969f;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .back:hover {
+            color: white;
+        }
+
+
+        /* FOUNDERS */
+
+        .founders {
+            min-height: calc(100vh - 75px);
+            padding: 100px 7%;
+        }
+
+        .heading {
+            margin-bottom: 45px;
+        }
+
+        .heading small {
+            color: #3b8edb;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        .heading h1 {
+            font-size: 60px;
+            margin-top: 12px;
+            letter-spacing: -2px;
+        }
+
+        .heading p {
+            color: #7f8992;
+            margin-top: 15px;
+            max-width: 550px;
+            line-height: 1.7;
+        }
+
+
+        /* FOUNDERS GRID */
+
+        .founder-grid {
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+
+        /* FOUNDER */
+
+        .founder {
+            border: 1px solid #1b2128;
+            background: #0d1116;
+            padding: 35px;
+            min-height: 240px;
+            transition: 0.25s;
+        }
+
+        .founder:hover {
+            border-color: #293b4d;
+            transform: translateY(-3px);
+        }
+
+        .founder h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .founder-role {
+            color: #7e8892;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .linkedin {
+            color: #3b8edb;
+            font-size: 13px;
+            transition: 0.2s;
+        }
+
+        .linkedin:hover {
+            color: white;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            padding: 35px 7%;
+            color: #5e6871;
+            font-size: 13px;
+            border-top: 1px solid #171c22;
+        }
+
+        footer strong {
+            color: #dfe5ea;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 800px) {
+
+            .founders {
+                padding: 70px 7%;
+            }
+
+            .heading h1 {
+                font-size: 45px;
+            }
+
+            .founder-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <div class="logo">
+        3<span>POINT</span>
+    </div>
+
+    <a href="3PTS.html" class="back">
+        ← Back to Studio
+    </a>
+
+</nav>
+
+
+<!-- FOUNDERS -->
+
+<section class="founders">
+
+    <div class="heading">
+
+        <small>OUR CO-FOUNDERS</small>
+
+        <h1>
+            The people behind<br>
+            THREEPOINT.
+        </h1>
+
+        <p>
+            The people behind the ideas, projects and
+            creative direction of THREEPOINT STUDIO.
+        </p>
+
+    </div>
+
+
+    <div class="founder-grid">
+
+
+        <!-- KONSTANTINOS FLOROS -->
+
+        <div class="founder">
+
+            <h2>
+                Konstantinos Floros
+            </h2>
+
+            <div class="founder-role">
+                Co-Founder · Web Development & Research
+            </div>
+
+            <a
+                href="YOUR-FLINKEDIN-LINK"
+                class="linkedin"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn →
+            </a>
+
+        </div>
+
+
+        <!-- ATHANASIOS BIMIS -->
+
+        <div class="founder">
+
+            <h2>
+                Athanasios Bimis
+            </h2>
+
+            <div class="founder-role">
+                Co-Founder · App Development & Engineering
+            </div>
+
+            <a
+                href="YOUR-BLINKEDIN-LINK"
+                class="linkedin"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn →
+            </a>
+
+        </div>
+
+
+        <!-- ARISTEIDIS GKAGKARIS -->
+
+        <div class="founder">
+
+            <h2>
+                Aristeidis Gkagkaris
+            </h2>
+
+            <div class="founder-role">
+                Co-Founder · 3D & Creative
+            </div>
+
+            <a
+                href="YOUR-ALINKEDIN-LINK"
+                class="linkedin"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn →
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div>
+        © 2026 <strong>3POINT</strong>
+    </div>
+
+    <div>
+        Made with ideas.
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
+```
