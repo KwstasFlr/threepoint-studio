@@ -27,7 +27,6 @@
             text-decoration: none;
         }
 
-
         /* NAV */
 
         nav {
@@ -63,7 +62,6 @@
             color: white;
         }
 
-
         /* HERO */
 
         .hero {
@@ -75,20 +73,15 @@
             overflow: hidden;
         }
 
-
-        /* BACKGROUND IMAGE */
-
         .hero-image {
             position: absolute;
             top: 0;
             right: 0;
             width: 65%;
             height: 100%;
-
             display: flex;
             justify-content: flex-end;
             align-items: center;
-
             z-index: 0;
             pointer-events: none;
         }
@@ -129,7 +122,6 @@
             z-index: 1;
         }
 
-
         /* HERO CONTENT */
 
         .hero-content {
@@ -164,12 +156,79 @@
             line-height: 1.7;
         }
 
+        /* WHAT WE BUILD */
+
+        .what-we-build {
+            padding: 85px 7%;
+            border-top: 1px solid #171c22;
+            border-bottom: 1px solid #171c22;
+            background: #0b0e12;
+        }
+
+        .build-heading {
+            margin-bottom: 45px;
+        }
+
+        .build-heading small {
+            color: #3b8edb;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 4px;
+        }
+
+        .build-heading h2 {
+            font-size: 42px;
+            margin-top: 10px;
+            letter-spacing: -1px;
+        }
+
+        .build-heading p {
+            color: #7f8992;
+            margin-top: 12px;
+            line-height: 1.6;
+        }
+
+        .build-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .build-item {
+            padding: 30px 25px;
+            border: 1px solid #1b2128;
+            background: #080a0d;
+            transition: 0.25s;
+        }
+
+        .build-item:hover {
+            border-color: #293b4d;
+            transform: translateY(-3px);
+        }
+
+        .build-item span {
+            display: block;
+            color: #3b8edb;
+            font-size: 11px;
+            letter-spacing: 2px;
+            margin-bottom: 18px;
+        }
+
+        .build-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .build-item p {
+            color: #727d87;
+            font-size: 13px;
+            line-height: 1.6;
+        }
 
         /* PROJECTS */
 
         .projects {
             padding: 90px 7%;
-            border-top: 1px solid #171c22;
         }
 
         .heading {
@@ -197,7 +256,6 @@
             grid-template-columns: 70px 1fr 180px;
             align-items: center;
             gap: 25px;
-
             padding: 27px 0;
             border-top: 1px solid #1b2128;
             transition: 0.2s;
@@ -234,7 +292,6 @@
             color: #3b8edb;
         }
 
-
         /* ABOUT */
 
         .about {
@@ -257,21 +314,52 @@
             max-width: 550px;
         }
 
+        /* CO-FOUNDERS LINK */
+
         .founders-link {
-            display: inline-block;
-            margin-top: 25px;
-            color: #3b8edb;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 30px;
+            padding: 13px 20px;
+            border: 1px solid #26313c;
+            background: #080a0d;
+            color: #dfe5ea;
             font-size: 13px;
-            transition: 0.2s;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            transition: 0.25s;
+        }
+
+        .founders-link span {
+            color: #3b8edb;
+            font-size: 17px;
+            transition: 0.25s;
         }
 
         .founders-link:hover {
+            border-color: #3b8edb;
+            background: #0d141c;
             color: white;
+            transform: translateY(-2px);
+        }
+
+        .founders-link:hover span {
+            transform: translateX(4px);
+        }
+
+        /* RIGHT SIDE */
+
+        .about-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
         }
 
         .numbers {
             display: flex;
-            gap: 50px;
+            gap: 60px;
             align-items: center;
         }
 
@@ -286,6 +374,69 @@
             font-size: 12px;
         }
 
+        /* SOCIAL */
+
+        .social-title {
+            margin-top: 55px;
+            margin-bottom: 25px;
+            color: #8d969f;
+            font-size: 13px;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+        }
+
+        .social-link {
+            min-width: 165px;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 11px;
+
+            border: 1px solid #252d36;
+            background: #080a0d;
+
+            font-size: 15px;
+            font-weight: 700;
+
+            transition: 0.25s;
+        }
+
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        .instagram-link {
+            color: #E1306C;
+        }
+
+        .instagram-link:hover {
+            color: #ff6b9d;
+            border-color: #E1306C;
+            background: rgba(225, 48, 108, 0.08);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(225, 48, 108, 0.12);
+        }
+
+        .tiktok-link {
+            color: #ffffff;
+        }
+
+        .tiktok-link:hover {
+            color: #25F4EE;
+            border-color: #25F4EE;
+            background: rgba(37, 244, 238, 0.06);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(37, 244, 238, 0.12);
+        }
 
         /* FOOTER */
 
@@ -300,7 +451,6 @@
         footer strong {
             color: #dfe5ea;
         }
-
 
         /* MOBILE */
 
@@ -355,6 +505,18 @@
                     );
             }
 
+            .what-we-build {
+                padding: 70px 7%;
+            }
+
+            .build-heading h2 {
+                font-size: 35px;
+            }
+
+            .build-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
             .project {
                 grid-template-columns: 40px 1fr;
             }
@@ -365,16 +527,52 @@
 
             .about {
                 grid-template-columns: 1fr;
-                gap: 40px;
+                gap: 50px;
+            }
+
+            .about-right {
+                align-items: flex-start;
             }
 
             .numbers {
-                gap: 30px;
+                gap: 40px;
+            }
+
+            .social-title {
+                margin-top: 40px;
+            }
+
+            .social-links {
+                gap: 12px;
+                width: 100%;
+            }
+
+            .social-link {
+                min-width: 0;
+                flex: 1;
+                padding: 14px 12px;
             }
 
             footer {
                 flex-direction: column;
                 gap: 10px;
+            }
+
+        }
+
+        @media (max-width: 500px) {
+
+            .build-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .social-links {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .social-link {
+                width: 100%;
             }
 
         }
@@ -405,9 +603,10 @@
                 About
             </a>
 
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=threepointstudioath@gmail.com"
-               target="_blank"
-               rel="noopener noreferrer">
+            <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=threepointstudioath@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
                 Contact Us
             </a>
 
@@ -420,17 +619,12 @@
 
     <section class="hero">
 
-
-        <!-- BACKGROUND IMAGE -->
-
         <div class="hero-image">
 
             <img src="logo.jpg" alt="3POINT Studio">
 
         </div>
 
-
-        <!-- HERO CONTENT -->
 
         <div class="hero-content">
 
@@ -447,6 +641,98 @@
                 projects that start as an idea and turn into
                 something people can actually use.
             </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHAT WE BUILD -->
+
+    <section class="what-we-build">
+
+        <div class="build-heading">
+
+            <small>WHAT WE BUILD</small>
+
+            <h2>
+                Ideas take different forms.
+            </h2>
+
+            <p>
+                From simple tools to complete digital experiences,
+                we build things people can actually use.
+            </p>
+
+        </div>
+
+
+        <div class="build-grid">
+
+
+            <div class="build-item">
+
+                <span>01</span>
+
+                <h3>
+                    Apps
+                </h3>
+
+                <p>
+                    Practical applications designed
+                    around real ideas and everyday use.
+                </p>
+
+            </div>
+
+
+            <div class="build-item">
+
+                <span>02</span>
+
+                <h3>
+                    Websites
+                </h3>
+
+                <p>
+                    Modern websites built to look good,
+                    work smoothly and communicate clearly.
+                </p>
+
+            </div>
+
+
+            <div class="build-item">
+
+                <span>03</span>
+
+                <h3>
+                    Digital Tools
+                </h3>
+
+                <p>
+                    Small tools and web experiences
+                    that solve specific problems.
+                </p>
+
+            </div>
+
+
+            <div class="build-item">
+
+                <span>04</span>
+
+                <h3>
+                    Creative Projects
+                </h3>
+
+                <p>
+                    Experimental ideas combining
+                    technology, design and creativity.
+                </p>
+
+            </div>
+
 
         </div>
 
@@ -609,6 +895,9 @@
 
     <section class="about" id="about">
 
+
+        <!-- LEFT SIDE -->
+
         <div>
 
             <div class="heading">
@@ -645,43 +934,105 @@
 
 
             <p>
+
                 <span style="color: #3b8edb;">
                     “What if we made this?”
                 </span>
+
             </p>
 
 
             <a href="founders.html" class="founders-link">
-                Meet the Co-Founders →
+
+                Meet the Co-Founders
+
+                <span>→</span>
+
             </a>
 
         </div>
 
 
-        <div class="numbers">
+        <!-- RIGHT SIDE -->
 
-            <div class="number">
+        <div class="about-right">
 
-                <strong>
-                    3
-                </strong>
 
-                <span>
-                    POINT
-                </span>
+            <div class="numbers">
+
+                <div class="number">
+
+                    <strong>
+                        3
+                    </strong>
+
+                    <span>
+                        POINT
+                    </span>
+
+                </div>
+
+
+                <div class="number">
+
+                    <strong>
+                        ∞
+                    </strong>
+
+                    <span>
+                        IDEAS
+                    </span>
+
+                </div>
 
             </div>
 
 
-            <div class="number">
+            <div class="social-title">
+                FOLLOW US ON SOCIAL
+            </div>
 
-                <strong>
-                    ∞
-                </strong>
 
-                <span>
-                    IDEAS
-                </span>
+            <div class="social-links">
+
+
+                <a
+                    class="social-link instagram-link"
+                    href="https://www.instagram.com/threepointstudioath/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <svg
+                        class="social-icon"
+                        viewBox="0 0 24 24">
+
+                        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.75 6.25a1 1 0 1 1-1 1 1 1 0 0 1-1-1z"/>
+
+                    </svg>
+
+                    Instagram
+
+                </a>
+
+
+                <a
+                    class="social-link tiktok-link"
+                    href="https://www.tiktok.com/@threepoint.studio"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <svg
+                        class="social-icon"
+                        viewBox="0 0 24 24">
+
+                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-3.77V2h-3.2v13.67a2.9 2.9 0 1 1-2-2.74v-3.24a6.1 6.1 0 1 0 5.2 6V9.56a8 8 0 0 0 4.77 1.58V7.95a4.8 4.8 0 0 1-1-.1z"/>
+
+                    </svg>
+
+                    TikTok
+
+                </a>
+
 
             </div>
 
