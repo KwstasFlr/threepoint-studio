@@ -1,12 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>3POINT</title>
+    <title>3POINTATH STUDIO</title>
 
     <style>
 
@@ -14,6 +14,10 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
@@ -27,42 +31,300 @@
             text-decoration: none;
         }
 
-        /* NAV */
+
+        /* =========================
+           NAVIGATION
+        ========================= */
 
         nav {
-            height: 75px;
+            height: 82px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 0 7%;
             border-bottom: 1px solid #171c22;
-            position: relative;
-            z-index: 10;
             background: #080a0d;
+            position: relative;
+            z-index: 100;
         }
 
+
+        /* =========================
+           LOGO
+        ========================= */
+
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 9px;
             font-size: 25px;
-            font-weight: bold;
+            font-weight: 900;
             letter-spacing: 2px;
         }
 
-        .logo span {
+        .logo-three {
+            position: relative;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f2f5f8;
+            font-size: 22px;
+            font-weight: 900;
+            z-index: 1;
+        }
+
+        .logo-three::before {
+            content: "";
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            border: 2px solid #3b8edb;
+            border-right-color: transparent;
+            border-radius: 50%;
+            transform: rotate(-35deg);
+        }
+
+        .logo-three::after {
+            content: "";
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            border: 1px solid rgba(59, 142, 219, 0.35);
+            border-left-color: transparent;
+            border-radius: 50%;
+            transform: rotate(145deg);
+        }
+
+        .logo-word {
+            color: #f2f5f8;
+            font-size: 25px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            white-space: nowrap;
+        }
+
+        .logo-word .ath {
+            color: #3b8edb;
+            margin-left: 3px;
+        }
+
+
+        /* =========================
+           MENU BUTTON
+        ========================= */
+
+        .menu-button {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: none;
+            background: transparent;
+            color: #dfe5ea;
+            cursor: pointer;
+            padding: 10px 0 13px;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 4px;
+        }
+
+        .menu-button::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 1px;
+            background: #3b8edb;
+            transition: width 0.3s ease;
+        }
+
+        .menu-button:hover {
             color: #3b8edb;
         }
 
-        nav a {
-            color: #8d969f;
-            margin-left: 30px;
-            font-size: 14px;
-            transition: 0.2s;
+        .menu-button:hover::after {
+            width: 100%;
         }
 
-        nav a:hover {
-            color: white;
+        .menu-lines {
+            width: 30px;
+            height: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
-        /* HERO */
+        .menu-lines span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #3b8edb;
+            transition: 0.3s ease;
+        }
+
+        .menu-lines span:nth-child(2) {
+            width: 65%;
+            margin-left: auto;
+        }
+
+        .menu-button:hover .menu-lines span:nth-child(2) {
+            width: 100%;
+        }
+
+
+        /* =========================
+           MENU OVERLAY
+        ========================= */
+
+        .menu-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.62);
+            backdrop-filter: blur(6px);
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.3s;
+            z-index: 200;
+        }
+
+        .menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .menu-panel {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 430px;
+            max-width: 90%;
+            height: 100%;
+            background: #0b0e12;
+            border-left: 1px solid #202831;
+            padding: 35px 40px;
+            transform: translateX(100%);
+            transition: 0.4s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-overlay.active .menu-panel {
+            transform: translateX(0);
+        }
+
+        .menu-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #1b2128;
+        }
+
+        .menu-label {
+            color: #3b8edb;
+            font-size: 11px;
+            letter-spacing: 4px;
+            font-weight: 900;
+        }
+
+        .close-button {
+            border: 1px solid #252d36;
+            background: transparent;
+            color: #7f8992;
+            font-size: 11px;
+            letter-spacing: 2px;
+            padding: 10px 14px;
+            cursor: pointer;
+            transition: 0.25s;
+        }
+
+        .close-button:hover {
+            color: #3b8edb;
+            border-color: #3b8edb;
+        }
+
+        .menu-links {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-link {
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #171c22;
+            color: #dfe5ea;
+            font-size: 24px;
+            font-weight: 700;
+            transition: 0.25s;
+        }
+
+        .menu-arrow {
+            margin-left: auto;
+            color: #4c5863;
+            font-size: 22px;
+            transition: 0.25s;
+        }
+
+        .menu-link:hover {
+            padding-left: 8px;
+            color: #3b8edb;
+        }
+
+        .menu-link:hover .menu-arrow {
+            color: #3b8edb;
+            transform: translateX(5px);
+        }
+
+        .menu-founders {
+            margin-top: auto;
+            padding-top: 28px;
+            border-top: 1px solid #1b2128;
+        }
+
+        .menu-founders-label {
+            color: #68737d;
+            font-size: 10px;
+            letter-spacing: 3px;
+            margin-bottom: 14px;
+        }
+
+        .menu-founders-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 18px;
+            border: 1px solid #252d36;
+            background: #080a0d;
+            color: #dfe5ea;
+            font-size: 15px;
+            font-weight: 700;
+            transition: 0.25s;
+        }
+
+        .menu-founders-link span {
+            color: #3b8edb;
+            font-size: 18px;
+            transition: 0.25s;
+        }
+
+        .menu-founders-link:hover {
+            border-color: #3b8edb;
+            background: #0d141c;
+        }
+
+        .menu-founders-link:hover span {
+            transform: translateX(5px);
+        }
+
+
+        /* =========================
+           HERO
+        ========================= */
 
         .hero {
             min-height: 620px;
@@ -90,7 +352,6 @@
             content: "";
             position: absolute;
             inset: 0;
-
             background:
                 linear-gradient(
                     to right,
@@ -100,7 +361,6 @@
                     rgba(8, 10, 13, 0.08) 70%,
                     rgba(8, 10, 13, 0) 100%
                 );
-
             z-index: 2;
         }
 
@@ -109,20 +369,15 @@
             height: 100%;
             object-fit: contain;
             object-position: right center;
-
             opacity: 1.35;
-
             filter:
                 brightness(1.35)
                 contrast(1.12)
                 saturate(1.2)
                 drop-shadow(0 20px 50px rgba(0, 0, 0, 0.4));
-
             position: relative;
             z-index: 1;
         }
-
-        /* HERO CONTENT */
 
         .hero-content {
             position: relative;
@@ -135,7 +390,7 @@
             font-size: 13px;
             margin-bottom: 18px;
             letter-spacing: 2px;
-            font-weight: bold;
+            font-weight: 900;
         }
 
         .hero h1 {
@@ -143,6 +398,7 @@
             line-height: 0.98;
             margin-bottom: 25px;
             letter-spacing: -3px;
+            font-weight: 900;
         }
 
         .hero h1 span {
@@ -156,7 +412,10 @@
             line-height: 1.7;
         }
 
-        /* WHAT WE BUILD */
+
+        /* =========================
+           WHAT WE BUILD
+        ========================= */
 
         .what-we-build {
             padding: 85px 7%;
@@ -172,7 +431,7 @@
         .build-heading small {
             color: #3b8edb;
             font-size: 11px;
-            font-weight: 600;
+            font-weight: 800;
             letter-spacing: 4px;
         }
 
@@ -180,6 +439,7 @@
             font-size: 42px;
             margin-top: 10px;
             letter-spacing: -1px;
+            font-weight: 900;
         }
 
         .build-heading p {
@@ -203,13 +463,14 @@
 
         .build-item:hover {
             border-color: #293b4d;
-            transform: translateY(-3px);
+            transform: translateY(-4px);
         }
 
         .build-item span {
             display: block;
             color: #3b8edb;
             font-size: 11px;
+            font-weight: 800;
             letter-spacing: 2px;
             margin-bottom: 18px;
         }
@@ -217,6 +478,7 @@
         .build-item h3 {
             font-size: 20px;
             margin-bottom: 10px;
+            font-weight: 800;
         }
 
         .build-item p {
@@ -225,7 +487,10 @@
             line-height: 1.6;
         }
 
-        /* PROJECTS */
+
+        /* =========================
+           PROJECTS
+        ========================= */
 
         .projects {
             padding: 90px 7%;
@@ -239,11 +504,13 @@
             color: #3b8edb;
             font-size: 12px;
             letter-spacing: 2px;
+            font-weight: 800;
         }
 
         .heading h2 {
             font-size: 42px;
             margin-top: 10px;
+            font-weight: 900;
         }
 
         .heading p {
@@ -268,12 +535,14 @@
         .project-number {
             color: #3b8edb;
             font-size: 14px;
+            font-weight: 800;
         }
 
         .project h3 {
             font-size: 22px;
             margin-bottom: 7px;
             transition: 0.2s;
+            font-weight: 800;
         }
 
         .project p {
@@ -286,13 +555,18 @@
             color: #68737d;
             font-size: 12px;
             text-align: right;
+            font-weight: 700;
+            letter-spacing: 1px;
         }
 
         .project:hover h3 {
             color: #3b8edb;
         }
 
-        /* ABOUT */
+
+        /* =========================
+           ABOUT
+        ========================= */
 
         .about {
             padding: 90px 7%;
@@ -305,6 +579,7 @@
         .about h2 {
             font-size: 42px;
             margin-top: 10px;
+            font-weight: 900;
         }
 
         .about p {
@@ -313,8 +588,6 @@
             margin-top: 20px;
             max-width: 550px;
         }
-
-        /* CO-FOUNDERS LINK */
 
         .founders-link {
             display: inline-flex;
@@ -326,8 +599,7 @@
             background: #080a0d;
             color: #dfe5ea;
             font-size: 13px;
-            font-weight: 600;
-            letter-spacing: 0.3px;
+            font-weight: 700;
             transition: 0.25s;
         }
 
@@ -348,8 +620,6 @@
             transform: translateX(4px);
         }
 
-        /* RIGHT SIDE */
-
         .about-right {
             display: flex;
             flex-direction: column;
@@ -357,32 +627,107 @@
             align-items: flex-start;
         }
 
+
+        /* =========================
+           3 + INFINITY
+        ========================= */
+
         .numbers {
+            position: relative;
             display: flex;
-            gap: 60px;
-            align-items: center;
+            width: 100%;
+            max-width: 420px;
+            padding: 2px;
+            background: linear-gradient(
+                135deg,
+                #10161d,
+                #090c10
+            );
+            overflow: hidden;
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+        }
+
+        .numbers::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80px;
+            height: 1px;
+            background: #3b8edb;
+        }
+
+        .numbers::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 80px;
+            height: 1px;
+            background: #3b8edb;
+        }
+
+        .number {
+            position: relative;
+            flex: 1;
+            padding: 27px 30px;
+            text-align: center;
+            border: 1px solid #252d36;
+            background: rgba(8, 10, 13, 0.35);
+        }
+
+        .number:first-child {
+            border-right: none;
         }
 
         .number strong {
-            display: block;
-            font-size: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 58px;
+            height: 58px;
+            margin: 0 auto 10px;
             color: #3b8edb;
+            font-size: 31px;
+            line-height: 1;
+            font-weight: 900;
+        }
+
+        .number strong.infinity {
+            font-size: 34px;
         }
 
         .number span {
-            color: #68737d;
-            font-size: 12px;
+            color: #7c8791;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
         }
 
-        /* SOCIAL */
+
+        /* =========================
+           SOCIAL
+        ========================= */
 
         .social-title {
+            position: relative;
             margin-top: 55px;
             margin-bottom: 25px;
-            color: #8d969f;
-            font-size: 13px;
+            padding-top: 16px;
+            color: #dfe5ea;
+            font-size: 15px;
             letter-spacing: 3px;
-            font-weight: 700;
+            font-weight: 800;
+        }
+
+        .social-title::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 45px;
+            height: 2px;
+            background: #3b8edb;
         }
 
         .social-links {
@@ -397,33 +742,22 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 11px;
-
             border: 1px solid #252d36;
             background: #080a0d;
-
             font-size: 15px;
-            font-weight: 700;
-
+            font-weight: 800;
             transition: 0.25s;
         }
 
-        .social-icon {
-            width: 24px;
-            height: 24px;
-            fill: currentColor;
-        }
-
         .instagram-link {
-            color: #E1306C;
+            color: #e1306c;
         }
 
         .instagram-link:hover {
             color: #ff6b9d;
-            border-color: #E1306C;
+            border-color: #e1306c;
             background: rgba(225, 48, 108, 0.08);
             transform: translateY(-4px);
-            box-shadow: 0 10px 30px rgba(225, 48, 108, 0.12);
         }
 
         .tiktok-link {
@@ -431,28 +765,70 @@
         }
 
         .tiktok-link:hover {
-            color: #25F4EE;
-            border-color: #25F4EE;
+            color: #25f4ee;
+            border-color: #25f4ee;
             background: rgba(37, 244, 238, 0.06);
             transform: translateY(-4px);
-            box-shadow: 0 10px 30px rgba(37, 244, 238, 0.12);
         }
 
-        /* FOOTER */
+
+        /* =========================
+           FOOTER
+        ========================= */
 
         footer {
-            padding: 35px 7%;
-            display: flex;
-            justify-content: space-between;
+            padding: 40px 7% 30px;
+            border-top: 1px solid #171c22;
+            background: #080a0d;
             color: #5e6871;
-            font-size: 13px;
+            font-size: 12px;
         }
 
-        footer strong {
+        .footer-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .footer-main strong {
             color: #dfe5ea;
         }
 
-        /* MOBILE */
+        .footer-policies {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 22px;
+            padding-top: 20px;
+            border-top: 1px solid #171c22;
+        }
+
+        .footer-policies a {
+            color: #68737d;
+            padding: 0 16px;
+            border-right: 1px solid #252d36;
+            transition: 0.25s;
+        }
+
+        .footer-policies a:first-child {
+            padding-left: 0;
+        }
+
+        .footer-policies a:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+
+        .footer-policies a:hover {
+            color: #3b8edb;
+        }
+
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
 
         @media (max-width: 800px) {
 
@@ -460,19 +836,15 @@
                 padding: 0 5%;
             }
 
-            nav a {
-                margin-left: 15px;
-                font-size: 13px;
+            .menu-panel {
+                width: 100%;
+                max-width: 100%;
+                padding: 30px 25px;
             }
 
             .hero {
                 min-height: 650px;
                 padding: 60px 7%;
-                align-items: center;
-            }
-
-            .hero-content {
-                max-width: 100%;
             }
 
             .hero h1 {
@@ -530,16 +902,8 @@
                 gap: 50px;
             }
 
-            .about-right {
-                align-items: flex-start;
-            }
-
             .numbers {
-                gap: 40px;
-            }
-
-            .social-title {
-                margin-top: 40px;
+                max-width: 100%;
             }
 
             .social-links {
@@ -553,14 +917,40 @@
                 padding: 14px 12px;
             }
 
-            footer {
+            .footer-main {
                 flex-direction: column;
-                gap: 10px;
+                align-items: flex-start;
             }
 
+            .footer-policies {
+                justify-content: flex-start;
+                gap: 12px 0;
+            }
         }
 
+
         @media (max-width: 500px) {
+
+            .logo {
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+
+            .logo-three {
+                width: 31px;
+                height: 31px;
+                font-size: 19px;
+            }
+
+            .logo-three::before,
+            .logo-three::after {
+                width: 29px;
+                height: 29px;
+            }
+
+            .logo-word {
+                font-size: 20px;
+            }
 
             .build-grid {
                 grid-template-columns: 1fr;
@@ -575,6 +965,29 @@
                 width: 100%;
             }
 
+            .number {
+                padding: 23px 15px;
+            }
+
+            .number strong {
+                width: 52px;
+                height: 52px;
+                font-size: 29px;
+            }
+
+            .number strong.infinity {
+                font-size: 31px;
+            }
+
+            .footer-policies {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .footer-policies a {
+                padding: 4px 0;
+                border-right: none;
+            }
         }
 
     </style>
@@ -590,29 +1003,134 @@
     <nav>
 
         <div class="logo">
-            3<span>POINT</span>
-        </div>
 
-        <div>
+            <div class="logo-three">
+                3
+            </div>
 
-            <a href="#projects">
-                Projects
-            </a>
-
-            <a href="#about">
-                About
-            </a>
-
-            <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=threepointstudioath@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer">
-                Contact Us
-            </a>
+            <div class="logo-word">
+                POINT<span class="ath">ATH</span>
+            </div>
 
         </div>
+
+
+        <button
+            class="menu-button"
+            onclick="openMenu()">
+
+            <span>
+                MENU
+            </span>
+
+            <div class="menu-lines">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </button>
 
     </nav>
+
+
+
+    <!-- MENU -->
+
+    <div
+        class="menu-overlay"
+        id="menuOverlay">
+
+        <div class="menu-panel">
+
+            <div class="menu-top">
+
+                <div class="menu-label">
+                    THREE POINT STUDIO
+                </div>
+
+                <button
+                    class="close-button"
+                    onclick="closeMenu()">
+
+                    CLOSE
+
+                </button>
+
+            </div>
+
+
+            <div class="menu-links">
+
+                <a
+                    href="#projects"
+                    class="menu-link"
+                    onclick="closeMenu()">
+
+                    Projects
+
+                    <span class="menu-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="#about"
+                    class="menu-link"
+                    onclick="closeMenu()">
+
+                    About Us
+
+                    <span class="menu-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="mailto:threepointstudioath@gmail.com"
+                    class="menu-link">
+
+                    Contact Us
+
+                    <span class="menu-arrow">
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <div class="menu-founders">
+
+                <div class="menu-founders-label">
+                    THE PEOPLE BEHIND 3POINTATH
+                </div>
+
+                <a
+                    href="founders.html"
+                    class="menu-founders-link">
+
+                    Co-Founders
+
+                    <span>
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
 
 
     <!-- HERO -->
@@ -621,7 +1139,9 @@
 
         <div class="hero-image">
 
-            <img src="logo.jpg" alt="3POINT Studio">
+            <img
+                src="logo.jpg"
+                alt="3POINTATH Studio">
 
         </div>
 
@@ -629,12 +1149,15 @@
         <div class="hero-content">
 
             <div class="hello">
-                THREE POINT STUDIO
+                THREE POINT STUDIO ATH
             </div>
 
+
             <h1>
-                Where Ideas <span>Become Real</span>
+                Where Ideas
+                <span>Become Real</span>
             </h1>
+
 
             <p>
                 We build apps, websites and small digital
@@ -647,13 +1170,16 @@
     </section>
 
 
+
     <!-- WHAT WE BUILD -->
 
     <section class="what-we-build">
 
         <div class="build-heading">
 
-            <small>WHAT WE BUILD</small>
+            <small>
+                WHAT WE BUILD
+            </small>
 
             <h2>
                 Ideas take different forms.
@@ -668,7 +1194,6 @@
 
 
         <div class="build-grid">
-
 
             <div class="build-item">
 
@@ -733,19 +1258,23 @@
 
             </div>
 
-
         </div>
 
     </section>
 
 
+
     <!-- PROJECTS -->
 
-    <section class="projects" id="projects">
+    <section
+        class="projects"
+        id="projects">
 
         <div class="heading">
 
-            <small>OUR PROJECTS</small>
+            <small>
+                OUR PROJECTS
+            </small>
 
             <h2>
                 Things we're working on.
@@ -793,7 +1322,7 @@
             <div>
 
                 <h3>
-                    Movie & Series Tracker
+                    Movie &amp; Series Tracker
                 </h3>
 
                 <p>
@@ -891,18 +1420,20 @@
     </section>
 
 
+
     <!-- ABOUT -->
 
-    <section class="about" id="about">
-
-
-        <!-- LEFT SIDE -->
+    <section
+        class="about"
+        id="about">
 
         <div>
 
             <div class="heading">
 
-                <small>ABOUT US</small>
+                <small>
+                    ABOUT US
+                </small>
 
                 <h2>
                     Small team.<br>
@@ -934,29 +1465,29 @@
 
 
             <p>
-
-                <span style="color: #3b8edb;">
+                <span style="color:#3b8edb;">
                     “What if we made this?”
                 </span>
-
             </p>
 
 
-            <a href="founders.html" class="founders-link">
+            <a
+                href="founders.html"
+                class="founders-link">
 
                 Meet the Co-Founders
 
-                <span>→</span>
+                <span>
+                    →
+                </span>
 
             </a>
 
         </div>
 
 
-        <!-- RIGHT SIDE -->
 
         <div class="about-right">
-
 
             <div class="numbers">
 
@@ -975,7 +1506,7 @@
 
                 <div class="number">
 
-                    <strong>
+                    <strong class="infinity">
                         ∞
                     </strong>
 
@@ -989,26 +1520,17 @@
 
 
             <div class="social-title">
-                FOLLOW US ON SOCIAL
+                FOLLOW US ON SOCIAL MEDIA
             </div>
 
 
             <div class="social-links">
-
 
                 <a
                     class="social-link instagram-link"
                     href="https://www.instagram.com/threepointstudioath/"
                     target="_blank"
                     rel="noopener noreferrer">
-
-                    <svg
-                        class="social-icon"
-                        viewBox="0 0 24 24">
-
-                        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.75 6.25a1 1 0 1 1-1 1 1 1 0 0 1-1-1z"/>
-
-                    </svg>
 
                     Instagram
 
@@ -1021,18 +1543,9 @@
                     target="_blank"
                     rel="noopener noreferrer">
 
-                    <svg
-                        class="social-icon"
-                        viewBox="0 0 24 24">
-
-                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-3.77V2h-3.2v13.67a2.9 2.9 0 1 1-2-2.74v-3.24a6.1 6.1 0 1 0 5.2 6V9.56a8 8 0 0 0 4.77 1.58V7.95a4.8 4.8 0 0 1-1-.1z"/>
-
-                    </svg>
-
                     TikTok
 
                 </a>
-
 
             </div>
 
@@ -1041,21 +1554,95 @@
     </section>
 
 
+
     <!-- FOOTER -->
 
     <footer>
 
-        <div>
-            © 2026 <strong>3POINT</strong>
+        <div class="footer-main">
+
+            <div>
+                © 2026
+                <strong>THREEPOINTSTUDIOATH</strong>
+                ALL RIGHTS RESERVED
+            </div>
+
+            <div>
+                Made with ideas.
+            </div>
+
         </div>
 
-        <div>
-            Made with ideas.
+
+        <div class="footer-policies">
+
+            <a href="privacy-policy.html">
+                Privacy Policy
+            </a>
+
+            <a href="terms.html">
+                Terms &amp; Conditions
+            </a>
+
+            <a href="quality-policy.html">
+                Quality Policy
+            </a>
+
+            <a href="cookie-policy.html">
+                Cookie Policy
+            </a>
+
         </div>
 
     </footer>
 
 
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        function openMenu() {
+
+            document
+                .getElementById("menuOverlay")
+                .classList
+                .add("active");
+
+            document.body.style.overflow = "hidden";
+
+        }
+
+
+        function closeMenu() {
+
+            document
+                .getElementById("menuOverlay")
+                .classList
+                .remove("active");
+
+            document.body.style.overflow = "";
+
+        }
+
+
+        document
+            .getElementById("menuOverlay")
+            .addEventListener(
+                "click",
+                function(event) {
+
+                    if (event.target === this) {
+                        closeMenu();
+                    }
+
+                }
+            );
+
+    </script>
+
+
 </body>
 
 </html>
+
