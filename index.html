@@ -37,6 +37,9 @@
             justify-content: space-between;
             padding: 0 7%;
             border-bottom: 1px solid #171c22;
+            position: relative;
+            z-index: 10;
+            background: #080a0d;
         }
 
         .logo {
@@ -53,6 +56,7 @@
             color: #8d969f;
             margin-left: 30px;
             font-size: 14px;
+            transition: 0.2s;
         }
 
         nav a:hover {
@@ -63,27 +67,88 @@
         /* HERO */
 
         .hero {
-            min-height: 650px;
-            padding: 90px 7%;
+            min-height: 620px;
+            padding: 80px 7%;
+            position: relative;
             display: flex;
             align-items: center;
-            gap: 70px;
-            border-bottom: 1px solid #171c22;
+            overflow: hidden;
         }
 
-        .hero-left {
-            flex: 1;
+
+        /* BACKGROUND IMAGE */
+
+        .hero-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 65%;
+            height: 100%;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .hero-image::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+
+            background:
+                linear-gradient(
+                    to right,
+                    #080a0d 0%,
+                    rgba(8, 10, 13, 0.88) 10%,
+                    rgba(8, 10, 13, 0.45) 35%,
+                    rgba(8, 10, 13, 0.08) 70%,
+                    rgba(8, 10, 13, 0) 100%
+                );
+
+            z-index: 2;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: right center;
+
+            opacity: 1.35;
+
+            filter:
+                brightness(1.35)
+                contrast(1.12)
+                saturate(1.2)
+                drop-shadow(0 20px 50px rgba(0, 0, 0, 0.4));
+
+            position: relative;
+            z-index: 1;
+        }
+
+
+        /* HERO CONTENT */
+
+        .hero-content {
+            position: relative;
+            z-index: 5;
+            max-width: 650px;
         }
 
         .hello {
             color: #3b8edb;
-            font-size: 14px;
-            margin-bottom: 20px;
+            font-size: 13px;
+            margin-bottom: 18px;
+            letter-spacing: 2px;
+            font-weight: bold;
         }
 
         .hero h1 {
-            font-size: 75px;
-            line-height: 0.95;
+            font-size: 72px;
+            line-height: 0.98;
             margin-bottom: 25px;
             letter-spacing: -3px;
         }
@@ -99,33 +164,12 @@
             line-height: 1.7;
         }
 
-        .hero-image {
-            width: 430px;
-            height: 430px;
-            border: 1px solid #29323b;
-            background: #0d1116;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hero-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
-        .image-text {
-            color: #525d67;
-            font-size: 14px;
-            text-align: center;
-        }
-
 
         /* PROJECTS */
 
         .projects {
             padding: 90px 7%;
+            border-top: 1px solid #171c22;
         }
 
         .heading {
@@ -156,6 +200,7 @@
 
             padding: 27px 0;
             border-top: 1px solid #1b2128;
+            transition: 0.2s;
         }
 
         .project:last-child {
@@ -170,6 +215,7 @@
         .project h3 {
             font-size: 22px;
             margin-bottom: 7px;
+            transition: 0.2s;
         }
 
         .project p {
@@ -260,19 +306,53 @@
 
         @media (max-width: 800px) {
 
+            nav {
+                padding: 0 5%;
+            }
+
+            nav a {
+                margin-left: 15px;
+                font-size: 13px;
+            }
+
             .hero {
-                flex-direction: column;
-                align-items: flex-start;
-                padding-top: 60px;
+                min-height: 650px;
+                padding: 60px 7%;
+                align-items: center;
+            }
+
+            .hero-content {
+                max-width: 100%;
             }
 
             .hero h1 {
-                font-size: 55px;
+                font-size: 52px;
+                letter-spacing: -2px;
+            }
+
+            .hero p {
+                font-size: 16px;
             }
 
             .hero-image {
                 width: 100%;
-                height: 350px;
+                height: 100%;
+            }
+
+            .hero-image img {
+                object-fit: contain;
+                object-position: right center;
+                opacity: 0.50;
+            }
+
+            .hero-image::after {
+                background:
+                    linear-gradient(
+                        to right,
+                        #080a0d 0%,
+                        rgba(8, 10, 13, 0.75) 45%,
+                        rgba(8, 10, 13, 0.10) 100%
+                    );
             }
 
             .project {
@@ -292,8 +372,9 @@
                 gap: 30px;
             }
 
-            nav div:last-child {
-                display: none;
+            footer {
+                flex-direction: column;
+                gap: 10px;
             }
 
         }
@@ -306,311 +387,322 @@
 <body>
 
 
-<!-- NAVIGATION -->
+    <!-- NAVIGATION -->
 
-<nav>
+    <nav>
 
-    <div class="logo">
-        3<span>POINT</span>
-    </div>
-
-    <div>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=threepointstudioath@gmail.com">
-            Contact Us
-        </a>
-    </div>
-
-</nav>
-
-
-<!-- HERO -->
-
-<section class="hero">
-
-    <div class="hero-left">
-
-        <div class="hello">
-            THREE POINT STUDIO
-        </div>
-
-        <h1>
-            Where Ideas <span>Become Real</span>
-        </h1>
-
-        <p>
-            We build apps, websites and small digital
-            projects that start as an idea and turn into
-            something people can actually use.
-        </p>
-
-    </div>
-
-
-    <div class="hero-image">
-
-        <!--
-        ΒΑΛΕ ΕΔΩ ΤΗΝ ΕΙΚΟΝΑ ΣΟΥ
-
-        Παράδειγμα:
-
-        <img src="target.png" alt="3POINT">
-        -->
-
-        <div class="image-text">
-            Your image here
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- PROJECTS -->
-
-<section class="projects" id="projects">
-
-    <div class="heading">
-
-        <small>OUR PROJECTS</small>
-
-        <h2>Things we're working on.</h2>
-
-        <p>
-            A few ideas we've turned into actual projects.
-        </p>
-
-    </div>
-
-
-    <div class="project">
-
-        <div class="project-number">
-            01
+        <div class="logo">
+            3<span>POINT</span>
         </div>
 
         <div>
 
-            <h3>
-                Interactive Quizzes
-            </h3>
+            <a href="#projects">
+                Projects
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=threepointstudioath@gmail.com"
+               target="_blank"
+               rel="noopener noreferrer">
+                Contact Us
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+
+        <!-- BACKGROUND IMAGE -->
+
+        <div class="hero-image">
+
+            <img src="logo.jpg" alt="3POINT Studio">
+
+        </div>
+
+
+        <!-- HERO CONTENT -->
+
+        <div class="hero-content">
+
+            <div class="hello">
+                THREE POINT STUDIO
+            </div>
+
+            <h1>
+                Where Ideas <span>Become Real</span>
+            </h1>
 
             <p>
-                Fun and engaging quizzes across sports,
-                movies, series and more.
+                We build apps, websites and small digital
+                projects that start as an idea and turn into
+                something people can actually use.
             </p>
 
         </div>
 
-        <div class="project-type">
-            APP
-        </div>
-
-    </div>
+    </section>
 
 
-    <div class="project">
+    <!-- PROJECTS -->
 
-        <div class="project-number">
-            02
-        </div>
-
-        <div>
-
-            <h3>
-                Movie & Series Tracker
-            </h3>
-
-            <p>
-                Keep track of movies and series you've
-                watched or want to watch.
-            </p>
-
-        </div>
-
-        <div class="project-type">
-            WEB APP
-        </div>
-
-    </div>
-
-
-    <div class="project">
-
-        <div class="project-number">
-            03
-        </div>
-
-        <div>
-
-            <h3>
-                Productivity Apps
-            </h3>
-
-            <p>
-                Simple apps for tracking workouts,
-                budgets, tasks and everyday activities.
-            </p>
-
-        </div>
-
-        <div class="project-type">
-            WEB APP
-        </div>
-
-    </div>
-
-
-    <div class="project">
-
-        <div class="project-number">
-            04
-        </div>
-
-        <div>
-
-            <h3>
-                Business Websites
-            </h3>
-
-            <p>
-                Modern websites for restaurants, cafés,
-                fast-food spots, local businesses and
-                retail stores.
-            </p>
-
-        </div>
-
-        <div class="project-type">
-            WEBSITE
-        </div>
-
-    </div>
-
-
-    <div class="project">
-
-        <div class="project-number">
-            05
-        </div>
-
-        <div>
-
-            <h3>
-                More Ideas
-            </h3>
-
-            <p>
-                New projects and ideas currently
-                in development.
-            </p>
-
-        </div>
-
-        <div class="project-type">
-            IN PROGRESS
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section class="about" id="about">
-
-    <div>
+    <section class="projects" id="projects">
 
         <div class="heading">
 
-            <small>ABOUT US</small>
+            <small>OUR PROJECTS</small>
 
             <h2>
-                Small team.<br>
-                Endless ideas.
+                Things we're working on.
             </h2>
 
-        </div>
-
-
-        <p>
-            THREEPOINT STUDIO is a small digital studio
-            based in Athens, Greece, with 8+ years of
-            experience in websites, apps, 3D modeling
-            and graphic design.
-        </p>
-
-
-        <p>
-            We turn ideas into digital experiences,
-            combining creativity, technology and a
-            hands-on approach to every project.
-        </p>
-
-
-        <p>
-            Some projects are useful. Some are just for fun.
-            Most start with a simple question:
-        </p>
-
-
-        <p>
-            <span style="color: #3b8edb;">
-                “What if we made this?”
-            </span>
-        </p>
-
-
-        <a href="founders.html" class="founders-link">
-            Meet the Co-Founders →
-        </a>
-
-    </div>
-
-
-    <div class="numbers">
-
-        <div class="number">
-
-            <strong>3</strong>
-
-            <span>
-                POINT
-            </span>
+            <p>
+                A few ideas we've turned into actual projects.
+            </p>
 
         </div>
 
 
-        <div class="number">
+        <div class="project">
 
-            <strong>∞</strong>
+            <div class="project-number">
+                01
+            </div>
 
-            <span>
-                IDEAS
-            </span>
+            <div>
+
+                <h3>
+                    Interactive Quizzes
+                </h3>
+
+                <p>
+                    Fun and engaging quizzes across sports,
+                    movies, series and more.
+                </p>
+
+            </div>
+
+            <div class="project-type">
+                APP
+            </div>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="project">
+
+            <div class="project-number">
+                02
+            </div>
+
+            <div>
+
+                <h3>
+                    Movie & Series Tracker
+                </h3>
+
+                <p>
+                    Keep track of movies and series you've
+                    watched or want to watch.
+                </p>
+
+            </div>
+
+            <div class="project-type">
+                WEB APP
+            </div>
+
+        </div>
 
 
-<!-- FOOTER -->
+        <div class="project">
 
-<footer>
+            <div class="project-number">
+                03
+            </div>
 
-    <div>
-        © 2026 <strong>3POINT</strong>
-    </div>
+            <div>
 
-    <div>
-        Made with ideas.
-    </div>
+                <h3>
+                    Productivity Apps
+                </h3>
 
-</footer>
+                <p>
+                    Simple apps for tracking workouts,
+                    budgets, tasks and everyday activities.
+                </p>
+
+            </div>
+
+            <div class="project-type">
+                WEB APP
+            </div>
+
+        </div>
+
+
+        <div class="project">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <div>
+
+                <h3>
+                    Business Websites
+                </h3>
+
+                <p>
+                    Modern websites for restaurants, cafés,
+                    fast-food spots, local businesses and
+                    retail stores.
+                </p>
+
+            </div>
+
+            <div class="project-type">
+                WEBSITE
+            </div>
+
+        </div>
+
+
+        <div class="project">
+
+            <div class="project-number">
+                05
+            </div>
+
+            <div>
+
+                <h3>
+                    More Ideas
+                </h3>
+
+                <p>
+                    New projects and ideas currently
+                    in development.
+                </p>
+
+            </div>
+
+            <div class="project-type">
+                IN PROGRESS
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div>
+
+            <div class="heading">
+
+                <small>ABOUT US</small>
+
+                <h2>
+                    Small team.<br>
+                    Endless ideas.
+                </h2>
+
+            </div>
+
+
+            <p>
+                THREEPOINT STUDIO is a small digital studio
+                based in Athens, Greece, with 8+ years of
+                experience in websites, apps, 3D modeling
+                and graphic design.
+            </p>
+
+
+            <p>
+                We turn ideas into digital experiences,
+                combining creativity, technology and a
+                hands-on approach to every project.
+            </p>
+
+
+            <p>
+                Some projects are useful. Some are just for fun.
+                Most start with a simple question:
+            </p>
+
+
+            <p>
+                <span style="color: #3b8edb;">
+                    “What if we made this?”
+                </span>
+            </p>
+
+
+            <a href="founders.html" class="founders-link">
+                Meet the Co-Founders →
+            </a>
+
+        </div>
+
+
+        <div class="numbers">
+
+            <div class="number">
+
+                <strong>
+                    3
+                </strong>
+
+                <span>
+                    POINT
+                </span>
+
+            </div>
+
+
+            <div class="number">
+
+                <strong>
+                    ∞
+                </strong>
+
+                <span>
+                    IDEAS
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div>
+            © 2026 <strong>3POINT</strong>
+        </div>
+
+        <div>
+            Made with ideas.
+        </div>
+
+    </footer>
 
 
 </body>
