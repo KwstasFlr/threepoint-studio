@@ -1,135 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Contact — 3POINT STUDIO</title>
+
 <link rel="stylesheet" href="style.css">
 
 <style>
-.contact-main{min-height:calc(100vh - 78px);display:flex;align-items:center;justify-content:center;padding:70px 7%}
-.contact-box{width:100%;max-width:850px}
-.contact-label{color:#3b8edb;font-size:11px;letter-spacing:4px;font-weight:700;margin-bottom:20px}
-.contact-box h1{font-size:64px;line-height:.98;letter-spacing:-3px;margin-bottom:25px}
-.contact-box p{max-width:650px;color:#858f99;font-size:16px;line-height:1.7;margin-bottom:45px}
-.contact-choice-title{color:#68737d;font-size:10px;letter-spacing:3px;font-weight:700;margin-bottom:15px}
-.contact-choices{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:45px}
-.contact-choice{position:relative;padding:25px 22px;min-height:135px;text-align:left;border:1px solid #252d36;background:#0b0e12;color:#dfe5ea;cursor:pointer;transition:.25s ease}
-.contact-choice:hover{transform:translateY(-4px);border-color:#3b8edb;background:#0e141b}
-.contact-choice.active{border-color:#3b8edb;background:#0e141b;box-shadow:inset 3px 0 0 #3b8edb}
-.contact-choice-check{position:absolute;top:15px;right:16px;color:#3b8edb;font-size:16px;opacity:0;transition:.2s}
-.contact-choice.active .contact-choice-check{opacity:1}
-.contact-choice-name{display:block;color:#3b8edb;font-size:12px;font-weight:700;letter-spacing:2px;margin-bottom:14px}
-.contact-choice strong{display:block;font-size:20px;margin-bottom:8px}
-.contact-choice em{display:block;color:#68737d;font-size:12px;font-style:normal;line-height:1.5}
-.contact-email-label{color:#68737d;font-size:10px;letter-spacing:3px;margin-bottom:12px}
-.contact-email{color:#dfe5ea;font-size:18px;margin-bottom:22px}
-.gmail-button{display:inline-flex;align-items:center;gap:25px;padding:16px 22px;border:1px solid #3b8edb;background:#0d141c;color:#dfe5ea;font-size:12px;font-weight:700;letter-spacing:2px;transition:.25s}
-.gmail-button span{color:#3b8edb;font-size:18px;transition:.25s}
-.gmail-button:hover{background:#3b8edb;color:#080a0d}
-.gmail-button:hover span{color:#080a0d;transform:translateX(5px)}
-@media(max-width:700px){.contact-main{padding:55px 7%}.contact-box h1{font-size:46px}.contact-choices{grid-template-columns:1fr}.contact-choice{min-height:auto}}
+
+.contact-main {
+    min-height: calc(100vh - 78px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 7%;
+}
+
+.contact-box {
+    width: 100%;
+    max-width: 850px;
+}
+
+.contact-label {
+    color: #3b8edb;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-box h1 {
+    font-size: 64px;
+    line-height: .98;
+    letter-spacing: -3px;
+    margin-bottom: 25px;
+}
+
+.contact-description {
+    max-width: 650px;
+    color: #858f99;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 45px;
+}
+
+.contact-choice-title {
+    color: #68737d;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.contact-choice {
+    position: relative;
+    padding: 25px 22px;
+    min-height: 135px;
+    text-align: left;
+    border: 1px solid #252d36;
+    background: #0b0e12;
+    color: #dfe5ea;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.contact-choice:hover {
+    transform: translateY(-4px);
+    border-color: #3b8edb;
+    background: #0e141b;
+}
+
+.contact-choice.active {
+    border-color: #3b8edb;
+    background: #0e141b;
+    box-shadow: inset 3px 0 #3b8edb;
+}
+
+.contact-choice-check {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    color: #3b8edb;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.contact-choice.active .contact-choice-check {
+    opacity: 1;
+}
+
+.contact-choice-name {
+    display: block;
+    color: #3b8edb;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.contact-choice strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.contact-choice em {
+    display: block;
+    color: #68737d;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.contact-email-label {
+    color: #68737d;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.contact-email {
+    color: #dfe5ea;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.gmail-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    padding: 16px 22px;
+    border: 1px solid #3b8edb;
+    background: #0d141c;
+    color: #dfe5ea;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: .25s;
+}
+
+.gmail-button span {
+    color: #3b8edb;
+    font-size: 18px;
+    transition: .25s;
+}
+
+.gmail-button:hover {
+    background: #3b8edb;
+    color: #080a0d;
+}
+
+.gmail-button:hover span {
+    color: #080a0d;
+    transform: translateX(5px);
+}
+
+.gmail-note {
+    margin-top: 18px;
+    color: #68737d;
+    font-size: 11px;
+    line-height: 1.7;
+    max-width: 550px;
+}
+
+.gmail-note .greek {
+    margin-top: 7px;
+}
+
+@media (max-width: 700px) {
+
+    .contact-main {
+        padding: 55px 7%;
+    }
+
+    .contact-box h1 {
+        font-size: 46px;
+    }
+
+    .contact-choices {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-choice {
+        min-height: auto;
+    }
+
+}
+
 </style>
+
 </head>
 
+
 <body class="contact-page">
+
 
 <nav>
 
 <a href="index.html" class="logo">
-<div class="logo-three">3</div>
-<div class="logo-word">
-<span>POINT</span>
-<small>STUDIO ATH</small>
+
+<div class="logo-three">
+3
 </div>
+
+<div class="logo-word">
+
+<span>POINT</span>
+
+<small>
+STUDIO ATH
+</small>
+
+</div>
+
 </a>
 
-<a href="index.html" class="back-button">
-← BACK
+
+<a
+    href="index.html"
+    class="back-button">
+
+    ← BACK
+
 </a>
 
 </nav>
 
+
 <main class="contact-main">
 
+
 <div class="contact-box">
+
 
 <div class="contact-label">
 THREEPOINT STUDIO
 </div>
 
+
 <h1>
+
 Let's build<br>
 something.
+
 </h1>
 
-<p>
+
+<p class="contact-description">
+
 Have an idea for an app, website, digital tool
 or something completely different?
 Tell us about it and let's see where it goes.
+
 </p>
 
+
 <div class="contact-choice-title">
+
 WHAT ARE YOU LOOKING TO BUILD?
+
 </div>
+
 
 <div class="contact-choices">
 
-<button class="contact-choice active" data-project="Website" type="button">
-<span class="contact-choice-check">✓</span>
-<span class="contact-choice-name">WEB</span>
-<strong>Website</strong>
-<em>Modern digital websites</em>
+
+<button
+    class="contact-choice active"
+    data-project="Website"
+    type="button">
+
+    <span class="contact-choice-check">
+        ✓
+    </span>
+
+    <span class="contact-choice-name">
+        WEB
+    </span>
+
+    
+
+    <em>
+        Modern digital websites
+    </em>
+
 </button>
 
-<button class="contact-choice" data-project="App" type="button">
-<span class="contact-choice-check">✓</span>
-<span class="contact-choice-name">APP</span>
-<strong>Apps</strong>
-<em>Web &amp; mobile applications</em>
+
+<button
+    class="contact-choice"
+    data-project="App"
+    type="button">
+
+    <span class="contact-choice-check">
+        ✓
+    </span>
+
+    <span class="contact-choice-name">
+        APP
+    </span>
+
+    
+
+    <em>
+        Web &amp; mobile applications
+    </em>
+
 </button>
 
-<button class="contact-choice" data-project="3D Models" type="button">
-<span class="contact-choice-check">✓</span>
-<span class="contact-choice-name">3D</span>
-<strong>3D Models</strong>
-<em>3D &amp; creative projects</em>
+
+<button
+    class="contact-choice"
+    data-project="3D Models"
+    type="button">
+
+    <span class="contact-choice-check">
+        ✓
+    </span>
+
+    <span class="contact-choice-name">
+        3D
+    </span>
+
+    
+
+    <em>
+        3D &amp; creative projects
+    </em>
+
 </button>
+
 
 </div>
+
 
 <div class="contact-email-label">
 EMAIL
 </div>
 
+
 <div class="contact-email">
 threepointstudioath@gmail.com
 </div>
 
+
 <a
-href="#"
-id="gmailButton"
-class="gmail-button">
+    href="#"
+    id="gmailButton"
+    class="gmail-button">
 
-OPEN GMAIL
+    OPEN GMAIL
 
-<span>→</span>
+    <span>
+        →
+    </span>
 
 </a>
+
+
+<div class="gmail-note">
+
+    <div>
+        Gmail will open with your selected project.
+    </div>
+
+    <div>
+        Click on the email address to check who you're sending from.
+    </div>
+
+    <div class="greek">
+        Το Gmail θα ανοίξει με το project που επέλεξες.
+    </div>
+
+    <div>
+        Πάτησε πάνω στη διεύθυνση email για να ελέγξεις από ποιο email στέλνεις.
+    </div>
+
+</div>
+
 
 </div>
 
 </main>
 
+
 <footer>
+
 
 <div class="footer-main">
 
 <div>
+
 © 2026
-<strong>THREEPOINTSTUDIOATH</strong>
+
+<strong>
+THREEPOINT STUDIOATH
+</strong>
+
 ALL RIGHTS RESERVED
+
 </div>
+
 
 <div>
 Made with ideas.
@@ -137,50 +421,71 @@ Made with ideas.
 
 </div>
 
+
 </footer>
+
 
 <script>
 
-const choices = document.querySelectorAll(".contact-choice");
-const gmailButton = document.getElementById("gmailButton");
+const choices =
+document.querySelectorAll(".contact-choice");
+
+const gmailButton =
+document.getElementById("gmailButton");
 
 let selectedProject = "Website";
 
-choices.forEach(function(choice){
 
-choice.addEventListener("click",function(){
+choices.forEach(function(choice) {
 
-choices.forEach(function(item){
-item.classList.remove("active");
+    choice.addEventListener("click", function() {
+
+        choices.forEach(function(item) {
+
+            item.classList.remove("active");
+
+        });
+
+        this.classList.add("active");
+
+        selectedProject =
+            this.dataset.project;
+
+    });
+
 });
 
-this.classList.add("active");
 
-selectedProject = this.dataset.project;
+gmailButton.addEventListener("click", function(event) {
 
-});
+    event.preventDefault();
 
-});
 
-gmailButton.addEventListener("click",function(event){
+    const subject =
+        encodeURIComponent(
+            "3POINT STUDIO - " +
+            selectedProject +
+            " Project"
+        );
 
-event.preventDefault();
 
-const subject = encodeURIComponent(
-"3POINT STUDIO - " + selectedProject + " Project"
-);
+    const gmailURL =
+        "https://mail.google.com/mail/u/0/?fs=1" +
+        "&to=threepointstudioath@gmail.com" +
+        "&su=" + subject +
+        "&tf=cm";
 
-const gmailURL =
-"https://mail.google.com/mail/u/0/?fs=1" +
-"&to=threepointstudioath@gmail.com" +
-"&su=" + subject +
-"&tf=cm";
 
-window.open(gmailURL,"_blank");
+    window.open(
+        gmailURL,
+        "_blank"
+    );
 
 });
 
 </script>
 
+
 </body>
+
 </html>
