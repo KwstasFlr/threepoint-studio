@@ -1,485 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — 3POINT STUDIO</title>
+<link rel="stylesheet" href="style.css">
 
-    <title>Contact — Threepoint Studio ATH</title>
-
-    <style>
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background: #080a0d;
-            color: #e9edf2;
-            font-family: Arial, Helvetica, sans-serif;
-            min-height: 100vh;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        .page {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        nav {
-            height: 78px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 7%;
-            border-bottom: 1px solid #171c22;
-            background: #080a0d;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 7px;
-            font-size: 25px;
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-
-        .logo-three {
-            position: relative;
-            width: 34px;
-            height: 34px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #e9edf2;
-            font-size: 20px;
-            font-weight: 800;
-        }
-
-        .logo-three::before {
-            content: "";
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            border: 1.5px solid #3b8edb;
-            border-right-color: transparent;
-            border-radius: 50%;
-            transform: rotate(-35deg);
-        }
-
-        .logo-three::after {
-            content: "";
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            border: 1px solid rgba(59, 142, 219, 0.25);
-            border-left-color: transparent;
-            border-radius: 50%;
-            transform: rotate(145deg);
-        }
-
-        .logo-word {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .logo-word small {
-            color: #3b8edb;
-            font-size: 8px;
-            font-style: italic;
-            font-weight: 900;
-            letter-spacing: 2px;
-            margin-left: 42px;
-            margin-top: -8px;
-            text-transform: uppercase;
-        }
-
-        .back {
-            color: #7f8992;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 3px;
-            transition: 0.25s;
-        }
-
-        .back:hover {
-            color: #3b8edb;
-        }
-
-        .contact {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 80px 7%;
-        }
-
-        .contact-container {
-            width: 100%;
-            max-width: 1050px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 25px;
-        }
-
-        .contact-info {
-            padding: 55px;
-            border: 1px solid #1b2128;
-            background: #0b0e12;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .contact-info::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100px;
-            height: 1px;
-            background: #3b8edb;
-        }
-
-        .label {
-            color: #3b8edb;
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 4px;
-        }
-
-        h1 {
-            margin-top: 18px;
-            font-size: 58px;
-            line-height: 0.98;
-            letter-spacing: -3px;
-        }
-
-        h1 span {
-            color: #3b8edb;
-        }
-
-        .description {
-            margin-top: 25px;
-            color: #7f8992;
-            font-size: 15px;
-            line-height: 1.8;
-            max-width: 480px;
-        }
-
-        .email-box {
-            margin-top: 40px;
-            padding: 20px;
-            border: 1px solid #252d36;
-            background: #080a0d;
-        }
-
-        .email-label {
-            color: #68737d;
-            font-size: 10px;
-            letter-spacing: 3px;
-            margin-bottom: 9px;
-        }
-
-        .email-address {
-            color: #dfe5ea;
-            font-size: 15px;
-            word-break: break-word;
-        }
-
-        .contact-action {
-            padding: 55px;
-            border: 1px solid #252d36;
-            background:
-                radial-gradient(
-                    circle at 85% 15%,
-                    rgba(59, 142, 219, 0.13),
-                    transparent 38%
-                ),
-                #0b0e12;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .contact-action::after {
-            content: "";
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            width: 100px;
-            height: 1px;
-            background: #3b8edb;
-        }
-
-        .action-number {
-            position: absolute;
-            right: 25px;
-            top: 20px;
-            color: #202a34;
-            font-size: 70px;
-            font-weight: 800;
-        }
-
-        .contact-action h2 {
-            font-size: 32px;
-            letter-spacing: -1px;
-            margin-bottom: 15px;
-        }
-
-        .contact-action p {
-            color: #7f8992;
-            font-size: 14px;
-            line-height: 1.7;
-            max-width: 390px;
-        }
-
-        .gmail-button {
-            margin-top: 30px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            padding: 18px 20px;
-            border: 1px solid #3b8edb;
-            background: #0d141c;
-            color: #e9edf2;
-            font-size: 13px;
-            font-weight: 700;
-            letter-spacing: 2px;
-            transition: 0.3s;
-        }
-
-        .gmail-button span {
-            color: #3b8edb;
-            font-size: 20px;
-            transition: 0.3s;
-        }
-
-        .gmail-button:hover {
-            background: #3b8edb;
-            color: #080a0d;
-        }
-
-        .gmail-button:hover span {
-            color: #080a0d;
-            transform: translateX(5px);
-        }
-
-        footer {
-            padding: 25px 7%;
-            border-top: 1px solid #171c22;
-            color: #5e6871;
-            font-size: 11px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        footer strong {
-            color: #dfe5ea;
-        }
-
-        @media (max-width: 750px) {
-
-            nav {
-                padding: 0 5%;
-            }
-
-            .contact {
-                padding: 50px 5%;
-            }
-
-            .contact-container {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-info,
-            .contact-action {
-                padding: 35px;
-            }
-
-            h1 {
-                font-size: 45px;
-            }
-
-            footer {
-                padding: 22px 5%;
-                flex-direction: column;
-                gap: 10px;
-            }
-        }
-
-        @media (max-width: 450px) {
-
-            .logo {
-                font-size: 21px;
-            }
-
-            .logo-three {
-                width: 30px;
-                height: 30px;
-            }
-
-            .logo-three::before,
-            .logo-three::after {
-                width: 28px;
-                height: 28px;
-            }
-
-            .logo-word small {
-                margin-left: 36px;
-            }
-
-            .back {
-                font-size: 10px;
-                letter-spacing: 2px;
-            }
-
-            .contact-info,
-            .contact-action {
-                padding: 28px;
-            }
-
-            h1 {
-                font-size: 40px;
-            }
-
-            .contact-action h2 {
-                font-size: 27px;
-            }
-        }
-
-    </style>
-
+<style>
+.contact-main{min-height:calc(100vh - 78px);display:flex;align-items:center;justify-content:center;padding:70px 7%}
+.contact-box{width:100%;max-width:850px}
+.contact-label{color:#3b8edb;font-size:11px;letter-spacing:4px;font-weight:700;margin-bottom:20px}
+.contact-box h1{font-size:64px;line-height:.98;letter-spacing:-3px;margin-bottom:25px}
+.contact-box p{max-width:650px;color:#858f99;font-size:16px;line-height:1.7;margin-bottom:45px}
+.contact-choice-title{color:#68737d;font-size:10px;letter-spacing:3px;font-weight:700;margin-bottom:15px}
+.contact-choices{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:45px}
+.contact-choice{position:relative;padding:25px 22px;min-height:135px;text-align:left;border:1px solid #252d36;background:#0b0e12;color:#dfe5ea;cursor:pointer;transition:.25s ease}
+.contact-choice:hover{transform:translateY(-4px);border-color:#3b8edb;background:#0e141b}
+.contact-choice.active{border-color:#3b8edb;background:#0e141b;box-shadow:inset 3px 0 0 #3b8edb}
+.contact-choice-check{position:absolute;top:15px;right:16px;color:#3b8edb;font-size:16px;opacity:0;transition:.2s}
+.contact-choice.active .contact-choice-check{opacity:1}
+.contact-choice-name{display:block;color:#3b8edb;font-size:12px;font-weight:700;letter-spacing:2px;margin-bottom:14px}
+.contact-choice strong{display:block;font-size:20px;margin-bottom:8px}
+.contact-choice em{display:block;color:#68737d;font-size:12px;font-style:normal;line-height:1.5}
+.contact-email-label{color:#68737d;font-size:10px;letter-spacing:3px;margin-bottom:12px}
+.contact-email{color:#dfe5ea;font-size:18px;margin-bottom:22px}
+.gmail-button{display:inline-flex;align-items:center;gap:25px;padding:16px 22px;border:1px solid #3b8edb;background:#0d141c;color:#dfe5ea;font-size:12px;font-weight:700;letter-spacing:2px;transition:.25s}
+.gmail-button span{color:#3b8edb;font-size:18px;transition:.25s}
+.gmail-button:hover{background:#3b8edb;color:#080a0d}
+.gmail-button:hover span{color:#080a0d;transform:translateX(5px)}
+@media(max-width:700px){.contact-main{padding:55px 7%}.contact-box h1{font-size:46px}.contact-choices{grid-template-columns:1fr}.contact-choice{min-height:auto}}
+</style>
 </head>
 
-<body>
+<body class="contact-page">
 
-    <div class="page">
+<nav>
 
-        <nav>
+<a href="index.html" class="logo">
+<div class="logo-three">3</div>
+<div class="logo-word">
+<span>POINT</span>
+<small>STUDIO ATH</small>
+</div>
+</a>
 
-            <a href="index.html" class="logo">
+<a href="index.html" class="back-button">
+← BACK
+</a>
 
-                <div class="logo-three">
-                    3
-                </div>
+</nav>
 
-                <div class="logo-word">
-                    POINT
-                    <small>STUDIO ATH</small>
-                </div>
+<main class="contact-main">
 
-            </a>
+<div class="contact-box">
 
-            <a href="index.html" class="back">
-                ← BACK
-            </a>
+<div class="contact-label">
+THREEPOINT STUDIO
+</div>
 
-        </nav>
+<h1>
+Let's build<br>
+something.
+</h1>
 
+<p>
+Have an idea for an app, website, digital tool
+or something completely different?
+Tell us about it and let's see where it goes.
+</p>
 
-        <main class="contact">
+<div class="contact-choice-title">
+WHAT ARE YOU LOOKING TO BUILD?
+</div>
 
-            <div class="contact-container">
+<div class="contact-choices">
 
-                <section class="contact-info">
+<button class="contact-choice active" data-project="Website" type="button">
+<span class="contact-choice-check">✓</span>
+<span class="contact-choice-name">WEB</span>
+<strong>Website</strong>
+<em>Modern digital websites</em>
+</button>
 
-                    <div class="label">
-                        THREEPOINT STUDIO
-                    </div>
+<button class="contact-choice" data-project="App" type="button">
+<span class="contact-choice-check">✓</span>
+<span class="contact-choice-name">APP</span>
+<strong>Apps</strong>
+<em>Web &amp; mobile applications</em>
+</button>
 
-                    <h1>
-                        Let's build<br>
-                        <span>something.</span>
-                    </h1>
+<button class="contact-choice" data-project="3D Models" type="button">
+<span class="contact-choice-check">✓</span>
+<span class="contact-choice-name">3D</span>
+<strong>3D Models</strong>
+<em>3D &amp; creative projects</em>
+</button>
 
-                    <p class="description">
-                        Have an idea for an app, website, digital
-                        tool or something completely different?
-                        Tell us about it and let's see where it goes.
-                    </p>
+</div>
 
-                    <div class="email-box">
+<div class="contact-email-label">
+EMAIL
+</div>
 
-                        <div class="email-label">
-                            EMAIL
-                        </div>
+<div class="contact-email">
+threepointstudioath@gmail.com
+</div>
 
-                        <div class="email-address">
-                            threepointstudioath@gmail.com
-                        </div>
+<a
+href="#"
+id="gmailButton"
+class="gmail-button">
 
-                    </div>
+OPEN GMAIL
 
-                </section>
+<span>→</span>
 
+</a>
 
-                <section class="contact-action">
+</div>
 
-                    <div class="action-number">
-                        @
-                    </div>
+</main>
 
-                    <div class="label">
-                        GET IN TOUCH
-                    </div>
+<footer>
 
-                    <h2>
-                        Start the conversation.
-                    </h2>
+<div class="footer-main">
 
-                    <p>
-                        Click below to open Gmail with our email
-                        address already prepared.
-                    </p>
+<div>
+© 2026
+<strong>THREEPOINTSTUDIOATH</strong>
+ALL RIGHTS RESERVED
+</div>
 
-                    <a
-                        href="https://mail.google.com/mail/u/0/?fs=1&to=threepointstudioath@gmail.com&tf=cm"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="gmail-button">
+<div>
+Made with ideas.
+</div>
 
-                        OPEN GMAIL
+</div>
 
-                        <span>→</span>
+</footer>
 
-                    </a>
+<script>
 
-                </section>
+const choices = document.querySelectorAll(".contact-choice");
+const gmailButton = document.getElementById("gmailButton");
 
-            </div>
+let selectedProject = "Website";
 
-        </main>
+choices.forEach(function(choice){
 
+choice.addEventListener("click",function(){
 
-        <footer>
+choices.forEach(function(item){
+item.classList.remove("active");
+});
 
-            <div>
-                © 2026 <strong>THREEPOINTSTUDIOATH</strong>
-            </div>
+this.classList.add("active");
 
-            <div>
-                Made with ideas.
-            </div>
+selectedProject = this.dataset.project;
 
-        </footer>
+});
 
-    </div>
+});
+
+gmailButton.addEventListener("click",function(event){
+
+event.preventDefault();
+
+const subject = encodeURIComponent(
+"3POINT STUDIO - " + selectedProject + " Project"
+);
+
+const gmailURL =
+"https://mail.google.com/mail/u/0/?fs=1" +
+"&to=threepointstudioath@gmail.com" +
+"&su=" + subject +
+"&tf=cm";
+
+window.open(gmailURL,"_blank");
+
+});
+
+</script>
 
 </body>
-
 </html>
