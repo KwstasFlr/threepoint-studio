@@ -7,1450 +7,614 @@
 
     <title>3POINT STUDIO ATH</title>
 
-    <style>
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background: #080a0d;
-            color: #e9edf2;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        /* =========================
-           NAVIGATION
-        ========================= */
-
-        nav {
-            height: 78px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 7%;
-            border-bottom: 1px solid #171c22;
-            background: #080a0d;
-            position: relative;
-            z-index: 100;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 25px;
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-
-        .logo-three {
-            position: relative;
-            width: 34px;
-            height: 34px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #e9edf2;
-            font-size: 20px;
-            font-weight: 800;
-        }
-
-        .logo-three::before {
-            content: "";
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            border: 1.5px solid #3b8edb;
-            border-right-color: transparent;
-            border-radius: 50%;
-            transform: rotate(-35deg);
-        }
-
-        .logo-three::after {
-            content: "";
-            position: absolute;
-            width: 32px;
-            height: 32px;
-            border: 1px solid rgba(59, 142, 219, 0.25);
-            border-left-color: transparent;
-            border-radius: 50%;
-            transform: rotate(145deg);
-        }
-
-        .logo-word {
-            color: #e9edf2;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        .logo-word span {
-            color: #e9edf2;
-        }
-
-        .logo-word small {
-            color: #3b8edb;
-            font-size: 8px;
-            font-style: italic;
-            font-weight: 900;
-            letter-spacing: 2px;
-            margin-left: 42px;
-            margin-top: -8px;
-            text-transform: uppercase;
-        }
-
-        /* =========================
-           MENU
-        ========================= */
-
-        .menu-button {
-            position: relative;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            border: none;
-            background: transparent;
-            color: #dfe5ea;
-            cursor: pointer;
-            padding: 10px 0 13px;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 4px;
-        }
-
-        .menu-button::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 0;
-            height: 1px;
-            background: #3b8edb;
-            transition: width 0.3s ease;
-        }
-
-        .menu-button:hover {
-            color: #3b8edb;
-        }
-
-        .menu-button:hover::after {
-            width: 100%;
-        }
-
-        .menu-lines {
-            width: 29px;
-            height: 17px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .menu-lines span {
-            display: block;
-            width: 100%;
-            height: 1.5px;
-            background: #3b8edb;
-            transition: 0.3s ease;
-        }
-
-        .menu-lines span:nth-child(2) {
-            width: 65%;
-            margin-left: auto;
-        }
-
-        .menu-button:hover .menu-lines span:nth-child(2) {
-            width: 100%;
-        }
-
-        /* =========================
-           MENU OVERLAY
-        ========================= */
-
-        .menu-overlay {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.58);
-            backdrop-filter: blur(5px);
-            opacity: 0;
-            visibility: hidden;
-            transition: 0.3s;
-            z-index: 200;
-        }
-
-        .menu-overlay.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .menu-panel {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 430px;
-            max-width: 90%;
-            height: 100%;
-            background: #0b0e12;
-            border-left: 1px solid #202831;
-            padding: 35px 40px;
-            transform: translateX(100%);
-            transition: 0.4s ease;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .menu-overlay.active .menu-panel {
-            transform: translateX(0);
-        }
-
-        .menu-top {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #1b2128;
-        }
-
-        .menu-label {
-            color: #3b8edb;
-            font-size: 11px;
-            letter-spacing: 4px;
-            font-weight: bold;
-        }
-
-        .close-button {
-            border: 1px solid #252d36;
-            background: transparent;
-            color: #7f8992;
-            font-size: 11px;
-            letter-spacing: 2px;
-            padding: 10px 14px;
-            cursor: pointer;
-            transition: 0.25s;
-        }
-
-        .close-button:hover {
-            color: #3b8edb;
-            border-color: #3b8edb;
-        }
-
-        .menu-links {
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .menu-link {
-            display: flex;
-            align-items: center;
-            padding: 20px 0;
-            border-bottom: 1px solid #171c22;
-            color: #dfe5ea;
-            font-size: 23px;
-            font-weight: 600;
-            transition: 0.25s;
-        }
-
-        .menu-arrow {
-            margin-left: auto;
-            color: #4c5863;
-            font-size: 21px;
-            transition: 0.25s;
-        }
-
-        .menu-link:hover {
-            padding-left: 8px;
-            color: #3b8edb;
-        }
-
-        .menu-link:hover .menu-arrow {
-            color: #3b8edb;
-            transform: translateX(5px);
-        }
-
-        .menu-founders {
-            margin-top: auto;
-            padding-top: 28px;
-            border-top: 1px solid #1b2128;
-        }
-
-        .menu-founders-label {
-            color: #68737d;
-            font-size: 10px;
-            letter-spacing: 3px;
-            margin-bottom: 14px;
-        }
-
-        .menu-founders-link {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 16px 18px;
-            border: 1px solid #252d36;
-            background: #080a0d;
-            color: #dfe5ea;
-            font-size: 15px;
-            font-weight: 600;
-            transition: 0.25s;
-        }
-
-        .menu-founders-link span {
-            color: #3b8edb;
-            font-size: 18px;
-            transition: 0.25s;
-        }
-
-        .menu-founders-link:hover {
-            border-color: #3b8edb;
-            background: #0d141c;
-        }
-
-        .menu-founders-link:hover span {
-            transform: translateX(5px);
-        }
-
-        /* =========================
-           HERO
-        ========================= */
-
-        .hero {
-            min-height: 620px;
-            padding: 80px 7%;
-            position: relative;
-            display: flex;
-            align-items: center;
-            overflow: hidden;
-        }
-
-        .hero-image {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 65%;
-            height: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            z-index: 0;
-            pointer-events: none;
-        }
-
-        .hero-image::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background:
-                linear-gradient(
-                    to right,
-                    #080a0d 0%,
-                    rgba(8, 10, 13, 0.88) 10%,
-                    rgba(8, 10, 13, 0.45) 35%,
-                    rgba(8, 10, 13, 0.08) 70%,
-                    rgba(8, 10, 13, 0) 100%
-                );
-            z-index: 2;
-        }
-
-        .hero-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            object-position: right center;
-            opacity: 1.35;
-            filter:
-                brightness(1.35)
-                contrast(1.12)
-                saturate(1.2)
-                drop-shadow(0 20px 50px rgba(0, 0, 0, 0.4));
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 5;
-            max-width: 700px;
-        }
-
-        .brand-intro {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            margin-bottom: 28px;
-        }
-
-        .brand-line {
-            width: 38px;
-            height: 1px;
-            background: #3b8edb;
-        }
-
-        .brand-name {
-            color: #8e99a4;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-        }
-
-        .brand-name span {
-            color: #3b8edb;
-        }
-
-        .hero h1 {
-            font-size: 76px;
-            line-height: 0.96;
-            margin-bottom: 28px;
-            letter-spacing: -4px;
-            font-weight: 800;
-            max-width: 720px;
-        }
-
-        .hero h1 span {
-            display: block;
-            color: #3b8edb;
-        }
-
-        .hero p {
-            max-width: 540px;
-            color: #929ba5;
-            font-size: 18px;
-            line-height: 1.7;
-        }
-
-        /* =========================
-           PROJECTS
-        ========================= */
-
-        .projects {
-            padding: 90px 7%;
-        }
-
-        .heading {
-            margin-bottom: 45px;
-        }
-
-        .heading small {
-            color: #3b8edb;
-            font-size: 12px;
-            letter-spacing: 2px;
-        }
-
-        .heading h2 {
-            font-size: 42px;
-            margin-top: 10px;
-        }
-
-        .heading p {
-            color: #7f8992;
-            margin-top: 12px;
-        }
-
-        .project {
-            display: grid;
-            grid-template-columns: 70px 1fr 180px;
-            align-items: center;
-            gap: 25px;
-            padding: 27px 0;
-            border-top: 1px solid #1b2128;
-            transition: 0.2s;
-        }
-
-        .project:last-child {
-            border-bottom: 1px solid #1b2128;
-        }
-
-        .project-number {
-            color: #3b8edb;
-            font-size: 14px;
-        }
-
-        .project h3 {
-            font-size: 22px;
-            margin-bottom: 7px;
-            transition: 0.2s;
-        }
-
-        .project p {
-            color: #7e8892;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-
-        .project-type {
-            color: #68737d;
-            font-size: 12px;
-            text-align: right;
-        }
-
-        .project:hover h3 {
-            color: #3b8edb;
-        }
-
-        /* =========================
-           ABOUT
-        ========================= */
-
-        .about {
-            padding: 90px 7%;
-            background: #0b0e12;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-        }
-
-        .about h2 {
-            font-size: 42px;
-            margin-top: 10px;
-        }
-
-        .about p {
-            color: #858f99;
-            line-height: 1.8;
-            margin-top: 20px;
-            max-width: 550px;
-        }
-
-        .founders-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            margin-top: 30px;
-            padding: 13px 20px;
-            border: 1px solid #26313c;
-            background: #080a0d;
-            color: #dfe5ea;
-            font-size: 13px;
-            font-weight: 600;
-            transition: 0.25s;
-        }
-
-        .founders-link span {
-            color: #3b8edb;
-            font-size: 17px;
-            transition: 0.25s;
-        }
-
-        .founders-link:hover {
-            border-color: #3b8edb;
-            background: #0d141c;
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        .founders-link:hover span {
-            transform: translateX(4px);
-        }
-
-        .about-right {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-        }
-
-        /* =========================
-           3 + INFINITY
-        ========================= */
-
-        .numbers {
-            position: relative;
-            display: flex;
-            width: 100%;
-            max-width: 420px;
-            padding: 2px;
-            background: linear-gradient(
-                135deg,
-                #10161d,
-                #090c10
-            );
-            overflow: hidden;
-            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
-        }
-
-        .numbers::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 80px;
-            height: 1px;
-            background: #3b8edb;
-        }
-
-        .numbers::after {
-            content: "";
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            width: 80px;
-            height: 1px;
-            background: #3b8edb;
-        }
-
-        .number {
-            position: relative;
-            flex: 1;
-            padding: 27px 30px;
-            text-align: center;
-            border: 1px solid #252d36;
-            background: rgba(8, 10, 13, 0.35);
-        }
-
-        .number:first-child {
-            border-right: none;
-        }
-
-        .number strong {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 58px;
-            height: 58px;
-            margin: 0 auto 10px;
-            color: #3b8edb;
-            font-size: 31px;
-            line-height: 1;
-            font-weight: 700;
-        }
-
-        .number strong.infinity {
-            font-size: 34px;
-            font-weight: 700;
-        }
-
-        .number span {
-            color: #7c8791;
-            font-size: 11px;
-            font-weight: 600;
-            letter-spacing: 2px;
-        }
-
-        /* =========================
-           SOCIAL
-        ========================= */
-
-        .social-title {
-            position: relative;
-            margin-top: 55px;
-            margin-bottom: 25px;
-            padding-top: 16px;
-            color: #dfe5ea;
-            font-size: 15px;
-            letter-spacing: 3px;
-            font-weight: 700;
-        }
-
-        .social-title::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 45px;
-            height: 2px;
-            background: #3b8edb;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 18px;
-            align-items: center;
-        }
-
-        .social-link {
-            min-width: 165px;
-            padding: 15px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid #252d36;
-            background: #080a0d;
-            font-size: 15px;
-            font-weight: 700;
-            transition: 0.25s;
-        }
-
-        .instagram-link {
-            color: #e1306c;
-        }
-
-        .instagram-link:hover {
-            color: #ff6b9d;
-            border-color: #e1306c;
-            background: rgba(225, 48, 108, 0.08);
-            transform: translateY(-4px);
-        }
-
-        .tiktok-link {
-            color: #ffffff;
-        }
-
-        .tiktok-link:hover {
-            color: #25f4ee;
-            border-color: #25f4ee;
-            background: rgba(37, 244, 238, 0.06);
-            transform: translateY(-4px);
-        }
-
-        /* =========================
-           FOOTER
-        ========================= */
-
-        footer {
-            padding: 40px 7% 30px;
-            border-top: 1px solid #171c22;
-            background: #080a0d;
-            color: #5e6871;
-            font-size: 12px;
-        }
-
-        .footer-main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .footer-main strong {
-            color: #dfe5ea;
-        }
-
-        .footer-policies {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 0;
-            margin-top: 22px;
-            padding-top: 20px;
-            border-top: 1px solid #171c22;
-        }
-
-        .footer-policies a {
-            color: #68737d;
-            padding: 0 16px;
-            border-right: 1px solid #252d36;
-            transition: 0.25s;
-        }
-
-        .footer-policies a:first-child {
-            padding-left: 0;
-        }
-
-        .footer-policies a:last-child {
-            border-right: none;
-            padding-right: 0;
-        }
-
-        .footer-policies a:hover {
-            color: #3b8edb;
-        }
-
-        /* =========================
-           RESPONSIVE
-        ========================= */
-
-        @media (max-width: 800px) {
-
-            nav {
-                padding: 0 5%;
-            }
-
-            .menu-panel {
-                width: 100%;
-                max-width: 100%;
-                padding: 30px 25px;
-            }
-
-            .hero {
-                min-height: 650px;
-                padding: 60px 7%;
-                align-items: center;
-            }
-
-            .hero h1 {
-                font-size: 52px;
-                letter-spacing: -2px;
-            }
-
-            .hero p {
-                font-size: 16px;
-            }
-
-            .brand-name {
-                font-size: 10px;
-                letter-spacing: 3px;
-            }
-
-            .hero-image {
-                width: 100%;
-                height: 100%;
-            }
-
-            .hero-image img {
-                object-fit: contain;
-                object-position: right center;
-                opacity: 0.50;
-            }
-
-            .hero-image::after {
-                background:
-                    linear-gradient(
-                        to right,
-                        #080a0d 0%,
-                        rgba(8, 10, 13, 0.75) 45%,
-                        rgba(8, 10, 13, 0.10) 100%
-                    );
-            }
-
-            .project {
-                grid-template-columns: 40px 1fr;
-            }
-
-            .project-type {
-                display: none;
-            }
-
-            .about {
-                grid-template-columns: 1fr;
-                gap: 50px;
-            }
-
-            .numbers {
-                max-width: 100%;
-            }
-
-            .social-links {
-                gap: 12px;
-                width: 100%;
-            }
-
-            .social-link {
-                min-width: 0;
-                flex: 1;
-                padding: 14px 12px;
-            }
-
-            .footer-main {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .footer-policies {
-                justify-content: flex-start;
-                gap: 12px 0;
-            }
-        }
-
-        @media (max-width: 500px) {
-
-            .social-links {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .social-link {
-                width: 100%;
-            }
-
-            .logo {
-                font-size: 22px;
-            }
-
-            .logo-three {
-                width: 31px;
-                height: 31px;
-            }
-
-            .logo-three::before,
-            .logo-three::after {
-                width: 29px;
-                height: 29px;
-            }
-
-            .logo-word small {
-                font-size: 8px;
-                letter-spacing: 1.8px;
-                margin-top: -8px;
-            }
-
-            .number {
-                padding: 23px 15px;
-            }
-
-            .number strong {
-                width: 52px;
-                height: 52px;
-                font-size: 29px;
-            }
-
-            .number strong.infinity {
-                font-size: 31px;
-            }
-
-            .footer-policies {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .footer-policies a {
-                padding: 4px 0;
-                border-right: none;
-            }
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
+<nav>
 
-    <nav>
+    <div class="logo">
 
-        <div class="logo">
+        <div class="logo-three">
+            3
+        </div>
 
-            <div class="logo-three">
-                3
+        <div class="logo-word">
+            <span>POINT</span>
+            <small>STUDIO ATH</small>
+        </div>
+
+    </div>
+
+    <button
+        class="menu-button"
+        id="menuButton"
+        type="button">
+
+        <span>MENU</span>
+
+        <div class="menu-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </button>
+
+</nav>
+
+
+<div class="menu-overlay" id="menuOverlay">
+
+    <div class="menu-panel">
+
+        <div class="menu-top">
+
+            <div class="menu-label">
+                THREE POINT STUDIO
             </div>
 
-            <div class="logo-word">
+            <button
+                class="close-button"
+                id="closeButton"
+                type="button">
 
-                <span>
-                    POINT
-                </span>
+                CLOSE
 
-                <small>
-                    STUDIO ATH
-                </small>
+            </button>
 
+        </div>
+
+
+        <div class="menu-links">
+
+            <a href="#projects" class="menu-link">
+                Projects
+                <span class="menu-arrow">→</span>
+            </a>
+
+            <a href="#about" class="menu-link">
+                About Us
+                <span class="menu-arrow">→</span>
+            </a>
+
+            <a href="contact.html" class="menu-link">
+                Contact Us
+                <span class="menu-arrow">→</span>
+            </a>
+
+        </div>
+
+
+        <div class="menu-founders">
+
+            <div class="menu-founders-label">
+                THE PEOPLE BEHIND 3POINT
+            </div>
+
+            <a
+                href="founders.html"
+                class="menu-founders-link">
+
+                Meet the Co-Founders
+
+                <span>→</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<section class="hero">
+
+    <div class="hero-image">
+
+        <img
+            src="logo.jpg"
+            alt="3POINT Studio">
+
+    </div>
+
+
+    <div class="hero-content">
+
+        <div class="brand-intro">
+
+            <div class="brand-line"></div>
+
+            <div class="brand-name">
+                THREE POINT <span>STUDIO</span>
             </div>
 
         </div>
 
-        <button
-            class="menu-button"
-            onclick="openMenu()">
 
-            <span>
-                MENU
-            </span>
-
-            <div class="menu-lines">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-        </button>
-
-    </nav>
+        <h1>
+            Where Ideas
+            <span>Become Real.</span>
+        </h1>
 
 
-    <!-- MENU -->
+        <p>
+            We build apps, websites and small digital
+            projects that start as an idea and turn into
+            something people can actually use.
+        </p>
 
-    <div
-        class="menu-overlay"
-        id="menuOverlay">
+    </div>
 
-        <div class="menu-panel">
+</section>
 
-            <div class="menu-top">
 
-                <div class="menu-label">
-                    THREE POINT STUDIO
+<section class="what-we-build">
+
+    <div class="build-heading">
+
+        <small>WHAT WE BUILD</small>
+
+        <h2>
+            Ideas take different forms.
+        </h2>
+
+        <p>
+            From simple tools to complete digital experiences,
+            we build things people can actually use.
+        </p>
+
+    </div>
+
+
+    <div class="build-grid">
+
+        <div class="build-item">
+            <span>APP</span>
+            <h3>Apps</h3>
+            <p>
+                Practical applications designed
+                around real ideas and everyday use.
+            </p>
+        </div>
+
+
+        <div class="build-item">
+            <span>WEB</span>
+            <h3>Websites</h3>
+            <p>
+                Modern websites built to look good,
+                work smoothly and communicate clearly.
+            </p>
+        </div>
+
+
+        <div class="build-item">
+            <span>TOOLS</span>
+            <h3>Digital Tools</h3>
+            <p>
+                Small tools and web experiences
+                that solve specific problems.
+            </p>
+        </div>
+
+
+        <div class="build-item">
+            <span>CREATIVE</span>
+            <h3>Creative Projects</h3>
+            <p>
+                Experimental ideas combining
+                technology, design and creativity.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="idea-section">
+
+    <div class="idea-header">
+
+        <small>START WITH AN IDEA</small>
+
+        <h2>
+            What do you want<br>
+            to build?
+        </h2>
+
+        <p>
+            Choose an option and see how your idea could take shape.
+        </p>
+
+    </div>
+
+
+    <div class="idea-interface">
+
+        <div class="idea-options">
+
+            <button
+                class="idea-option active"
+                data-type="app"
+                type="button">
+
+                <span>APP</span>
+
+                <strong>Apps</strong>
+
+                <em>
+                    Mobile &amp; web applications
+                </em>
+
+            </button>
+
+
+            <button
+                class="idea-option"
+                data-type="website"
+                type="button">
+
+                <span>WEB</span>
+
+                <strong>Websites</strong>
+
+                <em>
+                    Modern digital websites
+                </em>
+
+            </button>
+
+
+            <button
+                class="idea-option"
+                data-type="tool"
+                type="button">
+
+                <span>TOOLS</span>
+
+                <strong>Digital Tools</strong>
+
+                <em>
+                    Useful tools &amp; experiences
+                </em>
+
+            </button>
+
+
+            <button
+                class="idea-option"
+                data-type="creative"
+                type="button">
+
+                <span>CREATIVE</span>
+
+                <strong>Creative Projects</strong>
+
+                <em>
+                    Something completely different
+                </em>
+
+            </button>
+
+        </div>
+
+
+        <div class="idea-preview">
+
+            <div class="preview-content">
+
+                <div class="preview-label">
+                    SELECTED PROJECT
                 </div>
 
-                <button
-                    class="close-button"
-                    onclick="closeMenu()">
+                <h3 id="ideaTitle">
+                    Build an App.
+                </h3>
 
-                    CLOSE
+                <p id="ideaText">
+                    From a simple concept to a working application,
+                    we turn ideas into something people can actually use.
+                </p>
 
-                </button>
 
-            </div>
+                <div
+                    class="preview-tags"
+                    id="ideaTags">
 
-            <div class="menu-links">
+                    <span>UX / UI</span>
+                    <span>DEVELOPMENT</span>
+                    <span>WEB / MOBILE</span>
 
-                <a
-                    href="#projects"
-                    class="menu-link"
-                    onclick="closeMenu()">
-
-                    Projects
-
-                    <span class="menu-arrow">
-                        →
-                    </span>
-
-                </a>
-
-                <a
-                    href="#about"
-                    class="menu-link"
-                    onclick="closeMenu()">
-
-                    About Us
-
-                    <span class="menu-arrow">
-                        →
-                    </span>
-
-                </a>
-
-                <a
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=threepointstudioath@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="menu-link">
-
-                    Contact Us
-
-                    <span class="menu-arrow">
-                        →
-                    </span>
-
-                </a>
-
-            </div>
-
-            <div class="menu-founders">
-
-                <div class="menu-founders-label">
-                    THE PEOPLE BEHIND 3POINT
                 </div>
 
-                <a
-                    href="founders.html"
-                    class="menu-founders-link">
+            </div>
 
-                    Co-Founders
 
-                    <span>
-                        →
-                    </span>
-
-                </a>
-
+            <div class="preview-arrow">
+                →
             </div>
 
         </div>
 
     </div>
 
+</section>
 
-    <!-- HERO -->
 
-    <section class="hero">
+<section
+    class="projects"
+    id="projects">
 
-        <div class="hero-image">
+    <div class="heading">
 
-            <img
-                src="logo.jpg"
-                alt="3POINT Studio">
+        <small>OUR PROJECTS</small>
 
-        </div>
+        <h2>
+            Things we're working on.
+        </h2>
 
-        <div class="hero-content">
+        <p>
+            A few ideas we've turned into actual projects.
+        </p>
 
-            <div class="brand-intro">
+    </div>
 
-                <div class="brand-line"></div>
 
-                <div class="brand-name">
-                    THREE POINT <span>STUDIO</span>
-                </div>
+    <div class="project">
 
-            </div>
-
-            <h1>
-                Where Ideas
-                <span>Become Real.</span>
-            </h1>
+        <div>
+            <h3>Interactive Quizzes</h3>
 
             <p>
-                We build apps, websites and small digital
-                projects that start as an idea and turn into
-                something people can actually use.
+                Fun and engaging quizzes across sports,
+                movies, series and more.
             </p>
-
         </div>
 
-    </section>
+        <div class="project-type">
+            APP
+        </div>
+
+    </div>
 
 
-    <!-- PROJECTS -->
+    <div class="project">
 
-    <section
-        class="projects"
-        id="projects">
+        <div>
+            <h3>Movie &amp; Series Tracker</h3>
+
+            <p>
+                Keep track of movies and series you've
+                watched or want to watch.
+            </p>
+        </div>
+
+        <div class="project-type">
+            WEB APP
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div>
+            <h3>Productivity Apps</h3>
+
+            <p>
+                Simple apps for tracking workouts,
+                budgets, tasks and everyday activities.
+            </p>
+        </div>
+
+        <div class="project-type">
+            WEB APP
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div>
+            <h3>Business Websites</h3>
+
+            <p>
+                Modern websites for restaurants, cafés,
+                fast-food spots, local businesses and
+                retail stores.
+            </p>
+        </div>
+
+        <div class="project-type">
+            WEBSITE
+        </div>
+
+    </div>
+
+
+    <div class="project">
+
+        <div>
+            <h3>More Ideas</h3>
+
+            <p>
+                New projects and ideas currently
+                in development.
+            </p>
+        </div>
+
+        <div class="project-type">
+            IN PROGRESS
+        </div>
+
+    </div>
+
+</section>
+
+
+<section
+    class="about"
+    id="about">
+
+    <div>
 
         <div class="heading">
 
-            <small>
-                OUR PROJECTS
-            </small>
+            <small>ABOUT US</small>
 
             <h2>
-                Things we're working on.
+                Small team.<br>
+                Endless ideas.
             </h2>
 
-            <p>
-                A few ideas we've turned into actual projects.
-            </p>
-
         </div>
 
-        <div class="project">
 
-            <div class="project-number">
-                01
-            </div>
+        <p>
+            THREEPOINT STUDIO is a small digital studio
+            based in Athens, Greece, with experience in
+            websites, apps, 3D modeling and graphic design.
+        </p>
 
-            <div>
 
-                <h3>
-                    Interactive Quizzes
-                </h3>
+        <p>
+            We turn ideas into digital experiences,
+            combining creativity, technology and a
+            hands-on approach to every project.
+        </p>
 
-                <p>
-                    Fun and engaging quizzes across sports,
-                    movies, series and more.
-                </p>
 
-            </div>
+        <p>
+            Some projects are useful. Some are just for fun.
+            Most start with a simple question:
+        </p>
 
-            <div class="project-type">
-                APP
-            </div>
 
-        </div>
+        <p>
+            <span style="color:#3b8edb;">
+                “What if we made this?”
+            </span>
+        </p>
 
-        <div class="project">
 
-            <div class="project-number">
-                02
-            </div>
+        <a
+            href="founders.html"
+            class="founders-link">
 
-            <div>
+            Meet the Co-Founders
 
-                <h3>
-                    Movie &amp; Series Tracker
-                </h3>
+            <span>→</span>
 
-                <p>
-                    Keep track of movies and series you've
-                    watched or want to watch.
-                </p>
+        </a>
 
-            </div>
+    </div>
 
-            <div class="project-type">
-                WEB APP
-            </div>
 
-        </div>
+    <div class="about-right">
 
-        <div class="project">
+        <div class="numbers">
 
-            <div class="project-number">
-                03
-            </div>
+            <div class="number">
 
-            <div>
+                <strong>3</strong>
 
-                <h3>
-                    Productivity Apps
-                </h3>
-
-                <p>
-                    Simple apps for tracking workouts,
-                    budgets, tasks and everyday activities.
-                </p>
+                <span>POINT</span>
 
             </div>
 
-            <div class="project-type">
-                WEB APP
+
+            <div class="number">
+
+                <strong class="infinity">∞</strong>
+
+                <span>IDEAS</span>
+
             </div>
 
         </div>
 
-        <div class="project">
 
-            <div class="project-number">
-                04
-            </div>
-
-            <div>
-
-                <h3>
-                    Business Websites
-                </h3>
-
-                <p>
-                    Modern websites for restaurants, cafés,
-                    fast-food spots, local businesses and
-                    retail stores.
-                </p>
-
-            </div>
-
-            <div class="project-type">
-                WEBSITE
-            </div>
-
+        <div class="social-title">
+            FOLLOW US ON SOCIAL MEDIA
         </div>
 
-        <div class="project">
 
-            <div class="project-number">
-                05
-            </div>
-
-            <div>
-
-                <h3>
-                    More Ideas
-                </h3>
-
-                <p>
-                    New projects and ideas currently
-                    in development.
-                </p>
-
-            </div>
-
-            <div class="project-type">
-                IN PROGRESS
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ABOUT -->
-
-    <section
-        class="about"
-        id="about">
-
-        <div>
-
-            <div class="heading">
-
-                <small>
-                    ABOUT US
-                </small>
-
-                <h2>
-                    Small team.<br>
-                    Endless ideas.
-                </h2>
-
-            </div>
-
-            <p>
-                THREEPOINT STUDIO is a small digital studio
-                based in Athens, Greece, with 8+ years of
-                experience in websites, apps, 3D modeling
-                and graphic design.
-            </p>
-
-            <p>
-                We turn ideas into digital experiences,
-                combining creativity, technology and a
-                hands-on approach to every project.
-            </p>
-
-            <p>
-                Some projects are useful. Some are just for fun.
-                Most start with a simple question:
-            </p>
-
-            <p>
-                <span style="color:#3b8edb;">
-                    “What if we made this?”
-                </span>
-            </p>
+        <div class="social-links">
 
             <a
-                href="founders.html"
-                class="founders-link">
+                class="social-link instagram-link"
+                href="https://www.instagram.com/threepointstudioath/"
+                target="_blank"
+                rel="noopener noreferrer">
 
-                Meet the Co-Founders
+                Instagram
 
-                <span>
-                    →
-                </span>
+            </a>
+
+
+            <a
+                class="social-link tiktok-link"
+                href="https://www.tiktok.com/@threepoint.studio"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                TikTok
 
             </a>
 
         </div>
 
+    </div>
 
-        <div class="about-right">
-
-            <div class="numbers">
-
-                <div class="number">
-
-                    <strong>
-                        3
-                    </strong>
-
-                    <span>
-                        POINT
-                    </span>
-
-                </div>
-
-                <div class="number">
-
-                    <strong class="infinity">
-                        ∞
-                    </strong>
-
-                    <span>
-                        IDEAS
-                    </span>
-
-                </div>
-
-            </div>
+</section>
 
 
-            <div class="social-title">
-                FOLLOW US ON SOCIAL MEDIA
-            </div>
+<footer>
 
+    <div class="footer-main">
 
-            <div class="social-links">
-
-                <a
-                    class="social-link instagram-link"
-                    href="https://www.instagram.com/threepointstudioath/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    Instagram
-
-                </a>
-
-                <a
-                    class="social-link tiktok-link"
-                    href="https://www.tiktok.com/@threepoint.studio"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    TikTok
-
-                </a>
-
-            </div>
-
+        <div>
+            © 2026
+            <strong>THREEPOINTSTUDIOATH</strong>
+            ALL RIGHTS RESERVED
         </div>
 
-    </section>
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <div class="footer-main">
-
-            <div>
-                © 2026 <strong>THREEPOINT STUDIO ATH</strong> 
-                ALL RIGHTS RESERVED
-            </div>
-
-            <div>
-                Made with ideas.
-            </div>
-
+        <div>
+            Made with ideas.
         </div>
 
-
-        <div class="footer-policies">
-
-            <a href="privacy-policy.html">
-                Privacy Policy
-            </a>
-
-            <a href="terms.html">
-                Terms &amp; Conditions
-            </a>
-
-            <a href="quality-policy.html">
-                Quality Policy
-            </a>
-
-            <a href="cookie-policy.html">
-                Cookie Policy
-            </a>
-
-        </div>
-
-    </footer>
+    </div>
 
 
-    <!-- JAVASCRIPT -->
+    <div class="footer-policies">
 
-    <script>
+        <a href="privacy-policy.html">
+            Privacy Policy
+        </a>
 
-        function openMenu() {
+        <a href="terms.html">
+            Terms &amp; Conditions
+        </a>
 
-            document
-                .getElementById("menuOverlay")
-                .classList
-                .add("active");
+        <a href="quality-policy.html">
+            Quality Policy
+        </a>
 
-            document.body.style.overflow = "hidden";
+        <a href="cookie-policy.html">
+            Cookie Policy
+        </a>
 
-        }
+    </div>
 
-
-        function closeMenu() {
-
-            document
-                .getElementById("menuOverlay")
-                .classList
-                .remove("active");
-
-            document.body.style.overflow = "";
-
-        }
+</footer>
 
 
-        document
-            .getElementById("menuOverlay")
-            .addEventListener(
-                "click",
-                function(event) {
-
-                    if (event.target === this) {
-                        closeMenu();
-                    }
-
-                }
-            );
-
-    </script>
+<script src="script.js"></script>
 
 </body>
 
