@@ -14,7 +14,7 @@
 
 <nav>
 
-    <div class="logo">
+    <a href="index.html" class="logo">
 
         <div class="logo-three">
             3
@@ -25,22 +25,46 @@
             <small>STUDIO ATH</small>
         </div>
 
-    </div>
+    </a>
 
-    <button
-        class="menu-button"
-        id="menuButton"
-        type="button">
 
-        <span>MENU</span>
+    <div class="nav-right">
 
-        <div class="menu-lines">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="language-switcher">
+
+            <button
+                id="grBtn"
+                class="language-button"
+                type="button">
+                ΕΛ
+            </button>
+
+            <button
+                id="enBtn"
+                class="language-button"
+                type="button">
+                ENG
+            </button>
+
         </div>
 
-    </button>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            type="button">
+
+            <span>MENU</span>
+
+            <div class="menu-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </button>
+
+    </div>
 
 </nav>
 
@@ -60,7 +84,11 @@
                 id="closeButton"
                 type="button">
 
-                CLOSE
+                <span
+                    data-en="CLOSE"
+                    data-el="ΚΛΕΙΣΙΜΟ">
+                    CLOSE
+                </span>
 
             </button>
 
@@ -70,18 +98,41 @@
         <div class="menu-links">
 
             <a href="#projects" class="menu-link">
-                Projects
+
+                <span
+                    data-en="Projects"
+                    data-el="Projects">
+                    Projects
+                </span>
+
                 <span class="menu-arrow">→</span>
+
             </a>
+
 
             <a href="#about" class="menu-link">
-                About Us
+
+                <span
+                    data-en="About Us"
+                    data-el="Σχετικά με εμάς">
+                    About Us
+                </span>
+
                 <span class="menu-arrow">→</span>
+
             </a>
 
+
             <a href="contact.html" class="menu-link">
-                Contact Us
+
+                <span
+                    data-en="Contact Us"
+                    data-el="Επικοινωνία">
+                    Contact Us
+                </span>
+
                 <span class="menu-arrow">→</span>
+
             </a>
 
         </div>
@@ -90,14 +141,29 @@
         <div class="menu-founders">
 
             <div class="menu-founders-label">
-                THE PEOPLE BEHIND 3POINT
+
+                <span
+                    data-en="THE PEOPLE BEHIND 3POINT"
+                    data-el="ΟΙ ΑΝΘΡΩΠΟΙ ΠΙΣΩ ΑΠΟ ΤΟ 3POINT">
+
+                    THE PEOPLE BEHIND 3POINT
+
+                </span>
+
             </div>
+
 
             <a
                 href="founders.html"
                 class="menu-founders-link">
 
-                Meet the Co-Founders
+                <span
+                    data-en="Meet the Co-Founders"
+                    data-el="Γνωρίστε τους Συνιδρυτές">
+
+                    Meet the Co-Founders
+
+                </span>
 
                 <span>→</span>
 
@@ -135,15 +201,34 @@
 
 
         <h1>
-            Where Ideas
-            <span>Become Real.</span>
+
+            <span
+                data-en="Where Ideas"
+                data-el="Εκεί όπου οι ιδέες">
+
+                Where Ideas
+
+            </span>
+
+            <span
+                data-en="Become Real."
+                data-el="γίνονται πραγματικότητα.">
+
+                Become Real.
+
+            </span>
+
         </h1>
 
 
-        <p>
+        <p
+            data-en="We build apps, websites and small digital projects that start as an idea and turn into something people can actually use."
+            data-el="Δημιουργούμε apps, websites και μικρά digital projects που ξεκινούν ως μια ιδέα και γίνονται κάτι που οι άνθρωποι μπορούν πραγματικά να χρησιμοποιήσουν.">
+
             We build apps, websites and small digital
             projects that start as an idea and turn into
             something people can actually use.
+
         </p>
 
     </div>
@@ -155,15 +240,29 @@
 
     <div class="build-heading">
 
-        <small>WHAT WE BUILD</small>
+        <small
+            data-en="WHAT WE BUILD"
+            data-el="ΤΙ ΔΗΜΙΟΥΡΓΟΥΜΕ">
+            WHAT WE BUILD
+        </small>
 
-        <h2>
+
+        <h2
+            data-en="Ideas take different forms."
+            data-el="Οι ιδέες παίρνουν διαφορετικές μορφές.">
+
             Ideas take different forms.
+
         </h2>
 
-        <p>
+
+        <p
+            data-en="From simple tools to complete digital experiences, we build things people can actually use."
+            data-el="Από απλά εργαλεία μέχρι ολοκληρωμένες ψηφιακές εμπειρίες, δημιουργούμε πράγματα που οι άνθρωποι μπορούν πραγματικά να χρησιμοποιήσουν.">
+
             From simple tools to complete digital experiences,
             we build things people can actually use.
+
         </p>
 
     </div>
@@ -172,42 +271,88 @@
     <div class="build-grid">
 
         <div class="build-item">
+
             <span>APP</span>
-            <h3>Apps</h3>
-            <p>
+
+            <h3
+                data-en="Apps"
+                data-el="Εφαρμογές">
+                Apps
+            </h3>
+
+            <p
+                data-en="Practical applications designed around real ideas and everyday use."
+                data-el="Πρακτικές εφαρμογές σχεδιασμένες γύρω από πραγματικές ιδέες και καθημερινή χρήση.">
+
                 Practical applications designed
                 around real ideas and everyday use.
+
             </p>
+
         </div>
 
 
         <div class="build-item">
+
             <span>WEB</span>
-            <h3>Websites</h3>
-            <p>
+
+            <h3
+                data-en="Websites"
+                data-el="Ιστοσελίδες">
+                Websites
+            </h3>
+
+            <p
+                data-en="Modern websites built to look good, work smoothly and communicate clearly."
+                data-el="Σύγχρονες ιστοσελίδες σχεδιασμένες να δείχνουν όμορφες, να λειτουργούν σωστά και να επικοινωνούν ξεκάθαρα.">
+
                 Modern websites built to look good,
                 work smoothly and communicate clearly.
+
             </p>
+
         </div>
 
 
         <div class="build-item">
+
             <span>TOOLS</span>
-            <h3>Digital Tools</h3>
-            <p>
+
+            <h3>
+                Digital Tools
+            </h3>
+
+            <p
+                data-en="Small tools and web experiences that solve specific problems."
+                data-el="Μικρά εργαλεία και web experiences που λύνουν συγκεκριμένα προβλήματα.">
+
                 Small tools and web experiences
                 that solve specific problems.
+
             </p>
+
         </div>
 
 
         <div class="build-item">
+
             <span>CREATIVE</span>
-            <h3>Creative Projects</h3>
-            <p>
+
+            <h3
+                data-en="Creative Projects"
+                data-el="Δημιουργικά Projects">
+                Creative Projects
+            </h3>
+
+            <p
+                data-en="Experimental ideas combining technology, design and creativity."
+                data-el="Πειραματικές ιδέες που συνδυάζουν τεχνολογία, design και δημιουργικότητα.">
+
                 Experimental ideas combining
                 technology, design and creativity.
+
             </p>
+
         </div>
 
     </div>
@@ -219,15 +364,44 @@
 
     <div class="idea-header">
 
-        <small>START WITH AN IDEA</small>
+        <small
+            data-en="START WITH AN IDEA"
+            data-el="ΞΕΚΙΝΗΣΕ ΜΕ ΜΙΑ ΙΔΕΑ">
+
+            START WITH AN IDEA
+
+        </small>
+
 
         <h2>
-            What do you want<br>
-            to build?
+
+            <span
+                data-en="What do you want"
+                data-el="Τι θέλεις">
+
+                What do you want
+
+            </span>
+
+            <br>
+
+            <span
+                data-en="to build?"
+                data-el="να δημιουργήσεις;">
+
+                to build?
+
+            </span>
+
         </h2>
 
-        <p>
+
+        <p
+            data-en="Choose an option and see how your idea could take shape."
+            data-el="Διάλεξε μια επιλογή και δες πώς θα μπορούσε να πάρει μορφή η ιδέα σου.">
+
             Choose an option and see how your idea could take shape.
+
         </p>
 
     </div>
@@ -244,9 +418,15 @@
 
                 <span>APP</span>
 
-                <strong>Apps</strong>
+                <strong
+                    data-en="Apps"
+                    data-el="Εφαρμογές">
+                    Apps
+                </strong>
 
-                <em>
+                <em
+                    data-en="Mobile & web applications"
+                    data-el="Mobile & web εφαρμογές">
                     Mobile &amp; web applications
                 </em>
 
@@ -260,9 +440,15 @@
 
                 <span>WEB</span>
 
-                <strong>Websites</strong>
+                <strong
+                    data-en="Websites"
+                    data-el="Ιστοσελίδες">
+                    Websites
+                </strong>
 
-                <em>
+                <em
+                    data-en="Modern digital websites"
+                    data-el="Σύγχρονες digital ιστοσελίδες">
                     Modern digital websites
                 </em>
 
@@ -276,9 +462,13 @@
 
                 <span>TOOLS</span>
 
-                <strong>Digital Tools</strong>
+                <strong>
+                    Digital Tools
+                </strong>
 
-                <em>
+                <em
+                    data-en="Useful tools & experiences"
+                    data-el="Χρήσιμα εργαλεία & experiences">
                     Useful tools &amp; experiences
                 </em>
 
@@ -292,9 +482,15 @@
 
                 <span>CREATIVE</span>
 
-                <strong>Creative Projects</strong>
+                <strong
+                    data-en="Creative Projects"
+                    data-el="Δημιουργικά Projects">
+                    Creative Projects
+                </strong>
 
-                <em>
+                <em
+                    data-en="Something completely different"
+                    data-el="Κάτι εντελώς διαφορετικό">
                     Something completely different
                 </em>
 
@@ -307,17 +503,26 @@
 
             <div class="preview-content">
 
-                <div class="preview-label">
+                <div
+                    class="preview-label"
+                    data-en="SELECTED PROJECT"
+                    data-el="ΕΠΙΛΕΓΜΕΝΟ PROJECT">
+
                     SELECTED PROJECT
+
                 </div>
+
 
                 <h3 id="ideaTitle">
                     Build an App.
                 </h3>
 
+
                 <p id="ideaText">
+
                     From a simple concept to a working application,
                     we turn ideas into something people can actually use.
+
                 </p>
 
 
@@ -351,14 +556,30 @@
 
     <div class="heading">
 
-        <small>OUR PROJECTS</small>
+        <small
+            data-en="OUR PROJECTS"
+            data-el="ΤΑ PROJECTS ΜΑΣ">
 
-        <h2>
+            OUR PROJECTS
+
+        </small>
+
+
+        <h2
+            data-en="Things we're working on."
+            data-el="Projects πάνω στα οποία δουλεύουμε.">
+
             Things we're working on.
+
         </h2>
 
-        <p>
+
+        <p
+            data-en="A few ideas we've turned into actual projects."
+            data-el="Μερικές ιδέες που έχουμε μετατρέψει σε πραγματικά projects.">
+
             A few ideas we've turned into actual projects.
+
         </p>
 
     </div>
@@ -367,12 +588,20 @@
     <div class="project">
 
         <div>
-            <h3>Interactive Quizzes</h3>
 
-            <p>
+            <h3>
+                Interactive Quizzes
+            </h3>
+
+            <p
+                data-en="Fun and engaging quizzes across sports, movies, series and more."
+                data-el="Διασκεδαστικά quizzes για αθλητισμό, ταινίες, σειρές και πολλά ακόμη.">
+
                 Fun and engaging quizzes across sports,
                 movies, series and more.
+
             </p>
+
         </div>
 
         <div class="project-type">
@@ -385,12 +614,20 @@
     <div class="project">
 
         <div>
-            <h3>Movie &amp; Series Tracker</h3>
 
-            <p>
+            <h3>
+                Movie &amp; Series Tracker
+            </h3>
+
+            <p
+                data-en="Keep track of movies and series you've watched or want to watch."
+                data-el="Κράτα αρχείο με τις ταινίες και τις σειρές που έχεις δει ή θέλεις να δεις.">
+
                 Keep track of movies and series you've
                 watched or want to watch.
+
             </p>
+
         </div>
 
         <div class="project-type">
@@ -403,12 +640,20 @@
     <div class="project">
 
         <div>
-            <h3>Productivity Apps</h3>
 
-            <p>
+            <h3>
+                Productivity Apps
+            </h3>
+
+            <p
+                data-en="Simple apps for tracking workouts, budgets, tasks and everyday activities."
+                data-el="Απλές εφαρμογές για tracking προπονήσεων, budget, εργασιών και καθημερινών δραστηριοτήτων.">
+
                 Simple apps for tracking workouts,
                 budgets, tasks and everyday activities.
+
             </p>
+
         </div>
 
         <div class="project-type">
@@ -421,13 +666,21 @@
     <div class="project">
 
         <div>
-            <h3>Business Websites</h3>
 
-            <p>
+            <h3>
+                Business Websites
+            </h3>
+
+            <p
+                data-en="Modern websites for restaurants, cafés, fast-food spots, local businesses and retail stores."
+                data-el="Σύγχρονα websites για εστιατόρια, cafés, fast-food, τοπικές επιχειρήσεις και καταστήματα.">
+
                 Modern websites for restaurants, cafés,
                 fast-food spots, local businesses and
                 retail stores.
+
             </p>
+
         </div>
 
         <div class="project-type">
@@ -440,12 +693,20 @@
     <div class="project">
 
         <div>
-            <h3>More Ideas</h3>
 
-            <p>
+            <h3>
+                More Ideas
+            </h3>
+
+            <p
+                data-en="New projects and ideas currently in development."
+                data-el="Νέα projects και ιδέες που βρίσκονται αυτή τη στιγμή σε ανάπτυξη.">
+
                 New projects and ideas currently
                 in development.
+
             </p>
+
         </div>
 
         <div class="project-type">
@@ -465,33 +726,65 @@
 
         <div class="heading">
 
-            <small>ABOUT US</small>
+            <small
+                data-en="ABOUT US"
+                data-el="ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ">
+
+                ABOUT US
+
+            </small>
+
 
             <h2>
-                Small team.<br>
-                Endless ideas.
+
+                <span
+                    data-en="Small team."
+                    data-el="Μικρή ομάδα.">
+                    Small team.
+                </span>
+
+                <br>
+
+                <span
+                    data-en="Endless ideas."
+                    data-el="Αμέτρητες ιδέες.">
+                    Endless ideas.
+                </span>
+
             </h2>
 
         </div>
 
 
-        <p>
+        <p
+            data-en="THREEPOINT STUDIO is a small digital studio based in Athens, Greece, with experience in websites, apps, 3D modeling and graphic design."
+            data-el="Το THREEPOINT STUDIO είναι ένα μικρό digital studio με έδρα την Αθήνα, με εμπειρία σε websites, apps, 3D modeling και graphic design.">
+
             THREEPOINT STUDIO is a small digital studio
             based in Athens, Greece, with experience in
             websites, apps, 3D modeling and graphic design.
+
         </p>
 
 
-        <p>
+        <p
+            data-en="We turn ideas into digital experiences, combining creativity, technology and a hands-on approach to every project."
+            data-el="Μετατρέπουμε ιδέες σε digital experiences, συνδυάζοντας δημιουργικότητα, τεχνολογία και πρακτική προσέγγιση σε κάθε project.">
+
             We turn ideas into digital experiences,
             combining creativity, technology and a
             hands-on approach to every project.
+
         </p>
 
 
-        <p>
+        <p
+            data-en="Some projects are useful. Some are just for fun. Most start with a simple question:"
+            data-el="Κάποια projects είναι χρήσιμα. Κάποια είναι απλώς για διασκέδαση. Τα περισσότερα ξεκινούν με μια απλή ερώτηση:">
+
             Some projects are useful. Some are just for fun.
             Most start with a simple question:
+
         </p>
 
 
@@ -506,7 +799,13 @@
             href="founders.html"
             class="founders-link">
 
-            Meet the Co-Founders
+            <span
+                data-en="Meet the Co-Founders"
+                data-el="Γνωρίστε τους Συνιδρυτές">
+
+                Meet the Co-Founders
+
+            </span>
 
             <span>→</span>
 
@@ -522,7 +821,6 @@
             <div class="number">
 
                 <strong>3</strong>
-
                 <span>POINT</span>
 
             </div>
@@ -531,7 +829,6 @@
             <div class="number">
 
                 <strong class="infinity">∞</strong>
-
                 <span>IDEAS</span>
 
             </div>
@@ -539,8 +836,13 @@
         </div>
 
 
-        <div class="social-title">
+        <div
+            class="social-title"
+            data-en="FOLLOW US ON SOCIAL MEDIA"
+            data-el="ΑΚΟΛΟΥΘΗΣΤΕ ΜΑΣ ΣΤΑ SOCIAL MEDIA">
+
             FOLLOW US ON SOCIAL MEDIA
+
         </div>
 
 
@@ -579,13 +881,24 @@
     <div class="footer-main">
 
         <div>
+
             © 2026
-            <strong>THREEPOINTSTUDIOATH</strong>
+
+            <strong>
+                THREEPOINTSTUDIOATH
+            </strong>
+
             ALL RIGHTS RESERVED
+
         </div>
 
-        <div>
+
+        <div
+            data-en="Made with ideas."
+            data-el="Φτιαγμένο με ιδέες.">
+
             Made with ideas.
+
         </div>
 
     </div>
@@ -593,19 +906,31 @@
 
     <div class="footer-policies">
 
-        <a href="privacy-policy.html">
+        <a
+            href="privacy-policy.html"
+            data-en="Privacy Policy"
+            data-el="Πολιτική Απορρήτου">
             Privacy Policy
         </a>
 
-        <a href="terms.html">
+        <a
+            href="terms.html"
+            data-en="Terms & Conditions"
+            data-el="Όροι & Προϋποθέσεις">
             Terms &amp; Conditions
         </a>
 
-        <a href="quality-policy.html">
+        <a
+            href="quality-policy.html"
+            data-en="Quality Policy"
+            data-el="Πολιτική Ποιότητας">
             Quality Policy
         </a>
 
-        <a href="cookie-policy.html">
+        <a
+            href="cookie-policy.html"
+            data-en="Cookie Policy"
+            data-el="Πολιτική Cookies">
             Cookie Policy
         </a>
 
@@ -617,5 +942,4 @@
 <script src="script.js"></script>
 
 </body>
-
 </html>

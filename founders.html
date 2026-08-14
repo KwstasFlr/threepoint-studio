@@ -4,362 +4,211 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Co-Founders — 3POINT</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <style>
+    <title>
+        Co-Founders — 3POINT STUDIO
+    </title>
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background: #080a0d;
-            color: #e9edf2;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        /* NAV */
-
-        nav {
-            height: 75px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 7%;
-            border-bottom: 1px solid #171c22;
-        }
-
-        .logo {
-            font-size: 25px;
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-
-        .logo span {
-            color: #3b8edb;
-        }
-
-        .back {
-            color: #8d969f;
-            font-size: 14px;
-            transition: 0.2s;
-        }
-
-        .back:hover {
-            color: white;
-        }
-
-        /* FOUNDERS */
-
-        .founders {
-            min-height: calc(100vh - 75px);
-            padding: 85px 7%;
-        }
-
-        .heading {
-            margin-bottom: 60px;
-        }
-
-        .heading small {
-            color: #3b8edb;
-            font-size: 11px;
-            font-weight: 600;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-        }
-
-        .heading h1 {
-            font-size: 50px;
-            margin-top: 12px;
-            letter-spacing: -2px;
-            line-height: 1.05;
-        }
-
-        .heading p {
-            color: #7f8992;
-            margin-top: 15px;
-            max-width: 550px;
-            line-height: 1.7;
-        }
-
-        /* FOUNDERS GRID */
-
-        .founder-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-        }
-
-        /* FOUNDER */
-
-        .founder {
-            position: relative;
-            border: 1px solid #1b2128;
-            background: #0d1116;
-            padding: 35px;
-            min-height: 300px;
-            transition: 0.25s;
-        }
-
-        .founder:hover {
-            border-color: #293b4d;
-            transform: translateY(-3px);
-        }
-
-        .founder h2 {
-            font-size: 25px;
-            font-weight: 600;
-            margin-bottom: 14px;
-        }
-
-        .founder-role {
-            line-height: 1.6;
-            margin-bottom: 28px;
-        }
-
-        .founder-role .role-title {
-            display: block;
-            color: #3b8edb;
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 2px;
-            margin-bottom: 5px;
-        }
-
-        .founder-role .role-work {
-            display: block;
-            color: #8b949d;
-            font-size: 14px;
-        }
-
-        .linkedin {
-            color: #3b8edb;
-            font-size: 13px;
-            transition: 0.2s;
-        }
-
-        .linkedin:hover {
-            color: white;
-        }
-
-        /* BLUE ACCENT LINE */
-
-        .founder::after {
-            content: "";
-            display: block;
-            width: 100%;
-            height: 1px;
-            margin-top: 45px;
-            background: linear-gradient(
-                to right,
-                #3b8edb 0%,
-                rgba(59, 142, 219, 0.25) 45%,
-                transparent 100%
-            );
-        }
-
-        /* FOOTER */
-
-        footer {
-            padding: 35px 7%;
-            color: #5e6871;
-            font-size: 13px;
-            border-top: 1px solid #171c22;
-        }
-
-        footer strong {
-            color: #dfe5ea;
-        }
-
-        /* MOBILE */
-
-        @media (max-width: 800px) {
-
-            .founders {
-                padding: 70px 7%;
-            }
-
-            .heading h1 {
-                font-size: 42px;
-            }
-
-            .founder-grid {
-                grid-template-columns: 1fr;
-                gap: 18px;
-            }
-
-            .founder {
-                min-height: 280px;
-            }
-
-        }
-
-    </style>
+    <link
+        rel="stylesheet"
+        href="style.css">
 
 </head>
 
+
 <body>
 
-    <!-- NAVIGATION -->
 
-    <nav>
+<nav>
 
-        <div class="logo">
-            3<span>POINT</span>
+    <a
+        href="index.html"
+        class="logo">
+
+        <div class="logo-three">
+            3
         </div>
 
-        <a href="index.html" class="back">
-            ← Back to Studio
+        <div class="logo-word">
+
+            <span>
+                POINT
+            </span>
+
+            <small>
+                STUDIO ATH
+            </small>
+
+        </div>
+
+    </a>
+
+
+    <div class="nav-right">
+
+        <div class="language-switcher">
+
+            <button
+                id="grBtn"
+                class="language-button"
+                type="button">
+                ΕΛ
+            </button>
+
+            <button
+                id="enBtn"
+                class="language-button"
+                type="button">
+                ENG
+            </button>
+
+        </div>
+
+
+        <a
+            href="index.html"
+            class="back-button">
+
+            <span
+                data-en="← BACK"
+                data-el="← ΠΙΣΩ">
+
+                ← BACK
+
+            </span>
+
         </a>
 
-    </nav>
+    </div>
+
+</nav>
 
 
-    <!-- FOUNDERS -->
-
-    <section class="founders">
-
-        <div class="heading">
-
-            <small>OUR CO-FOUNDERS</small>
-
-            <h1>
-                The people behind<br>
-                THREEPOINT.
-            </h1>
-
-            <p>
-                The people behind the ideas, projects and
-                creative direction of THREEPOINT STUDIO.
-            </p>
-
-        </div>
+<main class="founders-main">
 
 
-        <div class="founder-grid">
+    <div class="founders-intro">
+
+        <small
+            data-en="THE PEOPLE BEHIND THREEPOINT STUDIO"
+            data-el="ΟΙ ΑΝΘΡΩΠΟΙ ΠΙΣΩ ΑΠΟ ΤΟ THREEPOINT STUDIO">
+
+            THE PEOPLE BEHIND THREEPOINT STUDIO
+
+        </small>
 
 
-            <!-- KONSTANTINOS FLOROS -->
+        <h1>
 
-            <div class="founder">
+            <span
+                data-en="Meet the"
+                data-el="Γνώρισε τους">
 
-                <h2>
-                    Konstantinos Floros
-                </h2>
+                Meet the
 
-                <div class="founder-role">
+            </span>
 
-                    <span class="role-title">
-                        CO-FOUNDER
-                    </span>
+            <br>
 
-                    <span class="role-work">
-                        Web Development · Research
-                    </span>
+            Co-Founders.
 
-                </div>
+        </h1>
 
-                <a
-                    href="YOUR-FLINKEDIN-LINK"
-                    class="linkedin"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    LinkedIn →
-                </a>
 
+        <p
+            data-en="Three people. One studio. Endless ideas."
+            data-el="Τρία άτομα. Ένα studio. Αμέτρητες ιδέες.">
+
+            Three people. One studio. Endless ideas.
+
+        </p>
+
+    </div>
+
+
+    <div class="founders-grid">
+
+
+        <article class="founder-card">
+
+            <h2>
+                KONSTANTINOS FLOROS
+            </h2>
+
+            <div class="founder-role">
+                WEB DEVELOPMENT &amp; RESEARCH
             </div>
 
+        </article>
 
-            <!-- ATHANASIOS BIMIS -->
 
-            <div class="founder">
+        <article class="founder-card">
 
-                <h2>
-                    Athanasios Bimis
-                </h2>
+            <h2>
+                ATHANASIOS BIMIS
+            </h2>
 
-                <div class="founder-role">
-
-                    <span class="role-title">
-                        CO-FOUNDER
-                    </span>
-
-                    <span class="role-work">
-                        App Development · Engineering
-                    </span>
-
-                </div>
-
-                <a
-                    href="YOUR-BLINKEDIN-LINK"
-                    class="linkedin"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    LinkedIn →
-                </a>
-
+            <div class="founder-role">
+                APP DEVELOPMENT &amp; ENGINEERING
             </div>
 
+        </article>
 
-            <!-- ARISTEIDIS GKAGKARIS -->
 
-            <div class="founder">
+        <article class="founder-card">
 
-                <h2>
-                    Aristeidis Gkagkaris
-                </h2>
+            <h2>
+                ARISTIDIS GKAGKARIS
+            </h2>
 
-                <div class="founder-role">
-
-                    <span class="role-title">
-                        CO-FOUNDER
-                    </span>
-
-                    <span class="role-work">
-                        3D · Creative
-                    </span>
-
-                </div>
-
-                <a
-                    href="YOUR-ALINKEDIN-LINK"
-                    class="linkedin"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    LinkedIn →
-                </a>
-
+            <div class="founder-role">
+                DESIGN &amp; 3D MODELING
             </div>
 
-
-        </div>
-
-    </section>
+        </article>
 
 
-    <!-- FOOTER -->
+    </div>
 
-    <footer>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-main">
 
         <div>
-            © 2026 <strong>3POINT</strong>
+
+            © 2026
+
+            <strong>
+                THREEPOINT STUDIOATH
+            </strong>
+
+            ALL RIGHTS RESERVED
+
         </div>
 
-        <div>
+
+        <div
+            data-en="Made with ideas."
+            data-el="Φτιαγμένο με ιδέες.">
+
             Made with ideas.
+
         </div>
 
-    </footer>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
