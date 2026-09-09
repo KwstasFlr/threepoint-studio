@@ -89,8 +89,6 @@ body .service-scene{padding-top:75px;padding-bottom:75px;gap:clamp(30px,5vw,80px
 .photo-art{background:none;border-radius:0}
 .photo-window{position:relative;overflow:hidden;aspect-ratio:4/3;border-radius:8px;background:#18232e}
 .photo-window img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.65);transform:translateY(var(--photo-shift,0px)) scale(1.14)}
-.photo-art figcaption{padding:10px 0 0;color:var(--muted);font-size:10px;line-height:1.6}
-.photo-art figcaption a:hover{color:var(--blue)}
 .scene-link{background:#152333;padding:9px 18px;border-radius:4px;gap:24px;transition:background .25s,color .25s}
 .scene-link:is(:hover,:focus-visible){background:var(--blue);color:#071019}
 .scene-link:is(:hover,:focus-visible) span:last-child{color:#071019}
@@ -120,6 +118,38 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 .contact-nav{color:var(--ink);text-decoration:none}.contact-nav>span:first-child{max-width:230px}.contact-nav:hover{color:var(--blue)}
 .photo-window img[hidden]{display:none}
 @media(max-width:700px){body>nav{flex-wrap:wrap}body>nav .nav-right{margin-left:auto}.contact-nav>span:first-child{max-width:145px;font-size:10px;line-height:1.5;letter-spacing:.7px}.contact-nav .menu-lines{flex-shrink:0}}
+.service-examples{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;margin:22px 0 0;padding:0}
+.service-examples li{display:inline-flex;align-items:center;gap:8px;font-size:12px;line-height:1.6;color:var(--muted)}
+.service-examples li::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--blue);flex-shrink:0}
+body .scene-copy .service-support h3{font-size:15px;font-weight:500;letter-spacing:0}
+body .scene-copy .service-support p{font-size:13px}
+.photo-window{border-radius:5px;isolation:isolate}
+.photo-window img{filter:saturate(.8) contrast(1.02)}
+.photo-window::after{content:'';position:absolute;inset:0;background:#071a2b;opacity:.08;pointer-events:none}
+.footer-navigation{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:28px 40px}
+.footer-founders{display:inline-flex;align-items:center;min-height:44px;font-size:12px;letter-spacing:1.4px;color:var(--ink);transition:color .2s}
+.footer-founders:hover{color:var(--blue)}
+@media(max-width:700px){.footer-navigation{justify-content:flex-start;gap:12px 25px}.service-examples{gap:7px 15px}.service-examples li{font-size:12px}}
+body .reference-hero h1{margin:0 0 28px}
+body .reference-hero .hero-bottom p{max-width:500px;font-size:clamp(16px,1.2vw,20px);line-height:1.8}
+.delivery-section{padding:75px var(--pad);background:#0d141c;display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(30px,6vw,85px);align-items:start}
+.delivery-intro h2{font-size:clamp(30px,3vw,42px);font-weight:400;line-height:1.15;letter-spacing:-.025em;max-width:420px;margin-bottom:22px}
+.delivery-intro p{font-size:15px;line-height:1.85;color:var(--muted);max-width:390px}
+.delivery-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px 32px}
+.delivery-item{min-width:0}
+.delivery-item h3{font-size:18px;line-height:1.4;font-weight:500;margin-bottom:12px}
+.delivery-item p{font-size:14px;line-height:1.85;color:var(--muted)}
+@media(max-width:950px){.delivery-section{grid-template-columns:1fr;gap:35px}.delivery-intro h2,.delivery-intro p{max-width:650px}}
+@media(max-width:700px){body .reference-hero h1{margin:0 0 24px}body .reference-hero .hero-bottom p{font-size:16px}.delivery-section{padding:45px var(--pad)}.delivery-grid{gap:26px 22px}}
+@media(max-width:480px){.delivery-grid{grid-template-columns:1fr}}
+body .reference-hero h1{font-size:clamp(38px,4.8vw,90px);line-height:1.08;letter-spacing:-.045em}
+body .reference-hero h1>span{display:block;min-height:1.08em;white-space:nowrap}
+body .reference-hero h1>br{display:none}
+body .reference-hero .hero-bottom p{min-height:3.6em}
+.contact-nav>span:first-child{display:block;width:230px;line-height:1.5}
+.scene-copy>h2{line-height:1.12}
+.service-examples{min-height:48px;align-content:start}
+@media(max-width:700px){body .reference-hero h1{font-size:clamp(30px,7.7vw,54px)}.contact-nav>span:first-child{width:145px;min-height:30px}}
 </style>
 </head>
 <body>
@@ -140,32 +170,32 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <main id="main">
 <section class="hero reference-hero" aria-labelledby="heroTitle">
 <div class="hero-mark" aria-hidden="true">3</div>
-<div class="hero-image">
-<img src="logo.jpg" alt="" fetchpriority="high">
-</div>
+<div class="hero-image"><img src="logo.jpg" alt="" fetchpriority="high"></div>
 <div class="hero-content">
-<p class="eyebrow">THREE POINT <span>STUDIO</span></p>
 <h1 id="heroTitle">
-<span data-en="Where Ideas" data-el="Εκεί που οι ιδέες">Where Ideas</span><br>
+<span data-en="Where Ideas" data-el="Οι ιδέες σου">Where Ideas</span><br>
 <span class="hero-accent" data-en="Become Real." data-el="γίνονται πράξη.">Become Real.</span>
 </h1>
 <div class="hero-bottom">
-<p data-en="We build apps, websites and small digital projects that start as an idea and turn into something people can actually use." data-el="Δημιουργούμε εφαρμογές, ιστοσελίδες και μικρά ψηφιακά projects που ξεκινούν από μια ιδέα και γίνονται κάτι που μπορείς πραγματικά να χρησιμοποιήσεις.">We build apps, websites and small digital projects that start as an idea and turn into something people can actually use.</p>
+<p data-en="Websites, e-shops, apps and digital projects. Designed and built in Athens." data-el="Ιστοσελίδες, e-shops, εφαρμογές και ψηφιακά projects. Σχεδιασμός και υλοποίηση στην Αθήνα.">Websites, e-shops, apps and digital projects. Designed and built in Athens.</p>
 </div>
 </div>
 </section>
 <section class="project-process" aria-label="Starting a project">
 <div class="process-grid">
-<article class="process-card" data-reveal><div class="process-surface"><svg class="process-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="26" height="20" rx="3"/><path d="m4 8 12 9L28 8"/></svg>
+<article class="process-card" data-reveal><div class="process-surface">
+<svg class="process-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="26" height="20" rx="3"/><path d="m4 8 12 9L28 8"/></svg>
 <h2 data-en="Email us your idea." data-el="Στείλε μας την ιδέα σου.">Email us your idea.</h2>
 <p data-en="Tell us what you want to create. Share your requirements and examples you like." data-el="Πες μας τι θέλεις να δημιουργήσεις. Στείλε τις ανάγκες σου και παραδείγματα που σου αρέσουν.">Tell us what you want to create. Share your requirements and examples you like.</p>
 <a class="process-email" href="mailto:threepointstudioath@gmail.com" data-en="Send us your idea" data-el="Στείλε την ιδέα σου">Send us your idea</a>
 </div></article>
-<article class="process-card" data-reveal><div class="process-surface"><svg class="process-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7h15M5 15h11M5 23h8m9-9 5 5m-12 8 2-7L27 9l5 5-11 11z"/></svg>
+<article class="process-card" data-reveal><div class="process-surface">
+<svg class="process-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7h15M5 15h11M5 23h8m9-9 5 5m-12 8 2-7L27 9l5 5-11 11z"/></svg>
 <h2 data-en="We give it shape." data-el="Δίνουμε μορφή στην ιδέα.">We give it shape.</h2>
 <p data-en="We discuss the design, features and approach. You receive a quote and a proposed timeline by email." data-el="Συζητάμε τη σχεδίαση, τις λειτουργίες και τον τρόπο υλοποίησης. Λαμβάνεις την προσφορά και το προτεινόμενο χρονοδιάγραμμα μέσω email.">We discuss the design, features and approach. You receive a quote and a proposed timeline by email.</p>
 </div></article>
-<article class="process-card" data-reveal><div class="process-surface"><svg class="process-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 18 20-12-7 22-4-10-9 0zm9 0L26 6"/></svg>
+<article class="process-card" data-reveal><div class="process-surface">
+<svg class="process-icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 18 20-12-7 22-4-10-9 0zm9 0L26 6"/></svg>
 <h2 data-en="We make it real." data-el="Το κάνουμε πραγματικότητα.">We make it real.</h2>
 <p data-en="Once we agree on the project, we move on to development, testing and delivery." data-el="Μετά τη συμφωνία, προχωράμε στην κατασκευή, τους ελέγχους και την παράδοση.">Once we agree on the project, we move on to development, testing and delivery.</p>
 </div></article>
@@ -215,65 +245,110 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <h2 id="title-websites" data-en="Websites" data-el="Ιστοσελίδες">Websites</h2>
 <h3 data-en="A clear home for your business." data-el="Η επιχείρησή σου, στο διαδίκτυο.">A clear home for your business.</h3>
 <p data-en="Websites designed around your content, with easy navigation on every screen." data-el="Ιστοσελίδες με έμφαση στο περιεχόμενό σου και εύκολη πλοήγηση σε κάθε οθόνη.">Websites designed around your content, with easy navigation on every screen.</p>
+<ul class="service-examples"><li data-en="Business websites" data-el="Εταιρικές ιστοσελίδες">Business websites</li><li data-en="Portfolios" data-el="Portfolios">Portfolios</li><li data-en="Landing pages" data-el="Landing pages">Landing pages</li></ul>
 <a class="scene-link" href="index.html?category=websites"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<figure class="scene-art photo-art" data-art-motion><div class="photo-window"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Laptop displaying website statistics" width="1200" height="800" loading="lazy" decoding="async"></div><figcaption><span data-en="Illustrative photography" data-el="Ενδεικτική φωτογραφία">Illustrative photography</span> · <a href="https://unsplash.com/photos/hpjSkU2UYSU" target="_blank" rel="noopener noreferrer">Carlos Muza / Unsplash</a></figcaption></figure>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="Laptop displaying website statistics" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 <section class="service-scene" aria-labelledby="title-eshops">
 <div class="scene-copy" data-reveal>
 <h2 id="title-eshops" data-en="E-shops" data-el="E-shops">E-shops</h2>
 <h3 data-en="Your products, ready to be discovered." data-el="Τα προϊόντα σου βρίσκουν τη θέση τους.">Your products, ready to be discovered.</h3>
 <p data-en="Online stores that make browsing products and completing an order feel simple." data-el="Ηλεκτρονικά καταστήματα με εύκολη αναζήτηση προϊόντων και ξεκάθαρη διαδικασία παραγγελίας.">Online stores that make browsing products and completing an order feel simple.</p>
+<ul class="service-examples"><li data-en="Product catalogues" data-el="Κατάλογοι προϊόντων">Product catalogues</li><li data-en="Search &amp; filters" data-el="Αναζήτηση &amp; φίλτρα">Search &amp; filters</li><li data-en="Order management" data-el="Διαχείριση παραγγελιών">Order management</li></ul>
 <a class="scene-link" href="index.html?category=eshops"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<div class="scene-art" data-art-motion><svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="83" y="73" width="300" height="239" rx="10" fill="#dce4e9"/><path d="M112 109h86" stroke="#183b58" stroke-width="8"/><rect x="109" y="135" width="116" height="126" rx="4" fill="#a7c3d7"/><path d="M145 161l-17 13 10 23 10-7v48h39v-48l10 7 10-23-17-13-12 9h-21z" fill="#246ead"/><path d="M246 152h104m-104 20h74m-74 31h48" stroke="#6d8598" stroke-width="7"/><rect x="246" y="226" width="105" height="30" rx="4" fill="#3b8edb"/><path d="M376 170h139l17 160H358z" fill="#286ba3"/><path d="M403 177v-25a42 42 0 0184 0v25" fill="none" stroke="#a2c5e1" stroke-width="10"/><path d="M423 253l17 17 32-36" fill="none" stroke="#e9edf2" stroke-width="9" stroke-linecap="round"/></svg></div>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1449247666642-264389f5f5b1?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1449247666642-264389f5f5b1?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1449247666642-264389f5f5b1?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="Preparing an online order for shipping" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 <section class="service-scene" aria-labelledby="title-games">
 <div class="scene-copy" data-reveal>
 <h2 id="title-games" data-en="Browser Games" data-el="Browser Games">Browser Games</h2>
 <h3 data-en="Open a tab. Play a round." data-el="Άνοιξε μια καρτέλα. Παίξε έναν γύρο.">Open a tab. Play a round.</h3>
 <p data-en="Guessing games and quizzes, directly in your browser." data-el="Παιχνίδια γνώσεων και quiz, απευθείας στον browser σου.">Guessing games and quizzes, directly in your browser.</p>
+<ul class="service-examples"><li data-en="Guessing games" data-el="Παιχνίδια γνώσεων">Guessing games</li><li data-en="Quizzes" data-el="Quiz">Quizzes</li><li data-en="Daily challenges" data-el="Καθημερινές προκλήσεις">Daily challenges</li></ul>
 <a class="scene-link" href="index.html?category=games"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<div class="scene-art" data-art-motion><svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="109" y="51" width="381" height="232" rx="12" fill="#1d2b39"/><rect x="124" y="79" width="351" height="185" fill="#173c5c"/><circle cx="299" cy="167" r="63" fill="#28689d"/><text x="299" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="88" fill="#e9edf2">?</text><path d="M215 240c-26 0-46 20-53 51l-9 38c-7 30 19 44 37 22l28-28h164l28 28c18 22 44 8 37-22l-9-38c-7-31-27-51-53-51z" fill="#d5dfe6"/><path d="M209 267v41m-20-20h40" stroke="#29465b" stroke-width="10" stroke-linecap="round"/><circle cx="389" cy="278" r="8" fill="#3b8edb"/><circle cx="411" cy="299" r="8" fill="#16344f"/><circle cx="267" cy="306" r="13" fill="#69859b"/><circle cx="331" cy="306" r="13" fill="#69859b"/></svg></div>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1558742569-fe6d39d05837?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1558742569-fe6d39d05837?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1558742569-fe6d39d05837?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="Using a keyboard and mouse for computer gaming" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 <section class="service-scene" aria-labelledby="title-apps">
 <div class="scene-copy" data-reveal>
 <h2 id="title-apps" data-en="Apps" data-el="Εφαρμογές">Apps</h2>
 <h3 data-en="Made for the way you use them." data-el="Εφαρμογές για τον δικό σου τρόπο χρήσης.">Made for the way you use them.</h3>
 <p data-en="Games, reading and new ways to interact with digital content." data-el="Παιχνίδια, ανάγνωση και νέοι τρόποι αλληλεπίδρασης με ψηφιακό περιεχόμενο.">Games, reading and new ways to interact with digital content.</p>
+<ul class="service-examples"><li data-en="Mobile applications" data-el="Εφαρμογές κινητού">Mobile applications</li><li data-en="E-book readers" data-el="Ανάγνωση e-book">E-book readers</li><li data-en="Voice reading" data-el="Φωνητική ανάγνωση">Voice reading</li></ul>
 <a class="scene-link" href="index.html?category=apps"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<div class="scene-art" data-art-motion><svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><g transform="rotate(-9 233 191)"><rect x="145" y="28" width="177" height="322" rx="26" fill="#506777"/><rect x="153" y="36" width="161" height="306" rx="21" fill="#dce5e9"/><rect x="204" y="44" width="60" height="10" rx="5" fill="#293d4d"/><rect x="173" y="81" width="121" height="117" rx="5" fill="#2d76af"/><path d="M192 104h80v66h-80z" fill="#c5d8e4"/><path d="M232 104v66" stroke="#2d76af" stroke-width="3"/><path d="M175 226h114m-114 18h90m-90 18h103" stroke="#9caeba" stroke-width="7"/><circle cx="234" cy="303" r="18" fill="#3b8edb"/><path d="M230 294l12 9-12 9z" fill="#fff"/></g><rect x="346" y="115" width="124" height="124" rx="27" fill="#163a56"/><path d="M378 178h9l15-18v37l-15-19m29-17q22 17 0 34m12-46q38 29 0 58" fill="none" stroke="#87b9df" stroke-width="6" stroke-linecap="round"/></svg></div>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1585060282215-39a72f82385c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1585060282215-39a72f82385c?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1585060282215-39a72f82385c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="A hand holding a smartphone" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 <section class="service-scene" aria-labelledby="title-tools">
 <div class="scene-copy" data-reveal>
 <h2 id="title-tools" data-en="Digital Tools" data-el="Digital Tools">Digital Tools</h2>
 <h3 data-en="A little less busywork." data-el="Λιγότερες επαναλαμβανόμενες εργασίες.">A little less busywork.</h3>
 <p data-en="Tools that organise information and simplify everyday tasks." data-el="Εργαλεία που οργανώνουν πληροφορίες και απλοποιούν καθημερινές εργασίες.">Tools that organise information and simplify everyday tasks.</p>
+<ul class="service-examples"><li data-en="Dashboards" data-el="Πίνακες ελέγχου">Dashboards</li><li data-en="Data organisation" data-el="Οργάνωση δεδομένων">Data organisation</li><li data-en="Task automation" data-el="Αυτοματοποίηση εργασιών">Task automation</li></ul>
 <a class="scene-link" href="index.html?category=tools"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<div class="scene-art" data-art-motion><svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="68" y="62" width="468" height="266" rx="12" fill="#1b2a36"/><rect x="84" y="80" width="93" height="229" rx="4" fill="#12202c"/><g stroke="#45657d" stroke-width="7"><path d="M99 107h56m-56 35h43m-43 27h49m-49 27h38"/></g><rect x="193" y="81" width="325" height="91" rx="5" fill="#d7e2e9"/><path d="M212 105h69m-69 24h106" stroke="#57748a" stroke-width="8"/><path d="M359 147l28-27 29 11 28-33 29 6 28-12" fill="none" stroke="#3b8edb" stroke-width="5"/><g fill="#263f52"><rect x="193" y="190" width="99" height="116" rx="4"/><rect x="305" y="190" width="99" height="116" rx="4"/><rect x="418" y="190" width="100" height="116" rx="4"/></g><g fill="#759cb8"><rect x="205" y="216" width="75" height="27" rx="3"/><rect x="205" y="254" width="75" height="37" rx="3"/><rect x="317" y="216" width="75" height="47" rx="3"/><rect x="430" y="216" width="75" height="62" rx="3"/></g></svg></div>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="A dashboard displaying reports and charts" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 <section class="service-scene" aria-labelledby="title-modeling">
 <div class="scene-copy" data-reveal>
 <h2 id="title-modeling" data-en="3D Modeling" data-el="3D Modeling">3D Modeling</h2>
 <h3 data-en="From an idea to an object." data-el="Από την ιδέα στη μορφή.">From an idea to an object.</h3>
 <p data-en="Three-dimensional models and visualisations for products and creative projects." data-el="Τρισδιάστατα μοντέλα και απεικονίσεις για προϊόντα και δημιουργικά projects.">Three-dimensional models and visualisations for products and creative projects.</p>
+<ul class="service-examples"><li data-en="Product models" data-el="Μοντέλα προϊόντων">Product models</li><li data-en="Object visualisations" data-el="Απεικονίσεις αντικειμένων">Object visualisations</li><li data-en="3D renders" data-el="3D renders">3D renders</li></ul>
 <a class="scene-link" href="index.html?category=modeling"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<div class="scene-art" data-art-motion><svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><ellipse cx="304" cy="327" rx="166" ry="20" fill="#101b25"/><path d="M300 45l147 85v166l-147 85-147-85V130z" fill="#1e4c70"/><path d="M300 45l147 85-147 86-147-86z" fill="#72a4c8"/><path d="M300 216l147-86v166l-147 85z" fill="#2e79b3"/><g fill="none" stroke="#b5d5e9" stroke-width="1.5" opacity=".6"><path d="M202 101l146 86v166M250 73l148 86v166M203 325V159l146-86M251 353V187l146-86M153 185l147 86 147-86M153 240l147 86 147-86M300 45v336"/></g><g fill="#e2eef6"><circle cx="300" cy="45" r="5"/><circle cx="447" cy="130" r="5"/><circle cx="153" cy="130" r="5"/><circle cx="300" cy="216" r="5"/><circle cx="447" cy="296" r="5"/></g></svg></div>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1563520239648-a24e51d4b570?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1563520239648-a24e51d4b570?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1563520239648-a24e51d4b570?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="3D models and a laptop at a prototyping workspace" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 <section class="service-scene" aria-labelledby="title-music">
 <div class="scene-copy" data-reveal>
 <h2 id="title-music" data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</h2>
 <h3 data-en="Give your project its own sound." data-el="Δώσε στο project σου τον δικό του ήχο.">Give your project its own sound.</h3>
 <p data-en="Music and beats produced in FL Studio by our exclusive partner, Theofulaktos Spendas." data-el="Μουσική και beats με παραγωγή στο FL Studio από τον αποκλειστικό συνεργάτη μας, Theofulaktos Spendas.">Music and beats produced in FL Studio by our exclusive partner, Theofulaktos Spendas.</p>
+<ul class="service-examples"><li data-en="Custom beats" data-el="Πρωτότυπα beats">Custom beats</li><li data-en="Instrumentals" data-el="Instrumentals">Instrumentals</li><li data-en="Music for projects" data-el="Μουσική για projects">Music for projects</li></ul>
 <a class="scene-link" href="index.html?category=music"><span data-en="View work" data-el="Δες τις δουλειές">View work</span><span aria-hidden="true">↗</span></a>
 </div>
-<figure class="scene-art photo-art" data-art-motion><div class="photo-window"><img src="https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Keyboard, headphones and music equipment" width="1200" height="800" loading="lazy" decoding="async"></div><figcaption><span data-en="Illustrative photography" data-el="Ενδεικτική φωτογραφία">Illustrative photography</span> · <a href="https://unsplash.com/photos/k3heD_KwH0A" target="_blank" rel="noopener noreferrer">James Stamler / Unsplash</a></figcaption></figure>
+<figure class="scene-art photo-art" data-art-motion>
+<div class="photo-window"><img src="https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" srcset="https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?auto=format&amp;fit=crop&amp;w=640&amp;q=80 640w, https://images.unsplash.com/photo-1477233534935-f5e6fe7c1159?auto=format&amp;fit=crop&amp;w=1200&amp;q=80 1200w" sizes="(max-width:700px) 90vw, 48vw" alt="Keyboard, headphones and music equipment" width="1200" height="800" loading="lazy" decoding="async"></div>
+</figure>
 </section>
 </div>
+<section class="delivery-section" aria-labelledby="deliveryTitle">
+<div class="delivery-intro" data-reveal>
+<h2 id="deliveryTitle" data-en="The details behind a finished project." data-el="Οι λεπτομέρειες ενός ολοκληρωμένου project.">The details behind a finished project.</h2>
+<p data-en="A website needs to work as well as it looks. These are the things we review before an online project is delivered." data-el="Μια ιστοσελίδα χρειάζεται να λειτουργεί εξίσου καλά με την εμφάνισή της. Αυτά προσέχουμε πριν παραδώσουμε ένα online project.">A website needs to work as well as it looks. These are the things we review before an online project is delivered.</p>
+</div>
+<div class="delivery-grid">
+<article class="delivery-item" data-reveal>
+<h3 data-en="On every screen." data-el="Σε κάθε οθόνη.">On every screen.</h3>
+<p data-en="We check layouts, text and controls on mobile, tablet and desktop." data-el="Ελέγχουμε τη διάταξη, τα κείμενα και τα κουμπιά σε κινητό, tablet και υπολογιστή.">We check layouts, text and controls on mobile, tablet and desktop.</p>
+</article>
+<article class="delivery-item" data-reveal>
+<h3 data-en="Clear navigation." data-el="Ξεκάθαρη πλοήγηση.">Clear navigation.</h3>
+<p data-en="Visitors should find the information they need and understand their next step." data-el="Ο επισκέπτης πρέπει να βρίσκει τις πληροφορίες που χρειάζεται και να καταλαβαίνει εύκολα το επόμενο βήμα.">Visitors should find the information they need and understand their next step.</p>
+</article>
+<article class="delivery-item" data-reveal>
+<h3 data-en="Careful loading." data-el="Προσεγμένη φόρτωση.">Careful loading.</h3>
+<p data-en="We review image sizes and page resources to avoid unnecessary delays." data-el="Εξετάζουμε το μέγεθος των εικόνων και τα στοιχεία της σελίδας, περιορίζοντας τις περιττές καθυστερήσεις.">We review image sizes and page resources to avoid unnecessary delays.</p>
+</article>
+<article class="delivery-item" data-reveal>
+<h3 data-en="Checked before delivery." data-el="Έλεγχος πριν την παράδοση.">Checked before delivery.</h3>
+<p data-en="We test links, forms and the agreed features, then review the result with you." data-el="Δοκιμάζουμε συνδέσμους, φόρμες και τις συμφωνημένες λειτουργίες και εξετάζουμε μαζί σου το αποτέλεσμα.">We test links, forms and the agreed features, then review the result with you.</p>
+</article>
+</div>
+</section>
 <section class="studio-section" id="about">
 <div data-reveal>
 <h2 data-en="Three people. A shared way of thinking." data-el="Τρεις άνθρωποι. Κοινός τρόπος σκέψης.">Three people. A shared way of thinking.</h2>
@@ -281,9 +356,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <div class="studio-copy" data-reveal>
 <p data-en="Threepoint Studio ATH is a small digital studio based in Athens. We create websites, apps and digital projects." data-el="Το Threepoint Studio ATH είναι ένα μικρό digital studio με έδρα την Αθήνα. Δημιουργούμε ιστοσελίδες, εφαρμογές και ψηφιακά projects.">Threepoint Studio ATH is a small digital studio based in Athens. We create websites, apps and digital projects.</p>
 <p data-en="We work together from the first idea to the details that make a project ready to use." data-el="Δουλεύουμε μαζί από την πρώτη ιδέα μέχρι τις λεπτομέρειες που κάνουν ένα project έτοιμο για χρήση.">We work together from the first idea to the details that make a project ready to use.</p>
-<a class="text-link" href="founders.html">
-<span data-en="Meet the co-founders" data-el="Γνώρισε τους συνιδρυτές">Meet the co-founders</span><span>↗</span>
-</a>
+<a class="text-link" href="founders.html"><span data-en="Meet the co-founders" data-el="Γνώρισε τους συνιδρυτές">Meet the co-founders</span><span>↗</span></a>
 </div>
 </section>
 <section class="project-faq" aria-labelledby="faqTitle">
@@ -305,19 +378,19 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 </section>
 <section class="contact-finale" data-reveal>
 <p class="eyebrow" data-en="YOUR NEXT PROJECT" data-el="ΤΟ ΕΠΟΜΕΝΟ ΣΟΥ PROJECT">YOUR NEXT PROJECT</p>
-<a class="contact-title" href="contact.html">
-<span data-en="Let's make something." data-el="Ας φτιάξουμε κάτι μαζί.">Let's make something.</span>
-<span class="contact-arrow" aria-hidden="true">↗</span>
-</a>
+<a class="contact-title" href="contact.html"><span data-en="Let's make something." data-el="Ας φτιάξουμε κάτι μαζί.">Let's make something.</span><span class="contact-arrow" aria-hidden="true">↗</span></a>
 <a class="email-link" href="mailto:threepointstudioath@gmail.com">threepointstudioath@gmail.com</a>
 </section>
 </main>
 <footer>
 <div class="footer-main">
 <span>© 2026 THREEPOINT STUDIO ATH</span>
+<div class="footer-navigation">
+<a class="footer-founders" href="founders.html" data-en="FOUNDERS" data-el="ΟΙ ΣΥΝΙΔΡΥΤΕΣ">FOUNDERS</a>
 <div class="social-links">
 <a href="https://www.instagram.com/threepointstudioath/" target="_blank" rel="noopener noreferrer">Instagram</a>
 <a href="https://www.tiktok.com/@threepoint.studio" target="_blank" rel="noopener noreferrer">TikTok</a>
+</div>
 </div>
 </div>
 <div class="footer-policies">
@@ -340,6 +413,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 </div>
 </template>
 <script>
+const studioExamples=new Map([...document.querySelectorAll('.service-scene')].map(scene=>[scene.getAttribute('aria-labelledby').replace('title-',''),scene.querySelector('.service-examples').cloneNode(true)]));
 const studioArtwork=new Map([...document.querySelectorAll('.service-scene')].map(scene=>[scene.getAttribute('aria-labelledby').replace('title-',''),scene.querySelector('.scene-art').cloneNode(true)]));
 </script>
 <script src="script.js"></script>
@@ -369,6 +443,11 @@ else if(selected===key)document.querySelector(".portfolio-intro")?.append(note);
 }
 const page=document.querySelector('.portfolio-page');
 const intro=page?.querySelector('.portfolio-intro');
+if(intro&&studioExamples.has(selected)){
+const examples=studioExamples.get(selected);
+examples.querySelectorAll('[data-en][data-el]').forEach(el=>el.textContent=el.dataset[document.documentElement.lang==='el'?'el':'en']);
+intro.append(examples);
+}
 if(intro&&studioArtwork.has(selected)){
 const feature=document.createElement('div');feature.className='portfolio-feature';
 intro.before(feature);feature.append(intro,studioArtwork.get(selected));
@@ -401,14 +480,74 @@ if(!e.isIntersecting)return;revealObserver.unobserve(e.target);
 if(media.matches||!e.target.animate)return;
 const animation=e.target.animate([{opacity:.2,clipPath:'inset(0 12% 0 0)',transform:'translateY(25px)'},{opacity:1,clipPath:'inset(0 0 0 0)',transform:'none'}],{duration:1000,easing:'cubic-bezier(.22,1,.36,1)'});
 running.add(animation);animation.onfinish=animation.oncancel=()=>running.delete(animation);
-}),{threshold:.15});art.forEach(el=>revealObserver.observe(el));
-addEventListener('scroll',schedule,{passive:true});addEventListener('resize',schedule,{passive:true});
-media.addEventListener('change',()=>{running.forEach(a=>a.cancel());art.forEach(el=>el.style.removeProperty('--photo-shift'));schedule();});
+}),{threshold:.15});
+art.forEach(el=>revealObserver.observe(el));
+addEventListener('scroll',schedule,{passive:true});
+addEventListener('resize',schedule,{passive:true});
+media.addEventListener('change',()=>{
+running.forEach(a=>a.cancel());
+art.forEach(el=>el.style.removeProperty('--photo-shift'));
+schedule();
+});
 }
 document.querySelectorAll('.photo-window img').forEach(img=>{
-const fail=()=>{img.hidden=true;img.closest('.photo-window').setAttribute('aria-label',img.alt);};
-img.addEventListener('error',fail);if(img.complete&&!img.naturalWidth)fail();
+const fail=()=>{
+img.hidden=true;
+const box=img.closest('.photo-window');
+box.setAttribute('role','img');
+box.setAttribute('aria-label',img.alt);
+};
+img.addEventListener('error',fail);
+if(img.complete&&!img.naturalWidth)fail();
 });
+const balancedSelector='main h1[data-en],main h2[data-en],main h3[data-en],main p[data-en],.faq-list summary>span[data-en]';
+function balanceLanguages(){
+const elements=[...document.querySelectorAll(balancedSelector)].filter(el=>el.getClientRects().length);
+const host=document.createElement('div');
+host.setAttribute('aria-hidden','true');
+host.inert=true;
+host.style.cssText='position:absolute;left:0;top:0;width:0;height:0;overflow:hidden;visibility:hidden;pointer-events:none;contain:layout style;';
+const properties=['font-family','font-size','font-weight','font-style','font-stretch','font-variant','line-height','letter-spacing','word-spacing','text-transform','text-indent','white-space','word-break','overflow-wrap','hyphens','padding-top','padding-right','padding-bottom','padding-left','border-top-width','border-right-width','border-bottom-width','border-left-width','border-style','box-sizing'];
+const pairs=elements.map(el=>{
+const style=getComputedStyle(el);
+const width=el.getBoundingClientRect().width;
+const copies=['en','el'].map(lang=>{
+const copy=document.createElement('div');
+copy.lang=lang;
+copy.textContent=el.dataset[lang];
+properties.forEach(key=>copy.style.setProperty(key,style.getPropertyValue(key)));
+copy.style.width=width+'px';
+copy.style.boxSizing='border-box';
+copy.style.margin='0';
+copy.style.minHeight='0';
+copy.style.maxHeight='none';
+copy.style.height='auto';
+host.append(copy);
+return copy;
+});
+return {el,copies};
+});
+document.body.append(host);
+const sizes=pairs.map(({el,copies})=>({
+el,height:Math.ceil(Math.max(...copies.map(copy=>copy.getBoundingClientRect().height)))
+}));
+host.remove();
+sizes.forEach(({el,height})=>el.style.minHeight=height+'px');
+}
+let balanceFrame=0;
+function scheduleBalance(){
+cancelAnimationFrame(balanceFrame);
+balanceFrame=requestAnimationFrame(balanceLanguages);
+}
+scheduleBalance();
+document.fonts?.ready.then(scheduleBalance);
+addEventListener('resize',scheduleBalance,{passive:true});
+new MutationObserver(scheduleBalance).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+document.querySelectorAll('.faq-list details').forEach(el=>el.addEventListener('toggle',scheduleBalance));
+const heroLogo=document.querySelector('.reference-hero .hero-image img');
+if(heroLogo&&!media.matches&&heroLogo.animate){
+heroLogo.animate([{opacity:0,transform:'translateY(18px) scale(1.025)'},{opacity:.78,transform:'translateY(0) scale(1)'}],{duration:1100,easing:'cubic-bezier(.22,1,.36,1)'});
+}
 })();
 </script>
 </body>
