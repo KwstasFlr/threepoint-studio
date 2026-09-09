@@ -1,214 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>
-        Co-Founders — 3POINT STUDIO
-    </title>
-
-    <link
-        rel="stylesheet"
-        href="style.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Co-Founders — 3POINT STUDIO</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.founders-grid{gap:24px;align-items:stretch}
+.founder-card{min-height:240px;min-width:0;display:flex;flex-direction:column;justify-content:space-between;gap:26px;padding:35px;background:var(--panel)}
+.founder-card h2{overflow-wrap:anywhere}
+.founder-card .founder-role{margin-top:0}
+.studio-partner{display:block;width:100%;max-width:calc((100% - 48px)/3);margin-top:30px;padding:20px;background:var(--panel)}
+.studio-partner .partner-label{font-size:11px;color:var(--muted);letter-spacing:.04em;margin-bottom:12px}
+.studio-partner h2{font-size:21px;line-height:1.2;margin-bottom:8px}
+.studio-partner .partner-role{color:var(--blue);font-size:13px;margin-bottom:8px}
+.studio-partner .partner-description{color:var(--muted);font-size:13px}
+.partner-links{display:flex;flex-wrap:wrap;gap:0 18px;margin-top:10px}
+.partner-links a{display:inline-flex;gap:13px;align-items:center;min-height:44px;font-size:13px}
+.partner-links span{color:var(--blue)}
+.partner-links a:hover{color:var(--blue)}
+@media(max-width:950px) and (min-width:701px){
+.founders-grid{gap:16px}
+.founder-card{padding:24px}
+.founder-card h2{font-size:23px}
+}
+@media(max-width:700px){
+.founders-grid{gap:20px}
+.founder-card{padding:25px;gap:22px}
+.studio-partner{max-width:100%;margin-top:24px;padding:20px}
+}
+</style>
 </head>
-
-
 <body>
 
-
 <nav>
-
-    <a
-        href="index.html"
-        class="logo">
-
-        <div class="logo-three">
-            3
-        </div>
-
-        <div class="logo-word">
-
-            <span>
-                POINT
-            </span>
-
-            <small>
-                STUDIO ATH
-            </small>
-
-        </div>
-
-    </a>
-
-
-    <div class="nav-right">
-
-        <div class="language-switcher">
-
-            <button
-                id="grBtn"
-                class="language-button"
-                type="button">
-                ΕΛ
-            </button>
-
-            <button
-                id="enBtn"
-                class="language-button"
-                type="button">
-                ENG
-            </button>
-
-        </div>
-
-
-        <a
-            href="index.html"
-            class="back-button">
-
-            <span
-                data-en="← BACK"
-                data-el="← ΠΙΣΩ">
-
-                ← BACK
-
-            </span>
-
-        </a>
-
-    </div>
-
+<a href="index.html" class="logo">
+<div class="logo-three">3</div>
+<div class="logo-word"><span>POINT</span><small>STUDIO ATH</small></div>
+</a>
+<div class="nav-right">
+<div class="language-switcher">
+<button id="grBtn" class="language-button" type="button">ΕΛ</button>
+<button id="enBtn" class="language-button" type="button">ENG</button>
+</div>
+<a href="index.html" class="back-button"><span data-en="← BACK" data-el="← ΠΙΣΩ">← BACK</span></a>
+</div>
 </nav>
 
-
 <main class="founders-main">
+<div class="founders-intro">
+<small data-en="THE PEOPLE BEHIND THREEPOINT STUDIO" data-el="ΟΙ ΑΝΘΡΩΠΟΙ ΠΙΣΩ ΑΠΟ ΤΟ THREEPOINT STUDIO">THE PEOPLE BEHIND THREEPOINT STUDIO</small>
+<h1><span data-en="Meet the" data-el="Γνώρισε τους">Meet the</span><br>Co-Founders.</h1>
+<p data-en="Three people. One studio. Endless ideas." data-el="Τρία άτομα. Ένα studio. Αμέτρητες ιδέες.">Three people. One studio. Endless ideas.</p>
+</div>
 
+<div class="founders-grid">
+<article class="founder-card">
+<h2>KONSTANTINOS FLOROS</h2>
+<div class="founder-role">WEB DEVELOPMENT &amp; RESEARCH</div>
+</article>
+<article class="founder-card">
+<h2>ATHANASIOS BIMIS</h2>
+<div class="founder-role">APP DEVELOPMENT &amp; ENGINEERING</div>
+</article>
+<article class="founder-card">
+<h2>ARISTIDIS GKAGKARIS</h2>
+<div class="founder-role">DESIGN &amp; 3D MODELING</div>
+</article>
+</div>
 
-    <div class="founders-intro">
-
-        <small
-            data-en="THE PEOPLE BEHIND THREEPOINT STUDIO"
-            data-el="ΟΙ ΑΝΘΡΩΠΟΙ ΠΙΣΩ ΑΠΟ ΤΟ THREEPOINT STUDIO">
-
-            THE PEOPLE BEHIND THREEPOINT STUDIO
-
-        </small>
-
-
-        <h1>
-
-            <span
-                data-en="Meet the"
-                data-el="Γνώρισε τους">
-
-                Meet the
-
-            </span>
-
-            <br>
-
-            Co-Founders.
-
-        </h1>
-
-
-        <p
-            data-en="Three people. One studio. Endless ideas."
-            data-el="Τρία άτομα. Ένα studio. Αμέτρητες ιδέες.">
-
-            Three people. One studio. Endless ideas.
-
-        </p>
-
-    </div>
-
-
-    <div class="founders-grid">
-
-
-        <article class="founder-card">
-
-            <h2>
-                KONSTANTINOS FLOROS
-            </h2>
-
-            <div class="founder-role">
-                WEB DEVELOPMENT &amp; RESEARCH
-            </div>
-
-        </article>
-
-
-        <article class="founder-card">
-
-            <h2>
-                ATHANASIOS BIMIS
-            </h2>
-
-            <div class="founder-role">
-                APP DEVELOPMENT &amp; ENGINEERING
-            </div>
-
-        </article>
-
-
-        <article class="founder-card">
-
-            <h2>
-                ARISTIDIS GKAGKARIS
-            </h2>
-
-            <div class="founder-role">
-                DESIGN &amp; 3D MODELING
-            </div>
-
-        </article>
-
-
-    </div>
-
-
+<section class="studio-partner" aria-labelledby="partner-name" data-reveal>
+<p class="partner-label" data-en="Exclusive Partner" data-el="Αποκλειστικός συνεργάτης">Exclusive Partner</p>
+<div>
+<h2 id="partner-name">Theofulaktos Spendas</h2>
+<p class="partner-role">Music Producer</p>
+<p class="partner-description" data-en="Music &amp; beats · FL Studio" data-el="Μουσική &amp; beats · FL Studio">Music &amp; beats · FL Studio</p>
+<div class="partner-links">
+<a href="https://www.youtube.com/@SpeTheof1996/videos" target="_blank" rel="noopener noreferrer">SpeTheof1996 <span aria-hidden="true">↗</span></a>
+<a href="https://www.youtube.com/@spetheofmusic/videos" target="_blank" rel="noopener noreferrer">SpeTheof Music <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</section>
 </main>
 
-
 <footer>
-
-    <div class="footer-main">
-
-        <div>
-
-            © 2026
-
-            <strong>
-                THREEPOINT STUDIOATH
-            </strong>
-
-            ALL RIGHTS RESERVED
-
-        </div>
-
-
-        <div
-            data-en="Made with ideas."
-            data-el="Φτιαγμένο με ιδέες.">
-
-            Made with ideas.
-
-        </div>
-
-    </div>
-
+<div class="footer-main">
+<div>© 2026 <strong>THREEPOINT STUDIO ATH</strong> ALL RIGHTS RESERVED</div>
+<div data-en="Made with ideas." data-el="Φτιαγμένο με ιδέες.">Made with ideas.</div>
+</div>
 </footer>
 
-
 <script src="script.js"></script>
-
 </body>
 </html>
