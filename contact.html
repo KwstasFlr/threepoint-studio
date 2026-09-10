@@ -3,216 +3,294 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact — Threepoint Studio ATH</title>
+<meta name="description" content="Start a project with THREEPOINT Studio ATH in Athens. Tell us about your website, e-shop, app, game, digital tool, 3D or music project.">
+<title>Start a Project | THREEPOINT Studio ATH</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
 <style>
-.contact-page .contact-box{max-width:1200px}
-.contact-page .contact-main{padding-top:55px}
-.contact-page .contact-box h1{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:clamp(40px,5vw,68px);max-width:800px}
-.contact-page .contact-description{font-size:16px;max-width:720px}
-.contact-page .contact-choices{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:24px}
-.contact-page .contact-choice{min-width:0;min-height:145px;padding:24px;transition:background .35s,transform .4s var(--ease)}
-.contact-page .contact-choice:hover{transform:translateY(-4px);background:#182330}
-.contact-page .contact-choice.active{background:#16344f;box-shadow:none}
-.contact-page .contact-choice-name{font-size:18px;line-height:1.25;margin-bottom:12px;padding-right:12px;color:var(--ink)}
-.contact-page .contact-choice em{display:block;font-size:13px;line-height:1.6}
-.contact-page .contact-choice-check{color:#8ecbff}
-.contact-page .contact-choice.active em{color:#c0d0dd}
-.contact-service-info{padding:28px;background:var(--panel);margin-bottom:35px}
-.contact-service-info h2{font-size:23px;margin-bottom:14px}
-.contact-service-info p{font-size:14px;line-height:1.8;color:var(--muted);max-width:900px}
-.contact-service-info .hosting-note{font-size:12px;margin-top:18px;color:var(--blue)}
-.contact-service-info .scope-note{font-size:12px;margin-top:12px}
-.contact-send{padding:32px;background:var(--panel)}
-.contact-send .contact-email{display:inline-block;font-size:clamp(17px,2vw,24px);margin-bottom:20px;overflow-wrap:anywhere;max-width:100%}
-.contact-send .contact-email:hover{color:var(--blue)}
-.contact-actions{display:flex;align-items:center;gap:18px 26px;flex-wrap:wrap}
-.contact-actions .email-app{font-size:14px;min-height:44px;display:inline-flex;align-items:center}
-.contact-actions .email-app:hover{color:var(--blue)}
-.contact-send .gmail-note{max-width:780px;line-height:1.8;margin-top:20px}
+.contact-page .contact-main{padding:55px var(--pad) 75px}
+.contact-page .contact-box{max-width:1200px;margin:auto}
+.contact-page .contact-box h1{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:clamp(38px,5vw,68px);margin-bottom:22px}
+.contact-description{max-width:670px;color:var(--muted);margin-bottom:35px;font-size:16px;line-height:1.8}
+.contact-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;align-items:start}
+.project-form{padding:32px;background:var(--panel);border-radius:8px;min-width:0}
+.form-fields{display:grid;grid-template-columns:1fr;gap:22px 18px}
+.form-field{min-width:0;display:flex;flex-direction:column;gap:8px}
+.form-field.wide{grid-column:1/-1}
+.form-field label{font-size:14px;color:var(--ink)}
+.form-field input,.form-field select,.form-field textarea{width:100%;min-width:0;min-height:48px;border:1px solid #344353;border-radius:4px;padding:12px;background:var(--bg);color:var(--ink);font-size:16px}
+.form-field textarea{min-height:180px;resize:vertical;line-height:1.7}
+.form-field :is(input,select,textarea):focus{border-color:var(--blue);outline:2px solid var(--blue);outline-offset:2px}
+.form-note{font-size:13px;line-height:1.8;color:var(--muted);margin-top:20px}
+.form-note a{text-decoration:underline;text-underline-offset:3px}
+.form-submit{margin-top:22px;min-height:48px;padding:12px 22px;background:var(--blue);color:#080a0d;border:0;border-radius:4px;font-size:14px;font-weight:600}
+.form-submit:hover{background:#6db2ee}
+.form-submit:disabled{opacity:.6;cursor:wait}
+.form-status{font-size:14px;line-height:1.7;color:var(--muted);margin-top:16px}
+.form-status[data-state="error"]{color:#ffb1ad}
+.form-status[data-state="success"]{color:#9ee5bc}
+.form-trap{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.contact-side{min-width:0}
+.contact-service-info,.contact-send{padding:28px;background:var(--panel);border-radius:8px}
+.contact-service-info{margin-bottom:22px}
+.contact-service-info h2{font-size:24px;margin-bottom:16px}
+.contact-service-info p{font-size:14px;line-height:1.85;color:var(--muted)}
+.contact-service-info .hosting-note{margin-top:20px;font-size:13px;color:#8ecbff}
+.contact-service-info .scope-note{margin-top:14px;font-size:13px}
+.contact-email{display:block;overflow-wrap:anywhere;font-size:clamp(16px,1.7vw,21px);margin-bottom:18px}
+.contact-email:hover{color:var(--blue)}
+.contact-actions{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center}
+.contact-actions a,.contact-actions button{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
+.contact-actions button{border:0;padding:0;background:none}
+.contact-actions :is(a,button):hover{color:var(--blue)}
+.contact-send .gmail-note{font-size:13px;color:var(--muted);line-height:1.8;margin-top:16px}
+.copy-status{font-size:13px;color:#8ecbff;min-height:24px;margin-top:8px}
 footer .social-links{gap:28px}
-footer .social-links a{display:inline-flex;align-items:center;min-height:44px;font-size:16px;font-weight:500;color:var(--ink);transition:color .2s}
+footer .social-links a{display:inline-flex;align-items:center;min-height:44px;font-size:16px;color:var(--ink);transition:color .2s}
 footer .social-links a[href*="instagram.com"]:is(:hover,:focus-visible){color:#e1306c}
 footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4ee}
-@media(max-width:950px){
-.contact-page .contact-choices{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:850px){
+.contact-layout{grid-template-columns:1fr}
+.contact-page .contact-main{padding-top:35px}
 }
 @media(max-width:500px){
-.contact-page .contact-choices{grid-template-columns:1fr;gap:12px}
-.contact-page .contact-choice{min-height:110px;padding:22px}
-.contact-service-info,.contact-send{padding:23px}
-.contact-page .contact-main{padding-top:30px}
+.form-fields{grid-template-columns:1fr}
+.project-form,.contact-service-info,.contact-send{padding:23px}
+.contact-page nav{flex-wrap:wrap}
+.contact-page .nav-right{margin-left:auto}
 }
-@media(prefers-reduced-motion:reduce){
-.contact-page .contact-choice:hover{transform:none}
-}
+.form-column{min-width:0}
+.direct-email{margin:18px 0 0;font-size:13px;line-height:1.8;color:var(--muted);text-align:center;overflow-wrap:anywhere}
+.direct-email a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.direct-email a:hover{color:var(--blue)}
+.contact-page .contact-choices{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:28px}
+.contact-page .contact-choice{min-width:0;min-height:145px;padding:24px;border-radius:8px;transition:background .3s,transform .3s}
+.contact-page .contact-choice:hover{transform:translateY(-3px);background:#182330}
+.contact-page .contact-choice.active{background:#16344f;box-shadow:none}
+.contact-page .contact-choice-name{font-size:18px;line-height:1.3;color:var(--ink);padding-right:12px}
+.contact-page .contact-choice em{font-size:13px;line-height:1.6}
+.contact-page .contact-choice.active em{color:#c0d0dd}
+.service-help{font-size:12px;color:var(--muted)}
+@media(max-width:950px){.contact-page .contact-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:500px){.contact-page .contact-choices{grid-template-columns:1fr}.contact-page .contact-choice{min-height:110px}}
+@media(prefers-reduced-motion:reduce){.contact-page .contact-choice:hover{transform:none}}
+.hosting-box{padding:28px;background:#132132;border-radius:8px;margin-top:22px}
+.hosting-box h2{font-size:20px;line-height:1.3;margin-bottom:14px}
+.hosting-box p{font-size:13px;line-height:1.85;color:#b7c7d8;margin:0}
+@media(max-width:500px){.hosting-box{padding:23px}}
 </style>
 </head>
 <body class="contact-page">
+<a class="skip-link" href="#main" data-en="Skip to content" data-el="Μετάβαση στο περιεχόμενο">Skip to content</a>
 
 <nav>
-<a href="index.html" class="logo" aria-label="Threepoint Studio ATH home">
-<div class="logo-three">3</div>
-<div class="logo-word"><span>POINT</span><small>STUDIO ATH</small></div>
-</a>
+<a href="index.html" class="logo" aria-label="Threepoint Studio ATH home"><div class="logo-three">3</div><div class="logo-word"><span>POINT</span><small>STUDIO ATH</small></div></a>
 <div class="nav-right">
-<div class="language-switcher">
-<button id="grBtn" class="language-button" type="button">ΕΛ</button>
-<button id="enBtn" class="language-button" type="button">ENG</button>
-</div>
-<a href="index.html" class="back-button">
-<span data-en="← BACK" data-el="← ΠΙΣΩ">← BACK</span>
-</a>
+<div class="language-switcher"><button id="grBtn" class="language-button" type="button" aria-label="Ελληνικά">ΕΛ</button><button id="enBtn" class="language-button" type="button" aria-label="English">ENG</button></div>
+<a href="index.html" class="back-button"><span data-en="← BACK" data-el="← ΠΙΣΩ">← BACK</span></a>
 </div>
 </nav>
 
-<main class="contact-main">
+<main id="main" class="contact-main">
 <div class="contact-box">
+<h1 data-en="Start a project." data-el="Ξεκίνα το project σου.">Start a project.</h1>
+<p class="contact-description" data-en="Tell us what you want to create. We will review your idea and discuss the scope, price and timeline by email." data-el="Πες μας τι θέλεις να δημιουργήσεις. Θα εξετάσουμε την ιδέα σου και θα συζητήσουμε το περιεχόμενο, το κόστος και το χρονοδιάγραμμα μέσω email.">Tell us what you want to create. We will review your idea and discuss the scope, price and timeline by email.</p>
 
-<h1 data-en="Tell us what you have in mind." data-el="Πες μας τι έχεις στο μυαλό σου.">Tell us what you have in mind.</h1>
-<p class="contact-description" data-en="Choose the service you are interested in and email us your idea, requirements and any examples you like." data-el="Διάλεξε την υπηρεσία που σε ενδιαφέρει και στείλε μας με email την ιδέα σου, τις ανάγκες σου και παραδείγματα που σου αρέσουν.">Choose the service you are interested in and email us your idea, requirements and any examples you like.</p>
-
-<div class="contact-choices" role="group" aria-label="Project type">
-
-<button class="contact-choice active" data-project="Website" data-detail="websites" aria-pressed="true" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name" data-en="Websites" data-el="Ιστοσελίδες">Websites</span>
-<em data-en="Business websites and portfolios" data-el="Εταιρικές ιστοσελίδες και portfolio">Business websites and portfolios</em>
-</button>
-
-<button class="contact-choice" data-project="E-shop" data-detail="eshops" aria-pressed="false" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name">E-shops</span>
-<em data-en="Online stores and product catalogues" data-el="Ηλεκτρονικά καταστήματα και κατάλογοι προϊόντων">Online stores and product catalogues</em>
-</button>
-
-<button class="contact-choice" data-project="Browser Game" data-detail="games" aria-pressed="false" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name">Browser Games</span>
-<em data-en="Games and quizzes in the browser" data-el="Παιχνίδια και quiz στον browser">Games and quizzes in the browser</em>
-</button>
-
-<button class="contact-choice" data-project="App" data-detail="apps" aria-pressed="false" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name" data-en="Apps" data-el="Εφαρμογές">Apps</span>
-<em data-en="Games, reading and custom applications" data-el="Παιχνίδια, ανάγνωση και εφαρμογές">Games, reading and custom applications</em>
-</button>
-
-<button class="contact-choice" data-project="Digital Tool" data-detail="tools" aria-pressed="false" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name">Digital Tools</span>
-<em data-en="Organisation and everyday automation" data-el="Οργάνωση και αυτοματοποίηση εργασιών">Organisation and everyday automation</em>
-</button>
-
-<button class="contact-choice" data-project="3D Modeling" data-detail="modeling" aria-pressed="false" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name">3D Modeling</span>
-<em data-en="Models and product visualisations" data-el="Μοντέλα και απεικονίσεις προϊόντων">Models and product visualisations</em>
-</button>
-
-<button class="contact-choice" data-project="Music and Beats" data-detail="music" aria-pressed="false" aria-controls="contactDetails" type="button">
-<span class="contact-choice-check" aria-hidden="true">✓</span>
-<span class="contact-choice-name" data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</span>
-<em data-en="Music production in FL Studio" data-el="Μουσική παραγωγή στο FL Studio">Music production in FL Studio</em>
-</button>
-
+<div class="contact-choices" role="group" aria-label="Select a service">
+<button class="contact-choice active" type="button" data-service="websites" aria-pressed="true" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Websites" data-el="Ιστοσελίδες">Websites</span><em data-en="Business websites and portfolios" data-el="Εταιρικές ιστοσελίδες και portfolio">Business websites and portfolios</em></button>
+<button class="contact-choice" type="button" data-service="eshops" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="E-shops" data-el="E-shops">E-shops</span><em data-en="Online stores and product catalogues" data-el="Ηλεκτρονικά καταστήματα και κατάλογοι προϊόντων">Online stores and product catalogues</em></button>
+<button class="contact-choice" type="button" data-service="games" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Browser Games" data-el="Παιχνίδια browser">Browser Games</span><em data-en="Games and quizzes in the browser" data-el="Παιχνίδια και quiz στον browser">Games and quizzes in the browser</em></button>
+<button class="contact-choice" type="button" data-service="apps" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Apps" data-el="Εφαρμογές">Apps</span><em data-en="Games, reading and custom applications" data-el="Παιχνίδια, ανάγνωση και εφαρμογές">Games, reading and custom applications</em></button>
+<button class="contact-choice" type="button" data-service="tools" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Digital Tools" data-el="Ψηφιακά εργαλεία">Digital Tools</span><em data-en="Organisation and everyday automation" data-el="Οργάνωση και αυτοματοποίηση εργασιών">Organisation and everyday automation</em></button>
+<button class="contact-choice" type="button" data-service="modeling" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="3D Modeling" data-el="3D μοντελοποίηση">3D Modeling</span><em data-en="Models and product visualisations" data-el="Μοντέλα και απεικονίσεις προϊόντων">Models and product visualisations</em></button>
+<button class="contact-choice" type="button" data-service="music" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</span><em data-en="Music production in FL Studio" data-el="Μουσική παραγωγή στο FL Studio">Music production in FL Studio</em></button>
 </div>
 
-<div class="contact-service-info" id="contactDetails" aria-live="polite" aria-atomic="true">
+<div class="contact-layout">
+<div class="form-column">
+<form id="projectForm" class="project-form" method="post">
+<div class="form-fields">
 
-<section data-service-info="websites">
-<h2 data-en="Websites" data-el="Ιστοσελίδες">Websites</h2>
-<p data-en="Responsive layouts, contact forms, basic SEO and initial Google Analytics setup. We agree on the pages and features your website needs." data-el="Προσαρμογή σε κινητά, φόρμες επικοινωνίας, βασικό SEO και αρχική ρύθμιση Google Analytics. Συμφωνούμε τις σελίδες και τις λειτουργίες που χρειάζεται η ιστοσελίδα σου.">Responsive layouts, contact forms, basic SEO and initial Google Analytics setup. We agree on the pages and features your website needs.</p>
-</section>
+<div class="form-field">
+<label for="projectName" data-en="Name" data-el="Όνομα">Name</label>
+<input id="projectName" name="name" autocomplete="name" required maxlength="100">
+</div>
 
-<section data-service-info="eshops" hidden>
-<h2>E-shops</h2>
-<p data-en="Product categories and filters, product and order management, and payment provider integration. Basic SEO and initial Google Analytics setup are included in the build. Payment provider fees are separate." data-el="Κατηγορίες και φίλτρα προϊόντων, διαχείριση προϊόντων και παραγγελιών και σύνδεση παρόχων πληρωμής. Στην κατασκευή περιλαμβάνονται βασικό SEO και αρχική ρύθμιση Google Analytics. Οι προμήθειες των παρόχων πληρωμών είναι ξεχωριστές.">Product categories and filters, product and order management, and payment provider integration. Basic SEO and initial Google Analytics setup are included in the build. Payment provider fees are separate.</p>
-</section>
+<div class="form-field">
+<label for="projectEmail" data-en="Email" data-el="Email">Email</label>
+<input id="projectEmail" name="email" type="email" autocomplete="email" required maxlength="254">
+</div>
 
-<section data-service-info="games" hidden>
-<h2>Browser Games</h2>
-<p data-en="Games and quizzes that run directly in the browser. We discuss the game rules, interaction and any progress or score features your project needs." data-el="Παιχνίδια και quiz που λειτουργούν απευθείας στον browser. Συζητάμε τους κανόνες, την αλληλεπίδραση και τις λειτουργίες προόδου ή βαθμολογίας που χρειάζεται το project.">Games and quizzes that run directly in the browser. We discuss the game rules, interaction and any progress or score features your project needs.</p>
-</section>
+<div class="form-field wide">
+<label for="projectType" data-en="Selected Service" data-el="Επιλεγμένη υπηρεσία">Selected Service</label>
+<select id="projectType" name="service" required aria-describedby="serviceHelp">
+<option value="websites" data-en="Websites" data-el="Ιστοσελίδες">Websites</option>
+<option value="eshops" data-en="E-shops" data-el="E-shops">E-shops</option>
+<option value="apps" data-en="Apps" data-el="Εφαρμογές">Apps</option>
+<option value="tools" data-en="Digital Tools" data-el="Ψηφιακά εργαλεία">Digital Tools</option>
+<option value="modeling" data-en="3D Modeling" data-el="3D μοντελοποίηση">3D Modeling</option>
+<option value="music" data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</option>
+<option value="games" data-en="Browser Games" data-el="Παιχνίδια browser">Browser Games</option>
+</select>
+<span id="serviceHelp" class="service-help" data-en="Choose here or use the service cards above." data-el="Επίλεξε εδώ ή από τις κάρτες υπηρεσιών παραπάνω.">Choose here or use the service cards above.</span>
+</div>
 
-<section data-service-info="apps" hidden>
-<h2 data-en="Apps" data-el="Εφαρμογές">Apps</h2>
-<p data-en="Applications with features tailored to your project, including games and reading experiences. The supported devices, functions and testing are agreed in the proposal." data-el="Εφαρμογές με λειτουργίες προσαρμοσμένες στο project σου, όπως παιχνίδια και εφαρμογές ανάγνωσης. Οι υποστηριζόμενες συσκευές, οι λειτουργίες και οι δοκιμές καθορίζονται στην προσφορά.">Applications with features tailored to your project, including games and reading experiences. The supported devices, functions and testing are agreed in the proposal.</p>
-</section>
+<div class="form-field wide">
+<label for="projectIdea" data-en="Message" data-el="Μήνυμα">Message</label>
+<textarea id="projectIdea" name="message" required minlength="10" maxlength="5000"></textarea>
+</div>
+</div>
 
-<section data-service-info="tools" hidden>
-<h2>Digital Tools</h2>
-<p data-en="Tools for organising and searching information, exporting files and automating repetitive tasks. Features and integrations are selected around your workflow." data-el="Εργαλεία για οργάνωση και αναζήτηση πληροφοριών, εξαγωγή αρχείων και αυτοματοποίηση επαναλαμβανόμενων εργασιών. Οι λειτουργίες και οι συνδέσεις επιλέγονται με βάση τον τρόπο που δουλεύεις.">Tools for organising and searching information, exporting files and automating repetitive tasks. Features and integrations are selected around your workflow.</p>
-</section>
+<div class="form-trap" aria-hidden="true"><label for="projectWebsite">Leave empty</label><input id="projectWebsite" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+<p class="form-note" data-en="We use these details to reply to your project enquiry." data-el="Χρησιμοποιούμε αυτά τα στοιχεία για να απαντήσουμε στο αίτημά σου.">We use these details to reply to your project enquiry.</p>
+<button id="projectSubmit" class="form-submit" type="submit" disabled><span id="submitLabel">SEND</span></button>
+<p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+<noscript><p class="form-note">Please email <a href="mailto:threepointstudioath@gmail.com">threepointstudioath@gmail.com</a>.</p></noscript>
+</form>
 
-<section data-service-info="modeling" hidden>
-<h2>3D Modeling</h2>
-<p data-en="Three-dimensional models and product visualisations. Send references and intended uses so we can agree on the level of detail and delivery formats." data-el="Τρισδιάστατα μοντέλα και απεικονίσεις προϊόντων. Στείλε παραδείγματα και την προβλεπόμενη χρήση, ώστε να συμφωνήσουμε το επίπεδο λεπτομέρειας και τις μορφές παράδοσης.">Three-dimensional models and product visualisations. Send references and intended uses so we can agree on the level of detail and delivery formats.</p>
-</section>
+<p class="direct-email"><span data-en="or email us via Gmail at" data-el="ή στείλε μας μέσω Gmail στο">or email us via Gmail at</span> <a href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=threepointstudioath%40gmail.com" target="_blank" rel="noopener noreferrer">threepointstudioath@gmail.com</a></p>
+</div>
 
-<section data-service-info="music" hidden>
-<h2 data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</h2>
-<p data-en="Music and beats produced in FL Studio by our exclusive partner, Theofulaktos Spendas. Tell us about the style, duration and intended use." data-el="Μουσική και beats με παραγωγή στο FL Studio από τον αποκλειστικό συνεργάτη μας, Theofulaktos Spendas. Πες μας το ύφος, τη διάρκεια και τη χρήση που έχεις στο μυαλό σου.">Music and beats produced in FL Studio by our exclusive partner, Theofulaktos Spendas. Tell us about the style, duration and intended use.</p>
-</section>
-
-<p id="contactHosting" class="hosting-note" data-en="Free domain and hosting for larger online projects. Duration and coverage are specified in the quote." data-el="Δωρεάν domain και hosting σε μεγάλα online projects. Η διάρκεια και οι παροχές καθορίζονται στην προσφορά.">Free domain and hosting for larger online projects. Duration and coverage are specified in the quote.</p>
-
+<aside class="contact-side">
+<div class="contact-service-info" id="contactDetails">
+<section data-service-info="websites"><h2 data-en="Websites" data-el="Ιστοσελίδες">Websites</h2><p data-en="Responsive layouts, contact forms, basic SEO and initial Google Analytics setup. We agree on the pages and features your website needs." data-el="Προσαρμογή σε κινητά, φόρμες επικοινωνίας, βασικό SEO και αρχική ρύθμιση Google Analytics. Συμφωνούμε τις σελίδες και τις λειτουργίες που χρειάζεται η ιστοσελίδα σου.">Responsive layouts, contact forms, basic SEO and initial Google Analytics setup. We agree on the pages and features your website needs.</p></section>
+<section data-service-info="eshops" hidden><h2>E-shops</h2><p data-en="Product categories and filters, product and order management, and payment provider integration. Basic SEO and initial Google Analytics setup are included in the build. Payment provider fees are separate." data-el="Κατηγορίες και φίλτρα προϊόντων, διαχείριση προϊόντων και παραγγελιών και σύνδεση παρόχων πληρωμής. Στην κατασκευή περιλαμβάνονται βασικό SEO και αρχική ρύθμιση Google Analytics. Οι προμήθειες των παρόχων πληρωμών είναι ξεχωριστές.">Product categories and filters, product and order management, and payment provider integration. Basic SEO and initial Google Analytics setup are included in the build. Payment provider fees are separate.</p></section>
+<section data-service-info="games" hidden><h2>Browser Games</h2><p data-en="Games and quizzes that run directly in the browser. We discuss the game rules, interaction and any progress or score features your project needs." data-el="Παιχνίδια και quiz που λειτουργούν απευθείας στον browser. Συζητάμε τους κανόνες, την αλληλεπίδραση και τις λειτουργίες προόδου ή βαθμολογίας που χρειάζεται το project.">Games and quizzes that run directly in the browser. We discuss the game rules, interaction and any progress or score features your project needs.</p></section>
+<section data-service-info="apps" hidden><h2 data-en="Apps" data-el="Εφαρμογές">Apps</h2><p data-en="Applications with features tailored to your project, including games and reading experiences. The supported devices, functions and testing are agreed in the proposal." data-el="Εφαρμογές με λειτουργίες προσαρμοσμένες στο project σου, όπως παιχνίδια και εφαρμογές ανάγνωσης. Οι υποστηριζόμενες συσκευές, οι λειτουργίες και οι δοκιμές καθορίζονται στην προσφορά.">Applications with features tailored to your project, including games and reading experiences. The supported devices, functions and testing are agreed in the proposal.</p></section>
+<section data-service-info="tools" hidden><h2>Digital Tools</h2><p data-en="Tools for organising and searching information, exporting files and automating repetitive tasks. Features and integrations are selected around your workflow." data-el="Εργαλεία για οργάνωση και αναζήτηση πληροφοριών, εξαγωγή αρχείων και αυτοματοποίηση επαναλαμβανόμενων εργασιών. Οι λειτουργίες και οι συνδέσεις επιλέγονται με βάση τον τρόπο που δουλεύεις.">Tools for organising and searching information, exporting files and automating repetitive tasks. Features and integrations are selected around your workflow.</p></section>
+<section data-service-info="modeling" hidden><h2>3D Modeling</h2><p data-en="Three-dimensional models and product visualisations. Send references and intended uses so we can agree on the level of detail and delivery formats." data-el="Τρισδιάστατα μοντέλα και απεικονίσεις προϊόντων. Στείλε παραδείγματα και την προβλεπόμενη χρήση, ώστε να συμφωνήσουμε το επίπεδο λεπτομέρειας και τις μορφές παράδοσης.">Three-dimensional models and product visualisations. Send references and intended uses so we can agree on the level of detail and delivery formats.</p></section>
+<section data-service-info="music" hidden><h2 data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</h2><p data-en="Music and beats produced in FL Studio by our exclusive partner, Theofulaktos Spendas. Tell us about the style, duration and intended use." data-el="Μουσική και beats με παραγωγή στο FL Studio από τον αποκλειστικό συνεργάτη μας, Theofulaktos Spendas. Πες μας το ύφος, τη διάρκεια και τη χρήση που έχεις στο μυαλό σου.">Music and beats produced in FL Studio by our exclusive partner, Theofulaktos Spendas. Tell us about the style, duration and intended use.</p></section>
 <p class="scope-note" data-en="The exact features and deliverables are agreed in your project proposal." data-el="Οι ακριβείς λειτουργίες και τα παραδοτέα συμφωνούνται στην προσφορά του project σου.">The exact features and deliverables are agreed in your project proposal.</p>
-
 </div>
 
-<div class="contact-send">
-<a class="contact-email" href="mailto:threepointstudioath@gmail.com">threepointstudioath@gmail.com</a>
-
-<div class="contact-actions">
-<a href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;to=threepointstudioath%40gmail.com" id="gmailButton" class="gmail-button" target="_blank" rel="noopener noreferrer">
-<span data-en="Open Gmail" data-el="Άνοιξε το Gmail">Open Gmail</span>
-</a>
-<a id="emailAppLink" class="email-app" href="mailto:threepointstudioath@gmail.com" data-en="Use another email app" data-el="Χρήση άλλης εφαρμογής email">Use another email app</a>
+<div id="hostingBox" class="hosting-box">
+<h2>Domain &amp; hosting</h2>
+<p id="contactHosting" class="hosting-note" data-en="Domain and hosting for the first year are included on selected online projects. Coverage and renewal charges are specified in your quote." data-el="Σε επιλεγμένα online projects περιλαμβάνονται domain και hosting για τον πρώτο χρόνο. Οι παροχές και οι χρεώσεις ανανέωσης αναφέρονται στην προσφορά.">Domain and hosting for the first year are included on selected online projects. Coverage and renewal charges are specified in your quote.</p>
 </div>
-
-<p class="gmail-note" data-en="Your selected service is included in the email subject. Describe what you need and attach any useful references. Pricing and a proposed timeline will be discussed by email after we review your request." data-el="Η υπηρεσία που επέλεξες μπαίνει στο θέμα του email. Περιέγραψε τι χρειάζεσαι και επισύναψε χρήσιμα παραδείγματα. Η τιμή και το προτεινόμενο χρονοδιάγραμμα θα συζητηθούν μέσω email, αφού εξετάσουμε το αίτημά σου.">Your selected service is included in the email subject. Describe what you need and attach any useful references. Pricing and a proposed timeline will be discussed by email after we review your request.</p>
-
+</aside>
 </div>
 </div>
 </main>
 
-<footer>
-<div class="footer-main">
-<span>© 2026 THREEPOINT STUDIO ATH</span>
-<div class="social-links">
-<a href="https://www.instagram.com/threepointstudioath/" target="_blank" rel="noopener noreferrer">Instagram</a>
-<a href="https://www.tiktok.com/@threepoint.studio" target="_blank" rel="noopener noreferrer">TikTok</a>
-</div>
-</div>
-</footer>
-
+<footer><div class="footer-main"><span>© 2026 THREEPOINT STUDIO ATH</span><div class="social-links"><a href="founders.html" data-en="Founders" data-el="Συνιδρυτές">Founders</a><a href="https://www.instagram.com/threepointstudioath/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.tiktok.com/@threepoint.studio" target="_blank" rel="noopener noreferrer">TikTok</a></div></div></footer>
 <script src="script.js"></script>
 <script>
 (()=>{
-const choices=[...document.querySelectorAll('.contact-choice')];
-const panels=[...document.querySelectorAll('[data-service-info]')];
+const FORM_ENDPOINT='https://formspree.io/f/xkjnkyzr';
+const form=document.getElementById('projectForm');
+const type=document.getElementById('projectType');
+const submit=document.getElementById('projectSubmit');
+const label=document.getElementById('submitLabel');
+const status=document.getElementById('formStatus');
+const fields=[...form.querySelectorAll('input,select,textarea')];
+const names={
+websites:['Websites','Ιστοσελίδες'],
+eshops:['E-shops','E-shops'],
+games:['Browser Games','Παιχνίδια browser'],
+apps:['Apps','Εφαρμογές'],
+tools:['Digital Tools','Ψηφιακά εργαλεία'],
+modeling:['3D Modeling','3D μοντελοποίηση'],
+music:['Music & Beats','Μουσική & Beats']
+};
+const cards=[...document.querySelectorAll('[data-service]')];
+let selectedService='websites';
+const messages={
+ready:['',''],
+sending:['Sending your message…','Αποστολή μηνύματος…'],
+success:['Your enquiry was submitted. We will reply by email.','Το αίτημά σου υποβλήθηκε. Θα απαντήσουμε μέσω email.'],
+error:['We could not confirm submission. Your details are still here. Try again or email us directly below.','Δεν μπορέσαμε να επιβεβαιώσουμε την αποστολή. Τα στοιχεία σου παραμένουν εδώ. Δοκίμασε ξανά ή στείλε μας email από τον σύνδεσμο παρακάτω.']
+};
+let state='ready',busy=false;
 
-function showService(button){
-const key=button.dataset.detail;
-
-panels.forEach(panel=>{
-panel.hidden=panel.dataset.serviceInfo!==key;
-});
-
-document.getElementById('contactHosting').hidden=
-!['websites','eshops','tools'].includes(key);
-
-document.getElementById('emailAppLink').href=
-'mailto:threepointstudioath@gmail.com?subject='+
-encodeURIComponent('3POINT STUDIO - '+button.dataset.project+' Project');
+function render(){
+const l=document.documentElement.lang==='el'?1:0;
+type.value=selectedService;
+document.querySelector('.contact-choices').setAttribute('aria-label',l?'Επίλεξε υπηρεσία':'Select a service');
+label.textContent=busy?['SENDING…','ΑΠΟΣΤΟΛΗ…'][l]:['SEND','ΑΠΟΣΤΟΛΗ'][l];
+status.textContent=messages[state][l];
+status.dataset.state=state;
+submit.disabled=busy;
+document.title=l?'Επικοινωνία | THREEPOINT Studio ATH':'Start a Project | THREEPOINT Studio ATH';
+document.querySelector('meta[name="description"]').content=l?'Ξεκίνα το project σου με το THREEPOINT Studio ATH στην Αθήνα. Ιστοσελίδες, e-shops, εφαρμογές, παιχνίδια, 3D, ψηφιακά εργαλεία και μουσική.':'Start a project with THREEPOINT Studio ATH in Athens. Websites, e-shops, apps, games, digital tools, 3D and music.';
 }
 
-choices.forEach(button=>{
-button.addEventListener('click',()=>showService(button));
+function service(){
+document.querySelectorAll('[data-service-info]').forEach(p=>p.hidden=p.dataset.serviceInfo!==selectedService);
+document.getElementById('hostingBox').hidden=!['websites','eshops','tools'].includes(selectedService);
+cards.forEach(card=>{
+const active=card.dataset.service===selectedService;
+card.classList.toggle('active',active);
+card.setAttribute('aria-pressed',String(active));
+});
+render();
+}
+
+const selected=new URLSearchParams(location.search).get('service');
+if(Object.hasOwn(names,selected||''))selectedService=selected;
+
+cards.forEach(card=>card.addEventListener('click',()=>{
+if(busy)return;
+selectedService=card.dataset.service;
+service();
+}));
+
+type.addEventListener('change',()=>{
+if(busy)return;
+selectedService=type.value;
+service();
 });
 
-showService(document.querySelector('.contact-choice.active'));
+form.addEventListener('input',()=>{
+if(state==='success'){state='ready';render();}
+});
+
+form.addEventListener('submit',async event=>{
+event.preventDefault();
+if(busy||!form.reportValidity()||form.elements._gotcha.value)return;
+
+const payload=new FormData(form);
+payload.set('service',names[selectedService][0]);
+payload.set('_subject','THREEPOINT Studio ATH — '+names[selectedService][0]+' project');
+
+busy=true;
+state='sending';
+fields.forEach(f=>f.disabled=true);
+cards.forEach(c=>c.disabled=true);
+form.setAttribute('aria-busy','true');
+render();
+
+const controller=new AbortController();
+const timeout=setTimeout(()=>controller.abort(),20000);
+
+try{
+const response=await fetch(FORM_ENDPOINT,{
+method:'POST',
+body:payload,
+headers:{Accept:'application/json'},
+signal:controller.signal
+});
+if(!response.ok)throw new Error('Submission failed');
+state='success';
+form.reset();
+service();
+}catch{
+state='error';
+}finally{
+clearTimeout(timeout);
+busy=false;
+fields.forEach(f=>f.disabled=false);
+cards.forEach(c=>c.disabled=false);
+form.removeAttribute('aria-busy');
+render();
+}
+});
+
+new MutationObserver(render).observe(document.documentElement,{
+attributes:true,
+attributeFilter:['lang']
+});
+service();
+render();
 })();
 </script>
 </body>
