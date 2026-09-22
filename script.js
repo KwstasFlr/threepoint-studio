@@ -2,6 +2,7 @@
 
 const $=id=>document.getElementById(id);
 const all=selector=>[...document.querySelectorAll(selector)];
+all('.language-flag').forEach(flag=>flag.setAttribute('preserveAspectRatio','xMidYMid slice'));
 const reduce=matchMedia("(prefers-reduced-motion: reduce)");
 
 let language="en";
