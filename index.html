@@ -224,11 +224,11 @@ body .service-scene{padding-top:75px;padding-bottom:75px;gap:clamp(30px,5vw,80px
 .project-faq h2{font-size:clamp(27px,3vw,38px);font-weight:400;line-height:1.2;max-width:350px}
 
 .faq-intro{align-self:start;max-width:360px}.faq-intro>p{margin-top:22px;color:var(--muted);font-size:16px;line-height:1.8}.faq-intro>a{display:inline-flex;align-items:center;min-height:44px;margin-top:24px;color:#79baff;font-size:14px;border-bottom:1px solid #3b8edb55}
-.faq-list{display:grid;gap:10px;align-content:start;counter-reset:faq}
+.faq-list{display:grid;gap:10px;align-content:start}
 
-.faq-list details{counter-increment:faq;background:#0b1016;border:1px solid #ffffff12;border-radius:10px;padding:0 24px;transition:border-color .2s,background .2s}.faq-list details:hover{border-color:#3b8edb55}.faq-list details[open]{background:#101b27;border-color:#3b8edb66}
+.faq-list details{background:#0b1016;border:1px solid #ffffff12;border-radius:10px;padding:0 24px;transition:border-color .2s,background .2s}.faq-list details:hover{border-color:#3b8edb55}.faq-list details[open]{background:#101b27;border-color:#3b8edb66}
 
-.faq-list summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:24px 1fr 28px;align-items:center;gap:16px;min-height:76px;padding:19px 0;font-size:16px;font-weight:500;line-height:1.5}.faq-list summary::before{content:counter(faq,decimal-leading-zero);font-size:12px;font-weight:400;color:#7995af;font-variant-numeric:tabular-nums}
+.faq-list summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:1fr 28px;align-items:center;gap:16px;min-height:76px;padding:19px 0;font-size:16px;font-weight:500;line-height:1.5}
 
 .faq-list summary::-webkit-details-marker{display:none}
 
@@ -236,10 +236,10 @@ body .service-scene{padding-top:75px;padding-bottom:75px;gap:clamp(30px,5vw,80px
 
 .faq-list details[open] summary::after{content:'−'}
 
-.faq-list details p{font-size:15px;line-height:1.8;color:#b5c0cc;margin:0;padding:0 40px 24px;max-width:72ch}
+.faq-list details p{font-size:15px;line-height:1.8;color:#b5c0cc;margin:0;padding:0 44px 24px 0;max-width:72ch}
 
 .faq-list details[open] p{animation:answer-in .3s ease both}
-@media(max-width:480px){.faq-list summary{gap:10px;grid-template-columns:20px 1fr 26px;font-size:15px}.faq-list details p{padding:0 0 22px 30px}.faq-intro>a{margin-top:14px}}
+@media(max-width:480px){.faq-list summary{gap:10px;grid-template-columns:1fr 26px;font-size:15px}.faq-list details p{padding:0 0 22px}.faq-intro>a{margin-top:14px}}
 
 @keyframes answer-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
 
@@ -397,28 +397,15 @@ body .service-scene .photo-window img{object-position:center}
 
 <div class="hero-mark" aria-hidden="true">3</div>
 
-<div class="hero-image"><img src="logo.jpg" alt="Threepoint Studio ATH" fetchpriority="high"></div>
+<div class="hero-image"><img src="logo.png" alt="Threepoint Studio ATH" width="1672" height="941" fetchpriority="high" decoding="async"></div>
 
 <div class="hero-content">
 
 <h1 id="heroTitle"><span data-en="Where Ideas" data-el="Οι ιδέες σου">Where Ideas</span><br><span class="hero-accent" data-en="Become Real." data-el="γίνονται πράξη.">Become Real.</span></h1>
 
-<div class="hero-bottom">
-  <p class="hero-description">
-    <span
-      data-en="We build digital solutions for businesses and bring bold ideas to life."
-      data-el="Δημιουργούμε ψηφιακές λύσεις για επιχειρήσεις και δίνουμε ζωή σε τολμηρές ιδέες.">
-      We build digital solutions for businesses and bring bold ideas to life.
-    </span>
+<div class="hero-bottom"><p class="hero-description"><span data-en="Websites, apps, games, 3D and digital experiences." data-el="Ιστοσελίδες, εφαρμογές, παιχνίδια, 3D και ψηφιακές εμπειρίες.">Websites, apps, games, 3D and digital experiences.</span><span data-en="Designed and built in Athens." data-el="Σχεδιασμός και υλοποίηση στην Αθήνα.">Designed and built in Athens.</span></p></div>
 
-    <span
-      data-en="Websites, e-shops, apps, games, 3D and creative experiences — built around your vision."
-      data-el="Ιστοσελίδες, e-shops, εφαρμογές, παιχνίδια, 3D και δημιουργικές εμπειρίες — σχεδιασμένες γύρω από το δικό σου όραμα.">
-      Websites, e-shops, apps, games, 3D and creative experiences — built around your vision.
-    </span>
-  </p>
 </div>
-
 
 </section>
 
