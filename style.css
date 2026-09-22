@@ -298,7 +298,7 @@ html{scroll-behavior:auto}
 /* New hero logo: preserve the circular mark and soften its background. */
 body .hero.reference-hero .hero-image{
 position:absolute;left:auto;right:var(--pad);top:50%;bottom:auto;
-width:44%;max-width:560px;height:auto;aspect-ratio:1;
+width:38%;max-width:470px;height:auto;aspect-ratio:1;
 overflow:hidden;pointer-events:none;mix-blend-mode:lighten;
 transform:translateY(-50%)!important;
 }
@@ -314,4 +314,11 @@ position:relative;inset:auto;order:1;width:min(100%,360px);max-width:360px;
 height:auto;aspect-ratio:1;margin:8px auto 0;align-self:center;
 transform:none!important;
 }
+}
+.hero-description > span {
+  display: block;
+}
+
+.hero-description > span + span {
+  margin-top: 16px;
 }
