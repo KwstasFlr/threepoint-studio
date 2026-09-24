@@ -31,6 +31,9 @@ body:has(.hero)>nav{position:absolute;inset:0 0 auto}
 .logo-three{font-size:48px;font-weight:500;color:var(--blue);line-height:1}
 .logo-word{display:flex;flex-direction:column;gap:7px;letter-spacing:1px}
 .logo-word small{font-size:8px;letter-spacing:2px;color:var(--muted)}
+.game-demo-link{position:absolute;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:9px;min-height:38px;padding:6px 14px;border:1px solid #3b8edb66;border-radius:999px;background:#0d1722cc;color:#eaf4ff;font-size:11px;font-weight:700;line-height:1;letter-spacing:.8px;white-space:nowrap;box-shadow:0 8px 22px #0005;transition:border-color .2s,background .2s,transform .2s}
+.game-demo-link small{padding-left:9px;border-left:1px solid #ffffff22;color:#79baff;font-size:7px;font-weight:700;letter-spacing:1.2px}
+.game-demo-link:hover{transform:translate(-50%,-2px);border-color:#3b8edbbb;background:#112235}
 .nav-right,.language-switcher{display:flex;align-items:center;gap:26px}
 .language-switcher{gap:9px}
 body .language-switcher{position:relative;isolation:isolate;display:flex;align-items:center;justify-content:center;gap:12px;padding:4px 12px}
@@ -69,6 +72,7 @@ body>nav .nav-right .contact-nav{width:269px;min-width:269px;flex:0 0 269px}
 body>nav .nav-right .contact-nav>span:first-child{width:230px;max-width:230px;flex:1;min-width:0;text-align:right}
 @media(max-width:700px){body>nav .nav-right .contact-nav{width:179px;min-width:179px;flex-basis:179px}body>nav .nav-right .contact-nav>span:first-child{width:145px;max-width:145px}}
 @media(max-width:600px){body>nav .nav-right{width:100%;justify-content:space-between;gap:12px}body>nav .nav-right .contact-nav{width:auto;min-width:0;flex:1}body>nav .nav-right .contact-nav>span:first-child{width:auto;max-width:145px}}
+@media(max-width:950px){.game-demo-link{position:static;order:3;width:100%;justify-content:center;min-height:36px;margin:0;transform:none}.game-demo-link:hover{transform:translateY(-2px)}}
 
 .menu-overlay{position:fixed;inset:0;background:#000b;z-index:1000;visibility:hidden;opacity:0;transition:opacity .4s,visibility .4s}
 .menu-overlay.active{opacity:1;visibility:visible}
