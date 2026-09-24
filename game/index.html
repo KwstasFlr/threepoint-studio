@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Game Multi Plex — Threepoint Studio ATH</title>
+
+<meta
+  name="description"
+  content="Game Multi Plex: daily football guessing challenges and unlimited practice by Threepoint Studio ATH."
+>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Russo+One&family=Noto+Sans:wght@400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+>
+
+<link rel="stylesheet" href="STYLE.CSS">
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-actions">
+      <button class="leaderboard-button" id="leaderboardButton" type="button">
+        🏆
+        <span data-en="Leaderboard" data-el="Κατάταξη">Leaderboard</span>
+      </button>
+
+      <div class="languages" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="el">EL</button>
+      </div>
+
+      <button class="login-button" id="loginButton" type="button"
+        data-auth="login" data-en="Log in" data-el="Σύνδεση">Log in</button>
+
+      <button class="signup-button" id="signupButton" type="button"
+        data-auth="signup" data-en="Sign up" data-el="Εγγραφή">Sign up</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="games-section" id="games">
+      <div class="games-top">
+        <div>
+          <div class="hero-brand" aria-label="Game Multi Plex">
+            <span class="hero-brand-mark" aria-hidden="true">
+              <i></i><i></i><i></i><i></i>
+            </span>
+            <span class="hero-brand-name" aria-hidden="true">
+              <small>GAME</small>
+              <strong>MULTI PLEX</strong>
+            </span>
+          </div>
+
+          <h1 class="games-title"
+            data-en="CHOOSE YOUR GAME"
+            data-el="ΔΙΑΛΕΞΕ ΠΑΙΧΝΙΔΙ">CHOOSE YOUR GAME</h1>
+        </div>
+
+        <button class="points-info-button" id="pointsInfoButton"
+          type="button" aria-label="Point system" title="Point system">!</button>
+      </div>
+
+      <div class="game-grid" id="gameGrid"></div>
+    </section>
+
+    <section class="gmp-ad-slot" id="adSlotGames" aria-label="Banner placement">
+      <span class="gmp-ad-label" data-en="ADVERTISEMENT" data-el="ΔΙΑΦΗΜΙΣΗ">
+        ADVERTISEMENT
+      </span>
+      <div class="gmp-ad-placeholder">
+        <span aria-hidden="true">AD</span>
+        <small data-en="Banner placement" data-el="Θέση διαφημιστικού banner">
+          Banner placement
+        </small>
+      </div>
+    </section>
+
+    <section class="leaderboard-section" id="leaderboard">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow"
+            data-en="GLOBAL COMPETITION"
+            data-el="ΠΑΓΚΟΣΜΙΑ ΚΑΤΑΤΑΞΗ">GLOBAL COMPETITION</span>
+          <h2 data-en="LEADERBOARD" data-el="ΚΑΤΑΤΑΞΗ">LEADERBOARD</h2>
+        </div>
+
+        <div class="leaderboard-filters" id="leaderboardFilters">
+          <button type="button" data-board="overall" class="selected"
+            data-en="Overall" data-el="Συνολικά">Overall</button>
+          <button type="button" data-board="football">Football</button>
+          <button type="button" data-board="movies">Movies</button>
+          <button type="button" data-board="anime">Anime</button>
+          <button type="button" data-board="basketball">Basketball</button>
+          <button type="button" data-board="pokemon">Pokémon</button>
+        </div>
+      </div>
+
+      <div class="leaderboard-podium" id="leaderboardPodium"></div>
+
+      <div class="leaderboard-table">
+        <div class="leaderboard-row leaderboard-head">
+          <span>#</span>
+          <span data-en="Player" data-el="Παίκτης">Player</span>
+          <span data-en="Correct" data-el="Σωστά">Correct</span>
+          <span data-en="First try" data-el="1η προσπάθεια">First try</span>
+          <span data-en="Best streak" data-el="Καλύτερο σερί">Best streak</span>
+          <span>Points</span>
+        </div>
+        <div id="leaderboardRows"></div>
+        <p id="onlineSyncNote" class="note muted" role="status"></p>
+        <div id="currentPlayerRank" hidden></div>
+      </div>
+    </section>
+
+    <section class="gmp-ad-slot" id="adSlotLeaderboard" aria-label="Banner placement">
+      <span class="gmp-ad-label" data-en="ADVERTISEMENT" data-el="ΔΙΑΦΗΜΙΣΗ">
+        ADVERTISEMENT
+      </span>
+      <div class="gmp-ad-placeholder">
+        <span aria-hidden="true">AD</span>
+        <small data-en="Banner placement" data-el="Θέση διαφημιστικού banner">
+          Banner placement
+        </small>
+      </div>
+    </section>
+
+    <section class="donation">
+      <div>
+        <span class="eyebrow">THREEPOINT STUDIO ATH</span>
+        <h2 data-en="HELP BUILD THE NEXT ROUND."
+          data-el="ΒΟΗΘΗΣΕ ΝΑ ΦΤΙΑΞΟΥΜΕ ΤΟΝ ΕΠΟΜΕΝΟ ΓΥΡΟ.">
+          HELP BUILD THE NEXT ROUND.
+        </h2>
+        <p
+          data-en="Enjoying Game Multi Plex? Support Threepoint Studio ATH and help us build more games, categories and challenges."
+          data-el="Σου αρέσει το Game Multi Plex; Στήριξε το Threepoint Studio ATH και βοήθησέ μας να δημιουργήσουμε περισσότερα παιχνίδια, κατηγορίες και challenges.">
+          Enjoying Game Multi Plex? Support Threepoint Studio ATH and help us build more games, categories and challenges.
+        </p>
+      </div>
+
+      <div class="donation-action">
+        <a class="button lime" id="donateLink" target="_blank"
+          rel="noopener noreferrer"
+          data-en="Support the studio ↗"
+          data-el="Στήριξε το studio ↗">Support the studio ↗</a>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Created by Threepoint Studio ATH</small>
+  </footer>
+
+  <dialog id="pointsDialog" class="points-dialog">
+    <div class="dialog-top">
+      <div>
+        <span class="eyebrow">POINT SYSTEM</span>
+        <h2 data-en="HOW POINTS WORK" data-el="ΠΩΣ ΛΕΙΤΟΥΡΓΟΥΝ ΟΙ ΠΟΝΤΟΙ">
+          HOW POINTS WORK
+        </h2>
+      </div>
+      <button class="close" type="button" id="closePointsDialog"
+        aria-label="Close">×</button>
+    </div>
+
+    <p class="points-intro"
+      data-en="Find the answer in fewer guesses to earn more points."
+      data-el="Βρες την απάντηση με λιγότερες προσπάθειες για περισσότερους πόντους.">
+      Find the answer in fewer guesses to earn more points.
+    </p>
+
+    <div class="points-popup-grid">
+      <div>
+        <strong>5</strong>
+        <span data-en="1st guess" data-el="1η προσπάθεια">1st guess</span>
+      </div>
+      <div>
+        <strong>4</strong>
+        <span data-en="2nd guess" data-el="2η προσπάθεια">2nd guess</span>
+      </div>
+      <div>
+        <strong>3</strong>
+        <span data-en="3rd guess" data-el="3η προσπάθεια">3rd guess</span>
+      </div>
+      <div>
+        <strong>2</strong>
+        <span data-en="4th guess" data-el="4η προσπάθεια">4th guess</span>
+      </div>
+      <div>
+        <strong>1</strong>
+        <span data-en="Extra guess" data-el="Έξτρα προσπάθεια">Extra guess</span>
+      </div>
+      <div class="daily-bonus">
+        <strong>+2</strong>
+        <span>Daily Bonus</span>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="gameDialog" aria-labelledby="gameTitle">
+    <div class="dialog-top">
+      <span class="eyebrow" id="gameCategory">GAME MULTI PLEX</span>
+      <button class="close" type="button" data-close="gameDialog"
+        aria-label="Close">×</button>
+    </div>
+
+    <h2 id="gameTitle">GUESS THE PLAYER</h2>
+
+    <div class="modes" role="group" aria-label="Game mode">
+      <button type="button" data-mode="daily"
+        data-en="Daily" data-el="Καθημερινό">Daily</button>
+      <button type="button" data-mode="classic"
+        data-en="Unlimited" data-el="Ελεύθερο">Unlimited</button>
+      <button type="button" data-mode="archive" class="past-dailies-mode"
+        data-en="Past Dailies" data-el="Προηγούμενα Daily">Past Dailies</button>
+    </div>
+
+    <div class="status-board">
+      <div>
+        <small id="supplyLabel"></small>
+        <strong id="supplyValue"></strong>
+        <span id="supplyDetail"></span>
+      </div>
+      <div>
+        <small data-en="NEXT DAILY IN" data-el="ΕΠΟΜΕΝΟ DAILY ΣΕ">NEXT DAILY IN</small>
+        <strong id="dailyClock">00:00:00</strong>
+        <span>00:00 UTC</span>
+      </div>
+    </div>
+
+    <p class="mode-description" id="modeDescription"></p>
+
+    <div id="archivePicker" hidden>
+      <div class="archive-heading">
+        <button class="text-button" id="archiveOlder" type="button"
+          data-en="← Older" data-el="← Παλαιότερα">← Older</button>
+        <button class="text-button" id="archiveNewer" type="button"
+          data-en="Newer →" data-el="Νεότερα →">Newer →</button>
+      </div>
+      <div class="archive-grid" id="archiveChoices"></div>
+      <p class="muted note" id="archiveEmpty"></p>
+    </div>
+
+    <div id="roundArea" hidden>
+      <div class="round-meta">
+        <span id="roundLabel"></span>
+        <span id="attemptsLeft"></span>
+      </div>
+
+      <div class="attempt-dots" id="attemptDots" aria-hidden="true"></div>
+
+      <div class="teaser">
+        <span aria-hidden="true">“</span>
+        <p id="teaserText"></p>
+      </div>
+
+      <div class="clue-grid" id="clueGrid"></div>
+      <p class="clue-help" id="clueHelp" role="status"></p>
+
+      <form id="guessForm">
+        <label class="eyebrow" for="guessInput"
+          data-en="WHO IS IT?" data-el="ΠΟΙΟΣ ΕΙΝΑΙ;">WHO IS IT?</label>
+        <div class="guess-row">
+          <input id="guessInput" maxlength="80" autocomplete="off" required>
+          <button class="button lime" id="guessButton" type="submit"
+            data-en="Guess →" data-el="Απάντηση →">Guess →</button>
+        </div>
+      </form>
+
+      <div id="guessHistory" class="guess-history"></div>
+      <div id="result" class="result" role="status" aria-live="polite"></div>
+
+      <section class="player-reveal" id="playerReveal" hidden>
+        <div class="player-reveal-top">
+          <div class="reveal-result">
+            <span class="reveal-status-icon" id="revealStatusIcon" aria-hidden="true">✓</span>
+            <div>
+              <small id="revealStatusText"
+                data-en="PLAYER REVEAL" data-el="ΑΠΟΚΑΛΥΨΗ ΠΑΙΚΤΗ">PLAYER REVEAL</small>
+              <strong id="revealPoints"></strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-reveal-main">
+          <div class="reveal-photo" id="revealPhoto">
+            <span id="revealInitials">?</span>
+          </div>
+          <div class="reveal-identity">
+            <span class="eyebrow"
+              data-en="THE PLAYER WAS" data-el="Ο ΠΑΙΚΤΗΣ ΗΤΑΝ">THE PLAYER WAS</span>
+            <h3 id="revealName">—</h3>
+            <p id="revealMeta">—</p>
+          </div>
+        </div>
+
+        <div class="reveal-stats">
+          <div class="reveal-stat">
+            <small data-en="AGE" data-el="ΗΛΙΚΙΑ">AGE</small>
+            <strong id="revealAge">—</strong>
+          </div>
+          <div class="reveal-stat" id="goalsStat">
+            <small data-en="CAREER GOALS" data-el="ΓΚΟΛ ΚΑΡΙΕΡΑΣ">CAREER GOALS</small>
+            <strong id="revealGoals">—</strong>
+          </div>
+          <div class="reveal-stat" id="assistsStat">
+            <small data-en="CAREER ASSISTS" data-el="ΑΣΙΣΤ ΚΑΡΙΕΡΑΣ">CAREER ASSISTS</small>
+            <strong id="revealAssists">—</strong>
+          </div>
+          <div class="reveal-stat" id="cleanSheetsStat" hidden>
+            <small data-en="CLEAN SHEETS" data-el="CLEAN SHEETS">CLEAN SHEETS</small>
+            <strong id="revealCleanSheets">—</strong>
+          </div>
+          <div class="reveal-stat market-value-stat">
+            <small data-en="HIGHEST MARKET VALUE"
+              data-el="ΥΨΗΛΟΤΕΡΗ ΑΞΙΑ ΑΓΟΡΑΣ">HIGHEST MARKET VALUE</small>
+            <strong id="revealMarketValue">—</strong>
+          </div>
+        </div>
+
+        <div class="reveal-clubs-section">
+          <span class="eyebrow"
+            data-en="CLUBS PLAYED FOR"
+            data-el="ΟΜΑΔΕΣ ΠΟΥ ΑΓΩΝΙΣΤΗΚΕ">CLUBS PLAYED FOR</span>
+          <div class="reveal-clubs" id="revealClubs"></div>
+        </div>
+      </section>
+
+      <div class="reward-area">
+        <button class="reward-button" id="rewardBtn" type="button" disabled
+          data-en="+1 extra guess" data-el="+1 έξτρα προσπάθεια">+1 extra guess</button>
+        <small class="muted" id="rewardNote"></small>
+      </div>
+
+      <div class="round-actions">
+        <button class="text-button" id="revealBtn" type="button"
+          data-en="Reveal &amp; end this challenge"
+          data-el="Δείξε απάντηση &amp; λήξη πρόκλησης">
+          Reveal &amp; end this challenge
+        </button>
+        <button class="button lime" id="nextBtn" type="button" hidden
+          data-en="Next challenge →" data-el="Επόμενη πρόκληση →">Next challenge →</button>
+        <button class="button lime" id="afterDailyBtn" type="button" hidden
+          data-en="Play Unlimited →" data-el="Παίξε Unlimited →">Play Unlimited →</button>
+      </div>
+    </div>
+
+    <div id="confetti" aria-hidden="true"></div>
+  </dialog>
+
+  <dialog id="accountDialog" class="auth-dialog"
+    aria-labelledby="accountTitle" aria-describedby="accountSubtitle">
+    <div class="auth-modal">
+      <button class="auth-close" type="button"
+        data-close="accountDialog" aria-label="Close">×</button>
+
+      <div class="auth-brand">
+        <span class="auth-brand-mark">G</span>
+        <div>
+          <strong>GAME MULTI PLEX</strong>
+          <small>THREEPOINT STUDIO ATH</small>
+        </div>
+      </div>
+
+      <div class="auth-heading">
+        <span class="eyebrow">PLAYER ACCOUNT</span>
+        <h2 id="accountTitle">WELCOME BACK</h2>
+        <p id="accountSubtitle">Log in and continue your climb.</p>
+      </div>
+
+      <div class="auth-tabs" role="group" aria-label="Account access">
+        <button id="loginTab" class="auth-tab active" type="button">LOG IN</button>
+        <button id="signupTab" class="auth-tab" type="button">SIGN UP</button>
+      </div>
+
+      <form id="accountForm" class="auth-form">
+        <label id="usernameField" class="auth-field" hidden>
+          <span data-en="USERNAME" data-el="ΟΝΟΜΑ ΠΑΙΚΤΗ">USERNAME</span>
+          <div class="auth-input-wrap">
+            <span class="auth-input-icon">@</span>
+            <input id="accountUsername" type="text" minlength="3" maxlength="20"
+              autocomplete="username" placeholder="Choose your player name">
+          </div>
+        </label>
+
+        <label class="auth-field">
+          <span>EMAIL</span>
+          <div class="auth-input-wrap">
+            <span class="auth-input-icon">✉</span>
+            <input id="accountEmail" type="email" autocomplete="email"
+              required placeholder="player@example.com">
+          </div>
+        </label>
+
+        <label class="auth-field">
+          <span data-en="PASSWORD" data-el="ΚΩΔΙΚΟΣ">PASSWORD</span>
+          <div class="auth-input-wrap">
+            <span class="auth-input-icon">●</span>
+            <input id="accountPassword" type="password" minlength="6"
+              autocomplete="current-password" required placeholder="••••••••">
+            <button id="togglePassword" class="password-toggle"
+              type="button" aria-label="Show password">SHOW</button>
+          </div>
+        </label>
+
+        <p id="accountMessage" class="account-message" role="status"></p>
+
+        <button class="auth-submit" id="accountSubmit" type="submit">
+          LOG IN <span>→</span>
+        </button>
+      </form>
+
+      <div class="auth-divider">
+        <span data-en="OR" data-el="Ή">OR</span>
+      </div>
+
+      <button class="auth-guest" id="accountGuest" type="button"
+        data-en="CONTINUE AS GUEST →"
+        data-el="ΣΥΝΕΧΕΙΑ ΩΣ ΕΠΙΣΚΕΠΤΗΣ →">
+        CONTINUE AS GUEST <span>→</span>
+      </button>
+
+      <div class="auth-benefit">
+        <span>♛</span>
+        <p>
+          <strong data-en="JOIN THE LEADERBOARD"
+            data-el="ΜΠΕΣ ΣΤΗΝ ΚΑΤΑΤΑΞΗ">JOIN THE LEADERBOARD</strong>
+          <small data-en="Save your points and track your results."
+            data-el="Αποθήκευσε τους πόντους και τα αποτελέσματά σου.">
+            Save your points and track your results.
+          </small>
+        </p>
+      </div>
+    </div>
+  </dialog>
+
+  <noscript>Enable JavaScript to play Game Multi Plex.</noscript>
+  <script defer src="APP.JS"></script>
+</body>
+</html>
