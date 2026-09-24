@@ -56,9 +56,29 @@ h1,h2,h3 { font-family:var(--font-display); font-weight:400; }
   margin:auto;
   display:flex;
   align-items:center;
-  justify-content:flex-end;
+  justify-content:space-between;
   gap:30px;
   border-bottom:0;
+}
+.daily-launch-button {
+  min-height:44px;
+  padding:0 18px;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  border:1px solid var(--lime);
+  border-radius:999px;
+  background:var(--lime);
+  color:var(--black);
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.5px;
+  box-shadow:0 10px 30px rgba(215,255,63,.16);
+  transition:.2s ease;
+}
+.daily-launch-button:hover {
+  transform:translateY(-2px);
+  box-shadow:0 14px 35px rgba(215,255,63,.24);
 }
 .brand { display:flex; flex-direction:column; gap:2px; flex-shrink:0; }
 .brand span { font-family:var(--font-display); font-size:20px; line-height:1; }
@@ -232,7 +252,19 @@ main { width:min(calc(100% - 40px),var(--max)); margin:auto; }
   z-index:-1;
   background:radial-gradient(circle at 80% 15%,rgba(215,255,63,.10),transparent 38%);
 }
-.game-card:not(.available) { opacity:.68; }
+.game-card:not(.available) {
+  opacity:.72;
+  border-color:#20262b;
+}
+.game-card:not(.available) .game-card-image {
+  filter:grayscale(.72) brightness(.48) saturate(.55);
+}
+.game-card:not(.available)::before {
+  background:linear-gradient(180deg,rgba(5,6,7,.42) 0%,rgba(5,6,7,.58) 42%,rgba(5,6,7,.97) 100%);
+}
+.game-card:not(.available)::after {
+  background:rgba(5,7,8,.24);
+}
 .card-info { position:relative; z-index:2; width:100%; padding:19px; text-align:left; }
 .game-card h3 { max-width:95%; font-size:19px; line-height:1.05; letter-spacing:-.5px; }
 .card-bottom {
@@ -918,6 +950,7 @@ dialog h2 { margin-top:9px; font-size:clamp(27px,5vw,43px); line-height:1; }
 @media (max-width:650px) {
   .header,main,footer { width:calc(100% - 28px); }
   .header { min-height:auto; }
+  .daily-launch-button { min-height:40px; padding:0 15px; }
   .brand span { font-size:17px; }
   .leaderboard-button span { display:none; }
   .leaderboard-button { width:40px; padding:0; justify-content:center; }

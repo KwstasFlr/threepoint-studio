@@ -148,6 +148,9 @@ const START = Math.floor(
 const KEY =
   "GAME_MULTIPLEX_V4";
 
+const DAILY_LOCK_PREFIX =
+  `${KEY}:DAILY_LOCK:`;
+
 const $ = id =>
   document.getElementById(id);
 
@@ -1869,17 +1872,29 @@ function hash(value) {
 }
 
 function playerForDay(value) {
+  const elapsed =
+    value - START;
+
+  const cycle =
+    Math.floor(
+      elapsed / P.length
+    );
+
   const order =
     [...P].sort(
       (a, b) =>
-        hash(a.id) -
-        hash(b.id)
+        hash(
+          `multiplex-2026:${cycle}:${a.id}`
+        ) -
+        hash(
+          `multiplex-2026:${cycle}:${b.id}`
+        )
     );
 
   return order[
     (
       (
-        value - START
+        elapsed
       ) %
         order.length +
       order.length
@@ -1902,11 +1917,67 @@ function keyForDay(value) {
   return String(value);
 }
 
+function readDailyLock(
+  value = today()
+) {
+  const raw = read(
+    `${DAILY_LOCK_PREFIX}${keyForDay(value)}`,
+    ""
+  );
+
+  if (!raw) return null;
+
+  try {
+    const savedRound =
+      JSON.parse(raw);
+
+    return (
+      valid(savedRound) &&
+      savedRound.mode === "daily" &&
+      savedRound.status !== "playing"
+        ? savedRound
+        : null
+    );
+  } catch {
+    return null;
+  }
+}
+
+function lockDailyRound(
+  selectedRound,
+  value = today()
+) {
+  if (
+    !selectedRound ||
+    selectedRound.mode !== "daily" ||
+    selectedRound.status === "playing"
+  ) {
+    return;
+  }
+
+  write(
+    `${DAILY_LOCK_PREFIX}${keyForDay(value)}`,
+    JSON.stringify(selectedRound)
+  );
+}
+
 function dailyRound(
   value = today()
 ) {
   const key =
     keyForDay(value);
+
+  const lockedRound =
+    readDailyLock(value);
+
+  if (lockedRound) {
+    state.rounds[key] =
+      lockedRound;
+
+    save();
+
+    return state.rounds[key];
+  }
 
   if (!state.rounds[key]) {
     state.rounds[key] =
@@ -2671,6 +2742,16 @@ function openGame(id) {
   renderGame();
 }
 
+if ($("dailyLaunchButton")) {
+  $("dailyLaunchButton").onclick =
+    () => {
+      currentMode = "daily";
+      selectRound("daily");
+      openDialog("gameDialog");
+      renderGame();
+    };
+}
+
 function modeText(mode) {
   if (mode === "daily") {
     return T(
@@ -3263,6 +3344,8 @@ async function winRound(
       );
   }
 
+  lockDailyRound(round);
+
   if (
     round.mode === "classic"
   ) {
@@ -3314,6 +3397,8 @@ async function loseRound() {
     state.streak = 0;
   }
 
+  lockDailyRound(round);
+
   save();
   renderAll();
 
@@ -3344,6 +3429,8 @@ async function revealRound() {
   ) {
     state.streak = 0;
   }
+
+  lockDailyRound(round);
 
   save();
   renderAll();
@@ -4220,15 +4307,6 @@ function tick() {
 if ($("donateLink")) {
   $("donateLink").href =
     REVOLUT_URL;
-}
-
-if ($("donateNote")) {
-  $("donateNote")
-    .textContent =
-      T(
-        "Support is optional.",
-        "Η υποστήριξη είναι προαιρετική."
-      );
 }
 
 function renderAll() {
