@@ -727,8 +727,8 @@ const GAME_DATA = [
     category: "SPORT",
 
     description: [
-      "Who Am I? · Daily & Unlimited",
-      "Μάντεψε τον παίκτη · Καθημερινό & Ελεύθερο"
+      "Who Am I? · Unlimited",
+      "Μάντεψε τον παίκτη · Ελεύθερο"
     ]
   },
 
@@ -2735,9 +2735,16 @@ function openGame(id) {
     return;
   }
 
-  currentMode = "daily";
+  currentMode = "classic";
 
-  selectRound("daily");
+  document
+    .querySelectorAll("[data-mode]")
+    .forEach(button => {
+      button.hidden =
+        button.dataset.mode !== "classic";
+    });
+
+  selectRound("classic");
   openDialog("gameDialog");
   renderGame();
 }
@@ -2746,6 +2753,14 @@ if ($("dailyLaunchButton")) {
   $("dailyLaunchButton").onclick =
     () => {
       currentMode = "daily";
+
+      document
+        .querySelectorAll("[data-mode]")
+        .forEach(button => {
+          button.hidden =
+            button.dataset.mode === "classic";
+        });
+
       selectRound("daily");
       openDialog("gameDialog");
       renderGame();
