@@ -360,11 +360,7 @@ tabs.append(link);
 });
 page.append(back,intro,tabs);
 
-if(categoryKey==="games"&&projectCards.length){
-const grid=makeElement("div","portfolio-grid");
-projectCards.forEach(card=>grid.append(card));
-page.append(grid);
-}else if(categoryKey==="apps"&&projectCards.length){
+if((categoryKey==="games"||categoryKey==="apps")&&projectCards.length){
 const grid=makeElement("div","portfolio-grid apps-project-grid");
 const destinations=[
 {href:new URL("game/",homeURL).href,en:"Play Game Multi Plex",el:"Παίξε Game Multi Plex",statusEn:"Active — Play now",statusEl:"Ενεργό — Παίξε τώρα",active:true},
