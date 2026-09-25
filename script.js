@@ -24,8 +24,8 @@ en:["Browser Games","Games and quizzes you can play directly in your browser."],
 el:["Browser Games","Παιχνίδια και quiz που παίζεις απευθείας στον browser."]
 },
 apps:{
-en:["Apps","Applications in development: a new game and an e-book reader with voice reading."],
-el:["Εφαρμογές","Εφαρμογές υπό ανάπτυξη: ένα νέο παιχνίδι και ένας e-book reader με φωνητική ανάγνωση."]
+en:["Apps","Explore our two interactive web apps, created by Threepoint Studio ATH."],
+el:["Εφαρμογές","Δες τις δύο διαδραστικές web εφαρμογές που δημιουργήσαμε στο Threepoint Studio ATH."]
 },
 tools:{
 en:["Digital Tools","Useful tools for organising information and simplifying everyday tasks."],
@@ -253,6 +253,16 @@ margin-bottom:35px;
 .portfolio-tabs a[aria-current="page"]:hover{color:var(--bg)}
 .portfolio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
 .portfolio-grid .work-item{width:100%;min-width:0;margin:0}
+.apps-project-grid{grid-template-columns:repeat(2,minmax(0,410px));justify-content:start;gap:22px}
+.portfolio-project-link{position:relative;display:block;color:inherit;border:1px solid var(--line);background:rgba(255,255,255,.015);padding:10px 10px 18px;transition:transform .35s var(--ease),border-color .35s var(--ease),background .35s var(--ease)}
+.portfolio-project-link:hover,.portfolio-project-link:focus-visible{transform:translateY(-5px);border-color:var(--blue);background:rgba(36,139,224,.055)}
+.portfolio-project-link:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
+.apps-project-grid .work-cover{height:205px}
+.apps-project-grid .game-word,.apps-project-grid .beauty-word{font-size:clamp(38px,4vw,55px)}
+.apps-project-grid .work-caption{padding:16px 6px 0}
+.apps-project-grid .work-caption h3{font-size:20px}
+.apps-project-grid .work-caption p{font-size:13px;line-height:1.55}
+.portfolio-project-link.is-active .project-type small{color:#baff20}
 .portfolio-empty{max-width:670px;background:var(--panel);padding:30px}
 .portfolio-empty h2{font-size:25px;margin-bottom:14px}
 .portfolio-empty p{color:var(--muted);font-size:15px;max-width:520px}
@@ -278,6 +288,8 @@ body:has(.hero)>nav{min-height:78px}
 .category-link strong{font-size:24px}
 .portfolio-page{padding-top:25px;padding-bottom:55px}
 .portfolio-grid{grid-template-columns:1fr}
+.apps-project-grid{grid-template-columns:1fr}
+.apps-project-grid .work-cover{height:190px}
 .portfolio-tabs{margin-bottom:30px}
 .portfolio-empty{padding:23px}
 }
@@ -321,7 +333,7 @@ if(!categoryKey)return;
 const main=$("main");
 if(!main)return;
 
-const gameCards=all(".work-item").map(card=>card.cloneNode(true));
+const projectCards=all(".work-item").map(card=>card.cloneNode(true));
 const category=categories[categoryKey];
 main.replaceChildren();
 
@@ -348,9 +360,26 @@ tabs.append(link);
 });
 page.append(back,intro,tabs);
 
-if(categoryKey==="games"&&gameCards.length){
+if(categoryKey==="games"&&projectCards.length){
 const grid=makeElement("div","portfolio-grid");
-gameCards.forEach(card=>grid.append(card));
+projectCards.forEach(card=>grid.append(card));
+page.append(grid);
+}else if(categoryKey==="apps"&&projectCards.length){
+const grid=makeElement("div","portfolio-grid apps-project-grid");
+const destinations=[
+{href:new URL("game/",homeURL).href,en:"Play Game Multi Plex",el:"Παίξε Game Multi Plex",statusEn:"Active — Play now",statusEl:"Ενεργό — Παίξε τώρα",active:true},
+{href:"https://kwstasflr.github.io/BeautyChallenge/",en:"Open Beauty Challenge",el:"Άνοιξε το Beauty Challenge",statusEn:"Open app",statusEl:"Άνοιγμα εφαρμογής",active:false}
+];
+projectCards.slice(0,2).forEach((card,index)=>{
+const destination=destinations[index];
+const status=card.querySelector(".project-type small");
+if(status)translated(status,destination.statusEn,destination.statusEl);
+const link=makeElement("a","portfolio-project-link"+(destination.active?" is-active":""));
+link.href=destination.href;
+link.setAttribute("aria-label",language==="el"?destination.el:destination.en);
+link.append(card);
+grid.append(link);
+});
 page.append(grid);
 }else{
 const empty=makeElement("div","portfolio-empty");
