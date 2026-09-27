@@ -717,6 +717,515 @@ const P = [
   }
 ];
 
+// Unlimited-only additions; preserve the original Daily schedule.
+const UNLIMITED_PLAYERS = [...P, ...[
+  {
+    "id": "neymar",
+    "name": "Neymar",
+    "aliases": [
+      "Neymar",
+      "Neymar",
+      "νεϊμαρ"
+    ],
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "My role on the pitch: forward.",
+      "Η θέση μου στο γήπεδο: Επιθετικός."
+    ],
+    "clues": [
+      [
+        "My international team: Brazil.",
+        "Η εθνική μου ομάδα: Βραζιλία."
+      ],
+      [
+        "Santos is part of my club career.",
+        "Η Santos αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Barcelona.",
+        "Έχω φορέσει τη φανέλα της Barcelona."
+      ],
+      [
+        "Another club on my journey was Paris Saint-Germain.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Paris Saint-Germain."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Santos",
+      "Barcelona",
+      "Paris Saint-Germain"
+    ],
+    "image": null
+  },
+  {
+    "id": "suarez",
+    "name": "Luis Suárez",
+    "aliases": [
+      "Luis Suárez",
+      "Suárez",
+      "σουαρες"
+    ],
+    "nation": [
+      "Uruguay",
+      "Ουρουγουάη"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My role on the pitch: striker.",
+      "Η θέση μου στο γήπεδο: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "Ajax is part of my club career.",
+        "Η Ajax αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Liverpool.",
+        "Έχω φορέσει τη φανέλα της Liverpool."
+      ],
+      [
+        "Another club on my journey was Barcelona.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Barcelona."
+      ],
+      [
+        "My international team: Uruguay.",
+        "Η εθνική μου ομάδα: Ουρουγουάη."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Ajax",
+      "Liverpool",
+      "Barcelona"
+    ],
+    "image": null
+  },
+  {
+    "id": "lewandowski",
+    "name": "Robert Lewandowski",
+    "aliases": [
+      "Robert Lewandowski",
+      "Lewandowski",
+      "λεβαντοφσκι"
+    ],
+    "nation": [
+      "Poland",
+      "Πολωνία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My role on the pitch: striker.",
+      "Η θέση μου στο γήπεδο: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "I have worn the shirt of Bayern Munich.",
+        "Έχω φορέσει τη φανέλα της Bayern Munich."
+      ],
+      [
+        "Another club on my journey was Barcelona.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Barcelona."
+      ],
+      [
+        "My international team: Poland.",
+        "Η εθνική μου ομάδα: Πολωνία."
+      ],
+      [
+        "Borussia Dortmund is part of my club career.",
+        "Η Borussia Dortmund αποτελεί σταθμό της καριέρας μου."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Borussia Dortmund",
+      "Bayern Munich",
+      "Barcelona"
+    ],
+    "image": null
+  },
+  {
+    "id": "benzema",
+    "name": "Karim Benzema",
+    "aliases": [
+      "Karim Benzema",
+      "Benzema",
+      "μπενζεμα"
+    ],
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My role on the pitch: striker.",
+      "Η θέση μου στο γήπεδο: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "My international team: France.",
+        "Η εθνική μου ομάδα: Γαλλία."
+      ],
+      [
+        "Lyon is part of my club career.",
+        "Η Lyon αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Real Madrid.",
+        "Έχω φορέσει τη φανέλα της Real Madrid."
+      ],
+      [
+        "Another club on my journey was Al-Ittihad.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Al-Ittihad."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Lyon",
+      "Real Madrid",
+      "Al-Ittihad"
+    ],
+    "image": null
+  },
+  {
+    "id": "salah",
+    "name": "Mohamed Salah",
+    "aliases": [
+      "Mohamed Salah",
+      "Salah",
+      "σαλαχ"
+    ],
+    "nation": [
+      "Egypt",
+      "Αίγυπτος"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "My role on the pitch: forward.",
+      "Η θέση μου στο γήπεδο: Επιθετικός."
+    ],
+    "clues": [
+      [
+        "Basel is part of my club career.",
+        "Η Basel αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Roma.",
+        "Έχω φορέσει τη φανέλα της Roma."
+      ],
+      [
+        "Another club on my journey was Liverpool.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Liverpool."
+      ],
+      [
+        "My international team: Egypt.",
+        "Η εθνική μου ομάδα: Αίγυπτος."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Basel",
+      "Roma",
+      "Liverpool"
+    ],
+    "image": null
+  },
+  {
+    "id": "mane",
+    "name": "Sadio Mané",
+    "aliases": [
+      "Sadio Mané",
+      "Mané",
+      "μανε"
+    ],
+    "nation": [
+      "Senegal",
+      "Σενεγάλη"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "My role on the pitch: forward.",
+      "Η θέση μου στο γήπεδο: Επιθετικός."
+    ],
+    "clues": [
+      [
+        "I have worn the shirt of Liverpool.",
+        "Έχω φορέσει τη φανέλα της Liverpool."
+      ],
+      [
+        "Another club on my journey was Bayern Munich.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Bayern Munich."
+      ],
+      [
+        "My international team: Senegal.",
+        "Η εθνική μου ομάδα: Σενεγάλη."
+      ],
+      [
+        "Southampton is part of my club career.",
+        "Η Southampton αποτελεί σταθμό της καριέρας μου."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Southampton",
+      "Liverpool",
+      "Bayern Munich"
+    ],
+    "image": null
+  },
+  {
+    "id": "debruyne",
+    "name": "Kevin De Bruyne",
+    "aliases": [
+      "Kevin De Bruyne",
+      "Bruyne",
+      "ντε μπροινε",
+      "de bruyne",
+      "debruyne"
+    ],
+    "nation": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "My role on the pitch: midfielder.",
+      "Η θέση μου στο γήπεδο: Μέσος."
+    ],
+    "clues": [
+      [
+        "My international team: Belgium.",
+        "Η εθνική μου ομάδα: Βέλγιο."
+      ],
+      [
+        "Genk is part of my club career.",
+        "Η Genk αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Wolfsburg.",
+        "Έχω φορέσει τη φανέλα της Wolfsburg."
+      ],
+      [
+        "Another club on my journey was Manchester City.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Manchester City."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Genk",
+      "Wolfsburg",
+      "Manchester City"
+    ],
+    "image": null
+  },
+  {
+    "id": "hazard",
+    "name": "Eden Hazard",
+    "aliases": [
+      "Eden Hazard",
+      "Hazard",
+      "αζαρ"
+    ],
+    "nation": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "teaser": [
+      "My role on the pitch: winger.",
+      "Η θέση μου στο γήπεδο: Εξτρέμ."
+    ],
+    "clues": [
+      [
+        "Lille is part of my club career.",
+        "Η Lille αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Chelsea.",
+        "Έχω φορέσει τη φανέλα της Chelsea."
+      ],
+      [
+        "Another club on my journey was Real Madrid.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Real Madrid."
+      ],
+      [
+        "My international team: Belgium.",
+        "Η εθνική μου ομάδα: Βέλγιο."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Lille",
+      "Chelsea",
+      "Real Madrid"
+    ],
+    "image": null
+  },
+  {
+    "id": "bale",
+    "name": "Gareth Bale",
+    "aliases": [
+      "Gareth Bale",
+      "Bale",
+      "μπειλ"
+    ],
+    "nation": [
+      "Wales",
+      "Ουαλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "teaser": [
+      "My role on the pitch: winger.",
+      "Η θέση μου στο γήπεδο: Εξτρέμ."
+    ],
+    "clues": [
+      [
+        "I have worn the shirt of Tottenham.",
+        "Έχω φορέσει τη φανέλα της Tottenham."
+      ],
+      [
+        "Another club on my journey was Real Madrid.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Real Madrid."
+      ],
+      [
+        "My international team: Wales.",
+        "Η εθνική μου ομάδα: Ουαλία."
+      ],
+      [
+        "Southampton is part of my club career.",
+        "Η Southampton αποτελεί σταθμό της καριέρας μου."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Southampton",
+      "Tottenham",
+      "Real Madrid"
+    ],
+    "image": null
+  },
+  {
+    "id": "ibrahimovic",
+    "name": "Zlatan Ibrahimović",
+    "aliases": [
+      "Zlatan Ibrahimović",
+      "Ibrahimović",
+      "ιμπραϊμοβιτς",
+      "zlatan",
+      "ζλαταν"
+    ],
+    "nation": [
+      "Sweden",
+      "Σουηδία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My role on the pitch: striker.",
+      "Η θέση μου στο γήπεδο: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "My international team: Sweden.",
+        "Η εθνική μου ομάδα: Σουηδία."
+      ],
+      [
+        "Ajax is part of my club career.",
+        "Η Ajax αποτελεί σταθμό της καριέρας μου."
+      ],
+      [
+        "I have worn the shirt of Inter Milan.",
+        "Έχω φορέσει τη φανέλα της Inter Milan."
+      ],
+      [
+        "Another club on my journey was Paris Saint-Germain.",
+        "Μία ακόμη ομάδα στην πορεία μου ήταν η Paris Saint-Germain."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Ajax",
+      "Inter Milan",
+      "Paris Saint-Germain"
+    ],
+    "image": null
+  }
+]];
+
+
 /* GAME CATEGORIES */
 
 const GAME_DATA = [
@@ -848,7 +1357,7 @@ function valid(r) {
   return (
     r &&
     typeof r === "object" &&
-    P.some(
+    (r.mode === "classic" ? UNLIMITED_PLAYERS : P).some(
       p => p.id === r.pid
     ) &&
     [
@@ -1905,7 +2414,7 @@ function playerForDay(value) {
 
 function playerById(id) {
   return (
-    P.find(
+    UNLIMITED_PLAYERS.find(
       player =>
         player.id === id
     ) ||
@@ -2674,35 +3183,28 @@ document
 /* ROUND SELECTION */
 
 function newClassicRound() {
-  const previous =
-    state.classic?.pid;
-
-  let pool =
-    P.filter(
-      player =>
-        player.id !== previous
-    );
-
-  if (!pool.length) {
-    pool = P;
+  const previous = state.classic?.pid;
+  const deckKey = activeStorageKey + ":unlimited-deck-v1";
+  let deck = [];
+  try {
+    const stored = JSON.parse(read(deckKey, "[]"));
+    if (Array.isArray(stored)) deck = [...new Set(stored)].filter(id =>
+      UNLIMITED_PLAYERS.some(p => p.id === id) && id !== previous);
+  } catch {}
+  if (!deck.length) {
+    deck = UNLIMITED_PLAYERS.map(p => p.id);
+    for (let i = deck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [deck[i], deck[j]] = [deck[j], deck[i]];
+    }
+    if (deck[deck.length - 1] === previous && deck.length > 1) {
+      [deck[0], deck[deck.length - 1]] = [deck[deck.length - 1], deck[0]];
+    }
   }
-
-  const player =
-    pool[
-      Math.floor(
-        Math.random() *
-        pool.length
-      )
-    ];
-
-  state.classic =
-    make(
-      player.id,
-      "classic"
-    );
-
+  const id = deck.pop();
+  state.classic = make(id, "classic");
+  write(deckKey, JSON.stringify(deck));
   save();
-
   return state.classic;
 }
 
