@@ -1222,6 +1222,512 @@ const UNLIMITED_PLAYERS = [...P, ...[
       "Paris Saint-Germain"
     ],
     "image": null
+  },
+  {
+    "id": "aguero",
+    "name": "Sergio Agüero",
+    "aliases": [
+      "Sergio Agüero",
+      "Agüero",
+      "αγκουερο",
+      "kun aguero",
+      "kun",
+      "κουν αγκουερο"
+    ],
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Look for a striker with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "One chapter of my career unfolded at Independiente.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Independiente."
+      ],
+      [
+        "Atlético Madrid fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Atlético Madrid με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Manchester City.",
+        "Στην πορεία μου συναντάς και την Manchester City."
+      ],
+      [
+        "On the international stage, my team was Argentina.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Αργεντινή."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Independiente",
+      "Atlético Madrid",
+      "Manchester City"
+    ],
+    "image": null
+  },
+  {
+    "id": "torres",
+    "name": "Fernando Torres",
+    "aliases": [
+      "Fernando Torres",
+      "Torres",
+      "τορες"
+    ],
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Look for a striker with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "Liverpool fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Liverpool με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Chelsea.",
+        "Στην πορεία μου συναντάς και την Chelsea."
+      ],
+      [
+        "On the international stage, my team was Spain.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Ισπανία."
+      ],
+      [
+        "One chapter of my career unfolded at Atlético Madrid.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Atlético Madrid."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Atlético Madrid",
+      "Liverpool",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "villa",
+    "name": "David Villa",
+    "aliases": [
+      "David Villa",
+      "Villa",
+      "βιγια"
+    ],
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Look for a striker with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "My club history also includes New York City FC.",
+        "Στην πορεία μου συναντάς και την New York City FC."
+      ],
+      [
+        "On the international stage, my team was Spain.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Ισπανία."
+      ],
+      [
+        "One chapter of my career unfolded at Valencia.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Valencia."
+      ],
+      [
+        "Barcelona fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Barcelona με έχουν δει με τη φανέλα της ομάδας τους."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Valencia",
+      "Barcelona",
+      "New York City FC"
+    ],
+    "image": null
+  },
+  {
+    "id": "eto",
+    "name": "Samuel Eto’o",
+    "aliases": [
+      "Samuel Eto’o",
+      "Eto’o",
+      "ετο",
+      "eto'o",
+      "etoo",
+      "samuel eto o"
+    ],
+    "nation": [
+      "Cameroon",
+      "Καμερούν"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Look for a striker with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "On the international stage, my team was Cameroon.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Καμερούν."
+      ],
+      [
+        "One chapter of my career unfolded at Mallorca.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Mallorca."
+      ],
+      [
+        "Barcelona fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Barcelona με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Inter Milan.",
+        "Στην πορεία μου συναντάς και την Inter Milan."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Mallorca",
+      "Barcelona",
+      "Inter Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "drogba",
+    "name": "Didier Drogba",
+    "aliases": [
+      "Didier Drogba",
+      "Drogba",
+      "ντρογκμπα"
+    ],
+    "nation": [
+      "Ivory Coast",
+      "Ακτή Ελεφαντοστού"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Look for a striker with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Σέντερ φορ."
+    ],
+    "clues": [
+      [
+        "One chapter of my career unfolded at Guingamp.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Guingamp."
+      ],
+      [
+        "Marseille fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Marseille με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Chelsea.",
+        "Στην πορεία μου συναντάς και την Chelsea."
+      ],
+      [
+        "On the international stage, my team was Ivory Coast.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Ακτή Ελεφαντοστού."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Guingamp",
+      "Marseille",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "kaka",
+    "name": "Kaká",
+    "aliases": [
+      "Kaká",
+      "Kaká",
+      "κακα"
+    ],
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Look for a midfielder with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Μέσος."
+    ],
+    "clues": [
+      [
+        "AC Milan fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της AC Milan με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Real Madrid.",
+        "Στην πορεία μου συναντάς και την Real Madrid."
+      ],
+      [
+        "On the international stage, my team was Brazil.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Βραζιλία."
+      ],
+      [
+        "One chapter of my career unfolded at São Paulo.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην São Paulo."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "São Paulo",
+      "AC Milan",
+      "Real Madrid"
+    ],
+    "image": null
+  },
+  {
+    "id": "figo",
+    "name": "Luís Figo",
+    "aliases": [
+      "Luís Figo",
+      "Figo",
+      "φιγκο"
+    ],
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "teaser": [
+      "Look for a winger with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Εξτρέμ."
+    ],
+    "clues": [
+      [
+        "My club history also includes Real Madrid.",
+        "Στην πορεία μου συναντάς και την Real Madrid."
+      ],
+      [
+        "On the international stage, my team was Portugal.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Πορτογαλία."
+      ],
+      [
+        "One chapter of my career unfolded at Sporting CP.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Sporting CP."
+      ],
+      [
+        "Barcelona fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Barcelona με έχουν δει με τη φανέλα της ομάδας τους."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Sporting CP",
+      "Barcelona",
+      "Real Madrid"
+    ],
+    "image": null
+  },
+  {
+    "id": "rivaldo",
+    "name": "Rivaldo",
+    "aliases": [
+      "Rivaldo",
+      "Rivaldo",
+      "ριβαλντο"
+    ],
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Look for a forward with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Επιθετικός."
+    ],
+    "clues": [
+      [
+        "On the international stage, my team was Brazil.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Βραζιλία."
+      ],
+      [
+        "One chapter of my career unfolded at Deportivo La Coruña.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Deportivo La Coruña."
+      ],
+      [
+        "Barcelona fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Barcelona με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Olympiacos.",
+        "Στην πορεία μου συναντάς και την Olympiacos."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Deportivo La Coruña",
+      "Barcelona",
+      "Olympiacos"
+    ],
+    "image": null
+  },
+  {
+    "id": "beckham",
+    "name": "David Beckham",
+    "aliases": [
+      "David Beckham",
+      "Beckham",
+      "μπεκαμ"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Look for a midfielder with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Μέσος."
+    ],
+    "clues": [
+      [
+        "One chapter of my career unfolded at Manchester United.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Manchester United."
+      ],
+      [
+        "Real Madrid fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Real Madrid με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes LA Galaxy.",
+        "Στην πορεία μου συναντάς και την LA Galaxy."
+      ],
+      [
+        "On the international stage, my team was England.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Αγγλία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "LA Galaxy"
+    ],
+    "image": null
+  },
+  {
+    "id": "lampard",
+    "name": "Frank Lampard",
+    "aliases": [
+      "Frank Lampard",
+      "Lampard",
+      "λαμπαρντ"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Look for a midfielder with an international club career.",
+      "Αναζήτησε έναν παίκτη με διεθνή διαδρομή σε συλλόγους. Θέση: Μέσος."
+    ],
+    "clues": [
+      [
+        "Chelsea fans have seen me in their team's colours.",
+        "Οι φίλαθλοι της Chelsea με έχουν δει με τη φανέλα της ομάδας τους."
+      ],
+      [
+        "My club history also includes Manchester City.",
+        "Στην πορεία μου συναντάς και την Manchester City."
+      ],
+      [
+        "On the international stage, my team was England.",
+        "Στη διεθνή σκηνή αγωνίστηκα με την εθνική: Αγγλία."
+      ],
+      [
+        "One chapter of my career unfolded at West Ham United.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην West Ham United."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "West Ham United",
+      "Chelsea",
+      "Manchester City"
+    ],
+    "image": null
   }
 ]];
 
