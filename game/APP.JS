@@ -3122,6 +3122,156 @@ function renderTeaser(player) {
   }
 }
 
+function displayClues(player, mode) {
+  const unlimited = {
+  "messi": [
+    [
+      "Argentina is where my story began.",
+      "Η ιστορία μου ξεκίνησε στην Αργεντινή."
+    ],
+    [
+      "Barcelona was where I rose to global stardom.",
+      "Στην Barcelona καθιερώθηκα ως παγκόσμιος σταρ."
+    ],
+    [
+      "More than one Ballon d'Or has come my way.",
+      "Η Χρυσή Μπάλα έχει έρθει στα χέρια μου περισσότερες από μία φορές."
+    ],
+    [
+      "A World Cup triumph with my country is part of my story.",
+      "Στην πορεία μου υπάρχει και η κατάκτηση Παγκοσμίου Κυπέλλου με την εθνική μου."
+    ]
+  ],
+  "ronaldo": [
+    [
+      "My birthplace is in Portugal.",
+      "Ο τόπος γέννησής μου βρίσκεται στην Πορτογαλία."
+    ],
+    [
+      "Manchester United features on my career path.",
+      "Η Manchester United είναι ένας σταθμός της καριέρας μου."
+    ],
+    [
+      "At Real Madrid, I became one of the club's most famous names.",
+      "Στη Real Madrid έγινα ένα από τα πιο διάσημα ονόματα του συλλόγου."
+    ],
+    [
+      "You may know me by the nickname CR7.",
+      "Ίσως με γνωρίζεις με το παρατσούκλι CR7."
+    ]
+  ],
+  "mbappe": [
+    [
+      "My nationality? French.",
+      "Η εθνικότητά μου; Γαλλική."
+    ],
+    [
+      "Monaco was where I developed as a player.",
+      "Στη Monaco αναδείχθηκα ως ποδοσφαιριστής."
+    ],
+    [
+      "Paris Saint-Germain saw me become a superstar.",
+      "Στην Paris Saint-Germain εξελίχθηκα σε superstar."
+    ],
+    [
+      "A World Cup winner before my twenties.",
+      "Πρωταθλητής κόσμου πριν κλείσω τα είκοσι."
+    ]
+  ],
+  "haaland": [
+    [
+      "Norway is the country I play for internationally.",
+      "Στις εθνικές διοργανώσεις αγωνίζομαι με τη Νορβηγία."
+    ],
+    [
+      "Borussia Dortmund is one of my former clubs.",
+      "Η Borussia Dortmund είναι μία από τις προηγούμενες ομάδες μου."
+    ],
+    [
+      "Manchester City became my next destination.",
+      "Η Manchester City έγινε ο επόμενος προορισμός μου."
+    ],
+    [
+      "Professional football runs in the family: my father played too.",
+      "Το επαγγελματικό ποδόσφαιρο είναι οικογενειακή υπόθεση: έπαιζε και ο πατέρας μου."
+    ]
+  ],
+  "modric": [
+    [
+      "On international duty, I wear the colours of Croatia.",
+      "Με την εθνική φοράω τα χρώματα της Κροατίας."
+    ],
+    [
+      "My career includes a spell at Tottenham.",
+      "Η καριέρα μου περιλαμβάνει ένα πέρασμα από την Tottenham."
+    ],
+    [
+      "Real Madrid is where I earned legendary status.",
+      "Στη Real Madrid απέκτησα τη φήμη ενός θρύλου."
+    ],
+    [
+      "The Ballon d'Or is among my honours.",
+      "Στις διακρίσεις μου βρίσκεται και η Χρυσή Μπάλα."
+    ]
+  ],
+  "ronaldinho": [
+    [
+      "Brazil is my home country.",
+      "Η πατρίδα μου είναι η Βραζιλία."
+    ],
+    [
+      "Paris Saint-Germain once had me in their squad.",
+      "Κάποτε ανήκα στο ρόστερ της Paris Saint-Germain."
+    ],
+    [
+      "A major chapter of my career unfolded at Barcelona.",
+      "Ένα μεγάλο κεφάλαιο της καριέρας μου γράφτηκε στην Barcelona."
+    ],
+    [
+      "Skills, creativity and free kicks made me famous.",
+      "Ντρίμπλες, δημιουργικότητα και φάουλ με έκαναν διάσημο."
+    ]
+  ],
+  "zidane": [
+    [
+      "France was my team on the international stage.",
+      "Στη διεθνή σκηνή αγωνιζόμουν με την εθνική Γαλλίας."
+    ],
+    [
+      "Juventus is part of my playing history.",
+      "Η Juventus αποτελεί μέρος της ποδοσφαιρικής μου διαδρομής."
+    ],
+    [
+      "Real Madrid came later in my playing career.",
+      "Η Real Madrid ακολούθησε αργότερα στην καριέρα μου ως παίκτη."
+    ],
+    [
+      "Two goals in a World Cup final are on my record.",
+      "Στο ενεργητικό μου έχω δύο γκολ σε έναν τελικό Παγκοσμίου Κυπέλλου."
+    ]
+  ],
+  "henry": [
+    [
+      "I come from France.",
+      "Κατάγομαι από τη Γαλλία."
+    ],
+    [
+      "Monaco gave me my start in senior football.",
+      "Στη Monaco έκανα το ξεκίνημά μου στο επαγγελματικό ποδόσφαιρο."
+    ],
+    [
+      "Arsenal is where I became a club legend.",
+      "Στην Arsenal έγινα θρύλος του συλλόγου."
+    ],
+    [
+      "Barcelona was a later stop on my career journey.",
+      "Η Barcelona ήταν μεταγενέστερος σταθμός στην καριέρα μου."
+    ]
+  ]
+};
+  return mode === "classic" ? (unlimited[player.id] || player.clues) : player.clues;
+}
+
 function renderClues(player) {
   const grid =
     $("clueGrid");
@@ -3133,7 +3283,7 @@ function renderClues(player) {
   const visible =
     visibleClues(round);
 
-  player.clues.forEach(
+  displayClues(player, round.mode).forEach(
     (clue, index) => {
       const item =
         document.createElement(
