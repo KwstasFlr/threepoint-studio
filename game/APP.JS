@@ -3337,6 +3337,508 @@ const UNLIMITED_PLAYERS = [...P, ...[
       "Roma"
     ],
     "image": null
+  },
+  {
+    "id": "deco",
+    "name": "Deco",
+    "aliases": [
+      "Deco",
+      "ντεκο"
+    ],
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "My club history holds the answer.",
+      "Οι ομάδες της καριέρας μου κρύβουν την απάντηση."
+    ],
+    "clues": [
+      [
+        "A chapter of my career was written at Porto.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Porto."
+      ],
+      [
+        "I also appeared in the shirt of Barcelona.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Barcelona."
+      ],
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ],
+      [
+        "On international duty, I played for Portugal.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Πορτογαλία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Porto",
+      "Barcelona",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "ballack",
+    "name": "Michael Ballack",
+    "aliases": [
+      "Michael Ballack",
+      "Ballack",
+      "μπαλακ"
+    ],
+    "nation": [
+      "Germany",
+      "Γερμανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Follow the shirts I wore to uncover my identity.",
+      "Ακολούθησε τις φανέλες που φόρεσα για να βρεις ποιος είμαι."
+    ],
+    "clues": [
+      [
+        "I also appeared in the shirt of Bayern Munich.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Bayern Munich."
+      ],
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ],
+      [
+        "On international duty, I played for Germany.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Γερμανία."
+      ],
+      [
+        "A chapter of my career was written at Bayer Leverkusen.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Bayer Leverkusen."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Bayer Leverkusen",
+      "Bayern Munich",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "essien",
+    "name": "Michael Essien",
+    "aliases": [
+      "Michael Essien",
+      "Essien",
+      "εσιεν"
+    ],
+    "nation": [
+      "Ghana",
+      "Γκάνα"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Several clubs share a chapter of my story.",
+      "Αρκετοί σύλλογοι μοιράζονται ένα κεφάλαιο της ιστορίας μου."
+    ],
+    "clues": [
+      [
+        "My list of clubs includes AC Milan.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η AC Milan."
+      ],
+      [
+        "On international duty, I played for Ghana.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Γκάνα."
+      ],
+      [
+        "A chapter of my career was written at Lyon.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Lyon."
+      ],
+      [
+        "I also appeared in the shirt of Chelsea.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Chelsea."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Lyon",
+      "Chelsea",
+      "AC Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "makelele",
+    "name": "Claude Makélélé",
+    "aliases": [
+      "Claude Makélélé",
+      "Makelele",
+      "Makélélé",
+      "μακελελε"
+    ],
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "My club history holds the answer.",
+      "Οι ομάδες της καριέρας μου κρύβουν την απάντηση."
+    ],
+    "clues": [
+      [
+        "On international duty, I played for France.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Γαλλία."
+      ],
+      [
+        "A chapter of my career was written at Celta Vigo.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Celta Vigo."
+      ],
+      [
+        "I also appeared in the shirt of Real Madrid.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Real Madrid."
+      ],
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Celta Vigo",
+      "Real Madrid",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "veron",
+    "name": "Juan Sebastián Verón",
+    "aliases": [
+      "Juan Sebastián Verón",
+      "Veron",
+      "Verón",
+      "βερον"
+    ],
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Follow the shirts I wore to uncover my identity.",
+      "Ακολούθησε τις φανέλες που φόρεσα για να βρεις ποιος είμαι."
+    ],
+    "clues": [
+      [
+        "A chapter of my career was written at Lazio.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Lazio."
+      ],
+      [
+        "I also appeared in the shirt of Manchester United.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Manchester United."
+      ],
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ],
+      [
+        "On international duty, I played for Argentina.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Αργεντινή."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Lazio",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "crespo",
+    "name": "Hernán Crespo",
+    "aliases": [
+      "Hernán Crespo",
+      "Crespo",
+      "κρεσπο"
+    ],
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Several clubs share a chapter of my story.",
+      "Αρκετοί σύλλογοι μοιράζονται ένα κεφάλαιο της ιστορίας μου."
+    ],
+    "clues": [
+      [
+        "I also appeared in the shirt of Lazio.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Lazio."
+      ],
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ],
+      [
+        "On international duty, I played for Argentina.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Αργεντινή."
+      ],
+      [
+        "A chapter of my career was written at Parma.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Parma."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Parma",
+      "Lazio",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "shevchenko",
+    "name": "Andriy Shevchenko",
+    "aliases": [
+      "Andriy Shevchenko",
+      "Shevchenko",
+      "σεβτσενκο"
+    ],
+    "nation": [
+      "Ukraine",
+      "Ουκρανία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My club history holds the answer.",
+      "Οι ομάδες της καριέρας μου κρύβουν την απάντηση."
+    ],
+    "clues": [
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ],
+      [
+        "On international duty, I played for Ukraine.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Ουκρανία."
+      ],
+      [
+        "A chapter of my career was written at Dynamo Kyiv.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Dynamo Kyiv."
+      ],
+      [
+        "I also appeared in the shirt of AC Milan.",
+        "Αγωνίστηκα επίσης με τη φανέλα της AC Milan."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Dynamo Kyiv",
+      "AC Milan",
+      "Chelsea"
+    ],
+    "image": null
+  },
+  {
+    "id": "inzaghi",
+    "name": "Filippo Inzaghi",
+    "aliases": [
+      "Filippo Inzaghi",
+      "Inzaghi",
+      "Pippo Inzaghi",
+      "ιντζαγκι"
+    ],
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Follow the shirts I wore to uncover my identity.",
+      "Ακολούθησε τις φανέλες που φόρεσα για να βρεις ποιος είμαι."
+    ],
+    "clues": [
+      [
+        "On international duty, I played for Italy.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Ιταλία."
+      ],
+      [
+        "A chapter of my career was written at Atalanta.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Atalanta."
+      ],
+      [
+        "I also appeared in the shirt of Juventus.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Juventus."
+      ],
+      [
+        "My list of clubs includes AC Milan.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η AC Milan."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Atalanta",
+      "Juventus",
+      "AC Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "delpiero",
+    "name": "Alessandro Del Piero",
+    "aliases": [
+      "Alessandro Del Piero",
+      "Del Piero",
+      "ντελ πιερο"
+    ],
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Several clubs share a chapter of my story.",
+      "Αρκετοί σύλλογοι μοιράζονται ένα κεφάλαιο της ιστορίας μου."
+    ],
+    "clues": [
+      [
+        "A chapter of my career was written at Padova.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Padova."
+      ],
+      [
+        "I also appeared in the shirt of Juventus.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Juventus."
+      ],
+      [
+        "My list of clubs includes Sydney FC.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Sydney FC."
+      ],
+      [
+        "On international duty, I played for Italy.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Ιταλία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Padova",
+      "Juventus",
+      "Sydney FC"
+    ],
+    "image": null
+  },
+  {
+    "id": "anelka",
+    "name": "Nicolas Anelka",
+    "aliases": [
+      "Nicolas Anelka",
+      "Anelka",
+      "ανελκα"
+    ],
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My club history holds the answer.",
+      "Οι ομάδες της καριέρας μου κρύβουν την απάντηση."
+    ],
+    "clues": [
+      [
+        "I also appeared in the shirt of Real Madrid.",
+        "Αγωνίστηκα επίσης με τη φανέλα της Real Madrid."
+      ],
+      [
+        "My list of clubs includes Chelsea.",
+        "Στη λίστα των ομάδων μου βρίσκεται και η Chelsea."
+      ],
+      [
+        "On international duty, I played for France.",
+        "Στις διεθνείς διοργανώσεις αγωνίστηκα με την εθνική: Γαλλία."
+      ],
+      [
+        "A chapter of my career was written at Arsenal.",
+        "Ένα κεφάλαιο της καριέρας μου γράφτηκε στην Arsenal."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Arsenal",
+      "Real Madrid",
+      "Chelsea"
+    ],
+    "image": null
   }
 ]];
 
