@@ -2231,6 +2231,619 @@ const UNLIMITED_PLAYERS = [...P, ...[
       "Brescia"
     ],
     "image": null
+  },
+  {
+    "id": "ronaldonazario",
+    "name": "Ronaldo Nazário",
+    "aliases": [
+      "Ronaldo Nazário",
+      "Ronaldo Nazario",
+      "R9",
+      "ροναλντο ναζαριο"
+    ],
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Trace my journey through these clubs.",
+      "Ακολούθησε τη διαδρομή μου σε αυτές τις ομάδες."
+    ],
+    "clues": [
+      [
+        "Fans of Barcelona have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Barcelona."
+      ],
+      [
+        "Another shirt I wore was that of Inter Milan.",
+        "Φόρεσα επίσης τη φανέλα της Inter Milan."
+      ],
+      [
+        "My national team was Brazil.",
+        "Αγωνίστηκα με την εθνική: Βραζιλία."
+      ],
+      [
+        "My club journey includes a spell at PSV.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την PSV."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "PSV",
+      "Barcelona",
+      "Inter Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "buffon",
+    "name": "Gianluigi Buffon",
+    "aliases": [
+      "Gianluigi Buffon",
+      "Buffon",
+      "Gigi Buffon",
+      "μπουφον"
+    ],
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "teaser": [
+      "Different shirts, the same player. Who am I?",
+      "Διαφορετικές φανέλες, ο ίδιος παίκτης. Ποιος είμαι;"
+    ],
+    "clues": [
+      [
+        "Another shirt I wore was that of Paris Saint-Germain.",
+        "Φόρεσα επίσης τη φανέλα της Paris Saint-Germain."
+      ],
+      [
+        "My national team was Italy.",
+        "Αγωνίστηκα με την εθνική: Ιταλία."
+      ],
+      [
+        "My club journey includes a spell at Parma.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Parma."
+      ],
+      [
+        "Fans of Juventus have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Juventus."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Parma",
+      "Juventus",
+      "Paris Saint-Germain"
+    ],
+    "image": null
+  },
+  {
+    "id": "cech",
+    "name": "Petr Čech",
+    "aliases": [
+      "Petr Čech",
+      "Cech",
+      "Petr Cech",
+      "τσεχ"
+    ],
+    "nation": [
+      "Czech Republic",
+      "Τσεχία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "teaser": [
+      "Each stop on my journey brings you closer to my name.",
+      "Κάθε σταθμός της πορείας μου σε φέρνει πιο κοντά στο όνομά μου."
+    ],
+    "clues": [
+      [
+        "My national team was Czech Republic.",
+        "Αγωνίστηκα με την εθνική: Τσεχία."
+      ],
+      [
+        "My club journey includes a spell at Rennes.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Rennes."
+      ],
+      [
+        "Fans of Chelsea have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Chelsea."
+      ],
+      [
+        "Another shirt I wore was that of Arsenal.",
+        "Φόρεσα επίσης τη φανέλα της Arsenal."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Rennes",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "image": null
+  },
+  {
+    "id": "vandersar",
+    "name": "Edwin van der Sar",
+    "aliases": [
+      "Edwin van der Sar",
+      "van der Sar",
+      "φαν ντερ σαρ"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "teaser": [
+      "Trace my journey through these clubs.",
+      "Ακολούθησε τη διαδρομή μου σε αυτές τις ομάδες."
+    ],
+    "clues": [
+      [
+        "My club journey includes a spell at Ajax.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Ajax."
+      ],
+      [
+        "Fans of Fulham have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Fulham."
+      ],
+      [
+        "Another shirt I wore was that of Manchester United.",
+        "Φόρεσα επίσης τη φανέλα της Manchester United."
+      ],
+      [
+        "My national team was Netherlands.",
+        "Αγωνίστηκα με την εθνική: Ολλανδία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Ajax",
+      "Fulham",
+      "Manchester United"
+    ],
+    "image": null
+  },
+  {
+    "id": "xabialonso",
+    "name": "Xabi Alonso",
+    "aliases": [
+      "Xabi Alonso",
+      "Alonso",
+      "τσαμπι αλονσο",
+      "αλονσο"
+    ],
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Different shirts, the same player. Who am I?",
+      "Διαφορετικές φανέλες, ο ίδιος παίκτης. Ποιος είμαι;"
+    ],
+    "clues": [
+      [
+        "Fans of Liverpool have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Liverpool."
+      ],
+      [
+        "Another shirt I wore was that of Bayern Munich.",
+        "Φόρεσα επίσης τη φανέλα της Bayern Munich."
+      ],
+      [
+        "My national team was Spain.",
+        "Αγωνίστηκα με την εθνική: Ισπανία."
+      ],
+      [
+        "My club journey includes a spell at Real Sociedad.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Real Sociedad."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Real Sociedad",
+      "Liverpool",
+      "Bayern Munich"
+    ],
+    "image": null
+  },
+  {
+    "id": "rakitic",
+    "name": "Ivan Rakitić",
+    "aliases": [
+      "Ivan Rakitić",
+      "Rakitic",
+      "Rakitić",
+      "ρακιτιτς"
+    ],
+    "nation": [
+      "Croatia",
+      "Κροατία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Each stop on my journey brings you closer to my name.",
+      "Κάθε σταθμός της πορείας μου σε φέρνει πιο κοντά στο όνομά μου."
+    ],
+    "clues": [
+      [
+        "Another shirt I wore was that of Barcelona.",
+        "Φόρεσα επίσης τη φανέλα της Barcelona."
+      ],
+      [
+        "My national team was Croatia.",
+        "Αγωνίστηκα με την εθνική: Κροατία."
+      ],
+      [
+        "My club journey includes a spell at Basel.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Basel."
+      ],
+      [
+        "Fans of Sevilla have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Sevilla."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Basel",
+      "Sevilla",
+      "Barcelona"
+    ],
+    "image": null
+  },
+  {
+    "id": "berbatov",
+    "name": "Dimitar Berbatov",
+    "aliases": [
+      "Dimitar Berbatov",
+      "Berbatov",
+      "μπερμπατοφ"
+    ],
+    "nation": [
+      "Bulgaria",
+      "Βουλγαρία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Trace my journey through these clubs.",
+      "Ακολούθησε τη διαδρομή μου σε αυτές τις ομάδες."
+    ],
+    "clues": [
+      [
+        "My national team was Bulgaria.",
+        "Αγωνίστηκα με την εθνική: Βουλγαρία."
+      ],
+      [
+        "My club journey includes a spell at Bayer Leverkusen.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Bayer Leverkusen."
+      ],
+      [
+        "Fans of Tottenham Hotspur have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Tottenham Hotspur."
+      ],
+      [
+        "Another shirt I wore was that of Manchester United.",
+        "Φόρεσα επίσης τη φανέλα της Manchester United."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Bayer Leverkusen",
+      "Tottenham Hotspur",
+      "Manchester United"
+    ],
+    "image": null
+  },
+  {
+    "id": "dzeko",
+    "name": "Edin Džeko",
+    "aliases": [
+      "Edin Džeko",
+      "Dzeko",
+      "Džeko",
+      "τζεκο"
+    ],
+    "nation": [
+      "Bosnia and Herzegovina",
+      "Βοσνία και Ερζεγοβίνη"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Different shirts, the same player. Who am I?",
+      "Διαφορετικές φανέλες, ο ίδιος παίκτης. Ποιος είμαι;"
+    ],
+    "clues": [
+      [
+        "My club journey includes a spell at Wolfsburg.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Wolfsburg."
+      ],
+      [
+        "Fans of Manchester City have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Manchester City."
+      ],
+      [
+        "Another shirt I wore was that of Roma.",
+        "Φόρεσα επίσης τη φανέλα της Roma."
+      ],
+      [
+        "My national team was Bosnia and Herzegovina.",
+        "Αγωνίστηκα με την εθνική: Βοσνία και Ερζεγοβίνη."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Wolfsburg",
+      "Manchester City",
+      "Roma"
+    ],
+    "image": null
+  },
+  {
+    "id": "yayatoure",
+    "name": "Yaya Touré",
+    "aliases": [
+      "Yaya Touré",
+      "Yaya Toure",
+      "Yaya",
+      "γιαγια τουρε"
+    ],
+    "nation": [
+      "Ivory Coast",
+      "Ακτή Ελεφαντοστού"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Each stop on my journey brings you closer to my name.",
+      "Κάθε σταθμός της πορείας μου σε φέρνει πιο κοντά στο όνομά μου."
+    ],
+    "clues": [
+      [
+        "Fans of Barcelona have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Barcelona."
+      ],
+      [
+        "Another shirt I wore was that of Manchester City.",
+        "Φόρεσα επίσης τη φανέλα της Manchester City."
+      ],
+      [
+        "My national team was Ivory Coast.",
+        "Αγωνίστηκα με την εθνική: Ακτή Ελεφαντοστού."
+      ],
+      [
+        "My club journey includes a spell at Olympiacos.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Olympiacos."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Olympiacos",
+      "Barcelona",
+      "Manchester City"
+    ],
+    "image": null
+  },
+  {
+    "id": "cambiasso",
+    "name": "Esteban Cambiasso",
+    "aliases": [
+      "Esteban Cambiasso",
+      "Cambiasso",
+      "καμπιασο"
+    ],
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Trace my journey through these clubs.",
+      "Ακολούθησε τη διαδρομή μου σε αυτές τις ομάδες."
+    ],
+    "clues": [
+      [
+        "Another shirt I wore was that of Olympiacos.",
+        "Φόρεσα επίσης τη φανέλα της Olympiacos."
+      ],
+      [
+        "My national team was Argentina.",
+        "Αγωνίστηκα με την εθνική: Αργεντινή."
+      ],
+      [
+        "My club journey includes a spell at Real Madrid.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Real Madrid."
+      ],
+      [
+        "Fans of Inter Milan have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Inter Milan."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Real Madrid",
+      "Inter Milan",
+      "Olympiacos"
+    ],
+    "image": null
+  },
+  {
+    "id": "kuyt",
+    "name": "Dirk Kuyt",
+    "aliases": [
+      "Dirk Kuyt",
+      "Kuyt",
+      "Dirk Kuijt",
+      "Kuijt",
+      "καουτ",
+      "κουιτ"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Different shirts, the same player. Who am I?",
+      "Διαφορετικές φανέλες, ο ίδιος παίκτης. Ποιος είμαι;"
+    ],
+    "clues": [
+      [
+        "My national team was Netherlands.",
+        "Αγωνίστηκα με την εθνική: Ολλανδία."
+      ],
+      [
+        "My club journey includes a spell at Feyenoord.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την Feyenoord."
+      ],
+      [
+        "Fans of Liverpool have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Liverpool."
+      ],
+      [
+        "Another shirt I wore was that of Fenerbahçe.",
+        "Φόρεσα επίσης τη φανέλα της Fenerbahçe."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Feyenoord",
+      "Liverpool",
+      "Fenerbahçe"
+    ],
+    "image": null
+  },
+  {
+    "id": "parkjisung",
+    "name": "Park Ji-sung",
+    "aliases": [
+      "Park Ji-sung",
+      "Park Ji Sung",
+      "Ji Sung Park",
+      "Park",
+      "παρκ",
+      "παρκ τζι σουνγκ"
+    ],
+    "nation": [
+      "South Korea",
+      "Νότια Κορέα"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Each stop on my journey brings you closer to my name.",
+      "Κάθε σταθμός της πορείας μου σε φέρνει πιο κοντά στο όνομά μου."
+    ],
+    "clues": [
+      [
+        "My club journey includes a spell at PSV.",
+        "Στην πορεία μου υπάρχει ένα πέρασμα από την PSV."
+      ],
+      [
+        "Fans of Manchester United have cheered for me.",
+        "Έχω αγωνιστεί μπροστά στους φιλάθλους της Manchester United."
+      ],
+      [
+        "Another shirt I wore was that of Queens Park Rangers.",
+        "Φόρεσα επίσης τη φανέλα της Queens Park Rangers."
+      ],
+      [
+        "My national team was South Korea.",
+        "Αγωνίστηκα με την εθνική: Νότια Κορέα."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "PSV",
+      "Manchester United",
+      "Queens Park Rangers"
+    ],
+    "image": null
   }
 ]];
 
