@@ -1728,6 +1728,509 @@ const UNLIMITED_PLAYERS = [...P, ...[
       "Manchester City"
     ],
     "image": null
+  },
+  {
+    "id": "rooney",
+    "name": "Wayne Rooney",
+    "aliases": [
+      "Wayne Rooney",
+      "Rooney",
+      "ρουνεϊ"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Three clubs, one career. Can you connect the dots?",
+      "Τρεις ομάδες, μία καριέρα. Μπορείς να βρεις τη σύνδεση;"
+    ],
+    "clues": [
+      [
+        "Earlier in my career, I wore the colours of Everton.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Everton."
+      ],
+      [
+        "My career took me to Manchester United.",
+        "Η πορεία μου με έφερε στην Manchester United."
+      ],
+      [
+        "You can also find D.C. United on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την D.C. United."
+      ],
+      [
+        "My international career was with England.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Αγγλία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Everton",
+      "Manchester United",
+      "D.C. United"
+    ],
+    "image": null
+  },
+  {
+    "id": "owen",
+    "name": "Michael Owen",
+    "aliases": [
+      "Michael Owen",
+      "Owen",
+      "οουεν"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Follow my club journey to find my name.",
+      "Ακολούθησε τη διαδρομή μου στους συλλόγους για να βρεις το όνομά μου."
+    ],
+    "clues": [
+      [
+        "My career took me to Real Madrid.",
+        "Η πορεία μου με έφερε στην Real Madrid."
+      ],
+      [
+        "You can also find Newcastle United on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Newcastle United."
+      ],
+      [
+        "My international career was with England.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Αγγλία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Liverpool.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Liverpool."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Liverpool",
+      "Real Madrid",
+      "Newcastle United"
+    ],
+    "image": null
+  },
+  {
+    "id": "shearer",
+    "name": "Alan Shearer",
+    "aliases": [
+      "Alan Shearer",
+      "Shearer",
+      "σιρερ"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "My career crossed paths with some famous shirts.",
+      "Στην καριέρα μου φόρεσα μερικές διάσημες φανέλες."
+    ],
+    "clues": [
+      [
+        "You can also find Newcastle United on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Newcastle United."
+      ],
+      [
+        "My international career was with England.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Αγγλία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Southampton.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Southampton."
+      ],
+      [
+        "My career took me to Blackburn Rovers.",
+        "Η πορεία μου με έφερε στην Blackburn Rovers."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Southampton",
+      "Blackburn Rovers",
+      "Newcastle United"
+    ],
+    "image": null
+  },
+  {
+    "id": "bergkamp",
+    "name": "Dennis Bergkamp",
+    "aliases": [
+      "Dennis Bergkamp",
+      "Bergkamp",
+      "μπεργκαμπ"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Three clubs, one career. Can you connect the dots?",
+      "Τρεις ομάδες, μία καριέρα. Μπορείς να βρεις τη σύνδεση;"
+    ],
+    "clues": [
+      [
+        "My international career was with Netherlands.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ολλανδία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Ajax.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Ajax."
+      ],
+      [
+        "My career took me to Inter Milan.",
+        "Η πορεία μου με έφερε στην Inter Milan."
+      ],
+      [
+        "You can also find Arsenal on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Arsenal."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Ajax",
+      "Inter Milan",
+      "Arsenal"
+    ],
+    "image": null
+  },
+  {
+    "id": "vanpersie",
+    "name": "Robin van Persie",
+    "aliases": [
+      "Robin van Persie",
+      "van Persie",
+      "Persie",
+      "φαν περσι",
+      "φαν περσι"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "teaser": [
+      "Follow my club journey to find my name.",
+      "Ακολούθησε τη διαδρομή μου στους συλλόγους για να βρεις το όνομά μου."
+    ],
+    "clues": [
+      [
+        "Earlier in my career, I wore the colours of Feyenoord.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Feyenoord."
+      ],
+      [
+        "My career took me to Arsenal.",
+        "Η πορεία μου με έφερε στην Arsenal."
+      ],
+      [
+        "You can also find Manchester United on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Manchester United."
+      ],
+      [
+        "My international career was with Netherlands.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ολλανδία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Feyenoord",
+      "Arsenal",
+      "Manchester United"
+    ],
+    "image": null
+  },
+  {
+    "id": "robben",
+    "name": "Arjen Robben",
+    "aliases": [
+      "Arjen Robben",
+      "Robben",
+      "ρομπεν"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "teaser": [
+      "My career crossed paths with some famous shirts.",
+      "Στην καριέρα μου φόρεσα μερικές διάσημες φανέλες."
+    ],
+    "clues": [
+      [
+        "My career took me to Real Madrid.",
+        "Η πορεία μου με έφερε στην Real Madrid."
+      ],
+      [
+        "You can also find Bayern Munich on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Bayern Munich."
+      ],
+      [
+        "My international career was with Netherlands.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ολλανδία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Chelsea.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Chelsea."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Chelsea",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "image": null
+  },
+  {
+    "id": "sneijder",
+    "name": "Wesley Sneijder",
+    "aliases": [
+      "Wesley Sneijder",
+      "Sneijder",
+      "σναϊντερ"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Three clubs, one career. Can you connect the dots?",
+      "Τρεις ομάδες, μία καριέρα. Μπορείς να βρεις τη σύνδεση;"
+    ],
+    "clues": [
+      [
+        "You can also find Inter Milan on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Inter Milan."
+      ],
+      [
+        "My international career was with Netherlands.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ολλανδία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Ajax.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Ajax."
+      ],
+      [
+        "My career took me to Real Madrid.",
+        "Η πορεία μου με έφερε στην Real Madrid."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Ajax",
+      "Real Madrid",
+      "Inter Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "seedorf",
+    "name": "Clarence Seedorf",
+    "aliases": [
+      "Clarence Seedorf",
+      "Seedorf",
+      "σειντορφ",
+      "ζεεντορφ"
+    ],
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "Follow my club journey to find my name.",
+      "Ακολούθησε τη διαδρομή μου στους συλλόγους για να βρεις το όνομά μου."
+    ],
+    "clues": [
+      [
+        "My international career was with Netherlands.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ολλανδία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Ajax.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Ajax."
+      ],
+      [
+        "My career took me to Real Madrid.",
+        "Η πορεία μου με έφερε στην Real Madrid."
+      ],
+      [
+        "You can also find AC Milan on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την AC Milan."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Ajax",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "pirlo",
+    "name": "Andrea Pirlo",
+    "aliases": [
+      "Andrea Pirlo",
+      "Pirlo",
+      "πιρλο"
+    ],
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "My career crossed paths with some famous shirts.",
+      "Στην καριέρα μου φόρεσα μερικές διάσημες φανέλες."
+    ],
+    "clues": [
+      [
+        "Earlier in my career, I wore the colours of Brescia.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Brescia."
+      ],
+      [
+        "My career took me to AC Milan.",
+        "Η πορεία μου με έφερε στην AC Milan."
+      ],
+      [
+        "You can also find Juventus on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Juventus."
+      ],
+      [
+        "My international career was with Italy.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ιταλία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Brescia",
+      "AC Milan",
+      "Juventus"
+    ],
+    "image": null
+  },
+  {
+    "id": "baggio",
+    "name": "Roberto Baggio",
+    "aliases": [
+      "Roberto Baggio",
+      "Baggio",
+      "μπατζο"
+    ],
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Three clubs, one career. Can you connect the dots?",
+      "Τρεις ομάδες, μία καριέρα. Μπορείς να βρεις τη σύνδεση;"
+    ],
+    "clues": [
+      [
+        "My career took me to Juventus.",
+        "Η πορεία μου με έφερε στην Juventus."
+      ],
+      [
+        "You can also find Brescia on my football CV.",
+        "Στο ποδοσφαιρικό βιογραφικό μου θα βρεις και την Brescia."
+      ],
+      [
+        "My international career was with Italy.",
+        "Στις εθνικές ομάδες εκπροσώπησα την Ιταλία."
+      ],
+      [
+        "Earlier in my career, I wore the colours of Fiorentina.",
+        "Νωρίτερα στην καριέρα μου φόρεσα τη φανέλα της Fiorentina."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Fiorentina",
+      "Juventus",
+      "Brescia"
+    ],
+    "image": null
   }
 ]];
 
