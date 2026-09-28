@@ -2844,6 +2844,499 @@ const UNLIMITED_PLAYERS = [...P, ...[
       "Queens Park Rangers"
     ],
     "image": null
+  },
+  {
+    "id": "casillas",
+    "name": "Iker Casillas",
+    "aliases": [
+      "Iker Casillas",
+      "Casillas",
+      "κασιγιας"
+    ],
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "teaser": [
+      "Think beyond the goalscorers.",
+      "Σκέψου πέρα από τους σκόρερ."
+    ],
+    "clues": [
+      [
+        "I wore the colours of Real Madrid.",
+        "Φόρεσα τη φανέλα της Real Madrid."
+      ],
+      [
+        "My career also took me to Porto.",
+        "Η καριέρα μου με έφερε και στην Porto."
+      ],
+      [
+        "I captained Spain to the 2010 World Cup title.",
+        "Ήμουν αρχηγός της Ισπανίας στην κατάκτηση του Μουντιάλ του 2010."
+      ],
+      [
+        "I represented Spain internationally.",
+        "Εκπροσώπησα την εθνική: Ισπανία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Real Madrid",
+      "Porto"
+    ],
+    "image": null
+  },
+  {
+    "id": "puyol",
+    "name": "Carles Puyol",
+    "aliases": [
+      "Carles Puyol",
+      "Puyol",
+      "πουγιολ"
+    ],
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "teaser": [
+      "The next clue may be the one that gives me away.",
+      "Το επόμενο στοιχείο ίσως αποκαλύψει ποιος είμαι."
+    ],
+    "clues": [
+      [
+        "My main role was defender.",
+        "Η βασική μου θέση: Αμυντικός."
+      ],
+      [
+        "I scored the only goal in the 2010 World Cup semi-final against Germany.",
+        "Πέτυχα το μοναδικό γκολ στον ημιτελικό του Μουντιάλ 2010 απέναντι στη Γερμανία."
+      ],
+      [
+        "I represented Spain internationally.",
+        "Εκπροσώπησα την εθνική: Ισπανία."
+      ],
+      [
+        "I wore the colours of Barcelona.",
+        "Φόρεσα τη φανέλα της Barcelona."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Barcelona"
+    ],
+    "image": null
+  },
+  {
+    "id": "terry",
+    "name": "John Terry",
+    "aliases": [
+      "John Terry",
+      "Terry",
+      "τερι"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "teaser": [
+      "A familiar shirt could point you in the right direction.",
+      "Μια γνώριμη φανέλα μπορεί να σε οδηγήσει στη σωστή απάντηση."
+    ],
+    "clues": [
+      [
+        "Centre-back was my position.",
+        "Αγωνιζόμουν ως κεντρικός αμυντικός."
+      ],
+      [
+        "I represented England internationally.",
+        "Εκπροσώπησα την εθνική: Αγγλία."
+      ],
+      [
+        "I wore the colours of Chelsea.",
+        "Φόρεσα τη φανέλα της Chelsea."
+      ],
+      [
+        "My career also took me to Aston Villa.",
+        "Η καριέρα μου με έφερε και στην Aston Villa."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Chelsea",
+      "Aston Villa"
+    ],
+    "image": null
+  },
+  {
+    "id": "ferdinand",
+    "name": "Rio Ferdinand",
+    "aliases": [
+      "Rio Ferdinand",
+      "Ferdinand",
+      "φερντιναντ"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "teaser": [
+      "Think beyond the goalscorers.",
+      "Σκέψου πέρα από τους σκόρερ."
+    ],
+    "clues": [
+      [
+        "I represented England internationally.",
+        "Εκπροσώπησα την εθνική: Αγγλία."
+      ],
+      [
+        "I wore the colours of West Ham United.",
+        "Φόρεσα τη φανέλα της West Ham United."
+      ],
+      [
+        "My career also took me to Manchester United.",
+        "Η καριέρα μου με έφερε και στην Manchester United."
+      ],
+      [
+        "I played as a centre-back.",
+        "Έπαιζα ως κεντρικός αμυντικός."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "West Ham United",
+      "Leeds United",
+      "Manchester United"
+    ],
+    "image": null
+  },
+  {
+    "id": "vidic",
+    "name": "Nemanja Vidić",
+    "aliases": [
+      "Nemanja Vidić",
+      "Vidić",
+      "βιντιτς"
+    ],
+    "nation": [
+      "Serbia",
+      "Σερβία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "teaser": [
+      "The next clue may be the one that gives me away.",
+      "Το επόμενο στοιχείο ίσως αποκαλύψει ποιος είμαι."
+    ],
+    "clues": [
+      [
+        "I wore the colours of Red Star Belgrade.",
+        "Φόρεσα τη φανέλα της Red Star Belgrade."
+      ],
+      [
+        "My career also took me to Inter Milan.",
+        "Η καριέρα μου με έφερε και στην Inter Milan."
+      ],
+      [
+        "My role was in central defence.",
+        "Η θέση μου ήταν στο κέντρο της άμυνας."
+      ],
+      [
+        "I represented Serbia internationally.",
+        "Εκπροσώπησα την εθνική: Σερβία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Red Star Belgrade",
+      "Manchester United",
+      "Inter Milan"
+    ],
+    "image": null
+  },
+  {
+    "id": "evra",
+    "name": "Patrice Evra",
+    "aliases": [
+      "Patrice Evra",
+      "Evra",
+      "εβρα"
+    ],
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "teaser": [
+      "A familiar shirt could point you in the right direction.",
+      "Μια γνώριμη φανέλα μπορεί να σε οδηγήσει στη σωστή απάντηση."
+    ],
+    "clues": [
+      [
+        "My career also took me to Juventus.",
+        "Η καριέρα μου με έφερε και στην Juventus."
+      ],
+      [
+        "Left-back was my main position.",
+        "Η βασική μου θέση ήταν αριστερό μπακ."
+      ],
+      [
+        "I represented France internationally.",
+        "Εκπροσώπησα την εθνική: Γαλλία."
+      ],
+      [
+        "I wore the colours of Monaco.",
+        "Φόρεσα τη φανέλα της Monaco."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Monaco",
+      "Manchester United",
+      "Juventus"
+    ],
+    "image": null
+  },
+  {
+    "id": "ashleycole",
+    "name": "Ashley Cole",
+    "aliases": [
+      "Ashley Cole",
+      "Cole",
+      "ασλεϊ κολ",
+      "ασλει κολ",
+      "Cole"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "teaser": [
+      "Think beyond the goalscorers.",
+      "Σκέψου πέρα από τους σκόρερ."
+    ],
+    "clues": [
+      [
+        "I played mainly at left-back.",
+        "Αγωνιζόμουν κυρίως ως αριστερό μπακ."
+      ],
+      [
+        "I represented England internationally.",
+        "Εκπροσώπησα την εθνική: Αγγλία."
+      ],
+      [
+        "I wore the colours of Arsenal.",
+        "Φόρεσα τη φανέλα της Arsenal."
+      ],
+      [
+        "My career also took me to Roma.",
+        "Η καριέρα μου με έφερε και στην Roma."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Arsenal",
+      "Chelsea",
+      "Roma"
+    ],
+    "image": null
+  },
+  {
+    "id": "gerrard",
+    "name": "Steven Gerrard",
+    "aliases": [
+      "Steven Gerrard",
+      "Gerrard",
+      "τζεραρντ"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "The next clue may be the one that gives me away.",
+      "Το επόμενο στοιχείο ίσως αποκαλύψει ποιος είμαι."
+    ],
+    "clues": [
+      [
+        "I represented England internationally.",
+        "Εκπροσώπησα την εθνική: Αγγλία."
+      ],
+      [
+        "I wore the colours of Liverpool.",
+        "Φόρεσα τη φανέλα της Liverpool."
+      ],
+      [
+        "My career also took me to LA Galaxy.",
+        "Η καριέρα μου με έφερε και στην LA Galaxy."
+      ],
+      [
+        "I captained Liverpool in the 2005 Champions League final.",
+        "Ήμουν αρχηγός της Liverpool στον τελικό του Champions League του 2005."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Liverpool",
+      "LA Galaxy"
+    ],
+    "image": null
+  },
+  {
+    "id": "scholes",
+    "name": "Paul Scholes",
+    "aliases": [
+      "Paul Scholes",
+      "Scholes",
+      "σκοουλς"
+    ],
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "teaser": [
+      "A familiar shirt could point you in the right direction.",
+      "Μια γνώριμη φανέλα μπορεί να σε οδηγήσει στη σωστή απάντηση."
+    ],
+    "clues": [
+      [
+        "I wore the colours of Manchester United.",
+        "Φόρεσα τη φανέλα της Manchester United."
+      ],
+      [
+        "My main role was midfielder.",
+        "Η βασική μου θέση: Μέσος."
+      ],
+      [
+        "My senior club career was spent entirely at Manchester United.",
+        "Όλη η επαγγελματική μου καριέρα σε συλλόγους ήταν στη Manchester United."
+      ],
+      [
+        "I represented England internationally.",
+        "Εκπροσώπησα την εθνική: Αγγλία."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Manchester United"
+    ],
+    "image": null
+  },
+  {
+    "id": "totti",
+    "name": "Francesco Totti",
+    "aliases": [
+      "Francesco Totti",
+      "Totti",
+      "τοτι"
+    ],
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "teaser": [
+      "Think beyond the goalscorers.",
+      "Σκέψου πέρα από τους σκόρερ."
+    ],
+    "clues": [
+      [
+        "My main role was forward.",
+        "Η βασική μου θέση: Επιθετικός."
+      ],
+      [
+        "I won the 2006 World Cup with Italy.",
+        "Κατέκτησα το Μουντιάλ του 2006 με την Ιταλία."
+      ],
+      [
+        "I represented Italy internationally.",
+        "Εκπροσώπησα την εθνική: Ιταλία."
+      ],
+      [
+        "I wore the colours of Roma.",
+        "Φόρεσα τη φανέλα της Roma."
+      ]
+    ],
+    "birthDate": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "highestMarketValue": null,
+    "clubs": [
+      "Roma"
+    ],
+    "image": null
   }
 ]];
 
