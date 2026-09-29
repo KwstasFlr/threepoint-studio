@@ -3844,7 +3844,190 @@ const UNLIMITED_PLAYERS = [...P, ...[
 
 
 /* GAME CATEGORIES */
+/* 30 additional players — Unlimited only */
+UNLIMITED_PLAYERS.push(
+  ...[
+    ["xavi", "Xavi Hernández", "Spain", "Ισπανία",
+      "Midfielder", "Μέσος", "Barcelona", "Al Sadd",
+      ["xavi", "xavi hernandez", "τσαβι"]],
 
+    ["iniesta", "Andrés Iniesta", "Spain", "Ισπανία",
+      "Midfielder", "Μέσος", "Barcelona", "Vissel Kobe",
+      ["iniesta", "andres iniesta", "ινιεστα"]],
+
+    ["busquets", "Sergio Busquets", "Spain", "Ισπανία",
+      "Midfielder", "Μέσος", "Barcelona", "Inter Miami",
+      ["busquets", "μπουσκετς"]],
+
+    ["pique", "Gerard Piqué", "Spain", "Ισπανία",
+      "Defender", "Αμυντικός", "Manchester United", "Barcelona",
+      ["pique", "πικε"]],
+
+    ["ramos", "Sergio Ramos", "Spain", "Ισπανία",
+      "Defender", "Αμυντικός", "Sevilla", "Real Madrid",
+      ["ramos", "ραμος"]],
+
+    ["marcelo", "Marcelo", "Brazil", "Βραζιλία",
+      "Defender", "Αμυντικός", "Real Madrid", "Olympiacos",
+      ["marcelo", "μαρσελο"]],
+
+    ["danialves", "Dani Alves", "Brazil", "Βραζιλία",
+      "Defender", "Αμυντικός", "Sevilla", "Barcelona",
+      ["dani alves", "daniel alves", "alves", "ντανι αλβες", "αλβες"]],
+
+    ["robertocarlos", "Roberto Carlos", "Brazil", "Βραζιλία",
+      "Defender", "Αμυντικός", "Inter Milan", "Real Madrid",
+      ["roberto carlos", "ρομπερτο καρλος"]],
+
+    ["lahm", "Philipp Lahm", "Germany", "Γερμανία",
+      "Defender", "Αμυντικός", "Stuttgart", "Bayern Munich",
+      ["lahm", "λαμ"]],
+
+    ["klose", "Miroslav Klose", "Germany", "Γερμανία",
+      "Striker", "Σέντερ φορ", "Werder Bremen", "Lazio",
+      ["klose", "κλοζε"]],
+
+    ["podolski", "Lukas Podolski", "Germany", "Γερμανία",
+      "Forward", "Επιθετικός", "Köln", "Arsenal",
+      ["podolski", "ποντολσκι"]],
+
+    ["schweinsteiger", "Bastian Schweinsteiger", "Germany", "Γερμανία",
+      "Midfielder", "Μέσος", "Bayern Munich", "Manchester United",
+      ["schweinsteiger", "σβαϊνσταϊγκερ", "σβαινσταιγκερ"]],
+
+    ["ozil", "Mesut Özil", "Germany", "Γερμανία",
+      "Midfielder", "Μέσος", "Real Madrid", "Arsenal",
+      ["ozil", "özil", "οζιλ"]],
+
+    ["khedira", "Sami Khedira", "Germany", "Γερμανία",
+      "Midfielder", "Μέσος", "Real Madrid", "Juventus",
+      ["khedira", "κεντιρα"]],
+
+    ["mariogomez", "Mario Gómez", "Germany", "Γερμανία",
+      "Striker", "Σέντερ φορ", "Bayern Munich", "Fiorentina",
+      ["mario gomez", "gomez", "μαριο γκομεζ", "γκομεζ"]],
+
+    ["klinsmann", "Jürgen Klinsmann", "Germany", "Γερμανία",
+      "Striker", "Σέντερ φορ", "Inter Milan", "Tottenham Hotspur",
+      ["klinsmann", "jurgen klinsmann", "κλινσμαν"]],
+
+    ["voller", "Rudi Völler", "Germany", "Γερμανία",
+      "Striker", "Σέντερ φορ", "Roma", "Marseille",
+      ["voller", "völler", "voeller", "φελερ", "βολερ"]],
+
+    ["cantona", "Eric Cantona", "France", "Γαλλία",
+      "Forward", "Επιθετικός", "Leeds United", "Manchester United",
+      ["cantona", "καντονα"]],
+
+    ["markhughes", "Mark Hughes", "Wales", "Ουαλία",
+      "Forward", "Επιθετικός", "Manchester United", "Barcelona",
+      ["mark hughes", "hughes", "μαρκ χιουζ", "χιουζ"]],
+
+    ["yorke", "Dwight Yorke", "Trinidad and Tobago", "Τρινιντάντ και Τομπάγκο",
+      "Striker", "Σέντερ φορ", "Aston Villa", "Manchester United",
+      ["yorke", "dwight yorke", "γιορκ"]],
+
+    ["andycole", "Andy Cole", "England", "Αγγλία",
+      "Striker", "Σέντερ φορ", "Newcastle United", "Manchester United",
+      ["andy cole", "andrew cole", "αντι κολ", "αντι κοουλ"]],
+
+    ["solskjaer", "Ole Gunnar Solskjær", "Norway", "Νορβηγία",
+      "Striker", "Σέντερ φορ", "Molde", "Manchester United",
+      ["solskjaer", "solskjær", "solskjaer", "σολσκιερ", "σολσκιαιρ"]],
+
+    ["sheringham", "Teddy Sheringham", "England", "Αγγλία",
+      "Striker", "Σέντερ φορ", "Tottenham Hotspur", "Manchester United",
+      ["sheringham", "σερινγχαμ", "σεριγχαμ"]],
+
+    ["fowler", "Robbie Fowler", "England", "Αγγλία",
+      "Striker", "Σέντερ φορ", "Liverpool", "Leeds United",
+      ["fowler", "φαουλερ"]],
+
+    ["mcmanaman", "Steve McManaman", "England", "Αγγλία",
+      "Midfielder", "Μέσος", "Liverpool", "Real Madrid",
+      ["mcmanaman", "μακμαναμαν"]],
+
+    ["mascherano", "Javier Mascherano", "Argentina", "Αργεντινή",
+      "Midfielder / Defender", "Μέσος / Αμυντικός", "Liverpool", "Barcelona",
+      ["mascherano", "μασερανο", "μασκερανο"]],
+
+    ["tevez", "Carlos Tévez", "Argentina", "Αργεντινή",
+      "Forward", "Επιθετικός", "Manchester City", "Juventus",
+      ["tevez", "tévez", "τεβες"]],
+
+    ["higuain", "Gonzalo Higuaín", "Argentina", "Αργεντινή",
+      "Striker", "Σέντερ φορ", "Real Madrid", "Napoli",
+      ["higuain", "higuaín", "ιγκουαιν"]],
+
+    ["diegomilito", "Diego Milito", "Argentina", "Αργεντινή",
+      "Striker", "Σέντερ φορ", "Genoa", "Inter Milan",
+      ["diego milito", "milito", "ντιεγκο μιλιτο", "μιλιτο"]],
+
+    ["zanetti", "Javier Zanetti", "Argentina", "Αργεντινή",
+      "Defender / Midfielder", "Αμυντικός / Μέσος", "Banfield", "Inter Milan",
+      ["zanetti", "ζανετι", "τζανετι"]]
+  ]
+    .filter(row => !UNLIMITED_PLAYERS.some(player => player.id === row[0]))
+    .map((row, index) => {
+      const [
+        id, name, nationEN, nationEL,
+        positionEN, positionEL, clubA, clubB, aliases
+      ] = row;
+
+      const clues = [
+        [
+          `I represented ${nationEN} internationally.`,
+          `Αγωνίστηκα με την εθνική: ${nationEL}.`
+        ],
+        [
+          `My career includes a spell at ${clubA}.`,
+          `Η καριέρα μου περιλαμβάνει ένα πέρασμα από την ${clubA}.`
+        ],
+        [
+          `My role on the pitch: ${positionEN.toLowerCase()}.`,
+          `Η θέση μου στο γήπεδο: ${positionEL}.`
+        ],
+        [
+          `I also wore the shirt of ${clubB}.`,
+          `Φόρεσα επίσης τη φανέλα της ${clubB}.`
+        ]
+      ];
+
+      // Vary the opening clue instead of always starting with nationality.
+      const offset = (index + 1) % clues.length;
+
+      return {
+        id,
+        name,
+        aliases: [...new Set([name, ...aliases])],
+        nation: [nationEN, nationEL],
+        position: [positionEN, positionEL],
+        teaser: [
+          [
+            "Follow my career to uncover my name.",
+            "Different shirts, one player. Who am I?",
+            "My football journey holds the answer."
+          ][index % 3],
+          [
+            "Ακολούθησε την καριέρα μου για να βρεις το όνομά μου.",
+            "Διαφορετικές φανέλες, ένας παίκτης. Ποιος είμαι;",
+            "Η ποδοσφαιρική μου διαδρομή κρύβει την απάντηση."
+          ][index % 3]
+        ],
+        clues: [
+          ...clues.slice(offset),
+          ...clues.slice(0, offset)
+        ],
+        birthDate: null,
+        goals: null,
+        assists: null,
+        cleanSheets: null,
+        highestMarketValue: null,
+        clubs: [clubA, clubB],
+        image: null
+      };
+    })
+);
 const GAME_DATA = [
   {
     id: "football",
