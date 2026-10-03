@@ -315,7 +315,7 @@ Object.entries(categories).forEach(([key,category])=>{
 const link=makeElement("a","category-link");
 link.href=categoryURL(key);
 const title=translated(makeElement("strong"),category.en[0],category.el[0]);
-const arrow=makeElement("span","category-arrow","↗");
+const arrow=makeElement("span","category-arrow","");
 arrow.setAttribute("aria-hidden","true");
 const description=translated(makeElement("small"),category.en[1],category.el[1]);
 link.append(title,arrow,description);
@@ -382,7 +382,7 @@ const empty=makeElement("div","portfolio-empty");
 empty.setAttribute("data-reveal","");
 const heading=translated(makeElement("h2"),"Coming soon.","Σύντομα.");
 const text=translated(makeElement("p"),"The first projects in this category will be added here.","Οι πρώτες δουλειές αυτής της κατηγορίας θα προστεθούν εδώ.");
-const contact=translated(makeElement("a","portfolio-contact"),"Discuss a project ↗","Μίλησέ μας για το project σου ↗");
+const contact=translated(makeElement("a","portfolio-contact"),"Discuss a project ","Μίλησέ μας για το project σου ");
 contact.href=new URL("contact.html",homeURL).href;
 empty.append(heading,text,contact);
 page.append(empty);

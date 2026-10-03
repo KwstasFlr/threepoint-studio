@@ -5466,7 +5466,7 @@ function renderGames() {
           <span>
             ${
               game.available
-                ? "↗"
+                ? ""
                 : ""
             }
           </span>
