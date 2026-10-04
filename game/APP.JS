@@ -5456,11 +5456,13 @@ function renderGames() {
       card.type = "button";
     }
 
+    const cardImages={football:'football.jpg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-bat.jpg',pokemon:'pokemon.svg'};
+    const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
-        class="game-card-image"
+        class="game-card-image licensed-art ${logo?'licensed-logo':''} ${game.id==='cricket'?'cricket-equipment':''}"
         aria-hidden="true"
-      ></div>
+      ><img src="images/${cardImages[game.id]}" alt="" loading="lazy" decoding="async">${game.id==='cricket'?'<img src="images/cricket-ball.png" alt="" loading="lazy" decoding="async">':''}</div>
 
       <span class="card-badge">
         ${
