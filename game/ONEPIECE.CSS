@@ -12,6 +12,7 @@
 .op-match{background:#166534;color:#fff}
 .op-partial{background:#92400e;color:#fff}
 .op-miss{background:#991b1b;color:#fff}
+.op-unknown{background:#334155;color:#fff}
 .op-table-scroll{overflow-x:auto;max-width:100%;margin:20px 0;border-radius:12px;border:1px solid #39434a}
 .op-table{width:100%;border-collapse:separate;border-spacing:4px;min-width:820px;font-size:13px}
 .op-table th{padding:12px 8px;text-align:center;font-weight:700}
