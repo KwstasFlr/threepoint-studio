@@ -4062,8 +4062,8 @@ const GAME_DATA = [
     category: "SPORT",
 
     description: [
-      "Who Am I? · Unlimited",
-      "Μάντεψε τον παίκτη · Ελεύθερο"
+      "Who Am I?",
+      "Ποιος είμαι;"
     ]
   },
 
@@ -4086,8 +4086,8 @@ const GAME_DATA = [
     category: "ANIME",
 
     description: [
-      "Guess the character · 50 characters",
-      "Μάντεψε τον χαρακτήρα · 50 χαρακτήρες"
+      "Guess the character",
+      "Μάντεψε τον χαρακτήρα"
     ]
   },
 
@@ -6060,6 +6060,10 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if (id === "football") {
+    openFootballGame("unlimited");
+    return;
+  }
   if (id === "one-piece") {
     openOnePieceGame();
     return;
@@ -6085,6 +6089,8 @@ function openGame(id) {
 if ($("dailyLaunchButton")) {
   $("dailyLaunchButton").onclick =
     () => {
+      openFootballGame("daily");
+      return;
       currentMode = "daily";
 
       document

@@ -23,4 +23,7 @@
 .op-footer{font-size:12px;line-height:1.7;color:var(--muted);margin-top:24px}
 .op-footer a{text-decoration:underline}
 .op-next{margin-top:12px}
+.fb-currency{display:flex;align-items:center;gap:12px;margin:20px 0}
+.fb-currency label{font-weight:700}
+.fb-currency select{padding:10px 14px;border:1px solid #56636b;border-radius:10px;background:#171e23;color:#fff;font:inherit}
 @media(max-width:600px){.op-dialog{padding:20px 14px}.op-form .guess-row{display:flex;flex-direction:column;align-items:stretch}.op-table{font-size:12px;min-width:760px}}

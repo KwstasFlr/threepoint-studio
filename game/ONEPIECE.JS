@@ -178,7 +178,7 @@ function opRender(){
   opDialog.innerHTML=`
     <div class="dialog-top"><div><span class="eyebrow">ONE PIECE · CLASSIC</span><h2 id="opTitle">${T("GUESS THE CHARACTER","ΜΑΝΤΕΨΕ ΤΟΝ ΧΑΡΑΚΤΗΡΑ")}</h2></div>
       <button class="close" type="button" data-op-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
-    <p class="op-intro">${T(`Find the hidden character among ${OP_CHARACTERS.length} characters from across One Piece. Each guess compares their traits with the answer.`,`Βρες τον κρυφό χαρακτήρα ανάμεσα σε ${OP_CHARACTERS.length} χαρακτήρες από διαφορετικά πληρώματα του One Piece. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.`)}</p>
+    <p class="op-intro">${T("Find the hidden One Piece character. Each guess compares their traits with the answer.","Βρες τον κρυφό χαρακτήρα του One Piece. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
     <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">
       <button type="button" data-op-mode="daily" aria-pressed="${opMode==="daily"}">${T("Daily","Ημερήσιο")}</button>
       <button type="button" data-op-mode="unlimited" aria-pressed="${opMode==="unlimited"}">${T("Unlimited","Ελεύθερο")}</button>
@@ -227,7 +227,7 @@ opDialog.addEventListener("submit",event=>{
   const value=opNormalize(input.value);
   const character=OP_CHARACTERS.find(item=>[item.name,...item.aliases].some(name=>opNormalize(name)===value));
   const message=opDialog.querySelector(".op-message");
-  if(!character){message.textContent=T(`Choose one of the ${OP_CHARACTERS.length} characters from the list.`,`Διάλεξε έναν από τους ${OP_CHARACTERS.length} χαρακτήρες της λίστας.`);input.focus();return;}
+  if(!character){message.textContent=T("Choose a character from the list.","Διάλεξε έναν χαρακτήρα από τη λίστα.");input.focus();return;}
   if(round.guesses.includes(character.id)){message.textContent=T("You already tried this character.","Έχεις ήδη δοκιμάσει αυτόν τον χαρακτήρα.");input.focus();return;}
   round.guesses.push(character.id);
   opSave();opRender();
