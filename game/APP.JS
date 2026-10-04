@@ -718,7 +718,7 @@ const P = [
 ];
 
 // Unlimited-only additions; preserve the original Daily schedule.
-const UNLIMITED_PLAYERS = [...P, ...[
+const UNLIMITED_PLAYERS = [...[
   {
     "id": "neymar",
     "name": "Neymar",
@@ -5214,6 +5214,7 @@ function playerForDay(value) {
 
 function playerById(id) {
   return (
+    P.find(player => player.id === id) ||
     UNLIMITED_PLAYERS.find(
       player =>
         player.id === id
@@ -6020,7 +6021,7 @@ function selectRound(mode) {
 
   if (mode === "classic") {
     round =
-      !state.classic ||
+      !valid(state.classic) ||
       state.classic.status !==
         "playing"
         ? newClassicRound()
