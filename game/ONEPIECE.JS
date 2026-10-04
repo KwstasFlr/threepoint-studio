@@ -23,9 +23,21 @@ const OP_CHARACTERS = [
   {id:"kalifa",name:"Kalifa",aliases:["καλιφα","καλίφα"],gender:"female",form:"human",role:["Agent","Πράκτορας"],fruit:"Awa Awa no Mi",fruitType:"Paramecia",bounty:null,arc:"Water 7"},
   {id:"jabra",name:"Jabra",aliases:["jabura","τζαμπρα","τζάμπρα"],gender:"male",form:"human",role:["Agent","Πράκτορας"],fruit:"Inu Inu no Mi: Wolf",fruitType:"Zoan",bounty:null,arc:"Enies Lobby"},
   {id:"caribou",name:"Caribou",aliases:["καριμπου","καριμπού"],gender:"male",form:"human",role:["Captain","Καπετάνιος"],fruit:"Numa Numa no Mi",fruitType:"Logia",bounty:210000000,arc:"Return to Sabaody"},
+  {id:"kaku",name:"Kaku",aliases:["κακου","κάκου"],gender:"male",form:"human",role:["Agent","Πράκτορας"],fruit:"Ushi Ushi no Mi: Giraffe",fruitType:"Zoan",bounty:null,arc:"Water 7"},
+  {id:"kumadori",name:"Kumadori",aliases:["κουμαντορι","κουμαντόρι"],gender:"male",form:"human",role:["Agent","Πράκτορας"],fruit:null,fruitType:null,bounty:null,arc:"Enies Lobby"},
+  {id:"fukuro",name:"Fukuro",aliases:["fukurou","φουκουρο","φουκούρο"],gender:"male",form:"human",role:["Agent","Πράκτορας"],fruit:null,fruitType:null,bounty:null,arc:"Enies Lobby"},
+  {id:"spandam",name:"Spandam",aliases:["σπανταμ","σπάνταμ"],gender:"male",form:"human",role:["Agent","Πράκτορας"],fruit:null,fruitType:null,bounty:null,arc:"Water 7"},
+  {id:"hina",name:"Hina",aliases:["χινα","χίνα"],gender:"female",form:"human",role:["Marine","Πεζοναύτης"],fruit:"Ori Ori no Mi",fruitType:"Paramecia",bounty:null,arc:"Alabasta"},
+  {id:"tashigi",name:"Tashigi",aliases:["τασιγκι","τασίγκι"],gender:"female",form:"human",role:["Marine","Πεζοναύτης"],fruit:null,fruitType:null,bounty:null,arc:"East Blue"},
+  {id:"wapol",name:"Wapol",aliases:["γουαπολ","γουάπολ"],gender:"male",form:"human",role:["King","Βασιλιάς"],fruit:"Baku Baku no Mi",fruitType:"Paramecia",bounty:null,arc:"Drum Island"},
+  {id:"dalton",name:"Dalton",aliases:["νταλτον","ντάλτον"],gender:"male",form:"human",role:["King","Βασιλιάς"],fruit:"Ushi Ushi no Mi: Bison",fruitType:"Zoan",bounty:null,arc:"Drum Island"},
+  {id:"pell",name:"Pell",aliases:["πελ"],gender:"male",form:"human",role:["Royal guard","Βασιλικός φρουρός"],fruit:"Tori Tori no Mi: Falcon",fruitType:"Zoan",bounty:null,arc:"Alabasta"},
+  {id:"chaka",name:"Chaka",aliases:["τσακα","τσάκα"],gender:"male",form:"human",role:["Royal guard","Βασιλικός φρουρός"],fruit:"Inu Inu no Mi: Jackal",fruitType:"Zoan",bounty:null,arc:"Alabasta"},
 ];
 const OP_BY_ID = new Map(OP_CHARACTERS.map(character=>[character.id,character]));
 const OP_STORAGE_KEY = "GMP_ONE_PIECE_V1";
+const OP_GUESS_LIMIT = 10;
+let opAdBusy = false;
 let opMode = "daily";
 let opRounds = {daily:null,unlimited:null};
 let opReturnFocus = null;
@@ -45,12 +57,14 @@ function opNewRound(mode,previousId){
   const day = opDay();
   const dailyId = opDailyId(day);
   const pool = OP_CHARACTERS.filter(character=>character.id!==previousId && (mode!=="unlimited" || character.id!==dailyId));
-  return {day,target:mode==="daily"?opDailyId(day):pool[Math.floor(Math.random()*pool.length)].id,guesses:[]};
+  return {day,target:mode==="daily"?opDailyId(day):pool[Math.floor(Math.random()*pool.length)].id,guesses:[],extra:false,ended:false};
 }
 
 function opValidRound(value,mode){
   return value && OP_BY_ID.has(value.target) && Array.isArray(value.guesses)
-    && value.guesses.length<=OP_CHARACTERS.length
+    && (value.extra===undefined || typeof value.extra==="boolean")
+    && (value.ended===undefined || typeof value.ended==="boolean")
+    && value.guesses.length<=OP_GUESS_LIMIT+(value.extra?1:0)
     && new Set(value.guesses).size===value.guesses.length
     && value.guesses.every(id=>OP_BY_ID.has(id))
     && (mode!=="daily" || (value.day===opDay() && value.target===opDailyId(value.day)))
@@ -74,6 +88,10 @@ function opRound(){
   return opRounds[opMode];
 }
 function opWon(round){return round.guesses.includes(round.target);}
+function opGuessLimit(round){return OP_GUESS_LIMIT+(round.extra?1:0);}
+function opDone(round){return opWon(round) || !!round.ended || (!!round.extra && round.guesses.length>=opGuessLimit(round));}
+function opCanGuess(round){return !opDone(round) && round.guesses.length<opGuessLimit(round) && !opAdBusy;}
+function opCanReward(round){return !opDone(round) && !round.extra && round.guesses.length===OP_GUESS_LIMIT;}
 function opNormalize(value){return value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[.\s]+/g," ").trim();}
 
 function opCompare(guess,target,key){
@@ -119,7 +137,9 @@ function opRender(){
   const round=opRound();
   const target=OP_BY_ID.get(round.target);
   const won=opWon(round);
-  const done=won || round.guesses.length===OP_CHARACTERS.length;
+  const done=opDone(round);
+  const canReward=opCanReward(round);
+  const adConfigured=!!window.GMPRewardedAds?.configured();
   const available=OP_CHARACTERS.filter(character=>!round.guesses.includes(character.id));
   const columns=[
     ["name",T("Character","Χαρακτήρας")],["gender",T("Gender","Φύλο")],
@@ -129,7 +149,8 @@ function opRender(){
   ];
   const status=won?T(`Found it: ${target.name}! ${round.guesses.length} guesses.`,`Το βρήκες: ${target.name}! ${round.guesses.length} προσπάθειες.`)
     :done?T(`The character was ${target.name}.`,`Ο χαρακτήρας ήταν ${target.name}.`)
-    :T(`${round.guesses.length} / ${OP_CHARACTERS.length} guesses. Choose a character to compare their traits.`,`${round.guesses.length} / ${OP_CHARACTERS.length} προσπάθειες. Διάλεξε έναν χαρακτήρα για να συγκρίνεις τα χαρακτηριστικά του.`);
+    :canReward?T("10 / 10 guesses used. Watch an ad for one extra guess, or reveal the answer.","10 / 10 προσπάθειες. Δες διαφήμιση για μία έξτρα προσπάθεια ή εμφάνισε την απάντηση.")
+    :T(`${round.guesses.length} / ${opGuessLimit(round)} guesses. Choose a character to compare their traits.`,`${round.guesses.length} / ${opGuessLimit(round)} προσπάθειες. Διάλεξε έναν χαρακτήρα για να συγκρίνεις τα χαρακτηριστικά του.`);
   opDialog.innerHTML=`
     <div class="dialog-top"><div><span class="eyebrow">ONE PIECE · CLASSIC</span><h2 id="opTitle">${T("GUESS THE CHARACTER","ΜΑΝΤΕΨΕ ΤΟΝ ΧΑΡΑΚΤΗΡΑ")}</h2></div>
       <button class="close" type="button" data-op-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
@@ -140,22 +161,32 @@ function opRender(){
     </div>
     <p class="muted">${opMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New character every round. Play as often as you like.","Νέος χαρακτήρας σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
     <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Related Zoan types","Συγγενικοί τύποι Zoan")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
-    <form class="op-form" ${done?"hidden":""}>
+    <form class="op-form" ${!opCanGuess(round)?"hidden":""}>
       <label for="opGuess">${T("Choose or type a character","Διάλεξε ή γράψε χαρακτήρα")}</label>
       <div class="guess-row"><input id="opGuess" list="opChoices" autocomplete="off" maxlength="80" required placeholder="${T("e.g. Luffy","π.χ. Luffy")}"><button class="button lime" type="submit">${T("Guess →","Απάντηση →")}</button></div>
       <datalist id="opChoices">${available.map(character=>`<option value="${esc(character.name)}"></option>`).join("")}</datalist>
     </form>
     <p class="op-message ${won?"op-won":""}" role="status" aria-live="polite">${esc(status)}</p>
+    ${canReward?`<div class="op-reward"><button class="button lime" type="button" data-op-ad ${opAdBusy||!adConfigured?"disabled":""}>${T("Watch ad · +1 guess","Δες διαφήμιση · +1 προσπάθεια")}</button>
+      <button class="text-button" type="button" data-op-reveal ${opAdBusy?"disabled":""}>${T("Reveal & end round","Δείξε απάντηση & τέλος γύρου")}</button>
+      ${!adConfigured?`<p class="muted">${T("Rewarded ads are not configured yet.","Οι διαφημίσεις για έξτρα προσπάθεια δεν έχουν συνδεθεί ακόμη.")}</p>`:""}</div>`:""}
     ${round.guesses.length?`<div class="op-table-scroll" tabindex="0" role="region" aria-label="${T("Guess comparisons, scroll horizontally","Συγκρίσεις απαντήσεων, κύλιση οριζόντια")}"><table class="op-table"><caption>${T("Your guesses · newest first","Οι προσπάθειές σου · πιο πρόσφατη πρώτη")}</caption><thead><tr>${columns.map(([,label])=>`<th scope="col">${label}</th>`).join("")}</tr></thead><tbody>
       ${[...round.guesses].reverse().map(id=>{const character=OP_BY_ID.get(id);return `<tr>${columns.map(([key])=>{const comparison=opCompare(character,target,key);return `<td class="op-${comparison.kind}">${esc(opValue(character,key))}<span class="op-symbol">${comparison.symbol}</span></td>`;}).join("")}</tr>`;}).join("")}
     </tbody></table></div>`:""}
-    ${opMode==="unlimited"?`<button class="button lime op-next" type="button" data-op-next>${T("New round →","Νέος γύρος →")}</button>`:""}
+    ${opMode==="unlimited"?`<button class="button lime op-next" type="button" data-op-next ${opAdBusy?"disabled":""}>${T("New round →","Νέος γύρος →")}</button>`:""}
     <p class="op-footer">${T("Contains spoilers through the end of Wano. Bounties use that snapshot. Progress is saved on this device.","Περιέχει spoilers έως το τέλος του Wano. Οι επικηρύξεις αντιστοιχούν σε εκείνη την περίοδο. Η πρόοδος αποθηκεύεται σε αυτή τη συσκευή.")}<br>
     <a href="https://one-piece.com/character/" target="_blank" rel="noopener noreferrer">${T("Official character reference","Επίσημη αναφορά χαρακτήρων")}</a></p>`;
 }
 
 opDialog.addEventListener("click",event=>{
   if(event.target.closest("[data-op-close]")){opDialog.close();return;}
+  if(opAdBusy)return;
+  if(event.target.closest("[data-op-ad]")){opWatchAd();return;}
+  if(event.target.closest("[data-op-reveal]")){
+    const round=opRound();
+    if(opCanReward(round)){round.ended=true;opSave();opRender();}
+    return;
+  }
   const mode=event.target.closest("[data-op-mode]");
   if(mode){opMode=mode.dataset.opMode;opRender();opDialog.querySelector("input")?.focus();return;}
   if(event.target.closest("[data-op-next]")){
@@ -167,7 +198,7 @@ opDialog.addEventListener("click",event=>{
 opDialog.addEventListener("submit",event=>{
   event.preventDefault();
   const round=opRound();
-  if(opWon(round)) return;
+  if(!opCanGuess(round)) return;
   const input=opDialog.querySelector("input");
   const value=opNormalize(input.value);
   const character=OP_CHARACTERS.find(item=>[item.name,...item.aliases].some(name=>opNormalize(name)===value));
@@ -186,3 +217,23 @@ opDialog.addEventListener("close",()=>{
 });
 
 document.querySelectorAll("[data-lang]").forEach(button=>button.addEventListener("click",()=>{if(opDialog.open)opRender();}));
+
+async function opWatchAd(){
+  const selectedMode=opMode;
+  const round=opRound();
+  if(opAdBusy || !opCanReward(round) || !window.GMPRewardedAds?.configured())return;
+  opAdBusy=true;
+  // Rewarded ads need to appear above the page rather than behind a native dialog.
+  opDialog.close();
+  let granted=false;
+  try{granted=await window.GMPRewardedAds.show();}catch{ /* No ad means no reward. */ }
+  opAdBusy=false;
+  const stillCurrent=opRounds[selectedMode]===round && opValidRound(round,selectedMode);
+  if(granted && stillCurrent && opCanReward(round)){
+    round.extra=true;
+    opSave();
+  }
+  opMode=selectedMode;
+  openOnePieceGame();
+  if(!granted)opDialog.querySelector(".op-message").textContent=T("No reward was granted. You can retry when an ad is available.","Δεν δόθηκε έξτρα προσπάθεια. Μπορείς να δοκιμάσεις ξανά όταν υπάρχει διαθέσιμη διαφήμιση.");
+}
