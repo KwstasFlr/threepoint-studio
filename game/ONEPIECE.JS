@@ -3,7 +3,7 @@
 // Bounties and fruit names are frozen at the end of Wano.
 // Source: https://one-piece.com/character/
 const OP_CHARACTERS = [
-  {id:"luffy",name:"Monkey D. Luffy",aliases:["luffy","λουφι","λούφι"],gender:"male",form:"human",role:["Captain","Καπετάνιος"],fruit:"Hito Hito no Mi: Nika",fruitType:"Zoan",bounty:3000000000,arc:"East Blue"},
+  {id:"luffy",name:"Monkey D. Luffy",aliases:["luffy","λουφι","λούφι"],gender:"male",form:"human",role:["Captain","Καπετάνιος"],fruit:"Hito Hito no Mi: Nika",fruitType:"Mythical Zoan",bounty:3000000000,arc:"East Blue"},
   {id:"zoro",name:"Roronoa Zoro",aliases:["zoro","ζορο","ζόρο"],gender:"male",form:"human",role:["Swordsman","Ξιφομάχος"],fruit:null,fruitType:null,bounty:1111000000,arc:"East Blue"},
   {id:"nami",name:"Nami",aliases:["νάμι","ναμι"],gender:"female",form:"human",role:["Navigator","Πλοηγός"],fruit:null,fruitType:null,bounty:366000000,arc:"East Blue"},
   {id:"chopper",name:"Tony Tony Chopper",aliases:["chopper","τσοπερ","τσόπερ"],gender:"male",form:"reindeer",role:["Doctor","Γιατρός"],fruit:"Hito Hito no Mi",fruitType:"Zoan",bounty:1000,arc:"Drum Island"},
@@ -78,10 +78,14 @@ function opNormalize(value){return value.normalize("NFD").replace(/[\u0300-\u036
 
 function opCompare(guess,target,key){
   if(guess.id===target.id) return {kind:"match",symbol:"✓"};
+  if(key==="fruit"){
+    if(guess.fruitType===target.fruitType) return {kind:"match",symbol:"✓"};
+    if(guess.fruitType?.includes("Zoan") && target.fruitType?.includes("Zoan")) return {kind:"partial",symbol:"≈"};
+    return {kind:"miss",symbol:"×"};
+  }
   if(key==="bounty" && (guess.bounty===null || target.bounty===null)) return {kind:"unknown",symbol:"?"};
   if(key==="role" && guess.role[0]===target.role[0]) return {kind:"match",symbol:"✓"};
   if(guess[key]===target[key]) return {kind:"match",symbol:"✓"};
-  if(key==="fruit" && guess.fruitType && guess.fruitType===target.fruitType) return {kind:"partial",symbol:"≈"};
   return {kind:"miss",symbol:key==="bounty"?(guess.bounty<target.bounty?"↑":"↓"):"×"};
 }
 
@@ -93,7 +97,7 @@ function opValue(character,key){
     return T(...forms[character.form]);
   }
   if(key==="role") return T(...character.role);
-  if(key==="fruit") return character.fruit || T("None","Κανένα");
+  if(key==="fruit") return character.fruitType?`${character.fruitType} — ${character.fruit}`:"No Devil Fruit";
   if(key==="bounty") return character.bounty===null?T("Undisclosed","Μη γνωστή"):new Intl.NumberFormat(lang==="el"?"el-GR":"en-US").format(character.bounty)+" ฿";
   return character[key];
 }
@@ -120,7 +124,7 @@ function opRender(){
   const columns=[
     ["name",T("Character","Χαρακτήρας")],["gender",T("Gender","Φύλο")],
     ["form",T("Species / form","Είδος / μορφή")],["role",T("Crew role","Ρόλος")],
-    ["fruit",T("Devil Fruit","Φρούτο του Διαβόλου")],["bounty",T("Bounty","Επικήρυξη")],
+    ["fruit",T("Devil Fruit · type & name","Devil Fruit · τύπος & όνομα")],["bounty",T("Bounty","Επικήρυξη")],
     ["arc",T("First appearance arc","Πρώτη εμφάνιση")]
   ];
   const status=won?T(`Found it: ${target.name}! ${round.guesses.length} guesses.`,`Το βρήκες: ${target.name}! ${round.guesses.length} προσπάθειες.`)
@@ -135,7 +139,7 @@ function opRender(){
       <button type="button" data-op-mode="unlimited" aria-pressed="${opMode==="unlimited"}">${T("Unlimited","Ελεύθερο")}</button>
     </div>
     <p class="muted">${opMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New character every round. Play as often as you like.","Νέος χαρακτήρας σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
-    <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Same fruit type","Ίδιος τύπος φρούτου")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
+    <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Related Zoan types","Συγγενικοί τύποι Zoan")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
     <form class="op-form" ${done?"hidden":""}>
       <label for="opGuess">${T("Choose or type a character","Διάλεξε ή γράψε χαρακτήρα")}</label>
       <div class="guess-row"><input id="opGuess" list="opChoices" autocomplete="off" maxlength="80" required placeholder="${T("e.g. Luffy","π.χ. Luffy")}"><button class="button lime" type="submit">${T("Guess →","Απάντηση →")}</button></div>
