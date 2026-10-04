@@ -4028,6 +4028,32 @@ UNLIMITED_PLAYERS.push(
       };
     })
 );
+/* Additional players are exclusive to Football Unlimited. */
+UNLIMITED_PLAYERS.push(...[
+  ["hleb", "Alexander Hleb", "Belarus", "Λευκορωσία", "Midfielder", "Μέσος", "Arsenal", "Barcelona", ["hleb", "alexander hleb", "χλεμπ"]],
+  ["rosicky", "Tomáš Rosický", "Czech Republic", "Τσεχία", "Midfielder", "Μέσος", "Borussia Dortmund", "Arsenal", ["rosicky", "tomas rosicky", "ροσίσκι", "ροσισκι"]],
+  ["benayoun", "Yossi Benayoun", "Israel", "Ισραήλ", "Midfielder", "Μέσος", "Liverpool", "Chelsea", ["benayoun", "yossi benayoun", "μπεναγιουν"]],
+  ["malouda", "Florent Malouda", "France", "Γαλλία", "Winger", "Εξτρέμ", "Lyon", "Chelsea", ["malouda", "florent malouda", "μαλουντα"]],
+  ["saha", "Louis Saha", "France", "Γαλλία", "Striker", "Σέντερ φορ", "Fulham", "Everton", ["saha", "louis saha", "σαχα"]],
+  ["yakubu", "Yakubu Aiyegbeni", "Nigeria", "Νιγηρία", "Striker", "Σέντερ φορ", "Portsmouth", "Everton", ["yakubu", "yakubu aiyegbeni", "γιακουμπου"]],
+  ["kranjcar", "Niko Kranjčar", "Croatia", "Κροατία", "Midfielder", "Μέσος", "Portsmouth", "Tottenham", ["kranjcar", "niko kranjcar", "κρανιτσαρ"]],
+  ["dembaba", "Demba Ba", "Senegal", "Σενεγάλη", "Striker", "Σέντερ φορ", "Newcastle United", "Chelsea", ["demba ba", "ντεμπα μπα"]],
+  ["nolan", "Kevin Nolan", "England", "Αγγλία", "Midfielder", "Μέσος", "Bolton Wanderers", "Newcastle United", ["nolan", "kevin nolan", "νολαν"]],
+  ["tugay", "Tugay Kerimoğlu", "Turkey", "Τουρκία", "Midfielder", "Μέσος", "Rangers", "Blackburn Rovers", ["tugay", "tugay kerimoglu", "τουγκαϊ", "τουγκαι"]]
+].map(([id,name,nationEN,nationEL,positionEN,positionEL,clubA,clubB,aliases]) => ({
+  id, name, aliases: [...new Set([name,...aliases])],
+  nation: [nationEN,nationEL], position: [positionEN,positionEL],
+  teaser: ["Two clubs on my career path can help you find my name.", "Δύο ομάδες της καριέρας μου μπορούν να σε βοηθήσουν να βρεις το όνομά μου."],
+  clues: [
+    [`My career includes a spell at ${clubA}.`, `Η καριέρα μου περιλαμβάνει ένα πέρασμα από την ${clubA}.`],
+    [`My role on the pitch: ${positionEN.toLowerCase()}.`, `Η θέση μου στο γήπεδο: ${positionEL}.`],
+    [id === "nolan" ? "I come from England." : `My international team: ${nationEN}.`, id === "nolan" ? "Κατάγομαι από την Αγγλία." : `Η εθνική μου ομάδα: ${nationEL}.`],
+    [`I also wore the shirt of ${clubB}.`, `Φόρεσα επίσης τη φανέλα της ${clubB}.`]
+  ],
+  birthDate:null, goals:null, assists:null, cleanSheets:null,
+  highestMarketValue:null, clubs:[clubA,clubB], image:null
+})));
+
 const GAME_DATA = [
   {
     id: "football",
@@ -6441,6 +6467,29 @@ function orderFootballClues(clues) {
   return [...career.slice(0, 2), ...origin, ...career.slice(2)];
 }
 
+const ORIGIN_HINT_PLAYERS = new Set([
+  "rakitic", "berbatov", "dzeko", "cambiasso", "kuyt", "parkjisung",
+  "essien", "veron", "anelka", "podolski", "khedira", "mariogomez",
+  "voller", "markhughes", "yorke", "andycole", "sheringham", "fowler",
+  "mcmanaman", "diegomilito", "hleb", "rosicky", "benayoun", "malouda",
+  "saha", "yakubu", "kranjcar", "dembaba", "nolan", "tugay"
+]);
+
+function footballCluesForPlayer(player, clues) {
+  if (ORIGIN_HINT_PLAYERS.has(player.id)) return orderFootballClues(clues);
+  const career = clues.filter(clue => !isOriginClue(clue));
+  const replacements = [
+    [`My role on the pitch: ${player.position[0].toLowerCase()}.`, `Η θέση μου στο γήπεδο: ${player.position[1]}.`],
+    [`My career includes ${player.clubs.join(" and ")}.`, `Η καριέρα μου περιλαμβάνει τις ομάδες: ${player.clubs.join(", ")}.`],
+    [`I have worn the shirts of ${player.clubs.length} clubs listed in this challenge.`, `Στη διαδρομή μου για αυτό το challenge περιλαμβάνονται ${player.clubs.length} σύλλογοι.`]
+  ];
+  for (const clue of replacements) {
+    if (career.length >= clues.length) break;
+    if (!career.some(existing => existing[0] === clue[0])) career.push(clue);
+  }
+  return career;
+}
+
 function displayClues(player, mode) {
   const unlimited = {
   "messi": [
@@ -6589,7 +6638,7 @@ function displayClues(player, mode) {
   ]
 };
   const clues = mode === "classic" ? (unlimited[player.id] || player.clues) : player.clues;
-  return orderFootballClues(clues);
+  return footballCluesForPlayer(player, clues);
 }
 
 function renderClues(player) {
