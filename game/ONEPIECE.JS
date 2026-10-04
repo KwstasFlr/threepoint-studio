@@ -33,6 +33,26 @@ const OP_CHARACTERS = [
   {id:"dalton",name:"Dalton",aliases:["νταλτον","ντάλτον"],gender:"male",form:"human",role:["King","Βασιλιάς"],fruit:"Ushi Ushi no Mi: Bison",fruitType:"Zoan",bounty:null,arc:"Drum Island"},
   {id:"pell",name:"Pell",aliases:["πελ"],gender:"male",form:"human",role:["Royal guard","Βασιλικός φρουρός"],fruit:"Tori Tori no Mi: Falcon",fruitType:"Zoan",bounty:null,arc:"Alabasta"},
   {id:"chaka",name:"Chaka",aliases:["τσακα","τσάκα"],gender:"male",form:"human",role:["Royal guard","Βασιλικός φρουρός"],fruit:"Inu Inu no Mi: Jackal",fruitType:"Zoan",bounty:null,arc:"Alabasta"},
+  {id:"arlong",name:"Arlong",aliases:["αρλονγκ","άρλονγκ"],gender:"male",form:"fishman",role:["Captain","Καπετάνιος"],fruit:null,fruitType:null,bounty:20000000,arc:"East Blue"},
+  {id:"kuro",name:"Kuro",aliases:["captain kuro","κουρο","κούρο"],gender:"male",form:"human",role:["Captain","Καπετάνιος"],fruit:null,fruitType:null,bounty:16000000,arc:"East Blue"},
+  {id:"krieg",name:"Don Krieg",aliases:["krieg","don krieg","κριγκ"],gender:"male",form:"human",role:["Captain","Καπετάνιος"],fruit:null,fruitType:null,bounty:17000000,arc:"East Blue"},
+  {id:"gin",name:"Gin",aliases:["γκιν"],gender:"male",form:"human",role:["Commander","Διοικητής"],fruit:null,fruitType:null,bounty:12000000,arc:"East Blue"},
+  {id:"alvida",name:"Alvida",aliases:["αλβιντα","αλβίντα"],gender:"female",form:"human",role:["Captain","Καπετάνιος"],fruit:"Sube Sube no Mi",fruitType:"Paramecia",bounty:5000000,arc:"East Blue"},
+  {id:"smoker",name:"Smoker",aliases:["σμοκερ","σμόκερ"],gender:"male",form:"human",role:["Marine","Πεζοναύτης"],fruit:"Moku Moku no Mi",fruitType:"Logia",bounty:null,arc:"East Blue"},
+  {id:"crocus",name:"Crocus",aliases:["κροκους","κρόκους"],gender:"male",form:"human",role:["Doctor","Γιατρός"],fruit:null,fruitType:null,bounty:null,arc:"Reverse Mountain"},
+  {id:"laboon",name:"Laboon",aliases:["λαμπουν","λαμπούν"],gender:"male",form:"whale",role:["Companion","Σύντροφος"],fruit:null,fruitType:null,bounty:null,arc:"Reverse Mountain"},
+  {id:"dorry",name:"Dorry",aliases:["ντορι","ντόρι"],gender:"male",form:"giant",role:["Captain","Καπετάνιος"],fruit:null,fruitType:null,bounty:100000000,arc:"Little Garden"},
+  {id:"brogy",name:"Brogy",aliases:["broggy","μπρογκι","μπρόγκι"],gender:"male",form:"giant",role:["Captain","Καπετάνιος"],fruit:null,fruitType:null,bounty:100000000,arc:"Little Garden"},
+  {id:"mr5",name:"Gem (Mr. 5)",aliases:["gem","mr 5","mr5","τζεμ"],gender:"male",form:"human",role:["Agent","Πράκτορας"],fruit:"Bomu Bomu no Mi",fruitType:"Paramecia",bounty:10000000,arc:"Whisky Peak"},
+  {id:"missvalentine",name:"Mikita (Miss Valentine)",aliases:["mikita","miss valentine","μικιτα","μίκιτα"],gender:"female",form:"human",role:["Agent","Πράκτορας"],fruit:"Kilo Kilo no Mi",fruitType:"Paramecia",bounty:7500000,arc:"Whisky Peak"},
+  {id:"missgoldenweek",name:"Marianne (Miss Goldenweek)",aliases:["marianne","miss goldenweek","miss golden week","μαριαν","μαριάν"],gender:"female",form:"human",role:["Artist","Καλλιτέχνης"],fruit:null,fruitType:null,bounty:29000000,arc:"Little Garden"},
+  {id:"chess",name:"Chess",aliases:["τσεσ"],gender:"male",form:"human",role:["Advisor","Σύμβουλος"],fruit:null,fruitType:null,bounty:null,arc:"Drum Island"},
+  {id:"kuromarimo",name:"Kuromarimo",aliases:["κουρομαριμο","κουρομαρίμο"],gender:"male",form:"human",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:null,arc:"Drum Island"},
+  {id:"kureha",name:"Dr. Kureha",aliases:["kureha","doctor kureha","κουρεχα","κουρέχα"],gender:"female",form:"human",role:["Doctor","Γιατρός"],fruit:null,fruitType:null,bounty:null,arc:"Drum Island"},
+  {id:"hiluluk",name:"Dr. Hiriluk",aliases:["hiriluk","hiluluk","dr hiluluk","χιρουλουκ","χιριλουκ"],gender:"male",form:"human",role:["Doctor","Γιατρός"],fruit:null,fruitType:null,bounty:null,arc:"Drum Island"},
+  {id:"hatchan",name:"Hatchan",aliases:["hachi","χατσαν","χάτσαν"],gender:"male",form:"fishman",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:8000000,arc:"East Blue"},
+  {id:"chew",name:"Chew",aliases:["choo","chu","τσου"],gender:"male",form:"fishman",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:5500000,arc:"East Blue"},
+  {id:"kuroobi",name:"Kuroobi",aliases:["kuroobi","κουροομπι","κουροόμπι"],gender:"male",form:"fishman",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:9000000,arc:"East Blue"},
 ];
 const OP_BY_ID = new Map(OP_CHARACTERS.map(character=>[character.id,character]));
 const OP_STORAGE_KEY = "GMP_ONE_PIECE_V1";
@@ -50,7 +70,9 @@ function opDay(){
 
 function opDailyId(day){
   const days = Math.floor(Date.parse(`${day}T00:00:00Z`)/86400000);
-  return OP_CHARACTERS[((days*7+3)%OP_CHARACTERS.length+OP_CHARACTERS.length)%OP_CHARACTERS.length].id;
+  // Keep today's shared Daily unchanged; use the expanded roster from tomorrow.
+  const rosterSize = day < "2026-10-06" ? 30 : OP_CHARACTERS.length;
+  return OP_CHARACTERS[((days*7+3)%rosterSize+rosterSize)%rosterSize].id;
 }
 
 function opNewRound(mode,previousId){
@@ -112,6 +134,8 @@ function opValue(character,key){
   if(key==="gender") return character.gender==="male"?T("Male","Άνδρας"):T("Female","Γυναίκα");
   if(key==="form"){
     const forms={human:["Human","Άνθρωπος"],reindeer:["Reindeer","Τάρανδος"],cyborg:["Human / cyborg","Άνθρωπος / cyborg"],skeleton:["Human / skeleton","Άνθρωπος / σκελετός"],fishman:["Fish-man","Ψαράνθρωπος"]};
+    forms.giant=["Giant","Γίγαντας"];
+    forms.whale=["Whale","Φάλαινα"];
     return T(...forms[character.form]);
   }
   if(key==="role") return T(...character.role);

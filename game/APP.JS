@@ -4086,8 +4086,8 @@ const GAME_DATA = [
     category: "ANIME",
 
     description: [
-      "Guess the character · 30 characters",
-      "Μάντεψε τον χαρακτήρα · 30 χαρακτήρες"
+      "Guess the character · 50 characters",
+      "Μάντεψε τον χαρακτήρα · 50 χαρακτήρες"
     ]
   },
 
