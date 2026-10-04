@@ -4056,12 +4056,12 @@ const GAME_DATA = [
   {
     id: "one-piece",
     name: "One Piece",
-    available: false,
+    available: true,
     category: "ANIME",
 
     description: [
-      "In development",
-      "Σε ανάπτυξη"
+      "Guess the character · 10 characters",
+      "Μάντεψε τον χαρακτήρα · 10 χαρακτήρες"
     ]
   },
 
@@ -6033,6 +6033,10 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if (id === "one-piece") {
+    openOnePieceGame();
+    return;
+  }
   if (id !== "football") {
     return;
   }
@@ -6424,6 +6428,18 @@ function renderTeaser(player) {
   }
 }
 
+function isOriginClue(clue) {
+  const text = clue.join(" ").toLowerCase();
+  return /\b(born|birthplace|nationality|national|international|represent|represented|home country|my country|come from)\b|is where my story began|i am (french|brazilian)|εθνικ|γεννή|κατάγο|πατρίδα|αγωνίζομαι με|αγωνίστηκα με|είμαι (γάλλος|βραζιλιάνος)/i.test(text);
+}
+
+function orderFootballClues(clues) {
+  const origin = clues.filter(isOriginClue);
+  const career = clues.filter(clue => !isOriginClue(clue));
+  // Preserve every clue, putting origin after two career clues.
+  return [...career.slice(0, 2), ...origin, ...career.slice(2)];
+}
+
 function displayClues(player, mode) {
   const unlimited = {
   "messi": [
@@ -6571,7 +6587,8 @@ function displayClues(player, mode) {
     ]
   ]
 };
-  return mode === "classic" ? (unlimited[player.id] || player.clues) : player.clues;
+  const clues = mode === "classic" ? (unlimited[player.id] || player.clues) : player.clues;
+  return orderFootballClues(clues);
 }
 
 function renderClues(player) {
