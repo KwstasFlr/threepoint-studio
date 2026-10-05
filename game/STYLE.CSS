@@ -104,6 +104,9 @@ h1,h2,h3 { font-family:var(--font-display); font-weight:400; }
 }
 .languages button.selected { background:var(--lime); color:var(--black); }
 .login-button,.signup-button,.leaderboard-button {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
   min-height:40px;
   padding:0 16px;
   border-radius:999px;
@@ -1048,6 +1051,8 @@ dialog h2 { margin-top:9px; font-size:clamp(27px,5vw,43px); line-height:1; }
 [data-game="cricket"] .game-card-image img{object-position:50% 30%}
 /* Both language labels share one grid cell, reserving the larger text's size. */
 .localized-label { display:inline-grid; vertical-align:middle; }
+/* Localized controls keep both labels in one centered cell. */
+button.localized-label,a.button.localized-label { align-content:center; justify-content:center; align-items:center; }
 .localized-label > .label-en,.localized-label > .label-el { grid-area:1 / 1; min-width:0; }
 html[lang="en"] .localized-label > .label-el,
 html[lang="el"] .localized-label > .label-en { visibility:hidden; pointer-events:none; }

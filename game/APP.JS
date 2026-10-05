@@ -5367,7 +5367,8 @@ function setLanguageLabel(element, en, el) {
   greek.setAttribute('aria-hidden', String(lang !== 'el'));
 }
 function stabilizeLanguageLabels() {
-  document.querySelectorAll('[data-en][data-el]').forEach(element => setLanguageLabel(element, element.dataset.en, element.dataset.el));
+  // Account controls are rendered from the current session by renderAuthState.
+  document.querySelectorAll('[data-en][data-el]:not([data-auth])').forEach(element => setLanguageLabel(element, element.dataset.en, element.dataset.el));
   GAME_DATA.forEach(game => {
     const card = document.querySelector('[data-game="'+game.id+'"]');
     if (!card) return;
