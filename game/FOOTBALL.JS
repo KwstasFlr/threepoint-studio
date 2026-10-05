@@ -175,7 +175,7 @@ fbDialog.addEventListener("close",()=>{
   else document.querySelector('[data-game="football"]')?.focus();
 });
 
-document.querySelectorAll("[data-lang]").forEach(button=>button.addEventListener("click",()=>{if(fbDialog.open)fbRender();}));
+window.addEventListener("gmp-language-change",()=>{if(fbDialog.open)fbRender();});
 
 async function fbWatchAd(){
   const selectedMode=fbMode;

@@ -5350,6 +5350,32 @@ let boardFilter = "overall";
 
 /* LANGUAGE */
 
+
+function setLanguageLabel(element, en, el) {
+  if (!element || en === undefined || el === undefined) return;
+  element.classList.add('localized-label');
+  let english = element.querySelector(':scope > .label-en');
+  let greek = element.querySelector(':scope > .label-el');
+  if (!english || !greek) {
+    english = document.createElement('span'); english.className = 'label-en';
+    greek = document.createElement('span'); greek.className = 'label-el';
+    element.replaceChildren(english, greek);
+  }
+  if (english.textContent !== en) english.textContent = en;
+  if (greek.textContent !== el) greek.textContent = el;
+  english.setAttribute('aria-hidden', String(lang !== 'en'));
+  greek.setAttribute('aria-hidden', String(lang !== 'el'));
+}
+function stabilizeLanguageLabels() {
+  document.querySelectorAll('[data-en][data-el]').forEach(element => setLanguageLabel(element, element.dataset.en, element.dataset.el));
+  GAME_DATA.forEach(game => {
+    const card = document.querySelector('[data-game="'+game.id+'"]');
+    if (!card) return;
+    setLanguageLabel(card.querySelector('.card-badge'), game.available?'PLAY NOW':'COMING SOON', game.available?'ΠΑΙΞΕ ΤΩΡΑ':'ΣΥΝΤΟΜΑ');
+    setLanguageLabel(card.querySelector('.card-bottom span'), ...game.description);
+  });
+}
+
 function applyLanguage() {
   if (!authBusy) {
     setAuthMode(authMode);
@@ -5357,24 +5383,6 @@ function applyLanguage() {
 
   document.documentElement.lang =
     lang;
-
-  document
-    .querySelectorAll(
-      "[data-en]"
-    )
-    .forEach(element => {
-      const value =
-        lang === "el"
-          ? element.dataset.el
-          : element.dataset.en;
-
-      if (
-        value !== undefined
-      ) {
-        element.textContent =
-          value;
-      }
-    });
 
   document
     .querySelectorAll(
@@ -5397,31 +5405,29 @@ function applyLanguage() {
   ) {
     renderGame();
   }
+  stabilizeLanguageLabels();
 }
 
-document
-  .querySelectorAll(
-    "[data-lang]"
-  )
-  .forEach(button => {
-    button.addEventListener(
-      "click",
-      () => {
-        lang =
-          button.dataset.lang ===
-          "el"
-            ? "el"
-            : "en";
-
-        write(
-          "GMP_LANGUAGE",
-          lang
-        );
-
-        applyLanguage();
-      }
-    );
+let languageFrame = null;
+let requestedLanguage = lang;
+function requestLanguage(next) {
+  requestedLanguage = next === 'el' ? 'el' : 'en';
+  // Update the selection immediately; commit only the latest click each frame.
+  document.querySelectorAll('[data-lang]').forEach(button => {
+    button.classList.toggle('selected', button.dataset.lang === requestedLanguage);
+    button.setAttribute('aria-pressed', String(button.dataset.lang === requestedLanguage));
   });
+  if (languageFrame !== null) return;
+  languageFrame = requestAnimationFrame(() => {
+    languageFrame = null;
+    if (lang === requestedLanguage) return;
+    lang = requestedLanguage;
+    applyLanguage();
+    window.dispatchEvent(new Event('gmp-language-change'));
+    write('GMP_LANGUAGE', lang);
+  });
+}
+document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => requestLanguage(button.dataset.lang)));
 
 /* GAME CARDS */
 
@@ -5435,9 +5441,9 @@ function renderGames() {
   if (grid.children.length === GAME_DATA.length && GAME_DATA.every(game => grid.querySelector('[data-game="'+game.id+'"]'))) {
     GAME_DATA.forEach(game => {
       const card=grid.querySelector('[data-game="'+game.id+'"]');
-      card.querySelector('.card-badge').textContent=game.available?T('PLAY NOW','ΠΑΙΞΕ ΤΩΡΑ'):T('COMING SOON','ΣΥΝΤΟΜΑ');
+      setLanguageLabel(card.querySelector('.card-badge'),game.available?'PLAY NOW':'COMING SOON',game.available?'ΠΑΙΞΕ ΤΩΡΑ':'ΣΥΝΤΟΜΑ');
       card.querySelector('.card-info h3').textContent=game.name;
-      card.querySelector('.card-bottom span').textContent=T(...game.description);
+      setLanguageLabel(card.querySelector('.card-bottom span'),...game.description);
     });
     return;
   }

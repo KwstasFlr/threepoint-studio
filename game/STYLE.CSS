@@ -1046,3 +1046,15 @@ dialog h2 { margin-top:9px; font-size:clamp(27px,5vw,43px); line-height:1; }
 
 [data-game="basketball"] .game-card-image img{object-position:55% 38%}
 [data-game="cricket"] .game-card-image img{object-position:50% 30%}
+/* Both language labels share one grid cell, reserving the larger text's size. */
+.localized-label { display:inline-grid; vertical-align:middle; }
+.localized-label > .label-en,.localized-label > .label-el { grid-area:1 / 1; min-width:0; }
+html[lang="en"] .localized-label > .label-el,
+html[lang="el"] .localized-label > .label-en { visibility:hidden; pointer-events:none; }
+.languages { flex:0 0 auto; }
+.header-actions { min-width:0; }
+.header .login-button,.header .signup-button { min-width:102px; justify-content:center; }
+.card-badge.localized-label { display:inline-grid; }
+.card-bottom > .localized-label { line-height:1.4; min-height:2.8em; align-items:start; }
+.games-title .localized-label { max-width:100%; }
+@media(max-width:600px){.header .login-button,.header .signup-button{min-width:78px;padding-inline:10px}.games-title{letter-spacing:-1px;font-size:clamp(28px,7vw,42px)}}

@@ -319,7 +319,7 @@ opDialog.addEventListener("close",()=>{
   else document.querySelector('[data-game="one-piece"]')?.focus();
 });
 
-document.querySelectorAll("[data-lang]").forEach(button=>button.addEventListener("click",()=>{if(opDialog.open)opRender();}));
+window.addEventListener("gmp-language-change",()=>{if(opDialog.open)opRender();});
 
 async function opWatchAd(){
   const selectedMode=opMode;
