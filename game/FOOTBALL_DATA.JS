@@ -995,6 +995,422 @@ const FB_NEW_PLAYERS = [
     "highestMarketValue": 25000000,
     "status": "active",
     "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/28396%2636139"
+  },
+  {
+    "id": "ribery",
+    "name": "Franck Ribéry",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Franck Ribéry",
+      "Ribéry",
+      "Franck Ribery"
+    ],
+    "birthDate": "1983-04-07",
+    "highestMarketValue": 50000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/22068%2628003"
+  },
+  {
+    "id": "kroos",
+    "name": "Toni Kroos",
+    "nation": [
+      "Germany",
+      "Γερμανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Toni Kroos",
+      "Kroos",
+      "Toni Kroos"
+    ],
+    "birthDate": "1990-01-04",
+    "highestMarketValue": 80000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/31909%2628003"
+  },
+  {
+    "id": "nani",
+    "name": "Nani",
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Nani",
+      "Nani"
+    ],
+    "birthDate": "1986-11-17",
+    "highestMarketValue": 36500000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/33706%2628003"
+  },
+  {
+    "id": "quaresma",
+    "name": "Ricardo Quaresma",
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Ricardo Quaresma",
+      "Quaresma",
+      "Ricardo Quaresma"
+    ],
+    "birthDate": "1983-09-26",
+    "highestMarketValue": 25000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/4188%2628003"
+  },
+  {
+    "id": "valdes",
+    "name": "Víctor Valdés",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Víctor Valdés",
+      "Valdés",
+      "Victor Valdes"
+    ],
+    "birthDate": "1982-01-14",
+    "highestMarketValue": 20000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/7589%2628003"
+  },
+  {
+    "id": "dida",
+    "name": "Dida",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Dida",
+      "Dida"
+    ],
+    "birthDate": "1973-10-07",
+    "highestMarketValue": 15000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5800%2628003"
+  },
+  {
+    "id": "juliocesar",
+    "name": "Júlio César",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Júlio César",
+      "César",
+      "Julio Cesar"
+    ],
+    "birthDate": "1979-09-03",
+    "highestMarketValue": 25000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/22412%2628003"
+  },
+  {
+    "id": "lucio",
+    "name": "Lúcio",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Lúcio",
+      "Lucio"
+    ],
+    "birthDate": "1978-05-08",
+    "highestMarketValue": 24500000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/1034%2628003"
+  },
+  {
+    "id": "maicon",
+    "name": "Maicon",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Maicon",
+      "Maicon"
+    ],
+    "birthDate": "1981-07-26",
+    "highestMarketValue": 32000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/18301%2628003"
+  },
+  {
+    "id": "gattuso",
+    "name": "Gennaro Gattuso",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Gennaro Gattuso",
+      "Gattuso",
+      "Gennaro Gattuso"
+    ],
+    "birthDate": "1978-01-09",
+    "highestMarketValue": 25000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5813%2628003"
+  },
+  {
+    "id": "nesta",
+    "name": "Alessandro Nesta",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Alessandro Nesta",
+      "Nesta",
+      "Alessandro Nesta"
+    ],
+    "birthDate": "1976-03-19",
+    "highestMarketValue": 35000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/4171%2628003"
+  },
+  {
+    "id": "maldini",
+    "name": "Paolo Maldini",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Paolo Maldini",
+      "Maldini",
+      "Paolo Maldini"
+    ],
+    "birthDate": "1968-06-26",
+    "highestMarketValue": 3000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5803%2628003"
+  },
+  {
+    "id": "cannavaro",
+    "name": "Fabio Cannavaro",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Fabio Cannavaro",
+      "Cannavaro",
+      "Fabio Cannavaro"
+    ],
+    "birthDate": "1973-09-13",
+    "highestMarketValue": 15000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5775%2628003"
+  },
+  {
+    "id": "zambrotta",
+    "name": "Gianluca Zambrotta",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Gianluca Zambrotta",
+      "Zambrotta",
+      "Gianluca Zambrotta"
+    ],
+    "birthDate": "1977-02-19",
+    "highestMarketValue": 28000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5755%2628003"
+  },
+  {
+    "id": "abidal",
+    "name": "Éric Abidal",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Éric Abidal",
+      "Abidal",
+      "Eric Abidal"
+    ],
+    "birthDate": "1979-09-11",
+    "highestMarketValue": 20000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/11403%2628003"
+  },
+  {
+    "id": "mexes",
+    "name": "Philippe Mexès",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Philippe Mexès",
+      "Mexès",
+      "Philippe Mexes"
+    ],
+    "birthDate": "1982-03-30",
+    "highestMarketValue": 20000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5422%2628003"
+  },
+  {
+    "id": "dinatale",
+    "name": "Antonio Di Natale",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Striker",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Antonio Di Natale",
+      "Di Natale",
+      "Antonio Di Natale"
+    ],
+    "birthDate": "1977-10-13",
+    "highestMarketValue": 15000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/6031%2628003"
+  },
+  {
+    "id": "toni",
+    "name": "Luca Toni",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Striker",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Luca Toni",
+      "Toni",
+      "Luca Toni"
+    ],
+    "birthDate": "1977-05-26",
+    "highestMarketValue": 28500000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/5980%2628003"
+  },
+  {
+    "id": "forlan",
+    "name": "Diego Forlán",
+    "nation": [
+      "Uruguay",
+      "Ουρουγουάη"
+    ],
+    "position": [
+      "Striker",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Diego Forlán",
+      "Forlán",
+      "Diego Forlan"
+    ],
+    "birthDate": "1979-05-19",
+    "highestMarketValue": 30000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/3408%2628003"
+  },
+  {
+    "id": "arshavin",
+    "name": "Andrey Arshavin",
+    "nation": [
+      "Russia",
+      "Ρωσία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Andrey Arshavin",
+      "Arshavin",
+      "Andrey Arshavin"
+    ],
+    "birthDate": "1981-05-29",
+    "highestMarketValue": 26000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/15378%2628003"
   }
 ];
 const FB_EXCHANGE = {usdPerEuro:1.1225,date:"2026-10-02",source:"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"};
