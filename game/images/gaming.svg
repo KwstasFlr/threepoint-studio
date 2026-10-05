@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <defs><radialGradient id="bg"><stop stop-color="#304354"/><stop offset="1" stop-color="#0d171e"/></radialGradient><linearGradient id="pad" x2="1" y2="1"><stop stop-color="#364653"/><stop offset="1" stop-color="#151f28"/></linearGradient></defs>
+  <rect width="720" height="480" fill="url(#bg)"/>
+  <g fill="none" stroke="#bdff00" opacity=".1"><circle cx="360" cy="230" r="185"/><circle cx="360" cy="230" r="145"/><path d="M0 230h720M360 0v480"/></g>
+  <path d="M260 136h200c48 0 64 29 82 74l42 115c15 49-29 81-67 47l-71-68H274l-71 68c-38 34-82 2-67-47l42-115c18-45 34-74 82-74Z" fill="url(#pad)" stroke="#677c89" stroke-width="4"/>
+  <path d="M246 176v82m-41-41h82" stroke="#bdff00" stroke-width="24" stroke-linecap="round"/>
+  <g fill="#bdff00"><circle cx="480" cy="190" r="13"/><circle cx="511" cy="221" r="13"/><circle cx="449" cy="221" r="13"/><circle cx="480" cy="252" r="13"/></g>
+  <g fill="#0b141a" stroke="#637481" stroke-width="3"><circle cx="302" cy="276" r="24"/><circle cx="416" cy="276" r="24"/></g>
+  <path d="M344 218h32" stroke="#8da0ab" stroke-width="8" stroke-linecap="round"/>
+  <text x="360" y="436" fill="#f6f7ef" font-family="sans-serif" font-size="28" font-weight="700" text-anchor="middle" letter-spacing="8">GAMING</text>
+</svg>
