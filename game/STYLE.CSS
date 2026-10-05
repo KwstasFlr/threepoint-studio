@@ -1063,3 +1063,6 @@ html[lang="el"] .localized-label > .label-en { visibility:hidden; pointer-events
 .card-bottom > .localized-label { line-height:1.4; min-height:2.8em; align-items:start; }
 .games-title .localized-label { max-width:100%; }
 @media(max-width:600px){.header .login-button,.header .signup-button{min-width:78px;padding-inline:10px}.games-title{letter-spacing:-1px;font-size:clamp(28px,7vw,42px)}}
+
+/* Account labels are plain text, including after session changes. */
+.header #loginButton,.header #signupButton{display:inline-flex;align-items:center;justify-content:center;align-content:center;height:40px;min-height:40px;padding-block:0;line-height:1.2}
