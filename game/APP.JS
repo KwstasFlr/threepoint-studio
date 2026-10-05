@@ -5431,6 +5431,16 @@ function renderGames() {
 
   if (!grid) return;
 
+  // Preserve image nodes and event handlers when translating the existing cards.
+  if (grid.children.length === GAME_DATA.length && GAME_DATA.every(game => grid.querySelector('[data-game="'+game.id+'"]'))) {
+    GAME_DATA.forEach(game => {
+      const card=grid.querySelector('[data-game="'+game.id+'"]');
+      card.querySelector('.card-badge').textContent=game.available?T('PLAY NOW','ΠΑΙΞΕ ΤΩΡΑ'):T('COMING SOON','ΣΥΝΤΟΜΑ');
+      card.querySelector('.card-info h3').textContent=game.name;
+      card.querySelector('.card-bottom span').textContent=T(...game.description);
+    });
+    return;
+  }
   grid.innerHTML = "";
 
   GAME_DATA.forEach(game => {
@@ -5456,7 +5466,7 @@ function renderGames() {
       card.type = "button";
     }
 
-    const cardImages={football:'football.jpg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={football:'football-ball.svg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -7291,22 +7301,6 @@ function renderRevealPhoto(
     $("revealInitials");
 
   if (!photo) return;
-
-  if (player.image) {
-    photo.style
-      .backgroundImage =
-        `url("${player.image}")`;
-
-    photo.classList.add(
-      "has-photo"
-    );
-
-    if (text) {
-      text.hidden = true;
-    }
-
-    return;
-  }
 
   photo.style
     .backgroundImage = "";
