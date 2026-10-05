@@ -138,7 +138,7 @@ function opNewRound(mode,previousId){
   const day = opDay();
   const dailyId = opDailyId(day);
   const pool = opRoster().filter(character=>character.id!==previousId && (mode!=="unlimited" || character.id!==dailyId));
-  return {day,medium:opMedium,episodeLimit:opEpisodeLimit,target:mode==="daily"?opDailyId(day):(pool[Math.floor(Math.random()*pool.length)] || OP_BY_ID.get(dailyId)).id,guesses:[],extra:false,ended:false};
+  return {number:gmpNextRoundNumber('onepiece',mode),day,medium:opMedium,episodeLimit:opEpisodeLimit,target:mode==="daily"?opDailyId(day):(pool[Math.floor(Math.random()*pool.length)] || OP_BY_ID.get(dailyId)).id,guesses:[],extra:false,ended:false};
 }
 
 function opValidRound(value,mode){
@@ -166,6 +166,7 @@ function opRound(){
     opRounds[opMode]=opNewRound(opMode);
     opSave();
   }
+  if(gmpEnsureRoundNumber('onepiece',opMode,opRounds[opMode]))opSave();
   return opRounds[opMode];
 }
 function opWon(round){return round.guesses.includes(round.target);}
@@ -239,6 +240,7 @@ function opRender(){
   opDialog.innerHTML=`
     <div class="dialog-top"><div><span class="eyebrow">ONE PIECE · CLASSIC</span><h2 id="opTitle">${T("GUESS THE CHARACTER","ΜΑΝΤΕΨΕ ΤΟΝ ΧΑΡΑΚΤΗΡΑ")}</h2></div>
       <button class="close" type="button" data-op-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
+    ${gmpRoundLabel(round.number)}
     <p class="op-intro">${T("Find the hidden One Piece character. Each guess compares their traits with the answer.","Βρες τον κρυφό χαρακτήρα του One Piece. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
     <form class="op-episodes"><label for="opMedium">${T("Following","Παρακολουθώ / διαβάζω")}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T("Which chapter have you read?","Μέχρι ποιο κεφάλαιο έχεις διαβάσει;"):T("Which episode have you watched?","Μέχρι ποιο επεισόδιο έχεις δει;")}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T("Apply","Εφαρμογή")}</button></div><p class="muted">${T("Only characters introduced by your episode or chapter. Changing it starts new rounds. Bounties and traits still use the end-of-Wano snapshot.","Μόνο χαρακτήρες που έχουν εμφανιστεί έως το επεισόδιο ή κεφάλαιό σου. Η αλλαγή ξεκινά νέους γύρους. Επικηρύξεις και χαρακτηριστικά παραμένουν έως το τέλος του Wano.")}</p></form>
     <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">

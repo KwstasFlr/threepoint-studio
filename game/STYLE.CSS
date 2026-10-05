@@ -1066,3 +1066,5 @@ html[lang="el"] .localized-label > .label-en { visibility:hidden; pointer-events
 
 /* Account labels are plain text, including after session changes. */
 .header #loginButton,.header #signupButton{display:inline-flex;align-items:center;justify-content:center;align-content:center;height:40px;min-height:40px;padding-block:0;line-height:1.2}
+
+.round-number{display:inline-block;margin:16px 0 0;padding:8px 14px;border:1px solid var(--lime);border-radius:999px;color:var(--lime);font-size:14px;font-weight:800;line-height:1.4}

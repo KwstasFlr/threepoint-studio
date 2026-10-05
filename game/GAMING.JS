@@ -32,9 +32,9 @@ function gmValidRound(round,mode){
 function gmNewRound(mode){
   const old=gmRounds[mode];let deck=gmValidRound(old,mode)?[...old.deck]:[];
   if(!deck.length){deck=GM_CHARACTERS.map(c=>c.id);for(let i=deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]];}if(deck.length>1&&deck.at(-1)===old?.target)[deck[0],deck[deck.length-1]]=[deck.at(-1),deck[0]];}
-  gmRounds[mode]={target:deck.pop(),deck,guesses:[],ended:false};gmSave();return gmRounds[mode];
+  gmRounds[mode]={number:gmpNextRoundNumber('gaming',mode),target:deck.pop(),deck,guesses:[],ended:false};gmSave();return gmRounds[mode];
 }
-function gmRound(){return gmValidRound(gmRounds[gmMode],gmMode)?gmRounds[gmMode]:gmNewRound(gmMode);}
+function gmRound(){const round=gmValidRound(gmRounds[gmMode],gmMode)?gmRounds[gmMode]:gmNewRound(gmMode);if(gmpEnsureRoundNumber('gaming',gmMode,round))gmSave();return round;}
 function gmGuess(value){
   const round=gmRound();if(round.ended)return 'ended';
   const character=GM_CHARACTERS.find(c=>[c.name,...c.aliases].some(a=>gmNormalize(a)===gmNormalize(value)));
@@ -48,6 +48,7 @@ function gmRender(){
   const round=gmRound(),target=GM_BY_ID.get(round.target),won=round.guesses.includes(target.id);
   const columns=[['name',T('Character','Χαρακτήρας')],['gender',T('Gender','Φύλο')],['series',T('Franchise','Σειρά')],['genre',T('Genre','Είδος')],['year',T('Game debut','Πρώτη εμφάνιση σε παιχνίδι')],['weapon',T('Signature weapon / style','Χαρακτηριστικό όπλο / στυλ')]];
   gmDialog.innerHTML=`<button class="dialog-close" type="button" data-gm-close aria-label="${T('Close','Κλείσιμο')}">×</button><p class="eyebrow">GAMING · ${gmMode==='classic'?'CLASSIC':'QUOTES'}</p><h2 id="gmTitle">${gmMode==='classic'?T('Guess the character','Μάντεψε τον χαρακτήρα'):T('Who said it?','Ποιος το είπε;')}</h2>
+    ${gmpRoundLabel(round.number)}
     <p class="op-intro">${T('10 gaming characters · 5 men and 5 women. Classic compares traits; Quotes asks who says the line.','10 gaming χαρακτήρες · 5 άνδρες και 5 γυναίκες. Το Classic συγκρίνει χαρακτηριστικά· στα Quotes βρίσκεις ποιος λέει την ατάκα.')}</p>
     <div class="op-modes" role="group" aria-label="${T('Game mode','Mode παιχνιδιού')}">${[['classic','Classic'],['quote',T('Who said it?','Βρες το quote')]].map(([mode,label])=>`<button type="button" data-gm-mode="${mode}" aria-pressed="${gmMode===mode}">${label}</button>`).join('')}</div>
     ${gmMode==='quote'?`<blockquote class="op-quote">“${esc(T(...target.quote))}”</blockquote>`:`<p class="gm-legend">${T('✓ Match · × Different · ↑ / ↓ Target debuted later / earlier.','✓ Ίδιο · × Διαφορετικό · ↑ / ↓ Ο στόχος εμφανίστηκε αργότερα / νωρίτερα.')}</p>`}

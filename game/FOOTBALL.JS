@@ -23,7 +23,7 @@ function fbNewRound(mode,previousId){
   const day = fbDay();
   const dailyId = fbDailyId(day);
   const pool = FB_PLAYERS.filter(player=>player.id!==previousId && (mode!=="unlimited" || FB_UNLIMITED_IDS.has(player.id)));
-  return {day,target:mode==="daily"?fbDailyId(day):pool[Math.floor(Math.random()*pool.length)].id,guesses:[],extra:false,ended:false};
+  return {number:gmpNextRoundNumber('football',mode),day,target:mode==="daily"?fbDailyId(day):pool[Math.floor(Math.random()*pool.length)].id,guesses:[],extra:false,ended:false};
 }
 
 function fbValidRound(value,mode){
@@ -51,6 +51,7 @@ function fbRound(){
     fbRounds[fbMode]=fbNewRound(fbMode);
     fbSave();
   }
+  if(gmpEnsureRoundNumber('football',fbMode,fbRounds[fbMode]))fbSave();
   return fbRounds[fbMode];
 }
 function fbWon(round){return round.guesses.includes(round.target);}
@@ -68,14 +69,15 @@ function fbAge(player,day=fbDay()){
 }
 function fbCompare(guess,target,key){
   if(guess.id===target.id)return {kind:'match',symbol:'✓'};
-  const a=key==='age'?fbAge(guess):Array.isArray(guess[key])?guess[key][0]:guess[key];
-  const b=key==='age'?fbAge(target):Array.isArray(target[key])?target[key][0]:target[key];
+  const a=key==='age'?(guess.status==='retired'?'retired':fbAge(guess)):Array.isArray(guess[key])?guess[key][0]:guess[key];
+  const b=key==='age'?(target.status==='retired'?'retired':fbAge(target)):Array.isArray(target[key])?target[key][0]:target[key];
   if(a==null||b==null)return {kind:'unknown',symbol:'?'};
   if(a===b)return {kind:'match',symbol:'✓'};
+  if(key==='age'&&(a==='retired'||b==='retired'))return {kind:'miss',symbol:'×'};
   return {kind:'miss',symbol:['age','highestMarketValue'].includes(key)?(a<b?'↑':'↓'):'×'};
 }
 function fbValue(player,key){
-  if(key==='age')return fbAge(player)??T('Unavailable','Μη διαθέσιμη');
+  if(key==='age')return player.status==='retired'?T('Retired','Αποσυρμένος'):fbAge(player)??T('Unavailable','Μη διαθέσιμη');
   if(key==='nation'||key==='position')return T(...player[key]);
   if(key==='status')return player.status==='active'?T('Active','Ενεργός'):player.status==='retired'?T('Retired','Αποσυρμένος'):T('Unavailable','Μη διαθέσιμη');
   if(key==='highestMarketValue')return player.highestMarketValue==null?T('Unavailable','Μη διαθέσιμη'):new Intl.NumberFormat(lang==='el'?'el-GR':'en-US',{style:'currency',currency:fbCurrency,maximumFractionDigits:0}).format(player.highestMarketValue*(fbCurrency==='USD'?FB_EXCHANGE.usdPerEuro:1));
@@ -112,6 +114,7 @@ function fbRender(){
   fbDialog.innerHTML=`
     <div class="dialog-top"><div><span class="eyebrow">FOOTBALL · PLAYERS</span><h2 id="fbTitle">${T("GUESS THE PLAYER","ΜΑΝΤΕΨΕ ΤΟΝ ΠΑΙΚΤΗ")}</h2></div>
       <button class="close" type="button" data-fb-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
+    ${gmpRoundLabel(round.number)}
     <p class="op-intro">${T("Find the hidden football player. Each guess compares their traits with the answer.","Βρες τον κρυφό ποδοσφαιριστή. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
     <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">
       <button type="button" data-fb-mode="daily" aria-pressed="${fbMode==="daily"}">${T("Daily","Ημερήσιο")}</button>

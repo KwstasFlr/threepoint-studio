@@ -43,12 +43,13 @@ function opNextQuote(){
     for(let i=deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]];}
     if(deck.length>1&&deck[deck.length-1]===opQuoteState?.id)[deck[0],deck[deck.length-1]]=[deck[deck.length-1],deck[0]];
   }
-  opQuoteState={id:deck.pop(),deck,medium:opMedium,limit:opEpisodeLimit,guesses:[],ended:false};opSaveQuote();
+  opQuoteState={number:gmpNextRoundNumber('onepiece','quote'),id:deck.pop(),deck,medium:opMedium,limit:opEpisodeLimit,guesses:[],ended:false};opSaveQuote();
 }
 function opQuoteRound(){
   const s=opQuoteState,q=opQuotePool().find(q=>q.id===s?.id),ids=new Set(opQuoteCandidates().map(c=>c.id));
   const valid=q&&s.medium===opMedium&&s.limit===opEpisodeLimit&&typeof s.ended==='boolean'&&Array.isArray(s.deck)&&new Set(s.deck).size===s.deck.length&&s.deck.every(id=>id!==s.id&&opQuotePool().some(q=>q.id===id))&&Array.isArray(s.guesses)&&s.guesses.length<=5&&new Set(s.guesses).size===s.guesses.length&&s.guesses.every(id=>ids.has(id));
   if(!valid)opNextQuote();
+  if(gmpEnsureRoundNumber('onepiece','quote',opQuoteState))opSaveQuote();
   return opQuoteState;
 }
 function opSubmitQuote(){
@@ -66,6 +67,7 @@ function opRenderQuote(){
   const won=q&&s.guesses.includes(opNormalize(q.name));
   opDialog.innerHTML=`<button class="dialog-close" type="button" data-op-close aria-label="${T('Close','Κλείσιμο')}">×</button>
     <p class="eyebrow">ONE PIECE · QUOTES</p><h2 id="opTitle">${T('Who said it?','Ποιος το είπε;')}</h2>
+    ${s?gmpRoundLabel(s.number):''}
     <p class="op-intro">${T('20 short quotes · 20 different characters · 5 guesses per round.','20 μικρές ατάκες · 20 διαφορετικοί χαρακτήρες · 5 προσπάθειες ανά γύρο.')}</p>
     <form class="op-episodes"><label for="opMedium">${T('Following','Παρακολουθώ / διαβάζω')}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T('Last chapter read','Τελευταίο κεφάλαιο που διάβασες'):T('Last episode watched','Τελευταίο επεισόδιο που είδες')}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T('Apply','Εφαρμογή')}</button></div></form>
     <div class="op-modes">${[['daily',T('Daily','Ημερήσιο')],['unlimited',T('Unlimited','Απεριόριστο')],['quote',T('Who said it?','Βρες το quote')]].map(([id,label])=>`<button type="button" data-op-mode="${id}" aria-pressed="${id==='quote'}">${label}</button>`).join('')}</div>
