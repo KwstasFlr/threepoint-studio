@@ -53,7 +53,46 @@ const OP_CHARACTERS = [
   {id:"hatchan",name:"Hatchan",aliases:["hachi","χατσαν","χάτσαν"],gender:"male",form:"fishman",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:8000000,arc:"East Blue"},
   {id:"chew",name:"Chew",aliases:["choo","chu","τσου"],gender:"male",form:"fishman",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:5500000,arc:"East Blue"},
   {id:"kuroobi",name:"Kuroobi",aliases:["kuroobi","κουροομπι","κουροόμπι"],gender:"male",form:"fishman",role:["Officer","Αξιωματικός"],fruit:null,fruitType:null,bounty:9000000,arc:"East Blue"},
+{"id":"usopp","name":"Usopp","aliases":["usopp","ουσοπ"],"gender":"male","form":"human","role":["Sniper","Ελεύθερος σκοπευτής"],"fruit":null,"fruitType":null,"bounty":500000000,"arc":"East Blue","firstEpisode":9},
+{"id":"sanji","name":"Vinsmoke Sanji","aliases":["sanji","σαντζι","sanji"],"gender":"male","form":"human","role":["Cook","Μάγειρας"],"fruit":null,"fruitType":null,"bounty":1032000000,"arc":"East Blue","firstEpisode":20},
+{"id":"franky","name":"Franky","aliases":["franky","φρανκι"],"gender":"male","form":"cyborg","role":["Shipwright","Ναυπηγός"],"fruit":null,"fruitType":null,"bounty":394000000,"arc":"Water 7","firstEpisode":233},
+{"id":"brook","name":"Brook","aliases":["brook","μπρουκ"],"gender":"male","form":"skeleton","role":["Musician","Μουσικός"],"fruit":"Yomi Yomi no Mi","fruitType":"Paramecia","bounty":383000000,"arc":"Thriller Bark","firstEpisode":337},
+{"id":"jinbe","name":"Jinbe","aliases":["jinbe","τζινμπε","jinbei","jimbei"],"gender":"male","form":"fishman","role":["Helmsman","Πηδαλιούχος"],"fruit":null,"fruitType":null,"bounty":1100000000,"arc":"Impel Down","firstEpisode":430},
+{"id":"crocodile","name":"Crocodile","aliases":["crocodile","κροκονταϊλ"],"gender":"male","form":"human","role":["Leader","Ηγέτης"],"fruit":"Suna Suna no Mi","fruitType":"Logia","bounty":1965000000,"arc":"Little Garden","firstEpisode":76},
+{"id":"enel","name":"Enel","aliases":["enel","ενελ"],"gender":"male","form":"human","role":["Ruler","Κυβερνήτης"],"fruit":"Goro Goro no Mi","fruitType":"Logia","bounty":null,"arc":"Skypiea","firstEpisode":167},
+{"id":"lucci","name":"Rob Lucci","aliases":["lucci","λουτσι"],"gender":"male","form":"human","role":["Agent","Πράκτορας"],"fruit":"Neko Neko no Mi: Leopard","fruitType":"Zoan","bounty":null,"arc":"Water 7","firstEpisode":230},
+{"id":"doflamingo","name":"Donquixote Doflamingo","aliases":["doflamingo","ντοφλαμινγκο"],"gender":"male","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Ito Ito no Mi","fruitType":"Paramecia","bounty":340000000,"arc":"Jaya","firstEpisode":151},
+{"id":"kaido","name":"Kaido","aliases":["kaido","καιντο"],"gender":"male","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Uo Uo no Mi: Seiryu","fruitType":"Mythical Zoan","bounty":4611100000,"arc":"Dressrosa","firstEpisode":739},
+{"id":"bigmom","name":"Charlotte Linlin","aliases":["bigmom","μπιγκ μαμ","big mom","bigmom"],"gender":"female","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Soru Soru no Mi","fruitType":"Paramecia","bounty":4388000000,"arc":"Fish-Man Island","firstEpisode":571},
+{"id":"king","name":"King","aliases":["king","κινγκ"],"gender":"male","form":"lunarian","role":["Commander","Διοικητής"],"fruit":"Ryu Ryu no Mi: Pteranodon","fruitType":"Ancient Zoan","bounty":1390000000,"arc":"Wano","firstEpisode":918},
+{"id":"queen","name":"Queen","aliases":["queen","κουιν"],"gender":"male","form":"cyborg","role":["Commander","Διοικητής"],"fruit":"Ryu Ryu no Mi: Brachiosaurus","fruitType":"Ancient Zoan","bounty":1320000000,"arc":"Wano","firstEpisode":910},
+{"id":"jack","name":"Jack","aliases":["jack","τζακ"],"gender":"male","form":"fishman","role":["Commander","Διοικητής"],"fruit":"Zou Zou no Mi: Mammoth","fruitType":"Ancient Zoan","bounty":1000000000,"arc":"Zou","firstEpisode":746},
+{"id":"katakuri","name":"Charlotte Katakuri","aliases":["katakuri","κατακουρι"],"gender":"male","form":"human","role":["Commander","Διοικητής"],"fruit":"Mochi Mochi no Mi","fruitType":"Special Paramecia","bounty":1057000000,"arc":"Whole Cake Island","firstEpisode":825},
+{"id":"kid","name":"Eustass Kid","aliases":["kid","κιντ"],"gender":"male","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Jiki Jiki no Mi","fruitType":"Paramecia","bounty":3000000000,"arc":"Sabaody","firstEpisode":392},
+{"id":"killer","name":"Killer","aliases":["killer","κιλερ"],"gender":"male","form":"human","role":["Fighter","Μαχητής"],"fruit":"SMILE (failed)","fruitType":"Artificial Zoan","bounty":200000000,"arc":"Sabaody","firstEpisode":392},
+{"id":"marco","name":"Marco","aliases":["marco","μαρκο"],"gender":"male","form":"human","role":["Commander","Διοικητής"],"fruit":"Tori Tori no Mi: Phoenix","fruitType":"Mythical Zoan","bounty":1374000000,"arc":"Jaya","firstEpisode":151},
+{"id":"whitebeard","name":"Edward Newgate","aliases":["whitebeard","γουαιτμπιρντ"],"gender":"male","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Gura Gura no Mi","fruitType":"Paramecia","bounty":5046000000,"arc":"Jaya","firstEpisode":151},
+{"id":"blackbeard","name":"Marshall D. Teach","aliases":["blackbeard","μπλακμπιρντ"],"gender":"male","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Yami Yami no Mi / Gura Gura no Mi","fruitType":"Logia / Paramecia","bounty":2247600000,"arc":"Jaya","firstEpisode":146},
+{"id":"mihawk","name":"Dracule Mihawk","aliases":["mihawk","μιχοκ"],"gender":"male","form":"human","role":["Swordsman","Ξιφομάχος"],"fruit":null,"fruitType":null,"bounty":3590000000,"arc":"East Blue","firstEpisode":23},
+{"id":"kuma","name":"Bartholomew Kuma","aliases":["kuma","κουμα"],"gender":"male","form":"cyborg","role":["Revolutionary","Επαναστάτης"],"fruit":"Nikyu Nikyu no Mi","fruitType":"Paramecia","bounty":296000000,"arc":"Jaya","firstEpisode":151},
+{"id":"moria","name":"Gecko Moria","aliases":["moria","μορια"],"gender":"male","form":"human","role":["Captain","Καπετάνιος"],"fruit":"Kage Kage no Mi","fruitType":"Paramecia","bounty":320000000,"arc":"Thriller Bark","firstEpisode":343},
+{"id":"sengoku","name":"Sengoku","aliases":["sengoku","σενγκοκου"],"gender":"male","form":"human","role":["Marine","Πεζοναύτης"],"fruit":"Hito Hito no Mi: Daibutsu","fruitType":"Mythical Zoan","bounty":null,"arc":"Jaya","firstEpisode":151},
+{"id":"garp","name":"Monkey D. Garp","aliases":["garp","γκαρπ"],"gender":"male","form":"human","role":["Marine","Πεζοναύτης"],"fruit":null,"fruitType":null,"bounty":null,"arc":"East Blue","firstEpisode":68}
 ];
+
+const OP_ARC_EPISODES={"East Blue":61,"Reverse Mountain":63,"Whisky Peak":67,"Little Garden":77,"Drum Island":91,"Alabasta":130,"Jaya":152,"Skypiea":195,"Long Ring Long Land":219,"Water 7":263,"Enies Lobby":312,"Thriller Bark":381,"Sabaody":405,"Amazon Lily":421,"Impel Down":452,"Return to Sabaody":522};
+const OP_EARLY_EPISODES={luffy:1,zoro:2,nami:1,chopper:81,robin:67,shanks:4};
+for(const character of OP_CHARACTERS) character.firstEpisode ??= OP_EARLY_EPISODES[character.id] ?? OP_ARC_EPISODES[character.arc] ?? 1085;
+const OP_CHAPTERS={"luffy":1,"zoro":3,"nami":8,"chopper":134,"robin":114,"usopp":23,"sanji":43,"franky":329,"brook":442,"jinbe":528,"crocodile":126,"enel":254,"lucci":323,"doflamingo":233,"kaido":795,"bigmom":651,"king":925,"queen":925,"jack":808,"katakuri":860,"kid":498,"killer":498,"marco":234,"whitebeard":234,"blackbeard":223,"mihawk":49,"kuma":233,"moria":449,"sengoku":234,"garp":92,"shanks":1};
+const OP_ARC_CHAPTERS={"East Blue":100,"Reverse Mountain":105,"Whisky Peak":114,"Little Garden":129,"Drum Island":154,"Alabasta":217,"Jaya":236,"Skypiea":302,"Long Ring Long Land":321,"Water 7":374,"Enies Lobby":430,"Thriller Bark":489,"Sabaody":513,"Amazon Lily":524,"Impel Down":549,"Return to Sabaody":602};
+for(const character of OP_CHARACTERS) character.firstChapter=OP_CHAPTERS[character.id] ?? OP_ARC_CHAPTERS[character.arc] ?? 1058;
+let opMedium=read('GMP_ONE_PIECE_MEDIUM','anime')==='manga'?'manga':'anime';
+let opEpisodeLimit=Number(read('GMP_ONE_PIECE_'+opMedium+'_LIMIT',opMedium==='manga'?'1058':'1085'));
+function opMaxProgress(){return opMedium==='manga'?1058:1085;}
+if(!Number.isInteger(opEpisodeLimit)||opEpisodeLimit<1||opEpisodeLimit>opMaxProgress())opEpisodeLimit=opMaxProgress();
+function opRoster(){return OP_CHARACTERS.filter(character=>(opMedium==='manga'?character.firstChapter:character.firstEpisode)<=opEpisodeLimit);}
+function opVisible(id){return OP_BY_ID.has(id)&&(opMedium==='manga'?OP_BY_ID.get(id).firstChapter:OP_BY_ID.get(id).firstEpisode)<=opEpisodeLimit;}
+
 const OP_BY_ID = new Map(OP_CHARACTERS.map(character=>[character.id,character]));
 const OP_STORAGE_KEY = "GMP_ONE_PIECE_V1";
 const OP_GUESS_LIMIT = 10;
@@ -69,28 +108,28 @@ function opDay(){
 }
 
 function opDailyId(day){
-  const days = Math.floor(Date.parse(`${day}T00:00:00Z`)/86400000);
-  // Keep today's shared Daily unchanged; use the expanded roster from tomorrow.
-  const rosterSize = day < "2026-10-06" ? 30 : OP_CHARACTERS.length;
-  return OP_CHARACTERS[((days*7+3)%rosterSize+rosterSize)%rosterSize].id;
+  const days=Math.floor(Date.parse(day+'T00:00:00Z')/86400000);
+  const pool=opRoster();
+  if(opMedium==='anime' && opEpisodeLimit===1085 && day<'2026-10-06')return OP_CHARACTERS[((days*7+3)%30+30)%30].id;
+  return pool[((days*7+3)%pool.length+pool.length)%pool.length].id;
 }
 
 function opNewRound(mode,previousId){
   const day = opDay();
   const dailyId = opDailyId(day);
-  const pool = OP_CHARACTERS.filter(character=>character.id!==previousId && (mode!=="unlimited" || character.id!==dailyId));
-  return {day,target:mode==="daily"?opDailyId(day):pool[Math.floor(Math.random()*pool.length)].id,guesses:[],extra:false,ended:false};
+  const pool = opRoster().filter(character=>character.id!==previousId && (mode!=="unlimited" || character.id!==dailyId));
+  return {day,medium:opMedium,episodeLimit:opEpisodeLimit,target:mode==="daily"?opDailyId(day):(pool[Math.floor(Math.random()*pool.length)] || OP_BY_ID.get(dailyId)).id,guesses:[],extra:false,ended:false};
 }
 
 function opValidRound(value,mode){
-  return value && OP_BY_ID.has(value.target) && Array.isArray(value.guesses)
+  return value && opVisible(value.target) && (value.medium ?? "anime")===opMedium && (value.episodeLimit ?? 1085)===opEpisodeLimit && Array.isArray(value.guesses)
     && (value.extra===undefined || typeof value.extra==="boolean")
     && (value.ended===undefined || typeof value.ended==="boolean")
     && value.guesses.length<=OP_GUESS_LIMIT+(value.extra?1:0)
     && new Set(value.guesses).size===value.guesses.length
-    && value.guesses.every(id=>OP_BY_ID.has(id))
+    && value.guesses.every(id=>opVisible(id))
     && (mode!=="daily" || (value.day===opDay() && value.target===opDailyId(value.day)))
-    && (mode!=="unlimited" || value.target!==opDailyId(opDay()))
+    && (mode!=="unlimited" || opRoster().length===1 || value.target!==opDailyId(opDay()))
     && (value.guesses.indexOf(value.target)===-1 || value.guesses.at(-1)===value.target);
 }
 
@@ -134,6 +173,7 @@ function opValue(character,key){
   if(key==="gender") return character.gender==="male"?T("Male","Άνδρας"):T("Female","Γυναίκα");
   if(key==="form"){
     const forms={human:["Human","Άνθρωπος"],reindeer:["Reindeer","Τάρανδος"],cyborg:["Human / cyborg","Άνθρωπος / cyborg"],skeleton:["Human / skeleton","Άνθρωπος / σκελετός"],fishman:["Fish-man","Ψαράνθρωπος"]};
+    forms.lunarian=["Lunarian","Λουνάριος"];
     forms.giant=["Giant","Γίγαντας"];
     forms.whale=["Whale","Φάλαινα"];
     return T(...forms[character.form]);
@@ -154,7 +194,7 @@ function openOnePieceGame(){
   opReturnFocus=document.activeElement;
   opRender();
   if(!opDialog.open) opDialog.showModal();
-  opDialog.querySelector("input")?.focus();
+  opDialog.querySelector("#opGuess")?.focus();
 }
 
 function opRender(){
@@ -164,7 +204,7 @@ function opRender(){
   const done=opDone(round);
   const canReward=opCanReward(round);
   const adConfigured=!!window.GMPRewardedAds?.configured();
-  const available=OP_CHARACTERS.filter(character=>!round.guesses.includes(character.id));
+  const available=opRoster().filter(character=>!round.guesses.includes(character.id));
   const columns=[
     ["name",T("Character","Χαρακτήρας")],["gender",T("Gender","Φύλο")],
     ["form",T("Species / form","Είδος / μορφή")],["role",T("Crew role","Ρόλος")],
@@ -179,6 +219,7 @@ function opRender(){
     <div class="dialog-top"><div><span class="eyebrow">ONE PIECE · CLASSIC</span><h2 id="opTitle">${T("GUESS THE CHARACTER","ΜΑΝΤΕΨΕ ΤΟΝ ΧΑΡΑΚΤΗΡΑ")}</h2></div>
       <button class="close" type="button" data-op-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
     <p class="op-intro">${T("Find the hidden One Piece character. Each guess compares their traits with the answer.","Βρες τον κρυφό χαρακτήρα του One Piece. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
+    <form class="op-episodes"><label for="opMedium">${T("Following","Παρακολουθώ / διαβάζω")}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T("Which chapter have you read?","Μέχρι ποιο κεφάλαιο έχεις διαβάσει;"):T("Which episode have you watched?","Μέχρι ποιο επεισόδιο έχεις δει;")}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T("Apply","Εφαρμογή")}</button></div><p class="muted">${T("Only characters introduced by your episode or chapter. Changing it starts new rounds. Bounties and traits still use the end-of-Wano snapshot.","Μόνο χαρακτήρες που έχουν εμφανιστεί έως το επεισόδιο ή κεφάλαιό σου. Η αλλαγή ξεκινά νέους γύρους. Επικηρύξεις και χαρακτηριστικά παραμένουν έως το τέλος του Wano.")}</p></form>
     <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">
       <button type="button" data-op-mode="daily" aria-pressed="${opMode==="daily"}">${T("Daily","Ημερήσιο")}</button>
       <button type="button" data-op-mode="unlimited" aria-pressed="${opMode==="unlimited"}">${T("Unlimited","Ελεύθερο")}</button>
@@ -202,6 +243,17 @@ function opRender(){
     <a href="https://one-piece.com/character/" target="_blank" rel="noopener noreferrer">${T("Official character reference","Επίσημη αναφορά χαρακτήρων")}</a></p>`;
 }
 
+
+opDialog.addEventListener('change',event=>{
+  if(event.target.id!=='opMedium'||opAdBusy)return;
+  const oldField=opDialog.querySelector('#opEpisode');
+  if(oldField.checkValidity())write('GMP_ONE_PIECE_'+opMedium+'_LIMIT',oldField.value);
+  opMedium=event.target.value==='manga'?'manga':'anime';write('GMP_ONE_PIECE_MEDIUM',opMedium);
+  opEpisodeLimit=Number(read('GMP_ONE_PIECE_'+opMedium+'_LIMIT',String(opMaxProgress())));
+  if(!Number.isInteger(opEpisodeLimit)||opEpisodeLimit<1||opEpisodeLimit>opMaxProgress())opEpisodeLimit=opMaxProgress();
+  opRounds={daily:null,unlimited:null};opSave();opRender();opDialog.querySelector('#opEpisode')?.focus();
+});
+
 opDialog.addEventListener("click",event=>{
   if(event.target.closest("[data-op-close]")){opDialog.close();return;}
   if(opAdBusy)return;
@@ -212,27 +264,34 @@ opDialog.addEventListener("click",event=>{
     return;
   }
   const mode=event.target.closest("[data-op-mode]");
-  if(mode){opMode=mode.dataset.opMode;opRender();opDialog.querySelector("input")?.focus();return;}
+  if(mode){opMode=mode.dataset.opMode;opRender();opDialog.querySelector("#opGuess")?.focus();return;}
   if(event.target.closest("[data-op-next]")){
     opRounds.unlimited=opNewRound("unlimited",opRound().target);
-    opSave();opRender();opDialog.querySelector("input")?.focus();
+    opSave();opRender();opDialog.querySelector("#opGuess")?.focus();
   }
 });
 
 opDialog.addEventListener("submit",event=>{
   event.preventDefault();
+  if(event.target.matches('.op-episodes')){
+    if(opAdBusy)return;
+    const field=opDialog.querySelector('#opEpisode');
+    if(!field.reportValidity())return;
+    opEpisodeLimit=Number(field.value);write('GMP_ONE_PIECE_'+opMedium+'_LIMIT',String(opEpisodeLimit));
+    opRounds={daily:null,unlimited:null};opSave();opRender();opDialog.querySelector('#opGuess')?.focus();return;
+  }
   const round=opRound();
   if(!opCanGuess(round)) return;
-  const input=opDialog.querySelector("input");
+  const input=opDialog.querySelector("#opGuess");
   const value=opNormalize(input.value);
-  const character=OP_CHARACTERS.find(item=>[item.name,...item.aliases].some(name=>opNormalize(name)===value));
+  const character=opRoster().find(item=>[item.name,...item.aliases].some(name=>opNormalize(name)===value));
   const message=opDialog.querySelector(".op-message");
   if(!character){message.textContent=T("Choose a character from the list.","Διάλεξε έναν χαρακτήρα από τη λίστα.");input.focus();return;}
   if(round.guesses.includes(character.id)){message.textContent=T("You already tried this character.","Έχεις ήδη δοκιμάσει αυτόν τον χαρακτήρα.");input.focus();return;}
   round.guesses.push(character.id);
   opSave();opRender();
   if(opWon(round)) opDialog.querySelector("[data-op-next], [data-op-close]")?.focus();
-  else opDialog.querySelector("input")?.focus();
+  else opDialog.querySelector("#opGuess")?.focus();
 });
 
 opDialog.addEventListener("close",()=>{

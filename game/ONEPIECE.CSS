@@ -27,3 +27,5 @@
 .fb-currency label{font-weight:700}
 .fb-currency select{padding:10px 14px;border:1px solid #56636b;border-radius:10px;background:#171e23;color:#fff;font:inherit}
 @media(max-width:600px){.op-dialog{padding:20px 14px}.op-form .guess-row{display:flex;flex-direction:column;align-items:stretch}.op-table{font-size:12px;min-width:760px}}
+
+.op-episodes{display:grid;gap:8px;margin:16px 0;padding:16px;border:1px solid #48515b;border-radius:12px}.op-episodes select{background:#15202b;color:#fff;padding:10px;border:1px solid #64717f;border-radius:8px;font:inherit}.op-episodes input{min-width:0;width:100%}.op-episodes .muted{margin:0}
