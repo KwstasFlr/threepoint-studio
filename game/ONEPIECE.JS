@@ -218,6 +218,7 @@ function openOnePieceGame(){
 }
 
 function opRender(){
+  if(opMode==="quote"){opRenderQuote();return;}
   const round=opRound();
   const target=OP_BY_ID.get(round.target);
   const won=opWon(round);
@@ -243,6 +244,7 @@ function opRender(){
     <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">
       <button type="button" data-op-mode="daily" aria-pressed="${opMode==="daily"}">${T("Daily","Ημερήσιο")}</button>
       <button type="button" data-op-mode="unlimited" aria-pressed="${opMode==="unlimited"}">${T("Unlimited","Ελεύθερο")}</button>
+      <button type="button" data-op-mode="quote" aria-pressed="false">${T("Who said it?","Βρες το quote")}</button>
     </div>
     <p class="muted">${opMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New character every round. Play as often as you like.","Νέος χαρακτήρας σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
     <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Related Zoan types","Συγγενικοί τύποι Zoan")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
@@ -277,6 +279,8 @@ opDialog.addEventListener('change',event=>{
 opDialog.addEventListener("click",event=>{
   if(event.target.closest("[data-op-close]")){opDialog.close();return;}
   if(opAdBusy)return;
+  if(event.target.closest("[data-op-quote-next]")){opNextQuote();opRender();opDialog.querySelector('#opGuess')?.focus();return;}
+  if(event.target.closest("[data-op-quote-reveal]")){const round=opQuoteRound();if(round){round.ended=true;opSaveQuote();opRender();}return;}
   if(event.target.closest("[data-op-ad]")){opWatchAd();return;}
   if(event.target.closest("[data-op-reveal]")){
     const round=opRound();
@@ -300,6 +304,7 @@ opDialog.addEventListener("submit",event=>{
     opEpisodeLimit=Number(field.value);write('GMP_ONE_PIECE_'+opMedium+'_LIMIT',String(opEpisodeLimit));
     opRounds={daily:null,unlimited:null};opSave();opRender();opDialog.querySelector('#opGuess')?.focus();return;
   }
+  if(opMode==="quote"){opSubmitQuote();return;}
   const round=opRound();
   if(!opCanGuess(round)) return;
   const input=opDialog.querySelector("#opGuess");
