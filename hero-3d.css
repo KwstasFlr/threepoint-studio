@@ -20,3 +20,13 @@ body:has(.reference-hero)>nav .nav-right .contact-nav:active{transform:translate
 @media(prefers-reduced-motion:reduce){body .reference-hero .hero-content,body .reference-hero .hero-emblem{transform:none;transition:none}body:has(.reference-hero)>nav .nav-right .contact-nav{transition:none}}
 
 @media(max-width:600px){body:has(.reference-hero)>nav .nav-right .contact-nav{flex:1 1 0;min-width:0;padding:9px 10px}body:has(.reference-hero)>nav .nav-right .contact-nav>span:first-child{flex:1;min-width:0;max-width:145px;white-space:normal;font-size:10px;letter-spacing:0}body:has(.reference-hero)>nav .contact-nav::after{content:none}}
+
+/* Flat, crisp typography alongside the dimensional studio mark. */
+body .reference-hero h1{font-family:"Fira Sans",Arial,sans-serif;font-weight:700;font-size:clamp(40px,4.8vw,88px);line-height:1.12;letter-spacing:-.045em;color:#f2f6fc;margin:0 0 30px;transform:none;text-shadow:none}
+body .reference-hero h1>span{display:block;min-height:0;white-space:normal;text-wrap:balance}
+body .reference-hero .hero-accent{color:#60b7ff;margin-top:6px;text-shadow:none}
+@supports(background-clip:text){body .reference-hero .hero-accent{background:linear-gradient(110deg,#9bd8ff,#439eea 85%);background-clip:text;-webkit-background-clip:text;color:transparent}}
+body .reference-hero .hero-description{border-left:2px solid #3b8edb66;padding-left:20px;max-width:590px;min-height:0;font-family:"Fira Sans",Arial,sans-serif;line-height:1.8;text-wrap:pretty}
+body .reference-hero .hero-description .hero-lead{font-size:clamp(16px,1.35vw,20px);font-weight:400;color:#c6d1df;line-height:1.8}
+body .reference-hero .hero-description .hero-services{margin-top:16px;font-size:clamp(14px,1.18vw,17px);color:#93a5bb;line-height:1.8}
+@media(max-width:700px){body .reference-hero h1{font-size:clamp(35px,8.5vw,56px);line-height:1.14;margin:0 0 26px;letter-spacing:-.035em}body .reference-hero .hero-description{padding-left:16px}body .reference-hero .hero-description .hero-services{margin-top:14px}}

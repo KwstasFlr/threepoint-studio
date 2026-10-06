@@ -1074,3 +1074,10 @@ html[lang="el"] .localized-label > .label-en { visibility:hidden; pointer-events
 .donation h2{font-size:clamp(28px,4vw,46px);line-height:1.15}
 .donation p{font-size:14px;line-height:1.8}
 @media(max-width:600px){.donation{padding:24px 20px;border-radius:20px;margin:24px 0 40px;gap:24px}.donation-action{width:100%}.donation-action .button{width:100%;justify-content:center}}
+
+/* Clear, consistent end-round action in every playable mode. */
+.text-button:is([data-fb-reveal],[data-op-reveal],[data-op-quote-reveal],[data-gm-reveal],#revealBtn){display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;max-width:100%;margin:18px 0 6px;padding:13px 20px;border:1px solid #d1a74d;border-radius:12px;background:#302819;color:#ffe0a0;font-size:14px;font-weight:800;line-height:1.5;text-align:center;text-decoration:none;white-space:normal;cursor:pointer;transition:background .18s,border-color .18s}
+.text-button:is([data-fb-reveal],[data-op-reveal],[data-op-quote-reveal],[data-gm-reveal],#revealBtn):hover{background:#48391e;border-color:#ffcf72;color:#fff0cf}
+.text-button:is([data-fb-reveal],[data-op-reveal],[data-op-quote-reveal],[data-gm-reveal],#revealBtn):focus-visible{outline:3px solid #ffcf72;outline-offset:4px}
+.text-button:is([data-fb-reveal],[data-op-reveal],[data-op-quote-reveal],[data-gm-reveal],#revealBtn):disabled{opacity:.5;cursor:wait}
+@media(max-width:600px){.text-button:is([data-fb-reveal],[data-op-reveal],[data-op-quote-reveal],[data-gm-reveal],#revealBtn){width:100%}}
