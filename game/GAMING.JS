@@ -75,7 +75,7 @@ function openGamingGame(){gmReturnFocus=document.activeElement;gmRender();if(!gm
 function gmRender(){
   const round=gmRound(),target=GM_BY_ID.get(round.target),won=round.guesses.includes(target.id);
   const columns=[['name',T('Character','Χαρακτήρας')],['gender',T('Gender','Φύλο')],['series',T('Franchise','Σειρά')],['genre',T('Genre','Είδος')],['year',T('Game debut','Πρώτη εμφάνιση σε παιχνίδι')],['weapon',T('Signature weapon / style','Χαρακτηριστικό όπλο / στυλ')]];
-  gmDialog.innerHTML=`<button class="dialog-close" type="button" data-gm-close aria-label="${T('Close','Κλείσιμο')}">×</button><p class="eyebrow">GAMING · ${gmMode==='classic'?'CLASSIC':'QUOTES'}</p><h2 id="gmTitle">${gmMode==='classic'?T('Guess the character','Μάντεψε τον χαρακτήρα'):T('Who said it?','Ποιος το είπε;')}</h2>
+  gmDialog.innerHTML=`<div class="dialog-top"><div><p class="eyebrow">GAMING · ${gmMode==='classic'?'CLASSIC':'QUOTES'}</p><h2 id="gmTitle">${gmMode==='classic'?T('Guess the character','Μάντεψε τον χαρακτήρα'):T('Who said it?','Ποιος το είπε;')}</h2></div><button class="close" type="button" data-gm-close aria-label="${T('Close','Κλείσιμο')}">×</button></div>
     ${gmpRoundLabel(round.number)}
     ${gmpModeTabs('gaming',gmMode)}
     <p class="op-intro">${T('30 gaming characters · 15 men and 15 women. Classic compares traits; Quotes asks who says the line.','30 gaming χαρακτήρες · 15 άνδρες και 15 γυναίκες. Το Classic συγκρίνει χαρακτηριστικά· στα Quotes βρίσκεις ποιος λέει την ατάκα.')}</p>
