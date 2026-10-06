@@ -212,6 +212,8 @@ modeling:['3D Modeling','3D μοντελοποίηση'],
 music:['Music & Beats','Μουσική & Beats'],
 bugs:['Bug & Clue Reports','Αναφορά bug ή λάθους στοιχείου']
 };
+const bugCard=document.getElementById('bugReports');
+if(bugCard)bugCard.parentElement.append(bugCard);
 const cards=[...document.querySelectorAll('[data-service]')];
 let selectedService='websites';
 const messages={
