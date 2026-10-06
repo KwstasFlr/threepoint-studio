@@ -68,9 +68,10 @@ function opRenderQuote(){
   opDialog.innerHTML=`<button class="dialog-close" type="button" data-op-close aria-label="${T('Close','Κλείσιμο')}">×</button>
     <p class="eyebrow">ONE PIECE · QUOTES</p><h2 id="opTitle">${T('Who said it?','Ποιος το είπε;')}</h2>
     ${s?gmpRoundLabel(s.number):''}
+    ${gmpModeTabs('onepiece','quote')}
     <p class="op-intro">${T('20 short quotes · 20 different characters · 5 guesses per round.','20 μικρές ατάκες · 20 διαφορετικοί χαρακτήρες · 5 προσπάθειες ανά γύρο.')}</p>
     <form class="op-episodes"><label for="opMedium">${T('Following','Παρακολουθώ / διαβάζω')}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T('Last chapter read','Τελευταίο κεφάλαιο που διάβασες'):T('Last episode watched','Τελευταίο επεισόδιο που είδες')}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T('Apply','Εφαρμογή')}</button></div></form>
-    <div class="op-modes">${[['daily',T('Daily','Ημερήσιο')],['unlimited',T('Unlimited','Απεριόριστο')],['quote',T('Who said it?','Βρες το quote')]].map(([id,label])=>`<button type="button" data-op-mode="${id}" aria-pressed="${id==='quote'}">${label}</button>`).join('')}</div>
+
     ${q?`<blockquote class="op-quote">“${esc(T(q.en,q.el))}”</blockquote>
     ${!s.ended?`<form class="op-form"><label for="opGuess">${T('Who says this line?','Ποιος λέει αυτή την ατάκα;')}</label><div class="guess-row"><input id="opGuess" list="opChoices" autocomplete="off" maxlength="80" required><button class="button lime" type="submit">${T('Guess →','Απάντηση →')}</button></div><datalist id="opChoices">${candidates.map(c=>`<option value="${esc(c.name)}"></option>`).join('')}</datalist></form>`:''}
     <p class="op-message ${won?'op-won':''}" role="status" aria-live="polite">${s.ended?(won?T('Correct!','Σωστά!'):T('Round ended.','Ο γύρος τελείωσε.')):T(`${5-s.guesses.length} guesses remaining.`,`${5-s.guesses.length} προσπάθειες απομένουν.`)}</p>

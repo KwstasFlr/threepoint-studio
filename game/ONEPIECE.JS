@@ -215,7 +215,7 @@ function openOnePieceGame(){
   opReturnFocus=document.activeElement;
   opRender();
   if(!opDialog.open) opDialog.showModal();
-  opDialog.querySelector("#opGuess")?.focus();
+  gmpFocusRound(opDialog);
 }
 
 function opRender(){
@@ -241,13 +241,10 @@ function opRender(){
     <div class="dialog-top"><div><span class="eyebrow">ONE PIECE · CLASSIC</span><h2 id="opTitle">${T("GUESS THE CHARACTER","ΜΑΝΤΕΨΕ ΤΟΝ ΧΑΡΑΚΤΗΡΑ")}</h2></div>
       <button class="close" type="button" data-op-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
     ${gmpRoundLabel(round.number)}
+    ${gmpModeTabs('onepiece',opMode)}
     <p class="op-intro">${T("Find the hidden One Piece character. Each guess compares their traits with the answer.","Βρες τον κρυφό χαρακτήρα του One Piece. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
     <form class="op-episodes"><label for="opMedium">${T("Following","Παρακολουθώ / διαβάζω")}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T("Which chapter have you read?","Μέχρι ποιο κεφάλαιο έχεις διαβάσει;"):T("Which episode have you watched?","Μέχρι ποιο επεισόδιο έχεις δει;")}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T("Apply","Εφαρμογή")}</button></div><p class="muted">${T("Only characters introduced by your episode or chapter. Changing it starts new rounds. Bounties and traits still use the end-of-Wano snapshot.","Μόνο χαρακτήρες που έχουν εμφανιστεί έως το επεισόδιο ή κεφάλαιό σου. Η αλλαγή ξεκινά νέους γύρους. Επικηρύξεις και χαρακτηριστικά παραμένουν έως το τέλος του Wano.")}</p></form>
-    <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">
-      <button type="button" data-op-mode="daily" aria-pressed="${opMode==="daily"}">${T("Daily","Ημερήσιο")}</button>
-      <button type="button" data-op-mode="unlimited" aria-pressed="${opMode==="unlimited"}">${T("Unlimited","Ελεύθερο")}</button>
-      <button type="button" data-op-mode="quote" aria-pressed="false">${T("Who said it?","Βρες το quote")}</button>
-    </div>
+
     <p class="muted">${opMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New character every round. Play as often as you like.","Νέος χαρακτήρας σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
     <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Related Zoan types","Συγγενικοί τύποι Zoan")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
     <form class="op-form" ${!opCanGuess(round)?"hidden":""}>
@@ -281,7 +278,7 @@ opDialog.addEventListener('change',event=>{
 opDialog.addEventListener("click",event=>{
   if(event.target.closest("[data-op-close]")){opDialog.close();return;}
   if(opAdBusy)return;
-  if(event.target.closest("[data-op-quote-next]")){opNextQuote();opRender();opDialog.querySelector('#opGuess')?.focus();return;}
+  if(event.target.closest("[data-op-quote-next]")){opNextQuote();opRender();gmpFocusRound(opDialog);return;}
   if(event.target.closest("[data-op-quote-reveal]")){const round=opQuoteRound();if(round){round.ended=true;opSaveQuote();opRender();}return;}
   if(event.target.closest("[data-op-ad]")){opWatchAd();return;}
   if(event.target.closest("[data-op-reveal]")){
@@ -290,10 +287,10 @@ opDialog.addEventListener("click",event=>{
     return;
   }
   const mode=event.target.closest("[data-op-mode]");
-  if(mode){opMode=mode.dataset.opMode;opRender();opDialog.querySelector("#opGuess")?.focus();return;}
+  if(mode){opMode=mode.dataset.opMode;opRender();gmpFocusRound(opDialog);return;}
   if(event.target.closest("[data-op-next]")){
     opRounds.unlimited=opNewRound("unlimited",opRound().target);
-    opSave();opRender();opDialog.querySelector("#opGuess")?.focus();
+    opSave();opRender();gmpFocusRound(opDialog);
   }
 });
 

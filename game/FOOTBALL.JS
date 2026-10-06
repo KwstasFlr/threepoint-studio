@@ -95,7 +95,7 @@ function openFootballGame(mode){
   fbReturnFocus=document.activeElement;
   fbRender();
   if(!fbDialog.open) fbDialog.showModal();
-  fbDialog.querySelector("input")?.focus();
+  gmpFocusRound(fbDialog);
 }
 
 function fbRender(){
@@ -115,11 +115,9 @@ function fbRender(){
     <div class="dialog-top"><div><span class="eyebrow">FOOTBALL · PLAYERS</span><h2 id="fbTitle">${T("GUESS THE PLAYER","ΜΑΝΤΕΨΕ ΤΟΝ ΠΑΙΚΤΗ")}</h2></div>
       <button class="close" type="button" data-fb-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
     ${gmpRoundLabel(round.number)}
+    ${gmpModeTabs('football',fbMode)}
     <p class="op-intro">${T("Find the hidden football player. Each guess compares their traits with the answer.","Βρες τον κρυφό ποδοσφαιριστή. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
-    <div class="op-modes" aria-label="${T("Game mode","Τρόπος παιχνιδιού")}">
-      <button type="button" data-fb-mode="daily" aria-pressed="${fbMode==="daily"}">${T("Daily","Ημερήσιο")}</button>
-      <button type="button" data-fb-mode="unlimited" aria-pressed="${fbMode==="unlimited"}">${T("Unlimited","Ελεύθερο")}</button>
-    </div>
+
     <p class="muted">${fbMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New player every round. Play as often as you like.","Νέος παίκτης σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
     <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Value unavailable","Μη διαθέσιμη αξία")}</span><span>↑ / ↓ ${T("Target age / value is higher / lower","Η ζητούμενη ηλικία / αξία είναι μεγαλύτερη / μικρότερη")}</span></div>
     <div class="fb-currency"><label for="fbCurrency">${T('Currency','Νόμισμα')}</label><select id="fbCurrency"><option value="EUR" ${fbCurrency==='EUR'?'selected':''}>EUR (€)</option><option value="USD" ${fbCurrency==='USD'?'selected':''}>USD ($)</option></select></div>
@@ -149,10 +147,10 @@ fbDialog.addEventListener("click",event=>{
     return;
   }
   const mode=event.target.closest("[data-fb-mode]");
-  if(mode){fbMode=mode.dataset.fbMode;fbRender();fbDialog.querySelector("input")?.focus();return;}
+  if(mode){fbMode=mode.dataset.fbMode;fbRender();gmpFocusRound(fbDialog);return;}
   if(event.target.closest("[data-fb-next]")){
     fbRounds.unlimited=fbNewRound("unlimited",fbRound().target);
-    fbSave();fbRender();fbDialog.querySelector("input")?.focus();
+    fbSave();fbRender();gmpFocusRound(fbDialog);
   }
 });
 
