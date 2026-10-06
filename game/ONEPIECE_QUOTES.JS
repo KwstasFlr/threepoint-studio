@@ -65,8 +65,7 @@ function opSubmitQuote(){
 function opRenderQuote(){
   const s=opQuoteRound(),q=OP_QUOTES.find(q=>q.id===s?.id),candidates=opQuoteCandidates();
   const won=q&&s.guesses.includes(opNormalize(q.name));
-  opDialog.innerHTML=`<button class="dialog-close" type="button" data-op-close aria-label="${T('Close','Κλείσιμο')}">×</button>
-    <p class="eyebrow">ONE PIECE · QUOTES</p><h2 id="opTitle">${T('Who said it?','Ποιος το είπε;')}</h2>
+  opDialog.innerHTML=`<div class="dialog-top"><div><p class="eyebrow">ONE PIECE · QUOTES</p><h2 id="opTitle">${T('Who said it?','Ποιος το είπε;')}</h2></div><button class="close" type="button" data-op-close aria-label="${T('Close','Κλείσιμο')}">×</button></div>
     ${s?gmpRoundLabel(s.number):''}
     ${gmpModeTabs('onepiece','quote')}
     <p class="op-intro">${T('20 short quotes · 20 different characters · 5 guesses per round.','20 μικρές ατάκες · 20 διαφορετικοί χαρακτήρες · 5 προσπάθειες ανά γύρο.')}</p>

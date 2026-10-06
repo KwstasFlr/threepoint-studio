@@ -1068,3 +1068,9 @@ html[lang="el"] .localized-label > .label-en { visibility:hidden; pointer-events
 .header #loginButton,.header #signupButton{display:inline-flex;align-items:center;justify-content:center;align-content:center;height:40px;min-height:40px;padding-block:0;line-height:1.2}
 
 .round-number{display:inline-block;margin:16px 0 0;padding:8px 14px;border:1px solid var(--lime);border-radius:999px;color:var(--lime);font-size:14px;font-weight:800;line-height:1.4}
+
+/* Support the studio card. */
+.donation{margin:36px 0 60px;padding:36px;border:1px solid #4c5d27;border-radius:24px;background:linear-gradient(125deg,#172010,var(--panel) 65%);box-shadow:inset 0 1px 0 #d7ff3f0a;gap:32px}
+.donation h2{font-size:clamp(28px,4vw,46px);line-height:1.15}
+.donation p{font-size:14px;line-height:1.8}
+@media(max-width:600px){.donation{padding:24px 20px;border-radius:20px;margin:24px 0 40px;gap:24px}.donation-action{width:100%}.donation-action .button{width:100%;justify-content:center}}

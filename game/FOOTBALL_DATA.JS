@@ -1411,6 +1411,226 @@ const FB_NEW_PLAYERS = [
     "highestMarketValue": 26000000,
     "status": "retired",
     "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/15378%2628003"
+  },
+  {
+    "id": "carrick",
+    "name": "Michael Carrick",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Defensive Midfield",
+      "Αμυντικός μέσος"
+    ],
+    "aliases": [
+      "Michael Carrick",
+      "Carrick"
+    ],
+    "birthDate": "1981-07-28",
+    "highestMarketValue": 26500000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/michael-carrick/profil/spieler/3878",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "pires",
+    "name": "Robert Pirès",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Robert Pirès",
+      "Robert Pires",
+      "Pires",
+      "Pirès"
+    ],
+    "birthDate": "1973-10-29",
+    "highestMarketValue": 22000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/robert-pires/profil/spieler/3185",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "giuly",
+    "name": "Ludovic Giuly",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Ludovic Giuly",
+      "Giuly"
+    ],
+    "birthDate": "1976-07-10",
+    "highestMarketValue": 15000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/ludovic-giuly/profil/spieler/5299",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "juninho",
+    "name": "Juninho Pernambucano",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Attacking Midfield",
+      "Επιτελικός μέσος"
+    ],
+    "aliases": [
+      "Juninho Pernambucano",
+      "Juninho"
+    ],
+    "birthDate": "1975-01-30",
+    "highestMarketValue": 18000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/juninho-pernambucano/profil/spieler/5354",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "kanoute",
+    "name": "Frédéric Kanouté",
+    "nation": [
+      "Mali",
+      "Μάλι"
+    ],
+    "position": [
+      "Striker",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Frédéric Kanouté",
+      "Frederic Kanoute",
+      "Kanoute",
+      "Kanouté"
+    ],
+    "birthDate": "1977-09-02",
+    "highestMarketValue": 22000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/frederic-kanoute/profil/spieler/3700",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "olic",
+    "name": "Ivica Olić",
+    "nation": [
+      "Croatia",
+      "Κροατία"
+    ],
+    "position": [
+      "Striker",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Ivica Olić",
+      "Ivica Olic",
+      "Olic",
+      "Olić"
+    ],
+    "birthDate": "1979-09-14",
+    "highestMarketValue": 12000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/ivica-olic/profil/spieler/7427",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "saviola",
+    "name": "Javier Saviola",
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Second Striker",
+      "Δεύτερος επιθετικός"
+    ],
+    "aliases": [
+      "Javier Saviola",
+      "Saviola"
+    ],
+    "birthDate": "1981-12-11",
+    "highestMarketValue": 20000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/javier-saviola/profil/spieler/7611",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "luisgarcia",
+    "name": "Luis García",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Luis García",
+      "Luis Garcia",
+      "Luis Garcia Sanz",
+      "Luis Javier Garcia Sanz"
+    ],
+    "birthDate": "1978-06-24",
+    "highestMarketValue": 13000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/luis-garcia/profil/spieler/7920",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "pizarro",
+    "name": "Claudio Pizarro",
+    "nation": [
+      "Peru",
+      "Περού"
+    ],
+    "position": [
+      "Striker",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Claudio Pizarro",
+      "Pizarro"
+    ],
+    "birthDate": "1978-10-03",
+    "highestMarketValue": 12000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/claudio-pizarro/profil/spieler/532",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "hyypia",
+    "name": "Sami Hyypiä",
+    "nation": [
+      "Finland",
+      "Φινλανδία"
+    ],
+    "position": [
+      "Centre-Back",
+      "Κεντρικός αμυντικός"
+    ],
+    "aliases": [
+      "Sami Hyypiä",
+      "Sami Hyypia",
+      "Hyypia",
+      "Hyypiä"
+    ],
+    "birthDate": "1973-10-07",
+    "highestMarketValue": 9000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.co.uk/sami-hyypia/profil/spieler/3470",
+    "checkedAt": "2026-10-06"
   }
 ];
 const FB_EXCHANGE = {usdPerEuro:1.1225,date:"2026-10-02",source:"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"};
