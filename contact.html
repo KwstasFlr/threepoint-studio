@@ -82,6 +82,17 @@ footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4
 .hosting-box h2{font-size:20px;line-height:1.3;margin-bottom:14px}
 .hosting-box p{font-size:13px;line-height:1.85;color:#b7c7d8;margin:0}
 @media(max-width:500px){.hosting-box{padding:23px}}
+
+.contact-page .contact-choice.bug-choice{border:1px solid #ef6262;background:#211518}
+.contact-page .contact-choice.bug-choice .contact-choice-name,.contact-page .bug-choice .contact-choice-check{color:#ff9292}
+.contact-page .contact-choice.bug-choice:hover{background:#32191f}
+.contact-page .contact-choice.bug-choice.active{border:2px solid #ff7474;background:#361a21;box-shadow:0 0 0 3px #ef62621a}
+.contact-page .contact-choice.bug-choice:focus-visible{outline:2px solid #ff9292;outline-offset:4px}
+.project-form.bug-report-form,.contact-service-info.bug-report-info{border:1px solid #ef6262;background:linear-gradient(135deg,#211518,var(--panel))}
+.bug-report-form .form-submit{background:#ff8585;color:#1b0e10}.bug-report-form .form-submit:hover{background:#ffa3a3}
+.bug-report-form .form-field :is(input,select,textarea):focus{border-color:#ff9292;outline-color:#ff9292}
+[data-service-info="bugs"] h2{color:#ff9292}
+[data-service-info="bugs"] ol{padding-left:20px;color:var(--muted);font-size:14px;line-height:1.9}
 </style>
 </head>
 <body class="contact-page">
@@ -108,6 +119,8 @@ footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4
 <button class="contact-choice" type="button" data-service="tools" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Digital Tools" data-el="Ψηφιακά εργαλεία">Digital Tools</span><em data-en="Organisation and everyday automation" data-el="Οργάνωση και αυτοματοποίηση εργασιών">Organisation and everyday automation</em></button>
 <button class="contact-choice" type="button" data-service="modeling" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="3D Modeling" data-el="3D μοντελοποίηση">3D Modeling</span><em data-en="Models and product visualisations" data-el="Μοντέλα και απεικονίσεις προϊόντων">Models and product visualisations</em></button>
 <button class="contact-choice" type="button" data-service="music" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</span><em data-en="Music production in FL Studio" data-el="Μουσική παραγωγή στο FL Studio">Music production in FL Studio</em></button>
+<button id="bugReports" class="contact-choice bug-choice" type="button" data-service="bugs" aria-pressed="false" aria-controls="projectType contactDetails"><span class="contact-choice-check" aria-hidden="true">✓</span><span class="contact-choice-name" data-en="Bug &amp; Clue Reports" data-el="Αναφορά bug ή λάθους στοιχείου">Bug &amp; Clue Reports</span><em data-en="Something broken or an incorrect game clue? Tell us here." data-el="Κάτι δεν λειτουργεί ή ένα στοιχείο παιχνιδιού είναι λάθος; Πες μας εδώ.">Something broken or an incorrect game clue? Tell us here.</em></button>
+
 </div>
 
 <div class="contact-layout">
@@ -126,7 +139,7 @@ footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4
 </div>
 
 <div class="form-field wide">
-<label for="projectType" data-en="Selected Service" data-el="Επιλεγμένη υπηρεσία">Selected Service</label>
+<label for="projectType" data-en="Selected category" data-el="Επιλεγμένη κατηγορία">Selected category</label>
 <select id="projectType" name="service" required aria-describedby="serviceHelp">
 <option value="websites" data-en="Websites" data-el="Ιστοσελίδες">Websites</option>
 <option value="eshops" data-en="E-shops" data-el="E-shops">E-shops</option>
@@ -135,6 +148,7 @@ footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4
 <option value="modeling" data-en="3D Modeling" data-el="3D μοντελοποίηση">3D Modeling</option>
 <option value="music" data-en="Music &amp; Beats" data-el="Μουσική &amp; Beats">Music &amp; Beats</option>
 <option value="games" data-en="Browser Games" data-el="Παιχνίδια browser">Browser Games</option>
+<option value="bugs" data-en="Bug &amp; Clue Reports" data-el="Αναφορά bug ή λάθους στοιχείου">Bug &amp; Clue Reports</option>
 </select>
 <span id="serviceHelp" class="service-help" data-en="Choose here or use the service cards above." data-el="Επίλεξε εδώ ή από τις κάρτες υπηρεσιών παραπάνω.">Choose here or use the service cards above.</span>
 </div>
@@ -146,7 +160,7 @@ footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4
 </div>
 
 <div class="form-trap" aria-hidden="true"><label for="projectWebsite">Leave empty</label><input id="projectWebsite" name="_gotcha" tabindex="-1" autocomplete="off"></div>
-<p class="form-note" data-en="We use these details to reply to your project enquiry." data-el="Χρησιμοποιούμε αυτά τα στοιχεία για να απαντήσουμε στο αίτημά σου.">We use these details to reply to your project enquiry.</p>
+<p class="form-note" data-en="We use these details to reply to your message." data-el="Χρησιμοποιούμε αυτά τα στοιχεία για να απαντήσουμε στο μήνυμά σου.">We use these details to reply to your message.</p>
 <button id="projectSubmit" class="form-submit" type="submit" disabled><span id="submitLabel">SEND</span></button>
 <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
 <noscript><p class="form-note">Please email <a href="mailto:threepointstudioath@gmail.com">threepointstudioath@gmail.com</a>.</p></noscript>
@@ -157,6 +171,7 @@ footer .social-links a[href*="tiktok.com"]:is(:hover,:focus-visible){color:#25f4
 
 <aside class="contact-side">
 <div class="contact-service-info" id="contactDetails">
+<section data-service-info="bugs" hidden><h2 data-en="Help us fix it." data-el="Βοήθησέ μας να το διορθώσουμε.">Help us fix it.</h2><p data-en="Use this category for game bugs, display issues and incorrect clues. A clear example helps us reproduce the issue and check the answer." data-el="Χρησιμοποίησε αυτή την κατηγορία για bugs παιχνιδιών, προβλήματα εμφάνισης και λάθος στοιχεία. Ένα σαφές παράδειγμα μας βοηθά να αναπαράγουμε το πρόβλημα και να ελέγξουμε την απάντηση.">Use this category for game bugs, display issues and incorrect clues. A clear example helps us reproduce the issue and check the answer.</p><ol><li data-en="Name the game and mode: Daily, Unlimited, Classic or Quotes." data-el="Γράψε το παιχνίδι και το mode: Daily, Unlimited, Classic ή Quotes.">Name the game and mode: Daily, Unlimited, Classic or Quotes.</li><li data-en="Describe the steps, what happened and what you expected." data-el="Περίγραψε τα βήματα, τι έγινε και τι περίμενες να γίνει.">Describe the steps, what happened and what you expected.</li><li data-en="For an incorrect clue, include the player or character, the field and a reference link if available." data-el="Για λάθος στοιχείο, βάλε τον παίκτη ή χαρακτήρα, το πεδίο και σύνδεσμο πηγής αν υπάρχει.">For an incorrect clue, include the player or character, the field and a reference link if available.</li><li data-en="Mention your device and browser if it is a display or control problem." data-el="Ανάφερε τη συσκευή και τον browser αν πρόκειται για πρόβλημα εμφάνισης ή κουμπιών.">Mention your device and browser if it is a display or control problem.</li></ol></section>
 <section data-service-info="websites"><h2 data-en="Websites" data-el="Ιστοσελίδες">Websites</h2><p data-en="Responsive layouts, contact forms, basic SEO and initial Google Analytics setup. We agree on the pages and features your website needs." data-el="Προσαρμογή σε κινητά, φόρμες επικοινωνίας, βασικό SEO και αρχική ρύθμιση Google Analytics. Συμφωνούμε τις σελίδες και τις λειτουργίες που χρειάζεται η ιστοσελίδα σου.">Responsive layouts, contact forms, basic SEO and initial Google Analytics setup. We agree on the pages and features your website needs.</p></section>
 <section data-service-info="eshops" hidden><h2>E-shops</h2><p data-en="Product categories and filters, product and order management, and payment provider integration. Basic SEO and initial Google Analytics setup are included in the build. Payment provider fees are separate." data-el="Κατηγορίες και φίλτρα προϊόντων, διαχείριση προϊόντων και παραγγελιών και σύνδεση παρόχων πληρωμής. Στην κατασκευή περιλαμβάνονται βασικό SEO και αρχική ρύθμιση Google Analytics. Οι προμήθειες των παρόχων πληρωμών είναι ξεχωριστές.">Product categories and filters, product and order management, and payment provider integration. Basic SEO and initial Google Analytics setup are included in the build. Payment provider fees are separate.</p></section>
 <section data-service-info="games" hidden><h2>Browser Games</h2><p data-en="Games and quizzes that run directly in the browser. We discuss the game rules, interaction and any progress or score features your project needs." data-el="Παιχνίδια και quiz που λειτουργούν απευθείας στον browser. Συζητάμε τους κανόνες, την αλληλεπίδραση και τις λειτουργίες προόδου ή βαθμολογίας που χρειάζεται το project.">Games and quizzes that run directly in the browser. We discuss the game rules, interaction and any progress or score features your project needs.</p></section>
@@ -194,7 +209,8 @@ games:['Browser Games','Παιχνίδια browser'],
 apps:['Apps','Εφαρμογές'],
 tools:['Digital Tools','Ψηφιακά εργαλεία'],
 modeling:['3D Modeling','3D μοντελοποίηση'],
-music:['Music & Beats','Μουσική & Beats']
+music:['Music & Beats','Μουσική & Beats'],
+bugs:['Bug & Clue Reports','Αναφορά bug ή λάθους στοιχείου']
 };
 const cards=[...document.querySelectorAll('[data-service]')];
 let selectedService='websites';
@@ -209,16 +225,26 @@ let state='ready',busy=false;
 function render(){
 const l=document.documentElement.lang==='el'?1:0;
 type.value=selectedService;
-document.querySelector('.contact-choices').setAttribute('aria-label',l?'Επίλεξε υπηρεσία':'Select a service');
+const bug=selectedService==='bugs';
+form.classList.toggle('bug-report-form',bug);
+document.getElementById('contactDetails').classList.toggle('bug-report-info',bug);
+const heading=document.querySelector('.contact-box h1');
+heading.textContent=bug?['Report a bug or clue.','Αναφορά bug ή λάθους στοιχείου.'][l]:[heading.dataset.en,heading.dataset.el][l];
+const description=document.querySelector('.contact-description');
+description.textContent=bug?['Found a problem in Game Multi Plex? Send the details below so we can investigate.','Βρήκες πρόβλημα στο Game Multi Plex; Στείλε τις λεπτομέρειες παρακάτω για να το ελέγξουμε.'][l]:[description.dataset.en,description.dataset.el][l];
+document.getElementById('projectIdea').placeholder=bug?['Game / mode:\nPlayer or character / round number:\nSteps to reproduce:\nWhat happened / expected result:\nDevice, browser or source link:','Παιχνίδι / mode:\nΠαίκτης ή χαρακτήρας / αριθμός γύρου:\nΒήματα αναπαραγωγής:\nΤι έγινε / τι περίμενες:\nΣυσκευή, browser ή σύνδεσμος πηγής:'][l]:'';
+
+document.querySelector('.contact-choices').setAttribute('aria-label',l?'Επίλεξε κατηγορία':'Select a category');
 label.textContent=busy?['SENDING…','ΑΠΟΣΤΟΛΗ…'][l]:['SEND','ΑΠΟΣΤΟΛΗ'][l];
 status.textContent=messages[state][l];
 status.dataset.state=state;
 submit.disabled=busy;
-document.title=l?'Επικοινωνία | THREEPOINT Studio ATH':'Start a Project | THREEPOINT Studio ATH';
+document.title=bug?(l?'Αναφορά bug | THREEPOINT Studio ATH':'Bug Reports | THREEPOINT Studio ATH'):(l?'Επικοινωνία | THREEPOINT Studio ATH':'Start a Project | THREEPOINT Studio ATH');
 document.querySelector('meta[name="description"]').content=l?'Ξεκίνα το project σου με το THREEPOINT Studio ATH στην Αθήνα. Ιστοσελίδες, e-shops, εφαρμογές, παιχνίδια, 3D, ψηφιακά εργαλεία και μουσική.':'Start a project with THREEPOINT Studio ATH in Athens. Websites, e-shops, apps, games, digital tools, 3D and music.';
 }
 
 function service(){
+document.querySelector('.scope-note').hidden=selectedService==='bugs';
 document.querySelectorAll('[data-service-info]').forEach(p=>p.hidden=p.dataset.serviceInfo!==selectedService);
 document.getElementById('hostingBox').hidden=!['websites','eshops','tools'].includes(selectedService);
 cards.forEach(card=>{
@@ -254,7 +280,7 @@ if(busy||!form.reportValidity()||form.elements._gotcha.value)return;
 
 const payload=new FormData(form);
 payload.set('service',names[selectedService][0]);
-payload.set('_subject','THREEPOINT Studio ATH — '+names[selectedService][0]+' project');
+payload.set('_subject','THREEPOINT Studio ATH — '+names[selectedService][0]+(selectedService==='bugs'?'':' project'));
 
 busy=true;
 state='sending';
