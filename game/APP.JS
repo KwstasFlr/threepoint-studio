@@ -5446,9 +5446,10 @@ function renderGames() {
 
   if (!grid) return;
 
+  const playableGames = GAME_DATA.filter(game => game.available);
   // Preserve image nodes and event handlers when translating the existing cards.
-  if (grid.children.length === GAME_DATA.length && GAME_DATA.every(game => grid.querySelector('[data-game="'+game.id+'"]'))) {
-    GAME_DATA.forEach(game => {
+  if (grid.children.length === playableGames.length && playableGames.every(game => grid.querySelector('[data-game="'+game.id+'"]'))) {
+    playableGames.forEach(game => {
       const card=grid.querySelector('[data-game="'+game.id+'"]');
       setLanguageLabel(card.querySelector('.card-badge'),game.available?'PLAY NOW':'COMING SOON',game.available?'ΠΑΙΞΕ ΤΩΡΑ':'ΣΥΝΤΟΜΑ');
       card.querySelector('.card-info h3').textContent=game.name;
@@ -5458,7 +5459,7 @@ function renderGames() {
   }
   grid.innerHTML = "";
 
-  GAME_DATA.forEach(game => {
+  playableGames.forEach(game => {
     const card =
       document.createElement(
         game.available

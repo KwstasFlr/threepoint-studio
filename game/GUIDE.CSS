@@ -1,0 +1,22 @@
+/* Player guide uses the existing Game Multi Plex palette and typography. */
+.guide-jump,.guide-contact{display:inline-flex;color:var(--lime);font-weight:800;text-decoration:none;padding:12px 0}
+.guide-jump:hover,.guide-contact:hover{text-decoration:underline}
+.guide-roadmap{margin-top:28px;border-top:1px solid var(--line);padding-top:20px;color:var(--muted)}
+.guide-roadmap summary{cursor:pointer;font-size:13px;font-weight:800;letter-spacing:1px}
+.guide-roadmap p{max-width:760px;font-size:14px;line-height:1.8}
+.player-guide{padding:0 0 72px;scroll-margin-top:96px}
+.guide-heading{max-width:850px}.guide-heading h2{font-family:var(--font-display);font-size:clamp(27px,4vw,44px);line-height:1.2;margin:12px 0 20px}
+.guide-heading p{color:var(--muted);line-height:1.85}
+.guide-links{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
+.guide-links a{color:var(--text);text-decoration:none;border:1px solid var(--line);border-radius:24px;padding:10px 16px;font-size:12px;font-weight:800}
+.guide-links a:hover{border-color:var(--lime);color:var(--lime)}
+.guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.guide-card{padding:26px;background:var(--panel);border:1px solid var(--line);border-radius:24px;scroll-margin-top:100px}
+.guide-card h3,.guide-faq h3{font-family:var(--font-display);color:var(--lime);font-size:19px;margin:0 0 20px}
+.guide-card p,.guide-detail p{font-size:14px;line-height:1.85;color:var(--text);margin:0 0 18px}.guide-card p:last-child{margin-bottom:0}
+.guide-faq{margin-top:36px;padding:28px;border:1px solid var(--line);border-radius:24px;background:var(--panel)}
+.guide-detail{border-top:1px solid var(--line);padding:18px 0}.guide-detail summary{cursor:pointer;font-weight:700;line-height:1.6}.guide-detail p{max-width:900px;margin:16px 0 0;color:var(--muted)}
+.guide-note{font-size:12px;line-height:1.8;color:var(--muted);max-width:900px;margin-top:24px}
+.guide-links a:focus-visible,.guide-jump:focus-visible,.guide-contact:focus-visible,.player-guide summary:focus-visible,.guide-roadmap summary:focus-visible{outline:2px solid var(--lime);outline-offset:5px}
+@media(max-width:900px){.guide-grid{grid-template-columns:1fr}.guide-card{padding:24px}.player-guide{padding-bottom:48px}}
+@media(max-width:480px){.guide-faq{padding:20px}.guide-links a{font-size:11px;padding:10px 12px}}
