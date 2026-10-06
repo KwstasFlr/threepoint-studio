@@ -7,7 +7,7 @@
   let frame = 0, x = 0, y = 0;
   const reset = () => {
     cancelAnimationFrame(frame); frame = 0;
-    for (const property of ['--mark-x','--mark-y','--copy-x','--copy-y']) hero.style.removeProperty(property);
+    for (const property of ['--mark-x','--mark-y']) hero.style.removeProperty(property);
   };
   hero.addEventListener('pointermove', event => {
     if (motion.matches || !pointer.matches) return;
@@ -19,8 +19,6 @@
       frame = 0;
       hero.style.setProperty('--mark-x', `${6-y*5}deg`);
       hero.style.setProperty('--mark-y', `${-12+x*8}deg`);
-      hero.style.setProperty('--copy-x', `${1-y*1.5}deg`);
-      hero.style.setProperty('--copy-y', `${-2+x*2}deg`);
     });
   }, {passive:true});
   hero.addEventListener('pointerleave',reset);
