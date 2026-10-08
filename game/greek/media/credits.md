@@ -1,6 +1,6 @@
 # Scene audio sources
 
-72 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
+76 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
 
 - Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; source: Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
 - Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; source: Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
@@ -74,3 +74,7 @@
 - Ένα αστείο κορίτσι: [George Samos 65.](https://www.youtube.com/watch?v=slSxKFxqnB8), 25–32s; source: Ενα Αστειο Κοριτσι  -  Αποσπασμα - HD..
 - Οι στάβλοι της Εριέτας Ζαΐμη: [Sergianopoulos Fan](https://www.youtube.com/watch?v=0hyROH8jdhg), 10–17s; source: Οι Στάβλοι της Εριέτας Ζαΐμη [σκηνή, Επεισόδιο 24].
 - Μην ψαρώνεις: [ΔΙΑΦΟΡΑ](https://www.youtube.com/watch?v=4tpmA0xeQT4), 180–187s; source: ΜΗΝ ΨΑΡΩΝΕΙΣ ΕΠΕΙΣΟΔΙΟ 54.
+- Ο Θόδωρος και το δίκαννο: [photographeralex](https://www.youtube.com/watch?v=PsAtk-CTE34), 25–32s; source: Τσουρόγρια - Τσουρόμαγκας (Ο Θόδωρος και το δίκανο).
+- Η Παριζιάνα: [George Samos 65.](https://www.youtube.com/watch?v=c7ILuaEvWX0), 25–32s; source: Η Παριζιανα  -  Αποσπασμα ..
+- Άκρως οικογενειακόν: [SferasR](https://www.youtube.com/watch?v=kGVaBi6OkEA), 10–17s; source: Άκρως Οικογενειακόν - ''Μιλάμε για δικηγόρους''.
+- Η τούρτα της μαμάς: [H tourta tis mamas](https://www.youtube.com/watch?v=-Sumw64xco8), 5–12s; source: ( Η Τούρτα της μαμάς ) Η Αλεξάνδρα και τα αγγλικά της part2  | ep22.

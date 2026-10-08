@@ -21,7 +21,7 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — Threepoint Studio ATH`;
   let titles;
   try {
-    const response = await fetch('titles.json?v=20261009-more2');
+    const response = await fetch('titles.json?v=20261009-more3');
     if (!response.ok) throw new Error('Titles unavailable');
     titles = filterTitles(await response.json(), kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);

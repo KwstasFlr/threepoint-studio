@@ -2241,5 +2241,129 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "ΜΗΝ ΨΑΡΩΝΕΙΣ ΕΠΕΙΣΟΔΙΟ 54"
+    },
+    {
+        "id":  "thodoros",
+        "kind":  "movies",
+        "title":  "Ο Θόδωρος και το δίκαννο",
+        "year":  1962,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Ο Θόδωρος και το δίκανο"
+                    ],
+        "supporting":  [
+                           "Νίτσα Τσαγανέα",
+                           "Λαυρέντης Διανέλλος"
+                       ],
+        "leads":  [
+                      "Μίμης Φωτόπουλος",
+                      "Κώστας Βουτσάς"
+                  ],
+        "synopsis":  "Ένας αυστηρός πατέρας προσπαθεί να ελέγξει τις ερωτικές επιλογές της κόρης του. Ο υποψήφιος γαμπρός που εγκρίνει, όμως, ανατρέπει τις προσδοκίες του και προκαλεί νέες παρεξηγήσεις.",
+        "clue":  "Ένας πατέρας θέλει να διαλέξει μόνος του τον κατάλληλο γαμπρό.",
+        "source":  "https://ellinikoskinimatografos.gr/o-thodoros-kai-to-dikano/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-thodoros.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PsAtk-CTE34",
+        "audioCredit":  "photographeralex",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Τσουρόγρια - Τσουρόμαγκας (Ο Θόδωρος και το δίκανο)"
+    },
+    {
+        "id":  "pariziana",
+        "kind":  "movies",
+        "title":  "Η Παριζιάνα",
+        "year":  1969,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Παριζιάνα"
+                    ],
+        "supporting":  [
+                           "Ρία Δελούτση",
+                           "Γιώργος Τσιτσόπουλος"
+                       ],
+        "leads":  [
+                      "Ρένα Βλαχοπούλου",
+                      "Χρόνης Εξαρχάκος"
+                  ],
+        "synopsis":  "Μια μοδίστρα προσποιείται τη διάσημη σχεδιάστρια από το εξωτερικό για να προσελκύσει πλούσιες πελάτισσες. Ένα ταξίδι στη Μύκονο και παλιοί γνωστοί απειλούν να αποκαλύψουν το τέχνασμα.",
+        "clue":  "Μια αλλαγή ταυτότητας υπόσχεται επαγγελματική επιτυχία σε μια μοδίστρα.",
+        "source":  "https://finosfilm.com/portfolio-items/i-pariziana/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-pariziana.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=c7ILuaEvWX0",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η Παριζιανα  -  Αποσπασμα ."
+    },
+    {
+        "id":  "akros",
+        "kind":  "series",
+        "title":  "Άκρως οικογενειακόν",
+        "year":  2001,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Άκρως οικογενειακών"
+                    ],
+        "supporting":  [
+                           "Μέμος Μπεγνής",
+                           "Αλέξανδρος Μπουρδούμης"
+                       ],
+        "leads":  [
+                      "Γιάννης Μπέζος",
+                      "Ναταλία Τσαλίκη"
+                  ],
+        "synopsis":  "Ένας δικηγόρος και η σύζυγός του προσπαθούν να κρατήσουν ισορροπίες σε ένα γεμάτο σπίτι. Τα παιδιά, οι συγγενείς και οι καθημερινές διαφωνίες ανατρέπουν διαρκώς την οικογενειακή ηρεμία.",
+        "clue":  "Ένας αυστηρός πατέρας προσπαθεί να βάλει τάξη σε μια πολυμελή οικογένεια.",
+        "source":  "https://www.ordino.gr/movie_detail.asp?id=1217",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-akros.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=kGVaBi6OkEA",
+        "audioCredit":  "SferasR",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Άκρως Οικογενειακόν - \u0027\u0027Μιλάμε για δικηγόρους\u0027\u0027"
+    },
+    {
+        "id":  "tourta",
+        "kind":  "series",
+        "title":  "Η τούρτα της μαμάς",
+        "year":  2020,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Τούρτα της μαμάς"
+                    ],
+        "supporting":  [
+                           "Θάνος Λέκκας",
+                           "Πάρις Θωμόπουλος"
+                       ],
+        "leads":  [
+                      "Κώστας Κόκλας",
+                      "Καίτη Κωνσταντίνου"
+                  ],
+        "synopsis":  "Μια οικογένεια συγκεντρώνεται γύρω από το τραπέζι της μητέρας. Διαφορετικές γενιές, έρωτες και προσωπικά μυστικά δημιουργούν εντάσεις που αντιμετωπίζονται με χιούμορ και αγάπη.",
+        "clue":  "Τα οικογενειακά τραπέζια γίνονται αφορμή για συζητήσεις, καβγάδες και συμφιλιώσεις.",
+        "source":  "https://www.ert.gr/etairia/press/grafeio-typou-ert/ii-pio-glykia-toyrta-tis-mamas-stin-ert/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-tourta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=-Sumw64xco8",
+        "audioCredit":  "H tourta tis mamas",
+        "audioStart":  5,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "( Η Τούρτα της μαμάς ) Η Αλεξάνδρα και τα αγγλικά της part2  | ep22"
     }
 ]
