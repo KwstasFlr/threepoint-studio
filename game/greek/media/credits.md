@@ -1,9 +1,48 @@
-# Audio sources
+# Scene audio sources
 
-- Κωνσταντίνου και Ελένης: ANT1 TV, https://www.youtube.com/watch?v=KnnGsmY_fjQ, start 180s, length 7s.
-- Το ξύλο βγήκε από τον παράδεισο: ANT1 TV, https://www.youtube.com/watch?v=_DMzJ1J7-Kw, start 3s, length 7s.
-- Η Αλίκη στο ναυτικό: ANT1 TV, https://www.youtube.com/watch?v=DwpZkLxaOZs, start 3s, length 7s.
-- Οι τρεις χάριτες: MEGA TV - OFFICIAL, https://www.youtube.com/watch?v=39uuATUE5h4, start 3s, length 7s.
-- Η Μάγισσα: ANT1 TV, https://www.youtube.com/watch?v=GWNKd88OH98, start 20s, length 7s.
+44 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
 
-Original audio from the scenes/official trailers. No AI voice. Local preview only. Source credit does not establish redistribution permission.
+- Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; source: Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
+- Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; source: Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
+- Το Σόι σου: [Alpha TV Greece](https://www.youtube.com/watch?v=1bt-0Sjz-xw), 20–27s; source: Το Σόι Σου Σ6 | Επεισόδιο 58 | Sneak Preview 3.
+- Σασμός: [Alpha TV Greece](https://www.youtube.com/watch?v=xH5LcyhrqPA), 25–32s; source: Σασμός | Επεισόδιο 44 | Sneak Preview 2.
+- Maestro: [ΛΠ](https://www.youtube.com/watch?v=zdC2oIGh6TI), 10–17s; source: Maestro : Domestic Abuse / Μαρία Καβογιαννη / Not allowed.
+- Της κακομοίρας: [George Samos 65.](https://www.youtube.com/watch?v=-y8sXMfP0dA), 25–32s; source: Της Κακομοιρας  -  Αποσπασμα  -  HD..
+- Η δε γυνή να φοβήται τον άνδρα: [Αθάνατες Ατάκες Ελληνικού Κινηματογράφου](https://www.youtube.com/watch?v=GIkdELH3na8), 25–32s; source: "Εσύ ΜΠΟΥΛΗ ρούφα το αυγό σου και άντε στη γωνία"  -  Η δε γυνή να φοβήται τον άντρα (1965).
+- Πολίτικη Κουζίνα: [Life Is A Feeling](https://www.youtube.com/watch?v=SAst_GOFZrs), 25–32s; source: Ηλιακό Σύστημα και Μπαχαρικά (απόσπασμα από την Πολίτικη κουζίνα).
+- Έτερος Εγώ: [Sotiris Tsafoulias](https://www.youtube.com/watch?v=y3zho2aV2bs), 2975–2982s; source: Έτερος Εγώ (official full movie).
+- Ευτυχία: [BGMS - Best Greek Movie Scenes](https://www.youtube.com/watch?v=nGVRS6a_3_o), 25–32s; source: 2019 | ΕΥΤΥΧΙΑ  | ‘’Σεβασμός”  | bgms.
+- Εγκλήματα: [mariangela vasileiou](https://www.youtube.com/watch?v=D8CnF-e1IuM), 25–32s; source: Eglimata - o axilleas... teleiwnei.
+- Είσαι το ταίρι μου: [jimakos61](https://www.youtube.com/watch?v=_bQIgLYWsuk), 180–187s; source: Είσαι το Ταίρι μου (HD) - Επ. 07.
+- Ευτυχισμένοι μαζί: [EMGseries](https://www.youtube.com/watch?v=yy-dQQIfH5o), 180–187s; source: Ευτυχισμένοι Μαζί Επεισόδιο 27 HD.
+- Ντόλτσε Βίτα: [Greek Series HD](https://www.youtube.com/watch?v=eS3fAqkiBp0), 180–187s; source: Ντόλτσε Βίτα - Επεισόδιο 31 HD .
+- Δύο Ξένοι: [AndreasPhill](https://www.youtube.com/watch?v=neDdjf04Lvg), 25–32s; source: Dyo ksenoi - Δύο ξένοι - Όλες οι σκηνές με τα λουλούδια.
+- Οι Μεν και οι Δεν: [manuele barozzi](https://www.youtube.com/watch?v=x8I4WcY8Jw0), 25–32s; source: Μεν και Δεν - Ρεσιτάλ κακίας.-.
+- Οι Απαράδεκτοι: [myescape official](https://www.youtube.com/watch?v=kL3LpMwUMJk), 10–17s; source: Σαν έτοιμος από καιρό-Απαράδεκτοι.
+- Το καφέ της Χαράς: [ΤΟ ΚΑΦΕ ΤΗΣ ΧΑΡΑΣ – 4ος κύκλος](https://www.youtube.com/watch?v=4r_oX3vtht8), 25–32s; source: FLASHBACK: Η ΧΑΡΑ ΚΑΙ Η ΒΑΛΙΑ ΕΓΚΑΤΑΛΕΙΠΟΥΝ ΤΟ ΚΟΛΟΚΟΤΡΩΝΙΤΣΙ (ΤΕΛΕΥΤΑΙΟ ΕΠΕΙΣΟΔΙΟ 3ΟΥ ΚΥΚΛΟΥ).
+- Άγριες Μέλισσες: [Maria Kitsou Collection](https://www.youtube.com/watch?v=FSNFNotAjR0), 10–17s; source: Μαρία Κίτσου - Ανατριχιαστική σκηνή (Άγριες μέλισσες).
+- Κάτω Παρτάλι: [thodoris magiannis](https://www.youtube.com/watch?v=reLegNz3DUk), 25–32s; source: ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ.
+- Μην αρχίζεις τη μουρμούρα: [Alpha TV Greece](https://www.youtube.com/watch?v=KznbsoHwN4s), 180–187s; source: Μην αρχίζεις τη μουρμούρα - Επ 67.
+- Μαύρο Ρόδο: [MEGA TV](https://www.megatv.com/tvshows/747412/epeisodio-1-89/), 334.88–341.88s; source: Μαύρο Ρόδο: Επεισόδιο 1 .
+- Η γη της ελιάς: [MEGA TV](https://www.megatv.com/tvshows/1187981/epeisodio-1-92/), 300–307s; source: Η Γη της Ελιάς: Επεισόδιο 1 - 3ος Κύκλος .
+- Το Ναυάγιο: [MEGA TV](https://www.megatv.com/tvshows/1206896/epeisodio-1-2-2/), 300–307s; source: Το Ναυάγιο: Επεισόδιο 1-2 .
+- Έχω Παιδιά: [MEGA TV - OFFICIAL](https://www.youtube.com/watch?v=EDksrHHR-I8), 10–17s; source: Όταν τους τονώνεις λίιιιγο παραπάνω την αυτοπεποίθηση! Έχω Παιδιά.
+- Η θεία από το Σικάγο: [George Samos 65.](https://www.youtube.com/watch?v=PsCzxrbTl88), 25–32s; source: Η Θεια απο το Σικαγο  - Αποσπασμα -  HD..
+- Τα κίτρινα γάντια: [Panos Delta](https://www.youtube.com/watch?v=_GQJszNVLKw), 25–32s; source: Τα κίτρινα γάντια - Γκιωνάκης - Σταυρίδης - Μπρίλης, Τα κίτρινα γάντια (1960), Finos Films.
+- Η Χαρτοπαίχτρα: [George Samos 65.](https://www.youtube.com/watch?v=CgI8pua-T3w), 25–32s; source: Η Χαρτοπαιχτρα  -  Αποσπασμα -  HD..
+- Ο φίλος μου ο Λευτεράκης: [Marina Anthimou](https://www.youtube.com/watch?v=LJCMNSwOF8Q), 25–32s; source: o φιλος μου ο Λευτερακης.
+- Μακρυκωσταίοι και Κοντογιώργηδες: [George Samos 65.](https://www.youtube.com/watch?v=djIB8tpVVAQ), 10–17s; source: Μακρυκωσταιοι  και Κοντογιωργηδες  -  Αποσπασμα  -  HD..
+- Πολυτεχνίτης κι ερημοσπίτης: [Ars “Nuntius” Elias](https://www.youtube.com/watch?v=LGTjDbN4dWs), 25–32s; source: Πολυτεχνίτης και Ερημοσπίτης (1963) - Σκηνή "Γράψε από κάτω Μύκονος".
+- Υπάρχει και φιλότιμο: [George Samos 65.](https://www.youtube.com/watch?v=qAOOZcdpoVk), 10–17s; source: Υπαρχει και Φιλοτιμο -  Αποσπασμα -  HD..
+- Ο Ηλίας του 16ου: [What ever](https://www.youtube.com/watch?v=M5DEt-KxRo0), 25–32s; source: Ατάκες από τον Ηλία του 16ου | Αστυνομικό Τμήμα.
+- Λούφα και παραλλαγή: [MrFotakias](https://www.youtube.com/watch?v=b5E9YzOr1ZY), 25–32s; source: Λούφα και παραλλαγή - "Φον Κανάρης" VS Κομμουνισμός.
+- Νήσος: [NHSOSmovie](https://www.youtube.com/watch?v=4kRL1YHBSwQ), 10–17s; source: Σκηνές από την ταινία η NHSOS.
+- Safe Sex: [Nionio1993](https://www.youtube.com/watch?v=1E7QDVVogoY), 20–27s; source: Safe Sex - Η Κηδεία.
+- Λούφα και παραλλαγή: Σειρήνες στο Αιγαίο: [Nikos Perakis](https://www.youtube.com/watch?v=_x9gnEeK8Ks), 57.6–64.6s; source: Nikos Perakis - Sirens in the Aegean / Νίκος Περάκης - Σειρήνες στο Αιγαίο.
+- Ένας άλλος κόσμος: [ΠΑΠΑΓΑΛΟΣ ΦΙΛΜ](https://www.youtube.com/watch?v=mXlHaP40qgE), 180–187s; source: Ελληνικη ταινια 2015 Ολοκληρη - Παπακαλιατης - ΕΝΑΣ ΑΛΛΟΣ ΚΟΣΜΟΣ - Αισθηματικη HD1080.
+- Μικρά Αγγλία: [LernaeanHydra](https://www.youtube.com/watch?v=eGjiLPulz3Y), 35–42s; source: κραυγή Όρσας - Μικρά Αγγλία (Orsa's cry-Little England).
+- Το τανγκό των Χριστουγέννων: [Konstantinos Papakostas](https://www.youtube.com/watch?v=lRF7CS4iFho), 25–32s; source: Το τανγκό των Χριστουγέννων - Μάθημα χορού.
+- Το ξύλο βγήκε από τον παράδεισο: [fun4gr](https://www.youtube.com/watch?v=0yXbm1q5-Vk), 25–32s; source: Το ξύλο βγήκε από τον παράδεισο - ... Νους υγιής εν σώματι υγιεί [Απόσπασμα].
+- Η Αλίκη στο ναυτικό: [Ilitsa Katsoulotos](https://www.youtube.com/watch?v=XpqdAbAMqmw), 25–32s; source: Η Αλίκη Στο Ναυτικό (απόσπασμα)_Ο μπαμπάς (Λ. Κωσταντάρας)_Τό΄πε  και τό΄κανε -Ποιο?_Τους κρέμασε!.
+- Οι τρεις χάριτες: [gpolit54](https://www.youtube.com/watch?v=x3y3H-qC1Gk), 180–187s; source: ΤΡΕΙΣ ΧΑΡΙΤΕΣ - ΕΠΕΙΣΟΔΙΟ 37 ΤΟ ΘΑΥΜΑ ΤΩΝ ΧΡΙΣΤΟΥΓΕΝΝΩΝ.
+- Η Μάγισσα: [ANT1 TV](https://www.youtube.com/watch?v=OXHzT6OEmMk), 25–32s; source: Η ΜΑΓΙΣΣΑ – SNEAK PREVIEW – ΕΠΕΙΣΟΔΙΟ 17.

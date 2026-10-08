@@ -21,7 +21,7 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — Threepoint Studio ATH`;
   let titles;
   try {
-    const response = await fetch('titles.json?v=20261008-eleven');
+    const response = await fetch('titles.json?v=20261008-real-only');
     if (!response.ok) throw new Error('Titles unavailable');
     titles = filterTitles(await response.json(), kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
@@ -47,14 +47,7 @@ async function boot() {
       state = {id: saved.id, guesses: previous, bag: Array.isArray(saved.bag) ? [...new Set(saved.bag.filter(id => ids.includes(id) && id !== saved.id))] : []};
     }
   } catch { /* Storage may be unavailable; the game still works. */ }
-  let utterance;
-  const stop = () => {
-    if ('speechSynthesis' in window) speechSynthesis.cancel();
-    utterance = null;
-    $('stop').hidden = true;
-    $('speak').disabled = false;
-    $('audio').pause();
-  };
+  const stop = () => { $('audio').pause(); };
   const save = () => { try {localStorage.setItem(key, JSON.stringify(state));} catch {} };
   function nextRound() {
     stop();
@@ -78,10 +71,9 @@ async function boot() {
     const wrong = state.guesses.length - (won ? 1 : 0);
     $('progress').textContent = `${state.guesses.length} / 6 προσπάθειες`;
     $('clue').textContent = title.clue;
-    $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : 'Εκφωνούμενος γρίφος · πρωτότυπη περιγραφή, όχι απόσπασμα του έργου.';
+    $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : 'Δεν υπάρχει διαθέσιμο ηχητικό απόσπασμα. Διάβασε τον γρίφο.';
     $('audio').hidden = !title.audio;
     if (title.audio) $('audio').src = title.audio;
-    $('speak').hidden = Boolean(title.audio);
     $('history').replaceChildren(...state.guesses.map(guess => {
       const li = document.createElement('li');
       li.textContent = `${matches(title, guess) ? '✓' : '✕'} ${guess}`;
@@ -132,32 +124,6 @@ async function boot() {
     $('audioStatus').textContent = 'Ο ήχος δεν φορτώθηκε. Μπορείς να διαβάσεις τον γρίφο.';
     $('clueDetails').open = true;
   });
-  $('speak').addEventListener('click', () => {
-    stop();
-    const title = titles.find(t => t.id === state.id);
-    const voice = 'speechSynthesis' in window ? speechSynthesis.getVoices().find(v => v.lang.toLowerCase().startsWith('el')) : null;
-    if (!voice) {
-      $('audioStatus').textContent = 'Δεν βρέθηκε ελληνική φωνή στη συσκευή. Διάβασε τον ίδιο γρίφο παρακάτω.';
-      $('clueDetails').open = true;
-      return;
-    }
-    utterance = new SpeechSynthesisUtterance(title.clue);
-    utterance.voice = voice;
-    utterance.lang = 'el-GR';
-    utterance.rate = .9;
-    utterance.onend = () => { $('stop').hidden = true; $('speak').disabled = false; };
-    utterance.onerror = () => {
-      $('stop').hidden = true;
-      $('speak').disabled = false;
-      $('audioStatus').textContent = 'Δεν ξεκίνησε η εκφώνηση. Διάβασε τον γρίφο παρακάτω.';
-      $('clueDetails').open = true;
-    };
-    $('stop').hidden = false;
-    $('speak').disabled = true;
-    $('audioStatus').textContent = '';
-    speechSynthesis.speak(utterance);
-  });
-  $('stop').addEventListener('click', stop);
   window.addEventListener('pagehide', stop);
   $('guessForm').addEventListener('submit', event => {
     event.preventDefault();
@@ -171,8 +137,6 @@ async function boot() {
     if (result.ended) {stop(); $('result').focus();} else $('guess').focus();
   });
   $('next').addEventListener('click', () => { nextRound(); $('guess').focus(); });
-  // Start loading system voices before the user's first click where supported.
-  if ('speechSynthesis' in window) speechSynthesis.getVoices();
   if (state) render(); else nextRound();
   $('loading').hidden = true;
   $('game').hidden = false;
