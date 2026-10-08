@@ -97,7 +97,8 @@ const OP_CHARACTERS = [
 {"id":"gladius","name":"Gladius","aliases":["gladius","γκλαντιους"],"gender":"male","form":"human","role":["Officer","Αξιωματικός"],"fruit":"Pamu Pamu no Mi","fruitType":"Paramecia","bounty":31000000,"arc":"Punk Hazard","firstEpisode":608,"firstChapter":682,"source":"https://one-piece.com/character/","debutSource":"https://onepiece.fandom.com/wiki/Gladius"},
 {"id":"machvise","name":"Machvise","aliases":["machvise","μαχβαις"],"gender":"male","form":"human","role":["Officer","Αξιωματικός"],"fruit":"Ton Ton no Mi","fruitType":"Paramecia","bounty":11000000,"arc":"Punk Hazard","firstEpisode":608,"firstChapter":682,"source":"https://one-piece.com/character/","debutSource":"https://onepiece.fandom.com/wiki/Machvise"},
 {"id":"buffalo","name":"Buffalo","aliases":["buffalo","μπαφαλο"],"gender":"male","form":"human","role":["Officer","Αξιωματικός"],"fruit":"Guru Guru no Mi","fruitType":"Paramecia","bounty":null,"arc":"Punk Hazard","firstEpisode":608,"firstChapter":682,"source":"https://one-piece.com/character/","debutSource":"https://onepiece.fandom.com/wiki/Buffalo"},
-{"id":"baby5","name":"Baby 5","aliases":["baby5","μπειμπι 5","baby five","baby 5"],"gender":"female","form":"human","role":["Assassin","Δολοφόνος"],"fruit":"Buki Buki no Mi","fruitType":"Paramecia","bounty":null,"arc":"Punk Hazard","firstEpisode":608,"firstChapter":682,"source":"https://one-piece.com/character/","debutSource":"https://onepiece.fandom.com/wiki/Baby_5"}
+{"id":"baby5","name":"Baby 5","aliases":["baby5","μπειμπι 5","baby five","baby 5"],"gender":"female","form":"human","role":["Assassin","Δολοφόνος"],"fruit":"Buki Buki no Mi","fruitType":"Paramecia","bounty":null,"arc":"Punk Hazard","firstEpisode":608,"firstChapter":682,"source":"https://one-piece.com/character/","debutSource":"https://onepiece.fandom.com/wiki/Baby_5"},
+{"id": "vivi", "name": "Nefertari Vivi", "aliases": ["vivi", "nefertari vivi", "βιβι", "βίβι"], "gender": "female", "form": "human", "role": ["Princess", "Πριγκίπισσα"], "fruit": null, "fruitType": null, "bounty": null, "arc": "Reverse Mountain", "firstEpisode": 62, "firstChapter": 103, "source": "https://one-piece.com/character/Nefeltari_Vivi/index.html"}
 ];
 
 const OP_ARC_EPISODES={"East Blue":61,"Reverse Mountain":63,"Whisky Peak":67,"Little Garden":77,"Drum Island":91,"Alabasta":130,"Jaya":152,"Skypiea":195,"Long Ring Long Land":219,"Water 7":263,"Enies Lobby":312,"Thriller Bark":381,"Sabaody":405,"Amazon Lily":421,"Impel Down":452,"Return to Sabaody":522};
@@ -129,7 +130,7 @@ function opDay(){
 
 function opDailyId(day){
   const days=Math.floor(Date.parse(day+'T00:00:00Z')/86400000);
-  const pool=opRoster();
+  const pool=opRoster().filter(c=>day<'2026-10-09'?c.id!=='vivi':true);
   if(opMedium==='anime' && opEpisodeLimit===1085 && day<'2026-10-06')return OP_CHARACTERS[((days*7+3)%30+30)%30].id;
   return pool[((days*7+3)%pool.length+pool.length)%pool.length].id;
 }

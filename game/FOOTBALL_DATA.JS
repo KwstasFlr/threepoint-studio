@@ -1631,6 +1631,29 @@ const FB_NEW_PLAYERS = [
     "status": "retired",
     "source": "https://www.transfermarkt.co.uk/sami-hyypia/profil/spieler/3470",
     "checkedAt": "2026-10-06"
-  }
+  },
+{
+  "id": "koller",
+  "name": "Jan Koller",
+  "aliases": [
+    "koller",
+    "jan koller",
+    "κολερ",
+    "γιαν κολερ"
+  ],
+  "nation": [
+    "Czech Republic",
+    "Τσεχία"
+  ],
+  "position": [
+    "Striker",
+    "Σέντερ φορ"
+  ],
+  "birthDate": "1973-03-30",
+  "highestMarketValue": null,
+  "status": "retired",
+  "source": "https://www.bvb.de/de/de/mannschaften/fussball/ehemalige-spieler/jan-koller.html",
+  "checkedAt": "2026-10-08"
+}
 ];
 const FB_EXCHANGE = {usdPerEuro:1.1225,date:"2026-10-02",source:"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"};

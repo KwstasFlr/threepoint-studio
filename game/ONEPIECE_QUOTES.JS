@@ -20,7 +20,8 @@ const OP_QUOTES = [
   ['blackbeard','Marshall D. Teach',['Blackbeard','Teach'],'Let them laugh.','Ας μας κοροϊδεύουν.',null,147,147,302,'https://animemanga33.com/archives/41494'],
   ['crocodile','Crocodile',['Sir Crocodile'],'Born under death’s shadow...','Γεννήθηκε στη σκιά του θανάτου...',null,96,96,217,'https://animemanga33.com/archives/41266'],
   ['ace','Portgas D. Ace',['Ace'],'Living today is enough.','Μου αρκεί να ζήσω σήμερα.',null,94,94,217,'https://animemanga33.com/archives/41266'],
-  ['kuzan','Kuzan',['Aokiji','Aokiji Kuzan'],'Live as quietly as possible.','Ζήσε όσο πιο διακριτικά μπορείς.',null,278,278,430,'https://animemanga33.com/archives/42053']
+  ['kuzan','Kuzan',['Aokiji','Aokiji Kuzan'],'Live as quietly as possible.','Ζήσε όσο πιο διακριτικά μπορείς.',null,278,278,430,'https://animemanga33.com/archives/42053'],
+  ["vivi", "Nefertari Vivi", ["Vivi"], "Will you call me your friend again?", "Θα με ξαναπείτε φίλη σας;", 216, 129, 129, 216, "https://one-piece.com/anime/129/index.html"]
 ].map(([id,name,aliases,en,el,chapter,episode,minEpisode,minChapter,source])=>({id,name,aliases,en,el,chapter,episode,minEpisode,minChapter,source}));
 let opQuoteState=null;
 try { opQuoteState=JSON.parse(read('GMP_ONE_PIECE_QUOTES_V1','null')); } catch { /* Corrupt saves start a new round. */ }
@@ -68,7 +69,7 @@ function opRenderQuote(){
   opDialog.innerHTML=`<div class="dialog-top"><div><p class="eyebrow">ONE PIECE · QUOTES</p><h2 id="opTitle">${T('Who said it?','Ποιος το είπε;')}</h2></div><button class="close" type="button" data-op-close aria-label="${T('Close','Κλείσιμο')}">×</button></div>
     ${s?gmpRoundLabel(s.number):''}
     ${gmpModeTabs('onepiece','quote')}
-    <p class="op-intro">${T('20 short quotes · 20 different characters · 5 guesses per round.','20 μικρές ατάκες · 20 διαφορετικοί χαρακτήρες · 5 προσπάθειες ανά γύρο.')}</p>
+    <p class="op-intro">${T('21 short quotes · 21 different characters · 5 guesses per round.','21 μικρές ατάκες · 21 διαφορετικοί χαρακτήρες · 5 προσπάθειες ανά γύρο.')}</p>
     <form class="op-episodes"><label for="opMedium">${T('Following','Παρακολουθώ / διαβάζω')}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T('Last chapter read','Τελευταίο κεφάλαιο που διάβασες'):T('Last episode watched','Τελευταίο επεισόδιο που είδες')}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T('Apply','Εφαρμογή')}</button></div></form>
 
     ${q?`<blockquote class="op-quote">“${esc(T(q.en,q.el))}”</blockquote>

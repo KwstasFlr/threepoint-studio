@@ -714,7 +714,61 @@ const P = [
     ],
 
     image: null
-  }
+  },
+{
+  "id": "gerdmuller",
+  "name": "Gerd Müller",
+  "aliases": [
+    "gerd muller",
+    "gerd müller",
+    "muller",
+    "γκερντ μιλερ",
+    "γκερντ μύλλερ"
+  ],
+  "nation": [
+    "Germany",
+    "Γερμανία"
+  ],
+  "position": [
+    "Striker",
+    "Σέντερ φορ"
+  ],
+  "teaser": [
+    "The penalty area was my natural habitat.",
+    "Η μεγάλη περιοχή ήταν το φυσικό μου περιβάλλον."
+  ],
+  "clues": [
+    [
+      "I was born in Nördlingen.",
+      "Γεννήθηκα στο Νέρντλινγκεν."
+    ],
+    [
+      "I joined Bayern Munich in 1964.",
+      "Πήγα στην Bayern Munich το 1964."
+    ],
+    [
+      "I won three consecutive European Cups with Bayern.",
+      "Κέρδισα τρία συνεχόμενα Κύπελλα Πρωταθλητριών με την Bayern."
+    ],
+    [
+      "My career also took me to Fort Lauderdale Strikers.",
+      "Η καριέρα μου με έφερε και στους Fort Lauderdale Strikers."
+    ]
+  ],
+  "birthDate": "1945-11-03",
+  "highestMarketValue": null,
+  "status": "retired",
+  "goals": null,
+  "assists": null,
+  "cleanSheets": null,
+  "clubs": [
+    "TSV 1861 Nördlingen",
+    "Bayern Munich",
+    "Fort Lauderdale Strikers"
+  ],
+  "image": null,
+  "source": "https://fcbayern.com/en/club/hall-of-fame/gerd-muller"
+}
 ];
 
 // Unlimited-only additions; preserve the original Daily schedule.
@@ -4099,6 +4153,8 @@ const GAME_DATA = [
     description: ["Characters & quotes", "Χαρακτήρες & ατάκες"]
   },
 
+  {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Greek movies & series", "Ελληνικές ταινίες & σειρές"]},
+
   {
     id: "naruto",
     name: "Naruto",
@@ -5215,16 +5271,18 @@ function hash(value) {
 }
 
 function playerForDay(value) {
+  // Keep published Daily answers unchanged through 8 October 2026.
+  const dailyPool = value < 20735 ? P.filter(player => player.id !== "gerdmuller") : P;
   const elapsed =
     value - START;
 
   const cycle =
     Math.floor(
-      elapsed / P.length
+      elapsed / dailyPool.length
     );
 
   const order =
-    [...P].sort(
+    [...dailyPool].sort(
       (a, b) =>
         hash(
           `multiplex-2026:${cycle}:${a.id}`
@@ -5482,7 +5540,7 @@ function renderGames() {
       card.type = "button";
     }
 
-    const cardImages={gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={greek:'greek.svg',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6088,6 +6146,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if (id === "greek") { window.location.href = "greek/"; return; }
   if (id === "gaming") { openGamingGame(); return; }
   if (id === "football") {
     openFootballGame("unlimited");
