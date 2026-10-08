@@ -1,6 +1,6 @@
 # Scene audio sources
 
-68 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
+72 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
 
 - Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; source: Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
 - Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; source: Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
@@ -70,3 +70,7 @@
 - Γοργόνες και μάγκες: [Nikos Kommatas](https://www.youtube.com/watch?v=PDpIDMNG8e0), 25–32s; source: (Ερωτική εξομολόγηση) Γοργόνες Και Μάγκες (1968) - Gorgones kai Mages (1968).
 - Η αρχόντισσα και ο αλήτης: [Raporto Di Corfu](https://www.youtube.com/watch?v=lusBseMFruU), 10–17s; source: Η  αρχόντισσα  και ο αλήτης 1968 απόσπασμα.
 - Μια τρελή τρελή οικογένεια: [George Samos 65.](https://www.youtube.com/watch?v=vqjByvLlsws), 25–32s; source: Μια τρελλη τρελλη Οικογενεια  -  Αποσπασμα..
+- Μια ζωή την έχουμε: [George Samos 65.](https://www.youtube.com/watch?v=CaLAMGMSwXk), 10–17s; source: Μια Ζωη την Εχουμε -  Αποσπασμα -  HD..
+- Ένα αστείο κορίτσι: [George Samos 65.](https://www.youtube.com/watch?v=slSxKFxqnB8), 25–32s; source: Ενα Αστειο Κοριτσι  -  Αποσπασμα - HD..
+- Οι στάβλοι της Εριέτας Ζαΐμη: [Sergianopoulos Fan](https://www.youtube.com/watch?v=0hyROH8jdhg), 10–17s; source: Οι Στάβλοι της Εριέτας Ζαΐμη [σκηνή, Επεισόδιο 24].
+- Μην ψαρώνεις: [ΔΙΑΦΟΡΑ](https://www.youtube.com/watch?v=4tpmA0xeQT4), 180–187s; source: ΜΗΝ ΨΑΡΩΝΕΙΣ ΕΠΕΙΣΟΔΙΟ 54.

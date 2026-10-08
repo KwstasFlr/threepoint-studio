@@ -2116,5 +2116,130 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "Μια τρελλη τρελλη Οικογενεια  -  Αποσπασμα."
+    },
+    {
+        "id":  "zoi",
+        "kind":  "movies",
+        "title":  "Μια ζωή την έχουμε",
+        "year":  1958,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Περικλής Χριστοφορίδης",
+                           "Τζόλυ Γαρμπή"
+                       ],
+        "leads":  [
+                      "Δημήτρης Χορν",
+                      "Υβόν Σανσόν"
+                  ],
+        "synopsis":  "Ένας τραπεζικός ταμίας βρίσκει ένα μεγάλο πλεόνασμα και αποφασίζει να το ξοδέψει. Η ξαφνική πολυτέλεια και ένας έρωτας τον οδηγούν σε επικίνδυνες επιλογές.",
+        "clue":  "Ένα ανεξήγητο πλεόνασμα αλλάζει τη ζωή ενός συνεσταλμένου τραπεζικού υπαλλήλου.",
+        "source":  "https://finosfilm.com/portfolio-items/mia-zoi-tin-echoume/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-zoi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=CaLAMGMSwXk",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μια Ζωη την Εχουμε -  Αποσπασμα -  HD."
+    },
+    {
+        "id":  "asteio",
+        "kind":  "movies",
+        "title":  "Ένα αστείο κορίτσι",
+        "year":  1970,
+        "originalFormat":  "color",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Σοφία Ρούμπου",
+                           "Νίτσα Μαρούδα"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Νίκος Γαλανός"
+                  ],
+        "synopsis":  "Μια νεαρή που εργάζεται ως κλόουν πιάνει δουλειά σε ένα πλούσιο σπίτι, κρύβοντας την προηγούμενη ζωή της. Ο έρωτας με τον γιο της οικογένειας δοκιμάζεται από τα μυστικά της.",
+        "clue":  "Μια κοπέλα αφήνει το τσίρκο και βρίσκει δουλειά σε ένα πλούσιο σπίτι.",
+        "source":  "https://finosfilm.com/portfolio-items/ena-asteio-koritsi/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-asteio.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=slSxKFxqnB8",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ενα Αστειο Κοριτσι  -  Αποσπασμα - HD."
+    },
+    {
+        "id":  "stavloi",
+        "kind":  "series",
+        "title":  "Οι στάβλοι της Εριέτας Ζαΐμη",
+        "year":  2002,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Οι στάβλοι της Εριέττας Ζαΐμη",
+                        "Στάβλοι της Εριέτας Ζαΐμη"
+                    ],
+        "supporting":  [
+                           "Φαίη Κοκκινοπούλου",
+                           "Κωνσταντία Χριστοφορίδου"
+                       ],
+        "leads":  [
+                      "Νίκος Σεργιανόπουλος",
+                      "Μίρκα Παπακωνσταντίνου"
+                  ],
+        "synopsis":  "Σε μια γυναικεία φυλακή, ένας ψυχολόγος επιχειρεί να εφαρμόσει νέες μεθόδους σωφρονισμού. Οι κρατούμενες και το προσωπικό μετατρέπουν το εγχείρημα σε μια διαρκή σειρά από κωμικές συγκρούσεις.",
+        "clue":  "Ένα πείραμα σωφρονισμού φέρνει αναστάτωση σε μια γυναικεία φυλακή.",
+        "source":  "https://www.ordino.gr/movie_detail.asp?id=1352",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-stavloi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=0hyROH8jdhg",
+        "audioCredit":  "Sergianopoulos Fan",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Οι Στάβλοι της Εριέτας Ζαΐμη [σκηνή, Επεισόδιο 24]"
+    },
+    {
+        "id":  "psaroneis",
+        "kind":  "series",
+        "title":  "Μην ψαρώνεις",
+        "year":  2019,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Φιόνα Γεωργιάδη",
+                           "Δημήτρης Αριανούτσος"
+                       ],
+        "leads":  [
+                      "Θοδωρής Αθερίδης",
+                      "Μαρία Λεκάκη"
+                  ],
+        "synopsis":  "Ένας βιοπαλαιστής και μια γυναίκα από εύπορο περιβάλλον έρχονται κοντά. Οι διαφορές των οικογενειών τους και οι ανατροπές στην οικονομική τους κατάσταση προκαλούν αλλεπάλληλα μπερδέματα.",
+        "clue":  "Δύο διαφορετικοί κόσμοι συναντιούνται μέσα από έναν απρόσμενο έρωτα.",
+        "source":  "https://www1.antenna.gr/watch/1271325/min-psaroneis-epeisodio-13",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-psaroneis.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=4tpmA0xeQT4",
+        "audioCredit":  "ΔΙΑΦΟΡΑ",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΜΗΝ ΨΑΡΩΝΕΙΣ ΕΠΕΙΣΟΔΙΟ 54"
     }
 ]
