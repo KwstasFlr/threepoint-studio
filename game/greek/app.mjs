@@ -18,7 +18,7 @@ async function boot() {
   $('heading').textContent = names[kind];
   $('category').textContent = newDemo ? 'Νέος γρίφος με πραγματικό ήχο' : audioDemo ? 'Δοκιμή πραγματικού ήχου' : filters[filter];
   $('back').href = `${kind}.html`;
-  document.title = `${filters[filter]} · ${names[kind]} — Threepoint Studio ATH`;
+  document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles;
   try {
     const response = await fetch('titles.json?v=20261009-more3');

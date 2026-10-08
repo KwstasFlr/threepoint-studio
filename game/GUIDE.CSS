@@ -1,4 +1,4 @@
-/* Player guide uses the existing Game Multi Plex palette and typography. */
+/* Player guide uses the existing GuessPlex palette and typography. */
 .guide-jump,.guide-contact{display:inline-flex;color:var(--lime);font-weight:800;text-decoration:none;padding:12px 0}
 .guide-jump:hover,.guide-contact:hover{text-decoration:underline}
 .guide-roadmap{margin-top:28px;border-top:1px solid var(--line);padding-top:20px;color:var(--muted)}

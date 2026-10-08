@@ -24,8 +24,8 @@ en:["Browser Games","Games and quizzes you can play directly in your browser."],
 el:["Browser Games","Παιχνίδια και quiz που παίζεις απευθείας στον browser."]
 },
 apps:{
-en:["Apps","Explore our two interactive web apps, created by Threepoint Studio ATH."],
-el:["Εφαρμογές","Δες τις δύο διαδραστικές web εφαρμογές που δημιουργήσαμε στο Threepoint Studio ATH."]
+en:["Apps","Explore our two interactive web apps, created by GuessPlex."],
+el:["Εφαρμογές","Δες τις δύο διαδραστικές web εφαρμογές που δημιουργήσαμε στο GuessPlex."]
 },
 tools:{
 en:["Digital Tools","Useful tools for organising information and simplifying everyday tasks."],
@@ -363,7 +363,7 @@ page.append(back,intro,tabs);
 if((categoryKey==="games"||categoryKey==="apps")&&projectCards.length){
 const grid=makeElement("div","portfolio-grid apps-project-grid");
 const destinations=[
-{href:new URL("game/",homeURL).href,en:"Play Game Multi Plex",el:"Παίξε Game Multi Plex",statusEn:"Active — Play now",statusEl:"Ενεργό — Παίξε τώρα",active:true},
+{href:new URL("game/",homeURL).href,en:"Play GuessPlex",el:"Παίξε GuessPlex",statusEn:"Active — Play now",statusEl:"Ενεργό — Παίξε τώρα",active:true},
 {href:"https://kwstasflr.github.io/BeautyChallenge/",en:"Open Beauty Challenge",el:"Άνοιξε το Beauty Challenge",statusEn:"Open app",statusEl:"Άνοιγμα εφαρμογής",active:false}
 ];
 projectCards.slice(0,2).forEach((card,index)=>{
@@ -433,7 +433,7 @@ $("enBtn")?.classList.toggle("active",language==="en");
 $("menuOverlay")?.setAttribute("aria-label",language==="el"?"Μενού":"Menu");
 document.querySelector(".service-list")?.setAttribute("aria-label",language==="el"?"Κατηγορίες έργων":"Project categories");
 document.querySelector(".portfolio-tabs")?.setAttribute("aria-label",language==="el"?"Κατηγορίες έργων":"Project categories");
-if(categoryKey)document.title=categories[categoryKey][language][0]+" — Threepoint Studio ATH";
+if(categoryKey)document.title=categories[categoryKey][language][0]+" — GuessPlex";
 try{localStorage.setItem("siteLanguage",language)}catch{}
 }
 
