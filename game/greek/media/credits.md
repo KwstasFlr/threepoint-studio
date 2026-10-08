@@ -1,6 +1,6 @@
 # Scene audio sources
 
-44 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
+68 seven-second cuts from film scenes or episode scenes. Trailer/promotional cuts from the earlier package have been replaced. Some sources are continuous episode excerpts labelled Sneak Preview by the broadcaster. Sources identify the uploaders and do not establish a reuse licence.
 
 - Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; source: Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
 - Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; source: Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
@@ -46,3 +46,27 @@
 - Η Αλίκη στο ναυτικό: [Ilitsa Katsoulotos](https://www.youtube.com/watch?v=XpqdAbAMqmw), 25–32s; source: Η Αλίκη Στο Ναυτικό (απόσπασμα)_Ο μπαμπάς (Λ. Κωσταντάρας)_Τό΄πε  και τό΄κανε -Ποιο?_Τους κρέμασε!.
 - Οι τρεις χάριτες: [gpolit54](https://www.youtube.com/watch?v=x3y3H-qC1Gk), 180–187s; source: ΤΡΕΙΣ ΧΑΡΙΤΕΣ - ΕΠΕΙΣΟΔΙΟ 37 ΤΟ ΘΑΥΜΑ ΤΩΝ ΧΡΙΣΤΟΥΓΕΝΝΩΝ.
 - Η Μάγισσα: [ANT1 TV](https://www.youtube.com/watch?v=OXHzT6OEmMk), 25–32s; source: Η ΜΑΓΙΣΣΑ – SNEAK PREVIEW – ΕΠΕΙΣΟΔΙΟ 17.
+- Πενήντα Πενήντα: [Dimitrios Thomadakis](https://www.youtube.com/watch?v=hEXR_vpHsZU), 10–17s; source: 50 50 - Νικηφόρος & Φανούρης.
+- Σαββατογεννημένες: [giorgoskapoutzidis](https://www.youtube.com/watch?v=eREUe_TN5_M), 25–32s; source: Σαββατογεννημένες / 11ο Επεισόδιο.
+- Η οικογένεια βλάπτει: [ludia gavrina](https://www.youtube.com/watch?v=hCj7jdLOArk), 180–187s; source: Η οικογένεια βλάπτει 1.
+- Το Νησί: [ΤΟ ΝΗΣΙ](https://www.youtube.com/watch?v=XwJvAPU0lks), 25–32s; source: Ο Μανώλης επισκέπτεται την Μαρία | Το Νησί.
+- Σέρρες: [ANT1+ ](https://www.youtube.com/watch?v=eEM9itxBbX0), 10–17s; source: Πρέπει να κλάψει || ΣΕΡΡΕΣ.
+- Εθνική Ελλάδος: [charmie258](https://www.youtube.com/watch?v=i3UAvclNRm0), 10–17s; source: Εθνική Ελλάδος - Θόδωρας - Ποιος φταίει;.
+- Ο Ζηλιαρόγατος: [George Samos 65.](https://www.youtube.com/watch?v=wg6204RIJ74), 10–17s; source: Ο Ζηλιαρογατος -  Αποσπασμα - HD..
+- Η Κάλπικη Λίρα: [George Samos 65.](https://www.youtube.com/watch?v=N6q9NNCthtQ), 25–32s; source: Η Καλπικη Λιρα  -  Αποσπασμα  -  HD..
+- Ο Ατσίδας: [George Samos 65.](https://www.youtube.com/watch?v=X-oqBSFpYdk), 10–17s; source: Ο Ατσιδας -  Αποσπασμα -  HD..
+- Η Νεράιδα και το Παλικάρι: [Theodore Petkidis](https://www.youtube.com/watch?v=0TtkUYavg64), 7–14s; source: Η Νεράϊδα και το παληκάρι.
+- Η κόρη μου η σοσιαλίστρια: [George Samos 65.](https://www.youtube.com/watch?v=wkA9zzCViRU), 10–17s; source: Η Κορη μου η Σοσιαλιστρια  - Αποσπασμα..
+- Μια Ελληνίδα στο χαρέμι: [George Samos 65.](https://www.youtube.com/watch?v=87yGbL-kVkY), 25–32s; source: Μια Ελληνιδα στο Χαρεμι  - Αποσπασμα..
+- Λατρεμένοι μου γείτονες: [Greek TV HD](https://www.youtube.com/watch?v=wFoTf38SIbI), 180–187s; source: Λατρεμένοι μου Γείτονες - Επεισόδιο 13 HD.
+- Singles: [Llorinho](https://www.youtube.com/watch?v=qMbkpAmWCdE), 25–32s; source: Singles | Η Λίλα στη SEYO.
+- Κλείσε τα μάτια: [Greek TV HD](https://www.youtube.com/watch?v=5cqNjfZOpLQ), 180–187s; source: Κλείσε τα Μάτια - Επεισόδιο 11 HD.
+- Παγιδευμένοι: [Sistars’ stories](https://www.youtube.com/watch?v=ZrtxxwDbYm8), 25–32s; source: Δημήτρης και Άννα | Ο Δημήτρης βγάζει την Άννα από την φυλακή.
+- Το κόκκινο ποτάμι: [Nicole Xagorari](https://www.youtube.com/watch?v=9Va5ZzklXrk), 25–32s; source: || Κόκκινο Ποτάμι || Ιφιγένεια _ Μονόλογος.
+- Αυτή η νύχτα μένει: [Κώστας Ζωγραφόπουλος](https://www.youtube.com/watch?v=QlO0VOVamc8), 25–32s; source: Επεισόδιο 28 σκηνή Στρατή Θόδωρου στο ξενοδοχείο.
+- Οι Γερμανοί ξανάρχονται: [George Samos 65.](https://www.youtube.com/watch?v=w4osH9BczQo), 25–32s; source: Οι Γερμανοι Ξαναρχονται  -  Αποσπασμα -  HD..
+- Λατέρνα, φτώχεια και φιλότιμο: [tzitziki-blogspot](https://www.youtube.com/watch?v=zneuQbRA0fs), 25–32s; source: Aπόσπασμα από την ταινία ❝Λατέρνα, φτώχεια και φιλότιμο❞ ⣿ Μίμης Φωτόπουλος (1913-1986).
+- Η ωραία των Αθηνών: [BronzeFairy1](https://www.youtube.com/watch?v=syVtE4o5jXE), 10–17s; source: Η ωραία των Αθηνών - Ξενοδοχείο "Τα πιτσούνια".
+- Γοργόνες και μάγκες: [Nikos Kommatas](https://www.youtube.com/watch?v=PDpIDMNG8e0), 25–32s; source: (Ερωτική εξομολόγηση) Γοργόνες Και Μάγκες (1968) - Gorgones kai Mages (1968).
+- Η αρχόντισσα και ο αλήτης: [Raporto Di Corfu](https://www.youtube.com/watch?v=lusBseMFruU), 10–17s; source: Η  αρχόντισσα  και ο αλήτης 1968 απόσπασμα.
+- Μια τρελή τρελή οικογένεια: [George Samos 65.](https://www.youtube.com/watch?v=vqjByvLlsws), 25–32s; source: Μια τρελλη τρελλη Οικογενεια  -  Αποσπασμα..

@@ -1364,5 +1364,757 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "Η ΜΑΓΙΣΣΑ – SNEAK PREVIEW – ΕΠΕΙΣΟΔΙΟ 17"
+    },
+    {
+        "id":  "peninta",
+        "kind":  "series",
+        "title":  "Πενήντα Πενήντα",
+        "year":  2005,
+        "originalFormat":  null,
+        "aliases":  [
+                        "50 50",
+                        "50-50",
+                        "Πενήντα-Πενήντα"
+                    ],
+        "supporting":  [
+                           "Φωτεινή Τσακίρη",
+                           "Σοφία Πανάγου"
+                       ],
+        "leads":  [
+                      "Πέτρος Φιλιππίδης",
+                      "Παύλος Χαϊκάλης"
+                  ],
+        "synopsis":  "Τρεις φίλοι στη μέση ηλικία μπλέκουν σε ερωτικά και οικογενειακά μπερδέματα, με τις συζύγους και τα παιδιά τους να ανατρέπουν συνεχώς τα σχέδιά τους.",
+        "clue":  "Τρεις φίλοι και οι οικογένειές τους μοιράζονται καθημερινές περιπέτειες και ένα αγαπημένο στέκι.",
+        "source":  "https://www.megatv.com/ekpompes/43207/peninta-peninta/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-peninta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=hEXR_vpHsZU",
+        "audioCredit":  "Dimitrios Thomadakis",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "50 50 - Νικηφόρος \u0026 Φανούρης"
+    },
+    {
+        "id":  "savvato",
+        "kind":  "series",
+        "title":  "Σαββατογεννημένες",
+        "year":  2003,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Οι Σαββατογεννημένες",
+                        "Savvatogennimenes"
+                    ],
+        "supporting":  [
+                           "Αντώνης Καρυστινός",
+                           "Αργύρης Αγγέλου"
+                       ],
+        "leads":  [
+                      "Ελένη Ράντου",
+                      "Κατιάνα Μπαλανίκα"
+                  ],
+        "synopsis":  "Τρεις πρώην σύζυγοι ενώνουν τις δυνάμεις τους για να βρουν το κερδισμένο δελτίο ενός άνδρα που έχει χάσει τη μνήμη του μετά από τροχαίο.",
+        "clue":  "Τρεις γυναίκες ψάχνουν ένα χαμένο δελτίο, ενώ ο κοινός τους πρώην δεν θυμάται τίποτα.",
+        "source":  "https://www.megatv.com/tvshows/47982/epeisodio-10-16/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-savvato.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=eREUe_TN5_M",
+        "audioCredit":  "giorgoskapoutzidis",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Σαββατογεννημένες / 11ο Επεισόδιο"
+    },
+    {
+        "id":  "oikogeneia",
+        "kind":  "series",
+        "title":  "Η οικογένεια βλάπτει",
+        "year":  2009,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Οικογένεια βλάπτει"
+                    ],
+        "supporting":  [
+                           "Θανάσης Κουρλαμπάς",
+                           "Αντώνης Κρόμπας"
+                       ],
+        "leads":  [
+                      "Χρύσα Ρώπα",
+                      "Σάκης Μπουλάς"
+                  ],
+        "synopsis":  "Μια εκρηκτική οικογένεια προσπαθεί να τα βγάλει πέρα με οικονομικές δυσκολίες, αποτυχημένα σχέδια και συγγενείς που μετατρέπουν την καθημερινότητα σε χάος.",
+        "clue":  "Οι συγγενείς, τα χρέη και οι πρόχειρες λύσεις κάνουν τη συμβίωση μια συνεχή περιπέτεια.",
+        "source":  "https://www.ishow.gr/production/302203/i-oikogeneia-blaptei",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-oikogeneia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=hCj7jdLOArk",
+        "audioCredit":  "ludia gavrina",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η οικογένεια βλάπτει 1"
+    },
+    {
+        "id":  "nisi-tv",
+        "kind":  "series",
+        "title":  "Το Νησί",
+        "year":  2010,
+        "originalFormat":  null,
+        "aliases":  [
+                        "To Nisi",
+                        "Νησί"
+                    ],
+        "supporting":  [
+                           "Νίκος Ορφανός",
+                           "Αλεξάνδρα Σακελλαροπούλου"
+                       ],
+        "leads":  [
+                      "Κατερίνα Λέχου",
+                      "Στέλιος Μάινας"
+                  ],
+        "synopsis":  "Οι ζωές μιας κρητικής οικογένειας σημαδεύονται από τη λέπρα και τον εγκλεισμό στη Σπιναλόγκα. Αγάπες, μυστικά και δύσκολες αποφάσεις συνδέουν τρεις γενιές.",
+        "clue":  "Μια οικογενειακή ιστορία εκτυλίσσεται ανάμεσα στην κρητική ακτή και τη Σπιναλόγκα.",
+        "source":  "https://www.megatv.com/etvshows/73068/ena-nisi-mia-palia-arrstia-ena-sirial/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-nisi-tv.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=XwJvAPU0lks",
+        "audioCredit":  "ΤΟ ΝΗΣΙ",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Μανώλης επισκέπτεται την Μαρία | Το Νησί"
+    },
+    {
+        "id":  "serres",
+        "kind":  "series",
+        "title":  "Σέρρες",
+        "year":  2022,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Serres"
+                    ],
+        "supporting":  [
+                           "Γιούλη Τσαγκαράκη",
+                           "Μαριλού Κατσαφάδου"
+                       ],
+        "leads":  [
+                      "Πάνος Νάτσης",
+                      "Γιώργος Γάλλος"
+                  ],
+        "synopsis":  "Ένας νεαρός επιστρέφει στη γενέτειρά του μετά τον θάνατο της μητέρας του. Η δύσκολη σχέση με τον πατέρα του ξαναχτίζεται μέσα από συγκρούσεις, φίλους και τρυφερές στιγμές.",
+        "clue":  "Μια επιστροφή στην επαρχία δίνει σε έναν πατέρα και τον γιο του την ευκαιρία να γνωριστούν ξανά.",
+        "source":  "https://cms.antenna.gr/serres",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-serres.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=eEM9itxBbX0",
+        "audioCredit":  "ANT1+ ",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Πρέπει να κλάψει || ΣΕΡΡΕΣ"
+    },
+    {
+        "id":  "ethniki",
+        "kind":  "series",
+        "title":  "Εθνική Ελλάδος",
+        "year":  2015,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Ethniki Ellados"
+                    ],
+        "supporting":  [
+                           "Μαριέλλα Σαββίδου",
+                           "Δημήτρης Τζουμάκης"
+                       ],
+        "leads":  [
+                      "Σμαράγδα Καρύδη",
+                      "Γιώργος Καπουτζίδης"
+                  ],
+        "synopsis":  "Τέσσερις γυναίκες με διαφορετικές δυσκολίες δημιουργούν ομάδα κέρλινγκ. Με τη βοήθεια ενός προπονητή διεκδικούν μια δεύτερη ευκαιρία και ένα απρόσμενο αθλητικό όνειρο.",
+        "clue":  "Ένα ασυνήθιστο άθλημα ενώνει γυναίκες που θέλουν να αλλάξουν τη ζωή τους.",
+        "source":  "https://www.megatv.com/ekpompes/1356374/ethniki-ellados/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-ethniki.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=i3UAvclNRm0",
+        "audioCredit":  "charmie258",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Εθνική Ελλάδος - Θόδωρας - Ποιος φταίει;"
+    },
+    {
+        "id":  "ziliarogatos",
+        "kind":  "movies",
+        "title":  "Ο Ζηλιαρόγατος",
+        "year":  1956,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Ζηλιαρόγατος"
+                    ],
+        "supporting":  [
+                           "Σμάρω Στεφανίδου",
+                           "Βαγγέλης Πρωτόπαππας"
+                       ],
+        "leads":  [
+                      "Βασίλης Λογοθετίδης",
+                      "Ίλυα Λιβυκού"
+                  ],
+        "synopsis":  "Η παραμελημένη σύζυγος ενός βιομήχανου προσποιείται πως έχει εραστή για να τον κάνει να ζηλέψει. Ένας φαντασιόπληκτος φίλος περιπλέκει ακόμη περισσότερο την κατάσταση.",
+        "clue":  "Μια επινοημένη απιστία μετατρέπει έναν αδιάφορο σύζυγο σε καχύποπτο ερευνητή.",
+        "source":  "https://www.athinorama.gr/tv/movie/o_ziliarogatos-10032978/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-ziliarogatos.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=wg6204RIJ74",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Ζηλιαρογατος -  Αποσπασμα - HD."
+    },
+    {
+        "id":  "kalpiki",
+        "kind":  "movies",
+        "title":  "Η Κάλπικη Λίρα",
+        "year":  1955,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Κάλπικη Λίρα",
+                        "Η ιστορία μιας κάλπικης λίρας"
+                    ],
+        "supporting":  [
+                           "Θάνος Τζενεράλης",
+                           "Βαγγέλης Πρωτόπαππας"
+                       ],
+        "leads":  [
+                      "Βασίλης Λογοθετίδης",
+                      "Έλλη Λαμπέτη"
+                  ],
+        "synopsis":  "Ένα ψεύτικο χρυσό νόμισμα περνά από χέρι σε χέρι και συνδέει τέσσερις ιστορίες. Οι άνθρωποι που το αποκτούν δοκιμάζονται από την απληστία, την ανάγκη και τον έρωτα.",
+        "clue":  "Ένα νόμισμα γίνεται ο συνδετικός κρίκος διαφορετικών ανθρώπινων ιστοριών.",
+        "source":  "https://www.megatv.com/tvmovies/84098/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-kalpiki.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=N6q9NNCthtQ",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η Καλπικη Λιρα  -  Αποσπασμα  -  HD."
+    },
+    {
+        "id":  "atsidas",
+        "kind":  "movies",
+        "title":  "Ο Ατσίδας",
+        "year":  1962,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Ατσίδας"
+                    ],
+        "supporting":  [
+                           "Τζόλυ Γαρμπή",
+                           "Στέφανος Στρατηγός"
+                       ],
+        "leads":  [
+                      "Ντίνος Ηλιόπουλος",
+                      "Ζωή Λάσκαρη"
+                  ],
+        "synopsis":  "Ένας άνδρας αναβάλλει τον γάμο του μέχρι να παντρέψει την αδελφή του. Οι πιέσεις των συγγενών και τα κρυφά ειδύλλια οδηγούν σε αλλεπάλληλες παρεξηγήσεις.",
+        "clue":  "Ένας γάμος πρέπει να περιμένει έναν άλλον και οι οικογενειακές πιέσεις συνεχώς μεγαλώνουν.",
+        "source":  "https://www.hellenicaworld.com/Greece/Film/gr/OAtsidas.html",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-atsidas.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=X-oqBSFpYdk",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Ατσιδας -  Αποσπασμα -  HD."
+    },
+    {
+        "id":  "neraida",
+        "kind":  "movies",
+        "title":  "Η Νεράιδα και το Παλικάρι",
+        "year":  1969,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Η νεράιδα και το παληκάρι",
+                        "Νεράιδα και παλικάρι"
+                    ],
+        "supporting":  [
+                           "Γιάννης Αργύρης",
+                           "Ευαγγελία Σαμιωτάκη"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Δημήτρης Παπαμιχαήλ"
+                  ],
+        "synopsis":  "Δύο νέοι ερωτεύονται στην Κρήτη, αλλά οι οικογένειές τους χωρίζονται από μια παλιά βεντέτα. Με πείσμα και τεχνάσματα προσπαθούν να ξεπεράσουν την έχθρα.",
+        "clue":  "Μια κρητική βεντέτα στέκεται εμπόδιο σε έναν έρωτα.",
+        "source":  "https://www.filmy.gr/movies-database/the-fairy-and-the-man/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-neraida.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=0TtkUYavg64",
+        "audioCredit":  "Theodore Petkidis",
+        "audioStart":  7,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η Νεράϊδα και το παληκάρι"
+    },
+    {
+        "id":  "sosialistria",
+        "kind":  "movies",
+        "title":  "Η κόρη μου η σοσιαλίστρια",
+        "year":  1966,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Η κόρη μου η σοσιαλιστρια"
+                    ],
+        "supporting":  [
+                           "Σταύρος Ξενίδης",
+                           "Πέτρος Λοχαΐτης"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Δημήτρης Παπαμιχαήλ"
+                  ],
+        "synopsis":  "Η κόρη ενός εργοστασιάρχη υποστηρίζει τους εργάτες και ερωτεύεται έναν μαχητικό υπάλληλο του πατέρα της. Οι κοινωνικές διαφορές προκαλούν κωμικές συγκρούσεις.",
+        "clue":  "Μια νεαρή αμφισβητεί τον βιομήχανο πατέρα της και πλησιάζει τους ανθρώπους του εργοστασίου.",
+        "source":  "https://www.tvopen.gr/hkorhmoyhsosialistria/about",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-sosialistria.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=wkA9zzCViRU",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η Κορη μου η Σοσιαλιστρια  - Αποσπασμα."
+    },
+    {
+        "id":  "ellinida",
+        "kind":  "movies",
+        "title":  "Μια Ελληνίδα στο χαρέμι",
+        "year":  1971,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Μία Ελληνίδα στο χαρέμι",
+                        "Ελληνίδα στο χαρέμι"
+                    ],
+        "supporting":  [
+                           "Γιώργος Γαβριηλίδης",
+                           "Δημήτρης Καλλιβωκάς"
+                       ],
+        "leads":  [
+                      "Ρένα Βλαχοπούλου",
+                      "Χρόνης Εξαρχάκος"
+                  ],
+        "synopsis":  "Μια γυναίκα που παριστάνει το μέντιουμ ταξιδεύει με την παρέα της και, μετά από μια απρόσμενη περιπέτεια, καταλήγει στο παλάτι ενός εμίρη.",
+        "clue":  "Μια υποτιθέμενη μάντισσα μπλέκει σε μια περιπέτεια πολύ μακριά από την Ελλάδα.",
+        "source":  "https://www.filmy.gr/movies-database/a-greek-woman-in-the-harem/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-ellinida.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=87yGbL-kVkY",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μια Ελληνιδα στο Χαρεμι  - Αποσπασμα."
+    },
+    {
+        "id":  "geitones",
+        "kind":  "series",
+        "title":  "Λατρεμένοι μου γείτονες",
+        "year":  2007,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Αριέττα Μουτούση",
+                           "Γιώργος Κωνσταντής"
+                       ],
+        "leads":  [
+                      "Κώστας Κόκλας",
+                      "Άβα Γαλανοπούλου"
+                  ],
+        "synopsis":  "Μια οικογένεια αποκτά ξαφνικά χρήματα και μετακομίζει δίπλα σε εύπορους γείτονες. Οι διαφορετικές συνήθειες των δύο σπιτιών γεννούν συγκρούσεις και απρόσμενες φιλίες.",
+        "clue":  "Δύο πολύ διαφορετικές οικογένειες καταλήγουν να μένουν δίπλα δίπλα.",
+        "source":  "https://www.ishow.gr/production/256160/latremenoi-moy-geitones",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-geitones.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=wFoTf38SIbI",
+        "audioCredit":  "Greek TV HD",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Λατρεμένοι μου Γείτονες - Επεισόδιο 13 HD"
+    },
+    {
+        "id":  "singles",
+        "kind":  "series",
+        "title":  "Singles",
+        "year":  2004,
+        "originalFormat":  null,
+        "aliases":  [
+                        "S1ngles"
+                    ],
+        "supporting":  [
+                           "Αντώνης Φραγκάκης",
+                           "Μάξιμος Μουμούρης"
+                       ],
+        "leads":  [
+                      "Μαρία Σολωμού",
+                      "Σάννυ Χατζηαργύρη"
+                  ],
+        "synopsis":  "Μια παρέα νέων αντιμετωπίζει έρωτες, χωρισμούς και τη μοναξιά της πόλης. Οι διαφορετικοί χαρακτήρες βρίσκουν στήριγμα στη φιλία, ακόμη κι όταν τα προσωπικά τους σχέδια αποτυγχάνουν.",
+        "clue":  "Οι σχέσεις και η φιλία συνδέουν μια παρέα ανθρώπων με διαφορετικές απόψεις για τον έρωτα.",
+        "source":  "https://www.megatv.com/ekpompes/43287/singles/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-singles.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=qMbkpAmWCdE",
+        "audioCredit":  "Llorinho",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Singles | Η Λίλα στη SEYO"
+    },
+    {
+        "id":  "matia",
+        "kind":  "series",
+        "title":  "Κλείσε τα μάτια",
+        "year":  2002,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Κώστας Κάππας",
+                           "Θάλεια Ματίκα"
+                       ],
+        "leads":  [
+                      "Πέμυ Ζούνη",
+                      "Χριστόφορος Παπακαλιάτης"
+                  ],
+        "synopsis":  "Μια μητέρα και η κόρη της ερωτεύονται τον ίδιο νεαρό άνδρα. Τα κρυφά αισθήματα, οι οικογενειακές σχέσεις και ένα ατύχημα δοκιμάζουν ολόκληρη την παρέα.",
+        "clue":  "Ένας κρυφός έρωτας απειλεί να ανατρέψει τις ισορροπίες μιας οικογένειας.",
+        "source":  "https://www.megatv.com/ekpompes/42825/mega-sex-kleise-ta-matia-2/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-matia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=5cqNjfZOpLQ",
+        "audioCredit":  "Greek TV HD",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Κλείσε τα Μάτια - Επεισόδιο 11 HD"
+    },
+    {
+        "id":  "pagidevmenoi",
+        "kind":  "series",
+        "title":  "Παγιδευμένοι",
+        "year":  2022,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Κίμωνας Κουρής",
+                           "Σταύρος Τσουμάνης"
+                       ],
+        "leads":  [
+                      "Μιχάλης Λεβεντογιάννης",
+                      "Μάρθα Λαμπίρη Φεντόρουφ"
+                  ],
+        "synopsis":  "Μια δικηγόρος και ένας εισαγγελέας συναντιούνται στην έρευνα ενός φόνου. Καθώς έρχονται κοντά, ανακαλύπτουν μυστικά που εμπλέκουν τις δικές τους οικογένειες.",
+        "clue":  "Μια εγκληματική υπόθεση φέρνει κοντά δύο ανθρώπους της δικαιοσύνης.",
+        "source":  "https://www.ant1live.com/webtv/series/ellinikes-seires/pagideymenoi",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-pagidevmenoi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ZrtxxwDbYm8",
+        "audioCredit":  "Sistars’ stories",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Δημήτρης και Άννα | Ο Δημήτρης βγάζει την Άννα από την φυλακή"
+    },
+    {
+        "id":  "potami",
+        "kind":  "series",
+        "title":  "Το κόκκινο ποτάμι",
+        "year":  2019,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Κόκκινο ποτάμι"
+                    ],
+        "supporting":  [
+                           "Δημήτρης Δρόσος",
+                           "Χαρά Μάτα Γιαννάτου"
+                       ],
+        "leads":  [
+                      "Ιωάννης Παπαζήσης",
+                      "Αναστασία Παντούση"
+                  ],
+        "synopsis":  "Ο έρωτας δύο νέων και η μοίρα των οικογενειών τους διασταυρώνονται με τους διωγμούς των Ελλήνων του Πόντου. Ο πόλεμος και ο ξεριζωμός δοκιμάζουν την ελπίδα τους.",
+        "clue":  "Μια ιστορική ερωτική ιστορία ξετυλίγεται στα χρόνια των διωγμών του ποντιακού ελληνισμού.",
+        "source":  "https://www.tvopen.gr/tokokkinopotami/about",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-potami.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=9Va5ZzklXrk",
+        "audioCredit":  "Nicole Xagorari",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "|| Κόκκινο Ποτάμι || Ιφιγένεια _ Μονόλογος"
+    },
+    {
+        "id":  "nyxta",
+        "kind":  "series",
+        "title":  "Αυτή η νύχτα μένει",
+        "year":  2022,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Κώστας Μπερικόπουλος",
+                           "Μαρία Κατσανδρή"
+                       ],
+        "leads":  [
+                      "Βασίλης Μπισμπίκης",
+                      "Γιάννης Στάνκογλου"
+                  ],
+        "synopsis":  "Σε μια επαρχιακή πόλη της δεκαετίας του ογδόντα, ένα νυχτερινό κέντρο ενώνει διαφορετικές ζωές. Έρωτες, μυστικά και παλιές πληγές φέρνουν τους ήρωες αντιμέτωπους.",
+        "clue":  "Οι ζωές των ηρώων συναντιούνται γύρω από ένα επαρχιακό νυχτερινό κέντρο.",
+        "source":  "https://www.alphatv.gr/series/auti-i-nuhta-menei/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-nyxta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=QlO0VOVamc8",
+        "audioCredit":  "Κώστας Ζωγραφόπουλος",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Επεισόδιο 28 σκηνή Στρατή Θόδωρου στο ξενοδοχείο"
+    },
+    {
+        "id":  "germanoi",
+        "kind":  "movies",
+        "title":  "Οι Γερμανοί ξανάρχονται",
+        "year":  1948,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Λαυρέντης Διανέλλος",
+                           "Βαγγέλης Πρωτόπαππας"
+                       ],
+        "leads":  [
+                      "Βασίλης Λογοθετίδης",
+                      "Νίτσα Τσαγανέα"
+                  ],
+        "synopsis":  "Ένας οικογενειάρχης αγανακτεί με τις μεταπολεμικές διχόνοιες. Ένας εφιάλτης τον γυρίζει στα χρόνια της Κατοχής και τον κάνει να ξανασκεφτεί την αξία της ειρήνης.",
+        "clue":  "Ένας εφιάλτης στην Αθήνα μετά τον πόλεμο θυμίζει στους ανθρώπους όσα έχουν περάσει.",
+        "source":  "https://finosfilm.com/portfolio-items/oi-germanoi-xanarchontai/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-germanoi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=w4osH9BczQo",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Οι Γερμανοι Ξαναρχονται  -  Αποσπασμα -  HD."
+    },
+    {
+        "id":  "laterna",
+        "kind":  "movies",
+        "title":  "Λατέρνα, φτώχεια και φιλότιμο",
+        "year":  1955,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Λατέρνα φτώχεια και φιλότιμο"
+                    ],
+        "supporting":  [
+                           "Νίκη Λινάρδου",
+                           "Ερρίκος Κονταρίνης"
+                       ],
+        "leads":  [
+                      "Μίμης Φωτόπουλος",
+                      "Βασίλης Αυλωνίτης"
+                  ],
+        "synopsis":  "Δύο πλανόδιοι μουσικοί βοηθούν μια πλούσια κοπέλα που έχει φύγει από το σπίτι της για τον αγαπημένο της. Η γενναιοδωρία τους αποδεικνύεται μεγαλύτερη από τη φτώχεια τους.",
+        "clue":  "Δύο μουσικοί του δρόμου προστατεύουν μια νεαρή φυγάδα.",
+        "source":  "https://finosfilm.com/portfolio-items/laternaftocheia-kai-filotimo/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-laterna.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=zneuQbRA0fs",
+        "audioCredit":  "tzitziki-blogspot",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Aπόσπασμα από την ταινία ❝Λατέρνα, φτώχεια και φιλότιμο❞ ⣿ Μίμης Φωτόπουλος (1913-1986)"
+    },
+    {
+        "id":  "oraia",
+        "kind":  "movies",
+        "title":  "Η ωραία των Αθηνών",
+        "year":  1954,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Σπεράντζα Βρανά",
+                           "Γκέλυ Μαυροπούλου"
+                       ],
+        "leads":  [
+                      "Γεωργία Βασιλειάδου",
+                      "Βασίλης Αυλωνίτης"
+                  ],
+        "synopsis":  "Ένας άνδρας πρέπει να παντρευτεί μια μεσόκοπη γυναίκα για να αποκτήσει μια κληρονομιά. Προσπαθεί να μεταφέρει την υποχρέωση στους νοικάρηδές του, αλλά εκείνοι έχουν άλλα σχέδια.",
+        "clue":  "Μια διαθήκη επιβάλλει έναν ανεπιθύμητο γάμο και ξεκινά μια σειρά από τεχνάσματα.",
+        "source":  "https://finosfilm.com/portfolio-items/i-oraia-ton-athinon/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-oraia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=syVtE4o5jXE",
+        "audioCredit":  "BronzeFairy1",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η ωραία των Αθηνών - Ξενοδοχείο \"Τα πιτσούνια\""
+    },
+    {
+        "id":  "gorgones",
+        "kind":  "movies",
+        "title":  "Γοργόνες και μάγκες",
+        "year":  1968,
+        "originalFormat":  "color",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Νόρα Βαλσάμη",
+                           "Βαγγέλης Σειληνός"
+                       ],
+        "leads":  [
+                      "Μαίρη Χρονοπούλου",
+                      "Φαίδων Γεωργίτσης"
+                  ],
+        "synopsis":  "Η αγορά γης σε ένα νησί φέρνει αντιμέτωπα οικονομικά συμφέροντα και ντόπιους. Οι ερωτικές ιστορίες των επισκεπτών και των κατοίκων περιπλέκουν ακόμη περισσότερο την κατάσταση.",
+        "clue":  "Επισκέπτες και νησιώτες μπλέκουν σε ερωτικές και επιχειρηματικές αντιπαραθέσεις.",
+        "source":  "https://www.athensvoice.gr/city-guide/cinema/cinema-guide/471780/mermaids-love/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-gorgones.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PDpIDMNG8e0",
+        "audioCredit":  "Nikos Kommatas",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "(Ερωτική εξομολόγηση) Γοργόνες Και Μάγκες (1968) - Gorgones kai Mages (1968)"
+    },
+    {
+        "id":  "arxontissa",
+        "kind":  "movies",
+        "title":  "Η αρχόντισσα και ο αλήτης",
+        "year":  1968,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Η αρχόντισσα κι ο αλήτης"
+                    ],
+        "supporting":  [
+                           "Φλωρέτα Ζάννα",
+                           "Γιώργος Τσιτσόπουλος"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Δημήτρης Παπαμιχαήλ"
+                  ],
+        "synopsis":  "Μια πλούσια κοπέλα φεύγει για να αποφύγει έναν γάμο και μεταμφιέζεται σε αγόρι. Στον δρόμο γνωρίζει έναν περιπλανώμενο νέο, που γίνεται σύντροφος της περιπέτειάς της.",
+        "clue":  "Μια φυγή και μια μεταμφίεση οδηγούν σε μια απρόσμενη γνωριμία.",
+        "source":  "https://ellinikoskinimatografos.gr/i-archontissa-ki-o-alitis/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-arxontissa.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=lusBseMFruU",
+        "audioCredit":  "Raporto Di Corfu",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η  αρχόντισσα  και ο αλήτης 1968 απόσπασμα"
+    },
+    {
+        "id":  "treli",
+        "kind":  "movies",
+        "title":  "Μια τρελή τρελή οικογένεια",
+        "year":  1965,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Μία τρελή τρελή οικογένεια",
+                        "Μια τρελλή τρελλή οικογένεια"
+                    ],
+        "supporting":  [
+                           "Λίλη Παπαγιάννη",
+                           "Δημήτρης Καλλιβωκάς"
+                       ],
+        "leads":  [
+                      "Τζένη Καρέζη",
+                      "Αλέκος Αλεξανδράκης"
+                  ],
+        "synopsis":  "Ένας νεόνυμφος γνωρίζει καλύτερα την εκκεντρική οικογένεια της συζύγου του. Η αφηρημένη πεθερά, οι ερωτικές περιπέτειες και οι απρόσμενες επισκέψεις προκαλούν συνεχείς παρεξηγήσεις.",
+        "clue":  "Η επιστροφή ενός ζευγαριού από το ταξίδι του αποκαλύπτει τις παράξενες συνήθειες των συγγενών.",
+        "source":  "https://filmfestival.gr/el/films/mia-treli-treli-oikogeneia/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-more",
+        "audio":  "media/scene-treli.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=vqjByvLlsws",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μια τρελλη τρελλη Οικογενεια  -  Αποσπασμα."
     }
 ]
