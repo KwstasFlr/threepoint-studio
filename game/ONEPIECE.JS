@@ -314,6 +314,7 @@ opDialog.addEventListener("submit",event=>{
   if(!character){message.textContent=T("Choose a character from the list.","Διάλεξε έναν χαρακτήρα από τη λίστα.");input.focus();return;}
   if(round.guesses.includes(character.id)){message.textContent=T("You already tried this character.","Έχεις ήδη δοκιμάσει αυτόν τον χαρακτήρα.");input.focus();return;}
   round.guesses.push(character.id);
+  if(opWon(round))window.GMPProgress?.award({game:'onepiece',mode:opMode,round:round.number,day:round.day,attempt:round.guesses.length,extra:round.guesses.length>OP_GUESS_LIMIT}).catch(console.error);
   opSave();opRender();
   if(opWon(round)) opDialog.querySelector("[data-op-next], [data-op-close]")?.focus();
   else opDialog.querySelector("#opGuess")?.focus();

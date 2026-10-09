@@ -4623,6 +4623,7 @@ async function loadCurrentProfile() {
 
   hydrateProfileCounters();
   renderAuthState();
+  await saveOnlineStats();
 
   return data;
 }
@@ -4751,6 +4752,7 @@ async function saveOnlineStats() {
     }
 
     await loadLeaderboard();
+    return true;
   };
 
   statsQueue =
@@ -5743,11 +5745,11 @@ function renderLeaderboard() {
             T(
               leaderboardError
                 ? "You can still play as a guest."
-                : "Available rankings currently cover Football.",
+                : "Log in to add your wins to the overall rankings.",
 
               leaderboardError
                 ? "Μπορείς να συνεχίσεις ως επισκέπτης."
-                : "Προς το παρόν υπάρχουν αποτελέσματα μόνο για το Football."
+                : "Συνδέσου για να μετρούν οι νίκες σου στη συνολική κατάταξη."
             )
           }
         </p>
@@ -8007,3 +8009,11 @@ document.addEventListener(
     }
   }
 );
+
+window.GMPScoreAdapter={
+ async context(){
+  try{await ensureOnline();const {data}=await supabaseClient.auth.getSession();if(data.session?.user&&currentUser?.id!==data.session.user.id){currentUser=data.session.user;await loadCurrentProfile();}}catch{}
+  loadState();return {state,key:activeStorageKey,user:currentUser,client:supabaseClient};
+ },persist:save,refresh:renderAll,sync:saveOnlineStats
+};
+window.addEventListener("online",()=>{if(currentUser)saveOnlineStats();});

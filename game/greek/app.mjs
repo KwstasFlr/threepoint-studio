@@ -44,7 +44,7 @@ async function boot() {
         if (result.error) throw new Error('Invalid saved round');
         previous = result.guesses;
       }
-      state = {id: saved.id, guesses: previous, bag: Array.isArray(saved.bag) ? [...new Set(saved.bag.filter(id => ids.includes(id) && id !== saved.id))] : []};
+      state = {number: Number.isSafeInteger(saved.number)&&saved.number>0?saved.number:1,id: saved.id, guesses: previous, bag: Array.isArray(saved.bag) ? [...new Set(saved.bag.filter(id => ids.includes(id) && id !== saved.id))] : []};
     }
   } catch { /* Storage may be unavailable; the game still works. */ }
   const stop = () => { $('audio').pause(); };
@@ -56,11 +56,12 @@ async function boot() {
     let choices = bag.filter(id => id !== last);
     if (!choices.length) choices = bag;
     const id = choices[Math.floor(Math.random() * choices.length)];
-    state = {id, guesses: [], bag: bag.filter(item => item !== id)};
+    state = {number:(state?.number||0)+1,id, guesses: [], bag: bag.filter(item => item !== id)};
     save();
     $('guess').value = '';
     $('clueDetails').open = false;
     $('audioStatus').textContent = '';
+    $('scoreStatus').textContent = '';
     $('audio').removeAttribute('src');
     render();
   }
@@ -69,6 +70,7 @@ async function boot() {
     const won = state.guesses.some(g => matches(title, g));
     const ended = won || state.guesses.length === 6;
     const wrong = state.guesses.length - (won ? 1 : 0);
+    $('roundNumber').textContent = `Γύρος ${state.number} · ${filters[filter]}`;
     $('progress').textContent = `${state.guesses.length} / 6 προσπάθειες`;
     $('clue').textContent = title.clue;
     $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : 'Δεν υπάρχει διαθέσιμο ηχητικό απόσπασμα. Διάβασε τον γρίφο.';
@@ -131,6 +133,11 @@ async function boot() {
     const result = submitGuess(title, state.guesses, $('guess').value);
     if (result.error) { $('feedback').textContent = result.error; return; }
     state.guesses = result.guesses;
+    if(result.won){
+      const scoringRound=state.number;
+      $('scoreStatus').textContent='Αποθήκευση βαθμολογίας…';
+      window.GMPProgress?.award({game:'greek-'+kind,mode:filter,round:state.number,attempt:state.guesses.length}).then(score=>{ if(state.number!==scoringRound)return; $('scoreStatus').textContent=score.guest?`+${score.points} πόντοι στη συσκευή. Συνδέσου στην αρχική των παιχνιδιών για online κατάταξη.`:score.online?`+${score.points} πόντοι · Η κατάταξη ενημερώθηκε.`:`+${score.points} πόντοι στη συσκευή. Ο online συγχρονισμός εκκρεμεί.`;}).catch(()=>{ if(state.number!==scoringRound)return; $('scoreStatus').textContent='Δεν αποθηκεύτηκε η βαθμολογία. Έλεγξε τον διαθέσιμο χώρο του browser.';});
+    }
     save();
     $('guess').value = '';
     render();

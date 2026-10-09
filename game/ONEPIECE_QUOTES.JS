@@ -61,6 +61,7 @@ function opSubmitQuote(){
   if(!c||s.guesses.includes(c.id)){message.textContent=c?T('You already tried this character.','Έχεις ήδη δοκιμάσει αυτόν τον χαρακτήρα.'):T('Choose a character from the list.','Διάλεξε έναν χαρακτήρα από τη λίστα.');input.focus();return;}
   s.guesses.push(c.id);const q=OP_QUOTES.find(q=>q.id===s.id);
   if(c.id===opNormalize(q.name)||s.guesses.length===5)s.ended=true;
+  if(c.id===opNormalize(q.name))window.GMPProgress?.award({game:'onepiece',mode:'quote',round:s.number,attempt:s.guesses.length}).catch(console.error);
   opSaveQuote();opRender();opDialog.querySelector(s.ended?'[data-op-quote-next]':'#opGuess')?.focus();
 }
 function opRenderQuote(){
