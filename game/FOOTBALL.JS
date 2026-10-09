@@ -215,6 +215,7 @@ function fbFinish(selectedRound){
     if(attempt===1){state.firstWins++;if(!daily)state.classicFirst++;}
     if(daily){state.dailyWins++;state.streak=state.lastDailyWin===dayNumber-1?state.streak+1:1;state.lastDailyWin=dayNumber;state.bestStreak=Math.max(state.bestStreak,state.streak);}
     else state.classicWins++;
+    window.GMPCategoryScores?.add(state,"football",earned+bonus,attempt,state.streak);
     confetti();
   }else if(daily)state.streak=0;
   if(daily){

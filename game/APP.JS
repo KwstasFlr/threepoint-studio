@@ -4289,7 +4289,8 @@ function initialState() {
     firstWins: 0,
     classicWins: 0,
     lastDailyWin: null,
-    classicFirst: 0
+    classicFirst: 0,
+    categoryScores: {}
   };
 }
 
@@ -4345,6 +4346,8 @@ function loadState() {
       state.classic =
         saved.classic;
     }
+
+    state.categoryScores = window.GMPCategoryScores.clean(saved.categoryScores);
 
     state.lastDailyWin =
       integer(saved.lastDailyWin)
@@ -4670,6 +4673,7 @@ function hydrateProfileCounters() {
     }
   }
 
+  state.categoryScores=window.GMPCategoryScores.merge(state.categoryScores,currentProfile.category_scores);
   updateDailyStreak();
   save();
 }
@@ -4704,6 +4708,8 @@ async function saveOnlineStats() {
     best_streak:
       state.bestStreak
   };
+
+  if(Object.hasOwn(currentProfile,"category_scores"))stats.category_scores=window.GMPCategoryScores.clean(state.categoryScores);
 
   const task = async () => {
     if (
@@ -5613,30 +5619,10 @@ async function loadLeaderboard() {
   }
 
   try {
-    const { data, error } =
-      await supabaseClient
-        .from("profiles")
-        .select(
-          "id, username, points, correct_guesses, first_try, streak, best_streak"
-        )
-        .order(
-          "points",
-          {
-            ascending: false
-          }
-        )
-        .order(
-          "correct_guesses",
-          {
-            ascending: false
-          }
-        )
-        .order(
-          "first_try",
-          {
-            ascending: false
-          }
-        );
+    const rankingFields="id, username, points, correct_guesses, first_try, streak, best_streak";
+    const request=fields=>supabaseClient.from("profiles").select(fields).order("points",{ascending:false}).order("correct_guesses",{ascending:false}).order("first_try",{ascending:false});
+    let {data,error}=await request(rankingFields+", category_scores");
+    if(error&&["42703","PGRST204"].includes(error.code)&&String(error.message).includes("category_scores"))({data,error}=await request(rankingFields));
 
     if (error) {
       throw error;
@@ -5646,6 +5632,7 @@ async function loadLeaderboard() {
       (data || []).map(
         profile => ({
           id: profile.id,
+          categoryScores:window.GMPCategoryScores.clean(profile.category_scores),
 
           name:
             profile.username,
@@ -5696,13 +5683,9 @@ function renderLeaderboard() {
 
   if (!rows) return;
 
-  const leaderboard =
-    [
-      "overall",
-      "football"
-    ].includes(boardFilter)
-      ? [...onlineLeaderboard]
-      : [];
+  const title=window.GMPCategoryScores.names[boardFilter]||window.GMPCategoryScores.names.overall;
+  if($("leaderboardTitle"))$("leaderboardTitle").textContent=title;
+  const leaderboard=window.GMPCategoryScores.ranking(onlineLeaderboard,boardFilter);
 
   const top10 =
     leaderboard.slice(0, 10);
@@ -5717,25 +5700,10 @@ function renderLeaderboard() {
             T(
               leaderboardError
                 ? "Leaderboard temporarily unavailable."
-                : ![
-                    "overall",
-                    "football"
-                  ].includes(
-                    boardFilter
-                  )
-                  ? "This game is in development."
-                  : "The leaderboard is waiting for its first players.",
-
+                : "The leaderboard is waiting for its first players.",
               leaderboardError
                 ? "Η κατάταξη δεν είναι προσωρινά διαθέσιμη."
-                : ![
-                    "overall",
-                    "football"
-                  ].includes(
-                    boardFilter
-                  )
-                  ? "Αυτό το παιχνίδι είναι σε ανάπτυξη."
-                  : "Η κατάταξη περιμένει τους πρώτους παίκτες."
+                : "Η κατάταξη περιμένει τις πρώτες νίκες σε αυτή την κατηγορία."
             )
           }
         </strong>
@@ -6995,6 +6963,7 @@ async function winRound(
     }
   }
 
+  window.GMPCategoryScores.add(state,"football",earned+bonus,extraAttempt?0:attempt,state.streak);
   save();
   confetti();
   renderAll();

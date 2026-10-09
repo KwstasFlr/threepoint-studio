@@ -31,10 +31,12 @@ window.GMPProgress=(()=>{
    const fields={points:'points',totalWins:'correct_guesses',firstWins:'first_try',dailyWins:'daily_wins',bestStreak:'best_streak'};
    if(profile)for(const [local,remote] of Object.entries(fields))ctx.state[local]=Math.max(count(ctx.state[local]),count(profile[remote]));
    const before=JSON.parse(JSON.stringify(ctx.state));
+   ctx.state.categoryScores=window.GMPCategoryScores.merge(ctx.state.categoryScores,profile?.category_scores);
    const points=(event.extra?1:([5,4,3,2][attempt-1]||1))+(event.mode==='daily'?2:0);
    ctx.state.points=count(ctx.state.points)+points;ctx.state.totalWins=count(ctx.state.totalWins)+1;
    if(attempt===1&&!event.extra)ctx.state.firstWins=count(ctx.state.firstWins)+1;
    if(event.mode==='daily')ctx.state.dailyWins=count(ctx.state.dailyWins)+1;
+   window.GMPCategoryScores.add(ctx.state,event.game,points,event.extra?0:attempt);
    ledger[token]=points;
    // Roll back the stored counters if the ledger cannot be written.
    const previous=localStorage.getItem(ctx.key);
@@ -43,6 +45,7 @@ window.GMPProgress=(()=>{
    if(adapter){adapter.persist();adapter.refresh();online=!!ctx.user&&(await adapter.sync())===true;}
    else if(ctx.user&&ctx.client&&profile){
     const stats=Object.fromEntries(Object.entries(fields).map(([local,remote])=>[remote,count(ctx.state[local])]));
+    if(Object.hasOwn(profile,"category_scores"))stats.category_scores=window.GMPCategoryScores.clean(ctx.state.categoryScores);
     const response=await ctx.client.from('profiles').update(stats).eq('id',ctx.user.id);online=!response.error;
    }
    window.dispatchEvent(new Event('gmp-score-change'));
