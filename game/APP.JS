@@ -5548,7 +5548,7 @@ function renderGames() {
       card.type = "button";
     }
 
-    const cardImages={greek:'greek-cinema-photo.jpg',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={greek:'greek-tv-photo.jpg',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
