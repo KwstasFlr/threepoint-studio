@@ -2676,5 +2676,632 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "Συμμαθητές|ΟΑντρέας παρηγορεί την Μαριλένα|Πάρτυ Λυκείου||Tamam Videos"
+    },
+    {
+        "id":  "ellados",
+        "kind":  "series",
+        "title":  "Της Ελλάδος τα παιδιά",
+        "year":  1993,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Της Ελλαδος τα παιδια"
+                    ],
+        "supporting":  [
+                           "Δημήτρης Φραγκιόγλου",
+                           "Γιάννης Σαββιδάκης"
+                       ],
+        "leads":  [
+                      "Γιάννης Μπέζος",
+                      "Κώστας Ευριπιώτης"
+                  ],
+        "synopsis":  "Τρεις σμηνίτες αναστατώνουν καθημερινά ένα γραφείο της Πολεμικής Αεροπορίας, ενώ ο διοικητής τους προσπαθεί να διατηρήσει την τάξη.",
+        "clue":  "Στρατιωτική κωμωδία με απρόβλεπτες υπηρεσίες και αναφορές.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Της_Ελλάδος_τα_παιδιά",
+        "audio":  "media/scene-ellados.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=O9Sd0XB6hys",
+        "audioCredit":  "Νίκος Βυνηρής",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Της Ελλάδος τα Παιδιά, Χλαπάτσας επικό γλείψιμο"
+    },
+    {
+        "id":  "kare",
+        "kind":  "series",
+        "title":  "Το καρέ της ντάμας",
+        "year":  1997,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Καρέ της ντάμας"
+                    ],
+        "supporting":  [
+                           "Χάρης Σώζος",
+                           "Αίας Μανθόπουλος"
+                       ],
+        "leads":  [
+                      "Τζόυς Ευείδη",
+                      "Χρύσα Σπηλιώτη"
+                  ],
+        "synopsis":  "Τέσσερις φίλες από τα παιδικά τους χρόνια μοιράζονται έρωτες, οικογενειακές υποχρεώσεις και μικρές καθημερινές ανατροπές.",
+        "clue":  "Τέσσερις γυναίκες και μια δυνατή φιλία.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Το_Καρέ_της_Ντάμας",
+        "audio":  "media/scene-kare.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=bqnm9Iv2kEg",
+        "audioCredit":  "LaraF",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Το καρέ της ντάμας Aσπασία Μηλιαράκη"
+    },
+    {
+        "id":  "perianemon",
+        "kind":  "series",
+        "title":  "Περί ανέμων και υδάτων",
+        "year":  2000,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Άρης Λεμπεσόπουλος",
+                           "Νίκος Γαροφάλλου"
+                       ],
+        "leads":  [
+                      "Θανάσης Βέγγος",
+                      "Σπύρος Παπαδόπουλος"
+                  ],
+        "synopsis":  "Στην Κέρκυρα, μια οικογένεια και η γειτονιά της μπλέκονται σε έρωτες, προξενιά και παρεξηγήσεις με φόντο το νησί.",
+        "clue":  "Νησιωτικές ιστορίες με οικογενειακή ζεστασιά.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.megatv.com/tvshows/46780/epeisodio-68-3/",
+        "audio":  "media/scene-perianemon.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=KFbbHxGvm1w",
+        "audioCredit":  "Giannis Pit",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "\"ΠΕΡΙ ΑΝΕΜΩΝ  \u0026 ΥΔΑΤΩΝ\"  ΣΚΗΝΗ με τον μονόλογο του Μπαμπη"
+    },
+    {
+        "id":  "simadi",
+        "kind":  "series",
+        "title":  "Το σημάδι του έρωτα",
+        "year":  1998,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Μάνος Βακούσης",
+                           "Χάρης Γρηγορόπουλος"
+                       ],
+        "leads":  [
+                      "Βάνα Μπάρμπα",
+                      "Στράτος Τζώρτζογλου"
+                  ],
+        "synopsis":  "Σε ένα χωριό, η επιστροφή ενός άντρα ξυπνά έναν απαγορευμένο έρωτα και προκαλεί οικογενειακές συγκρούσεις.",
+        "clue":  "Πάθη και μυστικά πίσω από μια οικογενειακή επιστροφή.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Το_σημάδι_του_έρωτα",
+        "audio":  "media/scene-simadi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=LYN6sX4BkOo",
+        "audioCredit":  "Elementstv1989",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Mega.To.shmadi.tou.erwta.E03-GrLTv.avi"
+    },
+    {
+        "id":  "love-sorry",
+        "kind":  "series",
+        "title":  "Λαβ σόρρυ",
+        "year":  1994,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Love Sorry",
+                        "Λαβ σορι"
+                    ],
+        "supporting":  [
+                           "Τρύφων Καρατζάς",
+                           "Δημήτρης Τσούτσης"
+                       ],
+        "leads":  [
+                      "Τάσος Χαλκιάς",
+                      "Κωνσταντίνα Μιχαήλ"
+                  ],
+        "synopsis":  "Μια οργανωμένη γιατρός και ένας αυθόρμητος υδραυλικός ερωτεύονται, αλλά οι διαφορετικές ζωές τους δημιουργούν συνεχείς κωμικές συγκρούσεις.",
+        "clue":  "Ένας έρωτας ανάμεσα σε δύο πολύ διαφορετικούς ανθρώπους.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Λαβ_σόρρυ",
+        "audio":  "media/scene-love-sorry.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=fdWnCdeEbyk",
+        "audioCredit":  "Greek TV HD",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Love Sorry - Episode 1 HD | Who sings in the bathroom"
+    },
+    {
+        "id":  "tamam",
+        "kind":  "series",
+        "title":  "Ταμάμ",
+        "year":  2014,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Tamam"
+                    ],
+        "supporting":  [
+                           "Λίλιαν Αρχοντή",
+                           "Νίκος Μαγδαληνός"
+                       ],
+        "leads":  [
+                      "Μαρία Λεκάκη",
+                      "Μανώλης Μαυροματάκης"
+                  ],
+        "synopsis":  "Ένας Τούρκος πατέρας και μια Ελληνίδα μητέρα αποφασίζουν να συγκατοικήσουν, ενώ τα παιδιά τους δυσκολεύονται να αποδεχτούν τη νέα οικογένεια.",
+        "clue":  "Δύο οικογένειες μαθαίνουν να ζουν κάτω από την ίδια στέγη.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.antenna.gr/General/article/4/367713/ti-deytera-kanei-premiera-ston-ant1-to-tamam-",
+        "audio":  "media/scene-tamam.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=RF3aEUwJSxs",
+        "audioCredit":  "CrunchSweetie98",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Τζέμ ζηλεύει συμμαθητή της Έλλης || Ταμάμ Γ΄Κύκλος Επ.06"
+    },
+    {
+        "id":  "familiatv",
+        "kind":  "series",
+        "title":  "Η φαμίλια",
+        "year":  2020,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Φαμίλια",
+                        "La Famiglia"
+                    ],
+        "supporting":  [
+                           "Μιχάλης Σαράντης",
+                           "Ελεάνα Στραβοδήμου"
+                       ],
+        "leads":  [
+                      "Πυγμαλίων Δαδακαρίδης",
+                      "Ιωάννα Ασημακοπούλου"
+                  ],
+        "synopsis":  "Ένα ζευγάρι με τέσσερα παιδιά επισκέπτεται σύμβουλο γάμου και περιγράφει το χάος της οικογενειακής καθημερινότητας.",
+        "clue":  "Οικογενειακές εξομολογήσεις στον σύμβουλο γάμου.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Η_Φαμίλια_(2020)",
+        "audio":  "media/scene-familiatv.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=btrzbOvnbmE",
+        "audioCredit":  "gigos peris",
+        "audioStart":  0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η σωστή επιλογή νονού!!! - Η Φαμίλια"
+    },
+    {
+        "id":  "vaggelis",
+        "kind":  "series",
+        "title":  "Με λένε Βαγγέλη",
+        "year":  2011,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Άννα Δημητρίεβιτς",
+                           "Μιχάλης Αφολαγιάν"
+                       ],
+        "leads":  [
+                      "Βασίλης Χαραλαμπόπουλος",
+                      "Μάκης Παπαδημητρίου"
+                  ],
+        "synopsis":  "Ένας μικροαπατεώνας πιστεύει στο κάρμα και φτιάχνει μια λίστα για να διορθώσει τις αδικίες που έκανε στους άλλους.",
+        "clue":  "Μια λίστα καλών πράξεων αλλάζει τη ζωή ενός άντρα.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.in.gr/2011/11/11/entertainment/premiera-me-lene-baggeli/",
+        "audio":  "media/scene-vaggelis.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=jsf0Ct4xUds",
+        "audioCredit":  "TehPaul",
+        "audioStart":  4,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Με Λενε Βαγγελη:Πικνικ."
+    },
+    {
+        "id":  "palikaria",
+        "kind":  "series",
+        "title":  "Κάτι χωρισμένα παλικάρια",
+        "year":  2017,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Χάρης Σώζος",
+                           "Γιώργης Κοντοπόδης"
+                       ],
+        "leads":  [
+                      "Κώστας Κόκλας",
+                      "Μάριος Αθανασίου"
+                  ],
+        "synopsis":  "Πέντε άντρες μετά τους χωρισμούς τους συγκατοικούν, αναζητώντας ελευθερία και μια νέα αρχή, με πολλές κωμικές δυσκολίες.",
+        "clue":  "Πέντε νέες εργένικες ζωές σε ένα σπίτι.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.ishow.gr/production/1491864/kati-chorismena-palikaria",
+        "audio":  "media/scene-palikaria.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=gplSftrIN74",
+        "audioCredit":  "BrounoOd09",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Κάτι Χωρισμένα Παλικάρια - Βραδινή έξοδος (2/3)"
+    },
+    {
+        "id":  "brousko",
+        "kind":  "series",
+        "title":  "Μπρούσκο",
+        "year":  2013,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Brousko",
+                        "Brusko"
+                    ],
+        "supporting":  [
+                           "Στέφανος Μιχαήλ",
+                           "Μέλπω Κολόμβου"
+                       ],
+        "leads":  [
+                      "Ανδρέας Γεωργίου",
+                      "Ελένη Βαΐτσου"
+                  ],
+        "synopsis":  "Μια Κρητικιά και ένας Κύπριος ερωτεύονται λίγο πριν από τον γάμο της, προκαλώντας εντάσεις ανάμεσα σε δύο οικογένειες.",
+        "clue":  "Ένας απρόσμενος έρωτας συνδέει Κρήτη και Κύπρο.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.ishow.gr/production/1341721/broysko",
+        "audio":  "media/scene-brousko.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=iiHZEBJsz2U",
+        "audioCredit":  "Thalia Plat",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "\"Μπρούσκο\" - Ο Σήφης σώζει τον Αχιλλέα  (Επεισόδια 578 \u0026 579 / φινάλε)"
+    },
+    {
+        "id":  "klearchos",
+        "kind":  "movies",
+        "title":  "Ο Κλέαρχος, η Μαρίνα και ο κοντός",
+        "year":  1961,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Ο Κλέαρχος η Μαρίνα κι ο κοντός"
+                    ],
+        "supporting":  [
+                           "Πόπη Λάζου",
+                           "Έλσα Ρίζου"
+                       ],
+        "leads":  [
+                      "Βασίλης Αυλωνίτης",
+                      "Γεωργία Βασιλειάδου"
+                  ],
+        "synopsis":  "Ένας παντρεμένος άντρας χρησιμοποιεί τον γαμπρό του ως άλλοθι για να συναντήσει τη γειτόνισσα που φλερτάρει σε μια λουτρόπολη.",
+        "clue":  "Μια εκδρομή για λουτρά κρύβει πονηρά σχέδια.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/o-klearchos-i-marina-kai-o-kontos/",
+        "audio":  "media/scene-klearchos.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=wocVZvWh0c0",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Κλεαρχος η Μαρινα κι ο Κοντος  -  Αποσπασμα - HD."
+    },
+    {
+        "id":  "achortagos",
+        "kind":  "movies",
+        "title":  "Ο Αχόρταγος",
+        "year":  1967,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Αχόρταγος"
+                    ],
+        "supporting":  [
+                           "Δημήτρης Καλλιβωκάς",
+                           "Βαγγέλης Καζάν"
+                       ],
+        "leads":  [
+                      "Γιάννης Γκιωνάκης",
+                      "Μάρω Κοντού"
+                  ],
+        "synopsis":  "Ένας φτωχός νέος παντρεύεται την κόρη ενός πλούσιου επιχειρηματία, αλλά η ασταμάτητη απληστία του δοκιμάζει την οικογένεια.",
+        "clue":  "Από τη φτώχεια στην αφθονία, χωρίς να σταματούν οι απαιτήσεις.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.tvopen.gr/oaxortagos/about",
+        "audio":  "media/scene-achortagos.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=DsCq9Qdsmps",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Αχορταγος  -  Αποσπασμα -  HD."
+    },
+    {
+        "id":  "diefthyntis",
+        "kind":  "movies",
+        "title":  "Δεσποινίς διευθυντής",
+        "year":  1964,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Δις διευθυντής",
+                        "Δις διευθυντης"
+                    ],
+        "supporting":  [
+                           "Λίλη Παπαγιάννη",
+                           "Δημήτρης Νικολαΐδης"
+                       ],
+        "leads":  [
+                      "Τζένη Καρέζη",
+                      "Αλέκος Αλεξανδράκης"
+                  ],
+        "synopsis":  "Μια νεαρή μηχανικός αναλαμβάνει τη διεύθυνση εταιρείας και προσπαθεί να διαχειριστεί το φλερτ ενός συνεργάτη της.",
+        "clue":  "Επαγγελματική αυστηρότητα και έρωτας στο ίδιο γραφείο.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://www.filmy.gr/movies-database/miss-director/",
+        "audio":  "media/scene-diefthyntis.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=QiJH939hrBI",
+        "audioCredit":  "Alexandros Lazaridis",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Δεσποινίς Διευθυντής, Μια ζωντοχήρα που την φωνάζω μανούλα μου"
+    },
+    {
+        "id":  "kyria",
+        "kind":  "movies",
+        "title":  "Η κυρία του κυρίου",
+        "year":  1962,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Μπέτυ Μοσχονά",
+                           "Περικλής Χριστοφορίδης"
+                       ],
+        "leads":  [
+                      "Ντίνος Ηλιόπουλος",
+                      "Γκέλυ Μαυροπούλου"
+                  ],
+        "synopsis":  "Η γυναίκα ενός έντιμου υπαλλήλου βγάζει κρυφά χρήματα επηρεάζοντας τις επαγγελματικές του αποφάσεις και τα παρουσιάζει ως κληρονομιά.",
+        "clue":  "Λούσα και μια ύποπτη κληρονομιά αναστατώνουν ένα ζευγάρι.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/i-kyria-tou-kyriou/",
+        "audio":  "media/scene-kyria.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=kXPYjXidyl8",
+        "audioCredit":  "symeon1970",
+        "audioStart":  4,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η κυρία του κυρίου (Μπριτζίτ - Μονρόε).avi"
+    },
+    {
+        "id":  "klotsoskoufi",
+        "kind":  "movies",
+        "title":  "Το κλωτσοσκούφι",
+        "year":  1960,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Στέφανος Ληναίος",
+                           "Τζόλυ Γαρμπή"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Αλέκος Αλεξανδράκης"
+                  ],
+        "synopsis":  "Μια κοπέλα που χάνει συνεχώς τις δουλειές της ζητά βοήθεια για να μεταναστεύσει, αλλά γνωρίζει έναν γοητευτικό εφοπλιστή.",
+        "clue":  "Μια άτυχη κοπέλα αναζητά μια καλύτερη ζωή.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/to-klotsoskoufi/",
+        "audio":  "media/scene-klotsoskoufi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Oam1ZqEYnpM",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Το Κλωτσοσκουφι  -  Αποσπασμα -  HD."
+    },
+    {
+        "id":  "marixouana",
+        "kind":  "movies",
+        "title":  "Μαριχουάνα Στοπ",
+        "year":  1971,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Μαριχουάνα Stop",
+                        "Μαριχουανα στοπ"
+                    ],
+        "supporting":  [
+                           "Μιράντα Ζαφειροπούλου",
+                           "Μαρία Ιωαννίδου"
+                       ],
+        "leads":  [
+                      "Ζωή Λάσκαρη",
+                      "Γιώργος Πάντζας"
+                  ],
+        "synopsis":  "Τρία ξαδέρφια κληρονομούν ένα αρχοντικό στην Πλάκα, αλλά τα διαφορετικά σχέδιά τους και οι έρωτες προκαλούν αναστάτωση.",
+        "clue":  "Μια κληρονομιά στην Πλάκα φέρνει μουσική και μπερδέματα.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/marichouana-stop/",
+        "audio":  "media/scene-marixouana.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=nq_MyPlkOEA",
+        "audioCredit":  "scantzoxoiros",
+        "audioStart":  4,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Είστε όμως ωραία"
+    },
+    {
+        "id":  "xypolytos",
+        "kind":  "movies",
+        "title":  "Ο ξυπόλυτος πρίγκηψ",
+        "year":  1966,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Ο ξυπόλητος πρίγκηψ",
+                        "Ο ξυπόλυτος πρίγκιπας",
+                        "Ο ξυπόλητος πρίγκιπας"
+                    ],
+        "supporting":  [
+                           "Δημήτρης Καλλιβωκάς",
+                           "Νανά Σκιαδά"
+                       ],
+        "leads":  [
+                      "Κώστας Βουτσάς",
+                      "Μάρθα Καραγιάννη"
+                  ],
+        "synopsis":  "Ένας φτωχός νέος υποδύεται Άραβα πρίγκιπα σε ξενοδοχείο, προσπαθώντας να εξασφαλίσει χρήματα για να παντρευτεί την αγαπημένη του.",
+        "clue":  "Ένας συνηθισμένος άνθρωπος γίνεται ξαφνικά ευγενής.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/o-xypolytos-prigkips/",
+        "audio":  "media/scene-xypolytos.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PpyOhdY8YtA",
+        "audioCredit":  "Channel 100",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΑΠΟΣΠΑΣΜΑ ΑΠΟ ΤΗ ΤΑΙΝΙΑ «Ο ΞΥΠΟΛΗΤΟΣ ΠΡΙΓΚΗΨ» ΤΟΥ 1966 ΜΕ ΤΗ ΖΩΖΩ ΣΑΠΟΥΝΤΖΑΚΗ (27 ΜΑΪΟΥ 1933) 🎂"
+    },
+    {
+        "id":  "hippissa",
+        "kind":  "movies",
+        "title":  "Η θεία μου η χίπισσα",
+        "year":  1970,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Η θεία μου η χιπισσα"
+                    ],
+        "supporting":  [
+                           "Βασίλης Τσιβιλίκας",
+                           "Πόπη Άλβα"
+                       ],
+        "leads":  [
+                      "Ρένα Βλαχοπούλου",
+                      "Ανδρέας Μπάρκουλης"
+                  ],
+        "synopsis":  "Μια καθαρίστρια ξενοδοχείου προσποιείται την πλούσια κυρία για να υποδεχτεί την κόρη της και τον αρραβωνιαστικό της.",
+        "clue":  "Μια μητέρα κρύβει τη φτώχεια της πίσω από ένα μεγάλο τέχνασμα.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/i-theia-mou-i-chipissa/",
+        "audio":  "media/scene-hippissa.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=p4SgdK7iJJY",
+        "audioCredit":  "Dimitrios Thomadakis",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η θεία μου η χίπισσα - Μάταλα"
+    },
+    {
+        "id":  "komissa",
+        "kind":  "movies",
+        "title":  "Η κόμισσα της Κέρκυρας",
+        "year":  1972,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Η κόμησσα της Κέρκυρας"
+                    ],
+        "supporting":  [
+                           "Μάκης Δεμίρης",
+                           "Βαγγέλης Πλοιός"
+                       ],
+        "leads":  [
+                      "Ρένα Βλαχοπούλου",
+                      "Αλέκος Αλεξανδράκης"
+                  ],
+        "synopsis":  "Μια δασκάλα πιάνου φιλοξενεί Ιταλούς μουσικούς στο αρχοντικό της και αναλαμβάνει να αντικαταστήσει την τραγουδίστριά τους.",
+        "clue":  "Ένα αρχοντικό και ένα μουσικό συγκρότημα στο νησί.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/i-komissa-tis-kerkyras/",
+        "audio":  "media/scene-komissa.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=d_W1XvPVxPo",
+        "audioCredit":  "Raporto Di Corfu",
+        "audioStart":  4,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η κόμισσα της Κέρκυρας 1972 απόσπασμα 2"
+    },
+    {
+        "id":  "bouzoukia",
+        "kind":  "movies",
+        "title":  "Μια κυρία στα μπουζούκια",
+        "year":  1968,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Μία κυρία στα μπουζούκια"
+                    ],
+        "supporting":  [
+                           "Χρήστος Δοξαράς",
+                           "Μίλτος Κοντέας"
+                       ],
+        "leads":  [
+                      "Μαίρη Χρονοπούλου",
+                      "Κώστας Βουτσάς"
+                  ],
+        "synopsis":  "Μια πλούσια γυναίκα ερωτεύεται έναν νέο, ενώ η υπηρέτριά της υποδύεται την κυρία για να κερδίσει έναν άλλο άντρα.",
+        "clue":  "Ερωτικά μπερδέματα με μουσική και αλλαγές ταυτότητας.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-thirty",
+        "source":  "https://finosfilm.com/portfolio-items/mia-kyria-sta-bouzoukia/",
+        "audio":  "media/scene-bouzoukia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=2fUh7B8RKWA",
+        "audioCredit":  "BGMS - Best Greek Movie Scenes",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "1968  | ΜΙΑ ΚΥΡΙΑ ΣΤΑ ΜΠΟΥΖΟΥΚΙΑ |  \"Βανζέλ Παπαντό, όπως Βανγκ Γκόνγκ\" |  bgms"
     }
 ]

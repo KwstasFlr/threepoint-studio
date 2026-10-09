@@ -1,6 +1,6 @@
 # Scene audio sources
 
-86 seven-second film and TV scene excerpts. Upload credits identify the sources and do not establish a reuse licence.
+106 seven-second film and TV scene excerpts. Source credits identify uploads and do not establish a reuse licence.
 
 - Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
 - Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
@@ -88,3 +88,23 @@
 - Πέτα τη φριτέζα: [maximillion pegasus](https://www.youtube.com/watch?v=BN1LydL-Amw), 10–17s; Πετα την φριτεζα μοναδικο ροκανιδι.
 - Ο πρώτος από εμάς: [ANT1 TV](https://www.youtube.com/watch?v=1JnlAFptLWc), 180–187s; Ο ΠΡΩΤΟΣ ΑΠΟ ΕΜΑΣ - ΕΠΕΙΣΟΔΙΟ 01.
 - Οι Συμμαθητές: [Tamam Videos](https://www.youtube.com/watch?v=W52fLoeLzZw), 25–32s; Συμμαθητές|ΟΑντρέας παρηγορεί την Μαριλένα|Πάρτυ Λυκείου||Tamam Videos.
+- Της Ελλάδος τα παιδιά: [Νίκος Βυνηρής](https://www.youtube.com/watch?v=O9Sd0XB6hys), 10–17s; Της Ελλάδος τα Παιδιά, Χλαπάτσας επικό γλείψιμο.
+- Το καρέ της ντάμας: [LaraF](https://www.youtube.com/watch?v=bqnm9Iv2kEg), 25–32s; Το καρέ της ντάμας Aσπασία Μηλιαράκη.
+- Περί ανέμων και υδάτων: [Giannis Pit](https://www.youtube.com/watch?v=KFbbHxGvm1w), 25–32s; "ΠΕΡΙ ΑΝΕΜΩΝ  & ΥΔΑΤΩΝ"  ΣΚΗΝΗ με τον μονόλογο του Μπαμπη.
+- Το σημάδι του έρωτα: [Elementstv1989](https://www.youtube.com/watch?v=LYN6sX4BkOo), 25–32s; Mega.To.shmadi.tou.erwta.E03-GrLTv.avi.
+- Λαβ σόρρυ: [Greek TV HD](https://www.youtube.com/watch?v=fdWnCdeEbyk), 180–187s; Love Sorry - Episode 1 HD | Who sings in the bathroom.
+- Ταμάμ: [CrunchSweetie98](https://www.youtube.com/watch?v=RF3aEUwJSxs), 10–17s; Ο Τζέμ ζηλεύει συμμαθητή της Έλλης || Ταμάμ Γ΄Κύκλος Επ.06.
+- Η φαμίλια: [gigos peris](https://www.youtube.com/watch?v=btrzbOvnbmE), 0–7s; Η σωστή επιλογή νονού!!! - Η Φαμίλια.
+- Με λένε Βαγγέλη: [TehPaul](https://www.youtube.com/watch?v=jsf0Ct4xUds), 4–11s; Με Λενε Βαγγελη:Πικνικ..
+- Κάτι χωρισμένα παλικάρια: [BrounoOd09](https://www.youtube.com/watch?v=gplSftrIN74), 25–32s; Κάτι Χωρισμένα Παλικάρια - Βραδινή έξοδος (2/3).
+- Μπρούσκο: [Thalia Plat](https://www.youtube.com/watch?v=iiHZEBJsz2U), 25–32s; "Μπρούσκο" - Ο Σήφης σώζει τον Αχιλλέα  (Επεισόδια 578 & 579 / φινάλε).
+- Ο Κλέαρχος, η Μαρίνα και ο κοντός: [George Samos 65.](https://www.youtube.com/watch?v=wocVZvWh0c0), 25–32s; Ο Κλεαρχος η Μαρινα κι ο Κοντος  -  Αποσπασμα - HD..
+- Ο Αχόρταγος: [George Samos 65.](https://www.youtube.com/watch?v=DsCq9Qdsmps), 10–17s; Ο Αχορταγος  -  Αποσπασμα -  HD..
+- Δεσποινίς διευθυντής: [Alexandros Lazaridis](https://www.youtube.com/watch?v=QiJH939hrBI), 10–17s; Δεσποινίς Διευθυντής, Μια ζωντοχήρα που την φωνάζω μανούλα μου.
+- Η κυρία του κυρίου: [symeon1970](https://www.youtube.com/watch?v=kXPYjXidyl8), 4–11s; Η κυρία του κυρίου (Μπριτζίτ - Μονρόε).avi.
+- Το κλωτσοσκούφι: [George Samos 65.](https://www.youtube.com/watch?v=Oam1ZqEYnpM), 25–32s; Το Κλωτσοσκουφι  -  Αποσπασμα -  HD..
+- Μαριχουάνα Στοπ: [scantzoxoiros](https://www.youtube.com/watch?v=nq_MyPlkOEA), 4–11s; Είστε όμως ωραία.
+- Ο ξυπόλυτος πρίγκηψ: [Channel 100](https://www.youtube.com/watch?v=PpyOhdY8YtA), 25–32s; ΑΠΟΣΠΑΣΜΑ ΑΠΟ ΤΗ ΤΑΙΝΙΑ «Ο ΞΥΠΟΛΗΤΟΣ ΠΡΙΓΚΗΨ» ΤΟΥ 1966 ΜΕ ΤΗ ΖΩΖΩ ΣΑΠΟΥΝΤΖΑΚΗ (27 ΜΑΪΟΥ 1933) 🎂.
+- Η θεία μου η χίπισσα: [Dimitrios Thomadakis](https://www.youtube.com/watch?v=p4SgdK7iJJY), 10–17s; Η θεία μου η χίπισσα - Μάταλα.
+- Η κόμισσα της Κέρκυρας: [Raporto Di Corfu](https://www.youtube.com/watch?v=d_W1XvPVxPo), 4–11s; Η κόμισσα της Κέρκυρας 1972 απόσπασμα 2.
+- Μια κυρία στα μπουζούκια: [BGMS - Best Greek Movie Scenes](https://www.youtube.com/watch?v=2fUh7B8RKWA), 25–32s; 1968  | ΜΙΑ ΚΥΡΙΑ ΣΤΑ ΜΠΟΥΖΟΥΚΙΑ |  "Βανζέλ Παπαντό, όπως Βανγκ Γκόνγκ" |  bgms.
