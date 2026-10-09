@@ -3311,15 +3311,15 @@
         "year":  1990,
         "originalFormat":  "color",
         "aliases":  [
-                      "Γαμπρος με το ζορι"
+                        "Γαμπρος με το ζορι"
                     ],
         "supporting":  [
-                         "Κώστας Φλωράτος",
-                         "Άκης Φλωρέντης"
+                           "Κώστας Φλωράτος",
+                           "Άκης Φλωρέντης"
                        ],
         "leads":  [
-                    "Κώστας Βουτσάς",
-                    "Βάνα Ζάκα"
+                      "Κώστας Βουτσάς",
+                      "Βάνα Ζάκα"
                   ],
         "synopsis":  "Ένας μετανάστης βρίσκεται κατά λάθος σε ένα μικρό νησί, όπου έξι αδέλφια, εξαιτίας μιας παρεξήγησης, επιμένουν να τον παντρέψουν με την αδελφή τους.",
         "clue":  "Έξι αδέλφια, ένα μικρό νησί και ένας επισκέπτης που μπλέκεται σε προξενιό.",
@@ -3342,16 +3342,16 @@
         "year":  1954,
         "originalFormat":  "bw",
         "aliases":  [
-                      "Ανοικτή θάλασσα",
-                      "Ανοιχτη θαλασσα"
+                        "Ανοικτή θάλασσα",
+                        "Ανοιχτη θαλασσα"
                     ],
         "supporting":  [
-                         "Θάνος Τζενεράλης",
-                         "Ελένη Ζαφειρίου"
+                           "Θάνος Τζενεράλης",
+                           "Ελένη Ζαφειρίου"
                        ],
         "leads":  [
-                    "Γιώργος Φούντας",
-                    "Σμαρούλα Γιούλη"
+                      "Γιώργος Φούντας",
+                      "Σμαρούλα Γιούλη"
                   ],
         "synopsis":  "Μια νεαρή νησιωτοπούλα αρνείται τον γάμο που της έχει κανονίσει ο πατέρας της, μαθαίνει ένα μυστικό για την καταγωγή της και η ζωή της αλλάζει όταν εμφανίζεται ένας ναυαγός.",
         "clue":  "Ένα νησί, ένα προξενιό που δεν θέλει η νύφη και ένας ναυαγός.",
@@ -3374,16 +3374,16 @@
         "year":  1990,
         "originalFormat":  "color",
         "aliases":  [
-                      "Περασμα",
-                      "Το περασμα"
+                        "Περασμα",
+                        "Το περασμα"
                     ],
         "supporting":  [
-                         "Βαγγέλης Λιοδάκης",
-                         "Τάσος Πολυχρονόπουλος"
+                           "Βαγγέλης Λιοδάκης",
+                           "Τάσος Πολυχρονόπουλος"
                        ],
         "leads":  [
-                    "Γιώργος Νινιός",
-                    "Καρυοφυλλιά Καραμπέτη"
+                      "Γιώργος Νινιός",
+                      "Καρυοφυλλιά Καραμπέτη"
                   ],
         "synopsis":  "Δύο φαντάροι επιστρέφουν από τη θητεία τους, όμως μια βίαιη συμπλοκή κάνει τον έναν φυγά, που προσπαθεί να διαφύγει από τη χώρα με τη βοήθεια μιας οδηγού νταλίκας.",
         "clue":  "Ένας φυγάς, μια οδηγός νταλίκας και τα σύνορα στον ορίζοντα.",
@@ -3398,5 +3398,938 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "ΤΟ ΠΕΡΑΣΜΑ - ΓΙΩΡΓΟΣ ΝΙΝΙΟΣ - 1990 - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ"
+    },
+    {
+        "id":  "emeis",
+        "kind":  "series",
+        "title":  "Εμείς κι εμείς",
+        "year":  1994,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Στέλιος Παύλου",
+                           "Μαρία Φιλίππου"
+                       ],
+        "leads":  [
+                      "Νατάσσα Μανίσαλη",
+                      "Αντώνης Ξένος"
+                  ],
+        "synopsis":  "Μια παρέα γειτόνων μοιράζεται την καθημερινότητα, τους έρωτες και τις παρεξηγήσεις της σε μια αθηναϊκή γειτονιά.",
+        "clue":  "Μια γειτονιά γεμάτη φιλίες και κωμικές ανατροπές.",
+        "source":  "https://www.ordino.gr/movie_detail.asp?id=454",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-emeis.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=9NPZZgzHwk4",
+        "audioCredit":  "Mega Tv",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΕΜΕΙΣ ΚΙ ΕΜΕΙΣ Ε36 - Σκηνές"
+    },
+    {
+        "id":  "afthairetoi",
+        "kind":  "series",
+        "title":  "Οι αυθαίρετοι",
+        "year":  1989,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Αυθαίρετοι"
+                    ],
+        "supporting":  [
+                           "Θέμης Μάνεσης",
+                           "Ισαβέλλα Βλασσιάδου"
+                       ],
+        "leads":  [
+                      "Χρήστος Βαλαβανίδης",
+                      "Δημήτρης Πουλικάκος"
+                  ],
+        "synopsis":  "Δύο οικογένειες με διαφορετικούς χαρακτήρες μπλέκονται σε καβγάδες, οικονομικές δυσκολίες και αλλόκοτες καθημερινές καταστάσεις.",
+        "clue":  "Δύο οικογένειες και συνεχείς συγκρούσεις.",
+        "source":  "https://socinety.com/en/show/the-arbitrary-1989",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-afthairetoi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=vzvEMZXRqD0",
+        "audioCredit":  "Mega Tv",
+        "audioStart":  90,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΑΥΘΑΙΡΕΤΟΙ - Τελευταία σκηνή"
+    },
+    {
+        "id":  "tmima",
+        "kind":  "series",
+        "title":  "Τμήμα ηθών",
+        "year":  1992,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Θεόφιλος Βανδώρος",
+                           "Βερόνικα Αργιέντζη"
+                       ],
+        "leads":  [
+                      "Απόστολος Γκλέτσος",
+                      "Πάνος Μιχαλόπουλος"
+                  ],
+        "synopsis":  "Μια ομάδα αστυνομικών ερευνά εγκλήματα, εκβιασμούς και σκοτεινές υποθέσεις, με διαφορετική ιστορία σε κάθε επεισόδιο.",
+        "clue":  "Αυτοτελείς αστυνομικές ιστορίες στην Αθήνα.",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Τμήμα_ηθών",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-tmima.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=5enNlNU69tg",
+        "audioCredit":  "Theoharisactor",
+        "audioStart":  196.4,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΤΜΗΜΑ ΗΘΩΝ   ΕΠΕΙΣΟΔΙΟ 79-  Τμήμα ηθών: Καταδίωξη μέσα στη νύχτα"
+    },
+    {
+        "id":  "drosoulites",
+        "kind":  "series",
+        "title":  "Δροσουλίτες",
+        "year":  2001,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Κώστας Τριανταφυλλόπουλος",
+                           "Γιώργος Γαλίτης"
+                       ],
+        "leads":  [
+                      "Πέτρος Φιλιππίδης",
+                      "Ρένια Λουιζίδου"
+                  ],
+        "synopsis":  "Ένας άντρας φεύγει από την Κρήτη για να δουλέψει στη Μύκονο και ερωτεύεται την κόρη ενός μεγάλου εφοπλιστή.",
+        "clue":  "Ένας νησιωτικός έρωτας ανάμεσα σε διαφορετικούς κόσμους.",
+        "source":  "https://www.retrodb.gr/wiki/index.php/Δροσουλίτες",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-drosoulites.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JPmPkWvGuqk",
+        "audioCredit":  "StarTvGreece",
+        "audioStart":  550.7,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΔΡΟΣΟΥΛΙΤΕΣ - Επεισόδιο 1"
+    },
+    {
+        "id":  "volta",
+        "kind":  "series",
+        "title":  "Η ζωή μας μια βόλτα",
+        "year":  1999,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Η ζωή μας μία βόλτα"
+                    ],
+        "supporting":  [
+                           "Χάρης Ασημακόπουλος",
+                           "Γωγώ Μπρέμπου"
+                       ],
+        "leads":  [
+                      "Χριστόφορος Παπακαλιάτης",
+                      "Φιλαρέτη Κομνηνού"
+                  ],
+        "synopsis":  "Πέντε φίλοι από την Κρήτη ετοιμάζονται να εγκατασταθούν στην Αθήνα, ενώ ένας έρωτας με μια μεγαλύτερη γυναίκα αλλάζει τις ζωές τους.",
+        "clue":  "Φιλία, ενηλικίωση και ένας δύσκολος έρωτας.",
+        "source":  "https://www.ordino.gr/movie_detail.asp?id=507",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-volta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=UW3dovDziMM",
+        "audioCredit":  "itsgreektime",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η ΖΩΗ ΜΑΣ ΜΙΑ ΒΟΛΤΑ Επεισόδιο 4"
+    },
+    {
+        "id":  "tatouaz",
+        "kind":  "series",
+        "title":  "Το τατουάζ",
+        "year":  2017,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Τατουάζ"
+                    ],
+        "supporting":  [
+                           "Χρύσα Παπά",
+                           "Έλενα Λιασίδου"
+                       ],
+        "leads":  [
+                      "Στέφανος Μιχαήλ",
+                      "Δανάη Παππά"
+                  ],
+        "synopsis":  "Έρωτες, οικογενειακά μυστικά και εγκλήματα συνδέουν ανθρώπους σε διαφορετικούς τόπους, ενώ μια σκοτεινή αστυνομική υπόθεση εξελίσσεται παράλληλα.",
+        "clue":  "Έρωτας και ένα επικίνδυνο μυστήριο.",
+        "source":  "https://www.alphatv.gr/series/to-tatoyaz/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-tatouaz.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=3--DKFwf928",
+        "audioCredit":  "tvseriesgr",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Τατουάζ Β Κύκλος Επεισόδιο 15 Αλέξανδρος Άννα"
+    },
+    {
+        "id":  "syrmata",
+        "kind":  "series",
+        "title":  "Στα σύρματα",
+        "year":  2023,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Πάνος Σταθακόπουλος",
+                           "Τάσος Παλαντζίδης"
+                       ],
+        "leads":  [
+                      "Θανάσης Τσαλταμπάσης",
+                      "Ιβάν Σβιτάιλο"
+                  ],
+        "synopsis":  "Ένας άντρας φυλακίζεται για οικονομική απάτη και γνωρίζει έναν σκληρό συγκρατούμενο, ενώ ένα τηλεφωνικό πρόγραμμα εκτόνωσης θυμού φέρνει κωμικά μπλεξίματα.",
+        "clue":  "Μια απρόσμενη φιλία μέσα στη φυλακή.",
+        "source":  "https://press.ert.gr/grafeio-typou-ert/ert1-sta-syrmata-premiera-paraskeyi-22-09-2023-stis-21-45-mia-xekardistiki-komiki-seira-me-spartaristes-katastaseis-kai-anatropes/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-syrmata.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=oqTJjrLPVGY",
+        "audioCredit":  "ΕΡΤ Α.Ε.",
+        "audioStart":  76,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Αρκούδας εντοπίζει τον Σπύρο και ενημερώνει τον Ιούλιο | Στα σύρματα-Επ.23 | ΕΡΤ"
+    },
+    {
+        "id":  "koimasai",
+        "kind":  "series",
+        "title":  "Κάνε ότι κοιμάσαι",
+        "year":  2022,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Κάνε ό,τι κοιμάσαι",
+                        "Κάνε ότι κοιμάσαι ΙΙ"
+                    ],
+        "supporting":  [
+                           "Νικολέτα Κοτσαηλίδου",
+                           "Μιχάλης Οικονόμου"
+                       ],
+        "leads":  [
+                      "Σπύρος Παπαδόπουλος",
+                      "Έμιλυ Κολιανδρή"
+                  ],
+        "synopsis":  "Ένας καθηγητής λυκείου βρίσκεται αντιμέτωπος με βίαια εγκλήματα και μυστικά που απειλούν την οικογένεια, τους μαθητές και την καθημερινότητά του.",
+        "clue":  "Ένας καθηγητής μπλέκεται σε ένα σκοτεινό μυστήριο.",
+        "source":  "https://www.gazzetta.gr/plus/2152970/kane-oti-koimasai-giati-oloi-miloyn-gia-ti-nea-seira-tis-ert1-me-ton-spyro-papadopoylo",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-koimasai.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=jiPiEyk9W34",
+        "audioCredit":  "ΕΡΤ Α.Ε.",
+        "audioStart":  48.4,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Δαμασκηνός κρύβεται πίσω από την επίθεση στον Χρήστο! | Κάνε ότι Κοιμάσαι ΙΙ - Eπεισόδιο 60 | ΕΡΤ"
+    },
+    {
+        "id":  "paralia",
+        "kind":  "series",
+        "title":  "Η παραλία",
+        "year":  2023,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Παραλία"
+                    ],
+        "supporting":  [
+                           "Νικόλας Παπαγιάννης",
+                           "Δημοσθένης Παπαδόπουλος"
+                       ],
+        "leads":  [
+                      "Δανάη Μιχαλάκη",
+                      "Δημήτρης Μοθωναίος"
+                  ],
+        "synopsis":  "Μια νεαρή γιατρός επιστρέφει στα Μάταλα του 1969, όπου έρωτες, οικογενειακά μυστικά και η κοινότητα των χίπις ανατρέπουν τα σχέδιά της.",
+        "clue":  "Μια επιστροφή στην Κρήτη την εποχή των χίπις.",
+        "source":  "https://press.ert.gr/grafeio-typou-ert/i-mythoplasia-xekinaei-stin-ertworld-kai-mas-taxideyei-me-nees-seires-premiera-deytera-25-septemvrioy-2023/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-paralia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PWnvcKvuhJM",
+        "audioCredit":  "ΕΡΤ Α.Ε.",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Γράντος σε Κερασία: «Ήθελα να σε δω» | Η παραλία - Επ. 97 | ΕΡΤ"
+    },
+    {
+        "id":  "iq160",
+        "kind":  "series",
+        "title":  "IQ 160",
+        "year":  2023,
+        "originalFormat":  null,
+        "aliases":  [
+                        "IQ160",
+                        "Άι Κιου 160"
+                    ],
+        "supporting":  [
+                           "Ηλίας Μουλάς",
+                           "Ελίζα Σκολίδη"
+                       ],
+        "leads":  [
+                      "Σμαράγδα Καρύδη",
+                      "Νίκος Κουρής"
+                  ],
+        "synopsis":  "Μια καθαρίστρια με εξαιρετική ευφυΐα συνεργάζεται με έναν αυστηρό αστυνομικό στην εξιχνίαση εγκλημάτων, παραβιάζοντας συχνά τους κανόνες του.",
+        "clue":  "Ένα αστυνομικό δίδυμο που συνδυάζει ευφυΐα και κωμωδία.",
+        "source":  "https://www.star.gr/lifestyle/media/670070/iq-160-oi-hthopoioi-kai-xarakthres-ths-seiras-toy-star/amp",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-iq160.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=wmuK1TRt3NI",
+        "audioCredit":  "StarTvGreece",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "IQ 160 | Ποιανού είναι τελικά το φούτερ;"
+    },
+    {
+        "id":  "mantalena",
+        "kind":  "movies",
+        "title":  "Μανταλένα",
+        "year":  1960,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Θόδωρος Μορίδης",
+                           "Γιώργος Δαμασιώτης"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Δημήτρης Παπαμιχαήλ"
+                  ],
+        "synopsis":  "Μια κοπέλα αναλαμβάνει το καΐκι του πατέρα της για να θρέψει τα αδέλφια της, αλλά συναντά τη δυσπιστία των κατοίκων και έναν απρόσμενο έρωτα.",
+        "clue":  "Μια καπετάνισσα αγωνίζεται σε ένα κυκλαδίτικο νησί.",
+        "source":  "https://finosfilm.com/portfolio-items/mantalena/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-mantalena.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=_UDYVB8ybsw",
+        "audioCredit":  "Έλλη Γρατσία",
+        "audioStart":  12.2,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μανταλένα 1960- Η σκηνή  των Θεοφανείων"
+    },
+    {
+        "id":  "thisavros",
+        "kind":  "movies",
+        "title":  "Ο θησαυρός του μακαρίτη",
+        "year":  1959,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Στέφανος Ληναίος",
+                           "Γιώργος Λευτεριώτης"
+                       ],
+        "leads":  [
+                      "Γεωργία Βασιλειάδου",
+                      "Βασίλης Αυλωνίτης"
+                  ],
+        "synopsis":  "Μια γυναίκα και η ανιψιά της διαδίδουν ότι υπάρχει κρυμμένος θησαυρός στο σπίτι τους, ώστε να προσελκύσουν ενοικιαστές στα άδεια δωμάτια.",
+        "clue":  "Ένα έξυπνο τέχνασμα γεμίζει ένα παλιό σπίτι.",
+        "source":  "https://finosfilm.com/portfolio-items/o-thisavros-tou-makariti/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-thisavros.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=enqhs_e-09Y",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  1.8,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Θησαυρος του Μακαριτη  -  Αποσπασμα -  HD."
+    },
+    {
+        "id":  "papatrexas",
+        "kind":  "movies",
+        "title":  "Ο Παπατρέχας",
+        "year":  1966,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Παπατρέχας"
+                    ],
+        "supporting":  [
+                           "Νίτσα Μαρούδα",
+                           "Κώστας Μεντής"
+                       ],
+        "leads":  [
+                      "Θανάσης Βέγγος",
+                      "Σούλη Σαμπάχ"
+                  ],
+        "synopsis":  "Ένας θυρωρός προσπαθεί να παντρέψει τις πολλές αδελφές και τις θείες του, πριν μπορέσει να φτιάξει τη δική του ζωή.",
+        "clue":  "Ένας ακούραστος άνθρωπος τρέχει για όλη την οικογένεια.",
+        "source":  "https://ellinikoskinimatografos.gr/o-papatrechas-2/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-papatrexas.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=wRKCvbVUBfc",
+        "audioCredit":  "Giannis christopoulos",
+        "audioStart":  26.6,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΒΕΓΓΟΣ - ΠΑΠΑΤΡΕΧΑΣ - Η θεία θέλει παντρειά.mp4"
+    },
+    {
+        "id":  "katafertzis",
+        "kind":  "movies",
+        "title":  "Ο καταφερτζής",
+        "year":  1964,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Ο Βέγγος δραγουμάνος",
+                        "Θανάσης ο αθάνατος"
+                    ],
+        "supporting":  [
+                           "Νίκος Φέρμας",
+                           "Περικλής Χριστοφορίδης"
+                       ],
+        "leads":  [
+                      "Θανάσης Βέγγος",
+                      "Σιμόνη Κυριακίδου"
+                  ],
+        "synopsis":  "Ένας άφραγκος άντρας παίρνει τη θέση του ξαδέλφου του ως ξεναγός και φορτώνεται τις ερωτικές υποχρεώσεις και τα προβλήματά του.",
+        "clue":  "Μια αλλαγή ταυτότητας σε τουριστικό γραφείο φέρνει μπελάδες.",
+        "source":  "https://www.filmy.gr/movies-database/the-hustler-1964/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-katafertzis.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=FJWl0nxOMS0",
+        "audioCredit":  "Happiness Cloud Channel",
+        "audioStart":  29.7,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο Χασάπης θα τον κάνει παϊδάκια - Ο Καταφερτζής Νο3"
+    },
+    {
+        "id":  "exypnakias",
+        "kind":  "movies",
+        "title":  "Ο εξυπνάκιας",
+        "year":  1966,
+        "originalFormat":  "bw",
+        "aliases":  [
+                        "Εξυπνάκιας"
+                    ],
+        "supporting":  [
+                           "Νικήτας Πλατής",
+                           "Αλέκος Τζανετάκος"
+                       ],
+        "leads":  [
+                      "Δημήτρης Παπαμιχαήλ",
+                      "Μαριάννα Κουράκου"
+                  ],
+        "synopsis":  "Ένας έξυπνος νέος παριστάνει τον αφελή για να προσληφθεί στην επιχείρηση του πατέρα της αγαπημένης του και να κερδίσει την εμπιστοσύνη του.",
+        "clue":  "Η εξυπνάδα κρύβεται πίσω από μια αθώα εμφάνιση.",
+        "source":  "https://www.ishow.gr/production/258556/o-exypnakias",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-exypnakias.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=QGAdi8H2z0A",
+        "audioCredit":  "George Elefteriadis",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο ΕΞΥΠΝΑΚΙΑΣ (1966) ΤΙ ΔΙΑΜΑΝΤΙ ΜΟΥ ΕΣΤΕΙΛΕΣ ΒΑΣΙΛΗ"
+    },
+    {
+        "id":  "filima",
+        "kind":  "movies",
+        "title":  "Κορίτσια για φίλημα",
+        "year":  1965,
+        "originalFormat":  "color",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Χλόη Λιάσκου",
+                           "Ανδρέας Ντούζος"
+                       ],
+        "leads":  [
+                      "Ζωή Λάσκαρη",
+                      "Ρένα Βλαχοπούλου"
+                  ],
+        "synopsis":  "Μια διευθύντρια τουριστικού γραφείου φτάνει στη Ρόδο με την ανιψιά της, όπου δύο νέοι αλλάζουν ταυτότητες και προκαλούν ερωτικές παρεξηγήσεις.",
+        "clue":  "Διακοπές, αλλαγές ρόλων και ερωτικά μπερδέματα.",
+        "source":  "https://finosfilm.com/portfolio-items/koritsia-gia-filima/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-filima.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=m0_bNwZwWwQ",
+        "audioCredit":  "Christina Tes",
+        "audioStart":  7,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Εμφάνιση του Δαλιανίδη στην ταινία \u0027\u0027Κορίτσια για φίλημα\u0027\u0027 1964"
+    },
+    {
+        "id":  "tzeni",
+        "kind":  "movies",
+        "title":  "Τζένη Τζένη",
+        "year":  1966,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Τζένη, Τζένη"
+                    ],
+        "supporting":  [
+                           "Μαίρη Λαλοπούλου",
+                           "Δημήτρης Καλλιβωκάς"
+                       ],
+        "leads":  [
+                      "Τζένη Καρέζη",
+                      "Ανδρέας Μπάρκουλης"
+                  ],
+        "synopsis":  "Μια κοπέλα στις Σπέτσες δέχεται έναν λευκό γάμο για να βοηθήσει οικονομικά τον πατέρα της, ενώ οι τοπικές πολιτικές αντιπαλότητες περιπλέκουν τα πάντα.",
+        "clue":  "Εκλογές και ένας γάμος συμφέροντος σε ένα νησί.",
+        "source":  "https://finosfilm.com/portfolio-items/tzeni-tzeni/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-tzeni.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=--hy3Dgnnzw",
+        "audioCredit":  "Happiness Cloud Channel",
+        "audioStart":  44.1,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Σπουδαίος βουλευτής θα γίνεις! - Τζένη, Τζένη Νο8"
+    },
+    {
+        "id":  "sarantara",
+        "kind":  "movies",
+        "title":  "Μια τρελή τρελή σαραντάρα",
+        "year":  1970,
+        "originalFormat":  "color",
+        "aliases":  [
+                        "Μία τρελή τρελή σαραντάρα"
+                    ],
+        "supporting":  [
+                           "Μέλπω Ζαρόκωστα",
+                           "Γιώργος Γαβριηλίδης"
+                       ],
+        "leads":  [
+                      "Ρένα Βλαχοπούλου",
+                      "Ανδρέας Μπάρκουλης"
+                  ],
+        "synopsis":  "Μια εύθυμη χήρα ερωτεύεται έναν νεότερο μουσικό, ενώ τα αδέλφια της θέλουν να την παντρέψουν με έναν πλούσιο ηλικιωμένο.",
+        "clue":  "Ένας έρωτας συγκρούεται με τα οικογενειακά σχέδια.",
+        "source":  "https://www.filmy.gr/movies-database/a-crazy-crazy-40-year-old/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-sarantara.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=jyeDzCfXqBE",
+        "audioCredit":  "BronzeFairy1",
+        "audioStart":  1,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μια τρελή σαραντάρα - Το γράμμα"
+    },
+    {
+        "id":  "zesti",
+        "kind":  "movies",
+        "title":  "Ο άνθρωπος που γύρισε από τη ζέστη",
+        "year":  1972,
+        "originalFormat":  "color",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Πάνος Τουλιάτος",
+                           "Έλια Καλλιγεράκη"
+                       ],
+        "leads":  [
+                      "Λάμπρος Κωνσταντάρας",
+                      "Καίτη Πάνου"
+                  ],
+        "synopsis":  "Ένας άντρας επιστρέφει από την Αφρική ύστερα από είκοσι χρόνια και δυσκολεύεται να καταλάβει τις επιλογές της οικογένειάς του.",
+        "clue":  "Μια επιστροφή στην πατρίδα με πολλές εκπλήξεις.",
+        "source":  "https://www.tvopen.gr/oanthropospoygyriseapothzesth/about",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-zesti.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=o_BnfcCmRsw",
+        "audioCredit":  "Happiness Cloud Channel",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μαύρισε το μάτι μου για άσπρο... - Ο Άνθρωπος που Γύρισε από τη Ζέστη Νο1"
+    },
+    {
+        "id":  "daskala",
+        "kind":  "movies",
+        "title":  "Η δασκάλα με τα ξανθά μαλλιά",
+        "year":  1969,
+        "originalFormat":  "color",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Μάκης Ρευματάς",
+                           "Νότης Περγιάλης"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Δημήτρης Παπαμιχαήλ"
+                  ],
+        "synopsis":  "Μια νεαρή δασκάλα φτάνει σε ένα χωριό, ερωτεύεται και παντρεύεται, αλλά ο πόλεμος ανατρέπει τη ζωή του ζευγαριού.",
+        "clue":  "Έρωτας και πόλεμος αλλάζουν τη ζωή μιας δασκάλας.",
+        "source":  "https://finosfilm.com/portfolio-items/i-daskala-me-ta-xantha-mallia/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-twenty",
+        "audio":  "media/scene-daskala.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Ysd0P7fgJUA",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  36.6,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η Δασκαλα με τα Ξανθα Μαλλια  - Αποσπασμα -  HD."
+    },
+    {
+        "id":  "bekas",
+        "kind":  "series",
+        "title":  "Οι ιστορίες του αστυνόμου Μπέκα",
+        "year":  2006,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Πηνελόπη Αναστασοπούλου",
+                           "Κώστας Αποστολίδης"
+                       ],
+        "leads":  [
+                      "Ιεροκλής Μιχαηλίδης",
+                      "Πυγμαλίων Δαδακαρίδης"
+                  ],
+        "synopsis":  "Ένας έμπειρος αστυνομικός και οι συνεργάτες του λύνουν περίπλοκες υποθέσεις, αναζητώντας την αλήθεια πίσω από ύποπτα πρόσωπα και παραπλανητικά στοιχεία.",
+        "clue":  "Αυτοτελή αστυνομικά μυστήρια.",
+        "source":  "https://www.alphatv.gr/series/oi-istories-toy-astynomoy-mpeka/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-bekas.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=D5Tro83P-Us",
+        "audioCredit":  "Alpha TV Greece",
+        "audioStart":  605,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Οι Ιστορίες του Αστυνόμου Μπέκα S2 - Επεισόδιο 17"
+    },
+    {
+        "id":  "petheres",
+        "kind":  "series",
+        "title":  "Επτά θανάσιμες πεθερές",
+        "year":  2004,
+        "originalFormat":  null,
+        "aliases":  [
+                        "7 θανάσιμες πεθερές"
+                    ],
+        "supporting":  [
+                           "Ζωή Πέτρου",
+                           "Πέτρος Πετράκης"
+                       ],
+        "leads":  [
+                      "Χρυσούλα Διαβάτη",
+                      "Γιάννης Αϊβάζης"
+                  ],
+        "synopsis":  "Διαφορετικές οικογενειακές ιστορίες παρουσιάζουν πεθερές που παρεμβαίνουν στους έρωτες και στους γάμους των παιδιών τους, προκαλώντας κωμικές συγκρούσεις.",
+        "clue":  "Οικογενειακές παρεμβάσεις με πολλές διαφορετικές ηρωίδες.",
+        "source":  "https://www.megatv.com/tvshows/110427/epeisodio-077-3/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-petheres.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=sRH1YGyIZnc",
+        "audioCredit":  "Greek TV HD",
+        "audioStart":  604,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Επτά Θανάσιμες Πεθερές - Επεισόδιο 138 HD | Η Παριανή Πεθερά, Μέρος Γ\u0027"
+    },
+    {
+        "id":  "domatio",
+        "kind":  "series",
+        "title":  "Το κόκκινο δωμάτιο",
+        "year":  2005,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Χρήστος Τριπόδης",
+                           "Μάνος Ψιστάκης"
+                       ],
+        "leads":  [
+                      "Αλέξανδρος Ρήγας",
+                      "Βασιλική Ανδρίτσου"
+                  ],
+        "synopsis":  "Μια σουίτα ξενοδοχείου φιλοξενεί διαφορετικούς επισκέπτες και απρόβλεπτες ιστορίες, ενώ το προσωπικό μπλέκεται στα μυστικά και στις παρεξηγήσεις τους.",
+        "clue":  "Αυτοτελείς ιστορίες σε μια ξενοδοχειακή σουίτα.",
+        "source":  "https://www.megatv.com/ekpompes/43226/to-kokkino-dmatio",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-domatio.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=k-xybmgPcXc",
+        "audioCredit":  "Κωνσταντίνος Κ",
+        "audioStart":  0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "όποιος παντρεύεται για το sex! (Κόκκινο Δωμάτιο)"
+    },
+    {
+        "id":  "polykatoikia",
+        "kind":  "series",
+        "title":  "Η πολυκατοικία",
+        "year":  2008,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Βίλμα Τσακίρη",
+                           "Γιολάντα Μπαλαούρα"
+                       ],
+        "leads":  [
+                      "Παύλος Χαϊκάλης",
+                      "Βασιλική Ανδρίτσου"
+                  ],
+        "synopsis":  "Οι ένοικοι μιας αθηναϊκής πολυκατοικίας μοιράζονται έρωτες, καβγάδες και οικονομικά προβλήματα, με τον διαχειριστή να προσπαθεί να κρατήσει τις ισορροπίες.",
+        "clue":  "Πολλοί γείτονες κάτω από την ίδια στέγη.",
+        "source":  "https://www.megatv.com/tvshows/43518/epeisodio-67-9/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-polykatoikia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=MLao5MKSQEk",
+        "audioCredit":  "ENIGMA",
+        "audioStart":  5,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "H Polikatoikia - O Eidikos sta Kataskopeytika..."
+    },
+    {
+        "id":  "proxenio",
+        "kind":  "series",
+        "title":  "Το προξενιό της Ιουλίας",
+        "year":  2023,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Χριστίνα Μαξούρη",
+                           "Βασίλης Κουκαλάνι"
+                       ],
+        "leads":  [
+                      "Ευγενία Ξυγκόρου",
+                      "Μελέτης Ηλίας"
+                  ],
+        "synopsis":  "Μια νεαρή γυναίκα στην ελληνική επαρχία της δεκαετίας του 1950 οδηγείται σε έναν γάμο που συγκρούεται με τον έρωτά της και κρύβει επικίνδυνα οικογενειακά μυστικά.",
+        "clue":  "Ένας γάμος από συμφέρον σε μια κλειστή κοινωνία.",
+        "source":  "https://www.alphatv.gr/series/to-proxenio-tis-ioulias/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-proxenio.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=12PoZNWtYXQ",
+        "audioCredit":  "Alpha TV Greece",
+        "audioStart":  13,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Το προξενιό της Ιουλίας | Επεισόδιο 99 | Sneak Preview | Χάδω - Επιφάνειος"
+    },
+    {
+        "id":  "pseftis",
+        "kind":  "movies",
+        "title":  "Ζητείται ψεύτης",
+        "year":  1961,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Περικλής Χριστοφορίδης",
+                           "Δημήτρης Νικολαϊδης"
+                       ],
+        "leads":  [
+                      "Ντίνος Ηλιόπουλος",
+                      "Παντελής Ζερβός"
+                  ],
+        "synopsis":  "Ένας βουλευτής προσλαμβάνει έναν ταλαντούχο ψεύτη για να αντιμετωπίζει τις υποσχέσεις και τους ψηφοφόρους του, αλλά τα τεχνάσματα φέρνουν προσωπικούς μπελάδες.",
+        "clue":  "Οι υποσχέσεις ενός πολιτικού χρειάζονται ειδικό συνεργάτη.",
+        "source":  "https://finosfilm.com/portfolio-items/ziteitai-pseftis/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-pseftis.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ZqZbEomcv70",
+        "audioCredit":  "George Elefteriadis",
+        "audioStart":  0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΕΛΛΑΔΑ 1961 - ΑΣΥΡΜΑΤΟ ΤΗΛΕΦΩΝΟ"
+    },
+    {
+        "id":  "doloma",
+        "kind":  "movies",
+        "title":  "Το δόλωμα",
+        "year":  1964,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Βαγγέλης Βουλγαρίδης",
+                           "Αθηνόδωρος Προύσαλης"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Αλέκος Αλεξανδράκης"
+                  ],
+        "synopsis":  "Δύο χαρτοκλέφτες εκπαιδεύουν μια κοπέλα ώστε να προσελκύει πλούσιους άντρες στο παιχνίδι τους, όμως ένας έρωτας ανατρέπει το σχέδιο.",
+        "clue":  "Μια κοπέλα βοηθά ένα σχέδιο εξαπάτησης στα χαρτιά.",
+        "source":  "https://finosfilm.com/portfolio-items/to-doloma/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-doloma.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PFJJEFAOFcs",
+        "audioCredit":  "Simon L.A.",
+        "audioStart":  1,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Πάστωρ!"
+    },
+    {
+        "id":  "xtypokardia",
+        "kind":  "movies",
+        "title":  "Χτυποκάρδια στο θρανίο",
+        "year":  1963,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Τζόλυ Γαρμπή",
+                           "Θόδωρος Μορίδης"
+                       ],
+        "leads":  [
+                      "Αλίκη Βουγιουκλάκη",
+                      "Δημήτρης Παπαμιχαήλ"
+                  ],
+        "synopsis":  "Μια νεαρή παντρεύεται έναν γιατρό, αλλά νοσταλγεί το σχολείο και επιστρέφει κρυφά στα μαθήματα, δημιουργώντας παρεξηγήσεις στην οικογένεια και στην τάξη.",
+        "clue":  "Ένας γάμος και μια κρυφή επιστροφή στο σχολείο.",
+        "source":  "https://www.tvopen.gr/xtypokardiastothranio/about",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-xtypokardia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=t0O9uw0N29o",
+        "audioCredit":  "Helen Nikoloudakis",
+        "audioStart":  0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Χτυποκάρδια στο θρανίο - Συμπαθής ο κύριος καθηγητής...!"
+    },
+    {
+        "id":  "votsalo",
+        "kind":  "movies",
+        "title":  "Ένα βότσαλο στη λίμνη",
+        "year":  1952,
+        "originalFormat":  "bw",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Καίτη Λαμπροπούλου",
+                           "Βαγγέλης Πρωτοπαππάς"
+                       ],
+        "leads":  [
+                      "Βασίλης Λογοθετίδης",
+                      "Ίλυα Λιβυκού"
+                  ],
+        "synopsis":  "Ένας τσιγκούνης σύζυγος διασκεδάζει κρυφά με μια γυναίκα που αποδεικνύεται συγγενής της συζύγου του και αναγκάζεται να αλλάξει συνήθειες.",
+        "clue":  "Μια βραδινή έξοδος ταράζει έναν ήσυχο γάμο.",
+        "source":  "https://www.filmy.gr/movies-database/a-ripple-in-the-pond/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-votsalo.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=MD0q2jLhT20",
+        "audioCredit":  "George Samos 65.",
+        "audioStart":  18,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ενα Βοτσαλο στη Λιμνη  -  Αποσπασμα."
+    },
+    {
+        "id":  "koureas",
+        "kind":  "movies",
+        "title":  "Η ωραία του κουρέα",
+        "year":  1969,
+        "originalFormat":  "color",
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Κατερίνα Γώγου",
+                           "Αιμιλία Υψηλάντη"
+                       ],
+        "leads":  [
+                      "Γιάννης Γκιωνάκης",
+                      "Μάρθα Καραγιάννη"
+                  ],
+        "synopsis":  "Ένας κουρέας περιμένει να παντρευτούν οι τέσσερις αδελφές του για να φτιάξει τη ζωή του, ώσπου η αγαπημένη του αναλαμβάνει να βρει γαμπρούς.",
+        "clue":  "Τέσσερις αδελφές πρέπει να αποκατασταθούν.",
+        "source":  "https://www.tvopen.gr/horaiatoykoyrea/about",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261010-ten",
+        "audio":  "media/scene-koureas.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ig_40u2qy-0",
+        "audioCredit":  "☞ 𝓛𝓲𝓵𝔂 𝓢𝓪𝓿𝓿𝓲𝓭𝓸𝓾 ☜",
+        "audioStart":  3,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Μοντέλο των ονείρων μου - Μουστάκας"
     }
 ]

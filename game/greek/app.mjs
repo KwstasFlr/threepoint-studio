@@ -21,17 +21,17 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles;
   try {
-    const response = await fetch('titles.json?v=20261009-cc-audio');
+    const response = await fetch('titles.json?v=20261010-thirty-safe');
     if (!response.ok) throw new Error('Titles unavailable');
     titles = filterTitles(await response.json(), kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
-    if (newDemo) titles = titles.filter(title => title.addedIn === '20261008-eleven');
+    if (newDemo) titles = titles.filter(title => title.addedIn === '20261010-ten');
     if (!titles.length) throw new Error('Empty category');
   } catch {
     $('loading').textContent = 'Δεν φορτώθηκαν οι γρίφοι. Δοκίμασε ανανέωση της σελίδας.';
     return;
   }
-  const key = `threepoint-greek-v1:${kind}:${filter}${newDemo ? ":new-demo" : audioDemo ? ":audio-demo" : ""}`;
+  const key = `threepoint-greek-v1:${kind}:${filter}${newDemo ? ":new-demo-20261010-ten" : audioDemo ? ":audio-demo" : ""}`;
   const ids = titles.map(t => t.id);
   let state;
   try {

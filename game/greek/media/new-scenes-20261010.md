@@ -1,0 +1,32 @@
+# New Greek scene audio sources
+
+- Εμείς κι εμείς: [Mega Tv](https://www.youtube.com/watch?v=9NPZZgzHwk4), 25–32s.
+- Οι αυθαίρετοι: [Mega Tv](https://www.youtube.com/watch?v=vzvEMZXRqD0), 90–97s.
+- Τμήμα ηθών: [Theoharisactor](https://www.youtube.com/watch?v=5enNlNU69tg), 196.4–203.4s.
+- Δροσουλίτες: [StarTvGreece](https://www.youtube.com/watch?v=JPmPkWvGuqk), 550.7–557.7s.
+- Η ζωή μας μια βόλτα: [itsgreektime](https://www.youtube.com/watch?v=UW3dovDziMM), 180–187s.
+- Το τατουάζ: [tvseriesgr](https://www.youtube.com/watch?v=3--DKFwf928), 25–32s.
+- Στα σύρματα: [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=oqTJjrLPVGY), 76–83s.
+- Κάνε ότι κοιμάσαι: [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=jiPiEyk9W34), 48.4–55.4s.
+- Η παραλία: [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=PWnvcKvuhJM), 25–32s.
+- IQ 160: [StarTvGreece](https://www.youtube.com/watch?v=wmuK1TRt3NI), 25–32s.
+- Μανταλένα: [Έλλη Γρατσία](https://www.youtube.com/watch?v=_UDYVB8ybsw), 12.2–19.2s.
+- Ο θησαυρός του μακαρίτη: [George Samos 65.](https://www.youtube.com/watch?v=enqhs_e-09Y), 1.8–8.8s.
+- Ο Παπατρέχας: [Giannis christopoulos](https://www.youtube.com/watch?v=wRKCvbVUBfc), 26.6–33.6s.
+- Ο καταφερτζής: [Happiness Cloud Channel](https://www.youtube.com/watch?v=FJWl0nxOMS0), 29.7–36.7s.
+- Ο εξυπνάκιας: [George Elefteriadis](https://www.youtube.com/watch?v=QGAdi8H2z0A), 25–32s.
+- Κορίτσια για φίλημα: [Christina Tes](https://www.youtube.com/watch?v=m0_bNwZwWwQ), 7–14s.
+- Τζένη Τζένη: [Happiness Cloud Channel](https://www.youtube.com/watch?v=--hy3Dgnnzw), 44.1–51.1s.
+- Μια τρελή τρελή σαραντάρα: [BronzeFairy1](https://www.youtube.com/watch?v=jyeDzCfXqBE), 1–8s.
+- Ο άνθρωπος που γύρισε από τη ζέστη: [Happiness Cloud Channel](https://www.youtube.com/watch?v=o_BnfcCmRsw), 25–32s.
+- Η δασκάλα με τα ξανθά μαλλιά: [George Samos 65.](https://www.youtube.com/watch?v=Ysd0P7fgJUA), 36.6–43.6s.
+- Οι ιστορίες του αστυνόμου Μπέκα: [Alpha TV Greece](https://www.youtube.com/watch?v=D5Tro83P-Us), 605–612s.
+- Επτά θανάσιμες πεθερές: [Greek TV HD](https://www.youtube.com/watch?v=sRH1YGyIZnc), 604–611s.
+- Το κόκκινο δωμάτιο: [Κωνσταντίνος Κ](https://www.youtube.com/watch?v=k-xybmgPcXc), 0–7s.
+- Η πολυκατοικία: [ENIGMA](https://www.youtube.com/watch?v=MLao5MKSQEk), 5–12s.
+- Το προξενιό της Ιουλίας: [Alpha TV Greece](https://www.youtube.com/watch?v=12PoZNWtYXQ), 13–20s.
+- Ζητείται ψεύτης: [George Elefteriadis](https://www.youtube.com/watch?v=ZqZbEomcv70), 0–7s.
+- Το δόλωμα: [Simon L.A.](https://www.youtube.com/watch?v=PFJJEFAOFcs), 1–8s.
+- Χτυποκάρδια στο θρανίο: [Helen Nikoloudakis](https://www.youtube.com/watch?v=t0O9uw0N29o), 0–7s.
+- Ένα βότσαλο στη λίμνη: [George Samos 65.](https://www.youtube.com/watch?v=MD0q2jLhT20), 18–25s.
+- Η ωραία του κουρέα: [☞ 𝓛𝓲𝓵𝔂 𝓢𝓪𝓿𝓿𝓲𝓭𝓸𝓾 ☜](https://www.youtube.com/watch?v=ig_40u2qy-0), 3–10s.
