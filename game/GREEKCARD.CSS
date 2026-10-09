@@ -1,0 +1,4 @@
+/* Keep the actual Greek film still visible above the category title. */
+[data-game="greek"] .game-card-image{inset:0;top:0;height:100%;aspect-ratio:auto;transform:none}
+[data-game="greek"] .game-card-image img{object-position:45% 38%}
+.guide-detail h4{margin:0;font-size:14px;font-weight:700;line-height:1.6}
