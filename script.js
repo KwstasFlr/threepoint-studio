@@ -24,8 +24,8 @@ en:["Browser Games","Games and quizzes you can play directly in your browser."],
 el:["Browser Games","Παιχνίδια και quiz που παίζεις απευθείας στον browser."]
 },
 apps:{
-en:["Apps","Explore our two interactive web apps, created by GuessPlex."],
-el:["Εφαρμογές","Δες τις δύο διαδραστικές web εφαρμογές που δημιουργήσαμε στο GuessPlex."]
+en:["Apps","Explore our two interactive web apps, created by Threepoint Studio ATH."],
+el:["Εφαρμογές","Δες τις δύο διαδραστικές web εφαρμογές που δημιουργήσαμε στο Threepoint Studio ATH."]
 },
 tools:{
 en:["Digital Tools","Useful tools for organising information and simplifying everyday tasks."],
@@ -433,7 +433,7 @@ $("enBtn")?.classList.toggle("active",language==="en");
 $("menuOverlay")?.setAttribute("aria-label",language==="el"?"Μενού":"Menu");
 document.querySelector(".service-list")?.setAttribute("aria-label",language==="el"?"Κατηγορίες έργων":"Project categories");
 document.querySelector(".portfolio-tabs")?.setAttribute("aria-label",language==="el"?"Κατηγορίες έργων":"Project categories");
-if(categoryKey)document.title=categories[categoryKey][language][0]+" — GuessPlex";
+if(categoryKey)document.title=categories[categoryKey][language][0]+" — Threepoint Studio ATH";
 try{localStorage.setItem("siteLanguage",language)}catch{}
 }
 
