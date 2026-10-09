@@ -2365,5 +2365,316 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "( Η Τούρτα της μαμάς ) Η Αλεξάνδρα και τα αγγλικά της part2  | ep22"
+    },
+    {
+        "id":  "retire",
+        "kind":  "series",
+        "title":  "Το Ρετιρέ",
+        "year":  1990,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Ρετιρέ"
+                    ],
+        "supporting":  [
+                           "Βίκυ Βανίτα",
+                           "Νίκος Κούρος"
+                       ],
+        "leads":  [
+                      "Κατερίνα Γιουλάκη",
+                      "Έλντα Πανοπούλου"
+                  ],
+        "synopsis":  "Οι ζωές των εργαζομένων σε ένα γραφείο και των συγγενών τους γεμίζουν με μικρές καθημερινές συγκρούσεις. Έρωτες, παράπονα και νευρικές αντιδράσεις προκαλούν αλλεπάλληλες παρεξηγήσεις.",
+        "clue":  "Η καθημερινότητα ενός γραφείου και των οικογενειών των υπαλλήλων γίνεται συνεχώς άνω κάτω.",
+        "source":  "https://www.megatv.com/ekpompes/43210/retire/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-retire.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=SnxEwcEKwp8",
+        "audioCredit":  "Greek TV 2 HD",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "To Retiré - Episode 11 HD"
+    },
+    {
+        "id":  "pantremenoi",
+        "kind":  "series",
+        "title":  "Και οι παντρεμένοι έχουν ψυχή",
+        "year":  1997,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Ασπασία Τζιτζικάκη",
+                           "Αλέξανδρος Κολιόπουλος"
+                       ],
+        "leads":  [
+                      "Αντώνης Καφετζόπουλος",
+                      "Γιώργος Παρτσαλάκης"
+                  ],
+        "synopsis":  "Τρεις παντρεμένοι φίλοι προσπαθούν να ισορροπήσουν ανάμεσα στις συζύγους, τις ερωτικές περιπέτειες και τα προσωπικά τους προβλήματα. Οι δικαιολογίες τους οδηγούν σε όλο και μεγαλύτερα μπερδέματα.",
+        "clue":  "Τρεις φίλοι ανακαλύπτουν ότι τα μυστικά μέσα στον γάμο σπάνια μένουν κρυφά.",
+        "source":  "https://cms.antenna.gr/watch/396389/kai-oi-pantremenoi-exoyn-psyxi-epeis-65-",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-pantremenoi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=usddqdOPYkY",
+        "audioCredit":  "ΕΛΛΗΝ ΚΥΩΝ",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Και οι  παντρεμένοι έχουν ψυχή  Η ΠΙΠΑ"
+    },
+    {
+        "id":  "ekeines",
+        "kind":  "series",
+        "title":  "Εκείνες κι εγώ",
+        "year":  1996,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Εκείνες και εγώ",
+                        "Εκείνες \u0026 εγώ"
+                    ],
+        "supporting":  [
+                           "Νίκη Σερέτη",
+                           "Λουκία Πιστιόλα"
+                       ],
+        "leads":  [
+                      "Γιάννης Μπέζος",
+                      "Τάσος Κωστής"
+                  ],
+        "synopsis":  "Ένας κομψός εργένης κυνηγά διαρκώς νέες γνωριμίες, ενώ η αρραβωνιαστικιά και οι συνεργάτες του προσπαθούν να αντιμετωπίσουν τις ιδιοτροπίες του. Οι ερωτικές του φιλοδοξίες προκαλούν συνεχείς ανατροπές.",
+        "clue":  "Ένας αμετανόητος εργένης μπλέκει σε περιπέτειες στο γραφείο και στην προσωπική του ζωή.",
+        "source":  "https://www.ishow.gr/production/255887/ekeines-ki-ego",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-ekeines.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Xwur0bfrD3Y",
+        "audioCredit":  "Christoforos Kitsos",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Εκείνες Κι Εγώ(Ζάχος Δόγκανος)-Καταίφι"
+    },
+    {
+        "id":  "ntanta",
+        "kind":  "series",
+        "title":  "Η Νταντά",
+        "year":  2003,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Νταντά"
+                    ],
+        "supporting":  [
+                           "Ιφιγένεια Βογιατζάκη",
+                           "Θάλεια Παπάζογλου"
+                       ],
+        "leads":  [
+                      "Μαρία Λεκάκη",
+                      "Κώστας Αποστολίδης"
+                  ],
+        "synopsis":  "Μια αυθόρμητη πλασιέ καλλυντικών προσλαμβάνεται για να φροντίσει τα παιδιά ενός χήρου παραγωγού. Η παρουσία της αλλάζει τους κανόνες του σπιτιού και φέρνει την οικογένεια πιο κοντά.",
+        "clue":  "Μια απρόσμενη πρόσληψη αναστατώνει το σπίτι ενός χήρου και των τριών παιδιών του.",
+        "source":  "https://www.megatv.com/ekpompes/43294/i-ntanta/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-ntanta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=WU-2H2J1U0s",
+        "audioCredit":  "Greek Series HD",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Η Νταντά - Επεισόδιο 1 HD"
+    },
+    {
+        "id":  "kirygma",
+        "kind":  "series",
+        "title":  "Δέκα λεπτά κήρυγμα",
+        "year":  2000,
+        "originalFormat":  null,
+        "aliases":  [
+                        "10 λεπτά κήρυγμα"
+                    ],
+        "supporting":  [
+                           "Χάρης Βορκάς",
+                           "Χριστίνα Σεΐχ"
+                       ],
+        "leads":  [
+                      "Δημήτρης Κουρούμπαλης",
+                      "Κάρμεν Ρουγγέρη"
+                  ],
+        "synopsis":  "Ένας έφηβος ζει ανάμεσα στη μητέρα, τον πατέρα και τη γιαγιά του, που έχουν διαφορετικές ιδέες για την ανατροφή του. Το σχολείο, οι φίλοι και οι πρώτοι έρωτες περιπλέκουν την καθημερινότητά του.",
+        "clue":  "Ένας έφηβος προσπαθεί να αποφύγει τις συμβουλές των μεγάλων και να χαράξει τον δικό του δρόμο.",
+        "source":  "https://www.megatv.com/ekpompes/43285/deka-lepta-khrygma/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-kirygma.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=qQY4UEn75dE",
+        "audioCredit":  "Greek TV HD",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Δέκα Λεπτά Κήρυγμα - Επεισόδιο 34 HD (Τέλος Α\u0027 Κύκλου)"
+    },
+    {
+        "id":  "vasiliades",
+        "kind":  "series",
+        "title":  "Οι Βασιλιάδες",
+        "year":  2012,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Βασιλιάδες"
+                    ],
+        "supporting":  [
+                           "Βίβιαν Κοντομάρη",
+                           "Χρήστος Σαπουντζής"
+                       ],
+        "leads":  [
+                      "Κώστας Κόκλας",
+                      "Μάρθα Καραγιάννη"
+                  ],
+        "synopsis":  "Ένας απλός οικογενειάρχης σώζει μια εύπορη γυναίκα και βρίσκεται ξαφνικά στην ηγεσία μιας μεγάλης εταιρείας. Η οικογένειά του μπαίνει σε έναν άγνωστο κόσμο γεμάτο ανταγωνισμούς και ίντριγκες.",
+        "clue":  "Μια καλή πράξη οδηγεί έναν απλό άνθρωπο στην κορυφή μιας μεγάλης επιχείρησης.",
+        "source":  "https://www.megatv.com/tvshows/52378/episode-002/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-vasiliades.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=rmMjllqg7lg",
+        "audioCredit":  "TheScrat 777",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Οι Βασιλιάδες Επεισόδιο 32"
+    },
+    {
+        "id":  "piso-spiti",
+        "kind":  "series",
+        "title":  "Πίσω στο σπίτι",
+        "year":  2011,
+        "originalFormat":  null,
+        "aliases":  [
+
+                    ],
+        "supporting":  [
+                           "Άννα Μενενάκου",
+                           "Χρήστος Σπανός"
+                       ],
+        "leads":  [
+                      "Μαρία Καβογιάννη",
+                      "Θοδωρής Αθερίδης"
+                  ],
+        "synopsis":  "Τα ενήλικα παιδιά ενός ζευγαριού επιστρέφουν στο πατρικό τους λόγω οικονομικών δυσκολιών. Το σπίτι γεμίζει ξανά και οι γονείς καλούνται να αντιμετωπίσουν νέες οικογενειακές συγκρούσεις.",
+        "clue":  "Η οικονομική κρίση ξαναφέρνει τρία ενήλικα παιδιά κάτω από την ίδια στέγη με τους γονείς τους.",
+        "source":  "https://www.megatv.com/ekpompes/43364/pis-sto-spiti/",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-piso-spiti.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JWXHFQe-6W4",
+        "audioCredit":  "Διαχρονικές ελληνικές σειρές",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Πίσω στο Σπίτι - Το πειστήριο της απιστίας!"
+    },
+    {
+        "id":  "friteza",
+        "kind":  "series",
+        "title":  "Πέτα τη φριτέζα",
+        "year":  2018,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Πέτα την φριτέζα"
+                    ],
+        "supporting":  [
+                           "Ελένη Ουζουνίδου",
+                           "Νικολέτα Κοτσαηλίδου"
+                       ],
+        "leads":  [
+                      "Γιάννης Μπέζος",
+                      "Φάνης Μουρατίδης"
+                  ],
+        "synopsis":  "Ένας διάσημος σεφ αναζητά τον πραγματικό του πατέρα και φτάνει σε ένα παραθαλάσσιο χωριό. Η σύγκρουση της γκουρμέ κουζίνας με μια παραδοσιακή ψαροταβέρνα προκαλεί κωμικές εντάσεις.",
+        "clue":  "Ένας απαιτητικός σεφ συναντά έναν πολύ διαφορετικό κόσμο σε μια ψαροταβέρνα.",
+        "source":  "https://www1.antenna.gr/watch/1256100/peta-ti-friteza-epeisodio-26",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-friteza.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=BN1LydL-Amw",
+        "audioCredit":  "maximillion pegasus",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Πετα την φριτεζα μοναδικο ροκανιδι"
+    },
+    {
+        "id":  "protos",
+        "kind":  "series",
+        "title":  "Ο πρώτος από εμάς",
+        "year":  2023,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Πρώτος από εμάς"
+                    ],
+        "supporting":  [
+                           "Γιάννης Δρακόπουλος",
+                           "Κωνσταντίνα Τάκαλου"
+                       ],
+        "leads":  [
+                      "Μάριος Αθανασίου",
+                      "Αθηνά Οικονομάκου"
+                  ],
+        "synopsis":  "Μια παρέα φίλων βλέπει τις ισορροπίες της να αλλάζουν όταν ένας από αυτούς αντιμετωπίζει μια σοβαρή ασθένεια. Η δοκιμασία τους οδηγεί να επανεξετάσουν τις σχέσεις, τις προτεραιότητες και τα όνειρά τους.",
+        "clue":  "Μια δύσκολη διάγνωση κάνει μια παρέα φίλων να δει τη ζωή με διαφορετικό τρόπο.",
+        "source":  "https://cms.antenna.gr/oprwtosapoemas",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-protos.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=1JnlAFptLWc",
+        "audioCredit":  "ANT1 TV",
+        "audioStart":  180,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Ο ΠΡΩΤΟΣ ΑΠΟ ΕΜΑΣ - ΕΠΕΙΣΟΔΙΟ 01"
+    },
+    {
+        "id":  "symmathites",
+        "kind":  "series",
+        "title":  "Οι Συμμαθητές",
+        "year":  2014,
+        "originalFormat":  null,
+        "aliases":  [
+                        "Συμμαθητές"
+                    ],
+        "supporting":  [
+                           "Αντώνης Κρόμπας",
+                           "Σπύρος Πούλης"
+                       ],
+        "leads":  [
+                      "Μαριάννα Τουμασάτου",
+                      "Κρατερός Κατσούλης"
+                  ],
+        "synopsis":  "Μια παρέα παλιών συμμαθητών συναντιέται ξανά στην ενήλικη ζωή. Ένα μυστικό από τα σχολικά χρόνια ανατρέπει οικογένειες, έρωτες και φιλίες που έμοιαζαν να έχουν ξεκαθαρίσει.",
+        "clue":  "Μια επανένωση παλιών φίλων φέρνει στην επιφάνεια ένα μυστικό από το λύκειο.",
+        "source":  "https://www.antenna.gr/General/article/4/425964/oi-symmathites-epistrefoyn-apopse-to-brady-ston-ant1",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-series10",
+        "audio":  "media/scene-symmathites.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=W52fLoeLzZw",
+        "audioCredit":  "Tamam Videos",
+        "audioStart":  25,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "Συμμαθητές|ΟΑντρέας παρηγορεί την Μαριλένα|Πάρτυ Λυκείου||Tamam Videos"
     }
 ]
