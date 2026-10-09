@@ -248,6 +248,7 @@ function opRender(){
 
     <p class="muted">${opMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New character every round. Play as often as you like.","Νέος χαρακτήρας σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
     <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Related Zoan types","Συγγενικοί τύποι Zoan")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
+    <p class="gmp-start-hint">💡 ${T("Starting clue","Αρχικό στοιχείο")} · ${T("First appearance arc","Πρώτη εμφάνιση")}: <strong>${esc(opValue(target,"arc"))}</strong></p>
     <form class="op-form" ${!opCanGuess(round)?"hidden":""}>
       <label for="opGuess">${T("Choose or type a character","Διάλεξε ή γράψε χαρακτήρα")}</label>
       <div class="guess-row"><input id="opGuess" list="opChoices" autocomplete="off" maxlength="80" required placeholder="${T("e.g. Luffy","π.χ. Luffy")}"><button class="button lime" type="submit">${T("Guess →","Απάντηση →")}</button></div>

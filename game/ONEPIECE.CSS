@@ -1,5 +1,7 @@
 .op-dialog{width:min(1100px,calc(100% - 24px))}
 .op-intro{color:var(--muted);line-height:1.7;max-width:760px}
+.gmp-start-hint{margin:14px 0 4px;padding:10px 14px;border:1px solid var(--lime-soft,#28351b);border-left:3px solid var(--lime,#d7ff3f);border-radius:10px;background:rgba(215,255,63,.06);color:var(--text,#f4f4ef)}
+.gmp-start-hint strong{color:var(--lime,#d7ff3f)}
 .op-modes{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}
 .op-modes button{padding:10px 16px;border:1px solid #48525a;border-radius:12px;background:#1d2429;color:#fff;font:inherit;cursor:pointer}
 .op-modes button[aria-pressed="true"]{background:var(--lime);color:#121617;border-color:var(--lime)}
