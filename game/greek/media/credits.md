@@ -1,6 +1,6 @@
 # Scene audio sources
 
-106 seven-second film and TV scene excerpts. Source credits identify uploads and do not establish a reuse licence.
+109 seven-second film and TV scene excerpts. Source credits identify uploads and do not establish a reuse licence.
 
 - Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
 - Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
@@ -108,3 +108,6 @@
 - Η θεία μου η χίπισσα: [Dimitrios Thomadakis](https://www.youtube.com/watch?v=p4SgdK7iJJY), 10–17s; Η θεία μου η χίπισσα - Μάταλα.
 - Η κόμισσα της Κέρκυρας: [Raporto Di Corfu](https://www.youtube.com/watch?v=d_W1XvPVxPo), 4–11s; Η κόμισσα της Κέρκυρας 1972 απόσπασμα 2.
 - Μια κυρία στα μπουζούκια: [BGMS - Best Greek Movie Scenes](https://www.youtube.com/watch?v=2fUh7B8RKWA), 25–32s; 1968  | ΜΙΑ ΚΥΡΙΑ ΣΤΑ ΜΠΟΥΖΟΥΚΙΑ |  "Βανζέλ Παπαντό, όπως Βανγκ Γκόνγκ" |  bgms.
+- Γαμπρός με το ζόρι: [GLOBAL PRODUCTION](https://www.youtube.com/watch?v=kTOkEHKrVNs), 1600–1607s; ΓΑΜΠΡΟΣ ΜΕ ΤΟ ΖΟΡΙ - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ - ΚΩΣΤΑΣ ΒΟΥΤΣΑΣ. YouTube licence: Creative Commons Attribution (CC BY).
+- Ανοιχτή θάλασσα: [GLOBAL PRODUCTION](https://www.youtube.com/watch?v=-cN4ybGnXHA), 3430–3437s; ΑΝΟΙΧΤΗ ΘΑΛΑΣΣΑ - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ - ΓΙΩΡΓΟΣ ΦΟΥΝΤΑΣ 1954. YouTube licence: Creative Commons Attribution (CC BY).
+- Το πέρασμα: [GLOBAL PRODUCTION](https://www.youtube.com/watch?v=p7yNqTf7cgE), 2627–2634s; ΤΟ ΠΕΡΑΣΜΑ - ΓΙΩΡΓΟΣ ΝΙΝΙΟΣ - 1990 - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ. YouTube licence: Creative Commons Attribution (CC BY).

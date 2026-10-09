@@ -3303,5 +3303,100 @@
         "audioDuration":  7,
         "audioType":  "scene",
         "audioSourceTitle":  "1968  | ΜΙΑ ΚΥΡΙΑ ΣΤΑ ΜΠΟΥΖΟΥΚΙΑ |  \"Βανζέλ Παπαντό, όπως Βανγκ Γκόνγκ\" |  bgms"
+    },
+    {
+        "id":  "gampros",
+        "kind":  "movies",
+        "title":  "Γαμπρός με το ζόρι",
+        "year":  1990,
+        "originalFormat":  "color",
+        "aliases":  [
+                      "Γαμπρος με το ζορι"
+                    ],
+        "supporting":  [
+                         "Κώστας Φλωράτος",
+                         "Άκης Φλωρέντης"
+                       ],
+        "leads":  [
+                    "Κώστας Βουτσάς",
+                    "Βάνα Ζάκα"
+                  ],
+        "synopsis":  "Ένας μετανάστης βρίσκεται κατά λάθος σε ένα μικρό νησί, όπου έξι αδέλφια, εξαιτίας μιας παρεξήγησης, επιμένουν να τον παντρέψουν με την αδελφή τους.",
+        "clue":  "Έξι αδέλφια, ένα μικρό νησί και ένας επισκέπτης που μπλέκεται σε προξενιό.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-cc-audio",
+        "source":  "https://www.youtube.com/watch?v=kTOkEHKrVNs",
+        "audio":  "media/scene-gampros.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=kTOkEHKrVNs",
+        "audioCredit":  "GLOBAL PRODUCTION (CC BY)",
+        "audioStart":  1600,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΓΑΜΠΡΟΣ ΜΕ ΤΟ ΖΟΡΙ - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ - ΚΩΣΤΑΣ ΒΟΥΤΣΑΣ"
+    },
+    {
+        "id":  "thalassa",
+        "kind":  "movies",
+        "title":  "Ανοιχτή θάλασσα",
+        "year":  1954,
+        "originalFormat":  "bw",
+        "aliases":  [
+                      "Ανοικτή θάλασσα",
+                      "Ανοιχτη θαλασσα"
+                    ],
+        "supporting":  [
+                         "Θάνος Τζενεράλης",
+                         "Ελένη Ζαφειρίου"
+                       ],
+        "leads":  [
+                    "Γιώργος Φούντας",
+                    "Σμαρούλα Γιούλη"
+                  ],
+        "synopsis":  "Μια νεαρή νησιωτοπούλα αρνείται τον γάμο που της έχει κανονίσει ο πατέρας της, μαθαίνει ένα μυστικό για την καταγωγή της και η ζωή της αλλάζει όταν εμφανίζεται ένας ναυαγός.",
+        "clue":  "Ένα νησί, ένα προξενιό που δεν θέλει η νύφη και ένας ναυαγός.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-cc-audio",
+        "source":  "https://www.imdb.com/title/tt0252888/",
+        "audio":  "media/scene-thalassa.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=-cN4ybGnXHA",
+        "audioCredit":  "GLOBAL PRODUCTION (CC BY)",
+        "audioStart":  3430,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΑΝΟΙΧΤΗ ΘΑΛΑΣΣΑ - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ - ΓΙΩΡΓΟΣ ΦΟΥΝΤΑΣ 1954"
+    },
+    {
+        "id":  "perasma",
+        "kind":  "movies",
+        "title":  "Το πέρασμα",
+        "year":  1990,
+        "originalFormat":  "color",
+        "aliases":  [
+                      "Περασμα",
+                      "Το περασμα"
+                    ],
+        "supporting":  [
+                         "Βαγγέλης Λιοδάκης",
+                         "Τάσος Πολυχρονόπουλος"
+                       ],
+        "leads":  [
+                    "Γιώργος Νινιός",
+                    "Καρυοφυλλιά Καραμπέτη"
+                  ],
+        "synopsis":  "Δύο φαντάροι επιστρέφουν από τη θητεία τους, όμως μια βίαιη συμπλοκή κάνει τον έναν φυγά, που προσπαθεί να διαφύγει από τη χώρα με τη βοήθεια μιας οδηγού νταλίκας.",
+        "clue":  "Ένας φυγάς, μια οδηγός νταλίκας και τα σύνορα στον ορίζοντα.",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261009-cc-audio",
+        "source":  "https://www.youtube.com/watch?v=p7yNqTf7cgE",
+        "audio":  "media/scene-perasma.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=p7yNqTf7cgE",
+        "audioCredit":  "GLOBAL PRODUCTION (CC BY)",
+        "audioStart":  2627,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioSourceTitle":  "ΤΟ ΠΕΡΑΣΜΑ - ΓΙΩΡΓΟΣ ΝΙΝΙΟΣ - 1990 - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ"
     }
 ]
