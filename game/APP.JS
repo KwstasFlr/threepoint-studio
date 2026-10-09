@@ -5839,6 +5839,10 @@ function renderPodium(
 
   if (!podium) return;
 
+  // A podium of two or three names looks empty; show it once the board fills up.
+  podium.hidden = leaderboard.length < 10;
+  if (podium.hidden) return;
+
   const places = [
     {
       index: 1,

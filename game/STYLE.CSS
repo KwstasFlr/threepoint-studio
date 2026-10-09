@@ -950,6 +950,7 @@ dialog h2 { margin-top:9px; font-size:clamp(27px,5vw,43px); line-height:1; }
 .gmp-ad-placeholder>span { font-size:13px; font-weight:900; letter-spacing:2px; }
 .gmp-ad-placeholder small { margin-top:4px; font-size:11px; letter-spacing:.8px; }
 .gmp-ad-slot.has-ad .gmp-ad-placeholder { display:none; }
+.gmp-ad-slot:not(.has-ad) { display:none; }
 
 /* ACCESSIBILITY */
 :where(button,a,input):focus-visible { outline:2px solid var(--lime); outline-offset:4px; }
