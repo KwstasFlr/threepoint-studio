@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-adsense-account" content="ca-pub-8977861096990625">
+<script src="../google-consent.js?v=20260924-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-01ET0K1H05"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8977861096990625" crossorigin="anonymous"></script>
+ <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Play — GuessPlex</title>
+
+<meta
+  name="description"
+  content="Play Football, One Piece and Gaming guessing challenges. Explore rules, examples, quote modes and the player guide by GuessPlex."
+>
+
+<link rel="icon" type="image/svg+xml" href="../guessplex-icon.svg?v=20261009-lime">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Russo+One&family=Noto+Sans:wght@400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+>
+
+<link rel="stylesheet" href="STYLE.CSS?v=20261009-tidy">
+<link rel="stylesheet" href="ONEPIECE.CSS?v=20261009-hint">
+
+<link rel="stylesheet" href="GREEKCARD.CSS?v=20261009-cinematix">
+<link rel="stylesheet" href="GUIDE.CSS?v=20261009-round-faq">
+<style>body[data-page="category-play"] main{display:none}body[data-page="category-play"] dialog.category-game[open]{position:relative;inset:auto;margin:20px auto;width:min(1100px,94vw);max-width:1100px;max-height:none;overflow:visible}body[data-page="category-play"] #dailyLaunchButton{display:none}.category-back{display:block;margin:16px 3%;color:#d7ff3f}</style></head>
+
+<body data-page="category-play">
+
+<header class="header">
+    <button class="daily-launch-button" id="dailyLaunchButton" type="button">
+      <span aria-hidden="true">⚽</span>
+      <span data-en="DAILY CHALLENGE" data-el="DAILY ΠΡΟΚΛΗΣΗ">DAILY CHALLENGE</span>
+    </button>
+
+    <div class="header-actions">
+      <button class="leaderboard-button" id="leaderboardButton" type="button">
+        🏆
+        <span data-en="Leaderboard" data-el="Κατάταξη">Leaderboard</span>
+      </button>
+
+      <div class="languages" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="el">EL</button>
+      </div>
+
+      <button class="login-button" id="loginButton" type="button"
+        data-auth="login" data-en="Log in" data-el="Σύνδεση">Log in</button>
+
+      <button class="signup-button" id="signupButton" type="button"
+        data-auth="signup" data-en="Sign up" data-el="Εγγραφή">Sign up</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="games-section" id="games">
+      <div class="games-top">
+        <div>
+          <div class="hero-brand" aria-label="GuessPlex">
+            <span class="hero-brand-mark" aria-hidden="true">
+              <i></i><i></i><i></i><i></i>
+            </span>
+            <span class="hero-brand-name" aria-hidden="true">
+              <small>PLAY &amp; DISCOVER</small>
+              <strong>GuessPlex</strong>
+            </span>
+          </div>
+
+          <h1 class="games-title"
+            data-en="CHOOSE YOUR GAME"
+            data-el="ΔΙΑΛΕΞΕ ΠΑΙΧΝΙΔΙ">CHOOSE YOUR GAME</h1>
+        </div>
+      </div>
+
+      <div class="game-grid" id="gameGrid"></div>
+<div class="guide-roadmap"><strong class="roadmap-title"  data-en="IN DEVELOPMENT · 5 MORE CATEGORIES" data-el="ΣΕ ΑΝΑΠΤΥΞΗ · 5 ΑΚΟΜΗ ΚΑΤΗΓΟΡΙΕΣ">IN DEVELOPMENT · 5 MORE CATEGORIES</strong><p  data-en="Naruto · Bleach · Basketball · Cricket · Pokémon. These categories are not playable yet." data-el="Naruto · Bleach · Basketball · Cricket · Pokémon. Αυτές οι κατηγορίες δεν παίζονται ακόμη.">Naruto · Bleach · Basketball · Cricket · Pokémon. These categories are not playable yet.</p></div>
+    </section>
+
+<details class="guide-toggle"><summary data-en="More information · How to play" data-el="Περισσότερες πληροφορίες · Πώς παίζεται">More information · How to play</summary><section class="player-guide" id="player-guide" aria-labelledby="guideTitle"><div class="guide-heading"><span class="eyebrow" data-en="THE PLAYER GUIDE" data-el="Ο ΟΔΗΓΟΣ ΤΟΥ ΠΑΙΚΤΗ">THE PLAYER GUIDE</span><h2 id="guideTitle" data-en="ONE GUESS. A BETTER CLUE." data-el="ΜΙΑ ΑΠΑΝΤΗΣΗ. ΕΝΑ ΚΑΛΥΤΕΡΟ ΣΤΟΙΧΕΙΟ.">ONE GUESS. A BETTER CLUE.</h2><p  data-en="GuessPlex brings football, One Piece and gaming knowledge into short browser challenges. Start with a name, compare the feedback and use what you learn to narrow down the next guess. No download is needed; you can play as a guest." data-el="Το GuessPlex μετατρέπει τις γνώσεις σου για ποδόσφαιρο, One Piece και gaming σε σύντομες προκλήσεις στον browser. Ξεκίνα με ένα όνομα, σύγκρινε τα στοιχεία και χρησιμοποίησε όσα μαθαίνεις για την επόμενη απάντηση. Παίζεις χωρίς εγκατάσταση, ακόμη και ως επισκέπτης.">GuessPlex brings football, One Piece and gaming knowledge into short browser challenges. Start with a name, compare the feedback and use what you learn to narrow down the next guess. No download is needed; you can play as a guest.</p></div><nav class="guide-links" aria-label="Player guide"><a href="#football-guide" data-en="FOOTBALL" data-el="FOOTBALL">FOOTBALL</a><a href="#onepiece-guide" data-en="ONE PIECE" data-el="ONE PIECE">ONE PIECE</a><a href="#gaming-guide" data-en="GAMING" data-el="GAMING">GAMING</a></nav><div class="guide-grid"><article class="guide-card" id="football-guide"><h3  data-en="FOOTBALL" data-el="FOOTBALL">FOOTBALL</h3><p  data-en="Find the hidden player in up to 10 guesses. Type a name and choose a player from the suggestions. The table compares nationality, highest recorded career market value, active or retired status, age and position with the target." data-el="Βρες τον κρυφό ποδοσφαιριστή σε έως 10 προσπάθειες. Γράψε ένα όνομα και διάλεξε παίκτη από τις προτάσεις. Ο πίνακας συγκρίνει εθνικότητα, υψηλότερη καταγεγραμμένη αξία καριέρας, ενεργό ή αποσυρμένο παίκτη, ηλικία και θέση.">Find the hidden player in up to 10 guesses. Type a name and choose a player from the suggestions. The table compares nationality, highest recorded career market value, active or retired status, age and position with the target.</p><p  data-en="A check means a match; a cross means a difference. An up arrow means the target age or value is higher than your guess; a down arrow means it is lower. A question mark means a market value is unavailable, not zero." data-el="Το ✓ σημαίνει ότι το στοιχείο ταιριάζει και το × ότι διαφέρει. Το ↑ σημαίνει μεγαλύτερη ηλικία ή αξία του στόχου από την επιλογή σου, ενώ το ↓ μικρότερη. Το ? σημαίνει ότι δεν υπάρχει διαθέσιμη αξία, όχι ότι η αξία είναι μηδενική.">A check means a match; a cross means a difference. An up arrow means the target age or value is higher than your guess; a down arrow means it is lower. A question mark means a market value is unavailable, not zero.</p><p  data-en="For example, if your guessed active player is 28 and the age cell shows ↑, try an older active player who also matches the confirmed position. Retired players show “Retired” instead of their current age. Market value is an estimate, not a transfer fee." data-el="Για παράδειγμα, αν διάλεξες ενεργό παίκτη 28 ετών και η ηλικία δείχνει ↑, δοκίμασε μεγαλύτερο ενεργό παίκτη που ταιριάζει και στη θέση που έχεις επιβεβαιώσει. Οι αποσυρμένοι εμφανίζουν «Αποσυρμένος» αντί ηλικίας. Η χρηματιστηριακή αξία είναι εκτίμηση, όχι κόστος μεταγραφής.">For example, if your guessed active player is 28 and the age cell shows ↑, try an older active player who also matches the confirmed position. Retired players show “Retired” instead of their current age. Market value is an estimate, not a transfer fee.</p><p  data-en="Daily uses the day’s target and resets at midnight in Athens. Unlimited lets you start another round when you want. EUR and USD are display options for the same underlying value; the game shows the conversion date and source." data-el="Το Daily έχει τον στόχο της ημέρας και αλλάζει τα μεσάνυχτα, ώρα Αθήνας. Το Unlimited επιτρέπει νέο γύρο όποτε θέλεις. EUR και USD εμφανίζουν την ίδια αξία σε διαφορετικό νόμισμα· στο παιχνίδι αναφέρονται η ημερομηνία και η πηγή μετατροπής.">Daily uses the day’s target and resets at midnight in Athens. Unlimited lets you start another round when you want. EUR and USD are display options for the same underlying value; the game shows the conversion date and source.</p></article><article class="guide-card" id="onepiece-guide"><h3  data-en="ONE PIECE" data-el="ONE PIECE">ONE PIECE</h3><p  data-en="Choose Daily or Unlimited to find a character through trait comparisons, with 10 standard guesses. Before you begin, choose anime or manga and enter the last episode or chapter you have reached. This limits the eligible character pool." data-el="Διάλεξε Daily ή Unlimited και βρες τον χαρακτήρα συγκρίνοντας χαρακτηριστικά, με 10 βασικές προσπάθειες. Πριν ξεκινήσεις, διάλεξε anime ή manga και βάλε το τελευταίο επεισόδιο ή κεφάλαιο που έχεις φτάσει. Έτσι περιορίζονται οι διαθέσιμοι χαρακτήρες.">Choose Daily or Unlimited to find a character through trait comparisons, with 10 standard guesses. Before you begin, choose anime or manga and enter the last episode or chapter you have reached. This limits the eligible character pool.</p><p  data-en="Use confirmed traits together. One matching characteristic rarely identifies the answer by itself. If the next guess breaks a confirmed match, it may spend an attempt without reducing the remaining possibilities." data-el="Συνδύασε τα χαρακτηριστικά που έχουν επιβεβαιωθεί. Ένα κοινό στοιχείο συνήθως δεν αρκεί για να βρεις την απάντηση. Αν η επόμενη επιλογή αγνοεί ένα ήδη επιβεβαιωμένο στοιχείο, μπορεί να καταναλώσεις προσπάθεια χωρίς να περιορίσεις τις πιθανότητες.">Use confirmed traits together. One matching characteristic rarely identifies the answer by itself. If the next guess breaks a confirmed match, it may spend an attempt without reducing the remaining possibilities.</p><p  data-en="“Who said it?” offers 21 short lines from 21 different characters, with 5 guesses per round. Identify the speaker, then check the episode or chapter reference after the answer is revealed. English and Greek wording is adapted for the game and may differ from a subtitle or published translation." data-el="Το «Ποιος το είπε;» περιλαμβάνει 21 μικρές ατάκες από 21 διαφορετικούς χαρακτήρες, με 5 προσπάθειες ανά γύρο. Βρες τον ομιλητή και έλεγξε την πηγή επεισοδίου ή κεφαλαίου μετά την αποκάλυψη. Η αγγλική και η ελληνική διατύπωση είναι προσαρμοσμένες για το παιχνίδι και μπορεί να διαφέρουν από υπότιτλους ή εκδόσεις.">“Who said it?” offers 21 short lines from 21 different characters, with 5 guesses per round. Identify the speaker, then check the episode or chapter reference after the answer is revealed. English and Greek wording is adapted for the game and may differ from a subtitle or published translation.</p><p  data-en="The progress setting reduces exposure to later characters and scenes; it cannot guarantee that every visible detail is spoiler-free. Keep your limit at your actual progress and avoid opening answer references until you are ready." data-el="Η ρύθμιση προόδου περιορίζει μεταγενέστερους χαρακτήρες και σκηνές, χωρίς να εγγυάται ότι κάθε ορατή λεπτομέρεια είναι χωρίς spoiler. Κράτησε το όριο στην πραγματική σου πρόοδο και άνοιξε τις πηγές απαντήσεων όταν είσαι έτοιμος.">The progress setting reduces exposure to later characters and scenes; it cannot guarantee that every visible detail is spoiler-free. Keep your limit at your actual progress and avoid opening answer references until you are ready.</p></article><article class="guide-card" id="gaming-guide"><h3  data-en="GAMING" data-el="GAMING">GAMING</h3><p  data-en="Classic contains 41 characters and gives you 6 guesses. Compare gender, franchise, game genre, debut year and signature weapon or fighting style. The year is the character’s video-game debut, not the release year of the latest sequel." data-el="Το Classic περιλαμβάνει 41 χαρακτήρες και δίνει 6 προσπάθειες. Σύγκρινε φύλο, σειρά παιχνιδιών, είδος, χρονιά πρώτης εμφάνισης και χαρακτηριστικό όπλο ή τρόπο μάχης. Η χρονιά αφορά την πρώτη εμφάνιση του χαρακτήρα σε παιχνίδι, όχι την κυκλοφορία του τελευταίου sequel.">Classic contains 41 characters and gives you 6 guesses. Compare gender, franchise, game genre, debut year and signature weapon or fighting style. The year is the character’s video-game debut, not the release year of the latest sequel.</p><p  data-en="Suppose the genre matches but the franchise does not: keep the genre as a clue and try a character from another series. Combine it with the debut year and fighting-style feedback before making the next selection." data-el="Αν το είδος παιχνιδιού ταιριάζει αλλά η σειρά διαφέρει, κράτησε το είδος ως στοιχείο και δοκίμασε χαρακτήρα άλλης σειράς. Συνδύασέ το με τη χρονιά πρώτης εμφάνισης και τον τρόπο μάχης πριν την επόμενη επιλογή.">Suppose the genre matches but the franchise does not: keep the genre as a clue and try a character from another series. Combine it with the debut year and fighting-style feedback before making the next selection.</p><p  data-en="Quotes gives you 5 guesses to identify the speaker of one of the available lines. Read the voice and context of the line rather than relying only on familiar words. The reveal names the character, the game and a reference so you can check the attribution." data-el="Το Quotes δίνει 5 προσπάθειες για να βρεις ποιος λέει μία από τις διαθέσιμες ατάκες. Σκέψου τον τρόπο ομιλίας και το πλαίσιο, όχι μόνο τις λέξεις που σου θυμίζουν κάτι. Η αποκάλυψη δείχνει χαρακτήρα, παιχνίδι και πηγή για να ελέγξεις την απόδοση.">Quotes gives you 5 guesses to identify the speaker of one of the available lines. Read the voice and context of the line rather than relying only on familiar words. The reveal names the character, the game and a reference so you can check the attribution.</p><p  data-en="Classic and Quotes keep separate rounds. Gaming wins award points to your account when you are logged in. You can move between the two modes without treating a quote guess as a Classic attempt." data-el="Οι νίκες στο Gaming δίνουν πόντους όταν είσαι συνδεδεμένος. Classic και Quotes κρατούν ξεχωριστούς γύρους.">Classic and Quotes keep separate rounds. Gaming wins award points to your account when you are logged in. You can move between the two modes without treating a quote guess as a Classic attempt.</p></article></div><p class="guide-note"><span  data-en="Created and maintained by GuessPlex. These are unofficial fan challenges; character names and franchises belong to their respective owners. Guide updated: 6 October 2026." data-el="Δημιουργία και επιμέλεια από το GuessPlex. Πρόκειται για ανεπίσημα fan παιχνίδια· τα ονόματα χαρακτήρων και οι σειρές ανήκουν στους αντίστοιχους δικαιούχους. Ενημέρωση οδηγού: 6 Οκτωβρίου 2026.">Created and maintained by GuessPlex. These are unofficial fan challenges; character names and franchises belong to their respective owners. Guide updated: 6 October 2026.</span></p></section></details>
+<div class="guide-faq"><h3  data-en="BEFORE YOUR NEXT ROUND" data-el="ΠΡΙΝ ΤΟΝ ΕΠΟΜΕΝΟ ΓΥΡΟ">BEFORE YOUR NEXT ROUND</h3><section class="guide-detail"><h4  data-en="How do Football points work?" data-el="Πώς λειτουργούν οι πόντοι Football;">How do Football points work?</h4><p  data-en="A correct answer earns 5 points on the first guess, 4 on the second, 3 on the third, 2 on the fourth and 1 from the fifth onward. A Daily win adds 2 bonus points. A lost round earns no answer points." data-el="Σωστή απάντηση δίνει 5 πόντους στην πρώτη προσπάθεια, 4 στη δεύτερη, 3 στην τρίτη, 2 στην τέταρτη και 1 από την πέμπτη και μετά. Νίκη στο Daily προσθέτει 2 πόντους bonus. Χαμένος γύρος δεν δίνει πόντους απάντησης.">A correct answer earns 5 points on the first guess, 4 on the second, 3 on the third, 2 on the fourth and 1 from the fifth onward. A Daily win adds 2 bonus points. A lost round earns no answer points.</p><p  data-en="The online rankings include Football, One Piece, Gaming, Greek Cinema & TV and Cinematix. Logging in connects eligible results to your account; guest progress is kept locally on this browser." data-el="Η online κατάταξη περιλαμβάνει Football, One Piece, Gaming, Greek Cinema & TV και Cinematix. Με σύνδεση οι νέες νίκες αποθηκεύονται στον λογαριασμό σου· ως επισκέπτης η πρόοδος μένει στον browser.">The online rankings include Football, One Piece, Gaming, Greek Cinema & TV and Cinematix. Logging in connects eligible results to your account; guest progress is kept locally on this browser.</p></section><section class="guide-detail"><h4  data-en="What does round No2 mean?" data-el="Τι σημαίνει γύρος No2;">What does round No2 mean?</h4><p  data-en="The round number counts challenges in the current game and mode, not guesses. Each mode keeps its own number. Local progress can disappear if you clear browser storage or use another browser or device." data-el="Ο αριθμός γύρου μετρά προκλήσεις στο συγκεκριμένο παιχνίδι και τρόπο, όχι προσπάθειες. Κάθε τρόπος κρατά δική του αρίθμηση. Η τοπική πρόοδος μπορεί να χαθεί αν καθαρίσεις τα δεδομένα του browser ή χρησιμοποιήσεις άλλη συσκευή ή browser.">The round number counts challenges in the current game and mode, not guesses. Each mode keeps its own number. Local progress can disappear if you clear browser storage or use another browser or device.</p></section><section class="guide-detail"><h4  data-en="Can I play after using all my guesses?" data-el="Μπορώ να συνεχίσω αφού τελειώσουν οι προσπάθειες;">Can I play after using all my guesses?</h4><p  data-en="Football and One Piece character modes may offer one extra guess through a rewarded ad when that option is available. If it is unavailable, use the reveal control to finish the round. Quote modes and Gaming use their stated attempt limits." data-el="Το Football και οι τρόποι χαρακτήρων One Piece μπορεί να δίνουν μία έξτρα προσπάθεια με rewarded διαφήμιση όταν είναι διαθέσιμη. Αν δεν είναι, χρησιμοποίησε την αποκάλυψη για να τελειώσεις τον γύρο. Οι ατάκες και το Gaming έχουν τα όρια προσπαθειών που αναγράφονται.">Football and One Piece character modes may offer one extra guess through a rewarded ad when that option is available. If it is unavailable, use the reveal control to finish the round. Quote modes and Gaming use their stated attempt limits.</p></section><section class="guide-detail"><h4  data-en="Where can I report an incorrect clue?" data-el="Πού αναφέρω ένα λάθος στοιχείο;">Where can I report an incorrect clue?</h4><p  data-en="Send the game, mode, character or player name and the incorrect field through the studio contact page. Include a reference if you have one. That makes it possible to check the data rather than guessing what happened." data-el="Στείλε από τη σελίδα επικοινωνίας το παιχνίδι, τον τρόπο, το όνομα χαρακτήρα ή παίκτη και το πεδίο που είναι λάθος. Πρόσθεσε πηγή αν έχεις. Έτσι μπορούμε να ελέγξουμε συγκεκριμένα τα δεδομένα.">Send the game, mode, character or player name and the incorrect field through the studio contact page. Include a reference if you have one. That makes it possible to check the data rather than guessing what happened.</p></section><a href="../contact.html?service=bugs#projectForm" class="guide-contact" data-en="Report a clue →" data-el="Αναφορά στοιχείου →">Report a clue →</a></div>
+    <section class="gmp-ad-slot" id="adSlotGames" aria-label="Banner placement">
+      <span class="gmp-ad-label" data-en="ADVERTISEMENT" data-el="ΔΙΑΦΗΜΙΣΗ">
+        ADVERTISEMENT
+      </span>
+      <div class="gmp-ad-placeholder">
+        <span aria-hidden="true">AD</span>
+        <small data-en="Banner placement" data-el="Θέση διαφημιστικού banner">
+          Banner placement
+        </small>
+      </div>
+    </section>
+
+    <section class="leaderboard-section" id="leaderboard">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow"
+            data-en="GLOBAL COMPETITION"
+            data-el="ΠΑΓΚΟΣΜΙΑ ΚΑΤΑΤΑΞΗ">GLOBAL COMPETITION</span>
+          <h2 id="leaderboardTitle">Top Legends</h2>
+        </div>
+
+        <div class="leaderboard-filters" id="leaderboardFilters">
+          <button type="button" data-board="overall" class="selected"
+            data-en="Overall" data-el="Συνολικά">Overall</button>
+          <button type="button" data-board="onepiece">One Piece</button>
+          <button type="button" data-board="gaming">Gaming</button>
+          <button type="button" data-board="football">Football</button>
+          <button type="button" data-board="greek">Greek Cinema &amp; TV</button>
+          <button type="button" data-board="cinematix">Cinematix</button>
+        </div>
+      </div>
+
+      <div class="leaderboard-podium" id="leaderboardPodium"></div>
+
+      <div class="leaderboard-table">
+        <div class="leaderboard-row leaderboard-head">
+          <span>#</span>
+          <span data-en="Player" data-el="Παίκτης">Player</span>
+          <span data-en="Correct" data-el="Σωστά">Correct</span>
+          <span data-en="First try" data-el="1η προσπάθεια">First try</span>
+          <span data-en="Best streak" data-el="Καλύτερο σερί">Best streak</span>
+          <span>Points</span>
+        </div>
+        <div id="leaderboardRows"></div>
+        <p id="onlineSyncNote" class="note muted" role="status"></p>
+        <div id="currentPlayerRank" hidden></div>
+      </div>
+    </section>
+
+    <section class="gmp-ad-slot" id="adSlotLeaderboard" aria-label="Banner placement">
+      <span class="gmp-ad-label" data-en="ADVERTISEMENT" data-el="ΔΙΑΦΗΜΙΣΗ">
+        ADVERTISEMENT
+      </span>
+      <div class="gmp-ad-placeholder">
+        <span aria-hidden="true">AD</span>
+        <small data-en="Banner placement" data-el="Θέση διαφημιστικού banner">
+          Banner placement
+        </small>
+      </div>
+    </section>
+
+    <section class="donation" id="support-studio">
+      <div>
+        <span class="eyebrow">GuessPlex</span>
+        <h2 data-en="HELP BUILD THE NEXT ROUND."
+          data-el="ΒΟΗΘΗΣΕ ΝΑ ΦΤΙΑΞΟΥΜΕ ΤΟΝ ΕΠΟΜΕΝΟ ΓΥΡΟ.">
+          HELP BUILD THE NEXT ROUND.
+        </h2>
+        <p
+          data-en="Enjoying GuessPlex? Support GuessPlex and help us build more games, categories and challenges."
+          data-el="Σου αρέσει το GuessPlex; Στήριξε το GuessPlex και βοήθησέ μας να δημιουργήσουμε περισσότερα παιχνίδια, κατηγορίες και challenges.">
+          Enjoying GuessPlex? Support GuessPlex and help us build more games, categories and challenges.
+        </p>
+      </div>
+
+      <div class="donation-action">
+        <a class="button lime" id="donateLink" target="_blank"
+          rel="noopener noreferrer"
+          data-en="Support the studio "
+          data-el="Στήριξε το studio ">Support the studio </a>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Created by <a href="https://threepointstudioath.com/" style="text-decoration: underline; text-underline-offset: 3px;">GuessPlex</a></small>
+    <nav class="footer-legal" aria-label="Legal and privacy links">
+      <a href="image-credits.html" data-en="Image credits" data-el="Πηγές εικόνων">Image credits</a>
+      <a href="../privacy-policy.html"
+        data-en="Privacy Policy" data-el="Πολιτική Απορρήτου">Privacy Policy</a>
+      <a href="../cookie-policy.html"
+        data-en="Cookie Policy" data-el="Πολιτική Cookies">Cookie Policy</a>
+      <button type="button"
+        onclick="if(window.googlefc&amp;&amp;window.googlefc.showRevocationMessage){window.googlefc.showRevocationMessage();}"
+        data-en="Cookie settings" data-el="Ρυθμίσεις cookies">Cookie settings</button>
+    </nav>
+  </footer>
+
+  <dialog id="pointsDialog" class="points-dialog">
+    <div class="dialog-top">
+      <div>
+        <span class="eyebrow">POINT SYSTEM</span>
+        <h2 data-en="HOW POINTS WORK" data-el="ΠΩΣ ΛΕΙΤΟΥΡΓΟΥΝ ΟΙ ΠΟΝΤΟΙ">
+          HOW POINTS WORK
+        </h2>
+      </div>
+      <button class="close" type="button" id="closePointsDialog"
+        aria-label="Close">×</button>
+    </div>
+
+    <p class="points-intro"
+      data-en="Find the answer in fewer guesses to earn more points."
+      data-el="Βρες την απάντηση με λιγότερες προσπάθειες για περισσότερους πόντους.">
+      Find the answer in fewer guesses to earn more points.
+    </p>
+
+    <div class="points-popup-grid">
+      <div>
+        <strong>5</strong>
+        <span data-en="1st guess" data-el="1η προσπάθεια">1st guess</span>
+      </div>
+      <div>
+        <strong>4</strong>
+        <span data-en="2nd guess" data-el="2η προσπάθεια">2nd guess</span>
+      </div>
+      <div>
+        <strong>3</strong>
+        <span data-en="3rd guess" data-el="3η προσπάθεια">3rd guess</span>
+      </div>
+      <div>
+        <strong>2</strong>
+        <span data-en="4th guess" data-el="4η προσπάθεια">4th guess</span>
+      </div>
+      <div>
+        <strong>1</strong>
+        <span data-en="5th–10th / extra guess" data-el="5η–10η / έξτρα προσπάθεια">5th–10th / extra guess</span>
+      </div>
+      <div class="daily-bonus">
+        <strong>+2</strong>
+        <span>Daily Bonus</span>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="gameDialog" aria-labelledby="gameTitle">
+    <div class="dialog-top">
+      <span class="eyebrow" id="gameCategory">GuessPlex</span>
+      <button class="close" type="button" data-close="gameDialog"
+        aria-label="Close">×</button>
+    </div>
+
+    <h2 id="gameTitle">GUESS THE PLAYER</h2>
+
+    <div class="modes" role="group" aria-label="Game mode">
+      <button type="button" data-mode="daily"
+        data-en="Daily" data-el="Καθημερινό">Daily</button>
+      <button type="button" data-mode="classic"
+        data-en="Unlimited" data-el="Ελεύθερο">Unlimited</button>
+      <button type="button" data-mode="archive" class="past-dailies-mode"
+        data-en="Past Dailies" data-el="Προηγούμενα Daily">Past Dailies</button>
+    </div>
+
+    <div class="status-board">
+      <div>
+        <small id="supplyLabel"></small>
+        <strong id="supplyValue"></strong>
+        <span id="supplyDetail"></span>
+      </div>
+      <div>
+        <small data-en="NEXT DAILY IN" data-el="ΕΠΟΜΕΝΟ DAILY ΣΕ">NEXT DAILY IN</small>
+        <strong id="dailyClock">00:00:00</strong>
+        <span>00:00 UTC</span>
+      </div>
+    </div>
+
+    <p class="mode-description" id="modeDescription"></p>
+
+    <div id="archivePicker" hidden>
+      <div class="archive-heading">
+        <button class="text-button" id="archiveOlder" type="button"
+          data-en="← Older" data-el="← Παλαιότερα">← Older</button>
+        <button class="text-button" id="archiveNewer" type="button"
+          data-en="Newer →" data-el="Νεότερα →">Newer →</button>
+      </div>
+      <div class="archive-grid" id="archiveChoices"></div>
+      <p class="muted note" id="archiveEmpty"></p>
+    </div>
+
+    <div id="roundArea" hidden>
+      <div class="round-meta">
+        <span id="roundLabel"></span>
+        <span id="attemptsLeft"></span>
+      </div>
+
+      <div class="attempt-dots" id="attemptDots" aria-hidden="true"></div>
+
+      <div class="teaser">
+        <span aria-hidden="true">“</span>
+        <p id="teaserText"></p>
+      </div>
+
+      <div class="clue-grid" id="clueGrid"></div>
+      <p class="clue-help" id="clueHelp" role="status"></p>
+
+      <form id="guessForm">
+        <label class="eyebrow" for="guessInput"
+          data-en="WHO IS IT?" data-el="ΠΟΙΟΣ ΕΙΝΑΙ;">WHO IS IT?</label>
+        <div class="guess-row">
+          <input id="guessInput" maxlength="80" autocomplete="off" required>
+          <button class="button lime" id="guessButton" type="submit"
+            data-en="Guess →" data-el="Απάντηση →">Guess →</button>
+        </div>
+      </form>
+
+      <div id="guessHistory" class="guess-history"></div>
+      <div id="result" class="result" role="status" aria-live="polite"></div>
+
+      <section class="player-reveal" id="playerReveal" hidden>
+        <div class="player-reveal-top">
+          <div class="reveal-result">
+            <span class="reveal-status-icon" id="revealStatusIcon" aria-hidden="true">✓</span>
+            <div>
+              <small id="revealStatusText"
+                data-en="PLAYER REVEAL" data-el="ΑΠΟΚΑΛΥΨΗ ΠΑΙΚΤΗ">PLAYER REVEAL</small>
+              <strong id="revealPoints"></strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-reveal-main">
+          <div class="reveal-photo" id="revealPhoto">
+            <span id="revealInitials">?</span>
+          </div>
+          <div class="reveal-identity">
+            <span class="eyebrow"
+              data-en="THE PLAYER WAS" data-el="Ο ΠΑΙΚΤΗΣ ΗΤΑΝ">THE PLAYER WAS</span>
+            <h3 id="revealName">—</h3>
+            <p id="revealMeta">—</p>
+          </div>
+        </div>
+
+        <div class="reveal-stats">
+          <div class="reveal-stat">
+            <small data-en="AGE" data-el="ΗΛΙΚΙΑ">AGE</small>
+            <strong id="revealAge">—</strong>
+          </div>
+          <div class="reveal-stat" id="goalsStat">
+            <small data-en="CAREER GOALS" data-el="ΓΚΟΛ ΚΑΡΙΕΡΑΣ">CAREER GOALS</small>
+            <strong id="revealGoals">—</strong>
+          </div>
+          <div class="reveal-stat" id="assistsStat">
+            <small data-en="CAREER ASSISTS" data-el="ΑΣΙΣΤ ΚΑΡΙΕΡΑΣ">CAREER ASSISTS</small>
+            <strong id="revealAssists">—</strong>
+          </div>
+          <div class="reveal-stat" id="cleanSheetsStat" hidden>
+            <small data-en="CLEAN SHEETS" data-el="CLEAN SHEETS">CLEAN SHEETS</small>
+            <strong id="revealCleanSheets">—</strong>
+          </div>
+          <div class="reveal-stat market-value-stat">
+            <small data-en="HIGHEST MARKET VALUE"
+              data-el="ΥΨΗΛΟΤΕΡΗ ΑΞΙΑ ΑΓΟΡΑΣ">HIGHEST MARKET VALUE</small>
+            <strong id="revealMarketValue">—</strong>
+          </div>
+        </div>
+
+        <div class="reveal-clubs-section">
+          <span class="eyebrow"
+            data-en="CLUBS PLAYED FOR"
+            data-el="ΟΜΑΔΕΣ ΠΟΥ ΑΓΩΝΙΣΤΗΚΕ">CLUBS PLAYED FOR</span>
+          <div class="reveal-clubs" id="revealClubs"></div>
+        </div>
+      </section>
+
+      <div class="reward-area">
+        <button class="reward-button" id="rewardBtn" type="button" disabled
+          data-en="+1 extra guess" data-el="+1 έξτρα προσπάθεια">+1 extra guess</button>
+        <small class="muted" id="rewardNote"></small>
+      </div>
+
+      <div class="round-actions">
+        <button class="text-button" id="revealBtn" type="button"
+          data-en="Reveal &amp; end this challenge"
+          data-el="Δείξε απάντηση &amp; λήξη πρόκλησης">
+          Reveal &amp; end this challenge
+        </button>
+        <button class="button lime" id="nextBtn" type="button" hidden
+          data-en="Next challenge →" data-el="Επόμενη πρόκληση →">Next challenge →</button>
+        <button class="button lime" id="afterDailyBtn" type="button" hidden
+          data-en="Play Unlimited →" data-el="Παίξε Unlimited →">Play Unlimited →</button>
+      </div>
+    </div>
+
+    <div id="confetti" aria-hidden="true"></div>
+  </dialog>
+
+  <dialog id="accountDialog" class="auth-dialog"
+    aria-labelledby="accountTitle" aria-describedby="accountSubtitle">
+    <div class="auth-modal">
+      <button class="auth-close" type="button"
+        data-close="accountDialog" aria-label="Close">×</button>
+
+      <div class="auth-brand">
+        <span class="auth-brand-mark">G</span>
+        <div>
+          <strong>GuessPlex</strong>
+          <small>GuessPlex</small>
+        </div>
+      </div>
+
+      <div class="auth-heading">
+        <span class="eyebrow">PLAYER ACCOUNT</span>
+        <h2 id="accountTitle">WELCOME BACK</h2>
+        <p id="accountSubtitle">Log in and continue your climb.</p>
+      </div>
+
+      <div class="auth-tabs" role="group" aria-label="Account access">
+        <button id="loginTab" class="auth-tab active" type="button">LOG IN</button>
+        <button id="signupTab" class="auth-tab" type="button">SIGN UP</button>
+      </div>
+
+      <form id="accountForm" class="auth-form">
+        <label id="usernameField" class="auth-field" hidden>
+          <span data-en="USERNAME" data-el="ΟΝΟΜΑ ΠΑΙΚΤΗ">USERNAME</span>
+          <div class="auth-input-wrap">
+            <span class="auth-input-icon">@</span>
+            <input id="accountUsername" type="text" minlength="3" maxlength="20"
+              autocomplete="username" placeholder="Choose your player name">
+          </div>
+        </label>
+
+        <label class="auth-field">
+          <span>EMAIL</span>
+          <div class="auth-input-wrap">
+            <span class="auth-input-icon">✉</span>
+            <input id="accountEmail" type="email" autocomplete="email"
+              required placeholder="player@example.com">
+          </div>
+        </label>
+
+        <label class="auth-field">
+          <span data-en="PASSWORD" data-el="ΚΩΔΙΚΟΣ">PASSWORD</span>
+          <div class="auth-input-wrap">
+            <span class="auth-input-icon">●</span>
+            <input id="accountPassword" type="password" minlength="6"
+              autocomplete="current-password" required placeholder="••••••••">
+            <button id="togglePassword" class="password-toggle"
+              type="button" aria-label="Show password">SHOW</button>
+          </div>
+        </label>
+
+        <p id="accountMessage" class="account-message" role="status"></p>
+
+        <button class="auth-submit" id="accountSubmit" type="submit">
+          LOG IN <span>→</span>
+        </button>
+      </form>
+
+      <div class="auth-divider">
+        <span data-en="OR" data-el="Ή">OR</span>
+      </div>
+
+      <button class="auth-guest" id="accountGuest" type="button"
+        data-en="CONTINUE AS GUEST →"
+        data-el="ΣΥΝΕΧΕΙΑ ΩΣ ΕΠΙΣΚΕΠΤΗΣ →">
+        CONTINUE AS GUEST <span>→</span>
+      </button>
+
+      <div class="auth-benefit">
+        <span>♛</span>
+        <p>
+          <strong data-en="JOIN THE LEADERBOARD"
+            data-el="ΜΠΕΣ ΣΤΗΝ ΚΑΤΑΤΑΞΗ">JOIN THE LEADERBOARD</strong>
+          <small data-en="Save your points and track your results."
+            data-el="Αποθήκευσε τους πόντους και τα αποτελέσματά σου.">
+            Save your points and track your results.
+          </small>
+        </p>
+      </div>
+    </div>
+  </dialog>
+
+  <noscript>Enable JavaScript to play GuessPlex.</noscript>
+  <script defer src="CATEGORYSCORES.JS?v=20261009-cinematix"></script>
+  <script defer src="APP.JS?v=20261010-pages"></script>
+  <script defer src="PROGRESS.JS?v=20261009-categories"></script>
+  <script defer src="ROUNDNUMBERS.JS?v=20261008-eleven"></script>
+  <script defer src="REWARDED.JS?v=20261005-1"></script>
+  <script defer src="ONEPIECE.JS?v=20261009-hint"></script>
+  <script defer src="ONEPIECE_QUOTES.JS?v=20261009-progress"></script>
+  <script defer src="GAMING.JS?v=20261009-hint"></script>
+  <script defer src="FOOTBALL_DATA.JS?v=20261008-eleven"></script>
+  <script defer src="FOOTBALL.JS?v=20261009-hint"></script>
+<script defer src="CATEGORYPAGE.JS?v=20261010-pages"></script>
+</body>
+</html>

@@ -6110,6 +6110,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if (["football","one-piece","gaming"].includes(id) && document.body.dataset.page !== "category-play") { location.href = id + ".html"; return; }
   if (id === "greek") { window.location.href = "greek/"; return; }
   if (id === "cinematix") { window.location.href = "cinematix/"; return; }
   if (id === "gaming") { openGamingGame(); return; }
@@ -6142,6 +6143,7 @@ function openGame(id) {
 if ($("dailyLaunchButton")) {
   $("dailyLaunchButton").onclick =
     () => {
+      if (document.body.dataset.page !== "category-play") { location.href="play.html?category=football&mode=daily"; return; }
       openFootballGame("daily");
       return;
       currentMode = "daily";
