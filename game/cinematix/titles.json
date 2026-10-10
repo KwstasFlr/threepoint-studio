@@ -461,6 +461,41 @@
     "rights": "Several TV episodes are public domain (Wikipedia); this episode is marked CC0/public domain on the Internet Archive."
   },
   {
+    "id": "burns-allen",
+    "kind": "series",
+    "title": "The George Burns and Gracie Allen Show",
+    "year": 1950,
+    "originalFormat": null,
+    "aliases": [
+      "Burns and Allen",
+      "The Burns and Allen Show",
+      "George Burns and Gracie Allen Show",
+      "Burns & Allen"
+    ],
+    "supporting": [
+      "Hal March",
+      "Fred Clark"
+    ],
+    "leads": [
+      "Bea Benaderet",
+      "Bill Goodwin"
+    ],
+    "synopsis": "Ένας κωμικός και η αφελής σύζυγός του ζουν στο Μπέβερλι Χιλς, όπου η λογική της προκαλεί καθημερινό χάος στους γείτονες και στους φίλους τους.",
+    "clue": "Ένας κωμικός μιλά απευθείας στο κοινό, ενώ η σύζυγός του έχει τη δική της λογική για όλα.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/The_George_Burns_and_Gracie_Allen_Show",
+    "audio": "media/scene-burns-allen.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=f8CzHK1luZs",
+    "audioCredit": "CLASSIC COMEDY CHANNEL",
+    "audioStart": 812,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Burns and Allen - Gracie's Checking Account - Season 1 - Episode 5 | George Burns, Gracie Allen",
+    "rights": "1950–1952 kinescopes are thought to be public domain (Wikipedia); this episode is marked public domain on the Internet Archive."
+  },
+  {
     "id": "my-little-margie",
     "kind": "series",
     "title": "My Little Margie",
@@ -592,5 +627,266 @@
     "audioType": "scene",
     "audioSourceTitle": "THE THREE STOOGES: Brideless Groom (1947) (HD 1080p) | Moe Howard, Larry Fine, Shemp Howard",
     "rights": "This short, Brideless Groom (1947), is one of four Columbia Three Stooges shorts in the public domain (Wikipedia)."
+  },
+  {
+    "id": "golden-arm",
+    "kind": "movies",
+    "title": "The Man with the Golden Arm",
+    "year": 1955,
+    "originalFormat": "bw",
+    "aliases": [
+      "Man with the Golden Arm",
+      "The Man with the Golden Arm"
+    ],
+    "supporting": [
+      "Eleanor Parker",
+      "Arnold Stang"
+    ],
+    "leads": [
+      "Frank Sinatra",
+      "Kim Novak"
+    ],
+    "synopsis": "Ένας ντράμερ και πρώην χαρτοπαίχτης επιστρέφει στο Σικάγο καθαρός από τα ναρκωτικά, αλλά η φτώχεια, η σύζυγός του και οι παλιοί γνωστοί τον τραβούν πίσω.",
+    "clue": "Ένας μουσικός που ονειρεύεται τα ντραμς, ένα τραπέζι πόκερ και μια μάχη με τον εθισμό.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Arm",
+    "audio": "media/scene-golden-arm.mp3",
+    "audioSource": "https://archive.org/details/the-man-with-the-golden-arm-1955_202405",
+    "audioCredit": "Internet Archive (Public Domain Mark)",
+    "audioStart": 2591,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "The Man With The Golden Arm (1955)",
+    "rights": "Public domain in the US: copyright not renewed (Wikipedia)."
+  },
+  {
+    "id": "star-born",
+    "kind": "movies",
+    "title": "A Star Is Born",
+    "year": 1937,
+    "originalFormat": "color",
+    "aliases": [
+      "A Star Is Born",
+      "Star Is Born"
+    ],
+    "supporting": [
+      "Adolphe Menjou",
+      "May Robson"
+    ],
+    "leads": [
+      "Janet Gaynor",
+      "Fredric March"
+    ],
+    "synopsis": "Μια κοπέλα από την επαρχία φτάνει στο Χόλιγουντ και γίνεται σταρ με τη βοήθεια ενός διάσημου ηθοποιού, του οποίου η καριέρα καταρρέει από το ποτό.",
+    "clue": "Η άνοδος μιας νέας ηθοποιού και η πτώση του άντρα που την ανακάλυψε.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/A_Star_Is_Born_(1937_film)",
+    "audio": "media/scene-star-born.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=ualUgJdUB0o",
+    "audioCredit": "YouLook Film Hits",
+    "audioStart": 4687,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "A Star Is Born (1937) | Full Classic Drama Film | Janet Gaynor, Fredric March",
+    "rights": "Public domain in the US since 1965: copyright not renewed (Wikipedia)."
+  },
+  {
+    "id": "africa-screams",
+    "kind": "movies",
+    "title": "Africa Screams",
+    "year": 1949,
+    "originalFormat": "bw",
+    "aliases": [
+      "Africa Screams"
+    ],
+    "supporting": [
+      "Clyde Beatty",
+      "Hillary Brooke"
+    ],
+    "leads": [
+      "Bud Abbott",
+      "Lou Costello"
+    ],
+    "synopsis": "Δύο υπάλληλοι βιβλιοπωλείου παριστάνουν τους εξερευνητές και καταλήγουν σε αποστολή στη ζούγκλα, κυνηγημένοι από λιοντάρια, κροκόδειλους και απατεώνες.",
+    "clue": "Ένας ψεύτικος χάρτης, μια ζούγκλα και δύο κωμικοί που δεν ξέρουν τι κάνουν.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/Africa_Screams",
+    "audio": "media/scene-africa-screams.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=6Xl4uVsrnTE",
+    "audioCredit": "TV Humana",
+    "audioStart": 3178,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Africa Screams - 1949",
+    "rights": "Public domain in the US since 1977: copyright not renewed (Wikipedia)."
+  },
+  {
+    "id": "fathers-dividend",
+    "kind": "movies",
+    "title": "Father's Little Dividend",
+    "year": 1951,
+    "originalFormat": "bw",
+    "aliases": [
+      "Father's Little Dividend",
+      "Fathers Little Dividend"
+    ],
+    "supporting": [
+      "Joan Bennett",
+      "Don Taylor"
+    ],
+    "leads": [
+      "Spencer Tracy",
+      "Elizabeth Taylor"
+    ],
+    "synopsis": "Ένας πατέρας που μόλις πάντρεψε την κόρη του μαθαίνει ότι θα γίνει παππούς και δυσκολεύεται πολύ να το αποδεχτεί.",
+    "clue": "Ένας νέος παππούς που δεν είναι καθόλου έτοιμος.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/Father%27s_Little_Dividend",
+    "audio": "media/scene-fathers-dividend.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=wWjznQN41s4",
+    "audioCredit": "Cult Cinema Classics",
+    "audioStart": 1767,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "(Spencer Tracy, Joan Bennett) Father's Little Dividend 1951 | Comedy, Drama, Romance | 4k Full Movie",
+    "rights": "Public domain in the US since 1979: copyright not renewed (Wikipedia)."
+  },
+  {
+    "id": "beat-devil",
+    "kind": "movies",
+    "title": "Beat the Devil",
+    "year": 1953,
+    "originalFormat": "bw",
+    "aliases": [
+      "Beat the Devil"
+    ],
+    "supporting": [
+      "Gina Lollobrigida",
+      "Robert Morley"
+    ],
+    "leads": [
+      "Humphrey Bogart",
+      "Jennifer Jones"
+    ],
+    "synopsis": "Μια ομάδα απατεώνων περιμένει σε ένα ιταλικό λιμάνι να ταξιδέψει στην Αφρική για γη πλούσια σε ουράνιο, ενώ τα ψέματα και οι έρωτες μπερδεύονται.",
+    "clue": "Ένα ιταλικό λιμάνι, ένα πλοίο που δεν λέει να φύγει και μια παρέα απατεώνων.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/Beat_the_Devil_(film)",
+    "audio": "media/scene-beat-devil.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=qqkmgHS3TXw",
+    "audioCredit": "Retrospective - Classic Movies",
+    "audioStart": 2865,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Private Humphrey Bogart, Jennifer Jones Comedy Full Movie | Beat The Devil (1953)",
+    "rights": "Public domain in the US: copyright never renewed (Wikipedia)."
+  },
+  {
+    "id": "andy-griffith",
+    "kind": "series",
+    "title": "The Andy Griffith Show",
+    "year": 1960,
+    "originalFormat": null,
+    "aliases": [
+      "Andy Griffith Show",
+      "The Andy Griffith Show",
+      "Andy Griffith"
+    ],
+    "supporting": [
+      "Frances Bavier",
+      "Hal Smith"
+    ],
+    "leads": [
+      "Don Knotts",
+      "Ron Howard"
+    ],
+    "synopsis": "Ο ήρεμος σερίφης μιας μικρής πόλης της Βόρειας Καρολίνας μεγαλώνει μόνος τον γιο του και λύνει τα προβλήματα της κοινότητας με κοινή λογική.",
+    "clue": "Μια μικρή πόλη, ένας σερίφης χωρίς όπλο και ένας πολύ νευρικός βοηθός.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/The_Andy_Griffith_Show",
+    "audio": "media/scene-andy-griffith.mp3",
+    "audioSource": "https://archive.org/details/Andy-Griffith-Show_Andy-Discovers-America",
+    "audioCredit": "Internet Archive (public domain)",
+    "audioStart": 1136,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "The Andy Griffith Show: S3 E23, Andy Discovers America",
+    "rights": "The last 16 episodes of season 3 are public domain in the US (Wikipedia); this is S3E23."
+  },
+  {
+    "id": "topper",
+    "kind": "series",
+    "title": "Topper",
+    "year": 1953,
+    "originalFormat": null,
+    "aliases": [
+      "Topper"
+    ],
+    "supporting": [
+      "Robert Sterling",
+      "Lee Patrick"
+    ],
+    "leads": [
+      "Leo G. Carroll",
+      "Anne Jeffreys"
+    ],
+    "synopsis": "Ένας συντηρητικός τραπεζίτης αγοράζει ένα σπίτι στοιχειωμένο από ένα κομψό ζευγάρι φαντασμάτων και τον σκύλο τους, που μόνο εκείνος μπορεί να δει.",
+    "clue": "Ένας σοβαρός τραπεζίτης, δύο εύθυμα φαντάσματα και ένας Άγιος Βερνάρδος.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/Topper_(TV_series)",
+    "audio": "media/scene-topper.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=cXri59-wzgI",
+    "audioCredit": "SabuCat ",
+    "audioStart": 895,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Topper \"Henrietta Sells the House\" (1954)",
+    "rights": "Eleven episodes are public domain (Wikipedia); this episode is marked public domain on the Internet Archive."
+  },
+  {
+    "id": "private-secretary",
+    "kind": "series",
+    "title": "Private Secretary",
+    "year": 1953,
+    "originalFormat": null,
+    "aliases": [
+      "Private Secretary"
+    ],
+    "supporting": [
+      "Ann Tyrrell",
+      "Jesse White"
+    ],
+    "leads": [
+      "Ann Sothern",
+      "Don Porter"
+    ],
+    "synopsis": "Μια αεικίνητη γραμματέας σε ένα πρακτορείο ταλέντων της Νέας Υόρκης ανακατεύεται συνεχώς στις υποθέσεις των πελατών και του αφεντικού της.",
+    "clue": "Ένα γραφείο ταλέντων στη Νέα Υόρκη και μια υπάλληλος που τα ξέρει όλα.",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261009-cinematix",
+    "source": "https://en.wikipedia.org/wiki/Private_Secretary_(TV_series)",
+    "audio": "media/scene-private-secretary.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=UJuwbLDCYBY",
+    "audioCredit": "Classic TV Channel",
+    "audioStart": 1176,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Private Secretary - Season 4 - Episode 16 -Little Caesar of Bleeker Street | Ann Sothern, Don Porter",
+    "rights": "Wikipedia links this episode as a public-domain episode at the Internet Archive."
   }
 ]

@@ -21,7 +21,7 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles;
   try {
-    const response = await fetch('titles.json?v=20261009-cinematix');
+    const response = await fetch('titles.json?v=20261010-cinematix2');
     if (!response.ok) throw new Error('Titles unavailable');
     titles = filterTitles(await response.json(), kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
