@@ -4664,6 +4664,7 @@ function hydrateProfileCounters() {
   }
 
   state.categoryScores=window.GMPCategoryScores.merge(state.categoryScores,currentProfile.category_scores);
+  window.GMPDaily?.merge(currentProfile.daily_done);
   updateDailyStreak();
   save();
 }
@@ -4700,6 +4701,7 @@ async function saveOnlineStats() {
   };
 
   if(Object.hasOwn(currentProfile,"category_scores"))stats.category_scores=window.GMPCategoryScores.clean(state.categoryScores);
+  if(Object.hasOwn(currentProfile,"daily_done")&&window.GMPDaily)stats.daily_done=window.GMPDaily.merge(currentProfile.daily_done);
 
   const task = async () => {
     if (

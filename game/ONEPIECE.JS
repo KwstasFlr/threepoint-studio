@@ -168,7 +168,14 @@ function opRound(){
     opSave();
   }
   if(gmpEnsureRoundNumber('onepiece',opMode,opRounds[opMode]))opSave();
-  return opRounds[opMode];
+  const round=opRounds[opMode];
+  // A Daily finished elsewhere, or before changing the progress setting, stays finished.
+  if(opMode==='daily'&&!round.marked&&!opDone(round)&&window.GMPDaily?.done('onepiece',round.day)){round.ended=true;round.elsewhere=true;opSave();}
+  return round;
+}
+function opTrackDaily(round){
+  if(opMode!=='daily'||!(opDone(round)||round.guesses.length>=OP_GUESS_LIMIT))return;
+  round.marked=true;window.GMPDaily?.mark('onepiece',round.day,opWon(round));window.GMPScoreAdapter?.sync();
 }
 function opWon(round){return round.guesses.includes(round.target);}
 function opGuessLimit(round){return OP_GUESS_LIMIT+(round.extra?1:0);}
@@ -235,6 +242,7 @@ function opRender(){
     ["arc",T("First appearance arc","Πρώτη εμφάνιση")]
   ];
   const status=won?T(`Found it: ${target.name}! ${round.guesses.length} guesses.`,`Το βρήκες: ${target.name}! ${round.guesses.length} προσπάθειες.`)
+    :round.elsewhere?T("You already finished today’s Daily. Come back tomorrow.","Έχεις ήδη ολοκληρώσει το σημερινό Daily. Έλα ξανά αύριο.")
     :done?T(`The character was ${target.name}.`,`Ο χαρακτήρας ήταν ${target.name}.`)
     :canReward?T("10 / 10 guesses used. Watch an ad for one extra guess, or reveal the answer.","10 / 10 προσπάθειες. Δες διαφήμιση για μία έξτρα προσπάθεια ή εμφάνισε την απάντηση.")
     :T(`${round.guesses.length} / ${opGuessLimit(round)} guesses. Choose a character to compare their traits.`,`${round.guesses.length} / ${opGuessLimit(round)} προσπάθειες. Διάλεξε έναν χαρακτήρα για να συγκρίνεις τα χαρακτηριστικά του.`);
@@ -285,7 +293,7 @@ opDialog.addEventListener("click",event=>{
   if(event.target.closest("[data-op-ad]")){opWatchAd();return;}
   if(event.target.closest("[data-op-reveal]")){
     const round=opRound();
-    if(opCanReward(round)){round.ended=true;opSave();opRender();}
+    if(opCanReward(round)){round.ended=true;opTrackDaily(round);opSave();opRender();}
     return;
   }
   const mode=event.target.closest("[data-op-mode]");
@@ -315,6 +323,7 @@ opDialog.addEventListener("submit",event=>{
   if(!character){message.textContent=T("Choose a character from the list.","Διάλεξε έναν χαρακτήρα από τη λίστα.");input.focus();return;}
   if(round.guesses.includes(character.id)){message.textContent=T("You already tried this character.","Έχεις ήδη δοκιμάσει αυτόν τον χαρακτήρα.");input.focus();return;}
   round.guesses.push(character.id);
+  opTrackDaily(round);
   if(opWon(round))window.GMPProgress?.award({game:'onepiece',mode:opMode,round:round.number,day:round.day,attempt:round.guesses.length,extra:round.guesses.length>OP_GUESS_LIMIT}).catch(console.error);
   opSave();opRender();
   if(opWon(round)) opDialog.querySelector("[data-op-next], [data-op-close]")?.focus();
@@ -327,6 +336,7 @@ opDialog.addEventListener("close",()=>{
 });
 
 window.addEventListener("gmp-language-change",()=>{if(opDialog.open)opRender();});
+window.addEventListener("gmp-daily-change",()=>{if(opDialog.open)opRender();});
 
 async function opWatchAd(){
   const selectedMode=opMode;

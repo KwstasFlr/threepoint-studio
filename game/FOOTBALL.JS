@@ -52,7 +52,14 @@ function fbRound(){
     fbSave();
   }
   if(gmpEnsureRoundNumber('football',fbMode,fbRounds[fbMode]))fbSave();
-  return fbRounds[fbMode];
+  const round=fbRounds[fbMode];
+  // A Daily finished elsewhere stays finished here; it earns no second score.
+  if(fbMode==='daily'&&!round.marked&&!fbDone(round)&&window.GMPDaily?.done('football',round.day)){round.ended=true;round.elsewhere=true;round.scored=true;fbSave();}
+  return round;
+}
+function fbTrackDaily(round){
+  if(fbMode!=='daily'||!(fbDone(round)||round.guesses.length>=FB_GUESS_LIMIT))return;
+  round.marked=true;window.GMPDaily?.mark('football',round.day,fbWon(round));window.GMPScoreAdapter?.sync();
 }
 function fbWon(round){return round.guesses.includes(round.target);}
 function fbGuessLimit(round){return FB_GUESS_LIMIT+(round.extra?1:0);}
@@ -108,6 +115,7 @@ function fbRender(){
   const available=FB_PLAYERS.filter(player=>!round.guesses.includes(player.id));
   const columns=[['name',T('Player','Παίκτης')],['nation',T('Nationality','Εθνικότητα')],['highestMarketValue',T('Highest value','Υψηλότερη αξία')],['status',T('Active / retired','Ενεργός / αποσυρμένος')],['age',T('Age','Ηλικία')],['position',T('Position','Θέση')]];
   const status=won?T(`Found it: ${target.name}! ${round.guesses.length} guesses.`,`Το βρήκες: ${target.name}! ${round.guesses.length} προσπάθειες.`)
+    :round.elsewhere?T("You already finished today’s Daily. Come back tomorrow.","Έχεις ήδη ολοκληρώσει το σημερινό Daily. Έλα ξανά αύριο.")
     :done?T(`The player was ${target.name}.`,`Ο παίκτης ήταν ${target.name}.`)
     :canReward?T("10 / 10 guesses used. Watch an ad for one extra guess, or reveal the answer.","10 / 10 προσπάθειες. Δες διαφήμιση για μία έξτρα προσπάθεια ή εμφάνισε την απάντηση.")
     :T(`${round.guesses.length} / ${fbGuessLimit(round)} guesses. Choose a player to compare their traits.`,`${round.guesses.length} / ${fbGuessLimit(round)} προσπάθειες. Διάλεξε έναν παίκτη για να συγκρίνεις τα χαρακτηριστικά του.`);
@@ -144,7 +152,7 @@ fbDialog.addEventListener("click",event=>{
   if(event.target.closest("[data-fb-ad]")){fbWatchAd();return;}
   if(event.target.closest("[data-fb-reveal]")){
     const round=fbRound();
-    if(fbCanReward(round)){round.ended=true;fbFinish(round);fbSave();fbRender();}
+    if(fbCanReward(round)){round.ended=true;fbFinish(round);fbTrackDaily(round);fbSave();fbRender();}
     return;
   }
   const mode=event.target.closest("[data-fb-mode]");
@@ -167,6 +175,7 @@ fbDialog.addEventListener("submit",event=>{
   if(round.guesses.includes(player.id)){message.textContent=T("You already tried this player.","Έχεις ήδη δοκιμάσει αυτόν τον παίκτη.");input.focus();return;}
   round.guesses.push(player.id);
   if(fbDone(round))fbFinish(round);
+  fbTrackDaily(round);
   fbSave();fbRender();
   if(fbWon(round)) fbDialog.querySelector("[data-fb-next], [data-fb-close]")?.focus();
   else fbDialog.querySelector("input")?.focus();
@@ -178,6 +187,7 @@ fbDialog.addEventListener("close",()=>{
 });
 
 window.addEventListener("gmp-language-change",()=>{if(fbDialog.open)fbRender();});
+window.addEventListener("gmp-daily-change",()=>{if(fbDialog.open)fbRender();});
 
 async function fbWatchAd(){
   const selectedMode=fbMode;
