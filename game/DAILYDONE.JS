@@ -21,5 +21,5 @@ window.GMPDaily=(()=>{
   if(changed){put(saved);window.dispatchEvent(new Event('gmp-daily-change'));}
   return saved;
  }
- return {all,done,mark,merge};
+ return {all,clean,done,mark,merge};
 })();

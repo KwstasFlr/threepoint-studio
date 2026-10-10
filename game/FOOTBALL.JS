@@ -55,6 +55,8 @@ function fbRound(){
   const round=fbRounds[fbMode];
   // A Daily finished elsewhere stays finished here; it earns no second score.
   if(fbMode==='daily'&&!round.marked&&!fbDone(round)&&window.GMPDaily?.done('football',round.day)){round.ended=true;round.elsewhere=true;round.scored=true;fbSave();}
+  // A Daily finished here before it was recorded still counts.
+  if(fbMode==='daily'&&!round.marked&&!round.elsewhere&&fbDone(round)){fbTrackDaily(round);fbSave();}
   return round;
 }
 function fbTrackDaily(round){

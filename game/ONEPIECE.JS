@@ -171,6 +171,8 @@ function opRound(){
   const round=opRounds[opMode];
   // A Daily finished elsewhere, or before changing the progress setting, stays finished.
   if(opMode==='daily'&&!round.marked&&!opDone(round)&&window.GMPDaily?.done('onepiece',round.day)){round.ended=true;round.elsewhere=true;opSave();}
+  // A Daily finished here before it was recorded still counts.
+  if(opMode==='daily'&&!round.marked&&!round.elsewhere&&opDone(round)){opTrackDaily(round);opSave();}
   return round;
 }
 function opTrackDaily(round){

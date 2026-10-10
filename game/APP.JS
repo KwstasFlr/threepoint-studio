@@ -4664,9 +4664,12 @@ function hydrateProfileCounters() {
   }
 
   state.categoryScores=window.GMPCategoryScores.merge(state.categoryScores,currentProfile.category_scores);
-  window.GMPDaily?.merge(currentProfile.daily_done);
+  // Upload Daily rounds this device finished that the account has not recorded yet.
+  const dailyDone=window.GMPDaily?.merge(currentProfile.daily_done);
+  const dailyPending=dailyDone&&Object.hasOwn(currentProfile,"daily_done")&&JSON.stringify(window.GMPDaily.clean(dailyDone))!==JSON.stringify(window.GMPDaily.clean(currentProfile.daily_done));
   updateDailyStreak();
   save();
+  if(dailyPending)saveOnlineStats();
 }
 
 async function saveOnlineStats() {
