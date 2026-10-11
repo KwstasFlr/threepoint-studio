@@ -43,9 +43,9 @@
 .round-number .round-caption{font-size:14px;font-weight:800;grid-column:2;grid-row:1}
 .round-number strong{font-family:var(--font-display);font-size:clamp(30px,5vw,42px);color:var(--lime);grid-column:1;grid-row:1 / 3;white-space:nowrap}
 .round-number .round-context{font-size:11px;font-weight:500;color:var(--muted);grid-column:2;grid-row:2}
-.op-modes.mode-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0 22px}
-.mode-picker:has([data-gm-mode]){grid-template-columns:repeat(2,minmax(0,1fr))}
-.mode-picker:has([data-fb-mode]){grid-template-columns:repeat(2,minmax(0,1fr))}
+.op-modes.mode-picker{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin:18px 0 22px}
+.mode-picker:has([data-gm-mode]){grid-template-columns:minmax(0,1fr)}
+.mode-picker:has([data-fb-mode]){grid-template-columns:minmax(0,1fr)}
 .op-modes .mode-option{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:6px;min-width:0;padding:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel);color:var(--text);text-align:left;line-height:1.4;transition:border-color .15s,background .15s}
 .mode-icon{display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:8px;background:var(--panel-3);color:var(--lime);font-weight:900;font-size:17px}
 .mode-name{font-size:17px;font-weight:900;letter-spacing:.2px}.mode-description{font-size:12px;color:var(--muted);font-weight:500;overflow-wrap:anywhere}

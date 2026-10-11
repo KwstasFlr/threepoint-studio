@@ -15,12 +15,12 @@ function gmpModeTabs(game,selected){
   const modes=game==='gaming'?['classic','quote']:game==='football'?['daily','unlimited']:['unlimited','quote'];
   const prefix={football:'fb',onepiece:'op',gaming:'gm'}[game];
   const info={
-    daily:['D','Daily',''],
-    unlimited:['C','Classic',''],
-    classic:['C','Classic',T('Compare character traits','Σύγκρινε χαρακτηριστικά')],
+    daily:['','Daily',''],
+    unlimited:['','Classic',''],
+    classic:['','Classic',T('Compare character traits','Σύγκρινε χαρακτηριστικά')],
     quote:['“ ”','Quotes',T('Find who says the line','Βρες ποιος λέει την ατάκα')]
   };
-  return `<div class="op-modes mode-picker" role="group" aria-label="${T('Choose game mode','Διάλεξε τρόπο παιχνιδιού')}">${modes.map(mode=>{const [icon,name,description]=info[mode];return `<button class="mode-option" type="button" data-${prefix}-mode="${mode}" aria-pressed="${mode===selected}"><span class="mode-icon" aria-hidden="true">${icon}</span><span class="mode-name">${name}</span>${description?`<span class="mode-description">${description}</span>`:''}</button>`;}).join('')}</div>`;
+  return `<div class="op-modes mode-picker" role="group" aria-label="${T('Choose game mode','Διάλεξε τρόπο παιχνιδιού')}">${modes.map(mode=>{const [icon,name,description]=info[mode];return `<button class="mode-option" type="button" data-${prefix}-mode="${mode}" aria-pressed="${mode===selected}">${icon?`<span class="mode-icon" aria-hidden="true">${icon}</span>`:''}<span class="mode-name">${name}</span>${description?`<span class="mode-description">${description}</span>`:''}</button>`;}).join('')}</div>`;
 }
 function gmpFocusRound(dialog){
   dialog.querySelector('.mode-option[aria-pressed="true"]')?.focus({preventScroll:true});
