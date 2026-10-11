@@ -1,0 +1,605 @@
+[
+  {
+    "id": "SE",
+    "name": [
+      "Sweden",
+      "Σουηδία"
+    ],
+    "aliases": [
+      "Sweden",
+      "Σουηδία"
+    ],
+    "facts": [
+      [
+        "Its official island inventory counts 267,570 islands.",
+        "Η επίσημη καταγραφή της μετρά 267.570 νησιά."
+      ],
+      [
+        "About 70% of its land is covered by forest, according to its tourism board.",
+        "Περίπου το 70% της έκτασής της καλύπτεται από δάση, σύμφωνα με τον οργανισμό τουρισμού της."
+      ]
+    ],
+    "locations": [
+      [
+        "Northern Europe, on the Scandinavian Peninsula.",
+        "Βόρεια Ευρώπη, στη Σκανδιναβική Χερσόνησο."
+      ],
+      [
+        "It borders Norway and Finland and faces the Baltic Sea.",
+        "Συνορεύει με Νορβηγία και Φινλανδία και βρέχεται από τη Βαλτική."
+      ]
+    ],
+    "animals": [
+      [
+        "Moose live in its forests.",
+        "Στα δάση της ζουν άλκες."
+      ],
+      [
+        "Reindeer are found in its northern landscapes.",
+        "Στα βόρεια τοπία της συναντάς ταράνδους."
+      ]
+    ],
+    "population": 10569709,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 60.8,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 8.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://visitsweden.com/what-to-do/nature-outdoors/nature/archipelagos/swedens-archipelagos/",
+      "https://visitsweden.com/what-to-do/nature-outdoors/nature/wildlife-in-sweden/",
+      "https://api.worldbank.org/v2/country/SWE/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+      "https://visitsweden.com/what-to-do/nature-outdoors/nature/natural-wonders/"
+    ]
+  },
+  {
+    "id": "GR",
+    "name": [
+      "Greece",
+      "Ελλάδα"
+    ],
+    "aliases": [
+      "Greece",
+      "Ελλάδα"
+    ],
+    "facts": [
+      [
+        "It has around 6,000 islands and islets, according to its tourism board.",
+        "Έχει περίπου 6.000 νησιά και νησίδες, σύμφωνα με τον οργανισμό τουρισμού της."
+      ],
+      [
+        "Its tourism board counts 227 inhabited islands.",
+        "Ο οργανισμός τουρισμού της καταγράφει 227 κατοικημένα νησιά."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeastern Europe, at the southern end of the Balkan Peninsula.",
+        "Νοτιοανατολική Ευρώπη, στο νότιο άκρο των Βαλκανίων."
+      ],
+      [
+        "It faces the Aegean Sea to the east and the Ionian Sea to the west.",
+        "Βρέχεται από το Αιγαίο ανατολικά και το Ιόνιο δυτικά."
+      ]
+    ],
+    "animals": [
+      [
+        "Mediterranean monk seals shelter in its sea caves.",
+        "Μεσογειακές φώκιες βρίσκουν καταφύγιο στις θαλάσσιες σπηλιές της."
+      ],
+      [
+        "Its northern Aegean islands include sea caves used by monk seals.",
+        "Στα νησιά του βόρειου Αιγαίου της υπάρχουν θαλάσσιες σπηλιές που χρησιμοποιούν φώκιες."
+      ]
+    ],
+    "population": 10405134,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 89.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 5.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.visitgreece.gr/islands/",
+      "https://www.visitgreece.gr/en/mainland/north-aegean-islands",
+      "https://api.worldbank.org/v2/country/GRC/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "JP",
+    "name": [
+      "Japan",
+      "Ιαπωνία"
+    ],
+    "aliases": [
+      "Japan",
+      "Ιαπωνία"
+    ],
+    "facts": [
+      [
+        "It is divided into 47 prefectures.",
+        "Χωρίζεται σε 47 νομούς."
+      ],
+      [
+        "Its four main islands include Honshu, Hokkaido, Kyushu and Shikoku.",
+        "Τα τέσσερα κύρια νησιά της περιλαμβάνουν Χονσού, Χοκάιντο, Κιούσου και Σικόκου."
+      ]
+    ],
+    "locations": [
+      [
+        "An island country in East Asia, in the Pacific Ocean.",
+        "Νησιωτική χώρα της Ανατολικής Ασίας, στον Ειρηνικό."
+      ],
+      [
+        "It lies east of the Korean Peninsula.",
+        "Βρίσκεται ανατολικά της Κορεατικής Χερσονήσου."
+      ]
+    ],
+    "animals": [
+      [
+        "Some of its wild macaques bathe in hot springs.",
+        "Μερικοί από τους άγριους μακάκους της κάνουν μπάνιο σε θερμές πηγές."
+      ],
+      [
+        "Wild bears live on its northern island of Hokkaido.",
+        "Στο βόρειο νησί της, το Χοκάιντο, ζουν άγριες αρκούδες."
+      ]
+    ],
+    "population": 123975371,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 37.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.japan.travel/partners/eng/destination.php",
+      "https://www.japan.travel/en/sports/adventure/activities/wildlife-watching/",
+      "https://api.worldbank.org/v2/country/JPN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "AU",
+    "name": [
+      "Australia",
+      "Αυστραλία"
+    ],
+    "aliases": [
+      "Australia",
+      "Αυστραλία"
+    ],
+    "facts": [
+      [
+        "Its national coat of arms represents six states.",
+        "Το εθνικό της έμβλημα αντιπροσωπεύει έξι πολιτείες."
+      ],
+      [
+        "It is both a country and a continent.",
+        "Είναι ταυτόχρονα χώρα και ήπειρος."
+      ]
+    ],
+    "locations": [
+      [
+        "Oceania, between the Indian and Pacific Oceans.",
+        "Ωκεανία, ανάμεσα στον Ινδικό και τον Ειρηνικό."
+      ],
+      [
+        "It lies south of Indonesia and Papua New Guinea.",
+        "Βρίσκεται νότια της Ινδονησίας και της Παπούας Νέας Γουινέας."
+      ]
+    ],
+    "animals": [
+      [
+        "A kangaroo and an emu support its coat of arms.",
+        "Ένα καγκουρό και ένα εμού στηρίζουν το εθνικό της έμβλημα."
+      ],
+      [
+        "The red kangaroo lives across much of its mainland.",
+        "Το κόκκινο καγκουρό ζει σε μεγάλο μέρος της ηπειρωτικής έκτασής της."
+      ]
+    ],
+    "population": 27194286,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 46.8,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 3.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.aph.gov.au/Visit_Parliament/Art/Stories/Australias_Coat_of_Arms",
+      "https://api.worldbank.org/v2/country/AUS/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CA",
+    "name": [
+      "Canada",
+      "Καναδάς"
+    ],
+    "aliases": [
+      "Canada",
+      "Καναδάς"
+    ],
+    "facts": [
+      [
+        "It has the longest coastline in the world.",
+        "Έχει τη μεγαλύτερη ακτογραμμή στον κόσμο."
+      ],
+      [
+        "Its coast reaches three oceans: Atlantic, Arctic and Pacific.",
+        "Η ακτογραμμή της φτάνει σε τρεις ωκεανούς: Ατλαντικό, Αρκτικό και Ειρηνικό."
+      ]
+    ],
+    "locations": [
+      [
+        "Northern North America.",
+        "Στο βόρειο τμήμα της Βόρειας Αμερικής."
+      ],
+      [
+        "It shares a long land border with the United States.",
+        "Μοιράζεται μεγάλη χερσαία συνοριακή γραμμή με τις ΗΠΑ."
+      ]
+    ],
+    "animals": [
+      [
+        "The beaver is one of its official national symbols.",
+        "Ο κάστορας είναι ένα από τα επίσημα εθνικά της σύμβολα."
+      ],
+      [
+        "The beaver became an official national symbol in 1975.",
+        "Ο κάστορας έγινε επίσημο εθνικό της σύμβολο το 1975."
+      ]
+    ],
+    "population": 41262329,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 53.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 4.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.canada.ca/en/services/environment/our-environment/nature-based-climate-solutions/coastlines.html",
+      "https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html",
+      "https://api.worldbank.org/v2/country/CAN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "BR",
+    "name": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "aliases": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "facts": [
+      [
+        "Its statistics office divides it into five major regions.",
+        "Η στατιστική υπηρεσία της τη χωρίζει σε πέντε μεγάλες περιοχές."
+      ],
+      [
+        "It is the largest country in South America by area.",
+        "Είναι η μεγαλύτερη χώρα της Νότιας Αμερικής σε έκταση."
+      ]
+    ],
+    "locations": [
+      [
+        "Eastern and central South America, facing the Atlantic.",
+        "Ανατολική και κεντρική Νότια Αμερική, με ακτές στον Ατλαντικό."
+      ],
+      [
+        "The Amazon and Pantanal are among its natural regions.",
+        "Ο Αμαζόνιος και το Παντανάλ είναι μεταξύ των φυσικών περιοχών της."
+      ]
+    ],
+    "animals": [
+      [
+        "Jaguars live in its Pantanal wetlands.",
+        "Στους υγροτόπους του Παντανάλ της ζουν τζάγκουαρ."
+      ],
+      [
+        "The Pantanal is a place to observe the largest cat in the Americas.",
+        "Το Παντανάλ της είναι μέρος για παρατήρηση του μεγαλύτερου αιλουροειδούς της Αμερικής."
+      ]
+    ],
+    "population": 211998573,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 80.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 5.7,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://educa.ibge.gov.br/jovens/conheca-o-brasil/territorio/21469-as-grandes-regioes-do-brasil.html",
+      "https://www.visitbrasil.com/es/location/pantanal-es",
+      "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "IN",
+    "name": [
+      "India",
+      "Ινδία"
+    ],
+    "aliases": [
+      "India",
+      "Ινδία"
+    ],
+    "facts": [
+      [
+        "It became the world’s most populous country in 2023, according to the UN.",
+        "Έγινε η πολυπληθέστερη χώρα στον κόσμο το 2023, σύμφωνα με τον ΟΗΕ."
+      ],
+      [
+        "It has more than one billion inhabitants.",
+        "Έχει περισσότερους από ένα δισεκατομμύριο κατοίκους."
+      ]
+    ],
+    "locations": [
+      [
+        "South Asia, with a long coastline on the Indian Ocean.",
+        "Νότια Ασία, με μεγάλη ακτογραμμή στον Ινδικό Ωκεανό."
+      ],
+      [
+        "The Himalayas lie along its northern region.",
+        "Τα Ιμαλάια βρίσκονται στη βόρεια περιοχή της."
+      ]
+    ],
+    "animals": [
+      [
+        "Its Gir landscape protects wild Asiatic lions.",
+        "Η περιοχή Γκιρ της προστατεύει άγρια ασιατικά λιοντάρια."
+      ],
+      [
+        "The last refuge of the Asiatic lion is in its western state of Gujarat.",
+        "Το τελευταίο καταφύγιο του ασιατικού λιονταριού βρίσκεται στη δυτική πολιτεία της Γκουτζαράτ."
+      ]
+    ],
+    "population": 1450935791,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Hindus",
+          "Ινδουιστές"
+        ],
+        "percent": 79.4,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 15.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.un.org/development/desa/dpad/publication/un-desa-policy-brief-no-153-india-overtakes-china-as-the-worlds-most-populous-country/",
+      "https://www.gujarattourism.com/touristsupport/details/257",
+      "https://api.worldbank.org/v2/country/IND/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "NZ",
+    "name": [
+      "New Zealand",
+      "Νέα Ζηλανδία"
+    ],
+    "aliases": [
+      "New Zealand",
+      "Νέα Ζηλανδία"
+    ],
+    "facts": [
+      [
+        "Its two main islands are called North Island and South Island.",
+        "Τα δύο κύρια νησιά της ονομάζονται Βόρειο και Νότιο Νησί."
+      ],
+      [
+        "It is home to the world’s only flightless parrot.",
+        "Είναι πατρίδα του μοναδικού παπαγάλου στον κόσμο που δεν πετά."
+      ]
+    ],
+    "locations": [
+      [
+        "Oceania, in the southwestern Pacific Ocean.",
+        "Ωκεανία, στον νοτιοδυτικό Ειρηνικό."
+      ],
+      [
+        "It lies southeast of Australia.",
+        "Βρίσκεται νοτιοανατολικά της Αυστραλίας."
+      ]
+    ],
+    "animals": [
+      [
+        "Its kiwi is a flightless bird and national icon.",
+        "Το κίγουι της είναι πουλί που δεν πετά και εθνικό σύμβολο."
+      ],
+      [
+        "Its kakapo is a large, nocturnal, flightless parrot.",
+        "Το κακάπο της είναι μεγάλος νυχτόβιος παπαγάλος που δεν πετά."
+      ]
+    ],
+    "population": 5290000,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 40.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.doc.govt.nz/kiwi",
+      "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kakapo/",
+      "https://api.worldbank.org/v2/country/NZL/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "ID",
+    "name": [
+      "Indonesia",
+      "Ινδονησία"
+    ],
+    "aliases": [
+      "Indonesia",
+      "Ινδονησία"
+    ],
+    "facts": [
+      [
+        "Its archipelago comprises more than 17,000 islands.",
+        "Το αρχιπέλαγός της αποτελείται από περισσότερα από 17.000 νησιά."
+      ],
+      [
+        "Its islands stretch over 5,000 km from east to west.",
+        "Τα νησιά της εκτείνονται πάνω από 5.000 χλμ. από ανατολή προς δύση."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeast Asia, between the Indian and Pacific Oceans.",
+        "Νοτιοανατολική Ασία, ανάμεσα στον Ινδικό και τον Ειρηνικό."
+      ],
+      [
+        "It shares the island of Borneo with Malaysia and Brunei.",
+        "Μοιράζεται το νησί Βόρνεο με Μαλαισία και Μπρουνέι."
+      ]
+    ],
+    "animals": [
+      [
+        "Komodo dragons live on some of its islands.",
+        "Σε μερικά από τα νησιά της ζουν δράκοι του Κομόντο."
+      ],
+      [
+        "It protects Komodo dragons in a national park bearing their name.",
+        "Προστατεύει δράκους του Κομόντο σε εθνικό πάρκο που φέρει το όνομά τους."
+      ]
+    ],
+    "population": 283487931,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 87,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 10.3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.indonesia.travel/content/dam/indtravelrevamp/en/campaign/itbberlin2024/pack/mp1rev.pdf",
+      "https://api.worldbank.org/v2/country/IDN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+      "https://www.indonesia.travel/sa/en/cruise"
+    ]
+  }
+]

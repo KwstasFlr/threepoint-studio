@@ -118,7 +118,7 @@ const OP_BY_ID = new Map(OP_CHARACTERS.map(character=>[character.id,character]))
 const OP_STORAGE_KEY = "GMP_ONE_PIECE_V1";
 const OP_GUESS_LIMIT = 10;
 let opAdBusy = false;
-let opMode = "daily";
+let opMode = "unlimited";
 let opRounds = {daily:null,unlimited:null};
 let opReturnFocus = null;
 

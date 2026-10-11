@@ -8,7 +8,7 @@ if(pageDialog){
  pageDialog.addEventListener('close',()=>{location.href=pageCategory+'.html';});
  if(pageCategory==='football')openFootballGame(pageMode==='daily'?'daily':'unlimited');
  if(pageCategory==='gaming'){gmMode=pageMode==='quote'?'quote':'classic';openGamingGame();}
- if(pageCategory==='one-piece'){opMode=['daily','unlimited','quote'].includes(pageMode)?pageMode:'daily';openOnePieceGame();}
+ if(pageCategory==='one-piece'){opMode=pageMode==='quote'?'quote':'unlimited';openOnePieceGame();}
  document.title=({football:'Football','one-piece':'One Piece',gaming:'Gaming'})[pageCategory]+' — GuessPlex';
 }else{location.replace('./');}
 

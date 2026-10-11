@@ -12,11 +12,11 @@ function gmpRoundLabel(number){
   return `<div class="round-number"><span class="round-caption">${T('You are on round','Είστε στον γύρο')}</span><strong>No${number}</strong></div>`;
 }
 function gmpModeTabs(game,selected){
-  const modes=game==='gaming'?['classic','quote']:game==='football'?['daily','unlimited']:['daily','unlimited','quote'];
+  const modes=game==='gaming'?['classic','quote']:game==='football'?['daily','unlimited']:['unlimited','quote'];
   const prefix={football:'fb',onepiece:'op',gaming:'gm'}[game];
   const info={
     daily:['D','Daily',''],
-    unlimited:['∞','Unlimited',''],
+    unlimited:['C','Classic',''],
     classic:['C','Classic',T('Compare character traits','Σύγκρινε χαρακτηριστικά')],
     quote:['“ ”','Quotes',T('Find who says the line','Βρες ποιος λέει την ατάκα')]
   };

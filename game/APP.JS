@@ -771,7 +771,7 @@ const P = [
 }
 ];
 
-// Unlimited-only additions; preserve the original Daily schedule.
+// Classic-only additions; preserve the original Daily schedule.
 const UNLIMITED_PLAYERS = [...[
   {
     "id": "neymar",
@@ -3898,7 +3898,7 @@ const UNLIMITED_PLAYERS = [...[
 
 
 /* GAME CATEGORIES */
-/* 30 additional players — Unlimited only */
+/* 30 additional players — Classic only */
 UNLIMITED_PLAYERS.push(
   ...[
     ["xavi", "Xavi Hernández", "Spain", "Ισπανία",
@@ -4082,7 +4082,7 @@ UNLIMITED_PLAYERS.push(
       };
     })
 );
-/* Additional players are exclusive to Football Unlimited. */
+/* Additional players are exclusive to Football Classic. */
 UNLIMITED_PLAYERS.push(...[
   ["hleb", "Alexander Hleb", "Belarus", "Λευκορωσία", "Midfielder", "Μέσος", "Arsenal", "Barcelona", ["hleb", "alexander hleb", "χλεμπ"]],
   ["rosicky", "Tomáš Rosický", "Czech Republic", "Τσεχία", "Midfielder", "Μέσος", "Borussia Dortmund", "Arsenal", ["rosicky", "tomas rosicky", "ροσίσκι", "ροσισκι"]],
@@ -4146,6 +4146,7 @@ const GAME_DATA = [
   {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Greek movies & series", "Ελληνικές ταινίες & σειρές"]},
 
   {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Recognize the painter", "Βρες τον ζωγράφο"]},
+  {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Find the country", "Βρες τη χώρα"]},
 
   {
     id: "naruto",
@@ -5546,7 +5547,7 @@ function renderGames() {
       card.type = "button";
     }
 
-    const cardImages={painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6118,6 +6119,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if(id==="country"){location.href="country/";return;}
   if (["football","one-piece","gaming"].includes(id) && document.body.dataset.page !== "category-play") { location.href = id + ".html"; return; }
   if (id === "greek") { window.location.href = "greek/"; return; }
   if (id === "painter") { window.location.href = "painter/"; return; }
@@ -6180,8 +6182,8 @@ function modeText(mode) {
 
   if (mode === "classic") {
     return T(
-      "Unlimited rounds. A new player every round. Keep playing without a daily limit.",
-      "Unlimited γύροι. Νέος παίκτης σε κάθε γύρο. Παίξε χωρίς ημερήσιο όριο."
+      "Classic rounds. A new player every round. Keep playing without a daily limit.",
+      "Classic γύροι. Νέος παίκτης σε κάθε γύρο. Παίξε χωρίς ημερήσιο όριο."
     );
   }
 

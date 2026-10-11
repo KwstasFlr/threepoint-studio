@@ -56,3 +56,5 @@
 .op-modes .mode-option:not([aria-pressed="true"]):hover{border-color:var(--lime);background:var(--panel-2)}
 .op-modes .mode-option:focus-visible{outline:2px solid var(--lime);outline-offset:4px}
 @media(max-width:480px){.op-modes.mode-picker{gap:8px}.op-modes .mode-option{padding:12px 9px}.mode-name{font-size:13px}.mode-description{font-size:11px}.mode-option[aria-pressed="true"]::after{top:8px;right:8px;font-size:14px}.op-dialog .round-number{padding:12px 14px;gap:2px 12px}.round-number .round-caption{font-size:13px}}
+
+.fb-feedback-row{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.fb-feedback-row .op-legend{flex:1;min-width:240px;margin:12px 0}.fb-feedback-row .fb-currency{margin:12px 0;flex-shrink:0;margin-left:auto}.fb-feedback-row .fb-currency label{white-space:nowrap}@media(max-width:520px){.fb-feedback-row{gap:0}.fb-feedback-row .fb-currency{margin-left:0}}

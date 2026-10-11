@@ -126,11 +126,9 @@ function fbRender(){
       <button class="close" type="button" data-fb-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
     ${gmpRoundLabel(round.number)}
     ${gmpModeTabs('football',fbMode)}
-    <p class="op-intro">${T("Find the hidden football player. Each guess compares their traits with the answer.","Βρες τον κρυφό ποδοσφαιριστή. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
 
-    <p class="muted">${fbMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New player every round. Play as often as you like.","Νέος παίκτης σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
-    <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Value unavailable","Μη διαθέσιμη αξία")}</span><span>↑ / ↓ ${T("Target age / value is higher / lower","Η ζητούμενη ηλικία / αξία είναι μεγαλύτερη / μικρότερη")}</span></div>
-    <div class="fb-currency"><label for="fbCurrency">${T('Currency','Νόμισμα')}</label><select id="fbCurrency"><option value="EUR" ${fbCurrency==='EUR'?'selected':''}>EUR (€)</option><option value="USD" ${fbCurrency==='USD'?'selected':''}>USD ($)</option></select></div>
+    <div class="fb-feedback-row"><div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Value unavailable","Μη διαθέσιμη αξία")}</span><span>↑ / ↓ ${T("Target age / value is higher / lower","Η ζητούμενη ηλικία / αξία είναι μεγαλύτερη / μικρότερη")}</span></div>
+    <div class="fb-currency"><label for="fbCurrency">${T('Currency','Νόμισμα')}</label><select id="fbCurrency"><option value="EUR" ${fbCurrency==='EUR'?'selected':''}>EUR (€)</option><option value="USD" ${fbCurrency==='USD'?'selected':''}>USD ($)</option></select></div></div>
     <p class="gmp-start-hint">💡 ${T("Starting clue","Αρχικό στοιχείο")} · ${T("Position","Θέση")}: <strong>${esc(fbValue(target,"position"))}</strong></p>
     <form class="op-form" ${!fbCanGuess(round)?"hidden":""}>
       <label for="fbGuess">${T("Choose or type a player","Διάλεξε ή γράψε παίκτη")}</label>
