@@ -1,0 +1,24 @@
+# Painting images
+
+Art Institute of Chicago Open Access. Each record was checked for is_public_domain=true. Images resized to 1000px and converted to WebP; no AI reconstruction.
+
+- The Bedroom — Vincent van Gogh (1889): https://www.artic.edu/artworks/28560 | Original: https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg
+- Water Lilies — Claude Monet (1906): https://www.artic.edu/artworks/16568 | Original: https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg
+- Two Sisters (On the Terrace) — Pierre-Auguste Renoir (1881): https://www.artic.edu/artworks/14655 | Original: https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Two_Sisters_(On_the_Terrace)_-_Google_Art_Project.jpg
+- A Sunday on La Grande Jatte — 1884 — Georges Seurat (1884–86, border added 1888–89): https://www.artic.edu/artworks/27992 | Original: https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg
+- The Basket of Apples — Paul Cézanne (c. 1893): https://www.artic.edu/artworks/111436 | Original: https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg
+- Yellow Dancers (In the Wings) — Edgar Degas (1874–76): https://www.artic.edu/artworks/18951 | Original: https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Yellow_Dancers_(In_the_Wings)_-_1963.923_-_Art_Institute_of_Chicago.jpg
+- The Child's Bath — Mary Cassatt (1893): https://www.artic.edu/artworks/111442 | Original: https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg
+- Arlésiennes (Mistral) — Paul Gauguin (1888): https://www.artic.edu/artworks/19339 | Original: https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Arl%C3%A9siennes_(Mistral)_-_1934.391_-_Art_Institute_of_Chicago.jpg
+- Paris Street; Rainy Day — Gustave Caillebotte (1877): https://www.artic.edu/artworks/20684 | Original: https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street,_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg
+- The Races at Longchamp — Édouard Manet (1866): https://www.artic.edu/artworks/81533 | Original: https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_The_Races_at_Longchamp_-_1922.424_-_Art_Institute_of_Chicago.jpg
+- The Place du Havre, Paris — Camille Pissarro (1893): https://www.artic.edu/artworks/81551 | Original: https://commons.wikimedia.org/wiki/File:Camille_Pissarro_-_Place_du_Havre,_Paris_-_Art_Institute_of_Chicago.jpg
+- Improvisation No. 30 (Cannons) — Wassily Kandinsky (1913): https://www.artic.edu/artworks/8991 | Original: https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Improvisation_No._30_(Cannons)_-_1931.511_-_Art_Institute_of_Chicago.jpg
+- At the Moulin Rouge — Henri de Toulouse-Lautrec (1892–95): https://www.artic.edu/artworks/61128 | Original: https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_1928.610_-_Art_Institute_of_Chicago.jpg
+- Old Man with a Gold Chain — Rembrandt van Rijn (1631): https://www.artic.edu/artworks/95998 | Original: https://commons.wikimedia.org/wiki/File:Rembrandt_Harmenszoon_van_Rijn_-_Old_Man_with_a_Gold_Chain_-_1922.4467_-_Art_Institute_of_Chicago.jpg
+- The Assumption of the Virgin — El Greco (1577–79): https://www.artic.edu/artworks/87479 | Original: https://commons.wikimedia.org/wiki/File:Domenico_Theotok%C3%B3poulos,_called_El_Greco_-_The_Assumption_of_the_Virgin_-_1906.99_-_Art_Institute_of_Chicago.jpg
+- The Herring Net — Winslow Homer (1885): https://www.artic.edu/artworks/25865 | Original: https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Herring_Net_-_Google_Art_Project.jpg
+- The Fountain, Villa Torlonia, Frascati, Italy — John Singer Sargent (1907): https://www.artic.edu/artworks/69780 | Original: https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_The_Fountain,_Villa_Torlonia,_Frascati,_Italy_-_Google_Art_Project.jpg
+- Woman at Her Toilette — Berthe Morisot (1875–80): https://www.artic.edu/artworks/11723 | Original: https://commons.wikimedia.org/wiki/File:Berthe_Morisot_-_Woman_at_Her_Toilette_-_1924.127_-_Art_Institute_of_Chicago.jpg
+- Stacks of Wheat (End of Summer) — Claude Monet (1890–91): https://www.artic.edu/artworks/64818 | Original: https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Summer)_-_1985.1103_-_Art_Institute_of_Chicago.jpg
+- Still Life with Flowers — Odilon Redon (1905): https://www.artic.edu/artworks/110982 | Original: https://commons.wikimedia.org/wiki/File:Odilon_Redon_-_Still_Life_with_Flowers_-_1988.141.22_-_Art_Institute_of_Chicago.jpg

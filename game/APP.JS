@@ -4145,6 +4145,8 @@ const GAME_DATA = [
 
   {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Greek movies & series", "Ελληνικές ταινίες & σειρές"]},
 
+  {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Recognize the painter", "Βρες τον ζωγράφο"]},
+
   {
     id: "naruto",
     name: "Naruto",
@@ -5523,7 +5525,7 @@ function renderGames() {
   playableGames.forEach(game => {
     const card =
       document.createElement(
-        game.available
+        game.id === "painter" ? "a" : game.available
           ? "button"
           : "article"
       );
@@ -5538,12 +5540,13 @@ function renderGames() {
 
     card.dataset.game =
       game.id;
+    if (game.id === "painter") { card.href = "painter/"; card.style.textDecoration = "none"; }
 
     if (game.available) {
       card.type = "button";
     }
 
-    const cardImages={greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6117,6 +6120,7 @@ function selectRound(mode) {
 function openGame(id) {
   if (["football","one-piece","gaming"].includes(id) && document.body.dataset.page !== "category-play") { location.href = id + ".html"; return; }
   if (id === "greek") { window.location.href = "greek/"; return; }
+  if (id === "painter") { window.location.href = "painter/"; return; }
   if (id === "cinematix") { window.location.href = "cinematix/"; return; }
   if (id === "gaming") { openGamingGame(); return; }
   if (id === "football") {
