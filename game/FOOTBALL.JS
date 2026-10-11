@@ -115,7 +115,7 @@ function fbRender(){
   const canReward=fbCanReward(round);
   const adConfigured=!!window.GMPRewardedAds?.configured();
   const available=FB_PLAYERS.filter(player=>!round.guesses.includes(player.id));
-  const columns=[['name',T('Player','Παίκτης')],['nation',T('Nationality','Εθνικότητα')],['highestMarketValue',T('Highest value','Υψηλότερη αξία')],['status',T('Active / retired','Ενεργός / αποσυρμένος')],['age',T('Age','Ηλικία')],['position',T('Position','Θέση')]];
+  const columns=[['name',T('Player','Παίκτης')],['nation',T('Nationality','Εθνικότητα')],['highestMarketValue',T('Highest value','Υψηλότερη αξία')],['age',T('Age','Ηλικία')],['position',T('Position','Θέση')]];
   const status=won?T(`Found it: ${target.name}! ${round.guesses.length} guesses.`,`Το βρήκες: ${target.name}! ${round.guesses.length} προσπάθειες.`)
     :round.elsewhere?T("You already finished today’s Daily. Come back tomorrow.","Έχεις ήδη ολοκληρώσει το σημερινό Daily. Έλα ξανά αύριο.")
     :done?T(`The player was ${target.name}.`,`Ο παίκτης ήταν ${target.name}.`)
