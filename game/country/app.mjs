@@ -1,4 +1,4 @@
-import {normalize,populationBand,validState,clues} from './engine.mjs';
+import {normalize,populationBand,validState,clues} from './engine.mjs?v=20261011-numbers';
 const $=id=>document.getElementById(id),key='GP_COUNTRY_V1';
 function read(k,f){try{const raw=localStorage.getItem(k);if(raw===null)return f;try{return JSON.parse(raw)}catch{return raw}}catch{return f}}
 let lang=read('GMP_LANGUAGE','en')==='el'?'el':'en',data=[],state;
