@@ -1,5 +1,5 @@
 export function normalize(value) {
-  return value.normalize('NFD').replace(/\p{M}/gu, '').toLocaleLowerCase('el').replace(/ς/g, 'σ').replace(/[^\p{L}\p{N}]/gu, '');
+  return value.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('el').replace(/[łøđðþæœßı]/g,c=>({'ł':'l','ø':'o','đ':'d','ð':'d','þ':'th','æ':'ae','œ':'oe','ß':'ss','ı':'i'}[c])).replace(/ς/g, 'σ').replace(/[^\p{L}\p{N}]/gu, '');
 }
 export function matches(title, guess) {
   return [title.title, ...(title.aliases || [])].some(value => normalize(value) === normalize(guess));

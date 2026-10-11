@@ -1,4 +1,4 @@
-export const normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/ς/g,'σ').replace(/[^\p{L}\p{N}]/gu,'');
+export const normalize=s=>String(s).normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[łøđðþæœßı]/g,c=>({'ł':'l','ø':'o','đ':'d','ð':'d','þ':'th','æ':'ae','œ':'oe','ß':'ss','ı':'i'}[c])).replace(/ς/g,'σ').replace(/[^\p{L}\p{N}]/gu,'');
 export function findPainter(value,data){const n=normalize(value);return n?data.find(p=>p.aliases.some(a=>normalize(a)===n)):undefined;}
 export function checkGuess(value,target,data,guesses){const p=findPainter(value,data);if(!p)return {error:'unknown'};if(guesses.includes(p.artist[0]))return {error:'duplicate'};return {painter:p.artist[0],correct:p.artist[0]===target.artist[0]};}
 export function validState(s,data){return s?.version===1&&data.some(p=>p.id===s.id)&&Array.isArray(s.guesses)&&s.guesses.length<=6&&new Set(s.guesses).size===s.guesses.length&&s.guesses.every(a=>data.some(p=>p.artist[0]===a))&&Number.isSafeInteger(s.round)&&s.round>0&&Number.isSafeInteger(s.wins)&&s.wins>=0&&Array.isArray(s.used)&&s.used.every(id=>data.some(p=>p.id===id));}

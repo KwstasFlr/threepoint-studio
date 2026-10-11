@@ -29,3 +29,21 @@
 - The Andy Griffith Show: [Internet Archive (public domain)](https://archive.org/details/Andy-Griffith-Show_Andy-Discovers-America), 1136–1143s; The Andy Griffith Show: S3 E23, Andy Discovers America. Rights: The last 16 episodes of season 3 are public domain in the US (Wikipedia); this is S3E23.
 - Topper: [SabuCat ](https://www.youtube.com/watch?v=cXri59-wzgI), 895–902s; Topper "Henrietta Sells the House" (1954). Rights: Eleven episodes are public domain (Wikipedia); this episode is marked public domain on the Internet Archive.
 - Private Secretary: [Classic TV Channel](https://www.youtube.com/watch?v=UJuwbLDCYBY), 1176–1183s; Private Secretary - Season 4 - Episode 16 -Little Caesar of Bleeker Street | Ann Sothern, Don Porter. Rights: Wikipedia links this episode as a public-domain episode at the Internet Archive.
+
+## Added scene excerpts — 2026-10-11
+
+13 seven-second excerpts from scenes in the corresponding films and television series. Speech activity was checked locally; no generated narration or trailers are used. Sources and time offsets are recorded below. These additions are not described as public-domain works.
+
+- The Matrix: [Warner Bros. Entertainment](https://www.youtube.com/watch?v=ky7ksownEEE), 41.924–48.924s; The Matrix 25th Anniversary | The Red Pill or The Blue Pill | Warner Bros. Entertainment. Detected speech: 5.08s; longest gap: 1.15s.
+- The Godfather: [Paramount Movies](https://www.youtube.com/watch?v=D6me2-OurCw), 44.34–51.34s; THE GODFATHER | "Offer He Can't Refuse" Clip | Paramount Movies. Detected speech: 5.62s; longest gap: 0.83s.
+- The Most Dangerous Game: [BlimeyTV | Restored Classic Movies](https://www.youtube.com/watch?v=0r7tPKr5Hnw), 183.108–190.108s; Joel McCrea - The Most Dangerous Game (1932) - Refurbished Full Movie. Detected speech: 6.11s; longest gap: 0.45s.
+- House on Haunted Hill: [The Vincent Price Legacy](https://www.youtube.com/watch?v=T9RedbhV8Pc), 181.508–188.508s; Vincent Price in House on Haunted Hill in HD (1959). Detected speech: 6.4s; longest gap: 0.6s.
+- Carnival of Souls: [Cult Cinema Classics](https://www.youtube.com/watch?v=vNYg4YWkp0k), 1147.62–1154.62s; Carnival of Souls (1962) Cult Film | Horror, Mystery | Full Length Movie. Detected speech: 5.56s; longest gap: 0.99s.
+- Friends: [Warner Bros. TV](https://www.youtube.com/watch?v=RjpvuPAzJUw), 493.54–500.54s; Friends Funniest Moments! |Friends. Detected speech: 7.0s; longest gap: 0.0s.
+- Breaking Bad: [Breaking Bad & Better Call Saul](https://www.youtube.com/watch?v=zAjJYkUnTEs), 25.476–32.476s; "I Am the Danger" | Cornered | Breaking Bad. Detected speech: 7.0s; longest gap: 0.0s.
+- Game of Thrones: [Nineteen1900Hundred](https://www.youtube.com/watch?v=z0VXYz7cjGE), 71.428–78.428s; Tyrion Doesn't Need Janos Slynt [HD]. Detected speech: 6.68s; longest gap: 0.32s.
+- The Big Bang Theory: [The Big Bang Theory](https://www.youtube.com/watch?v=ntHr7UrE88A), 28.548–35.548s; Sheldon Attempts To Engage in Small Talk | The Big Bang Theory. Detected speech: 5.82s; longest gap: 0.51s.
+- Lost: [Losttheothers](https://www.youtube.com/watch?v=OgLw3ZpcFfY), 19.124–26.124s; LOST HD | Jack and J. Locke [S01E25] "We Were Brought Here for a Reason" | Losttheothers. Detected speech: 6.39s; longest gap: 0.32s.
+- The Adventures of Robin Hood: [Boomer Channel](https://www.youtube.com/watch?v=alrsF0VWt3k), 218.66–225.66s; The Adventures of Robin Hood (1955) S1E1 'The Coming of Robin Hood'. Detected speech: 6.14s; longest gap: 0.83s.
+- Sherlock Holmes: [FFF Rewind | Full Free Old School Films](https://www.youtube.com/watch?v=YLGqQfhZWpM), 350.02–357.02s; SHERLOCK HOLMES: THE CASE OF THE BLIND MAN'S BLUFF (1954) - Ronald Howard as SHERLOCK | Mystery TV. Detected speech: 5.89s; longest gap: 0.83s.
+- Flash Gordon: [Classic TV Channel](https://www.youtube.com/watch?v=Z_E6h3ZDD_w), 220.676–227.676s; Flash Gordon - Season 1 - Episode 1 - Planet of Death | Steve Holland, Irene Champlin. Detected speech: 5.37s; longest gap: 0.45s.

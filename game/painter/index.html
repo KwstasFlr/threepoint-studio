@@ -5,7 +5,7 @@
 <link rel="icon" type="image/svg+xml" href="../../guessplex-icon.svg?v=20261009-lime"><link rel="stylesheet" href="style.css?v=20261011">
 </head><body>
 <header><a class="brand" href="../">GuessPlex ✦</a><a href="../" data-text="back">← All games</a><div class="languages" aria-label="Language"><button type="button" data-lang="en">English</button><button type="button" data-lang="el">Ελληνικά</button></div></header>
-<main><span class="eyebrow">ART</span><h1>Guess the Painter</h1><p data-text="intro">Who painted this? Each wrong guess reveals more of the artwork and a clue.</p>
+<main><span class="eyebrow">ART</span><h1>Guess the Painter</h1>
 <div class="stats"><span id="round"></span><span id="attempt"></span><span id="wins"></span></div>
 <section class="panel"><div class="artwork"><img id="painting" alt="" decoding="async"><div class="mask" aria-hidden="true"></div></div><p id="imageStatus" role="status"></p>
 <form id="answerForm"><label for="answer" data-text="label">Painter's name</label><input id="answer" list="painters" autocomplete="off" maxlength="100" required><datalist id="painters"></datalist><button class="primary" type="submit" data-text="submit">Check answer</button></form>
@@ -14,6 +14,7 @@
 <button id="next" type="button" data-text="next" hidden>Next round →</button></section>
 <details><summary data-text="how">More information · How to play</summary><p data-text="rules">Find the painter in 6 guesses. Each wrong answer reveals more of the painting and a clue.</p></details>
 </main><footer>GuessPlex · <a href="../../privacy-policy.html" data-text="privacy">Privacy</a> · <a href="../../contact.html?service=bugs#projectForm" data-text="report">Report a clue</a></footer>
+<script defer src="../NAMECHOICES.JS?v=20261011-names"></script>
 <script defer src="../CATEGORYSCORES.JS?v=20261011-country"></script>
 <script defer src="../PROGRESS.JS?v=20261011-painter"></script>
-<script type="module" src="app.mjs?v=20261011-art180"></script></body></html>
+<script type="module" src="app.mjs?v=20261011-names"></script><script defer src="../WINFEEDBACK.JS?v=20261011-classic-hard"></script></body></html>

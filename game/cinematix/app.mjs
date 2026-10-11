@@ -1,4 +1,4 @@
-import {filterTitles, matches, submitGuess, yearHint, titleWordHint} from './engine.mjs?v=20261008-hint5';
+import {filterTitles, matches, submitGuess, yearHint, titleWordHint} from './engine.mjs?v=20261011-classic-hard';
 
 const $ = id => document.getElementById(id);
 if (document.body.dataset.page === 'play') boot();
@@ -6,24 +6,26 @@ if (document.body.dataset.page === 'play') boot();
 async function boot() {
   const params = new URLSearchParams(location.search);
   const kind = params.get('kind');
-  const filter = params.get('filter');
+  const filter = params.get('filter') === 'mix' ? 'classic' : params.get('filter');
   const audioDemo = params.get('demo') === 'audio';
   const newDemo = params.get('demo') === 'new';
   const names = {movies: 'Ταινίες', series: 'Σειρές'};
-  const filters = kind === 'movies' ? {mix: 'Κλασικές ταινίες'} : {mix: 'Κλασικές σειρές'};
+  const filters = {classic: 'Classic', hard: 'Hard Mode'};
   if (!names[kind] || !filters[filter]) {
     $('loading').textContent = 'Διάλεξε πρώτα ταινίες ή σειρές από την αρχική σελίδα Cinematix.';
     return;
   }
   $('heading').textContent = names[kind];
   $('category').textContent = newDemo ? 'Νέος γρίφος με πραγματικό ήχο' : audioDemo ? 'Δοκιμή πραγματικού ήχου' : filters[filter];
-  $('back').href = './';
+  $('back').href = `${kind}.html`;
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
-  let titles;
+  let titles, catalog;
   try {
-    const response = await fetch('titles.json?v=20261010-cinematix2');
+    const response = await fetch('titles.json?v=20261011-classic-hard');
     if (!response.ok) throw new Error('Titles unavailable');
-    titles = filterTitles(await response.json(), kind, filter);
+    catalog = await response.json();
+    window.GMPScreenLanguage?.register(Object.fromEntries(catalog.flatMap(t=>[[t.clue,t.clueEn],[t.synopsis,t.synopsisEn]]).filter(([a,b])=>a&&b)));
+    titles = filterTitles(catalog, kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
     if (newDemo) titles = titles.filter(title => title.addedIn === '20261008-eleven');
     if (!titles.length) throw new Error('Empty category');
@@ -31,6 +33,16 @@ async function boot() {
     $('loading').textContent = 'Δεν φορτώθηκαν οι γρίφοι. Δοκίμασε ανανέωση της σελίδας.';
     return;
   }
+  const titleChoices = document.createElement('datalist');
+  titleChoices.id = 'titleChoices';
+  catalog.filter(t => t.kind === kind).sort((a,b)=>a.title.localeCompare(b.title)).forEach(t => {
+    const option = document.createElement('option');
+    option.value = t.title;
+    option.dataset.aliases = (t.aliases || []).join(' | ');
+    titleChoices.append(option);
+  });
+  $('guess').setAttribute('list', 'titleChoices');
+  $('guessForm').append(titleChoices);
   const key = `guessplex-cinematix-v1:${kind}:${filter}${newDemo ? ":new-demo" : audioDemo ? ":audio-demo" : ""}`;
   const ids = titles.map(t => t.id);
   let state;
@@ -59,7 +71,6 @@ async function boot() {
     state = {number:(state?.number||0)+1,id, guesses: [], bag: bag.filter(item => item !== id)};
     save();
     $('guess').value = '';
-    $('clueDetails').open = false;
     $('audioStatus').textContent = '';
     $('scoreStatus').textContent = '';
     $('audio').removeAttribute('src');
@@ -73,7 +84,7 @@ async function boot() {
     $('roundNumber').textContent = `Γύρος ${state.number} · ${filters[filter]}`;
     $('progress').textContent = `${state.guesses.length} / 6 προσπάθειες`;
     $('clue').textContent = title.clue;
-    $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : 'Δεν υπάρχει διαθέσιμο ηχητικό απόσπασμα. Διάβασε τον γρίφο.';
+    $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : '';
     $('audio').hidden = !title.audio;
     if (title.audio) $('audio').src = title.audio;
     $('history').replaceChildren(...state.guesses.map(guess => {
@@ -124,7 +135,6 @@ async function boot() {
   });
   $('audio').addEventListener('error', () => {
     $('audioStatus').textContent = 'Ο ήχος δεν φορτώθηκε. Μπορείς να διαβάσεις τον γρίφο.';
-    $('clueDetails').open = true;
   });
   window.addEventListener('pagehide', stop);
   $('guessForm').addEventListener('submit', event => {

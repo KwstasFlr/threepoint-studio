@@ -1,4 +1,4 @@
-import {checkGuess,validState} from './engine.mjs';
+import {checkGuess,validState} from './engine.mjs?v=20261011-names';
 const $=id=>document.getElementById(id),key='GP_PAINTER_V1';
 function read(k,f){try{const v=localStorage.getItem(k);if(v===null)return f;try{return JSON.parse(v);}catch{return v;}}catch{return f;}}
 function save(){try{localStorage.setItem(key,JSON.stringify(state));}catch{}}
@@ -23,7 +23,7 @@ function render(){const p=target(),i=idx(),done=ended();document.documentElement
 $('round').textContent=t(`Round No${state.round}`,`Γύρος Νο${state.round}`);$('attempt').textContent=t(`Guesses: ${state.guesses.length} / 6`,`Προσπάθειες: ${state.guesses.length} / 6`);$('wins').textContent=t(`Wins: ${state.wins}`,`Νίκες: ${state.wins}`);
 if($('painting').getAttribute('src')!==p.image){$('imageStatus').textContent='';$('painting').src=p.image;}$('painting').alt=done?`${p.title} — ${p.artist[i]}`:t('Hidden painting','Κρυμμένος πίνακας');
 const n=state.guesses.length,x=Math.max(0,39-n*7),y=Math.max(0,34-n*6);document.querySelector('.mask').hidden=done;document.querySelector('.mask').style.clipPath=`polygon(0 0,100% 0,100% 100%,0 100%,0 0,${x}% ${y}%,${x}% ${100-y}%,${100-x}% ${100-y}%,${100-x}% ${y}%,${x}% ${y}%)`;
-$('answer').placeholder=t('Type a name or choose a suggestion…','Γράψε όνομα ή διάλεξε από τις προτάσεις…');$('painters').replaceChildren();[...new Map(data.map(p=>[p.artist[0],p])).values()].forEach(p=>{const o=document.createElement('option');o.value=p.artist[i];$('painters').append(o);});
+$('answer').placeholder=t('Type a name or choose a suggestion…','Γράψε όνομα ή διάλεξε από τις προτάσεις…');$('painters').replaceChildren();[...new Map(data.map(p=>[p.artist[0],p])).values()].forEach(p=>{const o=document.createElement('option');o.value=p.artist[i];o.dataset.aliases=[...p.artist,...p.aliases].join(' | ');$('painters').append(o);});
 $('history').replaceChildren();state.guesses.forEach(a=>{const li=document.createElement('li'),p=data.find(p=>p.artist[0]===a);li.textContent=`${a===target().artist[0]?'✓':'✗'} ${p.artist[i]}`;$('history').append(li);});
 $('hints').replaceChildren();const wrong=won()?n-1:n;hintValues().slice(0,Math.min(5,wrong)).forEach((h,k)=>{const div=document.createElement('div');div.className='hint';const strong=document.createElement('strong');strong.textContent=t(`Hint ${k+1}: `,`Βοήθεια ${k+1}: `);div.append(strong,document.createTextNode(h));$('hints').append(div);});
 $('answer').disabled=done;$('answerForm').querySelector('button').disabled=done;$('result').hidden=!done;$('next').hidden=!done;$('feedback').textContent=done?t(won()?'Correct!':'Round finished.',won()?'Σωστά!':'Ο γύρος ολοκληρώθηκε.'):'';

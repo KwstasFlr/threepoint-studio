@@ -184,7 +184,7 @@ function opGuessLimit(round){return OP_GUESS_LIMIT+(round.extra?1:0);}
 function opDone(round){return opWon(round) || !!round.ended || (!!round.extra && round.guesses.length>=opGuessLimit(round));}
 function opCanGuess(round){return !opDone(round) && round.guesses.length<opGuessLimit(round) && !opAdBusy;}
 function opCanReward(round){return !opDone(round) && !round.extra && round.guesses.length===OP_GUESS_LIMIT;}
-function opNormalize(value){return value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[.\s]+/g," ").trim();}
+function opNormalize(value){return (window.GMPNames?.fold(value)??value.normalize("NFD").replace(/\p{M}/gu,"").toLowerCase()).replace(/[.\s]+/g," ").trim();}
 
 function opCompare(guess,target,key){
   if(guess.id===target.id) return {kind:"match",symbol:"✓"};
@@ -236,7 +236,7 @@ function opRender(){
   const done=opDone(round);
   const canReward=opCanReward(round);
   const adConfigured=!!window.GMPRewardedAds?.configured();
-  const available=opRoster().filter(character=>!round.guesses.includes(character.id));
+  const available=opRoster();
   const columns=[
     ["name",T("Character","Χαρακτήρας")],["gender",T("Gender","Φύλο")],
     ["form",T("Species / form","Είδος / μορφή")],["role",T("Crew role","Ρόλος")],
@@ -247,22 +247,19 @@ function opRender(){
     :round.elsewhere?T("You already finished today’s Daily. Come back tomorrow.","Έχεις ήδη ολοκληρώσει το σημερινό Daily. Έλα ξανά αύριο.")
     :done?T(`The character was ${target.name}.`,`Ο χαρακτήρας ήταν ${target.name}.`)
     :canReward?T("10 / 10 guesses used. Watch an ad for one extra guess, or reveal the answer.","10 / 10 προσπάθειες. Δες διαφήμιση για μία έξτρα προσπάθεια ή εμφάνισε την απάντηση.")
-    :T(`${round.guesses.length} / ${opGuessLimit(round)} guesses. Choose a character to compare their traits.`,`${round.guesses.length} / ${opGuessLimit(round)} προσπάθειες. Διάλεξε έναν χαρακτήρα για να συγκρίνεις τα χαρακτηριστικά του.`);
+    :T(`${round.guesses.length} / ${opGuessLimit(round)} guesses.`,`${round.guesses.length} / ${opGuessLimit(round)} προσπάθειες.`);
   opDialog.innerHTML=`
     <div class="dialog-top"><div><span class="eyebrow">ONE PIECE · CLASSIC</span><h2 id="opTitle">${T("GUESS THE CHARACTER","ΜΑΝΤΕΨΕ ΤΟΝ ΧΑΡΑΚΤΗΡΑ")}</h2></div>
       <button class="close" type="button" data-op-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
     ${gmpRoundLabel(round.number)}
     ${gmpModeTabs('onepiece',opMode)}
-    <p class="op-intro">${T("Find the hidden One Piece character. Each guess compares their traits with the answer.","Βρες τον κρυφό χαρακτήρα του One Piece. Κάθε προσπάθεια συγκρίνει τα χαρακτηριστικά με την απάντηση.")}</p>
-    <form class="op-episodes"><label for="opMedium">${T("Following","Παρακολουθώ / διαβάζω")}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T("Which chapter have you read?","Μέχρι ποιο κεφάλαιο έχεις διαβάσει;"):T("Which episode have you watched?","Μέχρι ποιο επεισόδιο έχεις δει;")}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T("Apply","Εφαρμογή")}</button></div><p class="muted">${T("Only characters introduced by your episode or chapter. Changing it starts new rounds. Bounties and traits still use the end-of-Wano snapshot.","Μόνο χαρακτήρες που έχουν εμφανιστεί έως το επεισόδιο ή κεφάλαιό σου. Η αλλαγή ξεκινά νέους γύρους. Επικηρύξεις και χαρακτηριστικά παραμένουν έως το τέλος του Wano.")}</p></form>
+    <form class="op-episodes"><label for="opMedium">${T("Following","Παρακολουθώ / διαβάζω")}</label><select id="opMedium"><option value="anime" ${opMedium==='anime'?'selected':''}>Anime</option><option value="manga" ${opMedium==='manga'?'selected':''}>Manga</option></select><label for="opEpisode">${opMedium==='manga'?T("Which chapter have you read?","Μέχρι ποιο κεφάλαιο έχεις διαβάσει;"):T("Which episode have you watched?","Μέχρι ποιο επεισόδιο έχεις δει;")}</label><div class="guess-row"><input id="opEpisode" type="number" min="1" max="${opMaxProgress()}" step="1" required value="${opEpisodeLimit}"><button class="button lime" type="submit">${T("Apply","Εφαρμογή")}</button></div></form>
 
-    <p class="muted">${opMode==="daily"?T(`Daily challenge · ${round.day} · Resets at midnight in Athens.`,`Ημερήσιο challenge · ${round.day} · Αλλάζει τα μεσάνυχτα, ώρα Αθήνας.`):T("New character every round. Play as often as you like.","Νέος χαρακτήρας σε κάθε γύρο. Παίξε όσες φορές θέλεις.")}</p>
-    <div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-partial">≈ ${T("Related Zoan types","Συγγενικοί τύποι Zoan")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Bounty undisclosed","Μη γνωστή επικήρυξη")}</span><span>↑ / ↓ ${T("Target bounty is higher / lower","Η ζητούμενη επικήρυξη είναι μεγαλύτερη / μικρότερη")}</span></div>
     <p class="gmp-start-hint">💡 ${T("Starting clue","Αρχικό στοιχείο")} · ${T("First appearance arc","Πρώτη εμφάνιση")}: <strong>${esc(opValue(target,"arc"))}</strong></p>
     <form class="op-form" ${!opCanGuess(round)?"hidden":""}>
       <label for="opGuess">${T("Choose or type a character","Διάλεξε ή γράψε χαρακτήρα")}</label>
       <div class="guess-row"><input id="opGuess" list="opChoices" autocomplete="off" maxlength="80" required placeholder="${T("e.g. Luffy","π.χ. Luffy")}"><button class="button lime" type="submit">${T("Guess →","Απάντηση →")}</button></div>
-      <datalist id="opChoices">${available.map(character=>`<option value="${esc(character.name)}"></option>`).join("")}</datalist>
+      <datalist id="opChoices">${available.map(character=>`<option value="${esc(character.name)}" data-aliases="${esc((character.aliases||[]).join(' | '))}"></option>`).join("")}</datalist>
     </form>
     <p class="op-message ${won?"op-won":""}" role="status" aria-live="polite">${esc(status)}</p>
     ${canReward?`<div class="op-reward"><button class="button lime" type="button" data-op-ad ${opAdBusy||!adConfigured?"disabled":""}>${T("Watch ad · +1 guess","Δες διαφήμιση · +1 προσπάθεια")}</button>
@@ -272,8 +269,8 @@ function opRender(){
       ${[...round.guesses].reverse().map(id=>{const character=OP_BY_ID.get(id);return `<tr>${columns.map(([key])=>{const comparison=opCompare(character,target,key);return `<td class="op-${comparison.kind}">${esc(opValue(character,key))}<span class="op-symbol">${comparison.symbol}</span></td>`;}).join("")}</tr>`;}).join("")}
     </tbody></table></div>`:""}
     ${opMode==="unlimited"?`<button class="button lime op-next" type="button" data-op-next ${opAdBusy?"disabled":""}>${T("New round →","Νέος γύρος →")}</button>`:""}
-    <p class="op-footer">${T("Contains spoilers through the end of Wano. Bounties use that snapshot. Progress is saved on this device.","Περιέχει spoilers έως το τέλος του Wano. Οι επικηρύξεις αντιστοιχούν σε εκείνη την περίοδο. Η πρόοδος αποθηκεύεται σε αυτή τη συσκευή.")}<br>
-    <a href="https://one-piece.com/character/" target="_blank" rel="noopener noreferrer">${T("Official character reference","Επίσημη αναφορά χαρακτήρων")}</a></p>`;
+    <details class="gmp-game-info"><summary>${T("More information","Περισσότερες πληροφορίες")}</summary><p class="op-footer">${T("Contains spoilers through the end of Wano. Bounties use that snapshot. Progress is saved on this device.","Περιέχει spoilers έως το τέλος του Wano. Οι επικηρύξεις αντιστοιχούν σε εκείνη την περίοδο. Η πρόοδος αποθηκεύεται σε αυτή τη συσκευή.")}<br>
+    <a href="https://one-piece.com/character/" target="_blank" rel="noopener noreferrer">${T("Official character reference","Επίσημη αναφορά χαρακτήρων")}</a></p></details>`;
 }
 
 
@@ -320,7 +317,7 @@ opDialog.addEventListener("submit",event=>{
   if(!opCanGuess(round)) return;
   const input=opDialog.querySelector("#opGuess");
   const value=opNormalize(input.value);
-  const character=opRoster().find(item=>[item.name,...item.aliases].some(name=>opNormalize(name)===value));
+  const character=window.GMPNames.resolve(input.value,opRoster());
   const message=opDialog.querySelector(".op-message");
   if(!character){message.textContent=T("Choose a character from the list.","Διάλεξε έναν χαρακτήρα από τη λίστα.");input.focus();return;}
   if(round.guesses.includes(character.id)){message.textContent=T("You already tried this character.","Έχεις ήδη δοκιμάσει αυτόν τον χαρακτήρα.");input.focus();return;}

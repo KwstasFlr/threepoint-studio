@@ -1,4 +1,4 @@
-import {filterTitles, matches, submitGuess, yearHint, titleWordHint} from './engine.mjs?v=20261008-hint5';
+import {filterTitles, matches, submitGuess, yearHint, titleWordHint} from './engine.mjs?v=20261011-classic-hard';
 
 const $ = id => document.getElementById(id);
 if (document.body.dataset.page === 'play') boot();
@@ -19,11 +19,12 @@ async function boot() {
   $('category').textContent = newDemo ? 'Νέος γρίφος με πραγματικό ήχο' : audioDemo ? 'Δοκιμή πραγματικού ήχου' : filters[filter];
   $('back').href = `${kind}.html`;
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
-  let titles;
+  let titles, catalog;
   try {
     const response = await fetch('titles.json?v=20261010-thirty-safe');
     if (!response.ok) throw new Error('Titles unavailable');
-    titles = filterTitles(await response.json(), kind, filter);
+    catalog = await response.json();
+    titles = filterTitles(catalog, kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
     if (newDemo) titles = titles.filter(title => title.addedIn === '20261010-ten');
     if (!titles.length) throw new Error('Empty category');
@@ -31,6 +32,16 @@ async function boot() {
     $('loading').textContent = 'Δεν φορτώθηκαν οι γρίφοι. Δοκίμασε ανανέωση της σελίδας.';
     return;
   }
+  const titleChoices = document.createElement('datalist');
+  titleChoices.id = 'titleChoices';
+  catalog.filter(t => t.kind === kind).sort((a,b)=>a.title.localeCompare(b.title)).forEach(t => {
+    const option = document.createElement('option');
+    option.value = t.title;
+    option.dataset.aliases = (t.aliases || []).join(' | ');
+    titleChoices.append(option);
+  });
+  $('guess').setAttribute('list', 'titleChoices');
+  $('guessForm').append(titleChoices);
   const key = `threepoint-greek-v1:${kind}:${filter}${newDemo ? ":new-demo-20261010-ten" : audioDemo ? ":audio-demo" : ""}`;
   const ids = titles.map(t => t.id);
   let state;
@@ -59,7 +70,6 @@ async function boot() {
     state = {number:(state?.number||0)+1,id, guesses: [], bag: bag.filter(item => item !== id)};
     save();
     $('guess').value = '';
-    $('clueDetails').open = false;
     $('audioStatus').textContent = '';
     $('scoreStatus').textContent = '';
     $('audio').removeAttribute('src');
@@ -73,7 +83,7 @@ async function boot() {
     $('roundNumber').textContent = `Γύρος ${state.number} · ${filters[filter]}`;
     $('progress').textContent = `${state.guesses.length} / 6 προσπάθειες`;
     $('clue').textContent = title.clue;
-    $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : 'Δεν υπάρχει διαθέσιμο ηχητικό απόσπασμα. Διάβασε τον γρίφο.';
+    $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : '';
     $('audio').hidden = !title.audio;
     if (title.audio) $('audio').src = title.audio;
     $('history').replaceChildren(...state.guesses.map(guess => {
@@ -124,7 +134,6 @@ async function boot() {
   });
   $('audio').addEventListener('error', () => {
     $('audioStatus').textContent = 'Ο ήχος δεν φορτώθηκε. Μπορείς να διαβάσεις τον γρίφο.';
-    $('clueDetails').open = true;
   });
   window.addEventListener('pagehide', stop);
   $('guessForm').addEventListener('submit', event => {

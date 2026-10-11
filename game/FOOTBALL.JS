@@ -68,7 +68,7 @@ function fbGuessLimit(round){return FB_GUESS_LIMIT+(round.extra?1:0);}
 function fbDone(round){return fbWon(round) || !!round.ended || (!!round.extra && round.guesses.length>=fbGuessLimit(round));}
 function fbCanGuess(round){return !fbDone(round) && round.guesses.length<fbGuessLimit(round) && !fbAdBusy;}
 function fbCanReward(round){return !fbDone(round) && !round.extra && round.guesses.length===FB_GUESS_LIMIT;}
-function fbNormalize(value){return value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[.\s]+/g," ").trim();}
+function fbNormalize(value){return (window.GMPNames?.fold(value)??value.normalize("NFD").replace(/\p{M}/gu,"").toLowerCase()).replace(/[.\s]+/g," ").trim();}
 
 function fbAge(player,day=fbDay()){
   if(!player.birthDate)return null;
@@ -114,26 +114,26 @@ function fbRender(){
   const done=fbDone(round);
   const canReward=fbCanReward(round);
   const adConfigured=!!window.GMPRewardedAds?.configured();
-  const available=FB_PLAYERS.filter(player=>!round.guesses.includes(player.id));
+  const available=FB_PLAYERS;
   const columns=[['name',T('Player','Παίκτης')],['nation',T('Nationality','Εθνικότητα')],['highestMarketValue',T('Highest value','Υψηλότερη αξία')],['age',T('Age','Ηλικία')],['position',T('Position','Θέση')]];
   const status=won?T(`Found it: ${target.name}! ${round.guesses.length} guesses.`,`Το βρήκες: ${target.name}! ${round.guesses.length} προσπάθειες.`)
     :round.elsewhere?T("You already finished today’s Daily. Come back tomorrow.","Έχεις ήδη ολοκληρώσει το σημερινό Daily. Έλα ξανά αύριο.")
     :done?T(`The player was ${target.name}.`,`Ο παίκτης ήταν ${target.name}.`)
     :canReward?T("10 / 10 guesses used. Watch an ad for one extra guess, or reveal the answer.","10 / 10 προσπάθειες. Δες διαφήμιση για μία έξτρα προσπάθεια ή εμφάνισε την απάντηση.")
-    :T(`${round.guesses.length} / ${fbGuessLimit(round)} guesses. Choose a player to compare their traits.`,`${round.guesses.length} / ${fbGuessLimit(round)} προσπάθειες. Διάλεξε έναν παίκτη για να συγκρίνεις τα χαρακτηριστικά του.`);
+    :T(`${round.guesses.length} / ${fbGuessLimit(round)} guesses.`,`${round.guesses.length} / ${fbGuessLimit(round)} προσπάθειες.`);
   fbDialog.innerHTML=`
     <div class="dialog-top"><div><span class="eyebrow">FOOTBALL · PLAYERS</span><h2 id="fbTitle">${T("GUESS THE PLAYER","ΜΑΝΤΕΨΕ ΤΟΝ ΠΑΙΚΤΗ")}</h2></div>
       <button class="close" type="button" data-fb-close aria-label="${T("Close","Κλείσιμο")}">×</button></div>
     ${gmpRoundLabel(round.number)}
     ${gmpModeTabs('football',fbMode)}
 
-    <div class="fb-feedback-row"><div class="op-legend"><span class="op-match">✓ ${T("Match","Ταιριάζει")}</span><span class="op-miss">× ${T("Different","Διαφορετικό")}</span><span class="op-unknown">? ${T("Value unavailable","Μη διαθέσιμη αξία")}</span><span>↑ / ↓ ${T("Target age / value is higher / lower","Η ζητούμενη ηλικία / αξία είναι μεγαλύτερη / μικρότερη")}</span></div>
+    <div class="fb-feedback-row">
     <div class="fb-currency"><label for="fbCurrency">${T('Currency','Νόμισμα')}</label><select id="fbCurrency"><option value="EUR" ${fbCurrency==='EUR'?'selected':''}>EUR (€)</option><option value="USD" ${fbCurrency==='USD'?'selected':''}>USD ($)</option></select></div></div>
     <p class="gmp-start-hint">💡 ${T("Starting clue","Αρχικό στοιχείο")} · ${T("Position","Θέση")}: <strong>${esc(fbValue(target,"position"))}</strong></p>
     <form class="op-form" ${!fbCanGuess(round)?"hidden":""}>
       <label for="fbGuess">${T("Choose or type a player","Διάλεξε ή γράψε παίκτη")}</label>
       <div class="guess-row"><input id="fbGuess" list="fbChoices" autocomplete="off" maxlength="80" required placeholder="${T("e.g. Messi","π.χ. Messi")}"><button class="button lime" type="submit">${T("Guess →","Απάντηση →")}</button></div>
-      <datalist id="fbChoices">${available.map(player=>`<option value="${esc(player.name)}"></option>`).join("")}</datalist>
+      <datalist id="fbChoices">${available.map(player=>`<option value="${esc(player.name)}" data-aliases="${esc((player.aliases||[]).join(' | '))}"></option>`).join("")}</datalist>
     </form>
     <p class="op-message ${won?"op-won":""}" role="status" aria-live="polite">${esc(status)}</p>
     ${canReward?`<div class="op-reward"><button class="button lime" type="button" data-fb-ad ${fbAdBusy||!adConfigured?"disabled":""}>${T("Watch ad · +1 guess","Δες διαφήμιση · +1 προσπάθεια")}</button>
@@ -143,7 +143,7 @@ function fbRender(){
       ${[...round.guesses].reverse().map(id=>{const player=FB_BY_ID.get(id);return `<tr>${columns.map(([key])=>{const comparison=fbCompare(player,target,key);return `<td class="op-${comparison.kind}">${esc(fbValue(player,key))}<span class="op-symbol">${comparison.symbol}</span></td>`;}).join("")}</tr>`;}).join("")}
     </tbody></table></div>`:""}
     ${fbMode==="unlimited"?`<button class="button lime op-next" type="button" data-fb-next ${fbAdBusy?"disabled":""}>${T("New round →","Νέος γύρος →")}</button>`:""}
-    <p class="op-footer">${T('Highest recorded career market value, not transfer fee. Ages update automatically. Progress is saved on this device.','Υψηλότερη καταγεγραμμένη αξία καριέρας. Η ηλικία ενημερώνεται αυτόματα. Η πρόοδος αποθηκεύεται στη συσκευή.')}<br>${T('USD conversion','Μετατροπή USD')}: 1 EUR = ${FB_EXCHANGE.usdPerEuro} USD · ${FB_EXCHANGE.date} · <a href="${FB_EXCHANGE.source}" target="_blank" rel="noopener noreferrer">ECB</a><br>${T('Player data checked','Έλεγχος στοιχείων')}: 2026-10-05 · <a href="https://www.transfermarkt.com/" target="_blank" rel="noopener noreferrer">Transfermarkt</a></p>`;
+    <details class="gmp-game-info"><summary>${T("More information","Περισσότερες πληροφορίες")}</summary><p class="op-footer">${T('Highest recorded career market value, not transfer fee. Ages update automatically. Progress is saved on this device.','Υψηλότερη καταγεγραμμένη αξία καριέρας. Η ηλικία ενημερώνεται αυτόματα. Η πρόοδος αποθηκεύεται στη συσκευή.')}<br>${T('USD conversion','Μετατροπή USD')}: 1 EUR = ${FB_EXCHANGE.usdPerEuro} USD · ${FB_EXCHANGE.date} · <a href="${FB_EXCHANGE.source}" target="_blank" rel="noopener noreferrer">ECB</a><br>${T('Player data checked','Έλεγχος στοιχείων')}: 2026-10-05 · <a href="https://www.transfermarkt.com/" target="_blank" rel="noopener noreferrer">Transfermarkt</a></p></details>`;
 }
 
 fbDialog.addEventListener("click",event=>{
@@ -169,7 +169,7 @@ fbDialog.addEventListener("submit",event=>{
   if(!fbCanGuess(round)) return;
   const input=fbDialog.querySelector("input");
   const value=fbNormalize(input.value);
-  const player=FB_PLAYERS.find(item=>[item.name,...item.aliases].some(name=>fbNormalize(name)===value));
+  const player=window.GMPNames.resolve(input.value,FB_PLAYERS);
   const message=fbDialog.querySelector(".op-message");
   if(!player){message.textContent=T("Choose a player from the list.","Διάλεξε έναν παίκτη από τη λίστα.");input.focus();return;}
   if(round.guesses.includes(player.id)){message.textContent=T("You already tried this player.","Έχεις ήδη δοκιμάσει αυτόν τον παίκτη.");input.focus();return;}

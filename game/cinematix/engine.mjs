@@ -1,11 +1,13 @@
 export function normalize(value) {
-  return value.normalize('NFD').replace(/\p{M}/gu, '').toLocaleLowerCase('el').replace(/ς/g, 'σ').replace(/[^\p{L}\p{N}]/gu, '');
+  return value.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('el').replace(/[łøđðþæœßı]/g,c=>({'ł':'l','ø':'o','đ':'d','ð':'d','þ':'th','æ':'ae','œ':'oe','ß':'ss','ı':'i'}[c])).replace(/ς/g, 'σ').replace(/[^\p{L}\p{N}]/gu, '');
 }
 export function matches(title, guess) {
   return [title.title, ...(title.aliases || [])].some(value => normalize(value) === normalize(guess));
 }
 export function filterTitles(titles, kind, filter) {
-  return titles.filter(t => t.kind === kind && (filter === 'mix' || (kind === 'movies' ? t.originalFormat === filter : filter === (t.year < 2010 ? 'old' : 'new'))));
+  return titles.filter(t => t.kind === kind && (filter === 'mix' ||
+    (filter === 'classic' || filter === 'hard' ? t.difficulty === filter :
+      kind === 'movies' ? t.originalFormat === filter : filter === (t.year < 2010 ? 'old' : 'new'))));
 }
 export function yearHint(title) {
   const offset = [...title.id].reduce((sum, c) => sum + c.charCodeAt(0), 0) % 11;
