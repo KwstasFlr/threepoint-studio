@@ -1278,5 +1278,667 @@
       "https://api.worldbank.org/v2/country/CHN/indicator/SP.POP.TOTL?format=json&date=2024",
       "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
     ]
+  },
+  {
+    "id": "TZ",
+    "name": [
+      "Tanzania",
+      "Τανζανία"
+    ],
+    "aliases": [
+      "Tanzania",
+      "Τανζανία"
+    ],
+    "facts": [
+      [
+        "Over 1.000.000 wildebeest take part in the annual migration across its Serengeti ecosystem.",
+        "Πάνω από 1.000.000 γκνου συμμετέχουν στην ετήσια μετανάστευση στο οικοσύστημα του Σερενγκέτι της."
+      ],
+      [
+        "The migration across its Serengeti plains follows a roughly 1.000 km circular route into Kenya.",
+        "Η μετανάστευση στις πεδιάδες του Σερενγκέτι της ακολουθεί κυκλική διαδρομή περίπου 1.000 χλμ. που περνά στην Κένυα."
+      ]
+    ],
+    "locations": [
+      [
+        "East Africa, beside the Indian Ocean.",
+        "Ανατολική Αφρική, δίπλα στον Ινδικό Ωκεανό."
+      ],
+      [
+        "It borders Kenya to the north and Mozambique to the south.",
+        "Συνορεύει με Κένυα στα βόρεια και Μοζαμβίκη στα νότια."
+      ]
+    ],
+    "animals": [
+      [
+        "Wildebeest migrate alongside zebras in its Serengeti plains.",
+        "Γκνου μεταναστεύουν μαζί με ζέβρες στις πεδιάδες του Σερενγκέτι."
+      ],
+      [
+        "Gazelles join the great herbivore migration through its Serengeti ecosystem.",
+        "Γαζέλες συμμετέχουν στη μεγάλη μετανάστευση φυτοφάγων στο οικοσύστημα του Σερενγκέτι."
+      ]
+    ],
+    "population": 68560157,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 64.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 29.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/156/",
+      "https://api.worldbank.org/v2/country/TZA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "BW",
+    "name": [
+      "Botswana",
+      "Μποτσουάνα"
+    ],
+    "aliases": [
+      "Botswana",
+      "Μποτσουάνα"
+    ],
+    "facts": [
+      [
+        "It contains an inland river delta whose waters do not reach the sea.",
+        "Διαθέτει εσωτερικό δέλτα ποταμού του οποίου τα νερά δεν φτάνουν στη θάλασσα."
+      ],
+      [
+        "Its Okavango wetlands receive annual floodwaters during the local dry season.",
+        "Οι υγρότοποι του Οκαβάνγκο δέχονται ετήσια πλημμυρικά νερά κατά την τοπική ξηρή εποχή."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in southern Africa.",
+        "Περίκλειστη χώρα στη νότια Αφρική."
+      ],
+      [
+        "It borders Namibia, South Africa, Zimbabwe and Zambia.",
+        "Συνορεύει με Ναμίμπια, Νότια Αφρική, Ζιμπάμπουε και Ζάμπια."
+      ]
+    ],
+    "animals": [
+      [
+        "African wild dogs find refuge in its Okavango Delta.",
+        "Αφρικανικοί αγριόσκυλοι βρίσκουν καταφύγιο στο δέλτα του Οκαβάνγκο."
+      ],
+      [
+        "Cheetahs and lions live in its Okavango wetlands.",
+        "Τσιτάχ και λιοντάρια ζουν στους υγροτόπους του Οκαβάνγκο."
+      ]
+    ],
+    "population": 2521139,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 82.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2.3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1432/",
+      "https://api.worldbank.org/v2/country/BWA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "NA",
+    "name": [
+      "Namibia",
+      "Ναμίμπια"
+    ],
+    "aliases": [
+      "Namibia",
+      "Ναμίμπια"
+    ],
+    "facts": [
+      [
+        "Its coastal Namib dunes depend on fog as their main water source.",
+        "Οι παράκτιες θίνες της Ναμίμπ εξαρτώνται από την ομίχλη ως κύρια πηγή νερού."
+      ],
+      [
+        "Its UNESCO-listed Namib Sand Sea covers more than 3.000.000 hectares.",
+        "Η Θάλασσα Άμμου της Ναμίμπ, μνημείο UNESCO, καλύπτει πάνω από 3.000.000 εκτάρια."
+      ]
+    ],
+    "locations": [
+      [
+        "Southwestern Africa, on the Atlantic coast.",
+        "Νοτιοδυτική Αφρική, στις ακτές του Ατλαντικού."
+      ],
+      [
+        "It borders Angola to the north and South Africa to the south.",
+        "Συνορεύει με Αγκόλα στα βόρεια και Νότια Αφρική στα νότια."
+      ]
+    ],
+    "animals": [
+      [
+        "Some beetles in its Namib dunes collect water from fog.",
+        "Ορισμένα σκαθάρια στις θίνες της Ναμίμπ συλλέγουν νερό από την ομίχλη."
+      ],
+      [
+        "Some Namib dune beetles drink water condensed on their own bodies or the sand.",
+        "Ορισμένα σκαθάρια των θινών της Ναμίμπ πίνουν νερό που συμπυκνώνεται στο σώμα τους ή στην άμμο."
+      ]
+    ],
+    "population": 3030131,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 90.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 3.6,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1430/",
+      "https://api.worldbank.org/v2/country/NAM/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+      "https://pubmed.ncbi.nlm.nih.gov/28309661/"
+    ]
+  },
+  {
+    "id": "AR",
+    "name": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "aliases": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "facts": [
+      [
+        "Its Península Valdés became a UNESCO World Heritage site in 1999.",
+        "Η χερσόνησος Βαλντές της έγινε μνημείο Παγκόσμιας Κληρονομιάς το 1999."
+      ],
+      [
+        "Its Patagonian Valdés peninsula is globally important for marine mammal conservation.",
+        "Η χερσόνησος Βαλντές στην Παταγονία της έχει παγκόσμια σημασία για την προστασία θαλάσσιων θηλαστικών."
+      ]
+    ],
+    "locations": [
+      [
+        "Southern South America, east of the Andes.",
+        "Νότια Νότια Αμερική, ανατολικά των Άνδεων."
+      ],
+      [
+        "It shares a long western border with Chile and faces the Atlantic.",
+        "Μοιράζεται μεγάλο δυτικό σύνορο με τη Χιλή και βρέχεται από τον Ατλαντικό."
+      ]
+    ],
+    "animals": [
+      [
+        "Southern right whales breed off its Península Valdés.",
+        "Νότιες ορθές φάλαινες αναπαράγονται κοντά στη χερσόνησο Βαλντές."
+      ],
+      [
+        "Southern elephant seals and sea lions breed along its Valdés coast.",
+        "Νότιοι θαλάσσιοι ελέφαντες και θαλάσσιοι λέοντες αναπαράγονται στις ακτές της Βαλντές."
+      ]
+    ],
+    "population": 45696159,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 88.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/937/",
+      "https://api.worldbank.org/v2/country/ARG/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "EC",
+    "name": [
+      "Ecuador",
+      "Εκουαδόρ"
+    ],
+    "aliases": [
+      "Ecuador",
+      "Εκουαδόρ",
+      "Ισημερινός"
+    ],
+    "facts": [
+      [
+        "Its Galápagos archipelago has 19 large islands, according to UNESCO.",
+        "Το αρχιπέλαγος Γκαλαπάγκος της έχει 19 μεγάλα νησιά, σύμφωνα με την UNESCO."
+      ],
+      [
+        "Its Galápagos islands lie about 1.000 km from the mainland.",
+        "Τα νησιά Γκαλαπάγκος της απέχουν περίπου 1.000 χλμ. από την ηπειρωτική χώρα."
+      ]
+    ],
+    "locations": [
+      [
+        "Northwestern South America, on the Pacific coast.",
+        "Βορειοδυτική Νότια Αμερική, στις ακτές του Ειρηνικού."
+      ],
+      [
+        "It borders Colombia and Peru.",
+        "Συνορεύει με Κολομβία και Περού."
+      ]
+    ],
+    "animals": [
+      [
+        "Marine iguanas live on its Galápagos islands.",
+        "Θαλάσσια ιγκουάνα ζουν στα νησιά Γκαλαπάγκος της."
+      ],
+      [
+        "Its Galápagos wildlife includes giant tortoises and flightless cormorants.",
+        "Η πανίδα των Γκαλαπάγκος της περιλαμβάνει γιγάντιες χελώνες και κορμοράνους που δεν πετούν."
+      ]
+    ],
+    "population": 18135478,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 88.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1/",
+      "https://api.worldbank.org/v2/country/ECU/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "PE",
+    "name": [
+      "Peru",
+      "Περού"
+    ],
+    "aliases": [
+      "Peru",
+      "Περού"
+    ],
+    "facts": [
+      [
+        "Its Manu National Park shelters more than 800 bird species, according to UNESCO.",
+        "Το εθνικό πάρκο Μάνου φιλοξενεί πάνω από 800 είδη πουλιών, σύμφωνα με την UNESCO."
+      ],
+      [
+        "Its Manu park lies where the tropical Andes meet the Amazon Basin.",
+        "Το πάρκο Μάνου βρίσκεται εκεί όπου οι τροπικές Άνδεις συναντούν τη λεκάνη του Αμαζονίου."
+      ]
+    ],
+    "locations": [
+      [
+        "Western South America, beside the Pacific Ocean.",
+        "Δυτική Νότια Αμερική, δίπλα στον Ειρηνικό Ωκεανό."
+      ],
+      [
+        "It borders Ecuador, Colombia, Brazil, Bolivia and Chile.",
+        "Συνορεύει με Εκουαδόρ, Κολομβία, Βραζιλία, Βολιβία και Χιλή."
+      ]
+    ],
+    "animals": [
+      [
+        "Jaguars and pumas live in its Manu National Park.",
+        "Τζάγκουαρ και πούμα ζουν στο εθνικό πάρκο Μάνου."
+      ],
+      [
+        "Giant otters find refuge in its Manu National Park.",
+        "Γιγάντιες ενυδρίδες βρίσκουν καταφύγιο στο εθνικό πάρκο Μάνου."
+      ]
+    ],
+    "population": 34217848,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 94.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 0.3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/402/",
+      "https://api.worldbank.org/v2/country/PER/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "ET",
+    "name": [
+      "Ethiopia",
+      "Αιθιοπία"
+    ],
+    "aliases": [
+      "Ethiopia",
+      "Αιθιοπία"
+    ],
+    "facts": [
+      [
+        "Its Simien mountains include dramatic cliffs dropping around 1.500 metres.",
+        "Τα όρη Σίμιεν της περιλαμβάνουν απότομους γκρεμούς με βάθος περίπου 1.500 μέτρων."
+      ],
+      [
+        "Its Simien National Park was inscribed on the UNESCO list in 1978.",
+        "Το εθνικό πάρκο Σίμιεν της εντάχθηκε στον κατάλογο UNESCO το 1978."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in the Horn of Africa.",
+        "Περίκλειστη χώρα στο Κέρας της Αφρικής."
+      ],
+      [
+        "It borders Eritrea, Djibouti, Somalia, Kenya, South Sudan and Sudan.",
+        "Συνορεύει με Ερυθραία, Τζιμπουτί, Σομαλία, Κένυα, Νότιο Σουδάν και Σουδάν."
+      ]
+    ],
+    "animals": [
+      [
+        "Geladas live in its Simien mountains.",
+        "Γκελάντα ζουν στα όρη Σίμιεν της."
+      ],
+      [
+        "The Walia ibex is a wild goat found only in this country.",
+        "Ο αίγαγρος Ουάλια είναι άγριο κατσίκι που συναντάται μόνο σε αυτή τη χώρα."
+      ]
+    ],
+    "population": 132059767,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 61.6,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 36.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/9/",
+      "https://api.worldbank.org/v2/country/ETH/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "MN",
+    "name": [
+      "Mongolia",
+      "Μογγολία"
+    ],
+    "aliases": [
+      "Mongolia",
+      "Μογγολία"
+    ],
+    "facts": [
+      [
+        "It shares the 12-part Uvs Nuur UNESCO protected area with Russia.",
+        "Μοιράζεται με τη Ρωσία την προστατευόμενη περιοχή UNESCO Ουβς Νουρ που αποτελείται από 12 τμήματα."
+      ],
+      [
+        "Its shared Uvs Nuur basin surrounds a shallow, very salty lake.",
+        "Η κοινή λεκάνη Ουβς Νουρ της περιβάλλει μια ρηχή λίμνη με πολύ αλμυρό νερό."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in Asia, between Russia and China.",
+        "Περίκλειστη χώρα στην Ασία, ανάμεσα στη Ρωσία και την Κίνα."
+      ],
+      [
+        "It lies south of Siberia and north of China.",
+        "Βρίσκεται νότια της Σιβηρίας και βόρεια της Κίνας."
+      ]
+    ],
+    "animals": [
+      [
+        "Snow leopards find refuge in the mountains of its Uvs Nuur basin.",
+        "Λεοπαρδάλεις του χιονιού βρίσκουν καταφύγιο στα βουνά της λεκάνης Ουβς Νουρ."
+      ],
+      [
+        "Argali sheep and Asiatic ibex live in its Uvs Nuur mountain habitats.",
+        "Πρόβατα αργκάλι και ασιατικοί αίγαγροι ζουν στα ορεινά οικοσυστήματα της Ουβς Νουρ."
+      ]
+    ],
+    "population": 3524788,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 51.1,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 3.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/769/",
+      "https://api.worldbank.org/v2/country/MNG/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "TH",
+    "name": [
+      "Thailand",
+      "Ταϊλάνδη"
+    ],
+    "aliases": [
+      "Thailand",
+      "Ταϊλάνδη"
+    ],
+    "facts": [
+      [
+        "Its Dong Phayayen–Khao Yai forest complex stretches about 230 km.",
+        "Το δασικό σύμπλεγμα Ντονγκ Φαγιαγιέν–Κάο Γιάι της εκτείνεται σε περίπου 230 χλμ."
+      ],
+      [
+        "Its Dong Phayayen–Khao Yai UNESCO site combines five protected areas.",
+        "Το μνημείο UNESCO Ντονγκ Φαγιαγιέν–Κάο Γιάι συνδυάζει πέντε προστατευόμενες περιοχές."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeast Asia, with coasts on the Andaman Sea and Gulf of Thailand.",
+        "Νοτιοανατολική Ασία, με ακτές στη Θάλασσα Ανταμάν και στον Κόλπο της Ταϊλάνδης."
+      ],
+      [
+        "It borders Myanmar, Laos, Cambodia and Malaysia.",
+        "Συνορεύει με Μιανμάρ, Λάος, Καμπότζη και Μαλαισία."
+      ]
+    ],
+    "animals": [
+      [
+        "Asian elephants and tigers live in its Dong Phayayen–Khao Yai forests.",
+        "Ασιατικοί ελέφαντες και τίγρεις ζουν στα δάση Ντονγκ Φαγιαγιέν–Κάο Γιάι."
+      ],
+      [
+        "Two gibbon species have overlapping ranges in its Dong Phayayen–Khao Yai forests.",
+        "Δύο είδη γίββωνα έχουν επικαλυπτόμενες περιοχές εξάπλωσης στα δάση Ντονγκ Φαγιαγιέν–Κάο Γιάι."
+      ]
+    ],
+    "population": 71668011,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 94.4,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 4.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/590/",
+      "https://api.worldbank.org/v2/country/THA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "UG",
+    "name": [
+      "Uganda",
+      "Ουγκάντα"
+    ],
+    "aliases": [
+      "Uganda",
+      "Ουγκάντα"
+    ],
+    "facts": [
+      [
+        "Its Bwindi forest contains more than 160 tree species, according to UNESCO.",
+        "Το δάσος Μπουίντι περιέχει πάνω από 160 είδη δέντρων, σύμφωνα με την UNESCO."
+      ],
+      [
+        "Its Bwindi forest contains over 100 fern species, according to UNESCO.",
+        "Το δάσος Μπουίντι περιέχει πάνω από 100 είδη φτέρης, σύμφωνα με την UNESCO."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in East Africa.",
+        "Περίκλειστη χώρα στην Ανατολική Αφρική."
+      ],
+      [
+        "It borders Kenya, Tanzania, Rwanda, South Sudan and the Democratic Republic of the Congo.",
+        "Συνορεύει με Κένυα, Τανζανία, Ρουάντα, Νότιο Σουδάν και Λαϊκή Δημοκρατία του Κονγκό."
+      ]
+    ],
+    "animals": [
+      [
+        "Mountain gorillas live in its Bwindi Impenetrable National Park.",
+        "Ορεινοί γορίλες ζουν στο εθνικό πάρκο του αδιαπέραστου δάσους Μπουίντι."
+      ],
+      [
+        "Its Bwindi forest supports both mountain gorillas and chimpanzees.",
+        "Το δάσος Μπουίντι φιλοξενεί τόσο ορεινούς γορίλες όσο και χιμπαντζήδες."
+      ]
+    ],
+    "population": 50015092,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 87.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 11.4,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/682/",
+      "https://api.worldbank.org/v2/country/UGA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
   }
 ]
