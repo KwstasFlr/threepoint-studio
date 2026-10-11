@@ -135,7 +135,7 @@ function fbRender(){
       <div class="guess-row"><input id="fbGuess" list="fbChoices" autocomplete="off" maxlength="80" required placeholder="${T("e.g. Messi","π.χ. Messi")}"><button class="button lime" type="submit">${T("Guess →","Απάντηση →")}</button></div>
       <datalist id="fbChoices">${available.map(player=>`<option value="${esc(player.name)}" data-aliases="${esc((player.aliases||[]).join(' | '))}"></option>`).join("")}</datalist>
     </form>
-    <p class="op-message ${won?"op-won":""}" role="status" aria-live="polite">${esc(status)}</p>
+    <p data-correct-answer="${won?esc(target.name):''}" class="op-message ${won?"op-won":""}" role="status" aria-live="polite">${esc(status)}</p>
     ${canReward?`<div class="op-reward"><button class="button lime" type="button" data-fb-ad ${fbAdBusy||!adConfigured?"disabled":""}>${T("Watch ad · +1 guess","Δες διαφήμιση · +1 προσπάθεια")}</button>
       <button class="text-button" type="button" data-fb-reveal ${fbAdBusy?"disabled":""}>${T("Reveal & end round","Δείξε απάντηση & τέλος γύρου")}</button>
       ${!adConfigured?`<p class="muted">${T("Rewarded ads are not configured yet.","Οι διαφημίσεις για έξτρα προσπάθεια δεν έχουν συνδεθεί ακόμη.")}</p>`:""}</div>`:""}

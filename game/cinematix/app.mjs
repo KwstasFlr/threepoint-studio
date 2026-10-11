@@ -10,7 +10,7 @@ async function boot() {
   const audioDemo = params.get('demo') === 'audio';
   const newDemo = params.get('demo') === 'new';
   const names = {movies: 'Ταινίες', series: 'Σειρές'};
-  const filters = {classic: 'Classic', hard: 'Hard Mode'};
+  const filters = {classic: 'Top 150', hard: 'Expert'};
   if (!names[kind] || !filters[filter]) {
     $('loading').textContent = 'Διάλεξε πρώτα ταινίες ή σειρές από την αρχική σελίδα Cinematix.';
     return;
@@ -112,6 +112,7 @@ async function boot() {
     $('guessForm').hidden = ended;
     $('next').hidden = !ended;
     $('result').hidden = !ended;
+    $('feedback').dataset.correctAnswer = won ? title.title : '';
     $('feedback').textContent = ended ? (won ? 'Σωστά! Βρήκες τον τίτλο.' : 'Ολοκληρώθηκαν οι 6 προσπάθειες.') : wrong ? `Δεν είναι αυτός ο τίτλος. ${wrong === 5 ? "Απομένει 1 προσπάθεια." : `Απομένουν ${6 - wrong} προσπάθειες.`} ${wrong <= 5 ? 'Άνοιξε μια νέα βοήθεια παρακάτω.' : 'Χρησιμοποίησε όλες τις βοήθειες για την τελευταία απάντηση.'}` : 'Πάρε τον χρόνο σου. Δεν υπάρχει χρονόμετρο.';
     $('resultHeading').textContent = won ? 'Το βρήκες!' : 'Η σωστή απάντηση';
     $('answer').textContent = ended ? `${title.title} · ${title.year}` : '';

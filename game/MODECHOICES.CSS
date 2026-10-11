@@ -1,0 +1,18 @@
+/* Compact, stacked category and mode choices. */
+main>.grid{display:grid;grid-template-columns:minmax(0,1fr)!important;max-width:540px;gap:10px;margin:22px 0 28px}
+main>.grid>.tile{--choice:#98cbff;display:flex;align-items:center;gap:14px;min-height:68px;padding:15px 20px;border-radius:12px;border:1px solid color-mix(in srgb,var(--choice) 50%,#28333f);border-left:4px solid var(--choice);background:color-mix(in srgb,var(--choice) 12%,#12171d);box-shadow:0 4px 16px #0002;transition:background .15s,border-color .15s}
+main>.grid>.tile strong{font-size:23px;line-height:1.2;color:#f5f7fc}
+main>.grid>.tile>span{font-size:15px;margin-left:auto;text-align:right}
+main>.grid>.tile .symbol{width:36px;height:36px;flex-shrink:0;align-items:center;font-size:30px;color:var(--choice)}
+main>.grid>.tile .symbol svg{width:36px;height:36px}
+main>.grid>.tile[href*="filter=hard"],main>.grid>.tile[href*="mode=quote"]{--choice:#c6a0ff}
+main>.grid>.tile[href*="filter=color"],main>.grid>.tile[href*="filter=new"]{--choice:#ffbd78}
+main>.grid>.tile[href*="filter=mix"],main>.grid>.tile[href*="mode=classic"]{--choice:#bce65b}
+main>.grid>.tile[href*="filter=bw"]{--choice:#c4cdd8}
+main>.grid>.tile:hover{background:color-mix(in srgb,var(--choice) 22%,#12171d);border-color:var(--choice)}
+.op-modes.mode-picker{display:grid!important;grid-template-columns:minmax(0,1fr)!important;max-width:540px;gap:8px;margin:14px 0 18px}
+.op-modes .mode-option{--choice:#98cbff;min-height:58px;padding:13px 18px;gap:3px;border-radius:12px;border:1px solid color-mix(in srgb,var(--choice) 50%,#28333f);border-left:4px solid var(--choice);background:color-mix(in srgb,var(--choice) 12%,#12171d)}
+.op-modes .mode-option[data-gm-mode="quote"],.op-modes .mode-option[data-op-mode="quote"]{--choice:#c6a0ff}
+.op-modes .mode-option[aria-pressed="true"]{background:color-mix(in srgb,var(--choice) 26%,#12171d);border-color:var(--choice);color:#fff;box-shadow:0 0 0 1px color-mix(in srgb,var(--choice) 25%,transparent)}
+.mode-name{font-size:18px}.mode-description{font-size:13px}.mode-option[aria-pressed="true"]::after{color:var(--choice)}
+@media(max-width:550px){main>.grid{max-width:100%}main>.grid>.tile{padding:13px 16px;min-height:62px}main>.grid>.tile strong{font-size:21px}.op-modes .mode-option{padding:12px 16px}}
