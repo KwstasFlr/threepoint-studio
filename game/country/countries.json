@@ -601,5 +601,682 @@
       "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
       "https://www.indonesia.travel/sa/en/cruise"
     ]
+  },
+  {
+    "id": "US",
+    "name": [
+      "United States",
+      "Ηνωμένες Πολιτείες"
+    ],
+    "aliases": [
+      "United States",
+      "Ηνωμένες Πολιτείες",
+      "USA",
+      "United States of America",
+      "ΗΠΑ",
+      "Αμερική"
+    ],
+    "facts": [
+      [
+        "The world’s first national park opened here in 1872.",
+        "Το πρώτο εθνικό πάρκο στον κόσμο ιδρύθηκε εδώ το 1872."
+      ],
+      [
+        "Its Yellowstone park contains more than half of the world’s active geysers.",
+        "Το πάρκο Γέλοουστοουν της περιέχει περισσότερους από τους μισούς ενεργούς θερμοπίδακες του κόσμου."
+      ]
+    ],
+    "locations": [
+      [
+        "North America, between the Atlantic and Pacific oceans.",
+        "Βόρεια Αμερική, ανάμεσα στον Ατλαντικό και τον Ειρηνικό."
+      ],
+      [
+        "Its mainland borders Canada and Mexico.",
+        "Η ηπειρωτική της έκταση συνορεύει με Καναδά και Μεξικό."
+      ]
+    ],
+    "animals": [
+      [
+        "Wild bison roam its Yellowstone National Park.",
+        "Άγριοι βίσωνες ζουν στο εθνικό πάρκο Γέλοουστοουν."
+      ],
+      [
+        "Yellowstone protects a bison population that has lived there since prehistoric times.",
+        "Το Γέλοουστοουν προστατεύει πληθυσμό βισώνων που ζει εκεί από την προϊστορία."
+      ]
+    ],
+    "population": 340003797,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 64,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Jews",
+          "Εβραίοι"
+        ],
+        "percent": 1.7,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://home.nps.gov/yell/learn/historyculture/yellowstoneestablishment.htm",
+      "https://www.nps.gov/yell/learn/nature/bison.htm",
+      "https://api.worldbank.org/v2/country/USA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+      "https://home.nps.gov/yell/planyourvisit/parkfacts.htm"
+    ]
+  },
+  {
+    "id": "ZA",
+    "name": [
+      "South Africa",
+      "Νότια Αφρική"
+    ],
+    "aliases": [
+      "South Africa",
+      "Νότια Αφρική"
+    ],
+    "facts": [
+      [
+        "It divides its capital functions among three cities.",
+        "Μοιράζει τις λειτουργίες της πρωτεύουσας σε τρεις πόλεις."
+      ],
+      [
+        "It has nine provinces.",
+        "Έχει εννέα επαρχίες."
+      ]
+    ],
+    "locations": [
+      [
+        "At the southern end of the African continent.",
+        "Στο νότιο άκρο της αφρικανικής ηπείρου."
+      ],
+      [
+        "It borders Namibia, Botswana and Mozambique, among other countries.",
+        "Συνορεύει, μεταξύ άλλων, με Ναμίμπια, Μποτσουάνα και Μοζαμβίκη."
+      ]
+    ],
+    "animals": [
+      [
+        "Its Kruger National Park shelters lions, elephants and rhinos.",
+        "Στο εθνικό πάρκο Κρούγκερ ζουν λιοντάρια, ελέφαντες και ρινόκεροι."
+      ],
+      [
+        "Leopards and buffalo are among the Big Five found in Kruger.",
+        "Λεοπαρδάλεις και βούβαλοι είναι μεταξύ των «Big Five» που ζουν στο Κρούγκερ."
+      ]
+    ],
+    "population": 64007187,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 85.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 8.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.gov.za/about-sa/south-africas-provinces",
+      "https://www.sanparks.org/parks/kruger/useful-information/5-things-to-seek",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "NO",
+    "name": [
+      "Norway",
+      "Νορβηγία"
+    ],
+    "aliases": [
+      "Norway",
+      "Νορβηγία"
+    ],
+    "facts": [
+      [
+        "In its far north, the summer sun stays above the horizon at midnight.",
+        "Στον μακρινό βορρά της, ο καλοκαιρινός ήλιος δεν δύει ούτε τα μεσάνυχτα."
+      ],
+      [
+        "It contains Europe’s largest high mountain plateau, Hardangervidda.",
+        "Εδώ βρίσκεται το Χαρντανγκερβίντα, το μεγαλύτερο ορεινό οροπέδιο της Ευρώπης."
+      ]
+    ],
+    "locations": [
+      [
+        "Northern Europe, on the western side of Scandinavia.",
+        "Βόρεια Ευρώπη, στη δυτική πλευρά της Σκανδιναβίας."
+      ],
+      [
+        "It borders Sweden, Finland and Russia.",
+        "Συνορεύει με Σουηδία, Φινλανδία και Ρωσία."
+      ]
+    ],
+    "animals": [
+      [
+        "Wild reindeer roam its Hardangervidda plateau.",
+        "Άγριοι τάρανδοι περιφέρονται στο οροπέδιο Χαρντανγκερβίντα."
+      ],
+      [
+        "Its largest wild reindeer herd lives on Hardangervidda.",
+        "Το μεγαλύτερο κοπάδι άγριων ταράνδων της ζει στο Χαρντανγκερβίντα."
+      ]
+    ],
+    "population": 5572279,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 71.4,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 4.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.visitnorway.com/things-to-do/nature-attractions/midnight-sun/",
+      "https://www.visitnorway.com/listings/hardangervidda-national-park-southeastern-part/14259/",
+      "https://www.visitnorway.com/listings//hardangervidda-national-park-centre/14292/",
+      "https://api.worldbank.org/v2/country/NOR/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "IS",
+    "name": [
+      "Iceland",
+      "Ισλανδία"
+    ],
+    "aliases": [
+      "Iceland",
+      "Ισλανδία"
+    ],
+    "facts": [
+      [
+        "Its land crosses the boundary between two tectonic plates.",
+        "Η ξηρά της διασχίζει το όριο ανάμεσα σε δύο τεκτονικές πλάκες."
+      ],
+      [
+        "Its western and eastern parts sit on the North American and Eurasian plates.",
+        "Το δυτικό και το ανατολικό τμήμα της βρίσκονται στην πλάκα της Βόρειας Αμερικής και στην Ευρασιατική."
+      ]
+    ],
+    "locations": [
+      [
+        "An island in the North Atlantic, northwest of the United Kingdom.",
+        "Νησί στον Βόρειο Ατλαντικό, βορειοδυτικά του Ηνωμένου Βασιλείου."
+      ],
+      [
+        "It lies between Greenland and the Norwegian Sea.",
+        "Βρίσκεται ανάμεσα στη Γροιλανδία και τη Νορβηγική Θάλασσα."
+      ]
+    ],
+    "animals": [
+      [
+        "The Arctic fox is its only native land mammal.",
+        "Η αρκτική αλεπού είναι το μοναδικό αυτόχθονο χερσαίο θηλαστικό της."
+      ],
+      [
+        "A research centre in its Westfjords studies the Arctic fox.",
+        "Ένα ερευνητικό κέντρο στα Δυτικά Φιόρδ της μελετά την αρκτική αλεπού."
+      ]
+    ],
+    "population": 386506,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 74.9,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2.4,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.visiticeland.com/article/volcanos/",
+      "https://www.visiticeland.com/things-to-do/culture/museums/",
+      "https://api.worldbank.org/v2/country/ISL/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "FI",
+    "name": [
+      "Finland",
+      "Φινλανδία"
+    ],
+    "aliases": [
+      "Finland",
+      "Φινλανδία"
+    ],
+    "facts": [
+      [
+        "Its tourism authority counts about 188,000 lakes.",
+        "Ο οργανισμός τουρισμού της αναφέρει περίπου 188.000 λίμνες."
+      ],
+      [
+        "Its tourism authority reports more than three million saunas.",
+        "Ο οργανισμός τουρισμού της αναφέρει πάνω από τρία εκατομμύρια σάουνες."
+      ]
+    ],
+    "locations": [
+      [
+        "Northern Europe, east of Sweden.",
+        "Βόρεια Ευρώπη, ανατολικά της Σουηδίας."
+      ],
+      [
+        "It borders Sweden, Norway and Russia.",
+        "Συνορεύει με Σουηδία, Νορβηγία και Ρωσία."
+      ]
+    ],
+    "animals": [
+      [
+        "Reindeer are part of the wildlife and culture of its Lapland region.",
+        "Οι τάρανδοι αποτελούν μέρος της φύσης και του πολιτισμού της Λαπωνίας της."
+      ],
+      [
+        "Its northern Lapland region is known for reindeer.",
+        "Η βόρεια περιοχή της, η Λαπωνία, είναι γνωστή για τους ταράνδους."
+      ]
+    ],
+    "population": 5619911,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 72.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 1.6,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://prod.visitfinland.fi/suuralueiden_esittelyt/",
+      "https://media.visitfinland.com/en/media-press-releases/nine-exciting-experiences-in-finland-2024/",
+      "https://www.visitfinland.com/en/places-to-go/",
+      "https://api.worldbank.org/v2/country/FIN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "NP",
+    "name": [
+      "Nepal",
+      "Νεπάλ"
+    ],
+    "aliases": [
+      "Nepal",
+      "Νεπάλ"
+    ],
+    "facts": [
+      [
+        "It shares the world’s highest mountain with China.",
+        "Μοιράζεται το ψηλότερο βουνό στον κόσμο με την Κίνα."
+      ],
+      [
+        "Its Sagarmatha National Park became a UNESCO World Heritage site in 1979.",
+        "Το εθνικό πάρκο Σαγκαρμάθα εντάχθηκε στην Παγκόσμια Κληρονομιά της UNESCO το 1979."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in South Asia, in the Himalayas.",
+        "Περίκλειστη χώρα στη Νότια Ασία, στα Ιμαλάια."
+      ],
+      [
+        "It lies between India and China.",
+        "Βρίσκεται ανάμεσα στην Ινδία και την Κίνα."
+      ]
+    ],
+    "animals": [
+      [
+        "Its Chitwan National Park protects one-horned rhinoceroses.",
+        "Το εθνικό πάρκο Τσιτουάν προστατεύει μονόκερους ρινόκερους."
+      ],
+      [
+        "Bengal tigers find refuge in its Chitwan National Park.",
+        "Τίγρεις της Βεγγάλης βρίσκουν καταφύγιο στο εθνικό πάρκο Τσιτουάν."
+      ]
+    ],
+    "population": 29651054,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Hindus",
+          "Ινδουιστές"
+        ],
+        "percent": 81.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 8.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/120/",
+      "https://whc.unesco.org/en/list/284/",
+      "https://api.worldbank.org/v2/country/NPL/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "MG",
+    "name": [
+      "Madagascar",
+      "Μαδαγασκάρη"
+    ],
+    "aliases": [
+      "Madagascar",
+      "Μαδαγασκάρη"
+    ],
+    "facts": [
+      [
+        "Its main island is the fourth largest in the world.",
+        "Το κύριο νησί της είναι το τέταρτο μεγαλύτερο στον κόσμο."
+      ],
+      [
+        "Its main island separated from other land masses tens of millions of years ago.",
+        "Το κύριο νησί της αποχωρίστηκε από άλλες χερσαίες μάζες πριν από δεκάδες εκατομμύρια χρόνια."
+      ]
+    ],
+    "locations": [
+      [
+        "An island country in the Indian Ocean, off southeastern Africa.",
+        "Νησιωτική χώρα στον Ινδικό Ωκεανό, έξω από τη νοτιοανατολική Αφρική."
+      ],
+      [
+        "The Mozambique Channel separates it from mainland Africa.",
+        "Το στενό της Μοζαμβίκης τη χωρίζει από την ηπειρωτική Αφρική."
+      ]
+    ],
+    "animals": [
+      [
+        "Lemurs live in its Atsinanana rainforests.",
+        "Λεμούριοι ζουν στα τροπικά δάση της Ατσινανάνα."
+      ],
+      [
+        "Its Atsinanana forests protect rare and threatened lemur species.",
+        "Τα δάση της Ατσινανάνα προστατεύουν σπάνια και απειλούμενα είδη λεμούριων."
+      ]
+    ],
+    "population": 31964956,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 74.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1257/",
+      "https://api.worldbank.org/v2/country/MDG/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CR",
+    "name": [
+      "Costa Rica",
+      "Κόστα Ρίκα"
+    ],
+    "aliases": [
+      "Costa Rica",
+      "Κόστα Ρίκα"
+    ],
+    "facts": [
+      [
+        "Its tourism board says around 26% of its land is protected.",
+        "Ο οργανισμός τουρισμού της αναφέρει ότι περίπου το 26% της έκτασής της προστατεύεται."
+      ],
+      [
+        "Its tourism board estimates it hosts about 6% of the world’s biodiversity.",
+        "Ο οργανισμός τουρισμού της εκτιμά ότι φιλοξενεί περίπου το 6% της παγκόσμιας βιοποικιλότητας."
+      ]
+    ],
+    "locations": [
+      [
+        "Central America, between Nicaragua and Panama.",
+        "Κεντρική Αμερική, ανάμεσα στη Νικαράγουα και τον Παναμά."
+      ],
+      [
+        "It has coastlines on both the Pacific and the Caribbean.",
+        "Έχει ακτές στον Ειρηνικό και στην Καραϊβική."
+      ]
+    ],
+    "animals": [
+      [
+        "Two-fingered and three-fingered sloths live here.",
+        "Εδώ ζουν βραδύποδες με δύο και με τρία δάχτυλα."
+      ],
+      [
+        "Sloths can be seen hanging in trees in its Manuel Antonio National Park.",
+        "Στο εθνικό πάρκο Μανουέλ Αντόνιο μπορείς να δεις βραδύποδες κρεμασμένους στα δέντρα."
+      ]
+    ],
+    "population": 5129910,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 87.9,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 1.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.visitcostarica.com/travel-trade",
+      "https://www.visitcostarica.com/sites/default/files/legacy/pdf/Jardines%20bot%C3%A1nicos%20y%20zoo.pdf",
+      "https://www.visitcostarica.com/press/press-releases/general-travel/75-get-to-know-your-costa-rican-spirit-animal-the-sloth",
+      "https://api.worldbank.org/v2/country/CRI/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "KE",
+    "name": [
+      "Kenya",
+      "Κένυα"
+    ],
+    "aliases": [
+      "Kenya",
+      "Κένυα"
+    ],
+    "facts": [
+      [
+        "Africa’s second-highest mountain stands here.",
+        "Εδώ βρίσκεται το δεύτερο ψηλότερο βουνό της Αφρικής."
+      ],
+      [
+        "Its second-highest-in-Africa mountain is an ancient extinct volcano.",
+        "Το βουνό της που είναι δεύτερο ψηλότερο στην Αφρική είναι αρχαίο σβησμένο ηφαίστειο."
+      ]
+    ],
+    "locations": [
+      [
+        "East Africa, with a coastline on the Indian Ocean.",
+        "Ανατολική Αφρική, με ακτογραμμή στον Ινδικό Ωκεανό."
+      ],
+      [
+        "It borders Tanzania to the south and Ethiopia to the north.",
+        "Συνορεύει με Τανζανία στα νότια και Αιθιοπία στα βόρεια."
+      ]
+    ],
+    "animals": [
+      [
+        "Large elephant herds live in its Amboseli National Park.",
+        "Μεγάλα κοπάδια ελεφάντων ζουν στο εθνικό πάρκο Αμποσέλι."
+      ],
+      [
+        "Giraffes, buffalo and cheetahs are among the animals found in Amboseli.",
+        "Καμηλοπαρδάλεις, βούβαλοι και τσιτάχ είναι μεταξύ των ζώων που ζουν στο Αμποσέλι."
+      ]
+    ],
+    "population": 56432944,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 85.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 10.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://kws.go.ke/park/mt-kenya-national-park/",
+      "https://experience.magicalkenya.com/locations/amboseli",
+      "https://api.worldbank.org/v2/country/KEN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CN",
+    "name": [
+      "China",
+      "Κίνα"
+    ],
+    "aliases": [
+      "China",
+      "Κίνα"
+    ],
+    "facts": [
+      [
+        "Its historic Great Wall system extends for more than 20,000 kilometres.",
+        "Το ιστορικό σύστημα του Σινικού Τείχους της εκτείνεται σε περισσότερα από 20.000 χιλιόμετρα."
+      ],
+      [
+        "Its Great Wall includes walls, fortresses, mountain passes and beacon towers.",
+        "Το Σινικό Τείχος της περιλαμβάνει τείχη, φρούρια, ορεινά περάσματα και πύργους σηματοδοσίας."
+      ]
+    ],
+    "locations": [
+      [
+        "East Asia, with a long Pacific coastline.",
+        "Ανατολική Ασία, με μεγάλη ακτογραμμή στον Ειρηνικό."
+      ],
+      [
+        "It borders Mongolia to the north and India to the southwest.",
+        "Συνορεύει με Μογγολία στα βόρεια και Ινδία στα νοτιοδυτικά."
+      ]
+    ],
+    "animals": [
+      [
+        "Giant pandas live in its Sichuan sanctuaries.",
+        "Γιγάντια πάντα ζουν στα καταφύγια της Σιτσουάν."
+      ],
+      [
+        "Its Sichuan sanctuaries also shelter red pandas and snow leopards.",
+        "Τα καταφύγια της Σιτσουάν φιλοξενούν επίσης κόκκινα πάντα και λεοπαρδάλεις του χιονιού."
+      ]
+    ],
+    "population": 1408975000,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 3.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/438/",
+      "https://whc.unesco.org/en/list/1213/",
+      "https://api.worldbank.org/v2/country/CHN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
   }
 ]
