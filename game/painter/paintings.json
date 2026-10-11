@@ -31,7 +31,12 @@
     ],
     "source": "https://www.artic.edu/artworks/28560",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "16568",
@@ -61,7 +66,12 @@
     ],
     "source": "https://www.artic.edu/artworks/16568",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14655",
@@ -91,7 +101,12 @@
     ],
     "source": "https://www.artic.edu/artworks/14655",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Two_Sisters_(On_the_Terrace)_-_Google_Art_Project.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "27992",
@@ -121,7 +136,12 @@
     ],
     "source": "https://www.artic.edu/artworks/27992",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Pointillism",
+      "Πουαντιγισμός"
+    ]
   },
   {
     "id": "111436",
@@ -151,7 +171,12 @@
     ],
     "source": "https://www.artic.edu/artworks/111436",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "18951",
@@ -181,7 +206,12 @@
     ],
     "source": "https://www.artic.edu/artworks/18951",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Yellow_Dancers_(In_the_Wings)_-_1963.923_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "111442",
@@ -211,7 +241,12 @@
     ],
     "source": "https://www.artic.edu/artworks/111442",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "19339",
@@ -241,7 +276,12 @@
     ],
     "source": "https://www.artic.edu/artworks/19339",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Arl%C3%A9siennes_(Mistral)_-_1934.391_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "20684",
@@ -271,7 +311,12 @@
     ],
     "source": "https://www.artic.edu/artworks/20684",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street,_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "81533",
@@ -301,7 +346,12 @@
     ],
     "source": "https://www.artic.edu/artworks/81533",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_The_Races_at_Longchamp_-_1922.424_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "81551",
@@ -331,7 +381,12 @@
     ],
     "source": "https://www.artic.edu/artworks/81551",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Camille_Pissarro_-_Place_du_Havre,_Paris_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "8991",
@@ -363,7 +418,12 @@
     ],
     "source": "https://www.artic.edu/artworks/8991",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Improvisation_No._30_(Cannons)_-_1931.511_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Modernism",
+      "Μοντερνισμός"
+    ]
   },
   {
     "id": "61128",
@@ -393,7 +453,12 @@
     ],
     "source": "https://www.artic.edu/artworks/61128",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_1928.610_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "95998",
@@ -423,7 +488,12 @@
     ],
     "source": "https://www.artic.edu/artworks/95998",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmenszoon_van_Rijn_-_Old_Man_with_a_Gold_Chain_-_1922.4467_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Renaissance",
+      "Αναγέννηση"
+    ]
   },
   {
     "id": "87479",
@@ -461,6 +531,11 @@
     "firstName": [
       "Doménikos",
       "Δομήνικος"
+    ],
+    "movementBasis": "artwork",
+    "movement": [
+      "Mannerism",
+      "Μανιερισμός"
     ]
   },
   {
@@ -491,7 +566,12 @@
     ],
     "source": "https://www.artic.edu/artworks/25865",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Herring_Net_-_Google_Art_Project.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "69780",
@@ -521,7 +601,12 @@
     ],
     "source": "https://www.artic.edu/artworks/69780",
     "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_The_Fountain,_Villa_Torlonia,_Frascati,_Italy_-_Google_Art_Project.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "11723",
@@ -551,7 +636,12 @@
     ],
     "source": "https://www.artic.edu/artworks/11723",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_-_Woman_at_Her_Toilette_-_1924.127_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "64818",
@@ -581,7 +671,12 @@
     ],
     "source": "https://www.artic.edu/artworks/64818",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Summer)_-_1985.1103_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "110982",
@@ -611,7 +706,12 @@
     ],
     "source": "https://www.artic.edu/artworks/110982",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Odilon_Redon_-_Still_Life_with_Flowers_-_1988.141.22_-_Art_Institute_of_Chicago.jpg",
-    "publicDomain": true
+    "publicDomain": true,
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "94240",
@@ -642,7 +742,12 @@
     "source": "https://www.artic.edu/artworks/94240",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Odilon_Redon_-_Flowers,_Poppies_and_Daisies_-_1977.605_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1977.605"
+    "accession": "1977.605",
+    "movementBasis": "artist",
+    "movement": [
+      "Symbolism",
+      "Συμβολισμός"
+    ]
   },
   {
     "id": "21907",
@@ -681,7 +786,12 @@
       "Doménikos",
       "Δομήνικος"
     ],
-    "accession": "1935.372"
+    "accession": "1935.372",
+    "movementBasis": "artwork",
+    "movement": [
+      "Mannerism",
+      "Μανιερισμός"
+    ]
   },
   {
     "id": "16499",
@@ -712,7 +822,12 @@
     "source": "https://www.artic.edu/artworks/16499",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Jesus_Mocked_by_the_Soldiers_-_1925.703_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1925.703"
+    "accession": "1925.703",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
   },
   {
     "id": "153798",
@@ -743,7 +858,12 @@
     "source": "https://www.artic.edu/artworks/153798",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_-_Woman_in_a_Garden_-_1999.363_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1999.363"
+    "accession": "1999.363",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "8971",
@@ -774,7 +894,12 @@
     "source": "https://www.artic.edu/artworks/8971",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Coast_of_Maine_-_1931.505_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1931.505"
+    "accession": "1931.505",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "26650",
@@ -805,7 +930,12 @@
     "source": "https://www.artic.edu/artworks/26650",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_On_a_Balcony_-_1938.18_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1938.18"
+    "accession": "1938.18",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14598",
@@ -836,7 +966,12 @@
     "source": "https://www.artic.edu/artworks/14598",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_1933.439_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.439"
+    "accession": "1933.439",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14572",
@@ -867,7 +1002,12 @@
     "source": "https://www.artic.edu/artworks/14572",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_The_Millinery_Shop_-_1933.428_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.428"
+    "accession": "1933.428",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "16487",
@@ -898,7 +1038,12 @@
     "source": "https://www.artic.edu/artworks/16487",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Bay_of_Marseille,_Seen_from_L%27Estaque_-_1933.1116_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.1116"
+    "accession": "1933.1116",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "61616",
@@ -929,7 +1074,12 @@
     "source": "https://www.artic.edu/artworks/61616",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Oil_Sketch_for_%22La_Grande_Jatte%22_-_1981.15_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1981.15"
+    "accession": "1981.15",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "27943",
@@ -960,7 +1110,12 @@
     "source": "https://www.artic.edu/artworks/27943",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Mahana_no_atua_(Day_of_the_God)_-_1926.198_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1926.198"
+    "accession": "1926.198",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "87000",
@@ -991,7 +1146,12 @@
     "source": "https://www.artic.edu/artworks/87000",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Camille_Pissarro,_Haymaking_at_%C3%89ragny,_1892,_1961.791,_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1961.791"
+    "accession": "1961.791",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "81558",
@@ -1022,7 +1182,12 @@
     "source": "https://www.artic.edu/artworks/81558",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Acrobats_at_the_Cirque_Fernando_(Francisca_and_Angelina_Wartenberg)_-_1922.440_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1922.440"
+    "accession": "1922.440",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14586",
@@ -1057,7 +1222,12 @@
     "source": "https://www.artic.edu/artworks/14586",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Poet%27s_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.433"
+    "accession": "1933.433",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "4749",
@@ -1088,7 +1258,12 @@
     "source": "https://www.artic.edu/artworks/4749",
     "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Mrs._George_Swinton_(Elizabeth_Ebsworth)_-_1922.4450_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1922.4450"
+    "accession": "1922.4450",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "8980",
@@ -1121,7 +1296,12 @@
     "source": "https://www.artic.edu/artworks/8980",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Landscape_with_Two_Poplars_-_1931.508_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1931.508"
+    "accession": "1931.508",
+    "movementBasis": "artist",
+    "movement": [
+      "Expressionism",
+      "Εξπρεσιονισμός"
+    ]
   },
   {
     "id": "154121",
@@ -1152,7 +1332,12 @@
     "source": "https://www.artic.edu/artworks/154121",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1999.561"
+    "accession": "1999.561",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "16146",
@@ -1183,7 +1368,12 @@
     "source": "https://www.artic.edu/artworks/16146",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_Equestrienne_(At_the_Cirque_Fernando)_-_1925.523_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1925.523"
+    "accession": "1925.523",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "67362",
@@ -1222,7 +1412,12 @@
       "Doménikos",
       "Δομήνικος"
     ],
-    "accession": "1949.1093"
+    "accession": "1949.1093",
+    "movementBasis": "artwork",
+    "movement": [
+      "Mannerism",
+      "Μανιερισμός"
+    ]
   },
   {
     "id": "44892",
@@ -1253,7 +1448,12 @@
     "source": "https://www.artic.edu/artworks/44892",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Fish_(Still_Life)_-_1942.311_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1942.311"
+    "accession": "1942.311",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "20556",
@@ -1284,7 +1484,12 @@
     "source": "https://www.artic.edu/artworks/20556",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_-_Young_Girl_with_Hat_-_1964.214_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1964.214"
+    "accession": "1964.214",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "31816",
@@ -1315,7 +1520,12 @@
     "source": "https://www.artic.edu/artworks/31816",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_After_the_Bullfight_-_1969.332_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1969.332"
+    "accession": "1969.332",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "87088",
@@ -1346,7 +1556,12 @@
     "source": "https://www.artic.edu/artworks/87088",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lily_Pond_-_1933.441_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.441"
+    "accession": "1933.441",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14574",
@@ -1377,7 +1592,12 @@
     "source": "https://www.artic.edu/artworks/14574",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Henri_Degas_and_His_Niece_Lucie_Degas_(The_Artist%27s_Uncle_and_Cousin)_-_1933.429_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.429"
+    "accession": "1933.429",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "62371",
@@ -1408,7 +1628,12 @@
     "source": "https://www.artic.edu/artworks/62371",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Madame_C%C3%A9zanne_in_a_Yellow_Chair_-_1948.54_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1948.54"
+    "accession": "1948.54",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "20199",
@@ -1439,7 +1664,12 @@
     "source": "https://www.artic.edu/artworks/20199",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Final_Study_for_%22Bathers_at_Asni%C3%A8res%22_-_1962.578_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1962.578"
+    "accession": "1962.578",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "111062",
@@ -1470,7 +1700,12 @@
     "source": "https://www.artic.edu/artworks/111062",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Te_raau_rahi_(The_Big_Tree)_-_1949.513_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1949.513"
+    "accession": "1949.513",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "25825",
@@ -1501,7 +1736,12 @@
     "source": "https://www.artic.edu/artworks/25825",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1937.1025"
+    "accession": "1937.1025",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "28862",
@@ -1536,7 +1776,12 @@
     "source": "https://www.artic.edu/artworks/28862",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_A_Peasant_Woman_Digging_in_Front_of_Her_Cottage_-_1968.92_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1968.92"
+    "accession": "1968.92",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
   },
   {
     "id": "121629",
@@ -1567,7 +1812,12 @@
     "source": "https://www.artic.edu/artworks/121629",
     "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Life_Study_(Study_of_an_Egyptian_Girl)_-_82.1972_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "82.1972"
+    "accession": "82.1972",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
   },
   {
     "id": "8987",
@@ -1600,7 +1850,12 @@
     "source": "https://www.artic.edu/artworks/8987",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Painting_with_Green_Center_-_1931.510_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1931.510"
+    "accession": "1931.510",
+    "movementBasis": "artist",
+    "movement": [
+      "Expressionism",
+      "Εξπρεσιονισμός"
+    ]
   },
   {
     "id": "14664",
@@ -1631,7 +1886,12 @@
     "source": "https://www.artic.edu/artworks/14664",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_Moulin_de_la_Galette_-_1933.458_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.458"
+    "accession": "1933.458",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "14591",
@@ -1662,7 +1922,12 @@
     "source": "https://www.artic.edu/artworks/14591",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Woman_Reading_-_1933.435_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.435"
+    "accession": "1933.435",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "81537",
@@ -1693,7 +1958,12 @@
     "source": "https://www.artic.edu/artworks/81537",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Monet_-_Bordighera_-_Art_Institute_of_Chicago_1922.426.jpg",
     "publicDomain": true,
-    "accession": "1922.426"
+    "accession": "1922.426",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "13487",
@@ -1724,7 +1994,12 @@
     "source": "https://www.artic.edu/artworks/13487",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Young_Spartan_Girls_Challenging_Boys_-_1961.334_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1961.334"
+    "accession": "1961.334",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14556",
@@ -1755,7 +2030,12 @@
     "source": "https://www.artic.edu/artworks/14556",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Auvers,_Panoramic_View_-_1933.422_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.422"
+    "accession": "1933.422",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "16648",
@@ -1786,7 +2066,12 @@
     "source": "https://www.artic.edu/artworks/16648",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Woman_in_front_of_a_Still_Life_by_C%C3%A9zanne_-_1925.753_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1925.753"
+    "accession": "1925.753",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "81555",
@@ -1817,7 +2102,12 @@
     "source": "https://www.artic.edu/artworks/81555",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Lunch_at_the_Restaurant_Fournaise_(The_Rowers%27_Lunch)_-_1922.437_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1922.437"
+    "accession": "1922.437",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "109314",
@@ -1852,7 +2142,12 @@
     "source": "https://www.artic.edu/artworks/109314",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Fishing_in_Spring,_the_Pont_de_Clichy_(Asni%C3%A8res)_-_1965.1169_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1965.1169"
+    "accession": "1965.1169",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "110761",
@@ -1883,7 +2178,12 @@
     "source": "https://www.artic.edu/artworks/110761",
     "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Venetian_Glass_Workers_-_1933.1217_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.1217"
+    "accession": "1933.1217",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "8983",
@@ -1916,7 +2216,12 @@
     "source": "https://www.artic.edu/artworks/8983",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Painting_with_Troika_-_1931.509_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1931.509"
+    "accession": "1931.509",
+    "movementBasis": "artist",
+    "movement": [
+      "Expressionism",
+      "Εξπρεσιονισμός"
+    ]
   },
   {
     "id": "9148",
@@ -1947,7 +2252,12 @@
     "source": "https://www.artic.edu/artworks/9148",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_Ballet_Dancers_-_1931.571_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1931.571"
+    "accession": "1931.571",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "95183",
@@ -1978,7 +2288,12 @@
     "source": "https://www.artic.edu/artworks/95183",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Beggar_with_a_Duffle_Coat_(Philosopher)_-_1910.304_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1910.304"
+    "accession": "1910.304",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
   },
   {
     "id": "14624",
@@ -2009,7 +2324,12 @@
     "source": "https://www.artic.edu/artworks/14624",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(End_of_Day,_Autumn)_-_1933.444_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.444"
+    "accession": "1933.444",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "84076",
@@ -2040,7 +2360,12 @@
     "source": "https://www.artic.edu/artworks/84076",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Caf%C3%A9_Singer_-_1955.738_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1955.738"
+    "accession": "1955.738",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "14561",
@@ -2071,7 +2396,12 @@
     "source": "https://www.artic.edu/artworks/14561",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Vase_of_Tulips_-_1933.423_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.423"
+    "accession": "1933.423",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "8360",
@@ -2102,7 +2432,12 @@
     "source": "https://www.artic.edu/artworks/8360",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Te_burao_(The_Hibiscus_Tree)_-_1923.308_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1923.308"
+    "accession": "1923.308",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "16617",
@@ -2133,7 +2468,12 @@
     "source": "https://www.artic.edu/artworks/16617",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Chrysanthemums_-_1933.1173_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1933.1173"
+    "accession": "1933.1173",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
   },
   {
     "id": "27949",
@@ -2168,7 +2508,12 @@
     "source": "https://www.artic.edu/artworks/27949",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Madame_Roulin_Rocking_the_Cradle_(La_berceuse)_-_1926.200_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1926.200"
+    "accession": "1926.200",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
   },
   {
     "id": "145807",
@@ -2199,6 +2544,3505 @@
     "source": "https://www.artic.edu/artworks/145807",
     "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Thistles_-_1996.446_-_Art_Institute_of_Chicago.jpg",
     "publicDomain": true,
-    "accession": "1996.446"
+    "accession": "1996.446",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "8969",
+    "title": "Beggar with Oysters (Philosopher)",
+    "artist": [
+      "Édouard Manet",
+      "Εντουάρ Μανέ"
+    ],
+    "surname": [
+      "Manet",
+      "Μανέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1865,
+    "date": "1865–67",
+    "image": "media/8969.webp",
+    "aliases": [
+      "Edouard Manet",
+      "Édouard Manet",
+      "Manet",
+      "Εντουάρ Μανέ",
+      "Μανέ",
+      "Édouard Manet"
+    ],
+    "source": "https://www.artic.edu/artworks/8969",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Beggar_with_Oysters_(Philosopher)_-_1931.504_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1931.504",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "id": "81539",
+    "title": "On the Bank of the Seine, Bennecourt",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1868,
+    "date": "1868",
+    "image": "media/81539.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/81539",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_On_the_Bank_of_the_Seine,_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1922.427",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "80604",
+    "title": "Portrait after a Costume Ball (Portrait of Madame Dietz-Monnin)",
+    "artist": [
+      "Edgar Degas",
+      "Εντγκάρ Ντεγκά"
+    ],
+    "surname": [
+      "Degas",
+      "Ντεγκά"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1879,
+    "date": "1879",
+    "image": "media/80604.webp",
+    "aliases": [
+      "Edgar Degas",
+      "Edgar Degas",
+      "Degas",
+      "Εντγκάρ Ντεγκά",
+      "Ντεγκά",
+      "Hilaire Germain Edgar Degas"
+    ],
+    "source": "https://www.artic.edu/artworks/80604",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Portrait_after_a_Costume_Ball_(Portrait_of_Madame_Dietz-Monnin)_-_1954.325_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1954.325",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "45240",
+    "title": "The Bathers",
+    "artist": [
+      "Paul Cézanne",
+      "Πολ Σεζάν"
+    ],
+    "surname": [
+      "Cezanne",
+      "Σεζάν"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1899,
+    "date": "1899-1904",
+    "image": "media/45240.webp",
+    "aliases": [
+      "Paul Cezanne",
+      "Paul Cézanne",
+      "Cezanne",
+      "Πολ Σεζάν",
+      "Σεζάν",
+      "Paul Cezanne"
+    ],
+    "source": "https://www.artic.edu/artworks/45240",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Bathers_-_1942.457_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1942.457",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "153797",
+    "title": "Still Life: Wood Tankard and Metal Pitcher",
+    "artist": [
+      "Paul Gauguin",
+      "Πολ Γκογκέν"
+    ],
+    "surname": [
+      "Gauguin",
+      "Γκογκέν"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1880,
+    "date": "1880",
+    "image": "media/153797.webp",
+    "aliases": [
+      "Paul Gauguin",
+      "Paul Gauguin",
+      "Gauguin",
+      "Πολ Γκογκέν",
+      "Γκογκέν",
+      "Paul Gauguin"
+    ],
+    "source": "https://www.artic.edu/artworks/153797",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Still_Life,_Wood_Tankard_and_Metal_Pitcher_-_1999.362_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1999.362",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "81557",
+    "title": "Seascape",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1879,
+    "date": "1879",
+    "image": "media/81557.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/81557",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Seascape_-_1922.438_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1922.438",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "79349",
+    "title": "The Drinkers",
+    "artist": [
+      "Vincent van Gogh",
+      "Βίνσεντ βαν Γκογκ"
+    ],
+    "surname": [
+      "Gogh",
+      "Γκογκ"
+    ],
+    "country": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "year": 1890,
+    "date": "1890",
+    "image": "media/79349.webp",
+    "aliases": [
+      "Vincent van Gogh",
+      "Vincent van Gogh",
+      "Gogh",
+      "Βίνσεντ βαν Γκογκ",
+      "Γκογκ",
+      "Vincent van Gogh",
+      "Van Gogh",
+      "Βαν Γκογκ",
+      "Βαν Γκοχ",
+      "Γκοχ"
+    ],
+    "source": "https://www.artic.edu/artworks/79349",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1953.178",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "110879",
+    "title": "Mrs. Charles Gifford Dyer (Mary Anthony)",
+    "artist": [
+      "John Singer Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ"
+    ],
+    "surname": [
+      "Sargent",
+      "Σάρτζεντ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "year": 1880,
+    "date": "1880",
+    "image": "media/110879.webp",
+    "aliases": [
+      "John Singer Sargent",
+      "John Singer Sargent",
+      "Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ",
+      "Σάρτζεντ",
+      "John Singer Sargent"
+    ],
+    "source": "https://www.artic.edu/artworks/110879",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Mrs._Charles_Gifford_Dyer_(Mary_Anthony)_-_1915.592_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1915.592",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "129849",
+    "title": "Houses at Murnau",
+    "artist": [
+      "Wassily Kandinsky",
+      "Βασίλι Καντίνσκι"
+    ],
+    "surname": [
+      "Kandinsky",
+      "Καντίνσκι"
+    ],
+    "country": [
+      "Russia",
+      "Ρωσία"
+    ],
+    "year": 1909,
+    "date": "1909",
+    "image": "media/129849.webp",
+    "aliases": [
+      "Wassily Kandinsky",
+      "Wassily Kandinsky",
+      "Kandinsky",
+      "Βασίλι Καντίνσκι",
+      "Καντίνσκι",
+      "Vasily Kandinsky",
+      "Vasily Kandinsky",
+      "Καντίνσκυ"
+    ],
+    "source": "https://www.artic.edu/artworks/129849",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Houses_at_Murnau_-_1994.33_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1994.33",
+    "movementBasis": "artist",
+    "movement": [
+      "Expressionism",
+      "Εξπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "42949",
+    "title": "Portrait of Jeanne Wenz",
+    "artist": [
+      "Henri de Toulouse-Lautrec",
+      "Ανρί ντε Τουλούζ Λωτρέκ"
+    ],
+    "surname": [
+      "Toulouse-Lautrec",
+      "Λωτρέκ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1886,
+    "date": "1886",
+    "image": "media/42949.webp",
+    "aliases": [
+      "Henri de Toulouse-Lautrec",
+      "Henri de Toulouse-Lautrec",
+      "Toulouse-Lautrec",
+      "Ανρί ντε Τουλούζ Λωτρέκ",
+      "Λωτρέκ",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "source": "https://www.artic.edu/artworks/42949",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_Portrait_of_Jeanne_Wenz_-_1941.824_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1941.824",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Henri Rousseau",
+      "Ανρί Ρουσό"
+    ],
+    "surname": [
+      "Rousseau",
+      "Ρουσό"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Henri Rousseau",
+      "Rousseau",
+      "Ανρί Ρουσό",
+      "Ρουσό"
+    ],
+    "publicDomain": true,
+    "id": "68433",
+    "title": "Sawmill, Outskirts of Paris",
+    "year": 1888,
+    "date": "c. 1893/95",
+    "image": "media/68433.webp",
+    "source": "https://www.artic.edu/artworks/68433",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_Sawmill,_Outskirts_of_Paris_-_1950.133_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1950.133",
+    "movementBasis": "artist",
+    "movement": [
+      "Naïve art",
+      "Ναΐφ τέχνη"
+    ]
+  },
+  {
+    "artist": [
+      "Gustave Courbet",
+      "Γκυστάβ Κουρμπέ"
+    ],
+    "surname": [
+      "Courbet",
+      "Κουρμπέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Gustave Courbet",
+      "Courbet",
+      "Γκυστάβ Κουρμπέ",
+      "Κουρμπέ"
+    ],
+    "publicDomain": true,
+    "id": "4428",
+    "title": "Mère Grégoire",
+    "year": 1855,
+    "date": "1855, reworked 1857–59",
+    "image": "media/4428.webp",
+    "source": "https://www.artic.edu/artworks/4428",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_M%C3%A8re_Gr%C3%A9goire_-_1930.78_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1930.78",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Joseph Mallord William Turner",
+      "Τζόζεφ Μάλορντ Γουίλιαμ Τέρνερ"
+    ],
+    "surname": [
+      "Turner",
+      "Τέρνερ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Joseph Mallord William Turner",
+      "Turner",
+      "Τζόζεφ Μάλορντ Γουίλιαμ Τέρνερ",
+      "Τέρνερ",
+      "J. M. W. Turner",
+      "William Turner",
+      "Τέρνερ"
+    ],
+    "publicDomain": true,
+    "id": "4796",
+    "title": "Fishing Boats with Hucksters Bargaining for Fish",
+    "year": 1832,
+    "date": "1837–38",
+    "image": "media/4796.webp",
+    "source": "https://www.artic.edu/artworks/4796",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.4472",
+    "movementBasis": "artist",
+    "movement": [
+      "Romanticism",
+      "Ρομαντισμός"
+    ]
+  },
+  {
+    "artist": [
+      "John Constable",
+      "Τζον Κόνσταμπλ"
+    ],
+    "surname": [
+      "Constable",
+      "Κόνσταμπλ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "John Constable",
+      "Constable",
+      "Τζον Κόνσταμπλ",
+      "Κόνσταμπλ"
+    ],
+    "publicDomain": true,
+    "id": "4758",
+    "title": "Stoke-by-Nayland",
+    "year": 1836,
+    "date": "1836",
+    "image": "media/4758.webp",
+    "source": "https://www.artic.edu/artworks/4758",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Constable_-_Stoke-by-Nayland_-_1922.4453_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.4453",
+    "movementBasis": "artist",
+    "movement": [
+      "Romanticism",
+      "Ρομαντισμός"
+    ]
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "56905",
+    "title": "Nocturne: Blue and Gold—Southampton Water",
+    "year": 1872,
+    "date": "1872",
+    "image": "media/56905.webp",
+    "source": "https://www.artic.edu/artworks/56905",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Nocturne,_Blue_and_Gold%E2%80%94Southampton_Water_-_1900.52_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1900.52",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Thomas Cole",
+      "Τόμας Κόουλ"
+    ],
+    "surname": [
+      "Cole",
+      "Κόουλ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Thomas Cole",
+      "Cole",
+      "Τόμας Κόουλ",
+      "Κόουλ"
+    ],
+    "publicDomain": true,
+    "id": "57163",
+    "title": "New England Scenery",
+    "year": 1839,
+    "date": "1839",
+    "image": "media/57163.webp",
+    "source": "https://www.artic.edu/artworks/57163",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Thomas_Cole_-_New_England_Scenery_-_1900.558_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1900.558",
+    "movementBasis": "artist",
+    "movement": [
+      "Hudson River School",
+      "Σχολή του ποταμού Χάντσον"
+    ]
+  },
+  {
+    "artist": [
+      "Childe Hassam",
+      "Τσάιλντ Χάσαμ"
+    ],
+    "surname": [
+      "Hassam",
+      "Χάσαμ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Childe Hassam",
+      "Hassam",
+      "Τσάιλντ Χάσαμ",
+      "Χάσαμ"
+    ],
+    "publicDomain": true,
+    "id": "5349",
+    "title": "New England Headlands",
+    "year": 1899,
+    "date": "1899",
+    "image": "media/5349.webp",
+    "source": "https://www.artic.edu/artworks/5349",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_New_England_Headlands_-_1930.349_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1930.349",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "64724",
+    "title": "The Home of the Heron",
+    "year": 1893,
+    "date": "1893",
+    "image": "media/64724.webp",
+    "source": "https://www.artic.edu/artworks/64724",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_The_Home_of_the_Heron_-_1911.31_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1911.31",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Albert Bierstadt",
+      "Άλμπερτ Μπίρσταντ"
+    ],
+    "surname": [
+      "Bierstadt",
+      "Μπίρσταντ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Albert Bierstadt",
+      "Bierstadt",
+      "Άλμπερτ Μπίρσταντ",
+      "Μπίρσταντ"
+    ],
+    "publicDomain": true,
+    "id": "146701",
+    "title": "Mountain Brook",
+    "year": 1863,
+    "date": "1863",
+    "image": "media/146701.webp",
+    "source": "https://www.artic.edu/artworks/146701",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Albert_Bierstadt_-_Mountain_Brook_-_1997.365_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1997.365",
+    "movementBasis": "artist",
+    "movement": [
+      "Hudson River School",
+      "Σχολή του ποταμού Χάντσον"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97910",
+    "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
+    "year": 1890,
+    "date": "1890",
+    "image": "media/97910.webp",
+    "source": "https://www.artic.edu/artworks/97910",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_The_Advance-Guard,_or_The_Military_Sacrifice_(The_Ambush)_-_1982.802_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.802",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "William Merritt Chase",
+      "Γουίλιαμ Μέριτ Τσέις"
+    ],
+    "surname": [
+      "Chase",
+      "Τσέις"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "William Merritt Chase",
+      "Chase",
+      "Γουίλιαμ Μέριτ Τσέις",
+      "Τσέις"
+    ],
+    "publicDomain": true,
+    "id": "663",
+    "title": "Alice",
+    "year": 1892,
+    "date": "1892",
+    "image": "media/663.webp",
+    "source": "https://www.artic.edu/artworks/663",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:William_Merritt_Chase_-_Alice_-_1893.107_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1893.107",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Alfred Sisley",
+      "Άλφρεντ Σίσλεϊ"
+    ],
+    "surname": [
+      "Sisley",
+      "Σίσλεϊ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Alfred Sisley",
+      "Sisley",
+      "Άλφρεντ Σίσλεϊ",
+      "Σίσλεϊ"
+    ],
+    "publicDomain": true,
+    "id": "96559",
+    "title": "A Turn in the Road",
+    "year": 1873,
+    "date": "1873",
+    "image": "media/96559.webp",
+    "source": "https://www.artic.edu/artworks/96559",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_A_Turn_in_the_Road_-_1947.112_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1947.112",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "William Adolphe Bouguereau",
+      "Γουίλιαμ Αντόλφ Μπουγκρό"
+    ],
+    "surname": [
+      "Bouguereau",
+      "Μπουγκρό"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "William Adolphe Bouguereau",
+      "Bouguereau",
+      "Γουίλιαμ Αντόλφ Μπουγκρό",
+      "Μπουγκρό"
+    ],
+    "publicDomain": true,
+    "id": "39560",
+    "title": "The Bathers",
+    "year": 1884,
+    "date": "1884",
+    "image": "media/39560.webp",
+    "source": "https://www.artic.edu/artworks/39560",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:William_Adolphe_Bouguereau_-_The_Bathers_-_1901.458_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1901.458",
+    "movementBasis": "artist",
+    "movement": [
+      "Academic art",
+      "Ακαδημαϊκή τέχνη"
+    ]
+  },
+  {
+    "artist": [
+      "Frédéric Bazille",
+      "Φρεντερίκ Μπαζίγ"
+    ],
+    "surname": [
+      "Bazille",
+      "Μπαζίγ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Frédéric Bazille",
+      "Bazille",
+      "Φρεντερίκ Μπαζίγ",
+      "Μπαζίγ"
+    ],
+    "publicDomain": true,
+    "id": "110661",
+    "title": "Self-Portrait",
+    "year": 1865,
+    "date": "1865–66",
+    "image": "media/110661.webp",
+    "source": "https://www.artic.edu/artworks/110661",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric_Bazille_-_Self-Portrait_-_1962.336_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1962.336",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Henri Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ"
+    ],
+    "surname": [
+      "Fantin-Latour",
+      "Λατούρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Henri Fantin-Latour",
+      "Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ",
+      "Λατούρ",
+      "Fantin Latour",
+      "Φαντέν Λατούρ"
+    ],
+    "publicDomain": true,
+    "id": "87467",
+    "title": "Édouard Manet",
+    "year": 1867,
+    "date": "1867",
+    "image": "media/87467.webp",
+    "source": "https://www.artic.edu/artworks/87467",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_Fantin-Latour_-_%C3%89douard_Manet_-_1905.207_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1905.207",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "111648",
+    "title": "Peasants Bringing Home a Calf Born in the Fields",
+    "year": 1864,
+    "date": "1864",
+    "image": "media/111648.webp",
+    "source": "https://www.artic.edu/artworks/111648",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_Peasants_Bringing_Home_a_Calf_Born_in_the_Fields_-_1894.1063_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1894.1063",
+    "movementBasis": "artwork",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Gustave Moreau",
+      "Γκυστάβ Μορό"
+    ],
+    "surname": [
+      "Moreau",
+      "Μορό"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Gustave Moreau",
+      "Moreau",
+      "Γκυστάβ Μορό",
+      "Μορό"
+    ],
+    "publicDomain": true,
+    "id": "20579",
+    "title": "Hercules and the Lernaean Hydra",
+    "year": 1875,
+    "date": "1875–76",
+    "image": "media/20579.webp",
+    "source": "https://www.artic.edu/artworks/20579",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Moreau_-_Hercules_and_the_Lernaean_Hydra_-_1964.231_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1964.231",
+    "movementBasis": "artist",
+    "movement": [
+      "Symbolism",
+      "Συμβολισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Edvard Munch",
+      "Έντβαρντ Μουνκ"
+    ],
+    "surname": [
+      "Munch",
+      "Μουνκ"
+    ],
+    "country": [
+      "Norway",
+      "Νορβηγία"
+    ],
+    "aliases": [
+      "Edvard Munch",
+      "Munch",
+      "Έντβαρντ Μουνκ",
+      "Μουνκ"
+    ],
+    "publicDomain": true,
+    "id": "154235",
+    "title": "The Girl by the Window",
+    "year": 1893,
+    "date": "1893",
+    "image": "media/154235.webp",
+    "source": "https://www.artic.edu/artworks/154235",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Girl_by_the_Window_-_2000.50_-_Art_Institute_of_Chicago.jpg",
+    "accession": "2000.50",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Piet Mondrian",
+      "Πιετ Μοντριάν"
+    ],
+    "surname": [
+      "Mondrian",
+      "Μοντριάν"
+    ],
+    "country": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "aliases": [
+      "Piet Mondrian",
+      "Mondrian",
+      "Πιετ Μοντριάν",
+      "Μοντριάν"
+    ],
+    "publicDomain": true,
+    "id": "109819",
+    "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+    "year": 1921,
+    "date": "1921",
+    "image": "media/109819.webp",
+    "source": "https://www.artic.edu/artworks/109819",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_-_Lozenge_Composition_with_Yellow,_Black,_Blue,_Red,_and_Gray_-_1957.307_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1957.307",
+    "movementBasis": "artwork",
+    "movement": [
+      "Modernism",
+      "Μοντερνισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Diego Velázquez",
+      "Ντιέγκο Βελάσκεθ"
+    ],
+    "surname": [
+      "Velázquez",
+      "Βελάσκεθ"
+    ],
+    "country": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "aliases": [
+      "Diego Velázquez",
+      "Velázquez",
+      "Ντιέγκο Βελάσκεθ",
+      "Βελάσκεθ"
+    ],
+    "publicDomain": true,
+    "id": "21934",
+    "title": "Kitchen Scene",
+    "year": 1618,
+    "date": "1618–20",
+    "image": "media/21934.webp",
+    "source": "https://www.artic.edu/artworks/21934",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_-_Kitchen_Scene_-_1935.380_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1935.380",
+    "movementBasis": "artwork",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "27310",
+    "title": "The Holy Family with Saints Elizabeth and John the Baptist",
+    "year": 1610,
+    "date": "c. 1615",
+    "image": "media/27310.webp",
+    "source": "https://www.artic.edu/artworks/27310",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_The_Holy_Family_with_Saints_Elizabeth_and_John_the_Baptist_-_1967.229_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1967.229",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "artist": [
+      "Anthony van Dyck",
+      "Άντονι βαν Ντάικ"
+    ],
+    "surname": [
+      "Dyck",
+      "Ντάικ"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Anthony van Dyck",
+      "Dyck",
+      "Άντονι βαν Ντάικ",
+      "Ντάικ"
+    ],
+    "publicDomain": true,
+    "id": "866",
+    "title": "Helena Tromper Du Bois",
+    "year": 1626,
+    "date": "c. 1631",
+    "image": "media/866.webp",
+    "source": "https://www.artic.edu/artworks/866",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Anthony_van_Dyck_-_Helena_Leonora_Sieveri_-_1894.1027_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1894.1027",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "25812",
+    "title": "Bullfight",
+    "artist": [
+      "Édouard Manet",
+      "Εντουάρ Μανέ"
+    ],
+    "surname": [
+      "Manet",
+      "Μανέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1865,
+    "date": "1865–66",
+    "image": "media/25812.webp",
+    "aliases": [
+      "Edouard Manet",
+      "Édouard Manet",
+      "Manet",
+      "Εντουάρ Μανέ",
+      "Μανέ",
+      "Édouard Manet"
+    ],
+    "source": "https://www.artic.edu/artworks/25812",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Bullfight_-_1937.1019_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1937.1019",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "16549",
+    "title": "Apples and Grapes",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1880,
+    "date": "1880",
+    "image": "media/16549.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/16549",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Apples_and_Grapes_-_1933.1152_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.1152",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "79586",
+    "title": "Portrait of Mme Lisle and Mme Loubens",
+    "artist": [
+      "Edgar Degas",
+      "Εντγκάρ Ντεγκά"
+    ],
+    "surname": [
+      "Degas",
+      "Ντεγκά"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1862,
+    "date": "c. 1867",
+    "image": "media/79586.webp",
+    "aliases": [
+      "Edgar Degas",
+      "Edgar Degas",
+      "Degas",
+      "Εντγκάρ Ντεγκά",
+      "Ντεγκά",
+      "Hilaire Germain Edgar Degas"
+    ],
+    "source": "https://www.artic.edu/artworks/79586",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hilaire_Germain_Edgar_Degas_-_Portrait_of_Mme._Lisle_and_Mme_Loubens_-_1953.335_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1953.335",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "65811",
+    "title": "The Plate of Apples",
+    "artist": [
+      "Paul Cézanne",
+      "Πολ Σεζάν"
+    ],
+    "surname": [
+      "Cezanne",
+      "Σεζάν"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1872,
+    "date": "c. 1877",
+    "image": "media/65811.webp",
+    "aliases": [
+      "Paul Cezanne",
+      "Paul Cézanne",
+      "Cezanne",
+      "Πολ Σεζάν",
+      "Σεζάν",
+      "Paul Cezanne"
+    ],
+    "source": "https://www.artic.edu/artworks/65811",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Plate_of_Apples_-_1949.512_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1949.512",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "95654",
+    "title": "Near the Lake",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1879,
+    "date": "1879–80",
+    "image": "media/95654.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/95654",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Near_the_Lake_-_1922.439_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1922.439",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "27954",
+    "title": "Terrace and Observation Deck at the Moulin de Blute-Fin, Montmartre",
+    "artist": [
+      "Vincent van Gogh",
+      "Βίνσεντ βαν Γκογκ"
+    ],
+    "surname": [
+      "Gogh",
+      "Γκογκ"
+    ],
+    "country": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "year": 1887,
+    "date": "Early 1887",
+    "image": "media/27954.webp",
+    "aliases": [
+      "Vincent van Gogh",
+      "Vincent van Gogh",
+      "Gogh",
+      "Βίνσεντ βαν Γκογκ",
+      "Γκογκ",
+      "Vincent van Gogh",
+      "Van Gogh",
+      "Βαν Γκογκ",
+      "Βαν Γκοχ",
+      "Γκοχ"
+    ],
+    "source": "https://www.artic.edu/artworks/27954",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Terrace_and_Observation_Deck_at_the_Moulin_de_Blute-Fin,_Montmartre_-_1926.202_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1926.202",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "121628",
+    "title": "Rehearsal of the Pasdeloup Orchestra at the Cirque d'Hiver",
+    "artist": [
+      "John Singer Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ"
+    ],
+    "surname": [
+      "Sargent",
+      "Σάρτζεντ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "year": 1879,
+    "date": "c. 1879",
+    "image": "media/121628.webp",
+    "aliases": [
+      "John Singer Sargent",
+      "John Singer Sargent",
+      "Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ",
+      "Σάρτζεντ",
+      "John Singer Sargent"
+    ],
+    "source": "https://www.artic.edu/artworks/121628",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Rehearsal_of_the_Pasdeloup_Orchestra_at_the_Cirque_d%27Hiver_-_81.1972_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "81.1972",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Gustave Courbet",
+      "Γκυστάβ Κουρμπέ"
+    ],
+    "surname": [
+      "Courbet",
+      "Κουρμπέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Gustave Courbet",
+      "Courbet",
+      "Γκυστάβ Κουρμπέ",
+      "Κουρμπέ"
+    ],
+    "publicDomain": true,
+    "id": "39554",
+    "title": "An Alpine Scene",
+    "year": 1874,
+    "date": "1874",
+    "image": "media/39554.webp",
+    "source": "https://www.artic.edu/artworks/39554",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_An_Alpine_Scene_-_1901.456_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1901.456",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Joseph Mallord William Turner",
+      "Τζόζεφ Μάλορντ Γουίλιαμ Τέρνερ"
+    ],
+    "surname": [
+      "Turner",
+      "Τέρνερ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Joseph Mallord William Turner",
+      "Turner",
+      "Τζόζεφ Μάλορντ Γουίλιαμ Τέρνερ",
+      "Τέρνερ",
+      "J. M. W. Turner",
+      "William Turner",
+      "Τέρνερ"
+    ],
+    "publicDomain": true,
+    "id": "109938",
+    "title": "Valley of Aosta: Snowstorm, Avalanche, and Thunderstorm",
+    "year": 1836,
+    "date": "1836–37",
+    "image": "media/109938.webp",
+    "source": "https://www.artic.edu/artworks/109938",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Valley_of_Aosta,_Snowstorm,_Avalanche,_and_Thunderstorm_-_1947.513_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1947.513",
+    "movementBasis": "artist",
+    "movement": [
+      "Romanticism",
+      "Ρομαντισμός"
+    ]
+  },
+  {
+    "artist": [
+      "John Constable",
+      "Τζον Κόνσταμπλ"
+    ],
+    "surname": [
+      "Constable",
+      "Κόνσταμπλ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "John Constable",
+      "Constable",
+      "Τζον Κόνσταμπλ",
+      "Κόνσταμπλ"
+    ],
+    "publicDomain": true,
+    "id": "879",
+    "title": "Landscape (The Lock)",
+    "year": 1815,
+    "date": "c. 1820–25",
+    "image": "media/879.webp",
+    "source": "https://www.artic.edu/artworks/879",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Constable_-_Landscape_(The_Lock)_-_1894.1043_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1894.1043",
+    "movementBasis": "artist",
+    "movement": [
+      "Romanticism",
+      "Ρομαντισμός"
+    ]
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "14309",
+    "title": "Coast Scene, Bathers",
+    "year": 1884,
+    "date": "1884–85",
+    "image": "media/14309.webp",
+    "source": "https://www.artic.edu/artworks/14309",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Coast_Scene,_Bathers_-_1933.208_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1933.208",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Childe Hassam",
+      "Τσάιλντ Χάσαμ"
+    ],
+    "surname": [
+      "Hassam",
+      "Χάσαμ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Childe Hassam",
+      "Hassam",
+      "Τσάιλντ Χάσαμ",
+      "Χάσαμ"
+    ],
+    "publicDomain": true,
+    "id": "107862",
+    "title": "Bailey's Beach, Newport, R.I.",
+    "year": 1901,
+    "date": "1901",
+    "image": "media/107862.webp",
+    "source": "https://www.artic.edu/artworks/107862",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_Bailey%27s_Beach,_Newport,_R.I._-_1936.243_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1936.243",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "68792",
+    "title": "A Marine",
+    "year": 1874,
+    "date": "c. 1874–75",
+    "image": "media/68792.webp",
+    "source": "https://www.artic.edu/artworks/68792",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_A_Marine_-_1913.90_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1913.90",
+    "movementBasis": "artist",
+    "movement": [
+      "Tonalism",
+      "Τονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97907",
+    "title": "A Mexican Vaquero",
+    "year": 1890,
+    "date": "1890",
+    "image": "media/97907.webp",
+    "source": "https://www.artic.edu/artworks/97907",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_A_Mexican_Vaquero_-_1982.799_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.799",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "William Merritt Chase",
+      "Γουίλιαμ Μέριτ Τσέις"
+    ],
+    "surname": [
+      "Chase",
+      "Τσέις"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "William Merritt Chase",
+      "Chase",
+      "Γουίλιαμ Μέριτ Τσέις",
+      "Τσέις"
+    ],
+    "publicDomain": true,
+    "id": "28849",
+    "title": "A City Park",
+    "year": 1887,
+    "date": "c. 1887",
+    "image": "media/28849.webp",
+    "source": "https://www.artic.edu/artworks/28849",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:William_Merritt_Chase_-_A_City_Park_-_1968.88_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1968.88",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Alfred Sisley",
+      "Άλφρεντ Σίσλεϊ"
+    ],
+    "surname": [
+      "Sisley",
+      "Σίσλεϊ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Alfred Sisley",
+      "Sisley",
+      "Άλφρεντ Σίσλεϊ",
+      "Σίσλεϊ"
+    ],
+    "publicDomain": true,
+    "id": "16633",
+    "title": "The Seine at Port-Marly, Piles of Sand",
+    "year": 1875,
+    "date": "1875",
+    "image": "media/16633.webp",
+    "source": "https://www.artic.edu/artworks/16633",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_The_Seine_at_Port-Marly,_Piles_of_Sand_-_1933.1177_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1933.1177",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frédéric Bazille",
+      "Φρεντερίκ Μπαζίγ"
+    ],
+    "surname": [
+      "Bazille",
+      "Μπαζίγ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Frédéric Bazille",
+      "Bazille",
+      "Φρεντερίκ Μπαζίγ",
+      "Μπαζίγ"
+    ],
+    "publicDomain": true,
+    "id": "44017",
+    "title": "Landscape at Chailly",
+    "year": 1865,
+    "date": "1865",
+    "image": "media/44017.webp",
+    "source": "https://www.artic.edu/artworks/44017",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric_Bazille_-_Landscape_at_Chailly_-_1973.64_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1973.64",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Henri Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ"
+    ],
+    "surname": [
+      "Fantin-Latour",
+      "Λατούρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Henri Fantin-Latour",
+      "Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ",
+      "Λατούρ",
+      "Fantin Latour",
+      "Φαντέν Λατούρ"
+    ],
+    "publicDomain": true,
+    "id": "75507",
+    "title": "Still Life: Corner of a Table",
+    "year": 1873,
+    "date": "1873",
+    "image": "media/75507.webp",
+    "source": "https://www.artic.edu/artworks/75507",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_Fantin-Latour_-_Still_Life,_Corner_of_a_Table_-_1951.226_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1951.226",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "4776",
+    "title": "The Keeper of the Flock",
+    "year": 1871,
+    "date": "1871–74",
+    "image": "media/4776.webp",
+    "source": "https://www.artic.edu/artworks/4776",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_The_Keeper_of_the_Herd_-_1922.4462_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.4462",
+    "movementBasis": "artwork",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Piet Mondrian",
+      "Πιετ Μοντριάν"
+    ],
+    "surname": [
+      "Mondrian",
+      "Μοντριάν"
+    ],
+    "country": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "aliases": [
+      "Piet Mondrian",
+      "Mondrian",
+      "Πιετ Μοντριάν",
+      "Μοντριάν"
+    ],
+    "publicDomain": true,
+    "id": "144467",
+    "title": "Farm near Duivendrecht",
+    "year": 1911,
+    "date": "c. 1916",
+    "image": "media/144467.webp",
+    "source": "https://www.artic.edu/artworks/144467",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_-_Farm_near_Duivendrecht_-_2001.479_-_Art_Institute_of_Chicago.jpg",
+    "accession": "2001.479",
+    "movementBasis": "artist",
+    "movement": [
+      "De Stijl",
+      "Ντε Στάιλ"
+    ]
+  },
+  {
+    "artist": [
+      "Diego Velázquez",
+      "Ντιέγκο Βελάσκεθ"
+    ],
+    "surname": [
+      "Velázquez",
+      "Βελάσκεθ"
+    ],
+    "country": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "aliases": [
+      "Diego Velázquez",
+      "Velázquez",
+      "Ντιέγκο Βελάσκεθ",
+      "Βελάσκεθ"
+    ],
+    "publicDomain": true,
+    "id": "6831",
+    "title": "Saint John the Baptist in the Wilderness",
+    "year": 1617,
+    "date": "c. 1622",
+    "image": "media/6831.webp",
+    "source": "https://www.artic.edu/artworks/6831",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_-_Saint_John_the_Baptist_in_the_Wilderness_-_1957.563_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1957.563",
+    "movementBasis": "artwork",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "8953",
+    "title": "The Capture of Samson",
+    "year": 1609,
+    "date": "1609–10",
+    "image": "media/8953.webp",
+    "source": "https://www.artic.edu/artworks/8953",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_The_Capture_of_Samson_-_1923.551_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1923.551",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "81535",
+    "title": "Sea View, Calm Weather (Vue de mer, temps calme)",
+    "artist": [
+      "Édouard Manet",
+      "Εντουάρ Μανέ"
+    ],
+    "surname": [
+      "Manet",
+      "Μανέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1864,
+    "date": "1864",
+    "image": "media/81535.webp",
+    "aliases": [
+      "Edouard Manet",
+      "Édouard Manet",
+      "Manet",
+      "Εντουάρ Μανέ",
+      "Μανέ",
+      "Édouard Manet"
+    ],
+    "source": "https://www.artic.edu/artworks/81535",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Steamboat_Leaving_Boulogne_-_1922.425_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1922.425",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "16554",
+    "title": "The Artist's House at Argenteuil",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1873,
+    "date": "1873",
+    "image": "media/16554.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/16554",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Artist%27s_House_at_Argenteuil_-_1933.1153_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.1153",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "109418",
+    "title": "Bathers",
+    "artist": [
+      "Paul Cézanne",
+      "Πολ Σεζάν"
+    ],
+    "surname": [
+      "Cezanne",
+      "Σεζάν"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1890,
+    "date": "1890–94",
+    "image": "media/109418.webp",
+    "aliases": [
+      "Paul Cezanne",
+      "Paul Cézanne",
+      "Cezanne",
+      "Πολ Σεζάν",
+      "Σεζάν",
+      "Paul Cezanne"
+    ],
+    "source": "https://www.artic.edu/artworks/109418",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Bathers_-_1973.672_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1973.672",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "14650",
+    "title": "Alfred Sisley",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1876,
+    "date": "1876",
+    "image": "media/14650.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/14650",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Alfred_Sisley_-_1933.453_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.453",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "64957",
+    "title": "Grapes, Lemons, Pears, and Apples",
+    "artist": [
+      "Vincent van Gogh",
+      "Βίνσεντ βαν Γκογκ"
+    ],
+    "surname": [
+      "Gogh",
+      "Γκογκ"
+    ],
+    "country": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "year": 1887,
+    "date": "1887",
+    "image": "media/64957.webp",
+    "aliases": [
+      "Vincent van Gogh",
+      "Vincent van Gogh",
+      "Gogh",
+      "Βίνσεντ βαν Γκογκ",
+      "Γκογκ",
+      "Vincent van Gogh",
+      "Van Gogh",
+      "Βαν Γκογκ",
+      "Βαν Γκοχ",
+      "Γκοχ"
+    ],
+    "source": "https://www.artic.edu/artworks/64957",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Grapes,_Lemons,_Pears,_and_Apples_-_1949.215_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1949.215",
+    "movementBasis": "artwork",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "159722",
+    "title": "Mrs. Charles Deering (Marion Denison Whipple)",
+    "artist": [
+      "John Singer Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ"
+    ],
+    "surname": [
+      "Sargent",
+      "Σάρτζεντ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "year": 1888,
+    "date": "1888",
+    "image": "media/159722.webp",
+    "aliases": [
+      "John Singer Sargent",
+      "John Singer Sargent",
+      "Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ",
+      "Σάρτζεντ",
+      "John Singer Sargent"
+    ],
+    "source": "https://www.artic.edu/artworks/159722",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Mrs._Charles_Deering_(Marion_Denison_Whipple)_-_9.2002_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "9.2002",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Gustave Courbet",
+      "Γκυστάβ Κουρμπέ"
+    ],
+    "surname": [
+      "Courbet",
+      "Κουρμπέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Gustave Courbet",
+      "Courbet",
+      "Γκυστάβ Κουρμπέ",
+      "Κουρμπέ"
+    ],
+    "publicDomain": true,
+    "id": "3546",
+    "title": "The Valley of Les Puits-Noir",
+    "year": 1868,
+    "date": "1868",
+    "image": "media/3546.webp",
+    "source": "https://www.artic.edu/artworks/3546",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_The_Valley_of_Les_Puits-Noir_-_1956.762_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1956.762",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "John Constable",
+      "Τζον Κόνσταμπλ"
+    ],
+    "surname": [
+      "Constable",
+      "Κόνσταμπλ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "John Constable",
+      "Constable",
+      "Τζον Κόνσταμπλ",
+      "Κόνσταμπλ"
+    ],
+    "publicDomain": true,
+    "id": "49651",
+    "title": "Landscape with Cottages",
+    "year": 1809,
+    "date": "1809–10",
+    "image": "media/49651.webp",
+    "source": "https://www.artic.edu/artworks/49651",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Constable_-_Landscape_with_Cottages_-_1944.1_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1944.1",
+    "movementBasis": "artist",
+    "movement": [
+      "Romanticism",
+      "Ρομαντισμός"
+    ]
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "81574",
+    "title": "Grey and Silver: Old Battersea Reach",
+    "year": 1863,
+    "date": "1863",
+    "image": "media/81574.webp",
+    "source": "https://www.artic.edu/artworks/81574",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Grey_and_Silver,_Old_Battersea_Reach_-_1922.449_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.449",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Childe Hassam",
+      "Τσάιλντ Χάσαμ"
+    ],
+    "surname": [
+      "Hassam",
+      "Χάσαμ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Childe Hassam",
+      "Hassam",
+      "Τσάιλντ Χάσαμ",
+      "Χάσαμ"
+    ],
+    "publicDomain": true,
+    "id": "60294",
+    "title": "New York Street",
+    "year": 1902,
+    "date": "1902",
+    "image": "media/60294.webp",
+    "source": "https://www.artic.edu/artworks/60294",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_New_York_Street_-_1980.289_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1980.289",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "64729",
+    "title": "Early Morning, Tarpon Springs",
+    "year": 1892,
+    "date": "1892",
+    "image": "media/64729.webp",
+    "source": "https://www.artic.edu/artworks/64729",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_Early_Morning,_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1911.32",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97912",
+    "title": "The Mexican Major",
+    "year": 1889,
+    "date": "1889",
+    "image": "media/97912.webp",
+    "source": "https://www.artic.edu/artworks/97912",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_The_Mexican_Major_-_1982.804_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.804",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "William Merritt Chase",
+      "Γουίλιαμ Μέριτ Τσέις"
+    ],
+    "surname": [
+      "Chase",
+      "Τσέις"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "William Merritt Chase",
+      "Chase",
+      "Γουίλιαμ Μέριτ Τσέις",
+      "Τσέις"
+    ],
+    "publicDomain": true,
+    "id": "120296",
+    "title": "Wind-Swept Sands",
+    "year": 1894,
+    "date": "1894",
+    "image": "media/120296.webp",
+    "source": "https://www.artic.edu/artworks/120296",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:William_Merritt_Chase_-_Wind-Swept_Sands_-_1991.249_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1991.249",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Alfred Sisley",
+      "Άλφρεντ Σίσλεϊ"
+    ],
+    "surname": [
+      "Sisley",
+      "Σίσλεϊ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Alfred Sisley",
+      "Sisley",
+      "Άλφρεντ Σίσλεϊ",
+      "Σίσλεϊ"
+    ],
+    "publicDomain": true,
+    "id": "81561",
+    "title": "Street in Moret",
+    "year": 1885,
+    "date": "c. 1890",
+    "image": "media/81561.webp",
+    "source": "https://www.artic.edu/artworks/81561",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_Street_in_Moret_-_1922.441_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.441",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Henri Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ"
+    ],
+    "surname": [
+      "Fantin-Latour",
+      "Λατούρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Henri Fantin-Latour",
+      "Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ",
+      "Λατούρ",
+      "Fantin Latour",
+      "Φαντέν Λατούρ"
+    ],
+    "publicDomain": true,
+    "id": "72180",
+    "title": "Still Life with Flowers",
+    "year": 1881,
+    "date": "1881",
+    "image": "media/72180.webp",
+    "source": "https://www.artic.edu/artworks/72180",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_Fantin-Latour_-_Still_Life_with_Flowers_-_1988.260_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1988.260",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "81516",
+    "title": "In the Auvergne",
+    "year": 1866,
+    "date": "c. 1866–69",
+    "image": "media/81516.webp",
+    "source": "https://www.artic.edu/artworks/81516",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_In_the_Auvergne_-_1922.414_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.414",
+    "movementBasis": "artwork",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "59956",
+    "title": "The Wedding of Peleus and Thetis",
+    "year": 1636,
+    "date": "1636",
+    "image": "media/59956.webp",
+    "source": "https://www.artic.edu/artworks/59956",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_The_Wedding_of_Peleus_and_Thetis_-_1947.108_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1947.108",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "29392",
+    "title": "Boy with Pitcher (La Régalade)",
+    "artist": [
+      "Édouard Manet",
+      "Εντουάρ Μανέ"
+    ],
+    "surname": [
+      "Manet",
+      "Μανέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1862,
+    "date": "1862–72",
+    "image": "media/29392.webp",
+    "aliases": [
+      "Edouard Manet",
+      "Édouard Manet",
+      "Manet",
+      "Εντουάρ Μανέ",
+      "Μανέ",
+      "Édouard Manet"
+    ],
+    "source": "https://www.artic.edu/artworks/29392",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Boy_with_Pitcher_(La_R%C3%A9galade)_-_1968.303_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1968.303",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "4783",
+    "title": "Poppy Field (Giverny)",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1890,
+    "date": "1890–91",
+    "image": "media/4783.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/4783",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Poppy_Field_(Giverny)_-_1922.4465_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1922.4465",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "191564",
+    "title": "Standing Bather, Seen from the Back",
+    "artist": [
+      "Paul Cézanne",
+      "Πολ Σεζάν"
+    ],
+    "surname": [
+      "Cezanne",
+      "Σεζάν"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1879,
+    "date": "1879-82",
+    "image": "media/191564.webp",
+    "aliases": [
+      "Paul Cezanne",
+      "Paul Cézanne",
+      "Cezanne",
+      "Πολ Σεζάν",
+      "Σεζάν",
+      "Paul Cezanne"
+    ],
+    "source": "https://www.artic.edu/artworks/191564",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Standing_Bather,_Seen_from_the_Back_-_2007.289_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "2007.289",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "14647",
+    "title": "Young Woman Sewing",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1879,
+    "date": "1879",
+    "image": "media/14647.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/14647",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Young_Woman_Sewing_-_1933.452_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.452",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "22153",
+    "title": "Water Carriers on the Nile",
+    "artist": [
+      "John Singer Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ"
+    ],
+    "surname": [
+      "Sargent",
+      "Σάρτζεντ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "year": 1891,
+    "date": "1891",
+    "image": "media/22153.webp",
+    "aliases": [
+      "John Singer Sargent",
+      "John Singer Sargent",
+      "Sargent",
+      "Τζον Σίνγκερ Σάρτζεντ",
+      "Σάρτζεντ",
+      "John Singer Sargent"
+    ],
+    "source": "https://www.artic.edu/artworks/22153",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Water_Carriers_on_the_Nile_-_1935.445_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1935.445",
+    "movementBasis": "artwork",
+    "movement": [
+      "Modernism",
+      "Μοντερνισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Gustave Courbet",
+      "Γκυστάβ Κουρμπέ"
+    ],
+    "surname": [
+      "Courbet",
+      "Κουρμπέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Gustave Courbet",
+      "Courbet",
+      "Γκυστάβ Κουρμπέ",
+      "Κουρμπέ"
+    ],
+    "publicDomain": true,
+    "id": "16490",
+    "title": "The Brook of Les Puits-Noir",
+    "year": 1850,
+    "date": "c. 1855",
+    "image": "media/16490.webp",
+    "source": "https://www.artic.edu/artworks/16490",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_The_Brook_of_Les_Puits-Noir_-_1933.1117_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1933.1117",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "65709",
+    "title": "The Artist in His Studio",
+    "year": 1865,
+    "date": "1865–66",
+    "image": "media/65709.webp",
+    "source": "https://www.artic.edu/artworks/65709",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_The_Artist_in_His_Studio_-_1912.141_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1912.141",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Childe Hassam",
+      "Τσάιλντ Χάσαμ"
+    ],
+    "surname": [
+      "Hassam",
+      "Χάσαμ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Childe Hassam",
+      "Hassam",
+      "Τσάιλντ Χάσαμ",
+      "Χάσαμ"
+    ],
+    "publicDomain": true,
+    "id": "105462",
+    "title": "The Little Pond, Appledore",
+    "year": 1890,
+    "date": "1890",
+    "image": "media/105462.webp",
+    "source": "https://www.artic.edu/artworks/105462",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_The_Little_Pond,_Appledore_-_1986.421_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1986.421",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "64715",
+    "title": "After a Summer Shower",
+    "year": 1894,
+    "date": "1894",
+    "image": "media/64715.webp",
+    "source": "https://www.artic.edu/artworks/64715",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_After_a_Summer_Shower_-_1911.29_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1911.29",
+    "movementBasis": "artist",
+    "movement": [
+      "Tonalism",
+      "Τονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97909",
+    "title": "Historians of the Tribe",
+    "year": 1890,
+    "date": "1890–99",
+    "image": "media/97909.webp",
+    "source": "https://www.artic.edu/artworks/97909",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_Historians_of_the_Tribe_-_1982.801_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.801",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Alfred Sisley",
+      "Άλφρεντ Σίσλεϊ"
+    ],
+    "surname": [
+      "Sisley",
+      "Σίσλεϊ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Alfred Sisley",
+      "Sisley",
+      "Άλφρεντ Σίσλεϊ",
+      "Σίσλεϊ"
+    ],
+    "publicDomain": true,
+    "id": "73054",
+    "title": "The Loire",
+    "year": 1896,
+    "date": "1896",
+    "image": "media/73054.webp",
+    "source": "https://www.artic.edu/artworks/73054",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_The_Loire_-_1988.504_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1988.504",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Henri Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ"
+    ],
+    "surname": [
+      "Fantin-Latour",
+      "Λατούρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Henri Fantin-Latour",
+      "Fantin-Latour",
+      "Ανρί Φαντέν Λατούρ",
+      "Λατούρ",
+      "Fantin Latour",
+      "Φαντέν Λατούρ"
+    ],
+    "publicDomain": true,
+    "id": "20534",
+    "title": "Roses in a Bowl",
+    "year": 1881,
+    "date": "1881",
+    "image": "media/20534.webp",
+    "source": "https://www.artic.edu/artworks/20534",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Henri_Fantin-Latour_-_Roses_in_a_Bowl_-_1964.203_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1964.203",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "81521",
+    "title": "The Woodchopper",
+    "year": 1853,
+    "date": "c. 1858–66",
+    "image": "media/81521.webp",
+    "source": "https://www.artic.edu/artworks/81521",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_The_Woodchopper_-_1922.416_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.416",
+    "movementBasis": "artwork",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "100342",
+    "title": "Saint Francis",
+    "year": 1610,
+    "date": "c. 1615",
+    "image": "media/100342.webp",
+    "source": "https://www.artic.edu/artworks/100342",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Saint_Francis_-_1983.372_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1983.372",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "14594",
+    "title": "Portrait of a Woman with a Black Fichu",
+    "artist": [
+      "Édouard Manet",
+      "Εντουάρ Μανέ"
+    ],
+    "surname": [
+      "Manet",
+      "Μανέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1873,
+    "date": "c. 1878",
+    "image": "media/14594.webp",
+    "aliases": [
+      "Edouard Manet",
+      "Édouard Manet",
+      "Manet",
+      "Εντουάρ Μανέ",
+      "Μανέ",
+      "Édouard Manet"
+    ],
+    "source": "https://www.artic.edu/artworks/14594",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Portrait_of_a_Woman_with_a_Black_Fichu_-_1933.436_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.436",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "81545",
+    "title": "Stacks of Wheat (Sunset, Snow Effect)",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1890,
+    "date": "1890–91",
+    "image": "media/81545.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/81545",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(Sunset,_Snow_Effect)_-_1922.431_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1922.431",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "16600",
+    "title": "Lucie Berard (Child in White)",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1883,
+    "date": "1883",
+    "image": "media/16600.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/16600",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Lucie_Berard_(Child_in_White)_-_1933.1172_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.1172",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Gustave Courbet",
+      "Γκυστάβ Κουρμπέ"
+    ],
+    "surname": [
+      "Courbet",
+      "Κουρμπέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Gustave Courbet",
+      "Courbet",
+      "Γκυστάβ Κουρμπέ",
+      "Κουρμπέ"
+    ],
+    "publicDomain": true,
+    "id": "29401",
+    "title": "Wooded Landscape",
+    "year": 1860,
+    "date": "1860–65",
+    "image": "media/29401.webp",
+    "source": "https://www.artic.edu/artworks/29401",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_Wooded_Landscape_-_1968.306_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1968.306",
+    "movementBasis": "artwork",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "8958",
+    "title": "Arrangement in Flesh Color and Brown: Portrait of Arthur Jerome Eddy",
+    "year": 1894,
+    "date": "1894",
+    "image": "media/8958.webp",
+    "source": "https://www.artic.edu/artworks/8958",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Arrangement_in_Flesh_Color_and_Brown,_Portrait_of_Arthur_Jerome_Eddy_-_1931.501_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1931.501",
+    "movementBasis": "artwork",
+    "movement": [
+      "Modernism",
+      "Μοντερνισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Childe Hassam",
+      "Τσάιλντ Χάσαμ"
+    ],
+    "surname": [
+      "Hassam",
+      "Χάσαμ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Childe Hassam",
+      "Hassam",
+      "Τσάιλντ Χάσαμ",
+      "Χάσαμ"
+    ],
+    "publicDomain": true,
+    "id": "118979",
+    "title": "El Zocodover, Toledo, Spain",
+    "year": 1910,
+    "date": "1910",
+    "image": "media/118979.webp",
+    "source": "https://www.artic.edu/artworks/118979",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_View_of_a_Southern_French_City_-_79.1972_-_Art_Institute_of_Chicago.jpg",
+    "accession": "79.1972",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "68388",
+    "title": "Catskill Mountains",
+    "year": 1870,
+    "date": "1870",
+    "image": "media/68388.webp",
+    "source": "https://www.artic.edu/artworks/68388",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_Catskill_Mountains_-_1912.1623_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1912.1623",
+    "movementBasis": "artist",
+    "movement": [
+      "Tonalism",
+      "Τονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97890",
+    "title": "Ceremony of the Fastest Horse",
+    "year": 1900,
+    "date": "c. 1900",
+    "image": "media/97890.webp",
+    "source": "https://www.artic.edu/artworks/97890",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_Ceremony_of_the_Fastest_Horse_-_1982.782_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.782",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Alfred Sisley",
+      "Άλφρεντ Σίσλεϊ"
+    ],
+    "surname": [
+      "Sisley",
+      "Σίσλεϊ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Alfred Sisley",
+      "Sisley",
+      "Άλφρεντ Σίσλεϊ",
+      "Σίσλεϊ"
+    ],
+    "publicDomain": true,
+    "id": "37741",
+    "title": "Watering Place at Marly",
+    "year": 1875,
+    "date": "1875",
+    "image": "media/37741.webp",
+    "source": "https://www.artic.edu/artworks/37741",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_Watering_Place_at_Marly_-_1971.875_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1971.875",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "81515",
+    "title": "The Little Shepherdess",
+    "year": 1868,
+    "date": "1868–72",
+    "image": "media/81515.webp",
+    "source": "https://www.artic.edu/artworks/81515",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_The_Little_Shepherdess_-_1922.413_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.413",
+    "movementBasis": "artwork",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "25790",
+    "title": "The Adoration of the Eucharist",
+    "year": 1621,
+    "date": "c. 1626",
+    "image": "media/25790.webp",
+    "source": "https://www.artic.edu/artworks/25790",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_The_Adoration_of_the_Eucharist_-_1937.1012_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1937.1012",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "111318",
+    "title": "Stack of Wheat",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1890,
+    "date": "1890–91",
+    "image": "media/111318.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/111318",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stack_of_Wheat_-_1983.29_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1983.29",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "id": "16622",
+    "title": "Madame Léon Clapisson",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1883,
+    "date": "1883",
+    "image": "media/16622.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/16622",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Madame_L%C3%A9on_Clapisson_-_1933.1174_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "accession": "1933.1174",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "84088",
+    "title": "Violet and Silver—The Deep Sea",
+    "year": 1893,
+    "date": "1893",
+    "image": "media/84088.webp",
+    "source": "https://www.artic.edu/artworks/84088",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Violet_and_Silver_-_The_Deep_Sea_-_1955.743_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1955.743",
+    "movementBasis": "artwork",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "30701",
+    "title": "The Old Mill",
+    "year": 1849,
+    "date": "1849",
+    "image": "media/30701.webp",
+    "source": "https://www.artic.edu/artworks/30701",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_The_Old_Mill_-_1939.388_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1939.388",
+    "movementBasis": "artist",
+    "movement": [
+      "Tonalism",
+      "Τονισμός"
+    ]
   }
 ]
