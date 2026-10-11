@@ -6044,5 +6044,353 @@
       "Tonalism",
       "Τονισμός"
     ]
+  },
+  {
+    "id": "20535",
+    "title": "Étretat: The Beach and the Falaise d'Amont",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1885,
+    "date": "1885",
+    "image": "media/20535.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/20535",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_%C3%89tretat,_The_Beach_and_the_Falaise_d%27Amont_-_1964.204_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1964.204"
+  },
+  {
+    "id": "25832",
+    "title": "Jean Renoir Sewing",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1899,
+    "date": "1899–1900",
+    "image": "media/25832.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/25832",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Jean_Renoir_Sewing_-_1937.1027_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1937.1027"
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "81572",
+    "title": "Trouville (Grey and Green, the Silver Sea)",
+    "year": 1865,
+    "date": "1865",
+    "image": "media/81572.webp",
+    "source": "https://www.artic.edu/artworks/81572",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Trouville_(Grey_and_Green,_the_Silver_Sea)_-_1922.448_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.448",
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "94127",
+    "title": "Crossing the Ford",
+    "year": 1848,
+    "date": "1848",
+    "image": "media/94127.webp",
+    "source": "https://www.artic.edu/artworks/94127",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_Crossing_the_Ford_-_1977.487_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1977.487",
+    "movementBasis": "artist",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97895",
+    "title": "The Fire Eater Raised His Arms to the Thunder Bird",
+    "year": 1900,
+    "date": "c. 1900",
+    "image": "media/97895.webp",
+    "source": "https://www.artic.edu/artworks/97895",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_The_Fire_Eater_Raised_His_Arms_to_the_Thunder_Bird_-_1982.787_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.787",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Alfred Sisley",
+      "Άλφρεντ Σίσλεϊ"
+    ],
+    "surname": [
+      "Sisley",
+      "Σίσλεϊ"
+    ],
+    "country": [
+      "United Kingdom",
+      "Ηνωμένο Βασίλειο"
+    ],
+    "aliases": [
+      "Alfred Sisley",
+      "Sisley",
+      "Άλφρεντ Σίσλεϊ",
+      "Σίσλεϊ"
+    ],
+    "publicDomain": true,
+    "id": "58984",
+    "title": "Landscape along the Seine with the Institut de France and the Pont des Arts",
+    "year": 1870,
+    "date": "c. 1875",
+    "image": "media/58984.webp",
+    "source": "https://www.artic.edu/artworks/58984",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_Landscape_along_the_Seine_with_the_Institut_de_France_and_the_Pont_des_Arts_-_1979.1030_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1979.1030",
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "81522",
+    "title": "The Sheepshearers",
+    "year": 1857,
+    "date": "c. 1857–61",
+    "image": "media/81522.webp",
+    "source": "https://www.artic.edu/artworks/81522",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_The_Sheepshearers_-_1922.417_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1922.417",
+    "movementBasis": "artist",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "28874",
+    "title": "St. Albert of Louvain",
+    "year": 1620,
+    "date": "1620",
+    "image": "media/28874.webp",
+    "source": "https://www.artic.edu/artworks/28874",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_St._Albert_of_Louvain_-_1968.96_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1968.96",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "14634",
+    "title": "Vétheuil",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1901,
+    "date": "1901",
+    "image": "media/14634.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/14634",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:V%C3%A9theuil_(1901)_Claude_Monet_-_Art_Institute_of_Chicago_inv_1933.447_(W1643).jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1933.447"
+  },
+  {
+    "id": "59927",
+    "title": "Boats on the Beach at Étretat",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1885,
+    "date": "1885",
+    "image": "media/59927.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/59927",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Boats_on_the_Beach_at_%C3%89tretat_-_1947.95_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1947.95"
   }
 ]

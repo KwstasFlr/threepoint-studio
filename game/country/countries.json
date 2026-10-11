@@ -1940,5 +1940,1339 @@
       "https://api.worldbank.org/v2/country/UGA/indicator/SP.POP.TOTL?format=json&date=2024",
       "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
     ]
+  },
+  {
+    "id": "DE",
+    "name": [
+      "Germany",
+      "Γερμανία"
+    ],
+    "aliases": [
+      "Germany",
+      "Γερμανία"
+    ],
+    "facts": [
+      [
+        "It has 16 federal states.",
+        "Έχει 16 ομόσπονδα κρατίδια."
+      ],
+      [
+        "Its protected Wadden Sea stretches towards the Netherlands and Denmark.",
+        "Η προστατευόμενη Θάλασσα Βάντεν της εκτείνεται προς την Ολλανδία και τη Δανία."
+      ]
+    ],
+    "locations": [
+      [
+        "Central Europe, south of Denmark.",
+        "Κεντρική Ευρώπη, νότια της Δανίας."
+      ],
+      [
+        "It borders France and Poland, among other countries.",
+        "Συνορεύει, μεταξύ άλλων, με Γαλλία και Πολωνία."
+      ]
+    ],
+    "animals": [
+      [
+        "Harbour seals live in its Wadden Sea.",
+        "Κοινές φώκιες ζουν στη Θάλασσα Βάντεν της."
+      ],
+      [
+        "Harbour porpoises are among the marine mammals in its Wadden Sea.",
+        "Φώκαινες είναι μεταξύ των θαλάσσιων θηλαστικών στη Θάλασσα Βάντεν της."
+      ]
+    ],
+    "population": 83516593,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 56.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 6.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1314/",
+      "https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Glossar/bundeslaender.html",
+      "https://api.worldbank.org/v2/country/DEU/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "NL",
+    "name": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "aliases": [
+      "Netherlands",
+      "Ολλανδία",
+      "Holland",
+      "Κάτω Χώρες"
+    ],
+    "facts": [
+      [
+        "About 26% of its surface lies below sea level, according to the IMF.",
+        "Περίπου το 26% της έκτασής της βρίσκεται κάτω από τη στάθμη της θάλασσας, σύμφωνα με το ΔΝΤ."
+      ],
+      [
+        "It shares a UNESCO-listed tidal sea with Germany and Denmark.",
+        "Μοιράζεται μια παλιρροϊκή θάλασσα της UNESCO με Γερμανία και Δανία."
+      ]
+    ],
+    "locations": [
+      [
+        "Northwestern Europe, on the North Sea.",
+        "Βορειοδυτική Ευρώπη, στη Βόρεια Θάλασσα."
+      ],
+      [
+        "It borders Belgium and Germany.",
+        "Συνορεύει με Βέλγιο και Γερμανία."
+      ]
+    ],
+    "animals": [
+      [
+        "Grey seals inhabit its Wadden Sea.",
+        "Γκρίζες φώκιες ζουν στη Θάλασσα Βάντεν της."
+      ],
+      [
+        "Its Wadden Sea is habitat for harbour seals.",
+        "Η Θάλασσα Βάντεν της είναι βιότοπος για κοινές φώκιες."
+      ]
+    ],
+    "population": 17993485,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 35.1,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 5.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1314/",
+      "https://www.imf.org/-/media/files/publications/cr/2024/english/1nldea2024005.pdf",
+      "https://api.worldbank.org/v2/country/NLD/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "DK",
+    "name": [
+      "Denmark",
+      "Δανία"
+    ],
+    "aliases": [
+      "Denmark",
+      "Δανία"
+    ],
+    "facts": [
+      [
+        "Its tourism board counts 444 islands.",
+        "Ο οργανισμός τουρισμού της μετρά 444 νησιά."
+      ],
+      [
+        "Zealand is its largest island, according to its tourism board.",
+        "Η Ζηλανδία είναι το μεγαλύτερο νησί της, σύμφωνα με τον οργανισμό τουρισμού της."
+      ]
+    ],
+    "locations": [
+      [
+        "Northern Europe, north of Germany.",
+        "Βόρεια Ευρώπη, βόρεια της Γερμανίας."
+      ],
+      [
+        "Its European mainland is part of the Jutland Peninsula.",
+        "Η ευρωπαϊκή ηπειρωτική της έκταση είναι τμήμα της χερσονήσου της Γιουτλάνδης."
+      ]
+    ],
+    "animals": [
+      [
+        "Harbour seals inhabit its Wadden Sea coast.",
+        "Κοινές φώκιες ζουν στις ακτές της στη Θάλασσα Βάντεν."
+      ],
+      [
+        "Grey seals are among the marine mammals in its shared Wadden Sea.",
+        "Γκρίζες φώκιες είναι μεταξύ των θαλάσσιων θηλαστικών στην κοινή Θάλασσα Βάντεν της."
+      ]
+    ],
+    "population": 5976992,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 76.9,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 4.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.visitdenmark.com/denmark/destinations/danish-islands",
+      "https://whc.unesco.org/en/list/1314/",
+      "https://api.worldbank.org/v2/country/DNK/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "PL",
+    "name": [
+      "Poland",
+      "Πολωνία"
+    ],
+    "aliases": [
+      "Poland",
+      "Πολωνία"
+    ],
+    "facts": [
+      [
+        "It shares the ancient Białowieża forest with Belarus.",
+        "Μοιράζεται το αρχαίο δάσος Μπιαλοβιέζα με τη Λευκορωσία."
+      ],
+      [
+        "Its Białowieża forest preserves old-growth woodland in Europe.",
+        "Το δάσος Μπιαλοβιέζα της διατηρεί παρθένα δασική βλάστηση στην Ευρώπη."
+      ]
+    ],
+    "locations": [
+      [
+        "Central Europe, beside the Baltic Sea.",
+        "Κεντρική Ευρώπη, δίπλα στη Βαλτική Θάλασσα."
+      ],
+      [
+        "It lies east of Germany and west of Belarus.",
+        "Βρίσκεται ανατολικά της Γερμανίας και δυτικά της Λευκορωσίας."
+      ]
+    ],
+    "animals": [
+      [
+        "European bison roam its Białowieża forest.",
+        "Ευρωπαϊκοί βίσωνες ζουν στο δάσος Μπιαλοβιέζα."
+      ],
+      [
+        "Red deer and wild boar also live in its Białowieża forest.",
+        "Κόκκινα ελάφια και αγριόχοιροι ζουν επίσης στο δάσος Μπιαλοβιέζα."
+      ]
+    ],
+    "population": 36559233,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 91.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 0.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/33/",
+      "https://whc.unesco.org/document/101965",
+      "https://api.worldbank.org/v2/country/POL/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "RO",
+    "name": [
+      "Romania",
+      "Ρουμανία"
+    ],
+    "aliases": [
+      "Romania",
+      "Ρουμανία"
+    ],
+    "facts": [
+      [
+        "Its Danube Delta supports over 300 bird species, according to UNESCO.",
+        "Το δέλτα του Δούναβη της φιλοξενεί πάνω από 300 είδη πουλιών, σύμφωνα με την UNESCO."
+      ],
+      [
+        "UNESCO records 45 freshwater fish species in its Danube Delta.",
+        "Η UNESCO καταγράφει 45 είδη ψαριών γλυκού νερού στο δέλτα του Δούναβη της."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeastern Europe, on the Black Sea.",
+        "Νοτιοανατολική Ευρώπη, στη Μαύρη Θάλασσα."
+      ],
+      [
+        "It lies north of Bulgaria and east of Hungary.",
+        "Βρίσκεται βόρεια της Βουλγαρίας και ανατολικά της Ουγγαρίας."
+      ]
+    ],
+    "animals": [
+      [
+        "Its Danube Delta is a major habitat for migrating waterbirds.",
+        "Το δέλτα του Δούναβη της είναι σημαντικός βιότοπος μεταναστευτικών υδρόβιων πουλιών."
+      ],
+      [
+        "Freshwater fish thrive in the lakes and marshes of its Danube Delta.",
+        "Ψάρια γλυκού νερού ζουν στις λίμνες και στα έλη του δέλτα του Δούναβη της."
+      ]
+    ],
+    "population": 19051804,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 98.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 0.4,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/588/",
+      "https://api.worldbank.org/v2/country/ROU/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "HR",
+    "name": [
+      "Croatia",
+      "Κροατία"
+    ],
+    "aliases": [
+      "Croatia",
+      "Κροατία"
+    ],
+    "facts": [
+      [
+        "Its Plitvice lake system has 16 named lakes.",
+        "Το σύστημα λιμνών Πλίτβιτσε έχει 16 λίμνες με ονομασία."
+      ],
+      [
+        "Its Plitvice lakes are separated by natural travertine barriers.",
+        "Οι λίμνες Πλίτβιτσε χωρίζονται από φυσικά φράγματα τραβερτίνη."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeastern Europe, on the Adriatic Sea.",
+        "Νοτιοανατολική Ευρώπη, στην Αδριατική Θάλασσα."
+      ],
+      [
+        "It borders Slovenia, Hungary, Serbia, Bosnia and Herzegovina, and Montenegro.",
+        "Συνορεύει με Σλοβενία, Ουγγαρία, Σερβία, Βοσνία και Ερζεγοβίνη και Μαυροβούνιο."
+      ]
+    ],
+    "animals": [
+      [
+        "Brown bears live in its Plitvice forests.",
+        "Καφέ αρκούδες ζουν στα δάση του Πλίτβιτσε."
+      ],
+      [
+        "Wolves and lynx also roam the forests of Plitvice.",
+        "Λύκοι και λύγκες ζουν επίσης στα δάση του Πλίτβιτσε."
+      ]
+    ],
+    "population": 3866200,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 90.9,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 1.4,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/98/",
+      "https://np-plitvicka-jezera.hr/en/about-the-park/general-information/",
+      "https://api.worldbank.org/v2/country/HRV/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "AT",
+    "name": [
+      "Austria",
+      "Αυστρία"
+    ],
+    "aliases": [
+      "Austria",
+      "Αυστρία"
+    ],
+    "facts": [
+      [
+        "It is divided into nine provinces.",
+        "Χωρίζεται σε εννέα κρατίδια."
+      ],
+      [
+        "Vienna is both its capital and one of its nine provinces.",
+        "Η Βιέννη είναι τόσο πρωτεύουσα όσο και ένα από τα εννέα κρατίδιά της."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in Central Europe.",
+        "Περίκλειστη χώρα στην Κεντρική Ευρώπη."
+      ],
+      [
+        "It lies south of Germany and north of Italy.",
+        "Βρίσκεται νότια της Γερμανίας και βόρεια της Ιταλίας."
+      ]
+    ],
+    "animals": [
+      [
+        "Marmots can be seen in its Alpine landscapes.",
+        "Μαρμότες συναντώνται στα αλπικά τοπία της."
+      ],
+      [
+        "Its rescued bears can be observed at the Arbesbach sanctuary.",
+        "Διασωσμένες αρκούδες της μπορείς να παρατηρήσεις στο καταφύγιο Άρμπεσμπαχ."
+      ]
+    ],
+    "population": 9177982,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 68.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 8.3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.austria.info/en-gb/inspiration/provinces/",
+      "https://www.austria.info/en-gb/activities/animal-experiences/",
+      "https://api.worldbank.org/v2/country/AUT/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CH",
+    "name": [
+      "Switzerland",
+      "Ελβετία"
+    ],
+    "aliases": [
+      "Switzerland",
+      "Ελβετία"
+    ],
+    "facts": [
+      [
+        "Its tourism board counts 48 mountains higher than 4.000 metres.",
+        "Ο οργανισμός τουρισμού της μετρά 48 βουνά ψηλότερα από 4.000 μέτρα."
+      ],
+      [
+        "Its Jungfrau-Aletsch region contains the largest glacier in the Alps.",
+        "Η περιοχή Γιούνγκφραου–Άλετς της περιέχει τον μεγαλύτερο παγετώνα των Άλπεων."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in Central Europe, in the Alps.",
+        "Περίκλειστη χώρα στην Κεντρική Ευρώπη, στις Άλπεις."
+      ],
+      [
+        "It borders France, Germany, Italy, Austria and Liechtenstein.",
+        "Συνορεύει με Γαλλία, Γερμανία, Ιταλία, Αυστρία και Λιχτενστάιν."
+      ]
+    ],
+    "animals": [
+      [
+        "Wild ibex can be observed in its mountains.",
+        "Άγριοι αίγαγροι μπορούν να παρατηρηθούν στα βουνά της."
+      ],
+      [
+        "Its tourism board offers ranger walks about the reintroduction of ibex.",
+        "Ο οργανισμός τουρισμού της προτείνει περιπάτους με δασοφύλακες για την επανεισαγωγή του αίγαγρου."
+      ]
+    ],
+    "population": 9005582,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 61.6,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 6.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1037/",
+      "https://help.myswitzerland.com/hc/en-us/articles/213794645-What-are-the-top-attractions-in-the-mountains",
+      "https://www.myswitzerland.com/en-us/experiences/summer-autumn/excursions/wildlife-watching/",
+      "https://api.worldbank.org/v2/country/CHE/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "TR",
+    "name": [
+      "Turkey",
+      "Τουρκία"
+    ],
+    "aliases": [
+      "Turkey",
+      "Τουρκία",
+      "Türkiye",
+      "Turkiye"
+    ],
+    "facts": [
+      [
+        "Its Pamukkale terraces were formed by calcium-rich spring waters.",
+        "Οι αναβαθμίδες του Παμούκαλε σχηματίστηκαν από νερά πηγών πλούσια σε ασβέστιο."
+      ],
+      [
+        "Its Pamukkale springs rise on a cliff almost 200 metres high.",
+        "Οι πηγές του Παμούκαλε βρίσκονται σε γκρεμό ύψους σχεδόν 200 μέτρων."
+      ]
+    ],
+    "locations": [
+      [
+        "It spans southeastern Europe and western Asia.",
+        "Εκτείνεται στη νοτιοανατολική Ευρώπη και στη δυτική Ασία."
+      ],
+      [
+        "It lies between the Black Sea and the Mediterranean.",
+        "Βρίσκεται ανάμεσα στη Μαύρη Θάλασσα και στη Μεσόγειο."
+      ]
+    ],
+    "animals": [
+      [
+        "Loggerhead sea turtles nest on its Mediterranean beaches.",
+        "Θαλάσσιες χελώνες καρέτα καρέτα φωλιάζουν στις μεσογειακές παραλίες της."
+      ],
+      [
+        "Its tourism board lists 22 Mediterranean nesting beaches for loggerhead turtles.",
+        "Ο οργανισμός τουρισμού της αναφέρει 22 μεσογειακές παραλίες φωλεοποίησης της καρέτα καρέτα."
+      ]
+    ],
+    "population": 85518661,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 97.1,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 0.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/485/",
+      "https://goturkiye.com/branding/press-releases/the-caretta-caretta-season-begins-in-the-turkish-riviera",
+      "https://api.worldbank.org/v2/country/TUR/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "MA",
+    "name": [
+      "Morocco",
+      "Μαρόκο"
+    ],
+    "aliases": [
+      "Morocco",
+      "Μαρόκο"
+    ],
+    "facts": [
+      [
+        "Its Souss Massa coastal national park covers about 33.800 hectares.",
+        "Το παράκτιο εθνικό πάρκο Σους Μάσα καλύπτει περίπου 33.800 εκτάρια."
+      ],
+      [
+        "Its Souss Massa park includes dunes, wetlands and arid landscapes.",
+        "Το πάρκο Σους Μάσα περιλαμβάνει θίνες, υγροτόπους και άνυδρα τοπία."
+      ]
+    ],
+    "locations": [
+      [
+        "Northwestern Africa, facing the Atlantic and Mediterranean.",
+        "Βορειοδυτική Αφρική, με ακτές στον Ατλαντικό και στη Μεσόγειο."
+      ],
+      [
+        "It lies across the Strait of Gibraltar from Spain.",
+        "Βρίσκεται απέναντι από την Ισπανία, στην άλλη πλευρά του στενού του Γιβραλτάρ."
+      ]
+    ],
+    "animals": [
+      [
+        "Northern bald ibises nest in its Souss Massa region.",
+        "Φαλακρές ίβιδες φωλιάζουν στην περιοχή Σους Μάσα."
+      ],
+      [
+        "Flamingos and spoonbills visit its Souss Massa wetlands.",
+        "Φλαμίνγκο και χουλιαρομύτες συναντώνται στους υγροτόπους Σους Μάσα."
+      ]
+    ],
+    "population": 38081173,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 99.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 0.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.visitmorocco.com/sites/default/files/atoms/files/Agadir%20ENG_0.pdf",
+      "https://api.worldbank.org/v2/country/MAR/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "MX",
+    "name": [
+      "Mexico",
+      "Μεξικό"
+    ],
+    "aliases": [
+      "Mexico",
+      "Μεξικό"
+    ],
+    "facts": [
+      [
+        "Its monarch butterfly biosphere reserve covers about 56.259 hectares.",
+        "Το απόθεμα βιόσφαιρας της πεταλούδας μονάρχη καλύπτει περίπου 56.259 εκτάρια."
+      ],
+      [
+        "Its butterfly reserve lies in forested mountains northwest of the capital.",
+        "Το καταφύγιο πεταλούδων της βρίσκεται σε δασωμένα βουνά βορειοδυτικά της πρωτεύουσας."
+      ]
+    ],
+    "locations": [
+      [
+        "Southern North America, between the United States and Central America.",
+        "Νότια Βόρεια Αμερική, ανάμεσα στις ΗΠΑ και στην Κεντρική Αμερική."
+      ],
+      [
+        "It borders the United States, Guatemala and Belize.",
+        "Συνορεύει με ΗΠΑ, Γουατεμάλα και Μπελίζ."
+      ]
+    ],
+    "animals": [
+      [
+        "Monarch butterflies overwinter in its mountain forests.",
+        "Πεταλούδες μονάρχες περνούν τον χειμώνα στα ορεινά δάση της."
+      ],
+      [
+        "Migrating monarch butterflies gather in dense clusters on its forest trees.",
+        "Μεταναστευτικές πεταλούδες μονάρχες συγκεντρώνονται σε πυκνές συστάδες πάνω στα δέντρα των δασών της."
+      ]
+    ],
+    "population": 130861007,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 89.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 0.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1290/",
+      "https://api.worldbank.org/v2/country/MEX/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "PA",
+    "name": [
+      "Panama",
+      "Παναμάς"
+    ],
+    "aliases": [
+      "Panama",
+      "Παναμάς"
+    ],
+    "facts": [
+      [
+        "Its Darién National Park has over 530 recorded bird species.",
+        "Στο εθνικό πάρκο Νταριέν έχουν καταγραφεί πάνω από 530 είδη πουλιών."
+      ],
+      [
+        "Its Darién park became a World Heritage site in 1981.",
+        "Το πάρκο Νταριέν έγινε μνημείο Παγκόσμιας Κληρονομιάς το 1981."
+      ]
+    ],
+    "locations": [
+      [
+        "Central America, linking towards South America.",
+        "Κεντρική Αμερική, στο πέρασμα προς τη Νότια Αμερική."
+      ],
+      [
+        "It borders Costa Rica and Colombia.",
+        "Συνορεύει με Κόστα Ρίκα και Κολομβία."
+      ]
+    ],
+    "animals": [
+      [
+        "Harpy eagles live in its Darién forests.",
+        "Αετοί άρπυιες ζουν στα δάση του Νταριέν."
+      ],
+      [
+        "Great green macaws are among the birds recorded in Darién.",
+        "Μεγάλοι πράσινοι παπαγάλοι μακάο είναι μεταξύ των πουλιών που έχουν καταγραφεί στο Νταριέν."
+      ]
+    ],
+    "population": 4515577,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 91.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/159/",
+      "https://api.worldbank.org/v2/country/PAN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "BZ",
+    "name": [
+      "Belize",
+      "Μπελίζ"
+    ],
+    "aliases": [
+      "Belize",
+      "Μπελίζ"
+    ],
+    "facts": [
+      [
+        "Its UNESCO barrier reef reserve system consists of seven sites.",
+        "Το σύστημα αποθεμάτων του κοραλλιογενούς υφάλου της UNESCO αποτελείται από επτά περιοχές."
+      ],
+      [
+        "Its offshore habitats include atolls, mangroves and coastal lagoons.",
+        "Οι θαλάσσιοι βιότοποί της περιλαμβάνουν ατόλες, μαγκρόβια και παράκτιες λιμνοθάλασσες."
+      ]
+    ],
+    "locations": [
+      [
+        "Central America, on the Caribbean coast.",
+        "Κεντρική Αμερική, στις ακτές της Καραϊβικής."
+      ],
+      [
+        "It borders Mexico and Guatemala.",
+        "Συνορεύει με Μεξικό και Γουατεμάλα."
+      ]
+    ],
+    "animals": [
+      [
+        "Manatees live around its barrier reef habitats.",
+        "Μανάτοι ζουν στους βιότοπους γύρω από τον κοραλλιογενή ύφαλό της."
+      ],
+      [
+        "Sea turtles and American crocodiles use its protected coastal habitats.",
+        "Θαλάσσιες χελώνες και αμερικανικοί κροκόδειλοι χρησιμοποιούν τους προστατευόμενους παράκτιους βιότοπούς της."
+      ]
+    ],
+    "population": 417072,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 74.4,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 9.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/764/",
+      "https://api.worldbank.org/v2/country/BLZ/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CU",
+    "name": [
+      "Cuba",
+      "Κούβα"
+    ],
+    "aliases": [
+      "Cuba",
+      "Κούβα"
+    ],
+    "facts": [
+      [
+        "Its Humboldt park contains 16 of the island’s 28 defined plant formations.",
+        "Το πάρκο Χούμπολτ περιέχει 16 από τους 28 καθορισμένους τύπους φυτικής βλάστησης του νησιού."
+      ],
+      [
+        "Some rocks in its Humboldt park are toxic to plants, encouraging unusual adaptations.",
+        "Ορισμένα πετρώματα του πάρκου Χούμπολτ είναι τοξικά για τα φυτά, ευνοώντας ασυνήθιστες προσαρμογές."
+      ]
+    ],
+    "locations": [
+      [
+        "An island country in the Caribbean Sea.",
+        "Νησιωτική χώρα στην Καραϊβική Θάλασσα."
+      ],
+      [
+        "It lies south of Florida and north of Jamaica.",
+        "Βρίσκεται νότια της Φλόριντα και βόρεια της Τζαμάικα."
+      ]
+    ],
+    "animals": [
+      [
+        "West Indian manatees inhabit the marine part of its Humboldt park.",
+        "Μανάτοι των Δυτικών Ινδιών ζουν στο θαλάσσιο τμήμα του πάρκου Χούμπολτ."
+      ],
+      [
+        "Many reptiles and amphibians in its Humboldt park occur only on this island or locally.",
+        "Πολλά ερπετά και αμφίβια του πάρκου Χούμπολτ συναντώνται μόνο σε αυτό το νησί ή τοπικά."
+      ]
+    ],
+    "population": 10979783,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 60.7,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 17.4,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/839/",
+      "https://api.worldbank.org/v2/country/CUB/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "LK",
+    "name": [
+      "Sri Lanka",
+      "Σρι Λάνκα"
+    ],
+    "aliases": [
+      "Sri Lanka",
+      "Σρι Λάνκα"
+    ],
+    "facts": [
+      [
+        "More than 60% of the trees in its Sinharaja forest are endemic, according to UNESCO.",
+        "Πάνω από το 60% των δέντρων στο δάσος Σινχαράτζα είναι ενδημικά, σύμφωνα με την UNESCO."
+      ],
+      [
+        "Its Sinharaja forest is a surviving tropical rainforest reserve.",
+        "Το δάσος Σινχαράτζα είναι προστατευόμενο τμήμα τροπικού δάσους που έχει διασωθεί."
+      ]
+    ],
+    "locations": [
+      [
+        "An island country in South Asia, in the Indian Ocean.",
+        "Νησιωτική χώρα της Νότιας Ασίας, στον Ινδικό Ωκεανό."
+      ],
+      [
+        "It lies southeast of India.",
+        "Βρίσκεται νοτιοανατολικά της Ινδίας."
+      ]
+    ],
+    "animals": [
+      [
+        "Its Sinharaja reserve shelters many bird species found only in this country.",
+        "Το καταφύγιο Σινχαράτζα φιλοξενεί πολλά είδη πουλιών που συναντώνται μόνο σε αυτή τη χώρα."
+      ],
+      [
+        "Its Sinharaja forest protects over half of the country’s endemic mammal and butterfly species.",
+        "Το δάσος Σινχαράτζα προστατεύει πάνω από τα μισά ενδημικά είδη θηλαστικών και πεταλούδων της χώρας."
+      ]
+    ],
+    "population": 21916000,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 69.6,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Hindus",
+          "Ινδουιστές"
+        ],
+        "percent": 14.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/405/",
+      "https://api.worldbank.org/v2/country/LKA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "VN",
+    "name": [
+      "Vietnam",
+      "Βιετνάμ"
+    ],
+    "aliases": [
+      "Vietnam",
+      "Βιετνάμ"
+    ],
+    "facts": [
+      [
+        "It shares a UNESCO-listed limestone karst landscape with Laos.",
+        "Μοιράζεται με το Λάος ένα ασβεστολιθικό καρστικό τοπίο της UNESCO."
+      ],
+      [
+        "Its Phong Nha–Ke Bang region contains extensive cave and underground river systems.",
+        "Η περιοχή Φονγκ Να–Κε Μπανγκ περιλαμβάνει εκτεταμένα συστήματα σπηλαίων και υπόγειων ποταμών."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeast Asia, on the eastern side of the Indochinese Peninsula.",
+        "Νοτιοανατολική Ασία, στην ανατολική πλευρά της χερσονήσου της Ινδοκίνας."
+      ],
+      [
+        "It borders China, Laos and Cambodia.",
+        "Συνορεύει με Κίνα, Λάος και Καμπότζη."
+      ]
+    ],
+    "animals": [
+      [
+        "Its shared Phong Nha–Hin Nam No forests shelter red-shanked doucs.",
+        "Τα κοινά δάση Φονγκ Να–Χιν Ναμ Νο φιλοξενούν δούκες με κόκκινα σκέλη."
+      ],
+      [
+        "Sunda pangolins are among the threatened animals in its shared karst forest heritage site.",
+        "Παγκολίνοι της Σούνδας είναι μεταξύ των απειλούμενων ζώων στο κοινό καρστικό δασικό μνημείο της."
+      ]
+    ],
+    "population": 100987686,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 23,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 8.3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/951/",
+      "https://api.worldbank.org/v2/country/VNM/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "MY",
+    "name": [
+      "Malaysia",
+      "Μαλαισία"
+    ],
+    "aliases": [
+      "Malaysia",
+      "Μαλαισία"
+    ],
+    "facts": [
+      [
+        "Its Mount Kinabalu rises to 4.095 metres.",
+        "Το όρος Κιναμπάλου φτάνει σε ύψος 4.095 μέτρων."
+      ],
+      [
+        "Its Kinabalu park contains thousands of vascular plant species.",
+        "Το πάρκο Κιναμπάλου περιέχει χιλιάδες είδη αγγειακών φυτών."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeast Asia, with territory on a peninsula and Borneo.",
+        "Νοτιοανατολική Ασία, με έκταση σε χερσόνησο και στο Βόρνεο."
+      ],
+      [
+        "It shares Borneo with Indonesia and Brunei.",
+        "Μοιράζεται το Βόρνεο με Ινδονησία και Μπρουνέι."
+      ]
+    ],
+    "animals": [
+      [
+        "UNESCO records 326 bird species in its Kinabalu park.",
+        "Η UNESCO καταγράφει 326 είδη πουλιών στο πάρκο Κιναμπάλου."
+      ],
+      [
+        "Its Kinabalu park supports mammals in both lowland and mountain habitats.",
+        "Το πάρκο Κιναμπάλου φιλοξενεί θηλαστικά τόσο σε πεδινούς όσο και σε ορεινούς βιότοπους."
+      ]
+    ],
+    "population": 35557673,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 64.1,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Buddhists",
+          "Βουδιστές"
+        ],
+        "percent": 18.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1012/",
+      "https://api.worldbank.org/v2/country/MYS/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "PH",
+    "name": [
+      "Philippines",
+      "Φιλιππίνες"
+    ],
+    "aliases": [
+      "Philippines",
+      "Φιλιππίνες"
+    ],
+    "facts": [
+      [
+        "Its Puerto Princesa underground river flows directly into the sea.",
+        "Ο υπόγειος ποταμός του Πουέρτο Πρινσέσα εκβάλλει απευθείας στη θάλασσα."
+      ],
+      [
+        "Tides affect the lower part of its Puerto Princesa underground river.",
+        "Οι παλίρροιες επηρεάζουν το χαμηλότερο τμήμα του υπόγειου ποταμού του Πουέρτο Πρινσέσα."
+      ]
+    ],
+    "locations": [
+      [
+        "An island country in Southeast Asia, in the western Pacific.",
+        "Νησιωτική χώρα στη Νοτιοανατολική Ασία, στον δυτικό Ειρηνικό."
+      ],
+      [
+        "It lies east of Vietnam and south of Taiwan.",
+        "Βρίσκεται ανατολικά του Βιετνάμ και νότια της Ταϊβάν."
+      ]
+    ],
+    "animals": [
+      [
+        "Bats roost in the cave of its Puerto Princesa underground river.",
+        "Νυχτερίδες φωλιάζουν στο σπήλαιο του υπόγειου ποταμού του Πουέρτο Πρινσέσα."
+      ],
+      [
+        "Swiftlets share its Puerto Princesa river cave with bats.",
+        "Σταχτάρες μοιράζονται με νυχτερίδες το σπήλαιο του ποταμού του Πουέρτο Πρινσέσα."
+      ]
+    ],
+    "population": 115843670,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 91.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 6.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/652/",
+      "https://whc.unesco.org/uploads/nominations/652rev.pdf",
+      "https://api.worldbank.org/v2/country/PHL/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "PK",
+    "name": [
+      "Pakistan",
+      "Πακιστάν"
+    ],
+    "aliases": [
+      "Pakistan",
+      "Πακιστάν"
+    ],
+    "facts": [
+      [
+        "Its Indus River system is home to a rare freshwater dolphin.",
+        "Το σύστημα του ποταμού Ινδού φιλοξενεί ένα σπάνιο δελφίνι γλυκού νερού."
+      ],
+      [
+        "WWF works here to rescue dolphins stranded in irrigation canals.",
+        "Το WWF εργάζεται εδώ για να διασώσει δελφίνια που παγιδεύονται σε αρδευτικά κανάλια."
+      ]
+    ],
+    "locations": [
+      [
+        "South Asia, beside the Arabian Sea.",
+        "Νότια Ασία, δίπλα στην Αραβική Θάλασσα."
+      ],
+      [
+        "It borders India, China, Afghanistan and Iran.",
+        "Συνορεύει με Ινδία, Κίνα, Αφγανιστάν και Ιράν."
+      ]
+    ],
+    "animals": [
+      [
+        "Its Indus dolphin is also known as the blind river dolphin.",
+        "Το δελφίνι του Ινδού είναι γνωστό και ως τυφλό ποταμίσιο δελφίνι."
+      ],
+      [
+        "Its Indus dolphins can reach around 2,5 metres in length, according to WWF.",
+        "Τα δελφίνια του Ινδού μπορούν να φτάσουν περίπου τα 2,5 μέτρα μήκος, σύμφωνα με το WWF."
+      ]
+    ],
+    "population": 251269164,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 96.5,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Hindus",
+          "Ινδουιστές"
+        ],
+        "percent": 2.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://www.wwfpak.org/our_work_/biodiversity/indus_dolphin/",
+      "https://api.worldbank.org/v2/country/PAK/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "OM",
+    "name": [
+      "Oman",
+      "Ομάν"
+    ],
+    "aliases": [
+      "Oman",
+      "Ομάν"
+    ],
+    "facts": [
+      [
+        "Its Arabian Oryx Sanctuary was the first site removed from UNESCO’s World Heritage List, in 2007.",
+        "Το καταφύγιο του αραβικού όρυγα ήταν το πρώτο μνημείο που αφαιρέθηκε από τον κατάλογο UNESCO, το 2007."
+      ],
+      [
+        "Its former UNESCO oryx sanctuary includes central desert and coastal hills.",
+        "Το πρώην καταφύγιο όρυγα της UNESCO περιλαμβάνει κεντρική έρημο και παράκτιους λόφους."
+      ]
+    ],
+    "locations": [
+      [
+        "Southeastern Arabian Peninsula.",
+        "Νοτιοανατολική Αραβική Χερσόνησος."
+      ],
+      [
+        "It borders the United Arab Emirates, Saudi Arabia and Yemen.",
+        "Συνορεύει με Ηνωμένα Αραβικά Εμιράτα, Σαουδική Αραβία και Υεμένη."
+      ]
+    ],
+    "animals": [
+      [
+        "Arabian oryx are protected in its desert sanctuary.",
+        "Αραβικοί όρυγες προστατεύονται στο καταφύγιο της ερήμου της."
+      ],
+      [
+        "Its desert sanctuary also supports Nubian ibex and Arabian wolves.",
+        "Το καταφύγιο της ερήμου της φιλοξενεί επίσης νουβικούς αίγαγρους και αραβικούς λύκους."
+      ]
+    ],
+    "population": 5281538,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 81.8,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Hindus",
+          "Ινδουιστές"
+        ],
+        "percent": 9.5,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/654/",
+      "https://api.worldbank.org/v2/country/OMN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
   }
 ]

@@ -174,3 +174,15 @@ Authentic public-domain painting reproductions from Wikimedia Commons, with muse
 - The Old Mill — George Inness (1849): https://www.artic.edu/artworks/30701 | Image: https://commons.wikimedia.org/wiki/File:George_Inness_-_The_Old_Mill_-_1939.388_-_Art_Institute_of_Chicago.jpg
 
 Movement clues use museum artwork tags when available. Otherwise the clue explicitly names a movement associated with the painter, rather than assigning it to this painting. Style metadata: https://github.com/art-institute-of-chicago/api-data
+
+
+- Étretat: The Beach and the Falaise d'Amont — Claude Monet (1885): https://www.artic.edu/artworks/20535 | Image: https://commons.wikimedia.org/wiki/File:Claude_Monet_-_%C3%89tretat,_The_Beach_and_the_Falaise_d%27Amont_-_1964.204_-_Art_Institute_of_Chicago.jpg
+- Jean Renoir Sewing — Pierre-Auguste Renoir (1899–1900): https://www.artic.edu/artworks/25832 | Image: https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Jean_Renoir_Sewing_-_1937.1027_-_Art_Institute_of_Chicago.jpg
+- Trouville (Grey and Green, the Silver Sea) — James McNeill Whistler (1865): https://www.artic.edu/artworks/81572 | Image: https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Trouville_(Grey_and_Green,_the_Silver_Sea)_-_1922.448_-_Art_Institute_of_Chicago.jpg
+- Crossing the Ford — George Inness (1848): https://www.artic.edu/artworks/94127 | Image: https://commons.wikimedia.org/wiki/File:George_Inness_-_Crossing_the_Ford_-_1977.487_-_Art_Institute_of_Chicago.jpg
+- The Fire Eater Raised His Arms to the Thunder Bird — Frederic Remington (c. 1900): https://www.artic.edu/artworks/97895 | Image: https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_The_Fire_Eater_Raised_His_Arms_to_the_Thunder_Bird_-_1982.787_-_Art_Institute_of_Chicago.jpg
+- Landscape along the Seine with the Institut de France and the Pont des Arts — Alfred Sisley (c. 1875): https://www.artic.edu/artworks/58984 | Image: https://commons.wikimedia.org/wiki/File:Alfred_Sisley_-_Landscape_along_the_Seine_with_the_Institut_de_France_and_the_Pont_des_Arts_-_1979.1030_-_Art_Institute_of_Chicago.jpg
+- The Sheepshearers — Jean François Millet (c. 1857–61): https://www.artic.edu/artworks/81522 | Image: https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_The_Sheepshearers_-_1922.417_-_Art_Institute_of_Chicago.jpg
+- St. Albert of Louvain — Peter Paul Rubens (1620): https://www.artic.edu/artworks/28874 | Image: https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_St._Albert_of_Louvain_-_1968.96_-_Art_Institute_of_Chicago.jpg
+- Vétheuil — Claude Monet (1901): https://www.artic.edu/artworks/14634 | Image: https://commons.wikimedia.org/wiki/File:V%C3%A9theuil_(1901)_Claude_Monet_-_Art_Institute_of_Chicago_inv_1933.447_(W1643).jpg
+- Boats on the Beach at Étretat — Claude Monet (1885): https://www.artic.edu/artworks/59927 | Image: https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Boats_on_the_Beach_at_%C3%89tretat_-_1947.95_-_Art_Institute_of_Chicago.jpg
