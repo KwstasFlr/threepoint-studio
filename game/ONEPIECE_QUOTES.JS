@@ -21,7 +21,17 @@ const OP_QUOTES = [
   ['crocodile','Crocodile',['Sir Crocodile'],'Born under death’s shadow...','Γεννήθηκε στη σκιά του θανάτου...',null,96,96,217,'https://animemanga33.com/archives/41266'],
   ['ace','Portgas D. Ace',['Ace'],'Living today is enough.','Μου αρκεί να ζήσω σήμερα.',null,94,94,217,'https://animemanga33.com/archives/41266'],
   ['kuzan','Kuzan',['Aokiji','Aokiji Kuzan'],'Live as quietly as possible.','Ζήσε όσο πιο διακριτικά μπορείς.',null,278,278,430,'https://animemanga33.com/archives/42053'],
-  ["vivi", "Nefertari Vivi", ["Vivi"], "Will you call me your friend again?", "Θα με ξαναπείτε φίλη σας;", 216, 129, 129, 216, "https://one-piece.com/anime/129/index.html"]
+  ["vivi", "Nefertari Vivi", ["Vivi"], "Will you call me your friend again?", "Θα με ξαναπείτε φίλη σας;", 216, 129, 129, 216, "https://one-piece.com/anime/129/index.html"],
+["luffy", "Monkey D. Luffy", ["Luffy", "λούφι"], "I will be King of the Pirates!", "Θα γίνω ο Βασιλιάς των Πειρατών!", 2, 1, 1, 2, "https://onepiece.fandom.com/wiki/Chapter_2"],
+["chopper", "Tony Tony Chopper", ["Chopper", "τσόπερ"], "I'll join them as a ship's doctor!", "Θα τους ακολουθήσω ως γιατρός του πλοίου!", 153, 90, 90, 153, "https://one-piece.com/anime/90/index.html"],
+["hiriluk", "Dr. Hiriluk", ["Hiriluk", "Hiluluk", "χιριλουκ"], "People die when they are forgotten.", "Πεθαίνουν όταν τους ξεχνούν.", 145, 86, 86, 145, "https://onepiece.fandom.com/wiki/Chapter_145"],
+["mihawk", "Dracule Mihawk", ["Mihawk", "μίχοκ"], "Know yourself. Know the world.", "Γνώρισε τον εαυτό σου. Γνώρισε τον κόσμο.", 52, 24, 24, 52, "https://onepiece.fandom.com/wiki/Chapter_52"],
+["shanks", "Shanks", ["σάνκς"], "Put your life on the line.", "Βάλε τη ζωή σου σε κίνδυνο.", 1, 4, 4, 1, "https://onepiece.fandom.com/wiki/Chapter_1"],
+["whitebeard", "Edward Newgate", ["Whitebeard", "ασπρογένης"], "The One Piece is real!", "Το One Piece υπάρχει!", 576, 485, 485, 576, "https://one-piece.com/character/edward_newgate/index.html"],
+["doflamingo", "Donquixote Doflamingo", ["Doflamingo", "ντοφλαμίνγκο"], "Justice will prevail, you say?", "Λέτε ότι θα επικρατήσει η δικαιοσύνη;", 556, 465, 465, 556, "https://onepiece.fandom.com/wiki/Chapter_556"],
+["bonclay", "Bentham (Bon Clay)", ["Bentham", "Bon Clay", "Mr 2", "μπον κλέι"], "Friendship has nothing to do with time.", "Η φιλία δεν εξαρτάται από τον χρόνο.", 156, 92, 92, 156, "https://onepiece.fandom.com/wiki/Chapter_156"],
+["rayleigh", "Silvers Rayleigh", ["Rayleigh", "ρέιλι"], "Don't be in such a hurry.", "Μη βιάζεσαι τόσο.", 507, 400, 400, 507, "https://onepiece.fandom.com/wiki/Chapter_507"],
+["rosinante", "Donquixote Rosinante", ["Rosinante", "Corazon", "Corazón", "κοραζόν"], "I love you.", "Σ’ αγαπώ.", 767, 706, 706, 767, "https://onepiece.fandom.com/wiki/Chapter_767"]
 ].map(([id,name,aliases,en,el,chapter,episode,minEpisode,minChapter,source])=>({id,name,aliases,en,el,chapter,episode,minEpisode,minChapter,source}));
 let opQuoteState=null;
 try { opQuoteState=JSON.parse(read('GMP_ONE_PIECE_QUOTES_V1','null')); } catch { /* Corrupt saves start a new round. */ }
@@ -44,12 +54,18 @@ function opNextQuote(){
     for(let i=deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]];}
     if(deck.length>1&&deck[deck.length-1]===opQuoteState?.id)[deck[0],deck[deck.length-1]]=[deck[deck.length-1],deck[0]];
   }
-  opQuoteState={number:gmpNextRoundNumber('onepiece','quote'),id:deck.pop(),deck,medium:opMedium,limit:opEpisodeLimit,guesses:[],ended:false};opSaveQuote();
+  opQuoteState={number:gmpNextRoundNumber('onepiece','quote'),id:deck.pop(),deck,roster:pool.map(q=>q.id),medium:opMedium,limit:opEpisodeLimit,guesses:[],ended:false};opSaveQuote();
 }
 function opQuoteRound(){
   const s=opQuoteState,q=opQuotePool().find(q=>q.id===s?.id),ids=new Set(opQuoteCandidates().map(c=>c.id));
   const valid=q&&s.medium===opMedium&&s.limit===opEpisodeLimit&&typeof s.ended==='boolean'&&Array.isArray(s.deck)&&new Set(s.deck).size===s.deck.length&&s.deck.every(id=>id!==s.id&&opQuotePool().some(q=>q.id===id))&&Array.isArray(s.guesses)&&s.guesses.length<=5&&new Set(s.guesses).size===s.guesses.length&&s.guesses.every(id=>ids.has(id));
   if(!valid)opNextQuote();
+  if(valid){
+    const known=Array.isArray(s.roster)?s.roster:OP_QUOTES.slice(0,21).map(q=>q.id);
+    const pool=opQuotePool();
+    s.deck.push(...pool.filter(q=>!known.includes(q.id)&&q.id!==s.id&&!s.deck.includes(q.id)).map(q=>q.id));
+    s.roster=pool.map(q=>q.id);opSaveQuote();
+  }
   if(gmpEnsureRoundNumber('onepiece','quote',opQuoteState))opSaveQuote();
   return opQuoteState;
 }
