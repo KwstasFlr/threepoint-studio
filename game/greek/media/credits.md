@@ -1,6 +1,6 @@
 # Scene audio sources
 
-109 seven-second film and TV scene excerpts. Source credits identify uploads and do not establish a reuse licence.
+126 seven-second film and TV scene excerpts. Source credits identify uploads and do not establish a reuse licence.
 
 - Κωνσταντίνου και Ελένης: [ANT1 TV](https://www.youtube.com/watch?v=e0C-P9NqhAk), 180–187s; Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13.
 - Στο Παρά Πέντε: [MEGA TV Classics](https://www.youtube.com/watch?v=YjeH7Ed-Drw), 180–187s; Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics.
@@ -108,6 +108,48 @@
 - Η θεία μου η χίπισσα: [Dimitrios Thomadakis](https://www.youtube.com/watch?v=p4SgdK7iJJY), 10–17s; Η θεία μου η χίπισσα - Μάταλα.
 - Η κόμισσα της Κέρκυρας: [Raporto Di Corfu](https://www.youtube.com/watch?v=d_W1XvPVxPo), 4–11s; Η κόμισσα της Κέρκυρας 1972 απόσπασμα 2.
 - Μια κυρία στα μπουζούκια: [BGMS - Best Greek Movie Scenes](https://www.youtube.com/watch?v=2fUh7B8RKWA), 25–32s; 1968  | ΜΙΑ ΚΥΡΙΑ ΣΤΑ ΜΠΟΥΖΟΥΚΙΑ |  "Βανζέλ Παπαντό, όπως Βανγκ Γκόνγκ" |  bgms.
-- Γαμπρός με το ζόρι: [GLOBAL PRODUCTION](https://www.youtube.com/watch?v=kTOkEHKrVNs), 1600–1607s; ΓΑΜΠΡΟΣ ΜΕ ΤΟ ΖΟΡΙ - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ - ΚΩΣΤΑΣ ΒΟΥΤΣΑΣ. YouTube licence: Creative Commons Attribution (CC BY).
-- Ανοιχτή θάλασσα: [GLOBAL PRODUCTION](https://www.youtube.com/watch?v=-cN4ybGnXHA), 3430–3437s; ΑΝΟΙΧΤΗ ΘΑΛΑΣΣΑ - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ - ΓΙΩΡΓΟΣ ΦΟΥΝΤΑΣ 1954. YouTube licence: Creative Commons Attribution (CC BY).
-- Το πέρασμα: [GLOBAL PRODUCTION](https://www.youtube.com/watch?v=p7yNqTf7cgE), 2627–2634s; ΤΟ ΠΕΡΑΣΜΑ - ΓΙΩΡΓΟΣ ΝΙΝΙΟΣ - 1990 - ΕΛΛΗΝΙΚΗ ΤΑΙΝΙΑ. YouTube licence: Creative Commons Attribution (CC BY).
+- Εμείς κι εμείς: [Mega Tv](https://www.youtube.com/watch?v=9NPZZgzHwk4), 25–32s; ΕΜΕΙΣ ΚΙ ΕΜΕΙΣ Ε36 - Σκηνές.
+- Οι αυθαίρετοι: [Mega Tv](https://www.youtube.com/watch?v=vzvEMZXRqD0), 90–97s; ΑΥΘΑΙΡΕΤΟΙ - Τελευταία σκηνή.
+- Τμήμα ηθών: [Theoharisactor](https://www.youtube.com/watch?v=5enNlNU69tg), 196.4–203.4s; ΤΜΗΜΑ ΗΘΩΝ   ΕΠΕΙΣΟΔΙΟ 79-  Τμήμα ηθών: Καταδίωξη μέσα στη νύχτα.
+- Δροσουλίτες: [StarTvGreece](https://www.youtube.com/watch?v=JPmPkWvGuqk), 550.7–557.7s; ΔΡΟΣΟΥΛΙΤΕΣ - Επεισόδιο 1.
+- Η ζωή μας μια βόλτα: [itsgreektime](https://www.youtube.com/watch?v=UW3dovDziMM), 180–187s; Η ΖΩΗ ΜΑΣ ΜΙΑ ΒΟΛΤΑ Επεισόδιο 4.
+- Το τατουάζ: [tvseriesgr](https://www.youtube.com/watch?v=3--DKFwf928), 25–32s; Τατουάζ Β Κύκλος Επεισόδιο 15 Αλέξανδρος Άννα.
+- Στα σύρματα: [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=oqTJjrLPVGY), 76–83s; Ο Αρκούδας εντοπίζει τον Σπύρο και ενημερώνει τον Ιούλιο | Στα σύρματα-Επ.23 | ΕΡΤ.
+- Κάνε ότι κοιμάσαι: [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=jiPiEyk9W34), 48.4–55.4s; Ο Δαμασκηνός κρύβεται πίσω από την επίθεση στον Χρήστο! | Κάνε ότι Κοιμάσαι ΙΙ - Eπεισόδιο 60 | ΕΡΤ.
+- Η παραλία: [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=PWnvcKvuhJM), 25–32s; Γράντος σε Κερασία: «Ήθελα να σε δω» | Η παραλία - Επ. 97 | ΕΡΤ.
+- IQ 160: [StarTvGreece](https://www.youtube.com/watch?v=wmuK1TRt3NI), 25–32s; IQ 160 | Ποιανού είναι τελικά το φούτερ;.
+- Μανταλένα: [Έλλη Γρατσία](https://www.youtube.com/watch?v=_UDYVB8ybsw), 12.2–19.2s; Μανταλένα 1960- Η σκηνή  των Θεοφανείων.
+- Ο θησαυρός του μακαρίτη: [George Samos 65.](https://www.youtube.com/watch?v=enqhs_e-09Y), 1.8–8.8s; Ο Θησαυρος του Μακαριτη  -  Αποσπασμα -  HD..
+- Ο Παπατρέχας: [Giannis christopoulos](https://www.youtube.com/watch?v=wRKCvbVUBfc), 26.6–33.6s; ΒΕΓΓΟΣ - ΠΑΠΑΤΡΕΧΑΣ - Η θεία θέλει παντρειά.mp4.
+- Ο καταφερτζής: [Happiness Cloud Channel](https://www.youtube.com/watch?v=FJWl0nxOMS0), 29.7–36.7s; Ο Χασάπης θα τον κάνει παϊδάκια - Ο Καταφερτζής Νο3.
+- Ο εξυπνάκιας: [George Elefteriadis](https://www.youtube.com/watch?v=QGAdi8H2z0A), 25–32s; Ο ΕΞΥΠΝΑΚΙΑΣ (1966) ΤΙ ΔΙΑΜΑΝΤΙ ΜΟΥ ΕΣΤΕΙΛΕΣ ΒΑΣΙΛΗ.
+- Κορίτσια για φίλημα: [Christina Tes](https://www.youtube.com/watch?v=m0_bNwZwWwQ), 7–14s; Εμφάνιση του Δαλιανίδη στην ταινία ''Κορίτσια για φίλημα'' 1964.
+- Τζένη Τζένη: [Happiness Cloud Channel](https://www.youtube.com/watch?v=--hy3Dgnnzw), 44.1–51.1s; Σπουδαίος βουλευτής θα γίνεις! - Τζένη, Τζένη Νο8.
+- Μια τρελή τρελή σαραντάρα: [BronzeFairy1](https://www.youtube.com/watch?v=jyeDzCfXqBE), 1–8s; Μια τρελή σαραντάρα - Το γράμμα.
+- Ο άνθρωπος που γύρισε από τη ζέστη: [Happiness Cloud Channel](https://www.youtube.com/watch?v=o_BnfcCmRsw), 25–32s; Μαύρισε το μάτι μου για άσπρο... - Ο Άνθρωπος που Γύρισε από τη Ζέστη Νο1.
+- Η δασκάλα με τα ξανθά μαλλιά: [George Samos 65.](https://www.youtube.com/watch?v=Ysd0P7fgJUA), 36.6–43.6s; Η Δασκαλα με τα Ξανθα Μαλλια  - Αποσπασμα -  HD..
+
+## Added Greek scene excerpts — 2026-10-13
+
+20 seven-second excerpts from movie or TV scenes, selected for spoken dialogue. No AI narration, trailers, promotional voiceovers or music-only excerpts. Sources and exact positions are recorded below. Existing credits are retained.
+
+- Ένας ήρωας με παντούφλες (1958): [Alexandros Sellenides](https://www.youtube.com/watch?v=52-um5_7lto), 52.676–59.676s. ΕΝΑΣ ΗΡΩΣ ΜΕ ΠΑΝΤΟΦΛΕΣ-Η ΣΚΗΝΗ ΜΕ ΤΟ ΣΚΑΚΙ. Speech activity 7.0s; longest gap 0.0s.
+- Η Σωφερίνα (1964): [esaz0](https://www.youtube.com/watch?v=uCDBmEak3NY), 0–7s. Η Σωφερίνα   Ο Γύλος στο δικαστήριο. Speech activity 6.66s; longest gap 0.32s.
+- Ο στρίγγλος που έγινε αρνάκι (1968): [lostromoscorfu](https://www.youtube.com/watch?v=9MiNrvDrvLc), 52.44–59.44s. Λίγο νερό ρε παιδιά -  Ο στρίγγλος που έγινε αρνάκι (1968). Speech activity 7.0s; longest gap 0.0s.
+- Ο Φανούρης και το σόι του (1957): [cineatakes](https://www.youtube.com/watch?v=UGTb4rQMst8), 2.44–9.44s. Βαγγέλη άνοιξε την αγκαλιά σου!. Speech activity 7.0s; longest gap 0.0s.
+- Ο Σκληρός Άντρας (1961): [Videococktail](https://www.youtube.com/watch?v=RhzDaimuCEI), 45.94–52.94s. Δεν μου τα 'πατε αυτά, εδώ το γελάγαμε το πράγμα, για φυλακές δεν λέγαμε.... Speech activity 7.0s; longest gap 0.0s.
+- Ο τρελοπενηντάρης (1971): [topmodels topmodels](https://www.youtube.com/watch?v=AqhtF5pYtVY), 35.908–42.908s. o trellopenintaris maneken. Speech activity 5.63s; longest gap 0.96s.
+- Κάτι κουρασμένα παλικάρια (1967): [Tedcol Channel](https://www.youtube.com/watch?v=ToehEaI5Dpg), 52.44–59.44s. Κάτι Κουρασμένα Παλικάρια: Όταν ο Κωνσταντάρας τρελαίνει τον Παπαγιαννόπουλο! 🎬😂. Speech activity 7.0s; longest gap 0.0s.
+- Ραντεβού στον αέρα (1966): [Σχόλια Ἀποσπασματικά #ατάκες_για_κάθε_περίσταση](https://www.youtube.com/watch?v=0t1YVNyXFuo), 9.94–16.94s. κ. Ἐπισμηνία ἔχω βάρδια στὴν πύλη | Σταῦρος Τσιώλης. Speech activity 7.0s; longest gap 0.0s.
+- Κάτι να καίει (1964): [Παναγιώτης Παπάκος](https://www.youtube.com/watch?v=KjWJ8I65bDc), 27.94–34.94s. Σταμάτα να κατέβω (Κάτι να καίει). Speech activity 7.0s; longest gap 0.0s.
+- Η Ρένα είναι οφσάιντ (1972): [ΓΕΩΡΓΙΟΣ Δ. ΜΥΤΕΡΟΖΟΣ](https://www.youtube.com/watch?v=DMZnqFw2pIQ), 133.44–140.44s. Η Ρένα είναι Οφσάϊντ (Απόσπασμα). Speech activity 6.68s; longest gap 0.32s.
+- Αναστασία (1993): [Greek TV HD](https://www.youtube.com/watch?v=1gYlLOoMWaI), 608.548–615.548s. Αναστασία - Επεισόδιο 2 HD. Speech activity 7.0s; longest gap 0.0s.
+- Δυο μέρες μόνο (2005): [Greek TV HD](https://www.youtube.com/watch?v=sR-wikTL3pw), 439.94–446.94s. Δυο Μέρες Μόνο - Επεισόδιο 3 HD. Speech activity 6.62s; longest gap 0.38s.
+- Μαύρα Μεσάνυχτα (2008): [Greek Series HD](https://www.youtube.com/watch?v=ruMJydGuyzo), 600–607s. Μαύρα Μεσάνυχτα - Επεισόδιο 3 HD. Speech activity 6.3s; longest gap 0.42s.
+- Η Λάμψη (1991): [Κώστας Δίγκας](https://www.youtube.com/watch?v=ut7WEJMY4wM), 16.44–23.44s. Η ΛΑΜΨΗ Σκηνή Δεξίωσης. Speech activity 5.75s; longest gap 0.64s.
+- Η ώρα η καλή (2004): [Greek TV HD](https://www.youtube.com/watch?v=-nqtshS-Y58), 343.44–350.44s. Η Ώρα η Καλή - Επεισόδιο 47 HD. Speech activity 5.63s; longest gap 0.38s.
+- Κλινική περίπτωση (2011): [Greek Watchers](https://www.youtube.com/watch?v=-XAlUaLhKuk), 304.94–311.94s. MEGA - ΚΛΙΝΙΚΗ ΠΕΡΙΠΤΩΣΗ - ΕΠΕΙΣΟΔΙΟ 04 S01E04. Speech activity 7.0s; longest gap 0.0s.
+- Μάνα Χ Ουρανού (2014): [Helen Million](https://www.youtube.com/watch?v=YSDbSzQ9yjE), 352.44–359.44s. ΜΑΝΑ Χ ΟΥΡΑΝΟΥ: Επ.18 - Παρασκευάς και Ολίβια, το πρώτ. Speech activity 7.0s; longest gap 0.0s.
+- Η γενιά των 592 ευρώ (2010): [ziggyzi1](https://www.youtube.com/watch?v=MSdrTPgB96I), 2.02–9.02s. Η Γενιά των 592 ευρώ - Επεισόδιο 1 - Hotel Reception. Speech activity 6.18s; longest gap 0.45s.
+- Άγιος Παΐσιος – Από τα Φάρασα στον Ουρανό (2022): [ALT MAN](https://www.youtube.com/watch?v=b4VJ0_Jqg4A), 309.94–316.94s. Saint Paisios, from Pharassa to Heaven Part A Episode 8  (Άγιος Παΐσιος). Speech activity 5.66s; longest gap 0.8s.
+- Ηλέκτρα (2023): [ΕΡΤ Α.Ε.](https://www.youtube.com/watch?v=TKC0tbPGoTE), 20.292–27.292s. Ο Παύλος, θέλοντας να την καθησυχάσει, της λέει πως κοιμάται μαζί με το όπλο του|Ηλέκτρα-Επ.110 |ΕΡΤ. Speech activity 5.88s; longest gap 0.77s.
