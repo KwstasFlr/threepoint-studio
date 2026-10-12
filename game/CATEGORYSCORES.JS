@@ -14,9 +14,10 @@ window.GMPCategoryScores=(()=>{
   const scores=clean(state.categoryScores);const s=scores[category]??{points:0,wins:0,first:0,bestStreak:0};
   s.points+=number(points);s.wins++;if(attempt===1)s.first++;s.bestStreak=Math.max(s.bestStreak,number(streak));scores[category]=s;state.categoryScores=scores;
  }
+ const order=(a,b)=>b.points-a.points||b.first-a.first||b.correct-a.correct||b.streak-a.streak||String(a.name).localeCompare(String(b.name));
  function ranking(players,category){
-  if(category==='overall')return [...players];if(!categories.includes(category))return [];
-  return players.map(player=>{const s=clean(player.categoryScores)[category];return {...player,points:s?.points??0,correct:s?.wins??0,first:s?.first??0,streak:s?.bestStreak??0};}).filter(p=>p.correct>0).sort((a,b)=>b.points-a.points||b.correct-a.correct||b.first-a.first||String(a.name).localeCompare(String(b.name)));
+  if(category==='overall')return [...players].sort(order);if(!categories.includes(category))return [];
+  return players.map(player=>{const s=clean(player.categoryScores)[category];return {...player,points:s?.points??0,correct:s?.wins??0,first:s?.first??0,streak:s?.bestStreak??0};}).filter(p=>p.correct>0).sort(order);
  }
  return {names,clean,merge,add,ranking};
 })();

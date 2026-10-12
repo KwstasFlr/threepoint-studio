@@ -6392,5 +6392,355 @@
       "Ιμπρεσιονισμός"
     ],
     "accession": "1947.95"
+  },
+  {
+    "id": "100191",
+    "title": "Stack of Wheat (Thaw, Sunset)",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1890,
+    "date": "1890–91",
+    "image": "media/100191.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/100191",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stack_of_Wheat_(Thaw,_Sunset)_-_1983.166_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1983.166"
+  },
+  {
+    "id": "16629",
+    "title": "Fruits of the Midi",
+    "artist": [
+      "Pierre-Auguste Renoir",
+      "Πιερ Ογκίστ Ρενουάρ"
+    ],
+    "surname": [
+      "Renoir",
+      "Ρενουάρ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1881,
+    "date": "1881",
+    "image": "media/16629.webp",
+    "aliases": [
+      "Pierre-Auguste Renoir",
+      "Pierre-Auguste Renoir",
+      "Renoir",
+      "Πιερ Ογκίστ Ρενουάρ",
+      "Ρενουάρ",
+      "Pierre-Auguste Renoir"
+    ],
+    "source": "https://www.artic.edu/artworks/16629",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Fruits_of_the_Midi_-_1933.1176_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1933.1176"
+  },
+  {
+    "artist": [
+      "James McNeill Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ"
+    ],
+    "surname": [
+      "Whistler",
+      "Γουίστλερ"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "James McNeill Whistler",
+      "Whistler",
+      "Τζέιμς Μακνίλ Γουίστλερ",
+      "Γουίστλερ"
+    ],
+    "publicDomain": true,
+    "id": "14317",
+    "title": "Study of a Girl's Head and Shoulders",
+    "year": 1896,
+    "date": "1896–97",
+    "image": "media/14317.webp",
+    "source": "https://www.artic.edu/artworks/14317",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:James_McNeill_Whistler_-_Study_of_a_Young_Girl%27s_Head_and_Shoulders_(Baroness_de_Meyer)_-_1933.212_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1933.212",
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "George Inness",
+      "Τζορτζ Ίνες"
+    ],
+    "surname": [
+      "Inness",
+      "Ίνες"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "George Inness",
+      "Inness",
+      "Τζορτζ Ίνες",
+      "Ίνες"
+    ],
+    "publicDomain": true,
+    "id": "151108",
+    "title": "The Mill Pond",
+    "year": 1889,
+    "date": "1889",
+    "image": "media/151108.webp",
+    "source": "https://www.artic.edu/artworks/151108",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:George_Inness_-_The_Mill_Pond_-_1911.30_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1911.30",
+    "movementBasis": "artist",
+    "movement": [
+      "Post-Impressionism",
+      "Μεταϊμπρεσιονισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Frederic Remington",
+      "Φρέντερικ Ρέμινγκτον"
+    ],
+    "surname": [
+      "Remington",
+      "Ρέμινγκτον"
+    ],
+    "country": [
+      "United States",
+      "ΗΠΑ"
+    ],
+    "aliases": [
+      "Frederic Remington",
+      "Remington",
+      "Φρέντερικ Ρέμινγκτον",
+      "Ρέμινγκτον"
+    ],
+    "publicDomain": true,
+    "id": "97908",
+    "title": "Slave Market",
+    "year": 1893,
+    "date": "1893",
+    "image": "media/97908.webp",
+    "source": "https://www.artic.edu/artworks/97908",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_-_Slave_Market_-_1982.800_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1982.800",
+    "movementBasis": "artist",
+    "movement": [
+      "Realism",
+      "Ρεαλισμός"
+    ]
+  },
+  {
+    "artist": [
+      "Jean François Millet",
+      "Ζαν Φρανσουά Μιλέ"
+    ],
+    "surname": [
+      "Millet",
+      "Μιλέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "aliases": [
+      "Jean François Millet",
+      "Millet",
+      "Ζαν Φρανσουά Μιλέ",
+      "Μιλέ"
+    ],
+    "publicDomain": true,
+    "id": "111646",
+    "title": "Woman Feeding Chickens",
+    "year": 1846,
+    "date": "1846-48",
+    "image": "media/111646.webp",
+    "source": "https://www.artic.edu/artworks/111646",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Fran%C3%A7ois_Millet_-_Woman_Feeding_Chickens_-_1894.1064_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1894.1064",
+    "movementBasis": "artist",
+    "movement": [
+      "Barbizon School",
+      "Σχολή της Μπαρμπιζόν"
+    ]
+  },
+  {
+    "artist": [
+      "Peter Paul Rubens",
+      "Πέτερ Πάουλ Ρούμπενς"
+    ],
+    "surname": [
+      "Rubens",
+      "Ρούμπενς"
+    ],
+    "country": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "aliases": [
+      "Peter Paul Rubens",
+      "Rubens",
+      "Πέτερ Πάουλ Ρούμπενς",
+      "Ρούμπενς"
+    ],
+    "publicDomain": true,
+    "id": "80553",
+    "title": "Nicolas Rubens, the Artist's Son",
+    "year": 1630,
+    "date": "c. 1635",
+    "image": "media/80553.webp",
+    "source": "https://www.artic.edu/artworks/80553",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Nicolas_Rubens,_the_artist%27s_son_-_1954.299_-_Art_Institute_of_Chicago.jpg",
+    "accession": "1954.299",
+    "movementBasis": "artist",
+    "movement": [
+      "Baroque",
+      "Μπαρόκ"
+    ]
+  },
+  {
+    "id": "16560",
+    "title": "Stack of Wheat (Snow Effect, Overcast Day)",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1890,
+    "date": "1890–91",
+    "image": "media/16560.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/16560",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stack_of_Wheat_(Snow_Effect,_Overcast_Day)_-_1933.1155_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1933.1155"
+  },
+  {
+    "id": "16579",
+    "title": "Vétheuil",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1901,
+    "date": "1901",
+    "image": "media/16579.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/16579",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_V%C3%A9theuil_-_1933.1161_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1933.1161"
+  },
+  {
+    "id": "81540",
+    "title": "The Departure of the Boats, Étretat",
+    "artist": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "surname": [
+      "Monet",
+      "Μονέ"
+    ],
+    "country": [
+      "France",
+      "Γαλλία"
+    ],
+    "year": 1885,
+    "date": "1885",
+    "image": "media/81540.webp",
+    "aliases": [
+      "Claude Monet",
+      "Claude Monet",
+      "Monet",
+      "Κλοντ Μονέ",
+      "Μονέ",
+      "Claude Monet"
+    ],
+    "source": "https://www.artic.edu/artworks/81540",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Departure_of_the_Boats,_%C3%89tretat_-_1922.428_-_Art_Institute_of_Chicago.jpg",
+    "publicDomain": true,
+    "movementBasis": "artist",
+    "movement": [
+      "Impressionism",
+      "Ιμπρεσιονισμός"
+    ],
+    "accession": "1922.428"
   }
 ]

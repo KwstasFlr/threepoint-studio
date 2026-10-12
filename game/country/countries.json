@@ -3274,5 +3274,669 @@
       "https://api.worldbank.org/v2/country/OMN/indicator/SP.POP.TOTL?format=json&date=2024",
       "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
     ]
+  },
+  {
+    "id": "CM",
+    "name": [
+      "Cameroon",
+      "Καμερούν"
+    ],
+    "aliases": [
+      "Cameroon",
+      "Καμερούν"
+    ],
+    "facts": [
+      [
+        "UNESCO records 107 mammal species in its Dja reserve.",
+        "Η UNESCO καταγράφει 107 είδη θηλαστικών στο καταφύγιο Ντζα."
+      ],
+      [
+        "Its Dja reserve covers about 526.000 hectares.",
+        "Το καταφύγιο Ντζα καλύπτει περίπου 526.000 εκτάρια."
+      ]
+    ],
+    "locations": [
+      [
+        "Central Africa, on the Gulf of Guinea.",
+        "Κεντρική Αφρική, στον Κόλπο της Γουινέας."
+      ],
+      [
+        "It borders Nigeria and Chad.",
+        "Συνορεύει με Νιγηρία και Τσαντ."
+      ]
+    ],
+    "animals": [
+      [
+        "Western lowland gorillas live in its Dja reserve.",
+        "Στο Ντζα ζουν δυτικοί πεδινοί γορίλες."
+      ],
+      [
+        "Forest elephants and chimpanzees inhabit its Dja forests.",
+        "Στα δάση του Ντζα ζουν δασικοί ελέφαντες και χιμπαντζήδες."
+      ]
+    ],
+    "population": 29123744,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 69.8,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 25.2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/407/",
+      "https://api.worldbank.org/v2/country/CMR/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CD",
+    "name": [
+      "Democratic Republic of the Congo",
+      "Λαϊκή Δημοκρατία του Κονγκό"
+    ],
+    "aliases": [
+      "Democratic Republic of the Congo",
+      "Λαϊκή Δημοκρατία του Κονγκό",
+      "DR Congo",
+      "Congo Kinshasa",
+      "ΛΔ Κονγκό"
+    ],
+    "facts": [
+      [
+        "Its Virunga National Park covers about 790.000 hectares.",
+        "Το Εθνικό Πάρκο Βιρούνγκα καλύπτει περίπου 790.000 εκτάρια."
+      ],
+      [
+        "Its Virunga landscapes reach snowfields above 5.000 metres.",
+        "Τα τοπία της Βιρούνγκα φτάνουν σε χιονοσκεπείς περιοχές πάνω από 5.000 μέτρα."
+      ]
+    ],
+    "locations": [
+      [
+        "Central Africa, with a short Atlantic coastline.",
+        "Κεντρική Αφρική, με μικρή ακτογραμμή στον Ατλαντικό."
+      ],
+      [
+        "It borders Rwanda, Uganda and Zambia.",
+        "Συνορεύει με Ρουάντα, Ουγκάντα και Ζάμπια."
+      ]
+    ],
+    "animals": [
+      [
+        "Mountain gorillas live in its Virunga park.",
+        "Στη Βιρούνγκα ζουν ορεινοί γορίλες."
+      ],
+      [
+        "Hippopotamuses inhabit rivers in its Virunga park.",
+        "Στα ποτάμια της Βιρούνγκα ζουν ιπποπόταμοι."
+      ]
+    ],
+    "population": 109276265,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 96.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 1.3,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/63/",
+      "https://api.worldbank.org/v2/country/COD/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "GT",
+    "name": [
+      "Guatemala",
+      "Γουατεμάλα"
+    ],
+    "aliases": [
+      "Guatemala",
+      "Γουατεμάλα"
+    ],
+    "facts": [
+      [
+        "Over 330 bird species have been recorded in its Tikal park.",
+        "Στο πάρκο Τικάλ έχουν καταγραφεί πάνω από 330 είδη πουλιών."
+      ],
+      [
+        "Its Tikal forests contain more than 200 tree species.",
+        "Τα δάση του Τικάλ περιέχουν πάνω από 200 είδη δέντρων."
+      ]
+    ],
+    "locations": [
+      [
+        "Central America, south of Mexico.",
+        "Κεντρική Αμερική, νότια του Μεξικού."
+      ],
+      [
+        "It borders Belize, Honduras and El Salvador.",
+        "Συνορεύει με Μπελίζ, Ονδούρα και Ελ Σαλβαδόρ."
+      ]
+    ],
+    "animals": [
+      [
+        "Jaguars and pumas inhabit its Tikal forests.",
+        "Στα δάση του Τικάλ ζουν ιαγουάροι και πούμα."
+      ],
+      [
+        "Howler monkeys and Baird’s tapirs live in its Tikal park.",
+        "Στο Τικάλ ζουν ουρλιαχτοί πίθηκοι και τάπιροι του Μπέιρντ."
+      ]
+    ],
+    "population": 18406359,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 92,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 2,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/64/",
+      "https://api.worldbank.org/v2/country/GTM/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "ZM",
+    "name": [
+      "Zambia",
+      "Ζάμπια"
+    ],
+    "aliases": [
+      "Zambia",
+      "Ζάμπια"
+    ],
+    "facts": [
+      [
+        "Mist from the waterfall it shares with Zimbabwe can be seen over 20 km away.",
+        "Η ομίχλη από τον καταρράκτη που μοιράζεται με τη Ζιμπάμπουε φαίνεται από πάνω από 20 χλμ."
+      ],
+      [
+        "UNESCO describes the Zambezi as over 2 km wide near its famous waterfall.",
+        "Η UNESCO περιγράφει τον Ζαμβέζη ως πλατύτερο από 2 χλμ. κοντά στον διάσημο καταρράκτη."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in southern Africa.",
+        "Περίκλειστη χώρα στη νότια Αφρική."
+      ],
+      [
+        "It lies north of Zimbabwe and east of Angola.",
+        "Βρίσκεται βόρεια της Ζιμπάμπουε και ανατολικά της Αγκόλας."
+      ]
+    ],
+    "animals": [
+      [
+        "Hippopotamuses live along its Luangwa River.",
+        "Κατά μήκος του ποταμού Λουάνγκουα ζουν ιπποπόταμοι."
+      ],
+      [
+        "Leopards inhabit its South Luangwa park.",
+        "Στο πάρκο Νότιας Λουάνγκουα ζουν λεοπαρδάλεις."
+      ]
+    ],
+    "population": 21314956,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 98.3,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 1.1,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/509/",
+      "https://api.worldbank.org/v2/country/ZMB/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/",
+      "https://www.zambiatourism.com/destinations/national-parks/south-luangwa-national-park/"
+    ]
+  },
+  {
+    "id": "ZW",
+    "name": [
+      "Zimbabwe",
+      "Ζιμπάμπουε"
+    ],
+    "aliases": [
+      "Zimbabwe",
+      "Ζιμπάμπουε"
+    ],
+    "facts": [
+      [
+        "Over 450 bird species have been recorded around its Mana Pools property.",
+        "Γύρω από το Μάνα Πουλς έχουν καταγραφεί πάνω από 450 είδη πουλιών."
+      ],
+      [
+        "Its Mana Pools reserve became a World Heritage site in 1984.",
+        "Το Μάνα Πουλς έγινε μνημείο Παγκόσμιας Κληρονομιάς το 1984."
+      ]
+    ],
+    "locations": [
+      [
+        "Southern Africa, between the Zambezi and Limpopo rivers.",
+        "Νότια Αφρική, ανάμεσα στους ποταμούς Ζαμβέζη και Λιμπόπο."
+      ],
+      [
+        "It borders Zambia and South Africa.",
+        "Συνορεύει με Ζάμπια και Νότια Αφρική."
+      ]
+    ],
+    "animals": [
+      [
+        "Hippopotamuses and Nile crocodiles inhabit its Mana Pools waterways.",
+        "Στα νερά του Μάνα Πουλς ζουν ιπποπόταμοι και κροκόδειλοι του Νείλου."
+      ],
+      [
+        "Elephant and buffalo herds gather at Mana Pools during the dry season.",
+        "Κοπάδια ελεφάντων και βουβαλιών συγκεντρώνονται στο Μάνα Πουλς στην ξηρή περίοδο."
+      ]
+    ],
+    "population": 16634373,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 87.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 1.7,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/302/",
+      "https://api.worldbank.org/v2/country/ZWE/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "BY",
+    "name": [
+      "Belarus",
+      "Λευκορωσία"
+    ],
+    "aliases": [
+      "Belarus",
+      "Λευκορωσία"
+    ],
+    "facts": [
+      [
+        "It shares a protected ancient forest of 141.885 hectares with Poland.",
+        "Μοιράζεται με την Πολωνία ένα προστατευόμενο αρχαίο δάσος 141.885 εκταρίων."
+      ],
+      [
+        "The shared Białowieża forest supports 59 mammal species.",
+        "Το κοινό δάσος Μπιαλοβιέζα φιλοξενεί 59 είδη θηλαστικών."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in Eastern Europe.",
+        "Περίκλειστη χώρα στην Ανατολική Ευρώπη."
+      ],
+      [
+        "It borders Poland, Lithuania, Latvia, Russia and Ukraine.",
+        "Συνορεύει με Πολωνία, Λιθουανία, Λετονία, Ρωσία και Ουκρανία."
+      ]
+    ],
+    "animals": [
+      [
+        "European bison roam its ancient Białowieża woodland.",
+        "Ευρωπαϊκοί βίσωνες ζουν στο αρχαίο δάσος Μπιαλοβιέζα."
+      ],
+      [
+        "Wolves, lynx and otters live in its shared forest ecosystem.",
+        "Λύκοι, λύγκες και βίδρες ζουν στο κοινό δασικό οικοσύστημα."
+      ]
+    ],
+    "population": 9132629,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 85.1,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 0.7,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/33/",
+      "https://api.worldbank.org/v2/country/BLR/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "CO",
+    "name": [
+      "Colombia",
+      "Κολομβία"
+    ],
+    "aliases": [
+      "Colombia",
+      "Κολομβία"
+    ],
+    "facts": [
+      [
+        "Its Los Katíos park covers 72.000 hectares.",
+        "Το πάρκο Λος Κατίος καλύπτει 72.000 εκτάρια."
+      ],
+      [
+        "Around 450 bird species occur in its Los Katíos park.",
+        "Στο πάρκο Λος Κατίος συναντώνται περίπου 450 είδη πουλιών."
+      ]
+    ],
+    "locations": [
+      [
+        "Northwestern South America, on both the Pacific and Caribbean.",
+        "Βορειοδυτική Νότια Αμερική, στον Ειρηνικό και στην Καραϊβική."
+      ],
+      [
+        "It borders Panama, Venezuela, Brazil, Peru and Ecuador.",
+        "Συνορεύει με Παναμά, Βενεζουέλα, Βραζιλία, Περού και Εκουαδόρ."
+      ]
+    ],
+    "animals": [
+      [
+        "Giant anteaters live in its Los Katíos park.",
+        "Στο Λος Κατίος ζουν γιγάντιοι μυρμηγκοφάγοι."
+      ],
+      [
+        "American crocodiles and Central American tapirs inhabit Los Katíos.",
+        "Στο Λος Κατίος ζουν αμερικανικοί κροκόδειλοι και τάπιροι της Κεντρικής Αμερικής."
+      ]
+    ],
+    "population": 52886363,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 86.2,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Other religions",
+          "Άλλες θρησκείες"
+        ],
+        "percent": 3.8,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/711/",
+      "https://api.worldbank.org/v2/country/COL/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "RW",
+    "name": [
+      "Rwanda",
+      "Ρουάντα"
+    ],
+    "aliases": [
+      "Rwanda",
+      "Ρουάντα"
+    ],
+    "facts": [
+      [
+        "Its Nyungwe park has 317 recorded bird species.",
+        "Στο Νιούνγκουε έχουν καταγραφεί 317 είδη πουλιών."
+      ],
+      [
+        "Its Nyungwe forests contain 1.468 vascular plant species.",
+        "Τα δάση του Νιούνγκουε περιέχουν 1.468 είδη αγγειακών φυτών."
+      ]
+    ],
+    "locations": [
+      [
+        "A landlocked country in East-Central Africa.",
+        "Περίκλειστη χώρα στην ανατολική Κεντρική Αφρική."
+      ],
+      [
+        "It borders Uganda, Tanzania, Burundi and DR Congo.",
+        "Συνορεύει με Ουγκάντα, Τανζανία, Μπουρούντι και ΛΔ Κονγκό."
+      ]
+    ],
+    "animals": [
+      [
+        "Eastern chimpanzees inhabit its Nyungwe forests.",
+        "Στα δάση του Νιούνγκουε ζουν ανατολικοί χιμπαντζήδες."
+      ],
+      [
+        "Golden monkeys are among the primates of its Nyungwe park.",
+        "Χρυσοί πίθηκοι είναι μεταξύ των πρωτευόντων του Νιούνγκουε."
+      ]
+    ],
+    "population": 14256567,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 97,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 1.8,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/1697/",
+      "https://api.worldbank.org/v2/country/RWA/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "SN",
+    "name": [
+      "Senegal",
+      "Σενεγάλη"
+    ],
+    "aliases": [
+      "Senegal",
+      "Σενεγάλη"
+    ],
+    "facts": [
+      [
+        "Its Djoudj wetland shelters about 1.500.000 birds, according to UNESCO.",
+        "Ο υγρότοπος Ντζουντζ φιλοξενεί περίπου 1.500.000 πουλιά, σύμφωνα με την UNESCO."
+      ],
+      [
+        "Its Djoudj bird sanctuary covers about 16.000 hectares.",
+        "Το καταφύγιο πουλιών Ντζουντζ καλύπτει περίπου 16.000 εκτάρια."
+      ]
+    ],
+    "locations": [
+      [
+        "West Africa, on the Atlantic Ocean.",
+        "Δυτική Αφρική, στον Ατλαντικό Ωκεανό."
+      ],
+      [
+        "It nearly surrounds The Gambia and borders Mauritania.",
+        "Σχεδόν περιβάλλει την Γκάμπια και συνορεύει με Μαυριτανία."
+      ]
+    ],
+    "animals": [
+      [
+        "White pelicans nest in its Djoudj sanctuary.",
+        "Λευκοί πελεκάνοι φωλιάζουν στο Ντζουντζ."
+      ],
+      [
+        "African spoonbills and purple herons visit its Djoudj wetlands.",
+        "Αφρικανικές χουλιαρομύτες και πορφυροτσικνιάδες επισκέπτονται το Ντζουντζ."
+      ]
+    ],
+    "population": 18501984,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 97.6,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Christians",
+          "Χριστιανοί"
+        ],
+        "percent": 2.4,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/25/",
+      "https://api.worldbank.org/v2/country/SEN/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
+  },
+  {
+    "id": "BD",
+    "name": [
+      "Bangladesh",
+      "Μπανγκλαντές"
+    ],
+    "aliases": [
+      "Bangladesh",
+      "Μπανγκλαντές"
+    ],
+    "facts": [
+      [
+        "Its Sundarbans World Heritage property consists of three wildlife sanctuaries.",
+        "Το μνημείο Σουνταρμπάνς αποτελείται από τρία καταφύγια άγριας ζωής."
+      ],
+      [
+        "Its Sundarbans form part of the world’s largest delta.",
+        "Τα Σουνταρμπάνς είναι τμήμα του μεγαλύτερου δέλτα στον κόσμο."
+      ]
+    ],
+    "locations": [
+      [
+        "South Asia, on the Bay of Bengal.",
+        "Νότια Ασία, στον Κόλπο της Βεγγάλης."
+      ],
+      [
+        "It borders India and Myanmar.",
+        "Συνορεύει με Ινδία και Μιανμάρ."
+      ]
+    ],
+    "animals": [
+      [
+        "Bengal tigers live in its Sundarbans mangroves.",
+        "Τίγρεις της Βεγγάλης ζουν στα μαγκρόβια δάση Σουνταρμπάνς."
+      ],
+      [
+        "Estuarine crocodiles and Indian pythons inhabit its Sundarbans.",
+        "Κροκόδειλοι των εκβολών και ινδικοί πύθωνες ζουν στα Σουνταρμπάνς."
+      ]
+    ],
+    "population": 173562364,
+    "populationYear": 2024,
+    "religion": [
+      {
+        "group": [
+          "Muslims",
+          "Μουσουλμάνοι"
+        ],
+        "percent": 91.1,
+        "year": 2020
+      },
+      {
+        "group": [
+          "Hindus",
+          "Ινδουιστές"
+        ],
+        "percent": 7.9,
+        "year": 2020
+      }
+    ],
+    "sources": [
+      "https://whc.unesco.org/en/list/798/",
+      "https://api.worldbank.org/v2/country/BGD/indicator/SP.POP.TOTL?format=json&date=2024",
+      "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    ]
   }
 ]

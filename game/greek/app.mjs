@@ -80,7 +80,7 @@ async function boot() {
     const won = state.guesses.some(g => matches(title, g));
     const ended = won || state.guesses.length === 6;
     const wrong = state.guesses.length - (won ? 1 : 0);
-    $('roundNumber').textContent = `Γύρος ${state.number} · ${filters[filter]}`;
+    $('roundNumber').textContent = `Γύρος ${state.number}`;
     $('progress').textContent = `${state.guesses.length} / 6 προσπάθειες`;
     $('clue').textContent = title.clue;
     $('audioLabel').textContent = title.audio ? 'Άκου το σύντομο απόσπασμα.' : '';

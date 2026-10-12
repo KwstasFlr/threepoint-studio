@@ -5619,7 +5619,7 @@ async function loadLeaderboard() {
 
   try {
     const rankingFields="id, username, points, correct_guesses, first_try, streak, best_streak";
-    const request=fields=>supabaseClient.from("profiles").select(fields).order("points",{ascending:false}).order("correct_guesses",{ascending:false}).order("first_try",{ascending:false});
+    const request=fields=>supabaseClient.from("profiles").select(fields).order("points",{ascending:false}).order("first_try",{ascending:false}).order("correct_guesses",{ascending:false});
     let {data,error}=await request(rankingFields+", category_scores");
     if(error&&["42703","PGRST204"].includes(error.code)&&String(error.message).includes("category_scores"))({data,error}=await request(rankingFields));
 
@@ -5753,21 +5753,10 @@ function renderLeaderboard() {
             }
           </strong>
 
-          <span>
-            ${player.correct}
-          </span>
-
-          <span>
-            ${player.first}
-          </span>
-
-          <span>
-            ${player.streak}
-          </span>
-
-          <span class="leader-points">
-            ${player.points}
-          </span>
+          <span class="leader-points">${player.points}</span>
+          <span>${player.first}</span>
+          <span>${player.correct}</span>
+          <span>${player.streak}</span>
         `;
 
         rows.appendChild(row);
@@ -5809,13 +5798,10 @@ function renderLeaderboard() {
               </small>
             </strong>
 
-            <span>${player.correct}</span>
-            <span>${player.first}</span>
-            <span>${player.streak}</span>
-
-            <span class="leader-points">
-              ${player.points}
-            </span>
+            <span class="leader-points">${player.points}</span>
+          <span>${player.first}</span>
+          <span>${player.correct}</span>
+          <span>${player.streak}</span>
           </div>
         `;
     } else {

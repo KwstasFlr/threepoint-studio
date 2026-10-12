@@ -8,6 +8,8 @@ header>.gmp-back{flex-shrink:1;align-self:center}
 [data-language-picker] button,header>.languages button{min-height:44px;padding:9px 13px!important;line-height:1.3;white-space:nowrap}
 .tile strong,.mode-name{overflow-wrap:anywhere;min-width:0;line-height:1.3}
 .tile>span,.mode-description{line-height:1.5;overflow-wrap:anywhere}
-.gmp-win-banner .win-copy{min-width:0;display:grid;gap:5px}.gmp-win-banner .win-label{font-size:clamp(23px,4vw,32px)}.gmp-win-banner .win-answer{display:block;font-size:clamp(21px,3.6vw,29px);line-height:1.35;overflow-wrap:anywhere}
+.gmp-win-banner .win-copy{min-width:0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}.gmp-win-banner .win-label{color:#c6f34e;font-size:clamp(23px,4vw,32px)}.gmp-win-banner .win-answer{display:block;font-size:clamp(21px,3.6vw,29px);line-height:1.35;overflow-wrap:anywhere}
 @media(max-width:640px){.category-back{margin:14px 16px 6px}.gmp-back{padding:9px 12px;font-size:14px}header>.gmp-back{justify-self:start}[data-language-picker],header>.languages{gap:6px!important;max-width:100%}.gmp-win-banner{gap:12px!important;padding:16px!important}.gmp-win-banner .win-check{width:42px!important;height:42px!important}}
 @media(prefers-reduced-motion:reduce){.gmp-back,.category-back{transition:none}}
+
+.op-dialog .round-number{display:block;margin:16px 0 12px;padding:10px 16px;border-radius:12px}.round-number strong{font-size:28px;line-height:1.3}

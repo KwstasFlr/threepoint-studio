@@ -9,7 +9,7 @@ function gmpEnsureRoundNumber(game,mode,round){
   round.number=gmpCurrentNumber(game,mode)||1;write(gmpNumberKey(game,mode),String(round.number));return true;
 }
 function gmpRoundLabel(number){
-  return `<div class="round-number"><span class="round-caption">${T('You are on round','Είστε στον γύρο')}</span><strong>No${number}</strong></div>`;
+  return `<div class="round-number"><strong>${T("Round","Γύρος")} ${number}</strong></div>`;
 }
 function gmpModeTabs(game,selected){
   const modes=game==='gaming'?['classic','quote']:game==='football'?['daily','unlimited']:['unlimited','quote'];
