@@ -1408,5 +1408,1480 @@
     "audioSourceTitle": "Flash Gordon - Season 1 - Episode 1 - Planet of Death | Steve Holland, Irene Champlin",
     "audioSpeechSeconds": 5.37,
     "audioMaxGap": 0.45
+  },
+  {
+    "id": "titanic",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Titanic",
+    "year": 1997,
+    "leads": [
+      "Leonardo DiCaprio",
+      "Kate Winslet"
+    ],
+    "supporting": [
+      "Bernard Hill",
+      "Victor Garber"
+    ],
+    "aliases": [
+      "Titanic",
+      "Τιτανικός"
+    ],
+    "clue": "Ένα πολυτελές υπερωκεάνιο και ένα ταξίδι που γίνεται τραγωδία.",
+    "clueEn": "A luxurious ocean liner and a voyage that becomes a tragedy.",
+    "synopsis": "Δύο νέοι από διαφορετικούς κόσμους ερωτεύονται σε ένα υπερωκεάνιο που θεωρείται αβύθιστο.",
+    "synopsisEn": "Two young people from different backgrounds fall in love aboard a supposedly unsinkable ocean liner.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-titanic.mp3",
+    "source": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=Phm9wbFAbp0",
+    "audioStart": 16.548,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "20th Century Studios UK",
+    "audioSourceTitle": "Titanic 3D | \"You Going to Cut Her Meat too Call\" | Official Clip HD",
+    "audioSpeechSeconds": 6.69,
+    "audioMaxGap": 0.31
+  },
+  {
+    "id": "forrest-gump",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "leads": [
+      "Tom Hanks",
+      "Robin Wright"
+    ],
+    "supporting": [
+      "Mykelti Williamson",
+      "Sally Field"
+    ],
+    "aliases": [
+      "Forrest Gump",
+      "Φόρεστ Γκαμπ"
+    ],
+    "clue": "Ένας άντρας σε ένα παγκάκι, με πολύ απίθανες αναμνήσεις.",
+    "clueEn": "A man on a bench with some remarkably unlikely memories.",
+    "synopsis": "Ένας καλοσυνάτος άντρας αφηγείται τη ζωή του, που διασταυρώνεται με μεγάλες στιγμές της αμερικανικής ιστορίας.",
+    "synopsisEn": "A kind-hearted man recounts a life that intersects with major moments in American history.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-forrest-gump.mp3",
+    "source": "https://en.wikipedia.org/wiki/Forrest_Gump",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=vdtqSaJO-iM",
+    "audioStart": 156.916,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Paramount Movies",
+    "audioSourceTitle": "Forrest Gump | \"Life is Like A Box of Chocolates\" Full Scene | Paramount Movies",
+    "audioSpeechSeconds": 6.65,
+    "audioMaxGap": 0.35
+  },
+  {
+    "id": "pulp-fiction",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "leads": [
+      "John Travolta",
+      "Samuel L. Jackson"
+    ],
+    "supporting": [
+      "Ving Rhames",
+      "Eric Stoltz"
+    ],
+    "aliases": [
+      "Pulp Fiction",
+      "Παλπ Φίκσιον"
+    ],
+    "clue": "Ένα χαρτοφυλάκιο, δύο δολοφόνοι και ιστορίες που τέμνονται.",
+    "clueEn": "A briefcase, two hitmen and stories that intersect.",
+    "synopsis": "Οι ιστορίες δύο πληρωμένων δολοφόνων, ενός πυγμάχου και της γυναίκας ενός γκάνγκστερ μπλέκονται στο Λος Άντζελες.",
+    "synopsisEn": "The lives of two hitmen, a boxer and a gangster’s wife intertwine in Los Angeles.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-pulp-fiction.mp3",
+    "source": "https://en.wikipedia.org/wiki/Pulp_Fiction",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=LBBni_-tMNs",
+    "audioStart": 27.476,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Movieclips",
+    "audioSourceTitle": "I Shot Marvin in the Face - Pulp Fiction (11/12) Movie CLIP (1994) HD",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "jurassic-park",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Jurassic Park",
+    "year": 1993,
+    "leads": [
+      "Sam Neill",
+      "Laura Dern"
+    ],
+    "supporting": [
+      "Bob Peck",
+      "Martin Ferrero"
+    ],
+    "aliases": [
+      "Jurassic Park",
+      "Τζουράσικ Παρκ"
+    ],
+    "clue": "Ένα θεματικό πάρκο όπου η επιστήμη ξέφυγε από τον έλεγχο.",
+    "clueEn": "A theme park where science has escaped control.",
+    "synopsis": "Επιστήμονες επισκέπτονται ένα νησιωτικό πάρκο με ζωντανούς δεινόσαυρους, ώσπου η ασφάλειά του καταρρέει.",
+    "synopsisEn": "Scientists visit an island park populated by living dinosaurs, until its security systems fail.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-jurassic-park.mp3",
+    "source": "https://en.wikipedia.org/wiki/Jurassic_Park",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=3lZy3teNY84",
+    "audioStart": 51.316,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Movieclips",
+    "audioSourceTitle": "Jurassic Park (1993) - Chaos Theory Scene | Movieclips",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "back-future",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Back to the Future",
+    "year": 1985,
+    "leads": [
+      "Michael J. Fox",
+      "Christopher Lloyd"
+    ],
+    "supporting": [
+      "Crispin Glover",
+      "Thomas F. Wilson"
+    ],
+    "aliases": [
+      "Back to the Future",
+      "Επιστροφή στο Μέλλον"
+    ],
+    "clue": "Μια παράξενη μηχανή και μια κρίσιμη συνάντηση στο παρελθόν.",
+    "clueEn": "An unusual machine and a crucial meeting in the past.",
+    "synopsis": "Ένας έφηβος ταξιδεύει κατά λάθος στο παρελθόν και πρέπει να εξασφαλίσει ότι οι γονείς του θα γνωριστούν.",
+    "synopsisEn": "A teenager accidentally travels into the past and must make sure his parents meet.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-back-future.mp3",
+    "source": "https://en.wikipedia.org/wiki/Back_to_the_Future",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=Qfs38mrZF-4",
+    "audioStart": 37.716,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Movieclips",
+    "audioSourceTitle": "Back to the Future (1985) - You're George McFly! Scene | Movieclips",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "gladiator",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Gladiator",
+    "year": 2000,
+    "leads": [
+      "Russell Crowe",
+      "Joaquin Phoenix"
+    ],
+    "supporting": [
+      "Djimon Hounsou",
+      "Derek Jacobi"
+    ],
+    "aliases": [
+      "Gladiator",
+      "Μονομάχος"
+    ],
+    "clue": "Ένας στρατηγός χάνει τα πάντα και καταλήγει στην αρένα.",
+    "clueEn": "A general loses everything and ends up in the arena.",
+    "synopsis": "Ένας προδομένος Ρωμαίος στρατηγός γίνεται μονομάχος και αναζητά εκδίκηση από τον νέο αυτοκράτορα.",
+    "synopsisEn": "A betrayed Roman general becomes a gladiator and seeks revenge against the new emperor.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-gladiator.mp3",
+    "source": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=lKn-Agk-yAI",
+    "audioStart": 82.788,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Screen Bites",
+    "audioSourceTitle": "My Name Is Maximus | Gladiator (2000) | Screen Bites",
+    "audioSpeechSeconds": 5.27,
+    "audioMaxGap": 1.06
+  },
+  {
+    "id": "shawshank",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "leads": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "supporting": [
+      "Gil Bellows",
+      "William Sadler"
+    ],
+    "aliases": [
+      "The Shawshank Redemption",
+      "Τελευταία Έξοδος Ρίτα Χέιγουορθ",
+      "Shawshank Redemption"
+    ],
+    "clue": "Μια μακρά φυλάκιση, μια φιλία και μια επίμονη ελπίδα.",
+    "clueEn": "A long imprisonment, a friendship and enduring hope.",
+    "synopsis": "Ένας τραπεζίτης καταδικάζεται για φόνο και βρίσκει φιλία και ελπίδα μέσα σε μια σκληρή φυλακή.",
+    "synopsisEn": "A banker convicted of murder finds friendship and hope inside a harsh prison.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-shawshank.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=TLAjm0eEtXo",
+    "audioStart": 77.812,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Film Trims",
+    "audioSourceTitle": "Andy Gives Hadley Tax Advice (HD) - The Shawshank Redemption (1994)",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "inception",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Inception",
+    "year": 2010,
+    "leads": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt"
+    ],
+    "supporting": [
+      "Dileep Rao",
+      "Tom Berenger"
+    ],
+    "aliases": [
+      "Inception"
+    ],
+    "clue": "Πολλά επίπεδα ονείρων και μια ιδέα που πρέπει να φυτευτεί.",
+    "clueEn": "Several layers of dreams and an idea that must be planted.",
+    "synopsis": "Μια ομάδα εισχωρεί στα όνειρα ενός κληρονόμου για να φυτέψει μια ιδέα αντί να κλέψει πληροφορίες.",
+    "synopsisEn": "A team enters an heir’s dreams to plant an idea rather than steal information.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-inception.mp3",
+    "source": "https://en.wikipedia.org/wiki/Inception",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=i3-jlhJgU9U",
+    "audioStart": 29.044,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Movieclips",
+    "audioSourceTitle": "Inception (2010) - You're in a Dream Scene (2/10) | Movieclips",
+    "audioSpeechSeconds": 6.62,
+    "audioMaxGap": 0.38
+  },
+  {
+    "id": "terminator",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "The Terminator",
+    "year": 1984,
+    "leads": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton"
+    ],
+    "supporting": [
+      "Paul Winfield",
+      "Lance Henriksen"
+    ],
+    "aliases": [
+      "The Terminator",
+      "Ο Εξολοθρευτής",
+      "Terminator"
+    ],
+    "clue": "Ένας ανελέητος επισκέπτης από ένα καταστροφικό μέλλον.",
+    "clueEn": "A relentless visitor from a catastrophic future.",
+    "synopsis": "Ένας μηχανικός δολοφόνος έρχεται από το μέλλον για να σκοτώσει τη μητέρα ενός μελλοντικού ηγέτη.",
+    "synopsisEn": "A robotic killer arrives from the future to murder the mother of a future resistance leader.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-terminator.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Terminator",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=RqW6AkTFYQA",
+    "audioStart": 33.204,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Flashback FM",
+    "audioSourceTitle": "The Terminator is an infiltration unit | The Terminator [Open Matte, Remastered]",
+    "audioSpeechSeconds": 5.59,
+    "audioMaxGap": 0.58
+  },
+  {
+    "id": "fight-club",
+    "kind": "movies",
+    "difficulty": "classic",
+    "title": "Fight Club",
+    "year": 1999,
+    "leads": [
+      "Brad Pitt",
+      "Edward Norton"
+    ],
+    "supporting": [
+      "Meat Loaf",
+      "Zach Grenier"
+    ],
+    "aliases": [
+      "Fight Club"
+    ],
+    "clue": "Ένας σαπωνοποιός και μια μυστική λέσχη με αυστηρούς κανόνες.",
+    "clueEn": "A soap maker and a secret club with strict rules.",
+    "synopsis": "Ένας άυπνος υπάλληλος γνωρίζει έναν σαπωνοποιό και ιδρύουν μια μυστική λέσχη που ξεφεύγει από τον έλεγχό τους.",
+    "synopsisEn": "An insomniac office worker meets a soap maker and starts a secret club that grows beyond their control.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-fight-club.mp3",
+    "source": "https://en.wikipedia.org/wiki/Fight_Club",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=SiB8GVMNJkE",
+    "audioStart": 40.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Montag Beeblebrox",
+    "audioSourceTitle": "Fight Club - The Recall Coordinator's Formula",
+    "audioSpeechSeconds": 6.05,
+    "audioMaxGap": 0.32
+  },
+  {
+    "id": "hitch-hiker",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Hitch-Hiker",
+    "year": 1953,
+    "leads": [
+      "Edmond O’Brien",
+      "Frank Lovejoy"
+    ],
+    "supporting": [
+      "William Talman",
+      "José Torvay"
+    ],
+    "aliases": [
+      "The Hitch-Hiker",
+      "Hitch-Hiker"
+    ],
+    "clue": "Μια φιλική διαδρομή μετατρέπεται σε ομηρία.",
+    "clueEn": "A friendly lift becomes a hostage ordeal.",
+    "synopsis": "Δύο φίλοι σε εκδρομή για ψάρεμα παίρνουν στο αυτοκίνητό τους έναν οπλισμένο φυγά.",
+    "synopsisEn": "Two friends on a fishing trip pick up an armed fugitive.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-hitch-hiker.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Hitch-Hiker",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=XIeFKTbg3Aw",
+    "audioStart": 337.444,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Timeless Classic Movies",
+    "audioSourceTitle": "The Hitch-Hiker (1953) [Film Noir]",
+    "audioSpeechSeconds": 6.42,
+    "audioMaxGap": 0.58
+  },
+  {
+    "id": "too-late-tears",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "Too Late for Tears",
+    "year": 1949,
+    "leads": [
+      "Lizabeth Scott",
+      "Dan Duryea"
+    ],
+    "supporting": [
+      "Kristine Miller",
+      "Arthur Kennedy"
+    ],
+    "aliases": [
+      "Too Late for Tears"
+    ],
+    "clue": "Ξαφνικός πλούτος που κανείς δεν θέλει να παραδώσει.",
+    "clueEn": "Unexpected wealth that someone refuses to surrender.",
+    "synopsis": "Μια γυναίκα βρίσκει κατά λάθος μια τσάντα γεμάτη χρήματα και αρνείται να εγκαταλείψει τη νέα της ευκαιρία.",
+    "synopsisEn": "A woman accidentally receives a bag of money and refuses to surrender her unexpected opportunity.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-too-late-tears.mp3",
+    "source": "https://en.wikipedia.org/wiki/Too_Late_for_Tears",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=5DGMgtYIf1M",
+    "audioStart": 330.5,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "The Film Detective",
+    "audioSourceTitle": "Too Late For Tears (1949) | Full Movie | Lizabeth Scott | Don DeFore | Dan Duryea | Arthur Kennedy",
+    "audioSpeechSeconds": 6.1,
+    "audioMaxGap": 0.48
+  },
+  {
+    "id": "big-combo",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Big Combo",
+    "year": 1955,
+    "leads": [
+      "Cornel Wilde",
+      "Richard Conte"
+    ],
+    "supporting": [
+      "Brian Donlevy",
+      "Jean Wallace"
+    ],
+    "aliases": [
+      "The Big Combo",
+      "Big Combo"
+    ],
+    "clue": "Ένας ντετέκτιβ και ένας εγκληματίας χωρίς αναστολές.",
+    "clueEn": "A detective and a criminal with no scruples.",
+    "synopsis": "Ένας αστυνομικός προσπαθεί να συνδέσει έναν αδίστακτο αρχηγό συμμορίας με τα εγκλήματά του.",
+    "synopsisEn": "A detective tries to connect a ruthless crime boss to his criminal operations.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-big-combo.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Big_Combo",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=iIkCXF9Y4ow",
+    "audioStart": 231.14,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Timeless Classic Movies",
+    "audioSourceTitle": "The Big Combo (1955) [Film Noir] [Crime]",
+    "audioSpeechSeconds": 5.11,
+    "audioMaxGap": 1.18
+  },
+  {
+    "id": "scarlet-street",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "Scarlet Street",
+    "year": 1945,
+    "leads": [
+      "Edward G. Robinson",
+      "Joan Bennett"
+    ],
+    "supporting": [
+      "Dan Duryea",
+      "Margaret Lindsay"
+    ],
+    "aliases": [
+      "Scarlet Street"
+    ],
+    "clue": "Ένας ζωγράφος που ερωτεύεται τη λάθος γυναίκα.",
+    "clueEn": "A painter who falls for the wrong woman.",
+    "synopsis": "Ένας μοναχικός ερασιτέχνης ζωγράφος παρασύρεται από μια νεαρή γυναίκα που τον περνά για πλούσιο καλλιτέχνη.",
+    "synopsisEn": "A lonely amateur painter is manipulated by a young woman who mistakes him for a wealthy artist.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-scarlet-street.mp3",
+    "source": "https://en.wikipedia.org/wiki/Scarlet_Street",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=MNRSxu22NxU",
+    "audioStart": 198.532,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Cult Cinema Classics",
+    "audioSourceTitle": "Film-Noir | Scarlet Street (1945) Edward G. Robinson, Joan Bennett, Dan Duryea | Movie, Subtitles",
+    "audioSpeechSeconds": 5.02,
+    "audioMaxGap": 1.02
+  },
+  {
+    "id": "kansas-city",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "Kansas City Confidential",
+    "year": 1952,
+    "leads": [
+      "John Payne",
+      "Coleen Gray"
+    ],
+    "supporting": [
+      "Preston Foster",
+      "Neville Brand"
+    ],
+    "aliases": [
+      "Kansas City Confidential"
+    ],
+    "clue": "Ένας αθώος γίνεται ο ιδανικός ύποπτος για μια ληστεία.",
+    "clueEn": "An innocent man becomes the perfect suspect for a robbery.",
+    "synopsis": "Ένας αθώος οδηγός κατηγορείται για ληστεία και ακολουθεί τους πραγματικούς δράστες στο Μεξικό.",
+    "synopsisEn": "An innocent driver is blamed for a robbery and follows the real criminals to Mexico.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kansas-city.mp3",
+    "source": "https://en.wikipedia.org/wiki/Kansas_City_Confidential",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=WeLiekHjnrs",
+    "audioStart": 951.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Classic Films Rewind",
+    "audioSourceTitle": "Kansas City Confidential (1952) starring John Payne & Lee Van Cleef in this Crime Drama | Full Movie",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "last-paris",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Last Time I Saw Paris",
+    "year": 1954,
+    "leads": [
+      "Elizabeth Taylor",
+      "Van Johnson"
+    ],
+    "supporting": [
+      "Donna Reed",
+      "Walter Pidgeon"
+    ],
+    "aliases": [
+      "The Last Time I Saw Paris",
+      "Last Time I Saw Paris"
+    ],
+    "clue": "Ένας δύσκολος γάμος στην πόλη του φωτός.",
+    "clueEn": "A troubled marriage in the City of Light.",
+    "synopsis": "Ένας συγγραφέας θυμάται τον γάμο του στο μεταπολεμικό Παρίσι και τις απογοητεύσεις που τον διέλυσαν.",
+    "synopsisEn": "A writer remembers his marriage in postwar Paris and the disappointments that tore it apart.",
+    "originalFormat": "color",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-last-paris.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Last_Time_I_Saw_Paris",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=LMI5gcfrXoc",
+    "audioStart": 221.796,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Movie Vault",
+    "audioSourceTitle": "Elizabeth Taylor In Iconic Hollywood Movie I The Last Time I Saw Paris (1954) I Full Movie",
+    "audioSpeechSeconds": 6.71,
+    "audioMaxGap": 0.29
+  },
+  {
+    "id": "killer-shrews",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Killer Shrews",
+    "year": 1959,
+    "leads": [
+      "James Best",
+      "Ingrid Goude"
+    ],
+    "supporting": [
+      "Ken Curtis",
+      "Gordon McLendon"
+    ],
+    "aliases": [
+      "The Killer Shrews",
+      "Killer Shrews"
+    ],
+    "clue": "Μια καταιγίδα, ένα νησί και ζώα με τρομακτική όρεξη.",
+    "clueEn": "A storm, an island and animals with a frightening appetite.",
+    "synopsis": "Ένας καπετάνιος αποκλείεται από καταιγίδα σε νησί όπου πειράματα δημιούργησαν τεράστια πεινασμένα ζώα.",
+    "synopsisEn": "A captain is trapped by a storm on an island where experiments have created giant hungry animals.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-killer-shrews.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Killer_Shrews",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=C5CwIBLVXQE",
+    "audioStart": 200.26,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Cult Cinema Classics",
+    "audioSourceTitle": "4K - The Killer Shrews (1959) They must eat 3 times their weight each day... OR STARVE!",
+    "audioSpeechSeconds": 5.79,
+    "audioMaxGap": 0.54
+  },
+  {
+    "id": "gila-monster",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Giant Gila Monster",
+    "year": 1959,
+    "leads": [
+      "Don Sullivan",
+      "Lisa Simone"
+    ],
+    "supporting": [
+      "Fred Graham",
+      "Shug Fisher"
+    ],
+    "aliases": [
+      "The Giant Gila Monster",
+      "Giant Gila Monster"
+    ],
+    "clue": "Ένα τεράστιο ερπετό απειλεί μια ήσυχη μικρή πόλη.",
+    "clueEn": "A huge reptile threatens a quiet small town.",
+    "synopsis": "Μια μικρή πόλη απειλείται από ένα γιγάντιο ερπετό και ένας νεαρός μηχανικός προσπαθεί να το σταματήσει.",
+    "synopsisEn": "A giant reptile threatens a small town, and a young mechanic tries to stop it.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-gila-monster.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Giant_Gila_Monster",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=apwWuNIsKwI",
+    "audioStart": 202.34,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Cult Cinema Classics",
+    "audioSourceTitle": "The Giant Gila Monster (1959 Sci-Fi) The Biggest Terror Ever Unleashed on the Screen! 4K",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "red-house",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Red House",
+    "year": 1947,
+    "leads": [
+      "Edward G. Robinson",
+      "Judith Anderson"
+    ],
+    "supporting": [
+      "Rory Calhoun",
+      "Julie London"
+    ],
+    "aliases": [
+      "The Red House",
+      "Red House"
+    ],
+    "clue": "Ένα σπίτι στο δάσος που όλοι πρέπει να αποφεύγουν.",
+    "clueEn": "A house in the woods that everyone is warned to avoid.",
+    "synopsis": "Ένας απομονωμένος αγρότης κρύβει ένα σκοτεινό μυστικό σε ένα απαγορευμένο σπίτι μέσα στο δάσος.",
+    "synopsisEn": "An isolated farmer hides a dark secret in a forbidden house in the woods.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-red-house.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Red_House",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=L6HZnUTPyho",
+    "audioStart": 551.268,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Timeless Classic Movies",
+    "audioSourceTitle": "The Red House (1947) [Thriller]",
+    "audioSpeechSeconds": 5.94,
+    "audioMaxGap": 0.54
+  },
+  {
+    "id": "brain-die",
+    "kind": "movies",
+    "difficulty": "hard",
+    "title": "The Brain That Wouldn’t Die",
+    "year": 1962,
+    "leads": [
+      "Jason Evers",
+      "Virginia Leith"
+    ],
+    "supporting": [
+      "Anthony La Penna",
+      "Adele Lamont"
+    ],
+    "aliases": [
+      "The Brain That Wouldn’t Die",
+      "Brain That Wouldn’t Die"
+    ],
+    "clue": "Ένα ιατρικό πείραμα που καταργεί κάθε ηθικό όριο.",
+    "clueEn": "A medical experiment that crosses every ethical boundary.",
+    "synopsis": "Ένας γιατρός κρατά ζωντανό το κεφάλι της αρραβωνιαστικιάς του και αναζητά ένα νέο σώμα για εκείνη.",
+    "synopsisEn": "A doctor keeps his fiancée’s severed head alive while searching for a new body for her.",
+    "originalFormat": "bw",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-brain-die.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Brain_That_Wouldn't_Die",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=raQ-vRt3Euk",
+    "audioStart": 548.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Retro Movie Theater",
+    "audioSourceTitle": "The Brain That Wouldn’t Die (1962) FULL MOVIE | Original Black & White | Sci-Fi Horror Classic",
+    "audioSpeechSeconds": 6.07,
+    "audioMaxGap": 0.58
+  },
+  {
+    "id": "seinfeld",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "Seinfeld",
+    "year": 1989,
+    "leads": [
+      "Jerry Seinfeld",
+      "Julia Louis-Dreyfus"
+    ],
+    "supporting": [
+      "Wayne Knight",
+      "Estelle Harris"
+    ],
+    "aliases": [
+      "Seinfeld",
+      "Σάινφελντ"
+    ],
+    "clue": "Μια παρέα που μετατρέπει τις ασήμαντες λεπτομέρειες σε προβλήματα.",
+    "clueEn": "Friends who turn insignificant details into major problems.",
+    "synopsis": "Τέσσερις φίλοι στη Νέα Υόρκη μετατρέπουν καθημερινές μικροενοχλήσεις σε μεγάλες κωμικές περιπέτειες.",
+    "synopsisEn": "Four New York friends turn everyday annoyances into elaborate comic misadventures.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-seinfeld.mp3",
+    "source": "https://en.wikipedia.org/wiki/Seinfeld",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=vLjNcmJu6SQ",
+    "audioStart": 23.524,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Sony Pictures Entertainment India",
+    "audioSourceTitle": "A lot of gum | Seinfeld (1989)",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "office-us",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "The Office",
+    "year": 2005,
+    "leads": [
+      "Steve Carell",
+      "Rainn Wilson"
+    ],
+    "supporting": [
+      "David Denman",
+      "Melora Hardin"
+    ],
+    "aliases": [
+      "The Office",
+      "The Office US",
+      "The Office USA",
+      "Office"
+    ],
+    "clue": "Αμήχανες στιγμές σε ένα γραφείο που καταγράφει μια κάμερα.",
+    "clueEn": "Awkward moments in an office recorded by a camera.",
+    "synopsis": "Ένα συνεργείο καταγράφει την αλλόκοτη καθημερινότητα εργαζομένων σε εταιρεία χαρτιού στο Σκράντον.",
+    "synopsisEn": "A documentary crew records the eccentric everyday lives of a paper-company office in Scranton.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-office-us.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=HLZyi24Z90A",
+    "audioStart": 59.54,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "The Office",
+    "audioSourceTitle": "The First 5 Minutes of The Office - The Office US",
+    "audioSpeechSeconds": 6.36,
+    "audioMaxGap": 0.64
+  },
+  {
+    "id": "stranger-things",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "Stranger Things",
+    "year": 2016,
+    "leads": [
+      "Millie Bobby Brown",
+      "Winona Ryder"
+    ],
+    "supporting": [
+      "Cara Buono",
+      "Joe Chrest"
+    ],
+    "aliases": [
+      "Stranger Things"
+    ],
+    "clue": "Μια εξαφάνιση και κάτι επικίνδυνο πέρα από τον γνωστό κόσμο.",
+    "clueEn": "A disappearance and something dangerous beyond the familiar world.",
+    "synopsis": "Μια παρέα παιδιών ερευνά την εξαφάνιση φίλου της και ανακαλύπτει έναν επικίνδυνο παράλληλο κόσμο.",
+    "synopsisEn": "Children investigate a friend’s disappearance and discover a dangerous parallel world.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-stranger-things.mp3",
+    "source": "https://en.wikipedia.org/wiki/Stranger_Things",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=G9w9icAy74k",
+    "audioStart": 18.388,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Solcher Derbeer",
+    "audioSourceTitle": "Stranger Things -  Joyce and Jonathan arguing Scene (HD 1080p)",
+    "audioSpeechSeconds": 6.58,
+    "audioMaxGap": 0.42
+  },
+  {
+    "id": "prison-break",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "Prison Break",
+    "year": 2005,
+    "leads": [
+      "Wentworth Miller",
+      "Dominic Purcell"
+    ],
+    "supporting": [
+      "Wade Williams",
+      "Paul Adelstein"
+    ],
+    "aliases": [
+      "Prison Break",
+      "Πρίσον Μπρέικ"
+    ],
+    "clue": "Ένα τατουάζ κρύβει κάτι περισσότερο από ένα σχέδιο.",
+    "clueEn": "A tattoo conceals much more than a design.",
+    "synopsis": "Ένας μηχανικός μπαίνει σκόπιμα στη φυλακή με ένα σχέδιο για να σώσει τον καταδικασμένο αδελφό του.",
+    "synopsisEn": "An engineer deliberately enters prison with a plan to rescue his condemned brother.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-prison-break.mp3",
+    "source": "https://en.wikipedia.org/wiki/Prison_Break",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=x0LSTp5k3bo",
+    "audioStart": 10.452,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "john giannis",
+    "audioSourceTitle": "Funny conversation between Bellick and T-Bag",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "how-met-mother",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "How I Met Your Mother",
+    "year": 2005,
+    "leads": [
+      "Josh Radnor",
+      "Neil Patrick Harris"
+    ],
+    "supporting": [
+      "Marshall Manesh",
+      "David Henrie"
+    ],
+    "aliases": [
+      "How I Met Your Mother"
+    ],
+    "clue": "Μια πολύ μεγάλη ιστορία για το πώς ξεκίνησε μια οικογένεια.",
+    "clueEn": "A very long story about how a family began.",
+    "synopsis": "Ένας πατέρας αφηγείται στα παιδιά του τις περιπέτειες της παρέας του πριν γνωρίσει τη μητέρα τους.",
+    "synopsisEn": "A father tells his children about his friends’ adventures before meeting their mother.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-how-met-mother.mp3",
+    "source": "https://en.wikipedia.org/wiki/How_I_Met_Your_Mother",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=EAEpwxxXpUo",
+    "audioStart": 5.252,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Lieutinant Whoareyou",
+    "audioSourceTitle": "The Ewok Line | How I Met Your Mother (2005)",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "dexter",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "Dexter",
+    "year": 2006,
+    "leads": [
+      "Michael C. Hall",
+      "Jennifer Carpenter"
+    ],
+    "supporting": [
+      "David Zayas",
+      "Lauren Vélez"
+    ],
+    "aliases": [
+      "Dexter"
+    ],
+    "clue": "Ένας ειδικός της αστυνομίας με ένα μεγάλο προσωπικό μυστικό.",
+    "clueEn": "A police specialist with an enormous personal secret.",
+    "synopsis": "Ένας ειδικός στα ίχνη αίματος κρύβει μια δεύτερη ζωή και στρέφεται εναντίον δολοφόνων που γλίτωσαν.",
+    "synopsisEn": "A blood-spatter analyst hides a second life targeting killers who escaped justice.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-dexter.mp3",
+    "source": "https://en.wikipedia.org/wiki/Dexter_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=PYXgi4ONCS0",
+    "audioStart": 184.676,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Dexter Official",
+    "audioSourceTitle": "Dexter Confesses to Doakes 🗣️ Dexter",
+    "audioSpeechSeconds": 5.85,
+    "audioMaxGap": 0.77
+  },
+  {
+    "id": "sopranos",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "The Sopranos",
+    "year": 1999,
+    "leads": [
+      "James Gandolfini",
+      "Edie Falco"
+    ],
+    "supporting": [
+      "John Ventimiglia",
+      "Kathrine Narducci"
+    ],
+    "aliases": [
+      "The Sopranos",
+      "Sopranos"
+    ],
+    "clue": "Ένας οικογενειάρχης με εγκληματικές ευθύνες και κρίσεις πανικού.",
+    "clueEn": "A family man with criminal responsibilities and panic attacks.",
+    "synopsis": "Ένας αρχηγός της μαφίας στο Νιου Τζέρσεϊ προσπαθεί να ισορροπήσει οικογένεια, εγκλήματα και ψυχοθεραπεία.",
+    "synopsisEn": "A New Jersey mob boss tries to balance family, crime and psychotherapy.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-sopranos.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Sopranos",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=30u6lIkRVKs",
+    "audioStart": 12.468,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Alfred C. Chu",
+    "audioSourceTitle": "The Sopranos (1999–2007) Live Free or Die: Tony and Christopher talk in code about the hit on Rusty",
+    "audioSpeechSeconds": 5.5,
+    "audioMaxGap": 0.77
+  },
+  {
+    "id": "house-md",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "House",
+    "year": 2004,
+    "leads": [
+      "Hugh Laurie",
+      "Lisa Edelstein"
+    ],
+    "supporting": [
+      "Anne Dudek",
+      "Chi McBride"
+    ],
+    "aliases": [
+      "House",
+      "House MD",
+      "House M.D.",
+      "Dr House",
+      "Ιατρικές Υποθέσεις"
+    ],
+    "clue": "Δύσκολες διαγνώσεις και ένας γιατρός που παραβιάζει κανόνες.",
+    "clueEn": "Difficult diagnoses and a doctor who breaks rules.",
+    "synopsis": "Ένας ιδιοφυής αλλά δύστροπος γιατρός και η ομάδα του λύνουν ασυνήθιστα ιατρικά μυστήρια.",
+    "synopsisEn": "A brilliant but abrasive doctor and his team solve unusual medical mysteries.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-house-md.mp3",
+    "source": "https://en.wikipedia.org/wiki/House_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=eWZkWmmVLgY",
+    "audioStart": 15.988,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "House M.D.",
+    "audioSourceTitle": "Taub's Free Pass | House M.D..",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "sherlock-bbc",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "Sherlock",
+    "year": 2010,
+    "leads": [
+      "Benedict Cumberbatch",
+      "Martin Freeman"
+    ],
+    "supporting": [
+      "Una Stubbs",
+      "Louise Brealey"
+    ],
+    "aliases": [
+      "Sherlock",
+      "Σέρλοκ"
+    ],
+    "clue": "Ένας ασυνήθιστος συγκάτοικος με εξαιρετική παρατηρητικότητα.",
+    "clueEn": "An unusual flatmate with exceptional powers of observation.",
+    "synopsis": "Ένας εκκεντρικός ντετέκτιβ και ένας πρώην στρατιωτικός γιατρός λύνουν υποθέσεις στο σύγχρονο Λονδίνο.",
+    "synopsisEn": "An eccentric detective and a former army doctor solve cases in modern London.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-sherlock-bbc.mp3",
+    "source": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=dXNQz7l6Bmc",
+    "audioStart": 61.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Mogili",
+    "audioSourceTitle": "Sherlock   Holmes and Watson   Conversation in a cab",
+    "audioSpeechSeconds": 6.17,
+    "audioMaxGap": 0.45
+  },
+  {
+    "id": "wednesday",
+    "kind": "series",
+    "difficulty": "classic",
+    "title": "Wednesday",
+    "year": 2022,
+    "leads": [
+      "Jenna Ortega",
+      "Emma Myers"
+    ],
+    "supporting": [
+      "Jamie McShane",
+      "Riki Lindhome"
+    ],
+    "aliases": [
+      "Wednesday",
+      "Γουένσντεϊ"
+    ],
+    "clue": "Μια έφηβη με σκοτεινό χιούμορ σε ένα ασυνήθιστο σχολείο.",
+    "clueEn": "A teenager with dark humour at an unusual school.",
+    "synopsis": "Μια σκοτεινή έφηβη πηγαίνει σε σχολείο για ιδιαίτερα παιδιά και ερευνά μια σειρά φόνων.",
+    "synopsisEn": "A gloomy teenager attends a school for unusual students and investigates a string of murders.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-wednesday.mp3",
+    "source": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=hJVbo5sy5FI",
+    "audioStart": 5.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Still Watching Netflix",
+    "audioSourceTitle": "Morticia Says Goodbye To Wednesday | Netflix",
+    "audioSpeechSeconds": 6.04,
+    "audioMaxGap": 0.96
+  },
+  {
+    "id": "ramar-jungle",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "Ramar of the Jungle",
+    "year": 1952,
+    "leads": [
+      "Jon Hall",
+      "Ray Montgomery"
+    ],
+    "supporting": [
+      "Nick Stewart",
+      "Victor Millan"
+    ],
+    "aliases": [
+      "Ramar of the Jungle"
+    ],
+    "clue": "Ιατρική βοήθεια και περιπέτειες σε μακρινές ζούγκλες.",
+    "clueEn": "Medical help and adventures in distant jungles.",
+    "synopsis": "Ένας γιατρός και ο βοηθός του εργάζονται σε απομακρυσμένες περιοχές και αντιμετωπίζουν επικίνδυνες περιπέτειες.",
+    "synopsisEn": "A doctor and his assistant work in remote regions and face dangerous adventures.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-ramar-jungle.mp3",
+    "source": "https://en.wikipedia.org/wiki/Ramar_of_the_Jungle",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=I7pl5P3CbTs",
+    "audioStart": 190.948,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Classic Movies, Cartoons, and TV",
+    "audioSourceTitle": "Ramar of the Jungle - Striped Fury",
+    "audioSpeechSeconds": 6.65,
+    "audioMaxGap": 0.35
+  },
+  {
+    "id": "man-camera",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "Man with a Camera",
+    "year": 1958,
+    "leads": [
+      "Charles Bronson",
+      "James Flavin"
+    ],
+    "supporting": [
+      "Ludwig Stössel",
+      "Yvonne Craig"
+    ],
+    "aliases": [
+      "Man with a Camera"
+    ],
+    "clue": "Ένας φωτογράφος βρίσκεται διαρκώς μέσα σε εγκληματικές υποθέσεις.",
+    "clueEn": "A photographer repeatedly finds himself involved in criminal cases.",
+    "synopsis": "Ένας ανεξάρτητος φωτογράφος χρησιμοποιεί την κάμερά του για να βοηθά στην εξιχνίαση εγκλημάτων.",
+    "synopsisEn": "A freelance photographer uses his camera to help solve crimes.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-man-camera.mp3",
+    "source": "https://en.wikipedia.org/wiki/Man_with_a_Camera",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=9KlHu7_rU7w",
+    "audioStart": 182.308,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "PizzaFlix",
+    "audioSourceTitle": "MAN WITH A CAMERA (TV-1958) The Warning CHARLES BRONSON (S1E2)",
+    "audioSpeechSeconds": 5.38,
+    "audioMaxGap": 0.73
+  },
+  {
+    "id": "mr-lucky",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "Mr. Lucky",
+    "year": 1959,
+    "leads": [
+      "John Vivyan",
+      "Ross Martin"
+    ],
+    "supporting": [
+      "Pippa Scott",
+      "Tom Brown"
+    ],
+    "aliases": [
+      "Mr. Lucky"
+    ],
+    "clue": "Ένας τζογαδόρος και ένα καζίνο που δεν βρίσκεται στη στεριά.",
+    "clueEn": "A gambler and a casino that is not on dry land.",
+    "synopsis": "Ένας επαγγελματίας τζογαδόρος και ο φίλος του λειτουργούν ένα πλωτό καζίνο και μπλέκουν σε επικίνδυνες υποθέσεις.",
+    "synopsisEn": "A professional gambler and his friend operate a floating casino and become involved in dangerous cases.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mr-lucky.mp3",
+    "source": "https://en.wikipedia.org/wiki/Mr._Lucky_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=3c0FqyCWQaM",
+    "audioStart": 180.004,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "TheArchiveSeries",
+    "audioSourceTitle": "Mr. Lucky | Season 1 | Episode 1 | The Magnificent Bribe | John Vivyan | Ross Martin | Tom Brown",
+    "audioSpeechSeconds": 6.3,
+    "audioMaxGap": 0.7
+  },
+  {
+    "id": "peter-gunn",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "Peter Gunn",
+    "year": 1958,
+    "leads": [
+      "Craig Stevens",
+      "Lola Albright"
+    ],
+    "supporting": [
+      "Herschel Bernardi",
+      "Hope Emerson"
+    ],
+    "aliases": [
+      "Peter Gunn"
+    ],
+    "clue": "Ένας ψύχραιμος ντετέκτιβ συχνάζει σε ένα τζαζ κλαμπ.",
+    "clueEn": "A cool-headed detective frequents a jazz club.",
+    "synopsis": "Ένας ιδιωτικός ντετέκτιβ συναντά τους πελάτες του σε ένα τζαζ κλαμπ και ερευνά εγκλήματα με ψυχραιμία.",
+    "synopsisEn": "A private detective meets clients in a jazz club and investigates crimes with cool composure.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-peter-gunn.mp3",
+    "source": "https://en.wikipedia.org/wiki/Peter_Gunn",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=GSXd1rSzh14",
+    "audioStart": 222.084,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "TheArchiveSeries",
+    "audioSourceTitle": "Peter Gunn | Season 1 | Episode 1 | The Kill | Craig Stevens | Herschel Bernardi | Lola Albright",
+    "audioSpeechSeconds": 5.14,
+    "audioMaxGap": 0.86
+  },
+  {
+    "id": "ozzie-harriet",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "The Adventures of Ozzie and Harriet",
+    "year": 1952,
+    "leads": [
+      "Ozzie Nelson",
+      "Harriet Nelson"
+    ],
+    "supporting": [
+      "Don DeFore",
+      "Lyle Talbot"
+    ],
+    "aliases": [
+      "The Adventures of Ozzie and Harriet",
+      "Adventures of Ozzie and Harriet"
+    ],
+    "clue": "Μικρά οικογενειακά προβλήματα σε ένα αμερικανικό σπίτι.",
+    "clueEn": "Small family problems in an American household.",
+    "synopsis": "Μια αμερικανική οικογένεια αντιμετωπίζει τις μικρές κωμικές δυσκολίες της καθημερινής ζωής.",
+    "synopsisEn": "An American family navigates the small comic complications of everyday life.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-ozzie-harriet.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Adventures_of_Ozzie_and_Harriet",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=jJYwphbpwb0",
+    "audioStart": 180,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Boomer Channel",
+    "audioSourceTitle": "The Adventures of Ozzie and Harriet (1952) 'The Pills’",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "range-rider",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "The Range Rider",
+    "year": 1951,
+    "leads": [
+      "Jock Mahoney",
+      "Dick Jones"
+    ],
+    "supporting": [
+      "Stanley Andrews",
+      "Gregg Barton"
+    ],
+    "aliases": [
+      "The Range Rider",
+      "Range Rider"
+    ],
+    "clue": "Δύο φίλοι υπερασπίζονται το δίκαιο στις δυτικές περιοχές.",
+    "clueEn": "Two friends defend justice across western territories.",
+    "synopsis": "Δύο καβαλάρηδες ταξιδεύουν στη Δύση και βοηθούν όσους απειλούνται από ληστές και απάτες.",
+    "synopsisEn": "Two horsemen travel the West helping people threatened by outlaws and swindlers.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-range-rider.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Range_Rider",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=o9p-ygBaBoo",
+    "audioStart": 649.188,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "PizzaFlix",
+    "audioSourceTitle": "The Range Rider BORDER CITY AFFAIR",
+    "audioSpeechSeconds": 6.49,
+    "audioMaxGap": 0.51
+  },
+  {
+    "id": "cisco-kid",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "The Cisco Kid",
+    "year": 1950,
+    "leads": [
+      "Duncan Renaldo",
+      "Leo Carrillo"
+    ],
+    "supporting": [
+      "John L. Cason",
+      "Stanley Andrews"
+    ],
+    "aliases": [
+      "The Cisco Kid",
+      "Cisco Kid"
+    ],
+    "clue": "Ένα αχώριστο δίδυμο καβαλάρηδων στέκεται δίπλα στους αδύναμους.",
+    "clueEn": "An inseparable pair of horsemen stands up for the vulnerable.",
+    "synopsis": "Ένας καβαλάρης και ο πιστός σύντροφός του ταξιδεύουν στις δυτικές περιοχές για να υπερασπιστούν αθώους.",
+    "synopsisEn": "A horseman and his loyal companion travel western territories defending innocent people.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-cisco-kid.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Cisco_Kid_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=aTzrI0ShbGo",
+    "audioStart": 217.028,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Grjngo - Western Series",
+    "audioSourceTitle": "The Cisco Kid - Boomerang | Episode 01 | CLASSIC WESTERN SERIES | Full Length",
+    "audioSpeechSeconds": 6.62,
+    "audioMaxGap": 0.32
+  },
+  {
+    "id": "lone-ranger",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "The Lone Ranger",
+    "year": 1949,
+    "leads": [
+      "Clayton Moore",
+      "Jay Silverheels"
+    ],
+    "supporting": [
+      "John Hart",
+      "Chuck Courtney"
+    ],
+    "aliases": [
+      "The Lone Ranger",
+      "Lone Ranger"
+    ],
+    "clue": "Μια μάσκα, ένα άλογο και η επιδίωξη της δικαιοσύνης.",
+    "clueEn": "A mask, a horse and the pursuit of justice.",
+    "synopsis": "Ένας μασκοφόρος καβαλάρης και ο σύντροφός του κυνηγούν παρανόμους στην Άγρια Δύση.",
+    "synopsisEn": "A masked horseman and his companion pursue outlaws in the American West.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-lone-ranger.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Lone_Ranger_(TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=putXSdjlztE",
+    "audioStart": 188.196,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "The Lone Ranger",
+    "audioSourceTitle": "The Lone Ranger | S01 E01 | Enter the Lone Ranger | Full Episode",
+    "audioSpeechSeconds": 5.7,
+    "audioMaxGap": 0.64
+  },
+  {
+    "id": "buccaneers",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "The Buccaneers",
+    "year": 1956,
+    "leads": [
+      "Robert Shaw",
+      "Paul Hansard"
+    ],
+    "supporting": [
+      "Brian Rawlinson",
+      "Edwin Richfield"
+    ],
+    "aliases": [
+      "The Buccaneers",
+      "Buccaneers"
+    ],
+    "clue": "Ένας πρώην πειρατής αλλάζει πλευρά σε επικίνδυνες θάλασσες.",
+    "clueEn": "A former pirate changes sides on dangerous seas.",
+    "synopsis": "Ένας πρώην πειρατής γίνεται άνθρωπος του νόμου και αντιμετωπίζει θαλάσσιους κινδύνους στην Καραϊβική.",
+    "synopsisEn": "A former pirate becomes a man of the law and confronts maritime dangers in the Caribbean.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-buccaneers.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Buccaneers_(1956_TV_series)",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=VBFSTI47II4",
+    "audioStart": 187.204,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Boomer Channel",
+    "audioSourceTitle": "The Buccaneers (1956) S1 E1 ‘Blackbeard’",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0
+  },
+  {
+    "id": "sir-lancelot",
+    "kind": "series",
+    "difficulty": "hard",
+    "title": "The Adventures of Sir Lancelot",
+    "year": 1956,
+    "leads": [
+      "William Russell",
+      "Cyril Smith"
+    ],
+    "supporting": [
+      "Bruce Seton",
+      "Ronald Leigh-Hunt"
+    ],
+    "aliases": [
+      "The Adventures of Sir Lancelot",
+      "Adventures of Sir Lancelot"
+    ],
+    "clue": "Ένας ιππότης και οι αποστολές ενός θρυλικού βασιλείου.",
+    "clueEn": "A knight and the missions of a legendary kingdom.",
+    "synopsis": "Ένας ιππότης της Στρογγυλής Τραπέζης αναλαμβάνει αποστολές για τον βασιλιά και προστατεύει το βασίλειο.",
+    "synopsisEn": "A knight of the Round Table undertakes missions for his king and protects the kingdom.",
+    "originalFormat": null,
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-sir-lancelot.mp3",
+    "source": "https://en.wikipedia.org/wiki/The_Adventures_of_Sir_Lancelot",
+    "addedIn": "20261012-more40",
+    "audioSource": "https://www.youtube.com/watch?v=NdUxy4Er-es",
+    "audioStart": 196.228,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Boomer Channel",
+    "audioSourceTitle": "The Adventures of Sir Lancelot | S1E1 'The Knight w/ the Red Plume'",
+    "audioSpeechSeconds": 5.94,
+    "audioMaxGap": 0.74
   }
 ]

@@ -47,3 +47,48 @@
 - The Adventures of Robin Hood: [Boomer Channel](https://www.youtube.com/watch?v=alrsF0VWt3k), 218.66–225.66s; The Adventures of Robin Hood (1955) S1E1 'The Coming of Robin Hood'. Detected speech: 6.14s; longest gap: 0.83s.
 - Sherlock Holmes: [FFF Rewind | Full Free Old School Films](https://www.youtube.com/watch?v=YLGqQfhZWpM), 350.02–357.02s; SHERLOCK HOLMES: THE CASE OF THE BLIND MAN'S BLUFF (1954) - Ronald Howard as SHERLOCK | Mystery TV. Detected speech: 5.89s; longest gap: 0.83s.
 - Flash Gordon: [Classic TV Channel](https://www.youtube.com/watch?v=Z_E6h3ZDD_w), 220.676–227.676s; Flash Gordon - Season 1 - Episode 1 - Planet of Death | Steve Holland, Irene Champlin. Detected speech: 5.37s; longest gap: 0.45s.
+
+## Added scene excerpts — 2026-10-12
+
+40 original seven-second movie and TV scene excerpts. Each was checked locally for speech activity and transcribed to screen for the title being spoken. No generated narration or trailers are used. Sources are credited below; these additions are not collectively described as public domain.
+
+- Titanic (1997): [20th Century Studios UK](https://www.youtube.com/watch?v=Phm9wbFAbp0), 16.548–23.548s. Titanic 3D | "You Going to Cut Her Meat too Call" | Official Clip HD. Speech: 6.69s, maximum gap: 0.31s.
+- Forrest Gump (1994): [Paramount Movies](https://www.youtube.com/watch?v=vdtqSaJO-iM), 156.916–163.916s. Forrest Gump | "Life is Like A Box of Chocolates" Full Scene | Paramount Movies. Speech: 6.65s, maximum gap: 0.35s.
+- Pulp Fiction (1994): [Movieclips](https://www.youtube.com/watch?v=LBBni_-tMNs), 27.476–34.476s. I Shot Marvin in the Face - Pulp Fiction (11/12) Movie CLIP (1994) HD. Speech: 7.0s, maximum gap: 0.0s.
+- Jurassic Park (1993): [Movieclips](https://www.youtube.com/watch?v=3lZy3teNY84), 51.316–58.316s. Jurassic Park (1993) - Chaos Theory Scene | Movieclips. Speech: 7.0s, maximum gap: 0.0s.
+- Back to the Future (1985): [Movieclips](https://www.youtube.com/watch?v=Qfs38mrZF-4), 37.716–44.716s. Back to the Future (1985) - You're George McFly! Scene | Movieclips. Speech: 7.0s, maximum gap: 0.0s.
+- Gladiator (2000): [Screen Bites](https://www.youtube.com/watch?v=lKn-Agk-yAI), 82.788–89.788s. My Name Is Maximus | Gladiator (2000) | Screen Bites. Speech: 5.27s, maximum gap: 1.06s.
+- The Shawshank Redemption (1994): [Film Trims](https://www.youtube.com/watch?v=TLAjm0eEtXo), 77.812–84.812s. Andy Gives Hadley Tax Advice (HD) - The Shawshank Redemption (1994). Speech: 7.0s, maximum gap: 0.0s.
+- Inception (2010): [Movieclips](https://www.youtube.com/watch?v=i3-jlhJgU9U), 29.044–36.044s. Inception (2010) - You're in a Dream Scene (2/10) | Movieclips. Speech: 6.62s, maximum gap: 0.38s.
+- The Terminator (1984): [Flashback FM](https://www.youtube.com/watch?v=RqW6AkTFYQA), 33.204–40.204s. The Terminator is an infiltration unit | The Terminator [Open Matte, Remastered]. Speech: 5.59s, maximum gap: 0.58s.
+- Fight Club (1999): [Montag Beeblebrox](https://www.youtube.com/watch?v=SiB8GVMNJkE), 40.44–47.44s. Fight Club - The Recall Coordinator's Formula. Speech: 6.05s, maximum gap: 0.32s.
+- The Hitch-Hiker (1953): [Timeless Classic Movies](https://www.youtube.com/watch?v=XIeFKTbg3Aw), 337.444–344.444s. The Hitch-Hiker (1953) [Film Noir]. Speech: 6.42s, maximum gap: 0.58s.
+- Too Late for Tears (1949): [The Film Detective](https://www.youtube.com/watch?v=5DGMgtYIf1M), 330.5–337.5s. Too Late For Tears (1949) | Full Movie | Lizabeth Scott | Don DeFore | Dan Duryea | Arthur Kennedy. Speech: 6.1s, maximum gap: 0.48s.
+- The Big Combo (1955): [Timeless Classic Movies](https://www.youtube.com/watch?v=iIkCXF9Y4ow), 231.14–238.14s. The Big Combo (1955) [Film Noir] [Crime]. Speech: 5.11s, maximum gap: 1.18s.
+- Scarlet Street (1945): [Cult Cinema Classics](https://www.youtube.com/watch?v=MNRSxu22NxU), 198.532–205.532s. Film-Noir | Scarlet Street (1945) Edward G. Robinson, Joan Bennett, Dan Duryea | Movie, Subtitles. Speech: 5.02s, maximum gap: 1.02s.
+- Kansas City Confidential (1952): [Classic Films Rewind](https://www.youtube.com/watch?v=WeLiekHjnrs), 951.94–958.94s. Kansas City Confidential (1952) starring John Payne & Lee Van Cleef in this Crime Drama | Full Movie. Speech: 7.0s, maximum gap: 0.0s.
+- The Last Time I Saw Paris (1954): [Movie Vault](https://www.youtube.com/watch?v=LMI5gcfrXoc), 221.796–228.796s. Elizabeth Taylor In Iconic Hollywood Movie I The Last Time I Saw Paris (1954) I Full Movie. Speech: 6.71s, maximum gap: 0.29s.
+- The Killer Shrews (1959): [Cult Cinema Classics](https://www.youtube.com/watch?v=C5CwIBLVXQE), 200.26–207.26s. 4K - The Killer Shrews (1959) They must eat 3 times their weight each day... OR STARVE!. Speech: 5.79s, maximum gap: 0.54s.
+- The Giant Gila Monster (1959): [Cult Cinema Classics](https://www.youtube.com/watch?v=apwWuNIsKwI), 202.34–209.34s. The Giant Gila Monster (1959 Sci-Fi) The Biggest Terror Ever Unleashed on the Screen! 4K. Speech: 7.0s, maximum gap: 0.0s.
+- The Red House (1947): [Timeless Classic Movies](https://www.youtube.com/watch?v=L6HZnUTPyho), 551.268–558.268s. The Red House (1947) [Thriller]. Speech: 5.94s, maximum gap: 0.54s.
+- The Brain That Wouldn’t Die (1962): [Retro Movie Theater](https://www.youtube.com/watch?v=raQ-vRt3Euk), 548.94–555.94s. The Brain That Wouldn’t Die (1962) FULL MOVIE | Original Black & White | Sci-Fi Horror Classic. Speech: 6.07s, maximum gap: 0.58s.
+- Seinfeld (1989): [Sony Pictures Entertainment India](https://www.youtube.com/watch?v=vLjNcmJu6SQ), 23.524–30.524s. A lot of gum | Seinfeld (1989). Speech: 7.0s, maximum gap: 0.0s.
+- The Office (2005): [The Office](https://www.youtube.com/watch?v=HLZyi24Z90A), 59.54–66.54s. The First 5 Minutes of The Office - The Office US. Speech: 6.36s, maximum gap: 0.64s.
+- Stranger Things (2016): [Solcher Derbeer](https://www.youtube.com/watch?v=G9w9icAy74k), 18.388–25.388s. Stranger Things -  Joyce and Jonathan arguing Scene (HD 1080p). Speech: 6.58s, maximum gap: 0.42s.
+- Prison Break (2005): [john giannis](https://www.youtube.com/watch?v=x0LSTp5k3bo), 10.452–17.452s. Funny conversation between Bellick and T-Bag. Speech: 7.0s, maximum gap: 0.0s.
+- How I Met Your Mother (2005): [Lieutinant Whoareyou](https://www.youtube.com/watch?v=EAEpwxxXpUo), 5.252–12.252s. The Ewok Line | How I Met Your Mother (2005). Speech: 7.0s, maximum gap: 0.0s.
+- Dexter (2006): [Dexter Official](https://www.youtube.com/watch?v=PYXgi4ONCS0), 184.676–191.676s. Dexter Confesses to Doakes 🗣️ Dexter. Speech: 5.85s, maximum gap: 0.77s.
+- The Sopranos (1999): [Alfred C. Chu](https://www.youtube.com/watch?v=30u6lIkRVKs), 12.468–19.468s. The Sopranos (1999–2007) Live Free or Die: Tony and Christopher talk in code about the hit on Rusty. Speech: 5.5s, maximum gap: 0.77s.
+- House (2004): [House M.D.](https://www.youtube.com/watch?v=eWZkWmmVLgY), 15.988–22.988s. Taub's Free Pass | House M.D... Speech: 7.0s, maximum gap: 0.0s.
+- Sherlock (2010): [Mogili](https://www.youtube.com/watch?v=dXNQz7l6Bmc), 61.94–68.94s. Sherlock   Holmes and Watson   Conversation in a cab. Speech: 6.17s, maximum gap: 0.45s.
+- Wednesday (2022): [Still Watching Netflix](https://www.youtube.com/watch?v=hJVbo5sy5FI), 5.44–12.44s. Morticia Says Goodbye To Wednesday | Netflix. Speech: 6.04s, maximum gap: 0.96s.
+- Ramar of the Jungle (1952): [Classic Movies, Cartoons, and TV](https://www.youtube.com/watch?v=I7pl5P3CbTs), 190.948–197.948s. Ramar of the Jungle - Striped Fury. Speech: 6.65s, maximum gap: 0.35s.
+- Man with a Camera (1958): [PizzaFlix](https://www.youtube.com/watch?v=9KlHu7_rU7w), 182.308–189.308s. MAN WITH A CAMERA (TV-1958) The Warning CHARLES BRONSON (S1E2). Speech: 5.38s, maximum gap: 0.73s.
+- Mr. Lucky (1959): [TheArchiveSeries](https://www.youtube.com/watch?v=3c0FqyCWQaM), 180.004–187.004s. Mr. Lucky | Season 1 | Episode 1 | The Magnificent Bribe | John Vivyan | Ross Martin | Tom Brown. Speech: 6.3s, maximum gap: 0.7s.
+- Peter Gunn (1958): [TheArchiveSeries](https://www.youtube.com/watch?v=GSXd1rSzh14), 222.084–229.084s. Peter Gunn | Season 1 | Episode 1 | The Kill | Craig Stevens | Herschel Bernardi | Lola Albright. Speech: 5.14s, maximum gap: 0.86s.
+- The Adventures of Ozzie and Harriet (1952): [Boomer Channel](https://www.youtube.com/watch?v=jJYwphbpwb0), 180–187s. The Adventures of Ozzie and Harriet (1952) 'The Pills’. Speech: 7.0s, maximum gap: 0.0s.
+- The Range Rider (1951): [PizzaFlix](https://www.youtube.com/watch?v=o9p-ygBaBoo), 649.188–656.188s. The Range Rider BORDER CITY AFFAIR. Speech: 6.49s, maximum gap: 0.51s.
+- The Cisco Kid (1950): [Grjngo - Western Series](https://www.youtube.com/watch?v=aTzrI0ShbGo), 217.028–224.028s. The Cisco Kid - Boomerang | Episode 01 | CLASSIC WESTERN SERIES | Full Length. Speech: 6.62s, maximum gap: 0.32s.
+- The Lone Ranger (1949): [The Lone Ranger](https://www.youtube.com/watch?v=putXSdjlztE), 188.196–195.196s. The Lone Ranger | S01 E01 | Enter the Lone Ranger | Full Episode. Speech: 5.7s, maximum gap: 0.64s.
+- The Buccaneers (1956): [Boomer Channel](https://www.youtube.com/watch?v=VBFSTI47II4), 187.204–194.204s. The Buccaneers (1956) S1 E1 ‘Blackbeard’. Speech: 7.0s, maximum gap: 0.0s.
+- The Adventures of Sir Lancelot (1956): [Boomer Channel](https://www.youtube.com/watch?v=NdUxy4Er-es), 196.228–203.228s. The Adventures of Sir Lancelot | S1E1 'The Knight w/ the Red Plume'. Speech: 5.94s, maximum gap: 0.74s.
