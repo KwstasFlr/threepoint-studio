@@ -19,3 +19,7 @@ main>.grid>.tile:hover{background:color-mix(in srgb,var(--choice) 22%,#12171d);b
 
 .op-modes .mode-option[data-fb-mode="unlimited"],.op-modes .mode-option[data-op-mode="unlimited"],.op-modes .mode-option[data-gm-mode="classic"]{--choice:#c6ec64}
 .op-modes .mode-option[aria-pressed="true"]{background:color-mix(in srgb,var(--choice) 35%,#12171d)}
+
+/* Gaming modes always stack, including standalone play pages. */
+#gamingDialog .op-modes{display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-auto-flow:row;max-width:380px;gap:8px}
+#gamingDialog .op-modes>button{width:100%;min-width:0}
