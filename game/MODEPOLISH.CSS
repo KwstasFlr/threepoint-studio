@@ -5,14 +5,14 @@ body #onePieceDialog .op-modes,
 body #gamingDialog .op-modes,
 body .op-modes {
  display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-auto-flow:row!important;
- width:min(100%,340px)!important;max-width:340px!important;gap:10px!important;margin:18px 0 24px!important;
+ width:min(100%,340px)!important;max-width:340px!important;gap:12px!important;margin:16px 0 24px!important;
 }
 body.mode-hub main>.grid>.tile,
 body .op-modes>button {
  --mode-accent:#d7ff3f;position:relative;box-sizing:border-box;display:flex!important;
  flex-direction:column;align-items:flex-start;justify-content:center;text-align:left;
  width:100%!important;min-width:0!important;min-height:60px!important;height:auto;
- padding:12px 42px 12px 16px!important;gap:3px!important;border-radius:12px!important;
+ padding:12px 42px 12px 16px!important;gap:5px!important;border-radius:12px!important;
  border:1px solid color-mix(in srgb,var(--mode-accent) 38%,#30383b)!important;
  border-left:3px solid var(--mode-accent)!important;
  background:color-mix(in srgb,var(--mode-accent) 9%,#14191d)!important;
@@ -26,7 +26,7 @@ body.mode-hub .tile strong,body .op-modes>button .mode-name{display:block;font-s
 body.mode-hub .tile>span,body .op-modes>button .mode-description{display:block;font-size:13px!important;font-weight:400;line-height:1.4;color:#c1c8c5!important;margin:0;text-align:left}
 body .op-modes>button .mode-icon{display:none!important}
 body .op-modes>button[aria-pressed="true"]{background:color-mix(in srgb,var(--mode-accent) 20%,#14191d)!important;border-color:var(--mode-accent)!important;box-shadow:0 0 0 1px color-mix(in srgb,var(--mode-accent) 20%,transparent)!important}
-body .op-modes>button[aria-pressed="true"]::after{content:'β“';position:absolute;top:50%!important;right:15px!important;transform:translateY(-50%);font-size:18px;color:var(--mode-accent)!important}
+body .op-modes>button[aria-pressed="true"]::after{content:'\2713';position:absolute;top:50%!important;right:15px!important;transform:translateY(-50%);font-size:18px;color:var(--mode-accent)!important}
 body.mode-hub .tile:hover,body .op-modes>button:hover{background:color-mix(in srgb,var(--mode-accent) 17%,#14191d)!important;border-color:var(--mode-accent)!important}
 body.mode-hub .tile:focus-visible,body .op-modes>button:focus-visible{outline:2px solid var(--mode-accent);outline-offset:4px}
 @media(max-width:480px){body.mode-hub main>.grid,body .op-modes{max-width:340px!important}body.mode-hub main>.grid>.tile,body .op-modes>button{min-height:60px!important;padding:12px 38px 12px 14px!important}body.mode-hub .tile strong,body .op-modes>button .mode-name{font-size:17px!important}}

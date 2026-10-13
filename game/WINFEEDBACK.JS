@@ -6,7 +6,7 @@
   for(const root of roots){
    const status=root.querySelector('.op-message')||feedback,won=!!status&&(status.classList.contains('op-won')||/^(Correct!|Σωστά!)/i.test(status.textContent.trim()));let banner=root.querySelector('[data-gmp-feedback]');
    if(!won){banner?.remove();continue}
-   const fresh=!banner;if(fresh){banner=document.createElement('div');banner.className='gmp-win-banner';banner.dataset.gmpFeedback='';banner.setAttribute('role','status');banner.innerHTML='<span class="win-check" aria-hidden="true">✓</span><div class="win-copy"><div class="win-label"><span data-win-en>CORRECT!</span><span data-win-el>ΣΩΣΤΑ!</span></div><strong class="win-answer"></strong></div>';const top=root.querySelector('.dialog-top');if(top)top.after(banner);else root.prepend(banner)}
+   const fresh=!banner;if(fresh){banner=document.createElement('div');banner.className='gmp-win-banner';banner.dataset.gmpFeedback='';banner.setAttribute('role','status');banner.innerHTML='<span class="win-check" aria-hidden="true">✓</span><div class="win-copy"><div class="win-label"><span data-win-en>CORRECT!</span><span data-win-el>ΣΩΣΤΑ!</span></div><strong class="win-answer"></strong></div>';const anchor=root.querySelector('#answerForm,#guessForm,.op-form')||status;if(anchor)anchor.before(banner);else root.prepend(banner)}
    const answer=banner.querySelector('.win-answer'),name=status.dataset.correctAnswer||'';if(answer.textContent!==name)answer.textContent=name;
    const greek=document.documentElement.lang==='el';const en=banner.querySelector('[data-win-en]'),el=banner.querySelector('[data-win-el]');if(en.hidden!==greek)en.hidden=greek;if(el.hidden===greek)el.hidden=!greek;
    if(fresh)banner.scrollIntoView({block:'nearest',behavior:'auto'});

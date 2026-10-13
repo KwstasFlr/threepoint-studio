@@ -27,4 +27,4 @@
 
 /* Questions stay visible; answers expand only on request. */
 .guide-detail{padding:20px 0}.guide-detail>summary{font-size:16px;line-height:1.65;min-height:44px;padding:8px 0}.guide-detail[open]>.guide-answer{padding-top:10px}.guide-answer p{margin:0 0 16px;line-height:1.85}.guide-answer p:last-child{margin-bottom:4px}.guide-answer .guide-contact{margin-top:4px}.guide-detail>summary:focus-visible{outline:2px solid var(--lime);outline-offset:4px}
-.guide-detail>summary::after{content:'+';float:right;color:var(--lime);font-size:22px;line-height:1.2;margin-left:16px}.guide-detail[open]>summary::after{content:'−'}
+.guide-detail>summary::after{content:'+';float:right;color:var(--lime);font-size:22px;line-height:1.2;margin-left:16px}.guide-detail[open]>summary::after{content:'2212 '}

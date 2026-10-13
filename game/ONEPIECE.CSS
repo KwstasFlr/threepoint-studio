@@ -52,7 +52,7 @@
 .op-modes .mode-option[aria-pressed="true"]{background:var(--lime);border-color:var(--lime);color:#121617;box-shadow:0 0 0 2px #d7ff3f24}
 .mode-option[aria-pressed="true"] .mode-icon{background:#121617;color:var(--lime)}
 .mode-option[aria-pressed="true"] .mode-description{color:#273214}
-.mode-option[aria-pressed="true"]::after{content:'✓';position:absolute;top:14px;right:14px;font-size:18px;font-weight:900}
+.mode-option[aria-pressed="true"]::after{content:'2713 ';position:absolute;top:14px;right:14px;font-size:18px;font-weight:900}
 .op-modes .mode-option:not([aria-pressed="true"]):hover{border-color:var(--lime);background:var(--panel-2)}
 .op-modes .mode-option:focus-visible{outline:2px solid var(--lime);outline-offset:4px}
 @media(max-width:480px){.op-modes.mode-picker{gap:8px}.op-modes .mode-option{padding:12px 9px}.mode-name{font-size:13px}.mode-description{font-size:11px}.mode-option[aria-pressed="true"]::after{top:8px;right:8px;font-size:14px}.op-dialog .round-number{padding:12px 14px;gap:2px 12px}.round-number .round-caption{font-size:13px}}
