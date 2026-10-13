@@ -64,3 +64,26 @@ Colombia: https://whc.unesco.org/en/list/711/ | https://api.worldbank.org/v2/cou
 Rwanda: https://whc.unesco.org/en/list/1697/ | https://api.worldbank.org/v2/country/RWA/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
 Senegal: https://whc.unesco.org/en/list/25/ | https://api.worldbank.org/v2/country/SEN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
 Bangladesh: https://whc.unesco.org/en/list/798/ | https://api.worldbank.org/v2/country/BGD/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+
+## Additional countries (20261013-next10)
+
+Spain: https://whc.unesco.org/en/list/685/ | https://api.worldbank.org/v2/country/ESP/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Portugal: https://whc.unesco.org/en/list/934/ | https://ifcn.madeira.gov.pt/images/Doc_Artigos/Divulgacao/publicacoes/livros/FLORESTA%20LAURISSILVA.pdf | https://api.worldbank.org/v2/country/PRT/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Italy: https://whc.unesco.org/en/list/1427/ | https://www.pngp.it/fr/nature-et-recherche/conservation-et-recherche/recherche-faunistique | https://api.worldbank.org/v2/country/ITA/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+France: https://whc.unesco.org/en/list/1115/ | https://api.worldbank.org/v2/country/FRA/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+United Kingdom: https://whc.unesco.org/en/list/369/ | https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway | https://www.rspb.org.uk/donate/rathlin | https://api.worldbank.org/v2/country/GBR/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Ireland: https://whc.unesco.org/en/list/757/ | https://heritageireland.ie/assets/uploads/2020/03/7147-OPW-SkelligMichael-A5-visitor-guide_ENG_v8_spreads.pdf | https://api.worldbank.org/v2/country/IRL/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Egypt: https://whc.unesco.org/en/list/1186/ | https://api.worldbank.org/v2/country/EGY/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+South Korea: https://whc.unesco.org/en/list/1264/ | https://nationalatlas.ngii.go.kr/pages/page_2326.php | https://visitjeju.net/en/themtour/view?contentsid=CNTS_000000000022729&menuId=DOM_000005000000000221 | https://api.worldbank.org/v2/country/KOR/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Chile: https://whc.unesco.org/en/list/715/ | https://chile.travel/en/destinations/torres-del-paine/ | https://api.worldbank.org/v2/country/CHL/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Cambodia: https://whc.unesco.org/en/list/668/ | https://www.wwf.org.kh/our_work/wildlife_at_risk_in_cambodia/mammals_at_risk_in_cambodia/ | https://api.worldbank.org/v2/country/KHM/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/

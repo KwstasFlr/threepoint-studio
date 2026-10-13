@@ -1,234 +1,462 @@
 [
-  {
-    "id": "divo",
-    "name": [
-      "Bugatti Divo",
-      "Bugatti Divo"
-    ],
-    "aliases": [
-      "Bugatti Divo",
-      "Divo",
-      "Μπουγκάτι Ντίβο"
-    ],
-    "clues": [
-      [
-        "40 sold; the entire limited series.",
-        "Πουλήθηκαν 40 — ολόκληρη η περιορισμένη σειρά."
-      ],
-      [
-        "Launch price: €5.000.000 before tax (2018).",
-        "Τιμή παρουσίασης: 5.000.000 € χωρίς φόρους (2018)."
-      ],
-      [
-        "Top speed: limited to 380 km/h.",
-        "Τελική ταχύτητα: περιορίζεται στα 380 χλμ./ώρα."
-      ],
-      [
-        "Named after a French driver who won the Targa Florio twice.",
-        "Πήρε το όνομα Γάλλου οδηγού που κέρδισε δύο φορές το Targa Florio."
-      ],
-      [
-        "Country of origin: France.",
-        "Χώρα προέλευσης: Γαλλία."
-      ]
-    ],
-    "sources": [
-      "https://newsroom.bugatti.com/press-releases/world-premiere-for-the-divo",
-      "https://newsroom.bugatti.com/en/press-releases/bugatti-divo-final-model-delivered-to-customer-in-europe"
-    ],
-    "audio": "media/divo.mp3",
-    "audioSource": "https://www.youtube.com/watch?v=pmoistrxTeA",
-    "audioStart": 39,
-    "audioDuration": 7,
-    "audioCredit": "19Bozzy92",
-    "audioSourceTitle": "1500HP Bugatti Divo pushing on a Swiss Mountain Pass: 8.0L Quad-Turbo W16 Engine Sound!",
-    "image": "https://i.ytimg.com/vi/pmoistrxTeA/hqdefault.jpg"
-  },
-  {
-    "id": "centenario",
-    "name": [
-      "Lamborghini Centenario",
-      "Lamborghini Centenario"
-    ],
-    "aliases": [
-      "Lamborghini Centenario",
-      "Centenario",
-      "Lamborghini Centenario LP 770-4",
-      "Λαμποργκίνι Σεντενάριο"
-    ],
-    "clues": [
-      [
-        "40 sold before the public launch: 20 coupés and 20 roadsters.",
-        "Πουλήθηκαν 40 πριν την παρουσίαση: 20 κουπέ και 20 roadster."
-      ],
-      [
-        "Launch price: €1.750.000 before tax (2016).",
-        "Τιμή παρουσίασης: 1.750.000 € χωρίς φόρους (2016)."
-      ],
-      [
-        "Top speed: more than 350 km/h.",
-        "Τελική ταχύτητα: πάνω από 350 χλμ./ώρα."
-      ],
-      [
-        "The cover car and hero car of Forza Horizon 3.",
-        "Το αυτοκίνητο του εξωφύλλου και πρωταγωνιστής του Forza Horizon 3."
-      ],
-      [
-        "Country of origin: Italy.",
-        "Χώρα προέλευσης: Ιταλία."
-      ]
-    ],
-    "sources": [
-      "https://www.lamborghini.com/de-en/nachrichten/lamborghini-centenario-perfect-few",
-      "https://www.lamborghini.com/es-en/obras-maestras/centenario",
-      "https://forums.forza.net/t/lamborghini-centenario-to-be-cover-car-on-the-next-forza-franchise-game/32042"
-    ],
-    "audio": "media/centenario.mp3",
-    "audioSource": "https://www.youtube.com/watch?v=A3jyD_UJRlw",
-    "audioStart": 41,
-    "audioDuration": 7,
-    "audioCredit": "NM2255 | Raw Car Sounds",
-    "audioSourceTitle": "Lamborghini Centenario Launch Control Accelerations & LOUD Sounds!",
-    "image": "https://i.ytimg.com/vi/A3jyD_UJRlw/hqdefault.jpg"
-  },
-  {
-    "id": "p1",
-    "name": [
-      "McLaren P1",
-      "McLaren P1"
-    ],
-    "aliases": [
-      "McLaren P1",
-      "P1",
-      "Μακλάρεν P1"
-    ],
-    "clues": [
-      [
-        "375 road cars; the complete series sold out.",
-        "375 αυτοκίνητα δρόμου — εξαντλήθηκε ολόκληρη η σειρά."
-      ],
-      [
-        "US launch price: $1.150.000 (2013).",
-        "Τιμή παρουσίασης στις ΗΠΑ: 1.150.000 $ (2013)."
-      ],
-      [
-        "Top speed: electronically limited to 350 km/h.",
-        "Τελική ταχύτητα: ηλεκτρονικά περιορισμένη στα 350 χλμ./ώρα."
-      ],
-      [
-        "The cover car of Forza Motorsport 5.",
-        "Το αυτοκίνητο του εξωφύλλου του Forza Motorsport 5."
-      ],
-      [
-        "Country of origin: United Kingdom.",
-        "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
-      ]
-    ],
-    "sources": [
-      "https://www.prnewswire.com/news-releases/mclaren-automotive-announces-performance-figures-for-the-mclaren-p1-193258031.html",
-      "https://www.topgear.com/car-news/supercars/mclaren-p1-sold-out",
-      "https://news.xbox.com/en-us/2013/11/08/games-forza-motorsport-5-mclaren-vidoc/"
-    ],
-    "audio": "media/p1.mp3",
-    "audioSource": "https://www.youtube.com/watch?v=X_GVRjYp2iM",
-    "audioStart": 22,
-    "audioDuration": 7,
-    "audioCredit": "Gumbal",
-    "audioSourceTitle": "McLaren P1 - Roaring Twin Turbo V8 sounds!",
-    "image": "https://i.ytimg.com/vi/X_GVRjYp2iM/hqdefault.jpg"
-  },
-  {
-    "id": "918",
-    "name": [
-      "Porsche 918 Spyder",
-      "Porsche 918 Spyder"
-    ],
-    "aliases": [
-      "Porsche 918 Spyder",
-      "918",
-      "918 Spyder",
-      "Πόρσε 918 Σπάιντερ"
-    ],
-    "clues": [
-      [
-        "918 sold; the final car was sold by December 2014.",
-        "Πουλήθηκαν 918 — το τελευταίο είχε πωληθεί μέχρι τον Δεκέμβριο 2014."
-      ],
-      [
-        "German launch price: €768.026 including VAT (2014).",
-        "Τιμή παρουσίασης στη Γερμανία: 768.026 € με ΦΠΑ (2014)."
-      ],
-      [
-        "Top speed: 345 km/h.",
-        "Τελική ταχύτητα: 345 χλμ./ώρα."
-      ],
-      [
-        "First road-legal car to lap the Nürburgring Nordschleife in under seven minutes: 6:57.",
-        "Το πρώτο νόμιμο αυτοκίνητο δρόμου με γύρο κάτω από 7 λεπτά στο Nordschleife του Nürburgring: 6:57."
-      ],
-      [
-        "Country of origin: Germany.",
-        "Χώρα προέλευσης: Γερμανία."
-      ]
-    ],
-    "sources": [
-      "https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder/",
-      "https://newsroom.porsche.com/it/ppdb/2014/12/porsche-supera-gi-in-novembre-le-consegne-dello-scorso-anno.html",
-      "https://newsroom.porsche.com/en/press-kits/Porsche-Mission-X/Conceptual-forerunners.html"
-    ],
-    "audio": "media/918.mp3",
-    "audioSource": "https://www.youtube.com/watch?v=A18sgCsYFxk",
-    "audioStart": 3,
-    "audioDuration": 7,
-    "audioCredit": "AutoPaparazzi",
-    "audioSourceTitle": "2014 Porsche 918 Spyder V8 Exhaust Sound",
-    "image": "https://i.ytimg.com/vi/A18sgCsYFxk/hqdefault.jpg"
-  },
-  {
-    "id": "laferrari",
-    "name": [
-      "Ferrari LaFerrari",
-      "Ferrari LaFerrari"
-    ],
-    "aliases": [
-      "Ferrari LaFerrari",
-      "LaFerrari",
-      "La Ferrari",
-      "Φεράρι Λαφεράρι"
-    ],
-    "clues": [
-      [
-        "500 coupés: the original 499-car series plus one charity auction car.",
-        "500 κουπέ: η αρχική σειρά των 499 και ένα επιπλέον για φιλανθρωπική δημοπρασία."
-      ],
-      [
-        "Original selling price: more than €1.000.000 (2013).",
-        "Αρχική τιμή πώλησης: πάνω από 1.000.000 € (2013)."
-      ],
-      [
-        "Top speed: more than 350 km/h.",
-        "Τελική ταχύτητα: πάνω από 350 χλμ./ώρα."
-      ],
-      [
-        "The brand’s first production car with the F1-derived HY-KERS hybrid system.",
-        "Το πρώτο αυτοκίνητο παραγωγής της μάρκας με το υβριδικό σύστημα HY-KERS από τη Formula 1."
-      ],
-      [
-        "Country of origin: Italy.",
-        "Χώρα προέλευσης: Ιταλία."
-      ]
-    ],
-    "sources": [
-      "https://cdn.ferrari.com/cms/network/media/pdf/2016_12_31_-_ferrari_nv_annual_report_0.pdf",
-      "https://www.ferrari.com/en-EN/auto/laferrari",
-      "https://www.ferrarislc.com/the-laferrari/"
-    ],
-    "audio": "media/laferrari.mp3",
-    "audioSource": "https://www.youtube.com/watch?v=B4Th3LxCgb4",
-    "audioStart": 21,
-    "audioDuration": 7,
-    "audioCredit": "NM2255 | Raw Car Sounds",
-    "audioSourceTitle": "Ferrari LaFerrari LOUD Revving & Sound!",
-    "image": "https://i.ytimg.com/vi/B4Th3LxCgb4/hqdefault.jpg"
-  }
+    {
+        "id":  "divo",
+        "name":  [
+                     "Bugatti Divo",
+                     "Bugatti Divo"
+                 ],
+        "aliases":  [
+                        "Bugatti Divo",
+                        "Divo",
+                        "Μπουγκάτι Ντίβο"
+                    ],
+        "clues":  [
+                      [
+                          "40 sold; the entire limited series.",
+                          "Πουλήθηκαν 40 — ολόκληρη η περιορισμένη σειρά."
+                      ],
+                      [
+                          "Launch price: €5.000.000 before tax (2018).",
+                          "Τιμή παρουσίασης: 5.000.000 € χωρίς φόρους (2018)."
+                      ],
+                      [
+                          "Top speed: limited to 380 km/h.",
+                          "Τελική ταχύτητα: περιορίζεται στα 380 χλμ./ώρα."
+                      ],
+                      [
+                          "Named after a French driver who won the Targa Florio twice.",
+                          "Πήρε το όνομα Γάλλου οδηγού που κέρδισε δύο φορές το Targa Florio."
+                      ],
+                      [
+                          "Country of origin: France.",
+                          "Χώρα προέλευσης: Γαλλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://newsroom.bugatti.com/press-releases/world-premiere-for-the-divo",
+                        "https://newsroom.bugatti.com/en/press-releases/bugatti-divo-final-model-delivered-to-customer-in-europe"
+                    ],
+        "audio":  "media/divo.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=pmoistrxTeA",
+        "audioStart":  39,
+        "audioDuration":  7,
+        "audioCredit":  "19Bozzy92",
+        "audioSourceTitle":  "1500HP Bugatti Divo pushing on a Swiss Mountain Pass: 8.0L Quad-Turbo W16 Engine Sound!",
+        "image":  "https://i.ytimg.com/vi/pmoistrxTeA/hqdefault.jpg"
+    },
+    {
+        "id":  "centenario",
+        "name":  [
+                     "Lamborghini Centenario",
+                     "Lamborghini Centenario"
+                 ],
+        "aliases":  [
+                        "Lamborghini Centenario",
+                        "Centenario",
+                        "Lamborghini Centenario LP 770-4",
+                        "Λαμποργκίνι Σεντενάριο"
+                    ],
+        "clues":  [
+                      [
+                          "40 sold before the public launch: 20 coupés and 20 roadsters.",
+                          "Πουλήθηκαν 40 πριν την παρουσίαση: 20 κουπέ και 20 roadster."
+                      ],
+                      [
+                          "Launch price: €1.750.000 before tax (2016).",
+                          "Τιμή παρουσίασης: 1.750.000 € χωρίς φόρους (2016)."
+                      ],
+                      [
+                          "Top speed: more than 350 km/h.",
+                          "Τελική ταχύτητα: πάνω από 350 χλμ./ώρα."
+                      ],
+                      [
+                          "The cover car and hero car of Forza Horizon 3.",
+                          "Το αυτοκίνητο του εξωφύλλου και πρωταγωνιστής του Forza Horizon 3."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.lamborghini.com/de-en/nachrichten/lamborghini-centenario-perfect-few",
+                        "https://www.lamborghini.com/es-en/obras-maestras/centenario",
+                        "https://forums.forza.net/t/lamborghini-centenario-to-be-cover-car-on-the-next-forza-franchise-game/32042"
+                    ],
+        "audio":  "media/centenario.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=A3jyD_UJRlw",
+        "audioStart":  41,
+        "audioDuration":  7,
+        "audioCredit":  "NM2255 | Raw Car Sounds",
+        "audioSourceTitle":  "Lamborghini Centenario Launch Control Accelerations \u0026 LOUD Sounds!",
+        "image":  "https://i.ytimg.com/vi/A3jyD_UJRlw/hqdefault.jpg"
+    },
+    {
+        "id":  "p1",
+        "name":  [
+                     "McLaren P1",
+                     "McLaren P1"
+                 ],
+        "aliases":  [
+                        "McLaren P1",
+                        "P1",
+                        "Μακλάρεν P1"
+                    ],
+        "clues":  [
+                      [
+                          "375 road cars; the complete series sold out.",
+                          "375 αυτοκίνητα δρόμου — εξαντλήθηκε ολόκληρη η σειρά."
+                      ],
+                      [
+                          "US launch price: $1.150.000 (2013).",
+                          "Τιμή παρουσίασης στις ΗΠΑ: 1.150.000 $ (2013)."
+                      ],
+                      [
+                          "Top speed: electronically limited to 350 km/h.",
+                          "Τελική ταχύτητα: ηλεκτρονικά περιορισμένη στα 350 χλμ./ώρα."
+                      ],
+                      [
+                          "The cover car of Forza Motorsport 5.",
+                          "Το αυτοκίνητο του εξωφύλλου του Forza Motorsport 5."
+                      ],
+                      [
+                          "Country of origin: United Kingdom.",
+                          "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.prnewswire.com/news-releases/mclaren-automotive-announces-performance-figures-for-the-mclaren-p1-193258031.html",
+                        "https://www.topgear.com/car-news/supercars/mclaren-p1-sold-out",
+                        "https://news.xbox.com/en-us/2013/11/08/games-forza-motorsport-5-mclaren-vidoc/"
+                    ],
+        "audio":  "media/p1.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=X_GVRjYp2iM",
+        "audioStart":  22,
+        "audioDuration":  7,
+        "audioCredit":  "Gumbal",
+        "audioSourceTitle":  "McLaren P1 - Roaring Twin Turbo V8 sounds!",
+        "image":  "https://i.ytimg.com/vi/X_GVRjYp2iM/hqdefault.jpg"
+    },
+    {
+        "id":  "918",
+        "name":  [
+                     "Porsche 918 Spyder",
+                     "Porsche 918 Spyder"
+                 ],
+        "aliases":  [
+                        "Porsche 918 Spyder",
+                        "918",
+                        "918 Spyder",
+                        "Πόρσε 918 Σπάιντερ"
+                    ],
+        "clues":  [
+                      [
+                          "918 sold; the final car was sold by December 2014.",
+                          "Πουλήθηκαν 918 — το τελευταίο είχε πωληθεί μέχρι τον Δεκέμβριο 2014."
+                      ],
+                      [
+                          "German launch price: €768.026 including VAT (2014).",
+                          "Τιμή παρουσίασης στη Γερμανία: 768.026 € με ΦΠΑ (2014)."
+                      ],
+                      [
+                          "Top speed: 345 km/h.",
+                          "Τελική ταχύτητα: 345 χλμ./ώρα."
+                      ],
+                      [
+                          "First road-legal car to lap the Nürburgring Nordschleife in under seven minutes: 6:57.",
+                          "Το πρώτο νόμιμο αυτοκίνητο δρόμου με γύρο κάτω από 7 λεπτά στο Nordschleife του Nürburgring: 6:57."
+                      ],
+                      [
+                          "Country of origin: Germany.",
+                          "Χώρα προέλευσης: Γερμανία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder/",
+                        "https://newsroom.porsche.com/it/ppdb/2014/12/porsche-supera-gi-in-novembre-le-consegne-dello-scorso-anno.html",
+                        "https://newsroom.porsche.com/en/press-kits/Porsche-Mission-X/Conceptual-forerunners.html"
+                    ],
+        "audio":  "media/918.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=A18sgCsYFxk",
+        "audioStart":  3,
+        "audioDuration":  7,
+        "audioCredit":  "AutoPaparazzi",
+        "audioSourceTitle":  "2014 Porsche 918 Spyder V8 Exhaust Sound",
+        "image":  "https://i.ytimg.com/vi/A18sgCsYFxk/hqdefault.jpg"
+    },
+    {
+        "id":  "laferrari",
+        "name":  [
+                     "Ferrari LaFerrari",
+                     "Ferrari LaFerrari"
+                 ],
+        "aliases":  [
+                        "Ferrari LaFerrari",
+                        "LaFerrari",
+                        "La Ferrari",
+                        "Φεράρι Λαφεράρι"
+                    ],
+        "clues":  [
+                      [
+                          "500 coupés: the original 499-car series plus one charity auction car.",
+                          "500 κουπέ: η αρχική σειρά των 499 και ένα επιπλέον για φιλανθρωπική δημοπρασία."
+                      ],
+                      [
+                          "Original selling price: more than €1.000.000 (2013).",
+                          "Αρχική τιμή πώλησης: πάνω από 1.000.000 € (2013)."
+                      ],
+                      [
+                          "Top speed: more than 350 km/h.",
+                          "Τελική ταχύτητα: πάνω από 350 χλμ./ώρα."
+                      ],
+                      [
+                          "The brand’s first production car with the F1-derived HY-KERS hybrid system.",
+                          "Το πρώτο αυτοκίνητο παραγωγής της μάρκας με το υβριδικό σύστημα HY-KERS από τη Formula 1."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://cdn.ferrari.com/cms/network/media/pdf/2016_12_31_-_ferrari_nv_annual_report_0.pdf",
+                        "https://www.ferrari.com/en-EN/auto/laferrari",
+                        "https://www.ferrarislc.com/the-laferrari/"
+                    ],
+        "audio":  "media/laferrari.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=B4Th3LxCgb4",
+        "audioStart":  21,
+        "audioDuration":  7,
+        "audioCredit":  "NM2255 | Raw Car Sounds",
+        "audioSourceTitle":  "Ferrari LaFerrari LOUD Revving \u0026 Sound!",
+        "image":  "https://i.ytimg.com/vi/B4Th3LxCgb4/hqdefault.jpg"
+    },
+    {
+        "id":  "senna",
+        "name":  [
+                     "McLaren Senna",
+                     "McLaren Senna"
+                 ],
+        "aliases":  [
+                        "McLaren Senna",
+                        "Senna",
+                        "Μακλάρεν Σένα"
+                    ],
+        "clues":  [
+                      [
+                          "500 road cars, all assigned to buyers before launch.",
+                          "500 αυτοκίνητα δρόμου, όλα δεσμευμένα από αγοραστές πριν την παρουσίαση."
+                      ],
+                      [
+                          "UK launch price: £750.000 including taxes (2018).",
+                          "Τιμή παρουσίασης στο Ηνωμένο Βασίλειο: 750.000 £ με φόρους (2018)."
+                      ],
+                      [
+                          "Top speed: 340 km/h.",
+                          "Τελική ταχύτητα: 340 χλμ./ώρα."
+                      ],
+                      [
+                          "The cover car of Forza Horizon 4.",
+                          "Το αυτοκίνητο του εξωφύλλου του Forza Horizon 4."
+                      ],
+                      [
+                          "Country of origin: United Kingdom.",
+                          "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.senna.com/en/mclaren-senna-novos-fatos-estatisticas-e-detalhes-revelados-antes-do-salao-do-automovel-de-genebra/",
+                        "https://news.xbox.com/en-us/2018/06/15/this-week-on-xbox-e3-2018-edition/amp/"
+                    ],
+        "audio":  "media/senna.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=QmC-nousCLk",
+        "audioStart":  41,
+        "audioDuration":  7,
+        "audioCredit":  "19Bozzy92",
+        "audioSourceTitle":  "McLaren Senna Sound In Action - Acceleration, Downshifts, Revs \u0026 Burnout!",
+        "image":  "https://i.ytimg.com/vi/QmC-nousCLk/hqdefault.jpg"
+    },
+    {
+        "id":  "enzo",
+        "name":  [
+                     "Ferrari Enzo",
+                     "Ferrari Enzo"
+                 ],
+        "aliases":  [
+                        "Ferrari Enzo",
+                        "Enzo",
+                        "Enzo Ferrari",
+                        "Φεράρι Έντσο"
+                    ],
+        "clues":  [
+                      [
+                          "399 customer cars, plus one donated to the Vatican and later auctioned.",
+                          "399 αυτοκίνητα πελατών και ένα επιπλέον που δωρίστηκε στο Βατικανό και δημοπρατήθηκε."
+                      ],
+                      [
+                          "Original US price: $659.330 (2002–2004).",
+                          "Αρχική τιμή στις ΗΠΑ: 659.330 $ (2002–2004)."
+                      ],
+                      [
+                          "Factory top-speed estimate: more than 350 km/h.",
+                          "Εργοστασιακή εκτίμηση τελικής ταχύτητας: πάνω από 350 χλμ./ώρα."
+                      ],
+                      [
+                          "Its name honours the founder of the company.",
+                          "Το όνομά του τιμά τον ιδρυτή της εταιρείας."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://petersen.org/pages/petersen-vehicle/2004-ferrari-enzo-",
+                        "https://www.ferrari.com/en-EN/auto/enzo-ferrari",
+                        "https://asset.moto.it/pricelist/auto/1e6b33b4f088ba89c0909cb1bb4107d1/brochure-enzo-1.pdf"
+                    ],
+        "audio":  "media/enzo.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=n4kQrUwOI8k",
+        "audioStart":  22,
+        "audioDuration":  7,
+        "audioCredit":  "Marchettino",
+        "audioSourceTitle":  "Ferrari Enzo in ACTION - Ride Powerslides Accelerations Revs!",
+        "image":  "https://i.ytimg.com/vi/n4kQrUwOI8k/hqdefault.jpg"
+    },
+    {
+        "id":  "f50",
+        "name":  [
+                     "Ferrari F50",
+                     "Ferrari F50"
+                 ],
+        "aliases":  [
+                        "Ferrari F50",
+                        "F50",
+                        "Φεράρι F50"
+                    ],
+        "clues":  [
+                      [
+                          "A limited production series of 349 cars.",
+                          "Περιορισμένη σειρά παραγωγής 349 αυτοκινήτων."
+                      ],
+                      [
+                          "Auction example: $9.245.000 in August 2025.",
+                          "Παράδειγμα πώλησης σε δημοπρασία: 9.245.000 $ τον Αύγουστο 2025."
+                      ],
+                      [
+                          "Factory top speed: 325 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 325 χλμ./ώρα."
+                      ],
+                      [
+                          "A rare yellow example was first owned by fashion designer Ralph Lauren.",
+                          "Ένα σπάνιο κίτρινο αυτοκίνητο του μοντέλου ανήκε αρχικά στον σχεδιαστή Ralph Lauren."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://cdn.ferrari.com/cms/network/media/pdf/CS_Ferrari_F50_Legacy_Tour_2025_gbr.pdf",
+                        "https://www.sothebys.com/en/articles/the-four-most-expensive-ferrari-f50s"
+                    ],
+        "audio":  "media/f50.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=1UBDYW31HCg",
+        "audioStart":  20,
+        "audioDuration":  7,
+        "audioCredit":  "Alberto Alvis",
+        "audioSourceTitle":  "Ferrari F50 Kreissieg exhaust",
+        "image":  "https://i.ytimg.com/vi/1UBDYW31HCg/hqdefault.jpg"
+    },
+    {
+        "id":  "carrera-gt",
+        "name":  [
+                     "Porsche Carrera GT",
+                     "Porsche Carrera GT"
+                 ],
+        "aliases":  [
+                        "Porsche Carrera GT",
+                        "Carrera GT",
+                        "Πόρσε Καρέρα GT"
+                    ],
+        "clues":  [
+                      [
+                          "All 1.270 cars in its limited series found buyers.",
+                          "Και τα 1.270 αυτοκίνητα της περιορισμένης σειράς βρήκαν αγοραστές."
+                      ],
+                      [
+                          "Launch price: €452.000 (2003).",
+                          "Τιμή παρουσίασης: 452.000 € (2003)."
+                      ],
+                      [
+                          "Top speed: 330 km/h.",
+                          "Τελική ταχύτητα: 330 χλμ./ώρα."
+                      ],
+                      [
+                          "Its V10 was developed from an abandoned Le Mans racing project.",
+                          "Ο V10 κινητήρας του εξελίχθηκε από ένα αγωνιστικό πρόγραμμα Le Mans που εγκαταλείφθηκε."
+                      ],
+                      [
+                          "Country of origin: Germany.",
+                          "Χώρα προέλευσης: Γερμανία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.porsche.com/stories/mobility/five-of-the-greatest-porsche-hypercars/",
+                        "https://newsroom.porsche.com/en/2025/history/porsche-25-years-world-premiere-carrera-gt-40609.html"
+                    ],
+        "audio":  "media/carrera-gt.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=cjd8-50JnKE",
+        "audioStart":  60,
+        "audioDuration":  7,
+        "audioCredit":  "Robbert Alblas",
+        "audioSourceTitle":  "POV: Driving a Porsche Carrera GT - Pure V10 sound",
+        "image":  "https://i.ytimg.com/vi/cjd8-50JnKE/hqdefault.jpg"
+    },
+    {
+        "id":  "lfa",
+        "name":  [
+                     "Lexus LFA",
+                     "Lexus LFA"
+                 ],
+        "aliases":  [
+                        "Lexus LFA",
+                        "LFA",
+                        "Λέξους LFA"
+                    ],
+        "clues":  [
+                      [
+                          "Its completed worldwide production series numbered 500 cars.",
+                          "Η ολοκληρωμένη παγκόσμια σειρά παραγωγής αριθμούσε 500 αυτοκίνητα."
+                      ],
+                      [
+                          "Announced US price: about $375.000 (2009).",
+                          "Ανακοινωμένη τιμή στις ΗΠΑ: περίπου 375.000 $ (2009)."
+                      ],
+                      [
+                          "Top speed: 325 km/h.",
+                          "Τελική ταχύτητα: 325 χλμ./ώρα."
+                      ],
+                      [
+                          "Yamaha helped develop its distinctive V10 engine sound.",
+                          "Η Yamaha συνέβαλε στη δημιουργία του χαρακτηριστικού ήχου του V10 κινητήρα του."
+                      ],
+                      [
+                          "Country of origin: Japan.",
+                          "Χώρα προέλευσης: Ιαπωνία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://media.lexus.ca/en/releases/2009/lexus-debuts-lfa.html",
+                        "https://www.lexus.com.au/about-lexus/lfa",
+                        "https://www.lexus.com.tw/brand-f-portfolio.aspx"
+                    ],
+        "audio":  "media/lfa.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=F0m6dvpK4m8",
+        "audioStart":  23,
+        "audioDuration":  7,
+        "audioCredit":  "CarSpotterQVS",
+        "audioSourceTitle":  "Lexus LFA PURE SOUND - Accelerations \u0026 Downshifts",
+        "image":  "https://i.ytimg.com/vi/F0m6dvpK4m8/hqdefault.jpg"
+    }
 ]
