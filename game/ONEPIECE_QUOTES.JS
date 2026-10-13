@@ -31,7 +31,12 @@ const OP_QUOTES = [
 ["doflamingo", "Donquixote Doflamingo", ["Doflamingo", "ντοφλαμίνγκο"], "Justice will prevail, you say?", "Λέτε ότι θα επικρατήσει η δικαιοσύνη;", 556, 465, 465, 556, "https://onepiece.fandom.com/wiki/Chapter_556"],
 ["bonclay", "Bentham (Bon Clay)", ["Bentham", "Bon Clay", "Mr 2", "μπον κλέι"], "Friendship has nothing to do with time.", "Η φιλία δεν εξαρτάται από τον χρόνο.", 156, 92, 92, 156, "https://onepiece.fandom.com/wiki/Chapter_156"],
 ["rayleigh", "Silvers Rayleigh", ["Rayleigh", "ρέιλι"], "Don't be in such a hurry.", "Μη βιάζεσαι τόσο.", 507, 400, 400, 507, "https://onepiece.fandom.com/wiki/Chapter_507"],
-["rosinante", "Donquixote Rosinante", ["Rosinante", "Corazon", "Corazón", "κοραζόν"], "I love you.", "Σ’ αγαπώ.", 767, 706, 706, 767, "https://onepiece.fandom.com/wiki/Chapter_767"]
+["rosinante", "Donquixote Rosinante", ["Rosinante", "Corazon", "Corazón", "κοραζόν"], "I love you.", "Σ’ αγαπώ.", 767, 706, 706, 767, "https://onepiece.fandom.com/wiki/Chapter_767"],
+["roger","Gol D. Roger",["Roger","Gold Roger","ρότζερ","ροτζερ"],"My treasure? Find it!","Ο θησαυρός μου; Βρείτε τον!",1,1,1,1,"https://one-piece.com/comics/o1/index.html"],
+["oden","Kozuki Oden",["Oden","Kōzuki Oden","όντεν","οντεν"],"I was born to boil!","Γεννήθηκα για να βράσω!",972,974,974,972,"https://one-piece.com/anime/o5763/index.html"],
+["fujitora","Issho",["Fujitora","Isshō","φουτζιτόρα","ισσο"],"I wish I hadn\u0027t closed my eyes.","Μακάρι να μην είχα κλείσει τα μάτια μου.",799,744,744,799,"https://one-piece.com/anime/o2881/index.html"],
+["katakuri","Charlotte Katakuri",["Katakuri","κατακούρι","κατακουρι"],"Will you return to defeat Big Mom?","Θα επιστρέψεις για να νικήσεις την Big Mom;",896,871,871,896,"https://one-piece.com/anime/o4961/index.html"],
+["ivankov","Emporio Ivankov",["Ivankov","Iva","Iva-chan","ιβάνκοφ","ιβανκοφ"],"Miracles happen to those who never give up.","Θαύματα συμβαίνουν σε όσους δεν τα παρατάνε.",538,439,439,538,"https://one-piece.com/anime/439/index.html"]
 ].map(([id,name,aliases,en,el,chapter,episode,minEpisode,minChapter,source])=>({id,name,aliases,en,el,chapter,episode,minEpisode,minChapter,source}));
 let opQuoteState=null;
 try { opQuoteState=JSON.parse(read('GMP_ONE_PIECE_QUOTES_V1','null')); } catch { /* Corrupt saves start a new round. */ }
