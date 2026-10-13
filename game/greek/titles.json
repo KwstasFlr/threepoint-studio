@@ -4996,5 +4996,1613 @@
     "audioSpeechSeconds": 5.88,
     "audioMaxGap": 0.77,
     "audioTranscript": "Γιατί θέλω να παίξουμε τα ανεύρα μου! Γιατί είναι τρελός! Έχω φοβάμε μου πως κάποιος ανακάλει ψηκαντί για το παρελθόν σου και..."
+  },
+  {
+    "id": "oute-gata",
+    "kind": "movies",
+    "title": "Ούτε γάτα ούτε ζημιά",
+    "year": 1955,
+    "originalFormat": "bw",
+    "leads": [
+      "Βασίλης Λογοθετίδης",
+      "Ίλυα Λιβυκού"
+    ],
+    "supporting": [
+      "Ρένα Στρατηγού",
+      "Ντίνα Σταθάτου"
+    ],
+    "clue": "Δύο κρυφές εκδρομές καταλήγουν στον ίδιο σταθμό.",
+    "synopsis": "Ένας άντρας προσποιείται ότι ταξιδεύει για δουλειά. Η γυναίκα του οργανώνει τη δική της εκδρομή, αλλά τα δύο ζευγάρια εγκλωβίζονται στον ίδιο σιδηροδρομικό σταθμό.",
+    "clueEn": "Two secret outings end at the same station.",
+    "synopsisEn": "A man pretends to travel for work. His wife arranges her own outing, but both couples become stranded at the same railway station.",
+    "source": "https://finosfilm.com/portfolio-items/oute-gata-oute-zimia/",
+    "aliases": [
+      "Oute gata oute zimia"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-oute-gata.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=s66vxtoueBU",
+    "audioStart": 46.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Ουτε Γατα Ουτε Ζημια  -  Αποσπασμα -  HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Τι τόθρες τον ερώ! Η Βαλήτης μας! Η Βαλήτης μας! Βαλήτης μας! Βαλήτης εγχύτητα, θα ηλωπίζω στο στάθμα της άλλων και δεν τους κρατήσουν έτσι."
+  },
+  {
+    "id": "delistavrou",
+    "kind": "movies",
+    "title": "Δελησταύρου και υιός",
+    "year": 1957,
+    "originalFormat": "bw",
+    "leads": [
+      "Βασίλης Λογοθετίδης",
+      "Ίλυα Λιβυκού"
+    ],
+    "supporting": [
+      "Μαρίκα Κρεββατά",
+      "Βαγγέλης Πρωτοπαππάς"
+    ],
+    "clue": "Πατέρας και γιος μπλέκουν σε ερωτικούς ανταγωνισμούς.",
+    "synopsis": "Ένας χήρος βιομήχανος παραδίδει την επιχείρησή του στον γιο του και αναζητά νέα σύντροφο. Οι γνωριμίες τους προκαλούν ανταγωνισμούς και παρεξηγήσεις.",
+    "clueEn": "Father and son become romantic rivals.",
+    "synopsisEn": "A widowed industrialist hands his business to his son and seeks a new partner. Their romantic encounters lead to rivalry and misunderstandings.",
+    "source": "https://www.tvopen.gr/delhstayroykaiyios/about",
+    "aliases": [
+      "Delistavrou kai yios",
+      "Δελησταύρου και Υιός"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-delistavrou.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=nKYxY8JEVXI",
+    "audioStart": 52.772,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Δελησταυρου και Υιος -  Αποσπασμα - HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Υνιάνε μιτι σκότην κυρια μαλία μου. Με κυρια μαλία μου. Με κυρια μαλία μου. Με κυρια μαλία μου. Καρματίζω μίτι."
+  },
+  {
+    "id": "santa",
+    "kind": "movies",
+    "title": "Σάντα Τσικίτα",
+    "year": 1953,
+    "originalFormat": "bw",
+    "leads": [
+      "Βασίλης Λογοθετίδης",
+      "Ίλυα Λιβυκού"
+    ],
+    "supporting": [
+      "Θάνος Τζενεράλης",
+      "Ντίνα Σταθάτου"
+    ],
+    "clue": "Ένας γάμος στα χαρτιά γίνεται πολύπλοκη υπόθεση.",
+    "synopsis": "Ένας υπάλληλος χρειάζεται χρήματα για την άρρωστη μητέρα του. Δέχεται έναν εικονικό γάμο με ξένη γυναίκα, αναστατώνοντας τη σχέση με την αρραβωνιαστικιά του.",
+    "clueEn": "A marriage on paper becomes complicated.",
+    "synopsisEn": "An employee needs money for his sick mother. A sham marriage to a foreign woman turns his relationship with his fiancée upside down.",
+    "source": "https://ellinikoskinimatografos.gr/santa-tsikita/",
+    "aliases": [
+      "Santa Tsikita"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-santa.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=KW3ojWJw4Kk",
+    "audioStart": 34.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Σαντα Τσικιτα  -  Αποσπασμα -  HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Καλπά, πά, πά, έτσι, είσαι μεγάτσια κουλοφορία, ευσίκαι, δάστον με λίγα λάξε, για λάξουν πιγγελάβες."
+  },
+  {
+    "id": "despoinis39",
+    "kind": "movies",
+    "title": "Δεσποινίς ετών 39",
+    "year": 1954,
+    "originalFormat": "bw",
+    "leads": [
+      "Βασίλης Λογοθετίδης",
+      "Ίλυα Λιβυκού"
+    ],
+    "supporting": [
+      "Σμάρω Στεφανίδου",
+      "Θάνος Τζενεράλης"
+    ],
+    "clue": "Μια αγγελία γάμου φέρνει απρόβλεπτους υποψήφιους.",
+    "synopsis": "Ένας άντρας προσπαθεί να παντρέψει την αδελφή του, ώστε να μπορέσει να παντρευτεί και ο ίδιος. Η αγγελία προσελκύει μνηστήρες με διαφορετικά σχέδια.",
+    "clueEn": "A marriage advertisement attracts unexpected suitors.",
+    "synopsisEn": "A man tries to find a husband for his sister so he can marry too. The advertisement attracts suitors with plans of their own.",
+    "source": "https://www.tvopen.gr/despoiniseton39/about",
+    "aliases": [
+      "Δεσποινίς ετών τριάντα εννέα",
+      "Despinis eton 39"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-despoinis39.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=Ww6rPPv9Xuk",
+    "audioStart": 36.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "BGMS - Best Greek Movie Scenes",
+    "audioSourceTitle": "1954 | ΔΕΣΠΟΙΝΙΣ ΕΤΩΝ 39 | \"Πρόκειται περι παρεξηγήσεως\" | bgms",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Ελαι popping πραγμι! Αυραία. Αυρυο πρειπαγγί μου, και το σάβατο, ... άγιο το καλό!"
+  },
+  {
+    "id": "kleftis",
+    "kind": "movies",
+    "title": "Φωνάζει ο κλέφτης",
+    "year": 1965,
+    "originalFormat": "bw",
+    "leads": [
+      "Ντίνος Ηλιόπουλος",
+      "Διονύσης Παπαγιαννόπουλος"
+    ],
+    "supporting": [
+      "Νινή Τζάνετ",
+      "Νικήτας Πλατής"
+    ],
+    "clue": "Ένα επιστραφέν πορτοφόλι ξεσκεπάζει μια απάτη.",
+    "synopsis": "Ένας τίμιος άνθρωπος επιστρέφει το πορτοφόλι ενός απόστρατου στρατηγού και βρίσκει δουλειά κοντά του. Σύντομα ανακαλύπτει οικονομικές ατασθαλίες στον κύκλο του εργοδότη του.",
+    "clueEn": "A returned wallet exposes a fraud.",
+    "synopsisEn": "An honest man returns a retired general’s wallet and is offered a job. He soon discovers financial wrongdoing among his employer’s associates.",
+    "source": "https://finosfilm.com/portfolio-items/fonazei-o-kleftis/",
+    "aliases": [
+      "Fonazei o kleftis"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kleftis.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=IfyVAGB5XE8",
+    "audioStart": 87.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Tedcol Channel",
+    "audioSourceTitle": "ΦΩΝΑΖΕΙ Ο ΚΛΕΦΤΗΣ: «Νερό!... Ένα ποτήρι νερό!» 💧 | Ντίνος Ηλιόπουλος (1965) 🎬",
+    "audioSpeechSeconds": 6.52,
+    "audioMaxGap": 0.48,
+    "audioTranscript": "όχι το μοχήσει σαν είναι πολύ καλύη. Για πού όμως το σκαιδί σαν το νεράκι. Για το ευγχεία σινό καλύτερα τώρα. Μην πως στον καλό. Σήμερα, μάκει, να κυλάξει..."
+  },
+  {
+    "id": "natassa",
+    "kind": "movies",
+    "title": "Υπολοχαγός Νατάσσα",
+    "year": 1970,
+    "originalFormat": "color",
+    "leads": [
+      "Αλίκη Βουγιουκλάκη",
+      "Δημήτρης Παπαμιχαήλ"
+    ],
+    "supporting": [
+      "Κάκια Παναγιώτου",
+      "Θάνος Γραμμένος"
+    ],
+    "clue": "Μια επιστροφή ξυπνά μνήμες έρωτα και αντίστασης.",
+    "synopsis": "Μια γυναίκα επιστρέφει στην Ελλάδα μετά από επίσκεψη στο Νταχάου. Θυμάται τον έρωτά της, την Κατοχή και τη συμμετοχή της στην αντίσταση.",
+    "clueEn": "A return journey awakens memories of love and resistance.",
+    "synopsisEn": "A woman returns to Greece after visiting Dachau. She recalls her love, the wartime occupation and her involvement in the resistance.",
+    "source": "https://finosfilm.com/portfolio-items/ypolochagos-natassa/",
+    "aliases": [
+      "Υπολοχαγός Νατάσα",
+      "Ypolochagos Natassa"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-natassa.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=5fh4iG9my0I",
+    "audioStart": 117.14,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Υπολοχαγος Νατασσα -  Αποσπασμα - HD.",
+    "audioSpeechSeconds": 6.26,
+    "audioMaxGap": 0.74,
+    "audioTranscript": "Υπησίες οι κοιμιτέρας τους στο χειτλελικό ίδιο όντυσ. Σκότωση και το τελευτείο ήχνω σανθροπιάς που μπορεί να έχεις. Είναι άχισετε στο τρίτο ράιχαίτσι, δεν-"
+  },
+  {
+    "id": "papaflessas",
+    "kind": "movies",
+    "title": "Παπαφλέσσας",
+    "year": 1971,
+    "originalFormat": "color",
+    "leads": [
+      "Δημήτρης Παπαμιχαήλ",
+      "Κάτια Δανδουλάκη"
+    ],
+    "supporting": [
+      "Στέφανος Στρατηγός",
+      "Δημήτρης Μπισλάνης"
+    ],
+    "clue": "Ένας κληρικός αγωνίζεται για έναν ξεσηκωμό.",
+    "synopsis": "Η ιστορία ακολουθεί έναν αγωνιστή κληρικό από την προετοιμασία της Επανάστασης μέχρι τη μάχη στο Μανιάκι, μέσα σε συγκρούσεις και πολιτικές διαφωνίες.",
+    "clueEn": "A clergyman fights to spark a revolution.",
+    "synopsisEn": "The story follows a revolutionary clergyman from preparations for the uprising to the battle of Maniaki, amid conflict and political divisions.",
+    "source": "https://finosfilm.com/portfolio-items/o-papaflessas/",
+    "aliases": [
+      "Papaflessas"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-papaflessas.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=9L9CYJokww4",
+    "audioStart": 47.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "valantimi",
+    "audioSourceTitle": "1821 ο λόγος ΦΩΤΙΑ του Παπαφλέσσα",
+    "audioSpeechSeconds": 5.66,
+    "audioMaxGap": 0.51,
+    "audioTranscript": "άρωτάμε και ξαναορτάμε αυτά σπωτέ αυτή η ώρα. Κι όλος το άνθα μας εστάματι μένει. Ή τώρα ή ποτέ. Ή τώρα ή ποτέ."
+  },
+  {
+    "id": "asteri",
+    "kind": "movies",
+    "title": "Το πιο λαμπρό αστέρι",
+    "year": 1967,
+    "originalFormat": "color",
+    "leads": [
+      "Αλίκη Βουγιουκλάκη",
+      "Δημήτρης Παπαμιχαήλ"
+    ],
+    "supporting": [
+      "Λαυρέντης Διανέλλος",
+      "Δέσποινα Στυλιανοπούλου"
+    ],
+    "clue": "Μια νέα τραγουδίστρια συναντά έναν απαιτητικό μουσικό.",
+    "synopsis": "Μια φτωχή κοπέλα ονειρεύεται να τραγουδήσει επαγγελματικά. Η γνωριμία της με έναν μουσικό ανοίγει νέες προοπτικές, αλλά φέρνει και ερωτικές παρεξηγήσεις.",
+    "clueEn": "An aspiring singer meets a demanding musician.",
+    "synopsisEn": "A poor young woman dreams of becoming a professional singer. Meeting a musician brings new opportunities and romantic misunderstandings.",
+    "source": "https://www.tvopen.gr/topiolamproasteri/about",
+    "aliases": [
+      "To pio lampro asteri"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-asteri.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=VbOLOm6Nzoo",
+    "audioStart": 33.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Jim Carouzos",
+    "audioSourceTitle": "ΜΟΥΤΡΑ ΝΑ ΤΡΑΓΟΥΔΗΣΩ ΕΓΩ ΣΤΟΥΣ ΑΡΡΑΒΩΝΕΣ ΤΟΥ",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Σε! Σερβητώρος ήταν. Σερβήρισες το κέντρο που τραγούν τα γαγώ. Γασσο να κύτανε. Καθήρα μάψε. Σε αυτό είστο κράτη."
+  },
+  {
+    "id": "thalassies",
+    "kind": "movies",
+    "title": "Οι θαλασσιές οι χάντρες",
+    "year": 1967,
+    "originalFormat": "color",
+    "aliases": [
+      "Οι θαλασσιές χάντρες",
+      "Oi thalassies oi chantres"
+    ],
+    "supporting": [
+      "Νανά Σκιαδά",
+      "Γιώργος Τσιτσόπουλος"
+    ],
+    "leads": [
+      "Ζωή Λάσκαρη",
+      "Φαίδων Γεωργίτσης"
+    ],
+    "clue": "Δύο γειτονικά μαγαζιά ανταγωνίζονται για το κοινό τους.",
+    "synopsis": "Μια πλούσια κοπέλα ανοίγει κέντρο με μοντέρνα μουσική απέναντι από μια λαϊκή ταβέρνα. Η σύγκρουσή της με τον μπουζουξή της γειτονιάς εξελίσσεται σε έρωτα.",
+    "clueEn": "Two neighbouring venues compete for their audience.",
+    "synopsisEn": "A modern music venue opens opposite a traditional tavern. Their rivalry soon becomes entangled with romance.",
+    "source": "https://finosfilm.com/portfolio-items/oi-thalassies-oi-chantres/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-thalassies.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=F7Dowp7xyuE",
+    "audioStart": 5.444,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Angel Matthaiou",
+    "audioSourceTitle": "Μέχρι μουστάκι...",
+    "audioSpeechSeconds": 5.79,
+    "audioMaxGap": 0.74,
+    "audioTranscript": "Πάρε το μάτσο από εκεί γιατί σε βλέπω να σπασταμούτρας, αυτό είναι αλλιώτικο φρούτο, δεν ξέζει αδοφάς. Σου την έχει δώσει άσκημα και άλλη μονομάς."
+  },
+  {
+    "id": "klama",
+    "kind": "movies",
+    "title": "Το κλάμα βγήκε απ’ τον παράδεισο",
+    "year": 2001,
+    "originalFormat": "color",
+    "leads": [
+      "Μίρκα Παπακωνσταντίνου",
+      "Άννα Παναγιωτοπούλου"
+    ],
+    "supporting": [
+      "Κώστας Ευριπιώτης",
+      "Τάκης Χρυσικάκος"
+    ],
+    "clue": "Οικογενειακά μυστικά ανατρέπουν μια υπερβολικά δραματική ιστορία.",
+    "synopsis": "Δύο οικογένειες μπλέκονται σε έρωτες, ταξικές συγκρούσεις και απίθανες αποκαλύψεις. Η ιστορία σατιρίζει τα μελοδράματα του παλιού ελληνικού κινηματογράφου.",
+    "clueEn": "Family secrets disrupt an exaggerated melodrama.",
+    "synopsisEn": "Two families become entangled in romance, class conflict and unlikely revelations. The story parodies melodramas from classic Greek cinema.",
+    "source": "https://www.hellenicaworld.com/Greece/Film/gr/ToKlamaVgikeApTonParadeiso.html",
+    "aliases": [
+      "Το κλάμα βγήκε απ τον παράδεισο",
+      "To klama vgike ap ton paradeiso"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-klama.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=423GJDJE7Ss",
+    "audioStart": 42.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Mario G",
+    "audioSourceTitle": "Το Κλάμα Βγήκε Απ'τον Παράδεισο (Μπάμιες) [Clip]",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Το όχι να σε αυτό διόκουμαι. Εσείς είναι ένα καλό παιδί και άξειο μπαλικά. Βαϊδά, ρουκόνο, βίλησεις και πειρεσικοσάρει. Στα μάτα!"
+  },
+  {
+    "id": "vera",
+    "kind": "series",
+    "title": "Βέρα στο δεξί",
+    "year": 2004,
+    "originalFormat": null,
+    "leads": [
+      "Κάτια Δανδουλάκη",
+      "Αλέξανδρος Σταύρου"
+    ],
+    "supporting": [
+      "Μαρίνα Ασλάνογλου",
+      "Γρηγόρης Σταμούλης"
+    ],
+    "clue": "Οι ζωές τεσσάρων γυναικών δένονται με μυστικά.",
+    "synopsis": "Τέσσερις γυναίκες με διαφορετικές διαδρομές αντιμετωπίζουν έρωτες, προδοσίες και εγκλήματα. Οι σχέσεις τους δοκιμάζονται καθώς παλιά μυστικά έρχονται στο φως.",
+    "clueEn": "Four women’s lives become linked by secrets.",
+    "synopsisEn": "Four women from different backgrounds face romance, betrayal and crime. Their relationships are tested as old secrets emerge.",
+    "source": "https://www.megatv.com/ekpompes/43225/vera-sto-deksi/",
+    "aliases": [
+      "Vera sto dexi"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-vera.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=0UHMzIijmmQ",
+    "audioStart": 78.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Melina .Pantelidou",
+    "audioSourceTitle": "ΒΕΡΑ ΣΤΟ ΔΕΞΙ ΓΕΝΝΑ ΡΕΓΓΙΝΑΣ",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Ενθακάνγια! Ήταν τρέλα μένι! Στ' όμως όλες είσαι πολύ μεγεύωρες! Σε λετρά μου παιδεσίες πράγματα, εινάρχεις ένα μάτέρ μου, γιατί πέρετε πράγματα, για τάχον!"
+  },
+  {
+    "id": "edem",
+    "kind": "series",
+    "title": "Τα μυστικά της Εδέμ",
+    "year": 2008,
+    "originalFormat": null,
+    "leads": [
+      "Φαίη Ξυλά",
+      "Παναγιώτης Μπουγιούρης"
+    ],
+    "supporting": [
+      "Αντιγόνη Δρακουλάκη",
+      "Κωνσταντίνος Γιαννακόπουλος"
+    ],
+    "clue": "Μια παλιά παρέα κουβαλά ένα κοινό μυστικό.",
+    "synopsis": "Φίλοι από τα νεανικά τους χρόνια βρίσκονται αντιμέτωποι με έρωτες, προδοσίες και γεγονότα που τους συνδέουν από το παρελθόν. Οι επιλογές τους αλλάζουν τις ζωές όλων.",
+    "clueEn": "An old group of friends carries a shared secret.",
+    "synopsisEn": "Childhood friends face romance, betrayal and events linking them to their past. Their decisions change everyone’s lives.",
+    "source": "https://www.megatv.com/tvshows/50299/epeisodio-18/",
+    "aliases": [
+      "Ta mystika tis Edem"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-edem.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=Q0HQmnsX9-Q",
+    "audioStart": 304.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Τα Μυστικά της Εδέμ",
+    "audioSourceTitle": "Τα Μυστικά της Εδέμ - Επεισόδιο 1 HD",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Δεν θέλω και δεν θέλω γιατί το μάνω τον αγάπη. Πρέβα! Πάντα τον αγαπούσα από παιδί. Και αυτός μαγαπάει και το ξέρω. Μην τα διαλίσουμε όλα, έβα."
+  },
+  {
+    "id": "maria-asximi",
+    "kind": "series",
+    "title": "Μαρία η άσχημη",
+    "year": 2007,
+    "originalFormat": null,
+    "leads": [
+      "Αγγελική Δαλιάνη",
+      "Άνθιμος Ανανιάδης"
+    ],
+    "supporting": [
+      "Φιλίτσα Καλογεράκου",
+      "Φώτης Σπύρος"
+    ],
+    "clue": "Μια έξυπνη υπάλληλος ξεχωρίζει σε έναν κόσμο εμφάνισης.",
+    "synopsis": "Μια ικανή νεαρή γυναίκα πιάνει δουλειά σε εταιρεία μόδας. Αντιμετωπίζει προκαταλήψεις για την εμφάνισή της, επαγγελματικές ίντριγκες και έναν απρόσμενο έρωτα.",
+    "clueEn": "A clever employee stands out in a world obsessed with appearances.",
+    "synopsisEn": "A capable young woman joins a fashion company. She faces prejudice about her looks, office intrigue and unexpected love.",
+    "source": "https://www.megatv.com/tvshows/43686/epeisodio-96-2/",
+    "aliases": [
+      "Maria i aschimi",
+      "Μαρία η Άσχημη"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-maria-asximi.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=Uxehk4pd6zk",
+    "audioStart": 328.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Μαρία η Άσχημη - Επεισόδιο 276 HD",
+    "audioSpeechSeconds": 5.72,
+    "audioMaxGap": 0.54,
+    "audioTranscript": "Ναι, εγώ είμαι. Να μόλις έφθασα. Επιτέλειος. Θα σας κοτώσω κακόμυρα μου, εξαιτία σου κότωσαν να χάσω την επίδη."
+  },
+  {
+    "id": "pater",
+    "kind": "series",
+    "title": "Πάτερ ημών",
+    "year": 1995,
+    "originalFormat": null,
+    "leads": [
+      "Κώστας Καρράς",
+      "Ελένη Μενεγάκη"
+    ],
+    "supporting": [
+      "Έφη Οικονόμου",
+      "Αλέξανδρος Ρήγας"
+    ],
+    "clue": "Ένας πατέρας μεγαλώνει τις κόρες του μέσα σε καθημερινές ανατροπές.",
+    "synopsis": "Ένας χωρισμένος ραδιοφωνικός παραγωγός μεγαλώνει τις δύο κόρες του. Η συνάδελφός του, η οικογένεια και μια παρεμβατική διαχειρίστρια περιπλέκουν την καθημερινότητά του.",
+    "clueEn": "A father raises his daughters amid daily upheavals.",
+    "synopsisEn": "A separated radio producer raises his two daughters. His colleague, relatives and an interfering building manager complicate everyday life.",
+    "source": "https://www.retrodb.gr/wiki/index.php/Πάτερ_ημών",
+    "aliases": [
+      "Pater imon"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-pater.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=otuV-4UeJWY",
+    "audioStart": 345.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Κώστας Καρράς / Kostas Karras",
+    "audioSourceTitle": "Πάτερ Ημών - ΕΠ. 1 (\"Έτσι άρχισαν όλα...\")",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Με έγιε ένα βόλό μου, κέτα πληκτικό."
+  },
+  {
+    "id": "psyxi",
+    "kind": "series",
+    "title": "Τι ψυχή θα παραδώσεις μωρή;",
+    "year": 2000,
+    "originalFormat": null,
+    "leads": [
+      "Ελένη Ράντου",
+      "Ελένη Καστάνη"
+    ],
+    "supporting": [
+      "Άβα Γαλανοπούλου",
+      "Γιάννης Μόρτζος"
+    ],
+    "clue": "Τέσσερις γυναίκες ξανασυναντιούνται για έναν κοινό σκοπό.",
+    "synopsis": "Τέσσερις φίλες που μεγάλωσαν σε ορφανοτροφείο συναντιούνται ξανά ως ενήλικες. Η επιστροφή ενός ανθρώπου από το σκοτεινό παρελθόν τους τις οδηγεί σε σχέδιο εκδίκησης.",
+    "clueEn": "Four women reunite for a shared purpose.",
+    "synopsisEn": "Four friends raised in an orphanage meet again as adults. The return of a man from their troubled past leads them to plan revenge.",
+    "source": "https://www.megatv.com/tvshows/46446/ti-uxi-tha-parad-mrieidiko-eps/",
+    "aliases": [
+      "Τι ψυχή θα παραδώσεις μωρή",
+      "Ti psychi tha paradoseis mori"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-psyxi.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=LihILR3hN_s",
+    "audioStart": 327.652,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Τι Ψυχή θα Παραδώσεις Μωρή; - Επεισόδιο 1 HD",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Να πειάσαμε, τα πειάσαμε. Όταν δουλεύουν διο χέρια και διο πόδια, σε ένα σπί..."
+  },
+  {
+    "id": "aggeliki",
+    "kind": "series",
+    "title": "Αγγελική",
+    "year": 2020,
+    "originalFormat": null,
+    "leads": [
+      "Μαίρη Μηνά",
+      "Φιλαρέτη Κομνηνού"
+    ],
+    "supporting": [
+      "Δήμητρα Σιγάλα",
+      "Αλέξανδρος Πέρρος"
+    ],
+    "clue": "Μια νοσοκόμα επιστρέφει κοντά στους ανθρώπους που τη σημάδεψαν.",
+    "synopsis": "Μια γυναίκα πιάνει δουλειά σε ένα πλούσιο σπίτι με κρυφό σκοπό. Προσπαθεί να αποκαλύψει την αλήθεια για ένα τραυματικό γεγονός του παρελθόντος της.",
+    "clueEn": "A nurse returns to the people who scarred her life.",
+    "synopsisEn": "A woman takes a job in a wealthy household with a hidden purpose. She seeks the truth about a traumatic event from her past.",
+    "source": "https://www.alphatv.gr/series/aggeliki/",
+    "aliases": [
+      "Aggeliki",
+      "Angeliki"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-aggeliki.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=zz3eyVrjC5s",
+    "audioStart": 3.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Vasilis",
+    "audioSourceTitle": "Αγγελική (ελληνική σειρά) - Σκηνή Στέφανου Παύλου \"Σκάσε!\"",
+    "audioSpeechSeconds": 6.33,
+    "audioMaxGap": 0.35,
+    "audioTranscript": "Υπάσεις εγώ αυτό υποπάτερας, ο πατέρας ανήξελε τίχες κάνει, θα συγερδειόξε από μόνος, στράθε και να μην το βάσεις!"
+  },
+  {
+    "id": "asteras",
+    "kind": "series",
+    "title": "Αστέρας Ραχούλας",
+    "year": 2016,
+    "originalFormat": null,
+    "leads": [
+      "Αντώνης Καρυστινός",
+      "Παναγιώτα Βλαντή"
+    ],
+    "supporting": [
+      "Σπύρος Τσεκούρας",
+      "Δανάη Λουκάκη"
+    ],
+    "clue": "Ένα χωριό στηρίζει τις ελπίδες του σε μια ποδοσφαιρική ομάδα.",
+    "synopsis": "Η ομάδα ενός μικρού χωριού προσπαθεί να κερδίσει απέναντι σε έναν αδίστακτο αντίπαλο. Οι αγώνες μπλέκονται με τοπικές έχθρες, έρωτες και κωμικές ανατροπές.",
+    "clueEn": "A village pins its hopes on a football team.",
+    "synopsisEn": "A small village’s team tries to beat a ruthless rival. Football matches intertwine with local grudges, romance and comic mishaps.",
+    "source": "https://www.alphatv.gr/series/asteras-raxoylas/",
+    "aliases": [
+      "Asteras Rachoulas"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-asteras.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=JRftBUVvhBs",
+    "audioStart": 321.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Alpha TV Greece",
+    "audioSourceTitle": "Αστέρας Ραχούλας | Επεισόδιο 14",
+    "audioSpeechSeconds": 6.2,
+    "audioMaxGap": 0.8,
+    "audioTranscript": "Στα ατουτάνει καριέρα του. Με τραγητης μέρες και τις ώρες να φύγει από το χωριό και να πας το μπανιώνει και τη σχολή του, δεν μπορούσε να του κόψω τον τρόμο."
+  },
+  {
+    "id": "ela-thesi",
+    "kind": "series",
+    "title": "Έλα στη θέση μου",
+    "year": 2016,
+    "originalFormat": null,
+    "leads": [
+      "Γιάννης Τσιμιτσέλης",
+      "Αθηνά Οικονομάκου"
+    ],
+    "supporting": [
+      "Μαρίνος Κόνσολος",
+      "Άνδρη Θεοδότου"
+    ],
+    "clue": "Μια αποκάλυψη αλλάζει δύο εντελώς διαφορετικές ζωές.",
+    "synopsis": "Δύο άντρες ανακαλύπτουν ότι ανταλλάχθηκαν όταν γεννήθηκαν. Η ανατροπή τούς φέρνει σε νέες οικογένειες και δημιουργεί επαγγελματικά και ερωτικά μπερδέματα.",
+    "clueEn": "A revelation changes two very different lives.",
+    "synopsisEn": "Two men discover they were switched at birth. The revelation brings them into new families and creates professional and romantic complications.",
+    "source": "https://www.alphatv.gr/series/ela-sti-thesi-moy/",
+    "aliases": [
+      "Ela sti thesi mou"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-ela-thesi.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=ioaosUuS1vs",
+    "audioStart": 160.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "icantsay",
+    "audioSourceTitle": "Σκηνές με Αχιλλέα Ρενάτα επ.15 (έλα στη θέση μου)",
+    "audioSpeechSeconds": 6.85,
+    "audioMaxGap": 0.12,
+    "audioTranscript": "Το διασχεδάζω αφάντα στα και να σου πω και κάτι, έχω και περιέργεια να δω μέχρι που μπορεί να φτάσει όλα αυτό, μη μου χαλάστος ασπέντσ"
+  },
+  {
+    "id": "klemmena",
+    "kind": "series",
+    "title": "Κλεμμένα όνειρα",
+    "year": 2011,
+    "originalFormat": null,
+    "leads": [
+      "Αλέξανδρος Σταύρου",
+      "Αθηνά Οικονομάκου"
+    ],
+    "supporting": [
+      "Κωνσταντίνος Λάγκος",
+      "Λίλη Τσεσματζόγλου"
+    ],
+    "clue": "Οι σχέσεις σε ένα σχολείο κρύβουν οικογενειακά μυστικά.",
+    "synopsis": "Μαθητές από διαφορετικούς κόσμους συναντιούνται σε ένα ιδιωτικό σχολείο. Έρωτες, ανταγωνισμοί και κρυφές οικογενειακές σχέσεις επηρεάζουν τη ζωή τους.",
+    "clueEn": "Relationships at a school conceal family secrets.",
+    "synopsisEn": "Students from different backgrounds meet at a private school. Romance, rivalry and hidden family ties shape their lives.",
+    "source": "https://www.megatv.com/tvshows/52079/episode-267/",
+    "aliases": [
+      "Klemmena oneira"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-klemmena.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=7wyiX7PkN0w",
+    "audioStart": 335.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Κλεμμένα Όνειρα - Επεισόδιο 257",
+    "audioSpeechSeconds": 6.56,
+    "audioMaxGap": 0.22,
+    "audioTranscript": "Τι πες τώρα? Και σ' ένα φορά το, γιατί έφυγα από το σπίτι, για το λόγο και τα λιπακαι που πήγα, θα τα πούμε κάποια άλλη στη γνή. Τώρα πρέπει να φίγω."
+  },
+  {
+    "id": "parousiaste",
+    "kind": "series",
+    "title": "Παρουσιάστε!",
+    "year": 2020,
+    "originalFormat": null,
+    "leads": [
+      "Γιάννης Μπέζος",
+      "Μανώλης Μαυροματάκης"
+    ],
+    "supporting": [
+      "Ιωάννης Απέργης",
+      "Βαλέρια Κουρούπη"
+    ],
+    "clue": "Δύο στρατόπεδα ανταγωνίζονται για την ίδια προαγωγή.",
+    "synopsis": "Δύο διοικητές διεκδικούν την ίδια θέση και στήνουν συνεχώς σχέδια ο ένας εναντίον του άλλου. Οι στρατιώτες και οι οικογένειές τους κάνουν την κατάσταση ακόμη πιο χαοτική.",
+    "clueEn": "Two army camps compete for the same promotion.",
+    "synopsisEn": "Two commanders seek the same promotion and constantly plot against each other. Their soldiers and families make the rivalry even more chaotic.",
+    "source": "https://www.happytv.gr/paroysiaste-seira-ant1-ithopoioi-charaktires/",
+    "aliases": [
+      "Παρουσιάστε",
+      "Parousiaste"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-parousiaste.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=6qNGk5OKPcw",
+    "audioStart": 10.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Παρουσιάστε FANNER",
+    "audioSourceTitle": "Παρουσιάστε - Ο Αντύπας λούζει την κυρία Ναταλία με μια περίεργη τεχνική",
+    "audioSpeechSeconds": 6.52,
+    "audioMaxGap": 0.48,
+    "audioTranscript": "Μασάς παρακαλώ, έχω κάνει τόσο πρώτη μασία. Αυτή η πρώτη μασία είναι που μετρομάζει, λοιπόν θα πρέπει να φύγω."
+  },
+  {
+    "id": "kafetzou",
+    "kind": "movies",
+    "title": "Η καφετζού",
+    "year": 1956,
+    "originalFormat": "bw",
+    "leads": [
+      "Γεωργία Βασιλειάδου",
+      "Μίμης Φωτόπουλος"
+    ],
+    "supporting": [
+      "Περικλής Χριστοφορίδης",
+      "Μπέτυ Μοσχονά"
+    ],
+    "clue": "Ένα φλιτζάνι αποκαλύπτει περισσότερα απ’ όσα φαίνονται.",
+    "synopsis": "Μια γυναίκα παριστάνει ότι προβλέπει το μέλλον. Ένας νεαρός τής μεταφέρει τα μυστικά που ακούει στο καφενείο, κάνοντας τις προβλέψεις της εντυπωσιακά ακριβείς.",
+    "clueEn": "A coffee cup reveals more than meets the eye.",
+    "synopsisEn": "A woman pretends to predict the future. A young man passes her secrets overheard in a café, making her predictions surprisingly accurate.",
+    "source": "https://finosfilm.com/portfolio-items/i-kafetzou/",
+    "aliases": [
+      "I kafetzou"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kafetzou.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=xYA6G8Skqag",
+    "audioStart": 51.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Η Καφετζου  -  Αποσπασμα -  HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Είσαι τα τεστρυδιασμένα τραγιώντας. Τρα ακούσεις λεώ. Ας έκαλώ πι. Ας έδω πέρα σου μιας απόναγανάκα."
+  },
+  {
+    "id": "mikes",
+    "kind": "movies",
+    "title": "Ο Μικές παντρεύεται",
+    "year": 1968,
+    "originalFormat": "bw",
+    "leads": [
+      "Γιάννης Βογιατζής",
+      "Διονύσης Παπαγιαννόπουλος"
+    ],
+    "supporting": [
+      "Μαρία Φωκά",
+      "Περικλής Χριστοφορίδης"
+    ],
+    "clue": "Ένας αφελής νέος αναζητά λύση μέσα από ένα προξενιό.",
+    "synopsis": "Ένας αφελής νεαρός προσπαθεί να λύσει τα οικονομικά του προβλήματα με έναν καλό γάμο. Το προξενιό με μια εύπορη κοπέλα φέρνει έρωτα και κωμικά μπερδέματα.",
+    "clueEn": "A naïve young man looks for a solution through matchmaking.",
+    "synopsisEn": "A naïve young man hopes a good marriage will solve his money troubles. Matchmaking with a wealthy young woman brings romance and comic complications.",
+    "source": "https://finosfilm.com/portfolio-items/o-mikes-pantrevetai/",
+    "aliases": [
+      "O Mikes pantrevetai",
+      "Ο Μίκης παντρεύεται"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mikes.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=BbEIztNO3kk",
+    "audioStart": 37.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "onoufrios nik",
+    "audioSourceTitle": "Ο ΜΙΚΕΣ ΠΑΝΤΡΕΥΕΤΑΙ 1968.....xazos einai aftos!!!",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Αγώ σας είστε! Όχι, λιωπόγης! Εχώ την βιβλία θέλετε! Νομώ είπε να τρέψετε να σε πιλίξω, μερικά! Μάλιστα!"
+  },
+  {
+    "id": "trelos400",
+    "kind": "movies",
+    "title": "Ο τρελός τα έχει 400",
+    "year": 1968,
+    "originalFormat": "bw",
+    "leads": [
+      "Λάμπρος Κωνσταντάρας",
+      "Σμάρω Στεφανίδου"
+    ],
+    "supporting": [
+      "Κατερίνα Γώγου",
+      "Αλέκος Τζανετάκος"
+    ],
+    "clue": "Ένας οικογενειάρχης βρίσκει μια παράξενη λύση για την πεθερά του.",
+    "synopsis": "Ένας άντρας κερδίζει το λαχείο και η ζωή του αλλάζει. Όταν η πεθερά του αρχίζει να επιβάλλει τα σχέδιά της, εκείνος παριστάνει τον τρελό για να την αντιμετωπίσει.",
+    "clueEn": "A family man finds an unusual way to handle his mother-in-law.",
+    "synopsisEn": "A lottery win changes a man’s life. When his mother-in-law starts imposing her plans, he pretends to be mad to thwart her.",
+    "source": "https://www.tvopen.gr/otrelostaexei400/about",
+    "aliases": [
+      "Ο τρελός τα 'χει 400",
+      "Ο τρελός τα έχει τετρακόσια",
+      "O trelos ta echei 400"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-trelos400.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=mX2n2nz_Xe4",
+    "audioStart": 1.028,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Every Little Something",
+    "audioSourceTitle": "Κωνστανταρας - Τζανετάκος  / Ο Τρελός τα έχει 400  / Ελληνικός Κινηματογράφος",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Όσο κραβιά, είδε κύριε φοπλίστα. Μάνα diagnose! Καρ..."
+  },
+  {
+    "id": "mami",
+    "kind": "movies",
+    "title": "Η κυρά μας η μαμή",
+    "year": 1958,
+    "originalFormat": "bw",
+    "leads": [
+      "Γεωργία Βασιλειάδου",
+      "Ορέστης Μακρής"
+    ],
+    "supporting": [
+      "Παντελής Ζερβός",
+      "Νίτσα Τσαγανέα"
+    ],
+    "clue": "Ένας γιατρός αντιμετωπίζει έναν απρόσμενο ανταγωνιστή στο χωριό.",
+    "synopsis": "Ένας γιατρός εγκαθίσταται σε χωριό όπου μια μαμή αντιμετωπίζει τις αρρώστιες με γιατροσόφια. Η αντιπαλότητά τους περιπλέκεται όταν τα παιδιά τους ερωτεύονται.",
+    "clueEn": "A village doctor faces an unexpected rival.",
+    "synopsisEn": "A doctor arrives in a village where a midwife treats illnesses with folk remedies. Their rivalry becomes complicated when their children fall in love.",
+    "source": "https://ellinikoskinimatografos.gr/i-kyra-mas-i-mami/",
+    "aliases": [
+      "Η κυρά μας η μαμμή",
+      "I kyra mas i mami"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mami.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=ckm8dIWZhKE",
+    "audioStart": 9.924,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "lostromoscorfu",
+    "audioSourceTitle": "Ο γιατρός -  Η κυρά μας η μαμμή (1958)",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Ο σκοπός δεν είναι το μετουπόνο, ο σκοπός είναι να τους σωματήσουμε για να τους ναματήσουμε πρέπει πρώτα να βούλε. Όχι θα βγίσουμε γιατί..."
+  },
+  {
+    "id": "thanasakis",
+    "kind": "movies",
+    "title": "Θανασάκης ο πολιτευόμενος",
+    "year": 1954,
+    "originalFormat": "bw",
+    "leads": [
+      "Ντίνος Ηλιόπουλος",
+      "Άννα Συνοδινού"
+    ],
+    "supporting": [
+      "Βύρων Πάλλης",
+      "Τζόλυ Γαρμπή"
+    ],
+    "clue": "Πολιτικές φιλοδοξίες απειλούν το ταμείο μιας οικογένειας.",
+    "synopsis": "Ένας μπακάλης στηρίζει οικονομικά την αδελφή του και τον φιλόδοξο σύζυγό της. Ο γαμπρός ονειρεύεται πολιτική καριέρα, φορτώνοντας την οικογένεια με συνεχείς απαιτήσεις.",
+    "clueEn": "Political ambitions threaten a family’s finances.",
+    "synopsisEn": "A grocer supports his sister and her ambitious husband. His brother-in-law dreams of a political career and makes increasingly costly demands.",
+    "source": "https://www.filmy.gr/movies-database/thanasis-the-politician/",
+    "aliases": [
+      "Thanasakis o politevomenos"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-thanasakis.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=UpBoQypLRo8",
+    "audioStart": 2.468,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Θανασακης ο Πολιτευομενος  -  Αποσπασμα  -  HD.",
+    "audioSpeechSeconds": 6.71,
+    "audioMaxGap": 0.29,
+    "audioTranscript": "Θα ήθελα να μιλήσουμε λιγάκι. Πάω, θα μιλήσουμε γιατί εμείς με ο Θεός για το τέλος τα στώμετα σαν τόψα. Για τρόν να μιλάνε."
+  },
+  {
+    "id": "kryo",
+    "kind": "movies",
+    "title": "Μερικοί το προτιμούν κρύο",
+    "year": 1963,
+    "originalFormat": "bw",
+    "leads": [
+      "Ντίνος Ηλιόπουλος",
+      "Ρένα Βλαχοπούλου"
+    ],
+    "supporting": [
+      "Χλόη Λιάσκου",
+      "Τζόλυ Γαρμπή"
+    ],
+    "clue": "Ένας γάμος πρέπει να περιμένει τις μεγαλύτερες αδελφές.",
+    "synopsis": "Ένας νέος θέλει να παντρευτεί την αγαπημένη του, αλλά προηγούνται οι ανύπαντρες αδελφές της. Τα προξενιά και οι κρυφές σχέσεις δημιουργούν μια αλυσίδα παρεξηγήσεων.",
+    "clueEn": "A wedding must wait for the older sisters.",
+    "synopsisEn": "A young man wants to marry his sweetheart, but her unmarried older sisters must go first. Matchmaking and secret romances create a chain of misunderstandings.",
+    "source": "https://finosfilm.com/portfolio-items/merikoi-to-protimoun-kryo/",
+    "aliases": [
+      "Merikoi to protimoun kryo"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kryo.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=ad_Ne_y_JHA",
+    "audioStart": 52.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Filippos Filippos",
+    "audioSourceTitle": "ΒΛΑΧΟΠΟΥΛΟΥ  ΑΠΟ ΠΙΕΣΗ ΠΩΣ ΠΑΜΕ",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Συγγάμι φωνάζεις τα μομήνι στα κέρια, μι φωνάζεις, γάλα, λέγεται πίθελ. Λέγεται, λίγεται, λίγεται, λίγεται, μι μήνι σύγγε."
+  },
+  {
+    "id": "karpazia",
+    "kind": "movies",
+    "title": "Ο άνθρωπος της καρπαζιάς",
+    "year": 1969,
+    "originalFormat": "bw",
+    "leads": [
+      "Κώστας Βουτσάς",
+      "Ξένια Καλογεροπούλου"
+    ],
+    "supporting": [
+      "Θόδωρος Έξαρχος",
+      "Γιώργος Παπαζήσης"
+    ],
+    "clue": "Μια φάρσα μεταμορφώνει έναν δειλό άνθρωπο.",
+    "synopsis": "Ένας δειλός άντρας ονειρεύεται να γίνει ήρωας. Οι φίλοι του στήνουν μια φάρσα που του δίνει αυτοπεποίθηση και αλλάζει απρόσμενα τη συμπεριφορά του.",
+    "clueEn": "A prank transforms a timid man.",
+    "synopsisEn": "A timid man dreams of becoming a hero. His friends stage a prank that boosts his confidence and unexpectedly changes his behaviour.",
+    "source": "https://www.tvopen.gr/oanthroposthskarpazias/about",
+    "aliases": [
+      "O anthropos tis karpazias"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-karpazia.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=9QkTLRn7Uos",
+    "audioStart": 2.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Giggle Glasses",
+    "audioSourceTitle": "αστείες σκηνές - Κώστας Βουτσάς, Σαπφώ Νοταρά, Γιώργος Λουκάκης, Γιώργος Βρασιβανόπουλος",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Εγγραμμα και τρα μου το ξέρεις το γιάνε το βάμια. Πούλα το ξέρω. Εγγραμμα και τρα μου καταλαβαίνεις. Εγώ τρέχω στον παπαρήκα να προτοιμάνω. Με έτσι, τρέχω το βάμια. Και είμαι σε περιίχου αδεσσαίως."
+  },
+  {
+    "id": "italida",
+    "kind": "movies",
+    "title": "Μια Ιταλίδα απ’ την Κυψέλη",
+    "year": 1968,
+    "originalFormat": "bw",
+    "leads": [
+      "Μάρω Κοντού",
+      "Αλέκος Αλεξανδράκης"
+    ],
+    "supporting": [
+      "Δημήτρης Νικολαΐδης",
+      "Καίτη Παπανίκα"
+    ],
+    "clue": "Μια ψεύτικη καταγωγή πρέπει να πείσει μια αυστηρή αδελφή.",
+    "synopsis": "Ένας νέος παρουσιάζει την Ελληνίδα αγαπημένη του ως Ιταλίδα, επειδή η αδελφή του επιμένει να παντρευτεί ξένη. Η προσποίηση γεννά απρόβλεπτα μπερδέματα.",
+    "clueEn": "A false nationality must convince a strict sister.",
+    "synopsisEn": "A young man presents his Greek sweetheart as Italian because his sister insists he marry a foreigner. The pretence creates unexpected complications.",
+    "source": "https://ellinikoskinimatografos.gr/mia-italida-ap-ti-kypseli/",
+    "aliases": [
+      "Μια Ιταλίδα απ την Κυψέλη",
+      "Μια Ιταλίδα από την Κυψέλη",
+      "Mia Italida ap tin Kypseli"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-italida.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=SPUxa_FTpLE",
+    "audioStart": 52.932,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "lostromoscorfu",
+    "audioSourceTitle": "Γορίλα μου εσύ - Μια Ιταλίδα απ' την Κυψέλη 1968",
+    "audioSpeechSeconds": 6.68,
+    "audioMaxGap": 0.32,
+    "audioTranscript": "Είναι 25 χρόνια, παιν ειδιώθηκα. Πάντως της μιλάς, πολύ άσκημα. Σάτα! Πούλω σ' όπια! Πούλω σ' όχι! Να μην φάσεις! Σ' όχι άρα!"
+  },
+  {
+    "id": "gynaikes",
+    "kind": "movies",
+    "title": "Ας περιμένουν οι γυναίκες",
+    "year": 1998,
+    "originalFormat": "color",
+    "leads": [
+      "Γιάννης Ζουγανέλης",
+      "Σάκης Μπουλάς"
+    ],
+    "supporting": [
+      "Αργύρης Μπακιρτζής",
+      "Αγγελική Ηλιάδη"
+    ],
+    "clue": "Ένα ταξίδι διακοπών αποκτά απρόσμενες στάσεις.",
+    "synopsis": "Άντρες ταξιδεύουν για να συναντήσουν τις οικογένειές τους στη Θάσο. Μια ερωτική γνωριμία τούς κρατά στον δρόμο, ανάμεσα σε συζητήσεις, διαφωνίες και παρεξηγήσεις.",
+    "clueEn": "A holiday journey takes unexpected detours.",
+    "synopsisEn": "Men travel to join their families on Thasos. A romantic encounter delays them, leading to conversations, arguments and misunderstandings.",
+    "source": "https://www.filmy.gr/movies-database/let-the-women-wait/",
+    "aliases": [
+      "As perimenoun oi gynaikes"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-gynaikes.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=S1Niv9yC27g",
+    "audioStart": 30.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Letthewomenwait",
+    "audioSourceTitle": "Ας περιμένουν οι γυναίκες - Η γνωριμία και το συνέδριο",
+    "audioSpeechSeconds": 5.78,
+    "audioMaxGap": 0.93,
+    "audioTranscript": "Βερία φοβάμε που σκάνε με λάθος, τα λάθηκε στον φανθρώπους είναι. Μου είπαν ότι για να πάω στην καβάλα, πρέπει να έχω τη θάλα σας τα δεξιά μου."
+  },
+  {
+    "id": "psari",
+    "kind": "movies",
+    "title": "Το μικρό ψάρι",
+    "year": 2014,
+    "originalFormat": "color",
+    "leads": [
+      "Βαγγέλης Μουρίκης",
+      "Βίκυ Παπαδοπούλου"
+    ],
+    "supporting": [
+      "Πέτρος Ζερβός",
+      "Μαρία Καλλιμάνη"
+    ],
+    "clue": "Ένας άνθρωπος με διπλή ζωή προσπαθεί να εξοφλήσει ένα χρέος.",
+    "synopsis": "Ένας πρώην κρατούμενος εργάζεται σε αρτοποιείο και παράλληλα εκτελεί συμβόλαια θανάτου. Χρηματοδοτεί την απόδραση του ανθρώπου που τον προστάτευε στη φυλακή.",
+    "clueEn": "A man with a double life tries to repay a debt.",
+    "synopsisEn": "A former prisoner works in a bakery while carrying out contract killings. He finances an escape for the man who protected him in prison.",
+    "source": "https://www.ertnews.gr/ert-protaseis/tileorasi-ert-protaseis/to-mikro-psari-stin-ert2/",
+    "aliases": [
+      "To mikro psari",
+      "Stratos"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-psari.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=IPtFJgcASqg",
+    "audioStart": 164.164,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "BGMS - Best Greek Movie Scenes",
+    "audioSourceTitle": "2014 | ΤΟ ΜΙΚΡΟ ΨΑΡΙ | “ Πως τους πετσόκοψες ετσι...” | bgms",
+    "audioSpeechSeconds": 5.98,
+    "audioMaxGap": 0.48,
+    "audioTranscript": "Πως τους κατσόκουξες έτσι γνωνεχα. Πως τους γάμεις έτσι μου τα γαμισόλα, τα σκαμμόμου και τα αρχίδια μου! Μαρόκα!"
+  },
+  {
+    "id": "dis",
+    "kind": "series",
+    "title": "Το δις εξαμαρτείν",
+    "year": 1993,
+    "originalFormat": null,
+    "leads": [
+      "Νένα Μεντή",
+      "Αλέξανδρος Αντωνόπουλος"
+    ],
+    "supporting": [
+      "Χάρης Σώζος",
+      "Μιχάλης Ρέππας"
+    ],
+    "clue": "Το δελτίο ειδήσεων κρύβει έναν προσωπικό ανταγωνισμό.",
+    "synopsis": "Μια διευθύντρια ειδήσεων αντιμετωπίζει τις απιστίες του συζύγου της, που παρουσιάζει το δελτίο. Η πρόσληψη ενός ανταγωνιστή του ανατρέπει τις ισορροπίες στο κανάλι και στον γάμο τους.",
+    "clueEn": "A news bulletin conceals a personal rivalry.",
+    "synopsisEn": "A news director deals with her presenter husband’s infidelity. Hiring a rival changes the balance at the channel and in their marriage.",
+    "source": "https://retrodb.gr/wiki/index.php/Το_Δις_Εξαμαρτείν",
+    "aliases": [
+      "To dis examartein"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-dis.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=xZqnONW2Bqc",
+    "audioStart": 328.804,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Το Δις Εξαμαρτείν - Επεισόδιο 23 HD | Το προξενιό της Άννας",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Δεν δι' ατώρα η θέση μου μέναι είναι λεπτύπανους αυτό το ζύτημα, αλλά νομίζω ότι αν είχε κάθε λόγο να αγανακτήσουμε όλα αυτά που έγινε. Το ξέρω."
+  },
+  {
+    "id": "veziris",
+    "kind": "series",
+    "title": "Ο κακός βεζύρης",
+    "year": 1997,
+    "originalFormat": null,
+    "leads": [
+      "Χάρης Ρώμας",
+      "Χρήστος Ευθυμίου"
+    ],
+    "supporting": [
+      "Ναταλία Καποδίστρια",
+      "Γιώργος Γαλίτης"
+    ],
+    "clue": "Ένας φιλόδοξος γραμματέας εποφθαλμιά τη θέση του προϊσταμένου του.",
+    "synopsis": "Ένας γενικός γραμματέας υπουργείου θέλει να γίνει υπουργός. Στήνει σχέδια εναντίον του προϊσταμένου του, ενώ προσωπικές σχέσεις και πολιτικές ίντριγκες περιπλέκουν τις κινήσεις του.",
+    "clueEn": "An ambitious secretary covets his superior’s job.",
+    "synopsisEn": "A ministry’s secretary-general wants to become minister. He plots against his superior while personal relationships and political intrigue complicate his schemes.",
+    "source": "https://www.retrodb.gr/wiki/index.php/Ο_κακός_Βεζύρης",
+    "aliases": [
+      "O kakos veziris"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-veziris.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=eZ01hbNySUk",
+    "audioStart": 331.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Ο Κακός Βεζύρης - Επεισόδιο 21 HD | Η ροζ γκαρσονιέρα",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Βαλησία, οτι νέα, ο ηλικός λαός πληρώνει την πόκα της γυναίκας μου. Μα τι λέει σβρακλέωνα, αν πότι το πράγμα θα με αναδομήσω."
+  },
+  {
+    "id": "idiaitera",
+    "kind": "series",
+    "title": "Ιδιαιτέρα για κλάματα",
+    "year": 2000,
+    "originalFormat": null,
+    "leads": [
+      "Σοφία Αλιμπέρτη",
+      "Στράτος Τζώρτζογλου"
+    ],
+    "supporting": [
+      "Γιολάντα Διαμαντή",
+      "Νίκος Μποτόπουλος"
+    ],
+    "clue": "Μια νέα δουλειά φέρνει δύσκολες προσωπικές ισορροπίες.",
+    "synopsis": "Μια άνεργη γυναίκα γίνεται γραμματέας ενός γοητευτικού διευθυντή. Ερωτεύεται το αφεντικό της και προσπαθεί να διαχειριστεί τις πολλές ερωτικές του περιπέτειες.",
+    "clueEn": "A new job brings difficult personal dilemmas.",
+    "synopsisEn": "An unemployed woman becomes secretary to a charming director. She falls for her boss and struggles to manage his many romantic adventures.",
+    "source": "https://www.retrodb.gr/wiki/index.php/Ιδιαιτέρα_για_Κλάματα",
+    "aliases": [
+      "Idiaitera gia klamata",
+      "Ιδιαιτέρα για κλάμματα"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-idiaitera.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=yEy6vJI7p1M",
+    "audioStart": 352.548,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "scorpios1969",
+    "audioSourceTitle": "ιδιαιτέρα για κλάματα - 01",
+    "audioSpeechSeconds": 6.68,
+    "audioMaxGap": 0.32,
+    "audioTranscript": "Τι τη λεφρονά βρω ταξι θα μου πεις, θα... όλοι μου κοιν. Εγώ! Τι εσύ, μόνο, έχεις ταξι. Θα σε πάω με τη μηχανή. Για να είναι σκοτός."
+  },
+  {
+    "id": "ekdromi",
+    "kind": "series",
+    "title": "Η εκδρομή",
+    "year": 2014,
+    "originalFormat": null,
+    "leads": [
+      "Λίνα Σακκά",
+      "Όθων Μεταξάς"
+    ],
+    "supporting": [
+      "Νίκος Κολοβός",
+      "Ιφιγένεια Δεληγιαννίδου"
+    ],
+    "clue": "Άγνωστοι εγκλωβίζονται σε ένα απομονωμένο καταφύγιο.",
+    "synopsis": "Δεκατρείς άνθρωποι αποκλείονται σε ένα ορεινό ξενοδοχείο μέσα στον χειμώνα. Τα κίνητρα και τα μυστικά τους αποκαλύπτονται καθώς η κατάσταση γίνεται επικίνδυνη.",
+    "clueEn": "Strangers become trapped in an isolated refuge.",
+    "synopsisEn": "Thirteen people are stranded in a mountain hotel in winter. Their motives and secrets emerge as the situation becomes dangerous.",
+    "source": "https://www.ishow.gr/production/1396462/i-ekdromi",
+    "aliases": [
+      "I ekdromi"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-ekdromi.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=6kSP8SdwsOA",
+    "audioStart": 314.98,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Η Εκδρομή - Daily News",
+    "audioSourceTitle": "Η Εκδρομή / VIDEO 1 / Λίνα Σακκά (Επεισόδιο 1)",
+    "audioSpeechSeconds": 5.02,
+    "audioMaxGap": 0.93,
+    "audioTranscript": "Άπησμα στην έκανε του βιλιά. Δεν επέσαι μόνο του το δέντρο. Ελλά, μέσα, μη γουράει στο πόδη σου. Στο τέλος μπορεί να χρειαστεί να γιρήσουμε με τα πόδια."
+  },
+  {
+    "id": "kalytera",
+    "kind": "series",
+    "title": "Τα καλύτερά μας χρόνια",
+    "year": 2020,
+    "originalFormat": null,
+    "leads": [
+      "Κατερίνα Παπουτσάκη",
+      "Μελέτης Ηλίας"
+    ],
+    "supporting": [
+      "Γιολάντα Μπαλαούρα",
+      "Μιχάλης Οικονόμου"
+    ],
+    "clue": "Μια γειτονιά μεγαλώνει μαζί με τις αλλαγές της εποχής.",
+    "synopsis": "Μια οικογένεια σε αθηναϊκή γειτονιά ζει τις αλλαγές που ξεκινούν στα τέλη της δεκαετίας του 1960. Τα παιδιά μεγαλώνουν ανάμεσα σε οικογενειακές ιστορίες και σημαντικά γεγονότα.",
+    "clueEn": "A neighbourhood grows through the changes of an era.",
+    "synopsisEn": "An Athenian neighbourhood family experiences changes beginning in the late 1960s. The children grow up amid family stories and historic events.",
+    "source": "https://www.ertnews.gr/ert-protaseis/ta-kalytera-mas-chronia-stin-ert1-parazali/",
+    "aliases": [
+      "Ta kalytera mas chronia"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kalytera.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=fsK6HdJEJB8",
+    "audioStart": 1.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "gigos peris",
+    "audioSourceTitle": "Εγώ στον Γρηγόρη τα συγχωρώ όλα!!!  - Τα καλύτερά μας χρόνια",
+    "audioSpeechSeconds": 6.65,
+    "audioMaxGap": 0.35,
+    "audioTranscript": "Εγώ πάντα στον γρυγόρι θα το συγχωρούς όλα. Ακόμε και που είναι κομμουλιστης. Πέσαι οπότε για αυτό φιλάει το σωρέα. Παιδί μου κάνεις η σχεία θα μας..."
+  },
+  {
+    "id": "pinakes",
+    "kind": "series",
+    "title": "Μαύροι πίνακες",
+    "year": 2024,
+    "originalFormat": null,
+    "leads": [
+      "Κάτια Γκουλιώνη",
+      "Αντίνοος Αλμπάνης"
+    ],
+    "supporting": [
+      "Μελέτης Γεωργιάδης",
+      "Σωτήρης Χατζάκης"
+    ],
+    "clue": "Μια έρευνα συνδέει εγκλήματα με έργα τέχνης.",
+    "synopsis": "Μια αστυνομική έρευνα σε μικρή κοινότητα αποκαλύπτει κατά συρροή δολοφονίες. Ο δράστης χρησιμοποιεί μοτίβα από πίνακες του Γκόγια, ενώ οι κάτοικοι κρύβουν μυστικά.",
+    "clueEn": "An investigation links crimes to works of art.",
+    "synopsisEn": "A police investigation in a small community uncovers serial murders. The killer uses motifs from Goya’s paintings while residents conceal secrets.",
+    "source": "https://www.star.gr/lifestyle/media/662607/mayroi-pinakes-h-nea-astynomikh-seira-mysthrioy-toy-star",
+    "aliases": [
+      "Mavroi pinakes"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-pinakes.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=tAXKaCaYbU8",
+    "audioStart": 18.756,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "StarTvGreece",
+    "audioSourceTitle": "Μαύροι Πίνακες | Ο καυγάς της Μαρήλιας στο σχολείο!",
+    "audioSpeechSeconds": 5.62,
+    "audioMaxGap": 0.96,
+    "audioTranscript": "Όλα η τώρα αυτό, πιστεύεις έχει να κάνει με το πατέρα της. Είμαι τον κόλου χαρακτήρατη. Μαρία κόφτο, γιατί ψαματά είναι. Φύλοι μας ήταν."
+  },
+  {
+    "id": "giatros",
+    "kind": "series",
+    "title": "Ο γιατρός",
+    "year": 2023,
+    "originalFormat": null,
+    "leads": [
+      "Κωνσταντίνος Μαρκουλάκης",
+      "Βασιλική Τρουφάκου"
+    ],
+    "supporting": [
+      "Παναγιώτης Εξαρχέας",
+      "Αλέξανδρος Κωχ"
+    ],
+    "clue": "Ένας ειδικός πρέπει να ξαναγνωρίσει την ίδια του τη ζωή.",
+    "synopsis": "Ένας κορυφαίος γιατρός χάνει σημαντικό μέρος της μνήμης του. Επιστρέφει στο νοσοκομείο και προσπαθεί να ξαναχτίσει τις σχέσεις του, αντιμετωπίζοντας ασθενείς και κρυμμένες αλήθειες.",
+    "clueEn": "An expert must rediscover his own life.",
+    "synopsisEn": "A leading doctor loses a significant part of his memory. Returning to hospital, he rebuilds relationships while treating patients and confronting hidden truths.",
+    "source": "https://www.alphatv.gr/series/o-giatros/",
+    "aliases": [
+      "O giatros"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-giatros.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=YuONy-7bnro",
+    "audioStart": 24.276,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Alpha TV Greece",
+    "audioSourceTitle": "Ο Γιατρός | Σεζόν 2 | Επεισόδιο 5 | Sneak Preview",
+    "audioSpeechSeconds": 5.7,
+    "audioMaxGap": 0.8,
+    "audioTranscript": "Δεν μπορεί αν θα μου πάρετε τη Ράνια. Κανείς δεν μπορεί να αγαπήστε εγκώρσο, όπως εσύ. Αλλά πρέπει να σχευτούμε τι είναι καλό για κύνη."
+  },
+  {
+    "id": "sympetheroi",
+    "kind": "series",
+    "title": "Συμπέθεροι απ’ τα Τίρανα",
+    "year": 2021,
+    "originalFormat": null,
+    "leads": [
+      "Ελισάβετ Κωνσταντινίδου",
+      "Χρήστος Χατζηπαναγιώτης"
+    ],
+    "supporting": [
+      "Πάνος Σταθακόπουλος",
+      "Κώστας Καζάκας"
+    ],
+    "clue": "Μια γνωριμία δοκιμάζει τις προκαταλήψεις μιας οικογένειας.",
+    "synopsis": "Μια νεαρή γυναίκα φέρνει τον σύντροφό της στο πατρικό της. Η αλβανική καταγωγή του προκαλεί αντιδράσεις και ξεσκεπάζει την υποκρισία της οικογένειας και του χωριού.",
+    "clueEn": "An introduction tests a family’s prejudices.",
+    "synopsisEn": "A young woman brings her partner to her family home. His Albanian background sparks reactions and exposes hypocrisy in the family and village.",
+    "source": "https://www.megatv.com/2021/07/13/h-mythoplasia-einai-sto-mega/",
+    "aliases": [
+      "Συμπέθεροι απ τα Τίρανα",
+      "Συμπέθεροι από τα Τίρανα",
+      "Sympetheroi ap ta Tirana"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-sympetheroi.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=5s4dq0En8Jo",
+    "audioStart": 4.516,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "MEGA TV - OFFICIAL",
+    "audioSourceTitle": "Συμπέθεροι απ’ τα Τίρανα: Επ 1 Απόσπασμα",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Ήγοντας ότι λιχόδο, λιχόδο αισκουτός. Ήσαι την έκανε, λιχόδο αισκουτός. Είναι μίλες της κουβάλλης, τη κυντάμ. Μη μη λάσης, μη μη μη λάσης."
+  },
+  {
+    "id": "oratotis",
+    "kind": "movies",
+    "title": "Ορατότης μηδέν",
+    "year": 1970,
+    "originalFormat": "bw",
+    "leads": [
+      "Νίκος Κούρκουλος",
+      "Μαίρη Χρονοπούλου"
+    ],
+    "supporting": [
+      "Ζώρας Τσάπελης",
+      "Γιάννης Αργύρης"
+    ],
+    "clue": "Ένας επιζών προσπαθεί να αποκαλύψει την αλήθεια για ένα ναυάγιο.",
+    "synopsis": "Ένας ναυτικός επιζεί από ένα ναυάγιο και μαθαίνει ότι το πλοίο δεν ήταν ασφαλές. Αντιμετωπίζει ισχυρά συμφέροντα καθώς προσπαθεί να αποκαλύψει τους υπεύθυνους.",
+    "clueEn": "A survivor tries to expose the truth behind a shipwreck.",
+    "synopsisEn": "A sailor survives a shipwreck and discovers the vessel was unsafe. He confronts powerful interests while trying to expose those responsible.",
+    "source": "https://finosfilm.com/portfolio-items/oratotis-miden/",
+    "aliases": [
+      "Ορατότητα μηδέν",
+      "Oratotis miden"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-oratotis.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=oGFMfYNDfmI",
+    "audioStart": 25.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Ορατοτης Μηδεν  - Αποσπασμα - HD.",
+    "audioSpeechSeconds": 5.27,
+    "audioMaxGap": 1.02,
+    "audioTranscript": "Τι βέλασες, θα τα νεκρήμε να φτιάξετε άλλη. Ακεί κάθε φορά που ο αραβονιάζεστε να αλλάζετε τη σημείο ρομινή."
+  },
+  {
+    "id": "leoforos",
+    "kind": "movies",
+    "title": "Η λεωφόρος του μίσους",
+    "year": 1968,
+    "originalFormat": "bw",
+    "leads": [
+      "Μαίρη Χρονοπούλου",
+      "Κώστας Καζάκος"
+    ],
+    "supporting": [
+      "Νόνικα Γαληνέα",
+      "Θεόδωρος Ντόβας"
+    ],
+    "clue": "Μια νέα υπόθεση θυμίζει σε έναν ανακριτή την προσωπική του απώλεια.",
+    "synopsis": "Ένας ανακριτής ερευνά ένα τροχαίο με εγκατάλειψη. Υποψιάζεται ότι ο υπαίτιος είναι ο ίδιος άνθρωπος που προκάλεσε τον θάνατο της γυναίκας του χρόνια νωρίτερα.",
+    "clueEn": "A new case reminds an investigator of his own loss.",
+    "synopsisEn": "An investigator examines a hit-and-run. He suspects the culprit is the same person who caused his wife’s death years earlier.",
+    "source": "https://finosfilm.com/portfolio-items/i-leoforos-tou-misous/",
+    "aliases": [
+      "I leoforos tou misous"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-leoforos.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=84mkqu5E5bY",
+    "audioStart": 48.516,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Η Λεωφορος του Μισους  -  Αποσπασμα - HD.",
+    "audioSpeechSeconds": 6.42,
+    "audioMaxGap": 0.58,
+    "audioTranscript": "Κομμακένα κρόνθα μήκαν βάλει να οδηγώ! Κι! Αυτή που ακούν τα φοκίνητα! Και στις όλοι που είτε τα νόμος τα κέρκες και στιγκου βαλατε μένα εδώ, αν την ακου βαλατε κύνου!"
+  },
+  {
+    "id": "deligianneio",
+    "kind": "series",
+    "title": "Δεληγιάννειο Παρθεναγωγείο",
+    "year": 2007,
+    "originalFormat": null,
+    "leads": [
+      "Χάρης Ρώμας",
+      "Καίτη Κωνσταντίνου"
+    ],
+    "supporting": [
+      "Μάνος Βακούσης",
+      "Μαίρη Σταυρακέλη"
+    ],
+    "clue": "Μια νέα καθηγήτρια αναστατώνει ένα αυστηρό οικοτροφείο.",
+    "synopsis": "Λίγο πριν τον Β΄ Παγκόσμιο Πόλεμο, μια προοδευτική καθηγήτρια φτάνει σε οικοτροφείο θηλέων. Οι ιδέες της αλλάζουν το σχολείο και την προσωπική ζωή του διευθυντή.",
+    "clueEn": "A new teacher disrupts a strict boarding school.",
+    "synopsisEn": "Shortly before World War II, a progressive teacher arrives at a girls’ boarding school. Her ideas change the school and the headmaster’s personal life.",
+    "source": "https://www.maktv.gr/deligianneioparthenagogeio",
+    "aliases": [
+      "Δεληγιάννειον Παρθεναγωγείον",
+      "Deligianneio Parthenagogeio"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-deligianneio.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=dWHBOGPCFY8",
+    "audioStart": 24.26,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Zoe Pavlovska",
+    "audioSourceTitle": "Отрывок из сериала \"Δεληγιάννειο παρθεναγωγείο\"",
+    "audioSpeechSeconds": 6.68,
+    "audioMaxGap": 0.32,
+    "audioTranscript": "Γιατί κυριδύφτα δεν είσαι ζώφιλος. Δεν άσκη, είσαι ζώφιλος. Αν δεν είμουν ζώφιλος, θα σας είσαι η καμπαραδόση όλες στον πόγια."
+  },
+  {
+    "id": "vodka",
+    "kind": "series",
+    "title": "Βότκα πορτοκάλι",
+    "year": 2001,
+    "originalFormat": null,
+    "leads": [
+      "Κώστας Κόκλας",
+      "Μαρία Λεκάκη"
+    ],
+    "supporting": [
+      "Τζένη Ιωακειμίδου",
+      "Σούλα Αθανασιάδου"
+    ],
+    "clue": "Μια νύχτα σε μπαρ ανατρέπει έναν φαινομενικά ήσυχο γάμο.",
+    "synopsis": "Ένας παντρεμένος άντρας ερωτεύεται μια μπαργούμαν. Η γυναίκα του ενδιαφέρεται για τον ιδιοκτήτη του μπαρ και οι κρυφές σχέσεις δημιουργούν κωμικές συγκρούσεις.",
+    "clueEn": "A night in a bar disrupts a seemingly quiet marriage.",
+    "synopsisEn": "A married man falls for a bartender. His wife takes an interest in the bar owner, and their secret relationships create comic clashes.",
+    "source": "https://www.retrodb.gr/wiki/index.php/Βότκα_πορτοκάλι",
+    "aliases": [
+      "Vodka portokali",
+      "Βότκα Πορτοκάλι"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-vodka.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=6mdfvg1Rpa4",
+    "audioStart": 51.44,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "GeorgeBac88",
+    "audioSourceTitle": "Βοτκα πορτοκαλι - ΣΔΟΕ στο μπαρ",
+    "audioSpeechSeconds": 6.17,
+    "audioMaxGap": 0.54,
+    "audioTranscript": "Είναι καφέ, είναι αργά, τα φόλου αργά εμείς τα το κεράσουμε και εσείς το μπήνετε όκοτε ατκαρίσετε"
+  },
+  {
+    "id": "ax-na-kseres",
+    "kind": "series",
+    "title": "Αχ και να ’ξερες",
+    "year": 2002,
+    "originalFormat": null,
+    "leads": [
+      "Κωνσταντίνος Μαρκουλάκης",
+      "Σμαράγδα Καρύδη"
+    ],
+    "supporting": [
+      "Ειρήνη Μπαλτά",
+      "Καλλιόπη Ταχτσόγλου"
+    ],
+    "clue": "Μια μυστική αποστολή μπλέκεται με ερωτικές περιπέτειες.",
+    "synopsis": "Δύο αστυνομικοί αναλαμβάνουν να παρακολουθήσουν έναν ύποπτο επιχειρηματία. Συμπτώσεις και προσωπικές σχέσεις τούς αποσπούν από την αποστολή και προκαλούν αλλεπάλληλες παρεξηγήσεις.",
+    "clueEn": "A secret assignment becomes entangled with romance.",
+    "synopsisEn": "Two police officers are assigned to watch a suspicious businessman. Coincidences and personal relationships distract them, causing a succession of misunderstandings.",
+    "source": "https://www.tanea.gr/2002/08/21/lifearts/culture/erwtes-stin-eyp/",
+    "aliases": [
+      "Αχ και να ξερες",
+      "Αχ και να 'ξερες",
+      "Ach kai na xeres"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-ax-na-kseres.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=z05VEjiUugM",
+    "audioStart": 649.06,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "GROUDPOND",
+    "audioSourceTitle": "ΑΧ ΚΑΙ ΝΑ ΞΕΡΕΣ - Επ.3",
+    "audioSpeechSeconds": 5.38,
+    "audioMaxGap": 0.64,
+    "audioTranscript": "Έχει έρθει για τρός. Δεν φύγει. Εγώ δεν το χρειάζουμε, μια χαρά είναι. Έλα, Μορε, Παπακά, δηλαδή δεν μου κάνει σημείο τ' χάρη."
+  },
+  {
+    "id": "logo-timis",
+    "kind": "series",
+    "title": "Λόγω τιμής",
+    "year": 1996,
+    "originalFormat": null,
+    "leads": [
+      "Άλκης Κούρκουλος",
+      "Κωνσταντίνος Μαρκουλάκης"
+    ],
+    "supporting": [
+      "Δημήτρης Καμπερίδης",
+      "Βαγγέλης Λιοδάκης"
+    ],
+    "clue": "Μια παρέα υπόσχεται να μείνει ενωμένη παρά τις αλλαγές.",
+    "synopsis": "Φίλοι από την Πάτρα προσπαθούν να κρατήσουν τη σχέση τους καθώς μεγαλώνουν και μετακομίζουν στην Αθήνα. Έρωτες, συγκρούσεις και δυσκολίες δοκιμάζουν την υπόσχεσή τους.",
+    "clueEn": "A group of friends promises to stay together through change.",
+    "synopsisEn": "Friends from Patras try to keep their bond as they grow up and move to Athens. Romance, conflict and hardship test their promise.",
+    "source": "https://www.retrodb.gr/wiki/index.php/Λόγω_τιμής_(1996)",
+    "aliases": [
+      "Logo timis"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-logo-timis.mp3",
+    "addedIn": "20261013-greek-more",
+    "audioSource": "https://www.youtube.com/watch?v=ZM9jNOxP78o",
+    "audioStart": 603.94,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Λόγω Τιμής - Επεισόδιο 2 HD",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Είμαι εγώ τώρα, συνέχιζουμε εμείς."
   }
 ]
