@@ -4146,6 +4146,7 @@ const GAME_DATA = [
   {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Greek movies & series", "Ελληνικές ταινίες & σειρές"]},
 
   {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Recognize the painter", "Βρες τον ζωγράφο"]},
+  {id: "car", name: "Guess the Car", available: true, category: "MOTORING", description: ["Recognise the engine", "Αναγνώρισε τον κινητήρα"]},
   {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Find the country", "Βρες τη χώρα"]},
 
   {
@@ -5526,7 +5527,7 @@ function renderGames() {
   playableGames.forEach(game => {
     const card =
       document.createElement(
-        game.id === "painter" ? "a" : game.available
+        (game.id === "painter" || game.id === "car") ? "a" : game.available
           ? "button"
           : "article"
       );
@@ -5541,13 +5542,13 @@ function renderGames() {
 
     card.dataset.game =
       game.id;
-    if (game.id === "painter") { card.href = "painter/"; card.style.textDecoration = "none"; }
+    if (game.id === "painter" || game.id === "car") { card.href = game.id + "/"; card.style.textDecoration = "none"; }
 
     if (game.available) {
       card.type = "button";
     }
 
-    const cardImages={country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6105,6 +6106,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if(id==="car"){location.href="car/";return;}
   if(id==="country"){location.href="country/";return;}
   if (["football","one-piece","gaming"].includes(id) && document.body.dataset.page !== "category-play") { location.href = id + ".html"; return; }
   if (id === "greek") { window.location.href = "greek/"; return; }
