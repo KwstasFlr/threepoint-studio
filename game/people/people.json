@@ -1,130 +1,3295 @@
 [
-  {
-    "id": "einstein",
-    "name": [
-      "Albert Einstein",
-      "Άλμπερτ Αϊνστάιν"
-    ],
-    "aliases": [
-      "Albert Einstein",
-      "Einstein",
-      "Αϊνστάιν",
-      "Άλμπερτ Αϊνστάιν"
-    ],
-    "clues": [
-      [
-        "Before his academic career, he worked at the Swiss patent office in Bern.",
-        "Πριν την πανεπιστημιακή καριέρα του, εργαζόταν στο ελβετικό γραφείο ευρεσιτεχνιών στη Βέρνη."
-      ],
-      [
-        "His 1921 Nobel Prize specifically recognized the law of the photoelectric effect.",
-        "Το Νόμπελ του 1921 αναγνώρισε ειδικά τον νόμο του φωτοηλεκτρικού φαινομένου."
-      ],
-      [
-        "The physicist associated with relativity and E = mc².",
-        "Ο φυσικός που συνδέεται με τη σχετικότητα και το E = mc²."
-      ]
-    ],
-    "sources": [
-      "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
-    ],
-    "image": ""
-  },
-  {
-    "id": "cleopatra",
-    "name": [
-      "Cleopatra VII",
-      "Κλεοπάτρα"
-    ],
-    "aliases": [
-      "Cleopatra",
-      "Cleopatra VII",
-      "Κλεοπάτρα",
-      "Κλεοπάτρα Ζ"
-    ],
-    "clues": [
-      [
-        "Ancient accounts praise her language skills; she learned Egyptian, unlike earlier rulers of her dynasty.",
-        "Αρχαίες πηγές επαινούν τη γλωσσομάθειά της· έμαθε αιγυπτιακά, σε αντίθεση με προηγούμενους ηγεμόνες της δυναστείας της."
-      ],
-      [
-        "The Egyptian queen allied with Julius Caesar and Mark Antony.",
-        "Η βασίλισσα της Αιγύπτου που συνδέθηκε με τον Ιούλιο Καίσαρα και τον Μάρκο Αντώνιο."
-      ],
-      [
-        "She belonged to the Ptolemaic dynasty, whose founder was Macedonian Greek.",
-        "Ανήκε στη δυναστεία των Πτολεμαίων, της οποίας ο ιδρυτής ήταν Μακεδόνας Έλληνας."
-      ]
-    ],
-    "sources": [
-      "https://blog.oup.com/2010/12/cleopatra-2/",
-      "https://en.wikipedia.org/wiki/Cleopatra"
-    ],
-    "image": ""
-  },
-  {
-    "id": "musk",
-    "name": [
-      "Elon Musk",
-      "Ίλον Μασκ"
-    ],
-    "aliases": [
-      "Elon Musk",
-      "Musk",
-      "Ίλον Μασκ",
-      "Έλον Μασκ",
-      "Ελον Μασκ"
-    ],
-    "clues": [
-      [
-        "At twelve, he sold his game Blastar to a magazine for about $500.",
-        "Στα δώδεκά του πούλησε το παιχνίδι Blastar σε περιοδικό για περίπου 500 $."
-      ],
-      [
-        "He was born in Pretoria, South Africa, in 1971.",
-        "Γεννήθηκε στην Πρετόρια της Νότιας Αφρικής το 1971."
-      ],
-      [
-        "He founded SpaceX in 2002 and became Tesla CEO in 2008.",
-        "Ίδρυσε τη SpaceX το 2002 και έγινε διευθύνων σύμβουλος της Tesla το 2008."
-      ]
-    ],
-    "sources": [
-      "https://www.biography.com/business-leaders/elon-musk",
-      "https://ir.tesla.com/corporate/elon-musk"
-    ],
-    "image": ""
-  },
-  {
-    "id": "swift",
-    "name": [
-      "Taylor Swift",
-      "Τέιλορ Σουίφτ"
-    ],
-    "aliases": [
-      "Taylor Swift",
-      "Swift",
-      "Τέιλορ Σουίφτ",
-      "Τέιλορ Σουίφτ"
-    ],
-    "clues": [
-      [
-        "Her 2022 album Midnights set a chart record involving ten simultaneous positions.",
-        "Το άλμπουμ Midnights του 2022 σημείωσε ρεκόρ στα charts με δέκα ταυτόχρονες θέσεις."
-      ],
-      [
-        "She was the first artist to occupy the entire top ten of the Billboard Hot 100.",
-        "Ήταν η πρώτη καλλιτέχνιδα που κατέλαβε ταυτόχρονα ολόκληρη την πρώτη δεκάδα του Billboard Hot 100."
-      ],
-      [
-        "Her fans are called Swifties, and her world tour was called The Eras Tour.",
-        "Οι θαυμαστές της λέγονται Swifties και η παγκόσμια περιοδεία της ονομάστηκε The Eras Tour."
-      ]
-    ],
-    "sources": [
-      "https://www.axios.com/2022/11/01/taylor-swift-billboard-hot-100-record-entire-top-10",
-      "https://ca.billboard.com/fyi/music-biz-headlines-nov-3-2022"
-    ],
-    "image": ""
-  }
+    {
+        "id":  "einstein",
+        "name":  [
+                     "Albert Einstein",
+                     "Άλμπερτ Αϊνστάιν"
+                 ],
+        "aliases":  [
+                        "Albert Einstein",
+                        "Einstein",
+                        "Αϊνστάιν",
+                        "Άλμπερτ Αϊνστάιν"
+                    ],
+        "clues":  [
+                      [
+                          "Before his academic career, he worked at the Swiss patent office in Bern.",
+                          "Πριν την πανεπιστημιακή καριέρα του, εργαζόταν στο ελβετικό γραφείο ευρεσιτεχνιών στη Βέρνη."
+                      ],
+                      [
+                          "His 1921 Nobel Prize specifically recognized the law of the photoelectric effect.",
+                          "Το Νόμπελ του 1921 αναγνώρισε ειδικά τον νόμο του φωτοηλεκτρικού φαινομένου."
+                      ],
+                      [
+                          "The physicist associated with relativity and E = mc².",
+                          "Ο φυσικός που συνδέεται με τη σχετικότητα και το E = mc²."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
+                    ],
+        "image":  "",
+        "kind":  "historical"
+    },
+    {
+        "id":  "cleopatra",
+        "name":  [
+                     "Cleopatra VII",
+                     "Κλεοπάτρα"
+                 ],
+        "aliases":  [
+                        "Cleopatra",
+                        "Cleopatra VII",
+                        "Κλεοπάτρα",
+                        "Κλεοπάτρα Ζ"
+                    ],
+        "clues":  [
+                      [
+                          "Ancient accounts praise her language skills; she learned Egyptian, unlike earlier rulers of her dynasty.",
+                          "Αρχαίες πηγές επαινούν τη γλωσσομάθειά της· έμαθε αιγυπτιακά, σε αντίθεση με προηγούμενους ηγεμόνες της δυναστείας της."
+                      ],
+                      [
+                          "The Egyptian queen allied with Julius Caesar and Mark Antony.",
+                          "Η βασίλισσα της Αιγύπτου που συνδέθηκε με τον Ιούλιο Καίσαρα και τον Μάρκο Αντώνιο."
+                      ],
+                      [
+                          "She belonged to the Ptolemaic dynasty, whose founder was Macedonian Greek.",
+                          "Ανήκε στη δυναστεία των Πτολεμαίων, της οποίας ο ιδρυτής ήταν Μακεδόνας Έλληνας."
+                      ]
+                  ],
+        "sources":  [
+                        "https://blog.oup.com/2010/12/cleopatra-2/",
+                        "https://en.wikipedia.org/wiki/Cleopatra"
+                    ],
+        "image":  "",
+        "kind":  "historical"
+    },
+    {
+        "id":  "musk",
+        "name":  [
+                     "Elon Musk",
+                     "Ίλον Μασκ"
+                 ],
+        "aliases":  [
+                        "Elon Musk",
+                        "Musk",
+                        "Ίλον Μασκ",
+                        "Έλον Μασκ",
+                        "Ελον Μασκ"
+                    ],
+        "clues":  [
+                      [
+                          "At twelve, he sold his game Blastar to a magazine for about $500.",
+                          "Στα δώδεκά του πούλησε το παιχνίδι Blastar σε περιοδικό για περίπου 500 $."
+                      ],
+                      [
+                          "He was born in Pretoria, South Africa, in 1971.",
+                          "Γεννήθηκε στην Πρετόρια της Νότιας Αφρικής το 1971."
+                      ],
+                      [
+                          "He founded SpaceX in 2002 and became Tesla CEO in 2008.",
+                          "Ίδρυσε τη SpaceX το 2002 και έγινε διευθύνων σύμβουλος της Tesla το 2008."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.biography.com/business-leaders/elon-musk",
+                        "https://ir.tesla.com/corporate/elon-musk"
+                    ],
+        "image":  "",
+        "kind":  "celebrity"
+    },
+    {
+        "id":  "swift",
+        "name":  [
+                     "Taylor Swift",
+                     "Τέιλορ Σουίφτ"
+                 ],
+        "aliases":  [
+                        "Taylor Swift",
+                        "Swift",
+                        "Τέιλορ Σουίφτ",
+                        "Τέιλορ Σουίφτ"
+                    ],
+        "clues":  [
+                      [
+                          "Her 2022 album Midnights set a chart record involving ten simultaneous positions.",
+                          "Το άλμπουμ Midnights του 2022 σημείωσε ρεκόρ στα charts με δέκα ταυτόχρονες θέσεις."
+                      ],
+                      [
+                          "She was the first artist to occupy the entire top ten of the Billboard Hot 100.",
+                          "Ήταν η πρώτη καλλιτέχνιδα που κατέλαβε ταυτόχρονα ολόκληρη την πρώτη δεκάδα του Billboard Hot 100."
+                      ],
+                      [
+                          "Her fans are called Swifties, and her world tour was called The Eras Tour.",
+                          "Οι θαυμαστές της λέγονται Swifties και η παγκόσμια περιοδεία της ονομάστηκε The Eras Tour."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.axios.com/2022/11/01/taylor-swift-billboard-hot-100-record-entire-top-10",
+                        "https://ca.billboard.com/fyi/music-biz-headlines-nov-3-2022"
+                    ],
+        "image":  "",
+        "kind":  "celebrity"
+    },
+    {
+        "id":  "curie",
+        "name":  [
+                     "Marie Curie",
+                     "Μαρί Κιουρί"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Marie Curie",
+                        "Μαρί Κιουρί",
+                        "Curie",
+                        "Κιουρί",
+                        "Maria Sklodowska"
+                    ],
+        "clues":  [
+                      [
+                          "She named a newly discovered element after her homeland, Poland.",
+                          "Έδωσε σε ένα νέο στοιχείο όνομα εμπνευσμένο από την πατρίδα της, την Πολωνία."
+                      ],
+                      [
+                          "Her Nobel Prizes came in two different sciences: physics and chemistry.",
+                          "Κέρδισε Νόμπελ σε δύο διαφορετικές επιστήμες: φυσική και χημεία."
+                      ],
+                      [
+                          "This pioneering researcher of radioactivity discovered polonium and radium with her husband Pierre.",
+                          "Η πρωτοπόρος της ραδιενέργειας ανακάλυψε το πολώνιο και το ράδιο μαζί με τον σύζυγό της, Πιερ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.nobelprize.org/prizes/themes/marie-and-pierre-curie-and-the-discovery-of-polonium-and-radium/"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "armstrong",
+        "name":  [
+                     "Neil Armstrong",
+                     "Νιλ Άρμστρονγκ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Neil Armstrong",
+                        "Νιλ Άρμστρονγκ",
+                        "Armstrong",
+                        "Νηλ Αρμστρονγκ"
+                    ],
+        "clues":  [
+                      [
+                          "Before becoming an astronaut, he made seven flights in the experimental X-15 rocket plane.",
+                          "Πριν γίνει αστροναύτης, πραγματοποίησε επτά πτήσεις με το πειραματικό πυραυλοκίνητο X-15."
+                      ],
+                      [
+                          "He commanded Apollo 11 in July 1969.",
+                          "Ήταν κυβερνήτης του Apollo 11 τον Ιούλιο του 1969."
+                      ],
+                      [
+                          "He was the first human to walk on the Moon.",
+                          "Ήταν ο πρώτος άνθρωπος που περπάτησε στη Σελήνη."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.nasa.gov/people/neil-a-armstrong/",
+                        "https://starchild.gsfc.nasa.gov/docs/StarChild/whos_who_level2/armstrong.html"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "mandela",
+        "name":  [
+                     "Nelson Mandela",
+                     "Νέλσον Μαντέλα"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Nelson Mandela",
+                        "Νέλσον Μαντέλα",
+                        "Mandela",
+                        "Μαντέλα"
+                    ],
+        "clues":  [
+                      [
+                          "He shared the 1993 Nobel Peace Prize with F. W. de Klerk.",
+                          "Μοιράστηκε το Νόμπελ Ειρήνης του 1993 με τον Φ. Β. ντε Κλερκ."
+                      ],
+                      [
+                          "He spent 27 years in prison during the struggle against apartheid.",
+                          "Πέρασε 27 χρόνια στη φυλακή κατά τον αγώνα κατά του απαρτχάιντ."
+                      ],
+                      [
+                          "In 1994 he became South Africa’s first Black president.",
+                          "Το 1994 έγινε ο πρώτος μαύρος πρόεδρος της Νότιας Αφρικής."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.nobelprize.org/prizes/peace/1993/mandela/article/"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "king",
+        "name":  [
+                     "Martin Luther King Jr.",
+                     "Μάρτιν Λούθερ Κινγκ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Martin Luther King Jr.",
+                        "Μάρτιν Λούθερ Κινγκ",
+                        "Martin Luther King",
+                        "MLK",
+                        "Κινγκ"
+                    ],
+        "clues":  [
+                      [
+                          "In 1954 he became pastor of Dexter Avenue Baptist Church in Alabama.",
+                          "Το 1954 έγινε πάστορας στην εκκλησία Dexter Avenue Baptist στην Αλαμπάμα."
+                      ],
+                      [
+                          "He helped lead the Montgomery bus boycott and received the 1964 Nobel Peace Prize.",
+                          "Πρωτοστάτησε στο μποϊκοτάζ των λεωφορείων του Μοντγκόμερι και κέρδισε το Νόμπελ Ειρήνης το 1964."
+                      ],
+                      [
+                          "This American civil rights leader delivered the “I Have a Dream” speech.",
+                          "Αυτός ο ηγέτης των πολιτικών δικαιωμάτων στις ΗΠΑ εκφώνησε την ομιλία «I Have a Dream»."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.nobelprize.org/prizes/peace/1964/king/biographical/"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "leonardo",
+        "name":  [
+                     "Leonardo da Vinci",
+                     "Λεονάρντο ντα Βίντσι"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Leonardo da Vinci",
+                        "Λεονάρντο ντα Βίντσι",
+                        "Leonardo",
+                        "Da Vinci",
+                        "Ντα Βίντσι"
+                    ],
+        "clues":  [
+                      [
+                          "Many of his handwritten notes run from right to left in mirror script.",
+                          "Πολλές χειρόγραφες σημειώσεις του διαβάζονται από δεξιά προς τα αριστερά, σαν σε καθρέφτη."
+                      ],
+                      [
+                          "His surviving notebooks combine anatomy, mechanical designs and studies of flight.",
+                          "Τα τετράδιά του συνδυάζουν ανατομία, μηχανικά σχέδια και μελέτες πτήσης."
+                      ],
+                      [
+                          "He painted the Mona Lisa and The Last Supper.",
+                          "Ζωγράφισε τη Μόνα Λίζα και τον Μυστικό Δείπνο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection/leonardos-study-of-anatomy",
+                        "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "vangogh",
+        "name":  [
+                     "Vincent van Gogh",
+                     "Βίνσεντ βαν Γκογκ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Vincent van Gogh",
+                        "Βίνσεντ βαν Γκογκ",
+                        "Van Gogh",
+                        "Βαν Γκογκ",
+                        "Βαν Γκοχ"
+                    ],
+        "clues":  [
+                      [
+                          "Hundreds of his surviving letters were addressed to his brother Theo.",
+                          "Εκατοντάδες σωζόμενες επιστολές του απευθύνονται στον αδελφό του, Τεό."
+                      ],
+                      [
+                          "He decorated the Yellow House in Arles with paintings of sunflowers.",
+                          "Διακόσμησε το Κίτρινο Σπίτι στην Αρλ με πίνακες με ηλιοτρόπια."
+                      ],
+                      [
+                          "This Dutch painter created The Starry Night and famously injured his own ear.",
+                          "Αυτός ο Ολλανδός ζωγράφος δημιούργησε την Έναστρη Νύχτα και είναι γνωστός για τον τραυματισμό του αυτιού του."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/van-goghs-letters",
+                        "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "frida",
+        "name":  [
+                     "Frida Kahlo",
+                     "Φρίντα Κάλο"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Frida Kahlo",
+                        "Φρίντα Κάλο",
+                        "Frida",
+                        "Kahlo",
+                        "Κάλο"
+                    ],
+        "clues":  [
+                      [
+                          "Her family home in Coyoacán is now known as the Blue House museum.",
+                          "Το οικογενειακό της σπίτι στο Κογιοακάν λειτουργεί σήμερα ως μουσείο, το Γαλάζιο Σπίτι."
+                      ],
+                      [
+                          "A serious bus accident in 1925 deeply affected her health and art.",
+                          "Ένα σοβαρό ατύχημα με λεωφορείο το 1925 επηρέασε βαθιά την υγεία και την τέχνη της."
+                      ],
+                      [
+                          "This Mexican painter, married to Diego Rivera, is famous for intense self-portraits and her distinctive joined eyebrows.",
+                          "Η Μεξικανή ζωγράφος, σύζυγος του Ντιέγκο Ριβέρα, είναι γνωστή για τις έντονες αυτοπροσωπογραφίες και τα ενωμένα φρύδια της."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.museofridakahlo.org.mx/?lang=en",
+                        "https://en.wikipedia.org/wiki/Frida_Kahlo"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "mozart",
+        "name":  [
+                     "Wolfgang Amadeus Mozart",
+                     "Βόλφγκανγκ Αμαντέους Μότσαρτ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Wolfgang Amadeus Mozart",
+                        "Βόλφγκανγκ Αμαντέους Μότσαρτ",
+                        "Mozart",
+                        "Μότσαρτ"
+                    ],
+        "clues":  [
+                      [
+                          "His father Leopold taught him music, and his sister toured with him as a child.",
+                          "Ο πατέρας του, Λέοπολντ, του δίδαξε μουσική και η αδελφή του περιόδευε μαζί του όταν ήταν παιδί."
+                      ],
+                      [
+                          "He left his final Requiem unfinished when he died in 1791.",
+                          "Άφησε ανολοκλήρωτο το τελευταίο του Ρέκβιεμ όταν πέθανε το 1791."
+                      ],
+                      [
+                          "This Salzburg-born child prodigy composed The Magic Flute and The Marriage of Figaro.",
+                          "Το παιδί-θαύμα από το Σάλτσμπουργκ συνέθεσε τον Μαγικό Αυλό και τους Γάμους του Φίγκαρο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "beethoven",
+        "name":  [
+                     "Ludwig van Beethoven",
+                     "Λούντβιχ βαν Μπετόβεν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Ludwig van Beethoven",
+                        "Λούντβιχ βαν Μπετόβεν",
+                        "Beethoven",
+                        "Μπετόβεν"
+                    ],
+        "clues":  [
+                      [
+                          "In 1802 he wrote an unsent letter to his brothers, now called the Heiligenstadt Testament.",
+                          "Το 1802 έγραψε μια επιστολή προς τους αδελφούς του που δεν έστειλε ποτέ, τη λεγόμενη Διαθήκη του Χάιλιγκενσταντ."
+                      ],
+                      [
+                          "He composed nine completed symphonies; the last includes a chorus based on Schiller.",
+                          "Συνέθεσε εννέα ολοκληρωμένες συμφωνίες· η τελευταία περιλαμβάνει χορωδιακό μέρος βασισμένο στον Σίλερ."
+                      ],
+                      [
+                          "Despite losing his hearing, he composed the Ninth Symphony and its “Ode to Joy”.",
+                          "Παρά την απώλεια της ακοής του, συνέθεσε την Ενάτη Συμφωνία με την «Ωδή στη Χαρά»."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "shakespeare",
+        "name":  [
+                     "William Shakespeare",
+                     "Ουίλιαμ Σαίξπηρ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "William Shakespeare",
+                        "Ουίλιαμ Σαίξπηρ",
+                        "Shakespeare",
+                        "Σαίξπηρ",
+                        "Σέξπιρ"
+                    ],
+        "clues":  [
+                      [
+                          "His twins were named Hamnet and Judith.",
+                          "Τα δίδυμα παιδιά του ονομάζονταν Χάμνετ και Τζούντιθ."
+                      ],
+                      [
+                          "He was an actor and shareholder in the company associated with London’s Globe Theatre.",
+                          "Ήταν ηθοποιός και μέτοχος στον θίασο που συνδέθηκε με το θέατρο Globe του Λονδίνου."
+                      ],
+                      [
+                          "He wrote Hamlet, Macbeth and Romeo and Juliet.",
+                          "Έγραψε τον Άμλετ, τον Μάκβεθ και το Ρωμαίος και Ιουλιέτα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/William_Shakespeare"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "austen",
+        "name":  [
+                     "Jane Austen",
+                     "Τζέιν Όστεν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Jane Austen",
+                        "Τζέιν Όστεν",
+                        "Austen",
+                        "Όστεν",
+                        "Τζέιν Ώστεν"
+                    ],
+        "clues":  [
+                      [
+                          "Her first published novel appeared anonymously, credited simply to “A Lady”.",
+                          "Το πρώτο δημοσιευμένο μυθιστόρημά της κυκλοφόρησε ανώνυμα, με την υπογραφή «Μια κυρία»."
+                      ],
+                      [
+                          "She wrote six completed novels, including Emma and Persuasion.",
+                          "Έγραψε έξι ολοκληρωμένα μυθιστορήματα, μεταξύ τους το Έμμα και την Πειθώ."
+                      ],
+                      [
+                          "She created Elizabeth Bennet and Mr Darcy in Pride and Prejudice.",
+                          "Δημιούργησε την Ελίζαμπεθ Μπένετ και τον κύριο Ντάρσι στο Περηφάνια και Προκατάληψη."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Jane_Austen"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "christie",
+        "name":  [
+                     "Agatha Christie",
+                     "Αγκάθα Κρίστι"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Agatha Christie",
+                        "Αγκάθα Κρίστι",
+                        "Christie",
+                        "Κρίστι",
+                        "Αγκάθα Κρίστυ"
+                    ],
+        "clues":  [
+                      [
+                          "She also published novels under the pen name Mary Westmacott.",
+                          "Δημοσίευσε επίσης μυθιστορήματα με το ψευδώνυμο Μαίρη Γουέστμακοτ."
+                      ],
+                      [
+                          "Her first detective novel, The Mysterious Affair at Styles, appeared in 1920.",
+                          "Το πρώτο αστυνομικό της μυθιστόρημα, Η μυστηριώδης υπόθεση στο Στάιλς, κυκλοφόρησε το 1920."
+                      ],
+                      [
+                          "The Queen of Crime created Hercule Poirot and Miss Marple.",
+                          "Η βασίλισσα του αστυνομικού μυθιστορήματος δημιούργησε τον Ηρακλή Πουαρό και τη Μις Μαρπλ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.agathachristie.com/en/stories/mary-westmacott",
+                        "https://www.agathachristie.com/about-christie",
+                        "https://en.wikipedia.org/wiki/Agatha_Christie"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "newton",
+        "name":  [
+                     "Isaac Newton",
+                     "Ισαάκ Νεύτων"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Isaac Newton",
+                        "Ισαάκ Νεύτων",
+                        "Newton",
+                        "Νεύτωνας",
+                        "Νεύτων"
+                    ],
+        "clues":  [
+                      [
+                          "As an official at the Royal Mint, he pursued counterfeiters.",
+                          "Ως αξιωματούχος του Βασιλικού Νομισματοκοπείου, καταδίωκε παραχαράκτες."
+                      ],
+                      [
+                          "He showed that white light can be separated into a spectrum using a prism.",
+                          "Έδειξε ότι το λευκό φως διαχωρίζεται σε χρωματικό φάσμα με ένα πρίσμα."
+                      ],
+                      [
+                          "His laws of motion and universal gravitation are famously associated with the story of a falling apple.",
+                          "Οι νόμοι του για την κίνηση και την παγκόσμια έλξη συνδέονται με την πασίγνωστη ιστορία ενός μήλου που πέφτει."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Isaac_Newton"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "darwin",
+        "name":  [
+                     "Charles Darwin",
+                     "Κάρολος Δαρβίνος"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Charles Darwin",
+                        "Κάρολος Δαρβίνος",
+                        "Darwin",
+                        "Δαρβίνος"
+                    ],
+        "clues":  [
+                      [
+                          "He began studying medicine in Edinburgh before changing direction.",
+                          "Ξεκίνησε σπουδές ιατρικής στο Εδιμβούργο πριν αλλάξει πορεία."
+                      ],
+                      [
+                          "His voyage on HMS Beagle included a visit to the Galápagos Islands.",
+                          "Το ταξίδι του με το HMS Beagle περιλάμβανε επίσκεψη στα νησιά Γκαλαπάγκος."
+                      ],
+                      [
+                          "He published On the Origin of Species and developed the theory of evolution by natural selection.",
+                          "Δημοσίευσε την Καταγωγή των Ειδών και ανέπτυξε τη θεωρία της εξέλιξης μέσω της φυσικής επιλογής."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Charles_Darwin"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "galileo",
+        "name":  [
+                     "Galileo Galilei",
+                     "Γαλιλαίος Γαλιλέι"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Galileo Galilei",
+                        "Γαλιλαίος Γαλιλέι",
+                        "Galileo",
+                        "Γαλιλαίος"
+                    ],
+        "clues":  [
+                      [
+                          "His book The Starry Messenger reported telescopic observations in 1610.",
+                          "Το βιβλίο του Αστρικός Αγγελιοφόρος παρουσίασε τηλεσκοπικές παρατηρήσεις το 1610."
+                      ],
+                      [
+                          "He observed four large moons orbiting Jupiter.",
+                          "Παρατήρησε τέσσερις μεγάλους δορυφόρους σε τροχιά γύρω από τον Δία."
+                      ],
+                      [
+                          "This Italian astronomer faced the Inquisition for defending the motion of Earth around the Sun.",
+                          "Ο Ιταλός αστρονόμος αντιμετώπισε την Ιερά Εξέταση επειδή υποστήριζε ότι η Γη κινείται γύρω από τον Ήλιο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Galileo_Galilei"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "lovelace",
+        "name":  [
+                     "Ada Lovelace",
+                     "Άντα Λάβλεϊς"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Ada Lovelace",
+                        "Άντα Λάβλεϊς",
+                        "Lovelace",
+                        "Ada Byron",
+                        "Άντα Μπάιρον",
+                        "Λάβλεϊς"
+                    ],
+        "clues":  [
+                      [
+                          "Her notes described a method for a proposed machine to calculate Bernoulli numbers.",
+                          "Οι σημειώσεις της περιέγραφαν μια μέθοδο υπολογισμού αριθμών Μπερνούλι από μια σχεδιαζόμενη μηχανή."
+                      ],
+                      [
+                          "She worked on Charles Babbage’s Analytical Engine.",
+                          "Εργάστηκε πάνω στην Αναλυτική Μηχανή του Τσαρλς Μπάμπατζ."
+                      ],
+                      [
+                          "Lord Byron’s daughter is often celebrated as the first computer programmer.",
+                          "Η κόρη του Λόρδου Βύρωνα συχνά αναφέρεται ως η πρώτη προγραμματίστρια υπολογιστών."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Ada_Lovelace"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "turing",
+        "name":  [
+                     "Alan Turing",
+                     "Άλαν Τιούρινγκ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Alan Turing",
+                        "Άλαν Τιούρινγκ",
+                        "Turing",
+                        "Τιούρινγκ"
+                    ],
+        "clues":  [
+                      [
+                          "Besides mathematics, he was a talented competitive long-distance runner.",
+                          "Εκτός από τα μαθηματικά, ήταν ταλαντούχος αθλητής δρόμων μεγάλων αποστάσεων."
+                      ],
+                      [
+                          "His 1950 paper proposed the “imitation game” for judging machine intelligence.",
+                          "Σε εργασία του το 1950 πρότεινε το «παιχνίδι της μίμησης» για την αξιολόγηση της νοημοσύνης μιας μηχανής."
+                      ],
+                      [
+                          "He helped break Enigma codes at Bletchley Park during World War II.",
+                          "Βοήθησε στην αποκρυπτογράφηση του Enigma στο Μπλέτσλεϊ Παρκ στον Β΄ Παγκόσμιο Πόλεμο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Alan_Turing"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "napoleon",
+        "name":  [
+                     "Napoleon Bonaparte",
+                     "Ναπολέων Βοναπάρτης"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Napoleon Bonaparte",
+                        "Ναπολέων Βοναπάρτης",
+                        "Napoleon",
+                        "Bonaparte",
+                        "Ναπολέων",
+                        "Βοναπάρτης"
+                    ],
+        "clues":  [
+                      [
+                          "He trained as an artillery officer before rising to national power.",
+                          "Εκπαιδεύτηκε ως αξιωματικός του πυροβολικού πριν ανέλθει στην εξουσία."
+                      ],
+                      [
+                          "After his final defeat, he was exiled to Saint Helena in the South Atlantic.",
+                          "Μετά την τελευταία του ήττα εξορίστηκε στην Αγία Ελένη, στον Νότιο Ατλαντικό."
+                      ],
+                      [
+                          "This French emperor was defeated at Waterloo in 1815.",
+                          "Ο Γάλλος αυτοκράτορας ηττήθηκε στο Βατερλώ το 1815."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Napoleon"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "alexander",
+        "name":  [
+                     "Alexander the Great",
+                     "Μέγας Αλέξανδρος"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Alexander the Great",
+                        "Μέγας Αλέξανδρος",
+                        "Alexander III",
+                        "Αλέξανδρος ο Μέγας",
+                        "Αλέξανδρος"
+                    ],
+        "clues":  [
+                      [
+                          "Ancient accounts describe him carrying a treasured copy of the Iliad on his campaigns.",
+                          "Αρχαίες πηγές περιγράφουν ότι έπαιρνε μαζί του στις εκστρατείες ένα αγαπημένο αντίγραφο της Ιλιάδας."
+                      ],
+                      [
+                          "His teacher was Aristotle, and his father was Philip II of Macedon.",
+                          "Δάσκαλός του ήταν ο Αριστοτέλης και πατέρας του ο Φίλιππος Β΄ της Μακεδονίας."
+                      ],
+                      [
+                          "This Macedonian king conquered the Persian Empire and gave Alexandria in Egypt his name.",
+                          "Ο Μακεδόνας βασιλιάς κατέκτησε την Περσική Αυτοκρατορία και έδωσε το όνομά του στην Αλεξάνδρεια της Αιγύπτου."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Alexander_the_Great"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "joan",
+        "name":  [
+                     "Joan of Arc",
+                     "Ιωάννα της Λωραίνης"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Joan of Arc",
+                        "Ιωάννα της Λωραίνης",
+                        "Jeanne d Arc",
+                        "Jeanne d’Arc",
+                        "Ζαν ντ Αρκ",
+                        "Ιωάννα"
+                    ],
+        "clues":  [
+                      [
+                          "She came from the village of Domrémy and was not born into a noble family.",
+                          "Καταγόταν από το χωριό Ντομρεμί και δεν γεννήθηκε σε αριστοκρατική οικογένεια."
+                      ],
+                      [
+                          "She helped lift the siege of Orléans during the Hundred Years’ War.",
+                          "Βοήθησε να λυθεί η πολιορκία της Ορλεάνης κατά τον Εκατονταετή Πόλεμο."
+                      ],
+                      [
+                          "The teenage French heroine known as the Maid of Orléans was burned at the stake in 1431.",
+                          "Η έφηβη Γαλλίδα ηρωίδα, γνωστή ως Παρθένος της Ορλεάνης, κάηκε στην πυρά το 1431."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Joan_of_Arc"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "tubman",
+        "name":  [
+                     "Harriet Tubman",
+                     "Χάριετ Τάμπμαν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Harriet Tubman",
+                        "Χάριετ Τάμπμαν",
+                        "Tubman",
+                        "Τάμπμαν"
+                    ],
+        "clues":  [
+                      [
+                          "She was born with the first name Araminta.",
+                          "Γεννήθηκε με το μικρό όνομα Αραμίντα."
+                      ],
+                      [
+                          "During the American Civil War she served as a scout, spy and nurse.",
+                          "Στον Αμερικανικό Εμφύλιο υπηρέτησε ως ανιχνεύτρια, κατάσκοπος και νοσοκόμα."
+                      ],
+                      [
+                          "After escaping slavery, she repeatedly returned to help others reach freedom through the Underground Railroad.",
+                          "Αφού δραπέτευσε από τη δουλεία, επέστρεψε επανειλημμένα για να οδηγήσει άλλους στην ελευθερία μέσω του Underground Railroad."
+                      ]
+                  ],
+        "sources":  [
+                        "https://home.nps.gov/people/harriet-tubman.htm"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "messi",
+        "name":  [
+                     "Lionel Messi",
+                     "Λιονέλ Μέσι"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Lionel Messi",
+                        "Λιονέλ Μέσι",
+                        "Messi",
+                        "Μέσι",
+                        "Leo Messi"
+                    ],
+        "clues":  [
+                      [
+                          "An early promise to sign him for Barcelona was famously written on a paper napkin.",
+                          "Μια πρώιμη δέσμευση για την ένταξή του στην Μπαρτσελόνα γράφτηκε σε χαρτοπετσέτα."
+                      ],
+                      [
+                          "He was born in Rosario and played for Newell’s Old Boys as a child.",
+                          "Γεννήθηκε στο Ροσάριο και ως παιδί έπαιζε στη Νιούελς Ολντ Μπόις."
+                      ],
+                      [
+                          "Argentina’s number 10 captained his country to the 2022 World Cup title.",
+                          "Ο αρχηγός της Αργεντινής με το 10 οδήγησε τη χώρα του στην κατάκτηση του Μουντιάλ του 2022."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Lionel_Messi"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "ronaldo",
+        "name":  [
+                     "Cristiano Ronaldo",
+                     "Κριστιάνο Ρονάλντο"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Cristiano Ronaldo",
+                        "Κριστιάνο Ρονάλντο",
+                        "Cristiano",
+                        "CR7",
+                        "Κριστιάνο",
+                        "Κριστιανο Ροναλντο",
+                        "Ronaldo",
+                        "Ρονάλντο"
+                    ],
+        "clues":  [
+                      [
+                          "Before joining Sporting, he played youth football for Andorinha and Nacional.",
+                          "Πριν πάει στη Σπόρτινγκ, έπαιζε στις ακαδημίες της Αντορίνια και της Νασιονάλ."
+                      ],
+                      [
+                          "He was born on Madeira and captained Portugal’s Euro 2016 winning team.",
+                          "Γεννήθηκε στη Μαδέρα και ήταν αρχηγός της Πορτογαλίας που κατέκτησε το Euro 2016."
+                      ],
+                      [
+                          "The Portuguese superstar known as CR7 is famous for his “Siu” celebration.",
+                          "Ο Πορτογάλος σούπερ σταρ, γνωστός ως CR7, πανηγυρίζει με το διάσημο «Siu»."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "serena",
+        "name":  [
+                     "Serena Williams",
+                     "Σερένα Γουίλιαμς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Serena Williams",
+                        "Σερένα Γουίλιαμς",
+                        "Serena",
+                        "Σερένα"
+                    ],
+        "clues":  [
+                      [
+                          "She began practising on public tennis courts in Compton, California.",
+                          "Ξεκίνησε προπονήσεις σε δημόσια γήπεδα τένις στο Κόμπτον της Καλιφόρνιας."
+                      ],
+                      [
+                          "Her first Grand Slam singles title came at the 1999 US Open.",
+                          "Ο πρώτος τίτλος της σε μονό Grand Slam ήρθε στο US Open του 1999."
+                      ],
+                      [
+                          "Venus’s younger sister won 23 Grand Slam singles titles.",
+                          "Η μικρότερη αδελφή της Βίνους κατέκτησε 23 τίτλους Grand Slam στο μονό."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Serena_Williams"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "bolt",
+        "name":  [
+                     "Usain Bolt",
+                     "Γιουσέιν Μπολτ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Usain Bolt",
+                        "Γιουσέιν Μπολτ",
+                        "Bolt",
+                        "Μπολτ",
+                        "Ουσέιν Μπολτ"
+                    ],
+        "clues":  [
+                      [
+                          "Cricket was his first sporting passion; he has said he might otherwise have become a fast bowler.",
+                          "Το κρίκετ ήταν η πρώτη αθλητική του αγάπη· έχει πει ότι αλλιώς ίσως γινόταν παίκτης σε αυτό."
+                      ],
+                      [
+                          "He won both the Olympic 100 m and 200 m titles in 2008, 2012 and 2016.",
+                          "Κέρδισε τα 100 και τα 200 μέτρα στους Ολυμπιακούς του 2008, του 2012 και του 2016."
+                      ],
+                      [
+                          "The Jamaican sprinter ran 100 metres in 9.58 seconds in Berlin in 2009.",
+                          "Ο Τζαμαϊκανός σπρίντερ έτρεξε τα 100 μέτρα σε 9,58 δευτερόλεπτα στο Βερολίνο το 2009."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Usain_Bolt"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "phelps",
+        "name":  [
+                     "Michael Phelps",
+                     "Μάικλ Φελπς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Michael Phelps",
+                        "Μάικλ Φελπς",
+                        "Phelps",
+                        "Φελπς"
+                    ],
+        "clues":  [
+                      [
+                          "He trained for much of his swimming career under coach Bob Bowman.",
+                          "Προπονήθηκε για μεγάλο μέρος της κολυμβητικής του καριέρας με τον Μπομπ Μπόουμαν."
+                      ],
+                      [
+                          "He collected eight gold medals at the Beijing 2008 Olympics.",
+                          "Κατέκτησε οκτώ χρυσά μετάλλια στους Ολυμπιακούς του Πεκίνου το 2008."
+                      ],
+                      [
+                          "This American swimmer finished his Olympic career with 28 medals, including 23 golds.",
+                          "Ο Αμερικανός κολυμβητής ολοκλήρωσε την ολυμπιακή του καριέρα με 28 μετάλλια, από τα οποία 23 χρυσά."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Michael_Phelps"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "biles",
+        "name":  [
+                     "Simone Biles",
+                     "Σιμόν Μπάιλς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Simone Biles",
+                        "Σιμόν Μπάιλς",
+                        "Biles",
+                        "Μπάιλς"
+                    ],
+        "clues":  [
+                      [
+                          "She holds Belizean citizenship through her adoptive mother.",
+                          "Έχει υπηκοότητα Μπελίζ μέσω της θετής μητέρας της."
+                      ],
+                      [
+                          "Several gymnastics skills on floor, vault and beam bear her surname.",
+                          "Αρκετές ασκήσεις στο έδαφος, στο άλμα και στη δοκό φέρουν το επώνυμό της."
+                      ],
+                      [
+                          "This American gymnastics star won four gold medals at Rio 2016 and returned to win three at Paris 2024.",
+                          "Η Αμερικανίδα σταρ της ενόργανης κέρδισε τέσσερα χρυσά στο Ρίο το 2016 και τρία στο Παρίσι το 2024."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Simone_Biles"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "federer",
+        "name":  [
+                     "Roger Federer",
+                     "Ρότζερ Φέντερερ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Roger Federer",
+                        "Ρότζερ Φέντερερ",
+                        "Federer",
+                        "Φέντερερ"
+                    ],
+        "clues":  [
+                      [
+                          "As a boy, he served as a ball kid at the Swiss Indoors tournament in Basel.",
+                          "Ως παιδί μάζευε μπάλες στο τουρνουά Swiss Indoors της Βασιλείας."
+                      ],
+                      [
+                          "His first Grand Slam singles title came at Wimbledon in 2003.",
+                          "Ο πρώτος τίτλος του σε μονό Grand Slam ήρθε στο Γουίμπλεντον το 2003."
+                      ],
+                      [
+                          "The Swiss tennis champion won 20 Grand Slam singles titles, including eight at Wimbledon.",
+                          "Ο Ελβετός πρωταθλητής του τένις κατέκτησε 20 τίτλους Grand Slam στο μονό, με οκτώ στο Γουίμπλεντον."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Roger_Federer"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "jordan",
+        "name":  [
+                     "Michael Jordan",
+                     "Μάικλ Τζόρνταν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Michael Jordan",
+                        "Μάικλ Τζόρνταν",
+                        "Jordan",
+                        "Τζόρνταν",
+                        "Air Jordan"
+                    ],
+        "clues":  [
+                      [
+                          "During a break from basketball, he played minor-league baseball for the Birmingham Barons.",
+                          "Σε ένα διάλειμμα από το μπάσκετ έπαιξε μπέιζμπολ στους Μπέρμιγχαμ Μπάρονς."
+                      ],
+                      [
+                          "He won six NBA Finals MVP awards with Chicago.",
+                          "Κέρδισε έξι βραβεία MVP τελικών NBA με το Σικάγο."
+                      ],
+                      [
+                          "The Chicago Bulls legend wore number 23 and starred in the original Space Jam.",
+                          "Ο θρύλος των Σικάγο Μπουλς φορούσε το 23 και πρωταγωνίστησε στο πρώτο Space Jam."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Michael_Jordan"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "lebron",
+        "name":  [
+                     "LeBron James",
+                     "ΛεΜπρόν Τζέιμς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "LeBron James",
+                        "ΛεΜπρόν Τζέιμς",
+                        "LeBron",
+                        "James",
+                        "Λεμπρον",
+                        "Λεμπρον Τζειμς"
+                    ],
+        "clues":  [
+                      [
+                          "His foundation partnered with Akron public schools to open the I Promise School in 2018.",
+                          "Το ίδρυμά του συνεργάστηκε με τα δημόσια σχολεία του Άκρον για το I Promise School, που άνοιξε το 2018."
+                      ],
+                      [
+                          "He led Cleveland back from a 3–1 deficit to win the 2016 NBA Finals.",
+                          "Οδήγησε το Κλίβελαντ από το 3–1 στην κατάκτηση των τελικών NBA του 2016."
+                      ],
+                      [
+                          "Nicknamed King James, he broke Kareem Abdul-Jabbar’s NBA career scoring record in 2023.",
+                          "Με το προσωνύμιο King James, ξεπέρασε το 2023 το ρεκόρ πόντων καριέρας του Καρίμ Αμπντούλ-Τζαμπάρ στο NBA."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/LeBron_James"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "rihanna",
+        "name":  [
+                     "Rihanna",
+                     "Ριάνα"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Rihanna",
+                        "Ριάνα",
+                        "Riana",
+                        "Ριάννα",
+                        "Robyn Fenty"
+                    ],
+        "clues":  [
+                      [
+                          "Her debut album was Music of the Sun, released in 2005.",
+                          "Το πρώτο της άλμπουμ ήταν το Music of the Sun, που κυκλοφόρησε το 2005."
+                      ],
+                      [
+                          "She is a singer from Barbados and the entrepreneur behind Fenty Beauty.",
+                          "Είναι τραγουδίστρια από τα Μπαρμπάντος και επιχειρηματίας πίσω από το Fenty Beauty."
+                      ],
+                      [
+                          "Her hits include Umbrella, Diamonds and We Found Love.",
+                          "Στις επιτυχίες της περιλαμβάνονται τα Umbrella, Diamonds και We Found Love."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Rihanna"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "beyonce",
+        "name":  [
+                     "Beyoncé",
+                     "Μπιγιονσέ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Beyoncé",
+                        "Μπιγιονσέ",
+                        "Beyonce",
+                        "Beyonce Knowles",
+                        "Μπιγιονσε"
+                    ],
+        "clues":  [
+                      [
+                          "As a child, she performed in the group Girl’s Tyme before its later reinvention.",
+                          "Ως παιδί εμφανιζόταν στο συγκρότημα Girl’s Tyme, πριν από τη μετέπειτα αλλαγή του."
+                      ],
+                      [
+                          "She released the visual album Lemonade in 2016.",
+                          "Κυκλοφόρησε το οπτικό άλμπουμ Lemonade το 2016."
+                      ],
+                      [
+                          "The former Destiny’s Child star sang Single Ladies and Crazy in Love.",
+                          "Η πρώην σταρ των Destiny’s Child τραγούδησε τα Single Ladies και Crazy in Love."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Beyonc%C3%A9"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "adele",
+        "name":  [
+                     "Adele",
+                     "Αντέλ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Adele",
+                        "Αντέλ",
+                        "Adele Adkins",
+                        "Αντελ"
+                    ],
+        "clues":  [
+                      [
+                          "A friend posted her three-song demo on Myspace, attracting a record label’s attention.",
+                          "Ένας φίλος ανέβασε στο Myspace ένα demo της με τρία τραγούδια, προσελκύοντας δισκογραφική εταιρεία."
+                      ],
+                      [
+                          "Several of her album titles are ages: 19, 21, 25 and 30.",
+                          "Αρκετοί τίτλοι άλμπουμ της είναι ηλικίες: 19, 21, 25 και 30."
+                      ],
+                      [
+                          "The British singer behind Hello, Someone Like You and Rolling in the Deep.",
+                          "Η Βρετανίδα τραγουδίστρια των Hello, Someone Like You και Rolling in the Deep."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Adele"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "gaga",
+        "name":  [
+                     "Lady Gaga",
+                     "Lady Gaga"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Lady Gaga",
+                        "Gaga",
+                        "Λέιντι Γκάγκα",
+                        "Λέιντι Γκαγκά",
+                        "Stefani Germanotta"
+                    ],
+        "clues":  [
+                      [
+                          "Her birth name is Stefani Joanne Angelina Germanotta.",
+                          "Το όνομα γέννησής της είναι Στέφανι Τζοάν Αντζελίνα Τζερμανότα."
+                      ],
+                      [
+                          "She played Ally opposite Bradley Cooper in A Star Is Born.",
+                          "Υποδύθηκε την Άλι δίπλα στον Μπράντλεϊ Κούπερ στο A Star Is Born."
+                      ],
+                      [
+                          "She sang Poker Face, Bad Romance and Shallow.",
+                          "Τραγούδησε τα Poker Face, Bad Romance και Shallow."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Lady_Gaga"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "shakira",
+        "name":  [
+                     "Shakira",
+                     "Σακίρα"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Shakira",
+                        "Σακίρα",
+                        "Shakira Mebarak",
+                        "Σακιρα"
+                    ],
+        "clues":  [
+                      [
+                          "She was born in Barranquilla and has Lebanese ancestry on her father’s side.",
+                          "Γεννήθηκε στην Μπαρανκίγια και έχει λιβανέζικη καταγωγή από την πλευρά του πατέρα της."
+                      ],
+                      [
+                          "Her English-language breakthrough album was Laundry Service in 2001.",
+                          "Το αγγλόφωνο άλμπουμ που την καθιέρωσε διεθνώς ήταν το Laundry Service το 2001."
+                      ],
+                      [
+                          "The Colombian star sang Hips Don’t Lie and the 2010 World Cup song Waka Waka.",
+                          "Η Κολομβιανή σταρ τραγούδησε το Hips Don’t Lie και το Waka Waka του Μουντιάλ του 2010."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Shakira"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "dion",
+        "name":  [
+                     "Céline Dion",
+                     "Σελίν Ντιόν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Céline Dion",
+                        "Σελίν Ντιόν",
+                        "Celine Dion",
+                        "Dion",
+                        "Ντιόν"
+                    ],
+        "clues":  [
+                      [
+                          "She was the youngest of fourteen children in a French-speaking Canadian family.",
+                          "Ήταν η μικρότερη από δεκατέσσερα παιδιά μιας γαλλόφωνης καναδικής οικογένειας."
+                      ],
+                      [
+                          "She won Eurovision in 1988 while representing Switzerland.",
+                          "Κέρδισε τη Eurovision το 1988 εκπροσωπώντας την Ελβετία."
+                      ],
+                      [
+                          "She sang My Heart Will Go On, the theme song from Titanic.",
+                          "Τραγούδησε το My Heart Will Go On, το τραγούδι του Τιτανικού."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.celinedion.com/about/biography/",
+                        "https://en.wikipedia.org/wiki/Celine_Dion"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "reeves",
+        "name":  [
+                     "Keanu Reeves",
+                     "Κιάνου Ριβς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Keanu Reeves",
+                        "Κιάνου Ριβς",
+                        "Keanu",
+                        "Reeves",
+                        "Ριβς"
+                    ],
+        "clues":  [
+                      [
+                          "He was born in Beirut and grew up mainly in Toronto.",
+                          "Γεννήθηκε στη Βηρυτό και μεγάλωσε κυρίως στο Τορόντο."
+                      ],
+                      [
+                          "He played bass in the band Dogstar.",
+                          "Έπαιξε μπάσο στο συγκρότημα Dogstar."
+                      ],
+                      [
+                          "He played Neo in The Matrix and the title character in John Wick.",
+                          "Υποδύθηκε τον Νίο στο Matrix και τον ομώνυμο ήρωα στο John Wick."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Keanu_Reeves"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "dicaprio",
+        "name":  [
+                     "Leonardo DiCaprio",
+                     "Λεονάρντο Ντι Κάπριο"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Leonardo DiCaprio",
+                        "Λεονάρντο Ντι Κάπριο",
+                        "DiCaprio",
+                        "Leo DiCaprio",
+                        "Ντι Κάπριο",
+                        "Ντικάπριο"
+                    ],
+        "clues":  [
+                      [
+                          "Early in his career, he played Luke Brower in the sitcom Growing Pains.",
+                          "Στα πρώτα του βήματα υποδύθηκε τον Λουκ Μπράουερ στη σειρά Growing Pains."
+                      ],
+                      [
+                          "His first Oscar nomination was for What’s Eating Gilbert Grape.",
+                          "Η πρώτη υποψηφιότητά του για Όσκαρ ήταν για το Τι βασανίζει τον Γκίλμπερτ Γκρέιπ."
+                      ],
+                      [
+                          "He played Jack in Titanic and won his acting Oscar for The Revenant.",
+                          "Υποδύθηκε τον Τζακ στον Τιτανικό και κέρδισε Όσκαρ ερμηνείας για την Επιστροφή."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Leonardo_DiCaprio"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "dwayne",
+        "name":  [
+                     "Dwayne Johnson",
+                     "Ντουέιν Τζόνσον"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Dwayne Johnson",
+                        "Ντουέιν Τζόνσον",
+                        "The Rock",
+                        "Dwayne The Rock Johnson",
+                        "Ροκ",
+                        "Ντουέιν Τζονσον"
+                    ],
+        "clues":  [
+                      [
+                          "He was on the University of Miami’s 1991 national championship football team.",
+                          "Ήταν στην ομάδα αμερικανικού ποδοσφαίρου του Πανεπιστημίου του Μαϊάμι που πήρε το εθνικό πρωτάθλημα το 1991."
+                      ],
+                      [
+                          "He voiced Maui in Disney’s Moana.",
+                          "Έδωσε τη φωνή του στον Μάουι στο Moana της Disney."
+                      ],
+                      [
+                          "The wrestler known as The Rock became a star of Jumanji and Fast \u0026 Furious.",
+                          "Ο παλαιστής με το προσωνύμιο The Rock έγινε σταρ των Jumanji και Fast \u0026 Furious."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Dwayne_Johnson"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "hanks",
+        "name":  [
+                     "Tom Hanks",
+                     "Τομ Χανκς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Tom Hanks",
+                        "Τομ Χανκς",
+                        "Hanks",
+                        "Χανκς"
+                    ],
+        "clues":  [
+                      [
+                          "His short-story collection Uncommon Type reflects his love of typewriters.",
+                          "Η συλλογή διηγημάτων του Uncommon Type αντανακλά την αγάπη του για τις γραφομηχανές."
+                      ],
+                      [
+                          "He won consecutive acting Oscars for Philadelphia and Forrest Gump.",
+                          "Κέρδισε διαδοχικά Όσκαρ ερμηνείας για τα Philadelphia και Forrest Gump."
+                      ],
+                      [
+                          "He played Forrest Gump and provided Woody’s voice in Toy Story.",
+                          "Υποδύθηκε τον Φόρεστ Γκαμπ και έδωσε τη φωνή του στον Γούντι του Toy Story."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Tom_Hanks"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "malala",
+        "name":  [
+                     "Malala Yousafzai",
+                     "Μαλάλα Γιουσαφζάι"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Malala Yousafzai",
+                        "Μαλάλα Γιουσαφζάι",
+                        "Malala",
+                        "Μαλάλα"
+                    ],
+        "clues":  [
+                      [
+                          "As a schoolgirl, she wrote a BBC Urdu diary under the pen name Gul Makai.",
+                          "Ως μαθήτρια έγραφε ημερολόγιο για το BBC Urdu με το ψευδώνυμο Γκιουλ Μακάι."
+                      ],
+                      [
+                          "She shared the 2014 Nobel Peace Prize with Kailash Satyarthi, aged seventeen.",
+                          "Στα δεκαεπτά της μοιράστηκε το Νόμπελ Ειρήνης του 2014 με τον Καϊλάς Σατυάρτι."
+                      ],
+                      [
+                          "The Pakistani campaigner for girls’ education survived a Taliban shooting on her school journey.",
+                          "Η Πακιστανή ακτιβίστρια για την εκπαίδευση των κοριτσιών επέζησε από πυρά Ταλιμπάν στη διαδρομή από το σχολείο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Malala_Yousafzai"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "greta",
+        "name":  [
+                     "Greta Thunberg",
+                     "Γκρέτα Τούνμπεργκ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Greta Thunberg",
+                        "Γκρέτα Τούνμπεργκ",
+                        "Greta",
+                        "Thunberg",
+                        "Γκρέτα",
+                        "Γκρέτα Τούνμπεργ"
+                    ],
+        "clues":  [
+                      [
+                          "In 2019 she crossed the Atlantic aboard the sailing yacht Malizia II.",
+                          "Το 2019 διέσχισε τον Ατλαντικό με το ιστιοπλοϊκό Malizia II."
+                      ],
+                      [
+                          "Her school strike outside Sweden’s parliament began in 2018.",
+                          "Η σχολική απεργία της έξω από το σουηδικό κοινοβούλιο ξεκίνησε το 2018."
+                      ],
+                      [
+                          "The Swedish climate activist inspired Fridays for Future and challenged world leaders with “How dare you?”",
+                          "Η Σουηδή ακτιβίστρια για το κλίμα ενέπνευσε το Fridays for Future και απευθύνθηκε στους ηγέτες με το «How dare you?»."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Greta_Thunberg"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "obama",
+        "name":  [
+                     "Barack Obama",
+                     "Μπαράκ Ομπάμα"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Barack Obama",
+                        "Μπαράκ Ομπάμα",
+                        "Obama",
+                        "Ομπάμα"
+                    ],
+        "clues":  [
+                      [
+                          "He became the first Black president of the Harvard Law Review in 1990.",
+                          "Το 1990 έγινε ο πρώτος μαύρος πρόεδρος του Harvard Law Review."
+                      ],
+                      [
+                          "Before the White House, he represented Illinois in the US Senate.",
+                          "Πριν από τον Λευκό Οίκο εκπροσωπούσε το Ιλινόι στη Γερουσία των ΗΠΑ."
+                      ],
+                      [
+                          "The 44th US president was the first African American to hold that office; his wife is Michelle.",
+                          "Ο 44ος πρόεδρος των ΗΠΑ ήταν ο πρώτος Αφροαμερικανός στο αξίωμα· σύζυγός του είναι η Μισέλ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Barack_Obama"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "elizabeth",
+        "name":  [
+                     "Elizabeth II",
+                     "Ελισάβετ Β΄"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Elizabeth II",
+                        "Ελισάβετ Β΄",
+                        "Queen Elizabeth II",
+                        "Elizabeth 2",
+                        "Ελισάβετ",
+                        "Ελισάβετ Β",
+                        "Βασίλισσα Ελισάβετ"
+                    ],
+        "clues":  [
+                      [
+                          "During World War II she trained as a driver and mechanic in the Auxiliary Territorial Service.",
+                          "Στον Β΄ Παγκόσμιο Πόλεμο εκπαιδεύτηκε ως οδηγός και μηχανικός στη Βοηθητική Εδαφική Υπηρεσία."
+                      ],
+                      [
+                          "Her coronation in Westminster Abbey was televised in 1953.",
+                          "Η στέψη της στο Αβαείο του Ουέστμινστερ μεταδόθηκε τηλεοπτικά το 1953."
+                      ],
+                      [
+                          "She was Britain’s queen from 1952 to 2022 and the mother of King Charles III.",
+                          "Ήταν βασίλισσα της Βρετανίας από το 1952 μέχρι το 2022 και μητέρα του βασιλιά Καρόλου Γ΄."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Elizabeth_II"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "caesar",
+        "name":  [
+                     "Julius Caesar",
+                     "Ιούλιος Καίσαρας"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Julius Caesar",
+                        "Ιούλιος Καίσαρας",
+                        "Caesar",
+                        "Julius",
+                        "Καίσαρας"
+                    ],
+        "clues":  [
+                      [
+                          "His calendar reform introduced a 365-day year with a leap day every four years.",
+                          "Η ημερολογιακή του μεταρρύθμιση καθιέρωσε έτος 365 ημερών με δίσεκτη ημέρα κάθε τέσσερα χρόνια."
+                      ],
+                      [
+                          "He crossed the Rubicon with his army in 49 BC.",
+                          "Διέσχισε τον Ρουβίκωνα με τον στρατό του το 49 π.Χ."
+                      ],
+                      [
+                          "The Roman ruler associated with Cleopatra was assassinated on the Ides of March in 44 BC.",
+                          "Ο Ρωμαίος ηγέτης που συνδέθηκε με την Κλεοπάτρα δολοφονήθηκε στις Ειδούς του Μαρτίου του 44 π.Χ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Julius_Caesar"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "genghis",
+        "name":  [
+                     "Genghis Khan",
+                     "Τζένγκις Χαν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Genghis Khan",
+                        "Τζένγκις Χαν",
+                        "Chinggis Khan",
+                        "Temujin",
+                        "Τζενγκις Χαν",
+                        "Τζέγκις Χαν",
+                        "Τεμουτζίν"
+                    ],
+        "clues":  [
+                      [
+                          "His birth name was Temüjin.",
+                          "Το όνομα γέννησής του ήταν Τεμουτζίν."
+                      ],
+                      [
+                          "In 1206 an assembly recognised him as ruler after he united steppe tribes.",
+                          "Το 1206 μια συνέλευση τον αναγνώρισε ως ηγεμόνα αφού ένωσε φυλές της στέπας."
+                      ],
+                      [
+                          "He founded the Mongol Empire and led its early conquests across Asia.",
+                          "Ίδρυσε τη Μογγολική Αυτοκρατορία και ηγήθηκε των πρώτων κατακτήσεών της στην Ασία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Genghis_Khan"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "lincoln",
+        "name":  [
+                     "Abraham Lincoln",
+                     "Αβραάμ Λίνκολν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Abraham Lincoln",
+                        "Αβραάμ Λίνκολν",
+                        "Lincoln",
+                        "Λίνκολν"
+                    ],
+        "clues":  [
+                      [
+                          "He patented a device intended to help boats pass through shallow water.",
+                          "Κατοχύρωσε με δίπλωμα ευρεσιτεχνίας μια συσκευή που θα βοηθούσε τα πλοία να περνούν από ρηχά νερά."
+                      ],
+                      [
+                          "He delivered the Gettysburg Address during the American Civil War.",
+                          "Εκφώνησε την Ομιλία του Γκέτισμπεργκ στη διάρκεια του Αμερικανικού Εμφυλίου."
+                      ],
+                      [
+                          "The 16th US president issued the Emancipation Proclamation and was assassinated at Ford’s Theatre.",
+                          "Ο 16ος πρόεδρος των ΗΠΑ εξέδωσε τη Διακήρυξη Χειραφέτησης και δολοφονήθηκε στο θέατρο Φορντ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "washington",
+        "name":  [
+                     "George Washington",
+                     "Τζορτζ Ουάσινγκτον"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "George Washington",
+                        "Τζορτζ Ουάσινγκτον",
+                        "Washington",
+                        "Ουάσινγκτον",
+                        "Γεώργιος Ουάσινγκτον"
+                    ],
+        "clues":  [
+                      [
+                          "As a young man, he worked as a surveyor in Virginia.",
+                          "Ως νέος εργάστηκε ως τοπογράφος στη Βιρτζίνια."
+                      ],
+                      [
+                          "He commanded the Continental Army during the American Revolution.",
+                          "Ήταν επικεφαλής του Ηπειρωτικού Στρατού στην Αμερικανική Επανάσταση."
+                      ],
+                      [
+                          "He was the first president of the United States; the national capital bears his surname.",
+                          "Ήταν ο πρώτος πρόεδρος των Ηνωμένων Πολιτειών· η πρωτεύουσα φέρει το επώνυμό του."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/George_Washington"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "tesla",
+        "name":  [
+                     "Nikola Tesla",
+                     "Νίκολα Τέσλα"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Nikola Tesla",
+                        "Νίκολα Τέσλα",
+                        "Tesla",
+                        "Τέσλα"
+                    ],
+        "clues":  [
+                      [
+                          "In 1898 he demonstrated a radio-controlled boat.",
+                          "Το 1898 παρουσίασε ένα τηλεχειριζόμενο σκάφος με ραδιοκύματα."
+                      ],
+                      [
+                          "His induction motor and polyphase system helped develop alternating-current electricity.",
+                          "Ο επαγωγικός κινητήρας και το πολυφασικό του σύστημα συνέβαλαν στην ανάπτυξη του εναλλασσόμενου ρεύματος."
+                      ],
+                      [
+                          "This Serbian American inventor’s surname is also the name of an electric-car company led by Elon Musk.",
+                          "Το επώνυμο αυτού του Σερβοαμερικανού εφευρέτη είναι και το όνομα εταιρείας ηλεκτρικών αυτοκινήτων με επικεφαλής τον Ίλον Μασκ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Nikola_Tesla"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "edison",
+        "name":  [
+                     "Thomas Edison",
+                     "Τόμας Έντισον"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Thomas Edison",
+                        "Τόμας Έντισον",
+                        "Edison",
+                        "Έντισον",
+                        "Θωμάς Έντισον"
+                    ],
+        "clues":  [
+                      [
+                          "Before his laboratory career, he worked as a telegraph operator.",
+                          "Πριν από την καριέρα του στα εργαστήρια εργαζόταν ως τηλεγραφητής."
+                      ],
+                      [
+                          "His Menlo Park laboratory developed the phonograph in 1877.",
+                          "Το εργαστήριό του στο Μένλο Παρκ ανέπτυξε τον φωνόγραφο το 1877."
+                      ],
+                      [
+                          "The American inventor is famous for developing a practical incandescent lighting system.",
+                          "Ο Αμερικανός εφευρέτης είναι διάσημος για την ανάπτυξη ενός πρακτικού συστήματος φωτισμού με λαμπτήρες πυράκτωσης."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Thomas_Edison"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "chaplin",
+        "name":  [
+                     "Charlie Chaplin",
+                     "Τσάρλι Τσάπλιν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Charlie Chaplin",
+                        "Τσάρλι Τσάπλιν",
+                        "Chaplin",
+                        "Τσάπλιν",
+                        "Σαρλό"
+                    ],
+        "clues":  [
+                      [
+                          "In 1919 he co-founded United Artists with three other film pioneers.",
+                          "Το 1919 συνίδρυσε τη United Artists μαζί με τρεις άλλους πρωτοπόρους του κινηματογράφου."
+                      ],
+                      [
+                          "He wrote, directed and starred in City Lights and Modern Times.",
+                          "Έγραψε, σκηνοθέτησε και πρωταγωνίστησε στα Φώτα της Πόλης και στους Μοντέρνους Καιρούς."
+                      ],
+                      [
+                          "The silent-film comedian’s Little Tramp wore a bowler hat, carried a cane and had a small moustache.",
+                          "Ο κωμικός του βωβού κινηματογράφου έγινε διάσημος ως Σαρλό, με καπέλο, μπαστούνι και μικρό μουστάκι."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "elvis",
+        "name":  [
+                     "Elvis Presley",
+                     "Έλβις Πρίσλεϊ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Elvis Presley",
+                        "Έλβις Πρίσλεϊ",
+                        "Elvis",
+                        "Presley",
+                        "Έλβις",
+                        "Πρίσλεϊ",
+                        "Έλβις Πρίσλεϋ"
+                    ],
+        "clues":  [
+                      [
+                          "He served in the US Army in Germany between 1958 and 1960.",
+                          "Υπηρέτησε στον αμερικανικό στρατό στη Γερμανία μεταξύ 1958 και 1960."
+                      ],
+                      [
+                          "His Memphis home, Graceland, became a major visitor attraction.",
+                          "Το σπίτι του στο Μέμφις, η Γκρέισλαντ, έγινε σημαντικό αξιοθέατο."
+                      ],
+                      [
+                          "The King of Rock and Roll sang Jailhouse Rock, Hound Dog and Love Me Tender.",
+                          "Ο βασιλιάς του ροκ εν ρολ τραγούδησε τα Jailhouse Rock, Hound Dog και Love Me Tender."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Elvis_Presley"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "mercury",
+        "name":  [
+                     "Freddie Mercury",
+                     "Φρέντι Μέρκιουρι"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Freddie Mercury",
+                        "Φρέντι Μέρκιουρι",
+                        "Freddie",
+                        "Mercury",
+                        "Φρέντι",
+                        "Μέρκιουρι",
+                        "Farrokh Bulsara"
+                    ],
+        "clues":  [
+                      [
+                          "Born Farrokh Bulsara in Zanzibar, he attended school in India.",
+                          "Γεννήθηκε ως Φαρόκ Μπουλσάρα στη Ζανζιβάρη και φοίτησε σε σχολείο στην Ινδία."
+                      ],
+                      [
+                          "His band gave a celebrated twenty-minute performance at Live Aid in 1985.",
+                          "Το συγκρότημά του έδωσε μια θρυλική εικοσάλεπτη εμφάνιση στο Live Aid του 1985."
+                      ],
+                      [
+                          "The Queen frontman sang Bohemian Rhapsody and We Are the Champions.",
+                          "Ο τραγουδιστής των Queen ερμήνευσε τα Bohemian Rhapsody και We Are the Champions."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Freddie_Mercury"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "jackson",
+        "name":  [
+                     "Michael Jackson",
+                     "Μάικλ Τζάκσον"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Michael Jackson",
+                        "Μάικλ Τζάκσον",
+                        "Jackson",
+                        "Τζάκσον",
+                        "Μαικλ Τζακσον"
+                    ],
+        "clues":  [
+                      [
+                          "He was born in Gary, Indiana, and began performing with his older brothers.",
+                          "Γεννήθηκε στο Γκάρι της Ιντιάνα και ξεκίνησε να εμφανίζεται με τους μεγαλύτερους αδελφούς του."
+                      ],
+                      [
+                          "He popularised the moonwalk during a televised Billie Jean performance in 1983.",
+                          "Έκανε πασίγνωστο το moonwalk σε τηλεοπτική εμφάνιση με το Billie Jean το 1983."
+                      ],
+                      [
+                          "The King of Pop released Thriller and Bad and famously wore a single sparkling glove.",
+                          "Ο βασιλιάς της ποπ κυκλοφόρησε τα Thriller και Bad και φορούσε ένα χαρακτηριστικό αστραφτερό γάντι."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Michael_Jackson"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "monroe",
+        "name":  [
+                     "Marilyn Monroe",
+                     "Μέριλιν Μονρόε"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Marilyn Monroe",
+                        "Μέριλιν Μονρόε",
+                        "Monroe",
+                        "Marilyn",
+                        "Μονρόε",
+                        "Μέριλιν Μονρό",
+                        "Norma Jeane"
+                    ],
+        "clues":  [
+                      [
+                          "She was born Norma Jeane Mortenson and was also known as Norma Jeane Baker.",
+                          "Γεννήθηκε ως Νόρμα Τζιν Μόρτενσον και ήταν επίσης γνωστή ως Νόρμα Τζιν Μπέικερ."
+                      ],
+                      [
+                          "She starred opposite Tony Curtis and Jack Lemmon in Some Like It Hot.",
+                          "Πρωταγωνίστησε δίπλα στον Τόνι Κέρτις και τον Τζακ Λέμον στο Μερικοί το προτιμούν καυτό."
+                      ],
+                      [
+                          "The blonde Hollywood icon is remembered for her white dress above a subway grate in The Seven Year Itch.",
+                          "Η ξανθιά σταρ του Χόλιγουντ έμεινε γνωστή για το λευκό φόρεμα πάνω από σχάρα μετρό στο Επτά Χρόνια Φαγούρα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Marilyn_Monroe"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "hepburn",
+        "name":  [
+                     "Audrey Hepburn",
+                     "Όντρεϊ Χέπμπορν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Audrey Hepburn",
+                        "Όντρεϊ Χέπμπορν",
+                        "Audrey",
+                        "Όντρεϊ",
+                        "Όντρεϋ Χέπμπορν"
+                    ],
+        "clues":  [
+                      [
+                          "Before becoming a film star, she trained in ballet in the Netherlands and London.",
+                          "Πριν γίνει κινηματογραφική σταρ, εκπαιδεύτηκε στο μπαλέτο στην Ολλανδία και στο Λονδίνο."
+                      ],
+                      [
+                          "She won an Oscar for Roman Holiday and later worked as a UNICEF goodwill ambassador.",
+                          "Κέρδισε Όσκαρ για το Διακοπές στη Ρώμη και αργότερα εργάστηκε ως πρέσβειρα καλής θέλησης της UNICEF."
+                      ],
+                      [
+                          "She played Holly Golightly in Breakfast at Tiffany’s, wearing the famous black dress.",
+                          "Υποδύθηκε τη Χόλι Γκολάιτλι στο Breakfast at Tiffany’s, με το διάσημο μαύρο φόρεμα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Audrey_Hepburn"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "marley",
+        "name":  [
+                     "Bob Marley",
+                     "Μπομπ Μάρλεϊ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Bob Marley",
+                        "Μπομπ Μάρλεϊ",
+                        "Marley",
+                        "Μάρλεϊ",
+                        "Μπομπ Μάρλεϋ"
+                    ],
+        "clues":  [
+                      [
+                          "He was born in Nine Mile, a village in Jamaica’s Saint Ann parish.",
+                          "Γεννήθηκε στο Νάιν Μάιλ, ένα χωριό της ενορίας Σεντ Αν της Τζαμάικας."
+                      ],
+                      [
+                          "His musical career was closely associated with the Wailers and Rastafari.",
+                          "Η μουσική του πορεία συνδέθηκε στενά με τους Wailers και τον ρασταφαριανισμό."
+                      ],
+                      [
+                          "The Jamaican reggae icon sang No Woman, No Cry, One Love and Redemption Song.",
+                          "Το σύμβολο της τζαμαϊκανής ρέγκε τραγούδησε τα No Woman, No Cry, One Love και Redemption Song."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Bob_Marley"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "annefrank",
+        "name":  [
+                     "Anne Frank",
+                     "Άννα Φρανκ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Anne Frank",
+                        "Άννα Φρανκ",
+                        "Anne",
+                        "Anna Frank",
+                        "Φρανκ",
+                        "Αννα Φρανκ"
+                    ],
+        "clues":  [
+                      [
+                          "For her thirteenth birthday she received a red-checked diary.",
+                          "Στα δέκατα τρίτα γενέθλιά της έλαβε ένα ημερολόγιο με κόκκινο καρό εξώφυλλο."
+                      ],
+                      [
+                          "She hid with her family in a secret annex behind an Amsterdam business.",
+                          "Κρυβόταν με την οικογένειά της σε ένα μυστικό παράρτημα πίσω από επιχείρηση στο Άμστερνταμ."
+                      ],
+                      [
+                          "This Jewish girl’s diary became a famous personal account of life under Nazi persecution.",
+                          "Το ημερολόγιο αυτού του εβραιόπουλου έγινε μια πασίγνωστη προσωπική μαρτυρία ζωής υπό τη ναζιστική δίωξη."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.annefrank.org/en/anne-frank/who-was-anne-frank/"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "teresa",
+        "name":  [
+                     "Mother Teresa",
+                     "Μητέρα Τερέζα"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Mother Teresa",
+                        "Μητέρα Τερέζα",
+                        "Teresa of Calcutta",
+                        "Τερέζα",
+                        "Αγία Τερέζα της Καλκούτας"
+                    ],
+        "clues":  [
+                      [
+                          "She was born in the city now called Skopje, into an ethnic Albanian family.",
+                          "Γεννήθηκε στη σημερινή πόλη των Σκοπίων, σε οικογένεια αλβανικής καταγωγής."
+                      ],
+                      [
+                          "She received the 1979 Nobel Peace Prize for her humanitarian work.",
+                          "Έλαβε το Νόμπελ Ειρήνης του 1979 για το ανθρωπιστικό της έργο."
+                      ],
+                      [
+                          "The Catholic nun in a white sari with blue borders founded the Missionaries of Charity in Calcutta.",
+                          "Η καθολική μοναχή με το λευκό σάρι και τις μπλε λωρίδες ίδρυσε τις Ιεραποστόλους της Φιλανθρωπίας στην Καλκούτα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.nobelprize.org/prizes/peace/1979/teresa/facts/"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "gandhi",
+        "name":  [
+                     "Mahatma Gandhi",
+                     "Μαχάτμα Γκάντι"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Mahatma Gandhi",
+                        "Μαχάτμα Γκάντι",
+                        "Gandhi",
+                        "Mohandas Gandhi",
+                        "Γκάντι",
+                        "Μοχάντας Γκάντι"
+                    ],
+        "clues":  [
+                      [
+                          "He trained as a lawyer in London and later spent more than twenty years in South Africa.",
+                          "Σπούδασε νομικά στο Λονδίνο και αργότερα πέρασε περισσότερα από είκοσι χρόνια στη Νότια Αφρική."
+                      ],
+                      [
+                          "In 1930 he led the Salt March to protest British taxation.",
+                          "Το 1930 ηγήθηκε της Πορείας του Αλατιού εναντίον της βρετανικής φορολόγησης."
+                      ],
+                      [
+                          "The Indian independence leader became a global symbol of nonviolent resistance, wearing a simple dhoti and round glasses.",
+                          "Ο ηγέτης της ινδικής ανεξαρτησίας έγινε παγκόσμιο σύμβολο μη βίαιης αντίστασης, με απλό ντότι και στρογγυλά γυαλιά."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "socrates",
+        "name":  [
+                     "Socrates",
+                     "Σωκράτης"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Socrates",
+                        "Σωκράτης",
+                        "Sokrates"
+                    ],
+        "clues":  [
+                      [
+                          "He served as a soldier at Potidaea during the Peloponnesian War.",
+                          "Υπηρέτησε ως στρατιώτης στην Ποτίδαια κατά τον Πελοποννησιακό Πόλεμο."
+                      ],
+                      [
+                          "He left no writings of his own; much of his philosophy reaches us through dialogues by his students.",
+                          "Δεν άφησε δικά του γραπτά· μεγάλο μέρος της φιλοσοφίας του το γνωρίζουμε από διαλόγους μαθητών του."
+                      ],
+                      [
+                          "The Athenian philosopher taught Plato and was sentenced to die by drinking hemlock.",
+                          "Ο Αθηναίος φιλόσοφος ήταν δάσκαλος του Πλάτωνα και καταδικάστηκε να πιει κώνειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Socrates"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "aristotle",
+        "name":  [
+                     "Aristotle",
+                     "Αριστοτέλης"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Aristotle",
+                        "Αριστοτέλης",
+                        "Aristoteles"
+                    ],
+        "clues":  [
+                      [
+                          "He was born in Stagira, and his father was a physician.",
+                          "Γεννήθηκε στα Στάγειρα και ο πατέρας του ήταν γιατρός."
+                      ],
+                      [
+                          "He founded the Lyceum in Athens and studied logic, biology, ethics and politics.",
+                          "Ίδρυσε το Λύκειο στην Αθήνα και μελέτησε λογική, βιολογία, ηθική και πολιτική."
+                      ],
+                      [
+                          "This ancient Greek philosopher was a student of Plato and tutor to Alexander the Great.",
+                          "Ο αρχαίος Έλληνας φιλόσοφος ήταν μαθητής του Πλάτωνα και δάσκαλος του Μεγάλου Αλεξάνδρου."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Aristotle"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "archimedes",
+        "name":  [
+                     "Archimedes",
+                     "Αρχιμήδης"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Archimedes",
+                        "Αρχιμήδης",
+                        "Arhimidis"
+                    ],
+        "clues":  [
+                      [
+                          "He proved that a sphere has two-thirds the volume of its surrounding cylinder.",
+                          "Απέδειξε ότι η σφαίρα έχει τα δύο τρίτα του όγκου του κυλίνδρου που την περιβάλλει."
+                      ],
+                      [
+                          "The mathematician from Syracuse studied levers, buoyancy and machines for moving water.",
+                          "Ο μαθηματικός από τις Συρακούσες μελέτησε μοχλούς, άνωση και μηχανές μεταφοράς νερού."
+                      ],
+                      [
+                          "According to the famous story, he shouted “Eureka!” after an insight while taking a bath.",
+                          "Σύμφωνα με τη γνωστή ιστορία, φώναξε «Εύρηκα!» όταν έκανε μια ανακάλυψη μέσα στο λουτρό."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Archimedes"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "hippocrates",
+        "name":  [
+                     "Hippocrates",
+                     "Ιπποκράτης"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Hippocrates",
+                        "Ιπποκράτης",
+                        "Hippokrates"
+                    ],
+        "clues":  [
+                      [
+                          "An ancient collection of medical writings bears his name, though it has multiple authors.",
+                          "Μια αρχαία συλλογή ιατρικών συγγραμμάτων φέρει το όνομά του, αν και έχει πολλούς συγγραφείς."
+                      ],
+                      [
+                          "He is associated with the medical school of Kos and explanations of illness based on natural causes.",
+                          "Συνδέεται με την ιατρική σχολή της Κω και την αναζήτηση φυσικών αιτιών για τις ασθένειες."
+                      ],
+                      [
+                          "The Greek “Father of Medicine” gives his name to the famous oath for doctors.",
+                          "Ο Έλληνας «πατέρας της Ιατρικής» δίνει το όνομά του στον διάσημο όρκο των γιατρών."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Hippocrates"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "pericles",
+        "name":  [
+                     "Pericles",
+                     "Περικλής"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Pericles",
+                        "Περικλής",
+                        "Perikles"
+                    ],
+        "clues":  [
+                      [
+                          "His father Xanthippus was a commander in the Persian Wars.",
+                          "Ο πατέρας του, Ξάνθιππος, ήταν στρατηγός στους Περσικούς Πολέμους."
+                      ],
+                      [
+                          "Thucydides records a famous funeral oration delivered by this Athenian statesman.",
+                          "Ο Θουκυδίδης καταγράφει έναν διάσημο επιτάφιο λόγο αυτού του Αθηναίου πολιτικού."
+                      ],
+                      [
+                          "His leadership defines Athens’s Golden Age, when the Parthenon was built.",
+                          "Η ηγεσία του συνδέεται με τον Χρυσό Αιώνα της Αθήνας, όταν χτίστηκε ο Παρθενώνας."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Pericles"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "sappho",
+        "name":  [
+                     "Sappho",
+                     "Σαπφώ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Sappho",
+                        "Σαπφώ",
+                        "Sapfo"
+                    ],
+        "clues":  [
+                      [
+                          "Most of her surviving poetry reaches us as fragments, including pieces recovered from papyri.",
+                          "Το μεγαλύτερο μέρος της σωζόμενης ποίησής της αποτελείται από αποσπάσματα, μεταξύ τους κομμάτια παπύρων."
+                      ],
+                      [
+                          "A complete surviving poem of hers addresses the goddess Aphrodite.",
+                          "Ένα ακέραιο σωζόμενο ποίημά της απευθύνεται στη θεά Αφροδίτη."
+                      ],
+                      [
+                          "The ancient Greek lyric poet from Lesbos is celebrated for poetry about love and desire.",
+                          "Η αρχαία Ελληνίδα λυρική ποιήτρια από τη Λέσβο είναι γνωστή για ποιήματα αγάπης και έρωτα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Sappho"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "pythagoras",
+        "name":  [
+                     "Pythagoras",
+                     "Πυθαγόρας"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Pythagoras",
+                        "Πυθαγόρας",
+                        "Pithagoras"
+                    ],
+        "clues":  [
+                      [
+                          "Born on Samos, he established a community in Croton in southern Italy.",
+                          "Γεννήθηκε στη Σάμο και δημιούργησε μια κοινότητα στον Κρότωνα της Κάτω Ιταλίας."
+                      ],
+                      [
+                          "His followers explored the relationship between musical harmony and numerical ratios.",
+                          "Οι μαθητές του μελέτησαν τη σχέση της μουσικής αρμονίας με τις αριθμητικές αναλογίες."
+                      ],
+                      [
+                          "His name is attached to the right-triangle theorem a² + b² = c².",
+                          "Το όνομά του συνδέεται με το θεώρημα του ορθογωνίου τριγώνου α² + β² = γ²."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Pythagoras"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "sophocles",
+        "name":  [
+                     "Sophocles",
+                     "Σοφοκλής"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Sophocles",
+                        "Σοφοκλής",
+                        "Sofoklis"
+                    ],
+        "clues":  [
+                      [
+                          "Only seven of his more than 120 plays survive complete.",
+                          "Από τα περισσότερα από 120 θεατρικά έργα του σώζονται ακέραια μόνο επτά."
+                      ],
+                      [
+                          "He was one of the three major tragedians of classical Athens, alongside Aeschylus and Euripides.",
+                          "Ήταν ένας από τους τρεις μεγάλους τραγικούς της κλασικής Αθήνας, μαζί με τον Αισχύλο και τον Ευριπίδη."
+                      ],
+                      [
+                          "He wrote Antigone and Oedipus Rex.",
+                          "Έγραψε την Αντιγόνη και τον Οιδίποδα Τύραννο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Sophocles"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "plato",
+        "name":  [
+                     "Plato",
+                     "Πλάτων"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Plato",
+                        "Πλάτων",
+                        "Platon",
+                        "Πλάτωνας"
+                    ],
+        "clues":  [
+                      [
+                          "His travels included visits to Syracuse, where he became involved in court politics.",
+                          "Τα ταξίδια του περιλάμβαναν επισκέψεις στις Συρακούσες, όπου ενεπλάκη στην πολιτική της αυλής."
+                      ],
+                      [
+                          "He founded the Academy in Athens and wrote philosophical dialogues.",
+                          "Ίδρυσε την Ακαδημία στην Αθήνα και έγραψε φιλοσοφικούς διαλόγους."
+                      ],
+                      [
+                          "Socrates’s student wrote The Republic, including the allegory of the cave.",
+                          "Ο μαθητής του Σωκράτη έγραψε την Πολιτεία, με την αλληγορία του σπηλαίου."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Plato"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "hypatia",
+        "name":  [
+                     "Hypatia",
+                     "Υπατία"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Hypatia",
+                        "Υπατία",
+                        "Ipatia"
+                    ],
+        "clues":  [
+                      [
+                          "Her father Theon was a mathematician who also taught in Alexandria.",
+                          "Ο πατέρας της, Θέων, ήταν μαθηματικός που επίσης δίδασκε στην Αλεξάνδρεια."
+                      ],
+                      [
+                          "She taught Neoplatonic philosophy and mathematics in Roman Egypt.",
+                          "Δίδασκε νεοπλατωνική φιλοσοφία και μαθηματικά στη ρωμαϊκή Αίγυπτο."
+                      ],
+                      [
+                          "The celebrated woman philosopher of Alexandria was murdered by a Christian mob in 415 AD.",
+                          "Η διάσημη φιλόσοφος της Αλεξάνδρειας δολοφονήθηκε από χριστιανικό όχλο το 415 μ.Χ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Hypatia"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "hawking",
+        "name":  [
+                     "Stephen Hawking",
+                     "Στίβεν Χόκινγκ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Stephen Hawking",
+                        "Στίβεν Χόκινγκ",
+                        "Hawking",
+                        "Χόκινγκ",
+                        "Στήβεν Χώκινγκ"
+                    ],
+        "clues":  [
+                      [
+                          "As an Oxford student, he was a coxswain in a rowing club.",
+                          "Ως φοιτητής στην Οξφόρδη ήταν πηδαλιούχος σε κωπηλατικό όμιλο."
+                      ],
+                      [
+                          "He predicted that black holes emit radiation rather than being completely black.",
+                          "Προέβλεψε ότι οι μαύρες τρύπες εκπέμπουν ακτινοβολία αντί να είναι εντελώς μαύρες."
+                      ],
+                      [
+                          "The physicist who wrote A Brief History of Time communicated through a speech synthesiser while living with motor neurone disease.",
+                          "Ο φυσικός που έγραψε το Χρονικό του Χρόνου επικοινωνούσε με συνθέτη ομιλίας, ζώντας με νόσο του κινητικού νευρώνα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Stephen_Hawking"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "goodall",
+        "name":  [
+                     "Jane Goodall",
+                     "Τζέιν Γκούντολ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Jane Goodall",
+                        "Τζέιν Γκούντολ",
+                        "Goodall",
+                        "Γκούντολ",
+                        "Τζέιν Γκούνταλ"
+                    ],
+        "clues":  [
+                      [
+                          "She named one of her early animal subjects David Greybeard.",
+                          "Ονόμασε ένα από τα πρώτα ζώα που μελέτησε Ντέιβιντ Γκρέιμπιρντ."
+                      ],
+                      [
+                          "At Gombe in Tanzania, she observed wild chimpanzees using tools.",
+                          "Στο Γκόμπε της Τανζανίας παρατήρησε άγριους χιμπαντζήδες να χρησιμοποιούν εργαλεία."
+                      ],
+                      [
+                          "The British primatologist became world-famous for decades of chimpanzee research and conservation work.",
+                          "Η Βρετανίδα πρωτευοντολόγος έγινε παγκοσμίως γνωστή για δεκαετίες έρευνας στους χιμπαντζήδες και προστασίας της φύσης."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Jane_Goodall"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "franklin",
+        "name":  [
+                     "Rosalind Franklin",
+                     "Ρόζαλιντ Φράνκλιν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Rosalind Franklin",
+                        "Ρόζαλιντ Φράνκλιν",
+                        "Rosalind",
+                        "Φράνκλιν"
+                    ],
+        "clues":  [
+                      [
+                          "Her early scientific research examined the structure of coal and carbon.",
+                          "Η πρώιμη επιστημονική της έρευνα μελετούσε τη δομή του γαιάνθρακα και του άνθρακα."
+                      ],
+                      [
+                          "She used X-ray diffraction at King’s College London to investigate molecules.",
+                          "Χρησιμοποίησε περίθλαση ακτίνων Χ στο King’s College του Λονδίνου για να μελετήσει μόρια."
+                      ],
+                      [
+                          "Her DNA research, including Photo 51 produced with Raymond Gosling, helped reveal the double helix.",
+                          "Η έρευνά της στο DNA, με τη Φωτογραφία 51 που παρήγαγε μαζί με τον Ρέιμοντ Γκόσλινγκ, βοήθησε στην αποκάλυψη της διπλής έλικας."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "katherine",
+        "name":  [
+                     "Katherine Johnson",
+                     "Κάθριν Τζόνσον"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Katherine Johnson",
+                        "Κάθριν Τζόνσον",
+                        "Katherine",
+                        "Κάθριν"
+                    ],
+        "clues":  [
+                      [
+                          "John Glenn requested that she personally verify the calculations for his orbital flight.",
+                          "Ο Τζον Γκλεν ζήτησε να ελέγξει προσωπικά τους υπολογισμούς για την τροχιακή πτήση του."
+                      ],
+                      [
+                          "She calculated spaceflight trajectories for NACA and NASA.",
+                          "Υπολόγιζε τροχιές διαστημικών πτήσεων για τη NACA και τη NASA."
+                      ],
+                      [
+                          "The African American mathematician was portrayed by Taraji P. Henson in Hidden Figures.",
+                          "Την Αφροαμερικανίδα μαθηματικό υποδύθηκε η Ταράτζι Π. Χένσον στο Hidden Figures."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Katherine_Johnson"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "earhart",
+        "name":  [
+                     "Amelia Earhart",
+                     "Αμέλια Έρχαρτ"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Amelia Earhart",
+                        "Αμέλια Έρχαρτ",
+                        "Earhart",
+                        "Έρχαρτ"
+                    ],
+        "clues":  [
+                      [
+                          "During World War I she worked as a nurse’s aide in Toronto.",
+                          "Στον Α΄ Παγκόσμιο Πόλεμο εργάστηκε ως βοηθός νοσοκόμας στο Τορόντο."
+                      ],
+                      [
+                          "In 1932 she became the first woman to fly solo across the Atlantic.",
+                          "Το 1932 έγινε η πρώτη γυναίκα που πέταξε μόνη της πάνω από τον Ατλαντικό."
+                      ],
+                      [
+                          "This pioneering aviator disappeared over the Pacific in 1937 while attempting to fly around the world.",
+                          "Η πρωτοπόρος αεροπόρος εξαφανίστηκε στον Ειρηνικό το 1937, επιχειρώντας τον γύρο του κόσμου."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Amelia_Earhart"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "gagarin",
+        "name":  [
+                     "Yuri Gagarin",
+                     "Γιούρι Γκαγκάριν"
+                 ],
+        "kind":  "historical",
+        "aliases":  [
+                        "Yuri Gagarin",
+                        "Γιούρι Γκαγκάριν",
+                        "Gagarin",
+                        "Γκαγκάριν",
+                        "Yuriy Gagarin"
+                    ],
+        "clues":  [
+                      [
+                          "Before pilot training, he studied mouldmaking and foundry work.",
+                          "Πριν εκπαιδευτεί ως πιλότος, σπούδασε κατασκευή καλουπιών και εργασία σε χυτήριο."
+                      ],
+                      [
+                          "His Vostok 1 mission completed one orbit of Earth in April 1961.",
+                          "Η αποστολή του Vostok 1 ολοκλήρωσε μία περιφορά γύρω από τη Γη τον Απρίλιο του 1961."
+                      ],
+                      [
+                          "The Soviet cosmonaut was the first human to travel into space.",
+                          "Ο Σοβιετικός κοσμοναύτης ήταν ο πρώτος άνθρωπος που ταξίδεψε στο διάστημα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "madonna",
+        "name":  [
+                     "Madonna",
+                     "Μαντόνα"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Madonna",
+                        "Μαντόνα",
+                        "Madonna Ciccone",
+                        "Μαντόννα"
+                    ],
+        "clues":  [
+                      [
+                          "Born in Bay City, Michigan, she moved to New York to pursue dance.",
+                          "Γεννήθηκε στο Μπέι Σίτι του Μίσιγκαν και μετακόμισε στη Νέα Υόρκη για να ασχοληθεί με τον χορό."
+                      ],
+                      [
+                          "She played Eva Perón in the film musical Evita.",
+                          "Υποδύθηκε την Εύα Περόν στο κινηματογραφικό μιούζικαλ Evita."
+                      ],
+                      [
+                          "The Queen of Pop sang Like a Virgin, Material Girl and Vogue.",
+                          "Η βασίλισσα της ποπ τραγούδησε τα Like a Virgin, Material Girl και Vogue."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Madonna"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "britney",
+        "name":  [
+                     "Britney Spears",
+                     "Μπρίτνεϊ Σπίαρς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Britney Spears",
+                        "Μπρίτνεϊ Σπίαρς",
+                        "Britney",
+                        "Spears",
+                        "Μπρίτνεϊ",
+                        "Μπρίτνεϋ Σπίαρς"
+                    ],
+        "clues":  [
+                      [
+                          "She appeared in The All-New Mickey Mouse Club as a child.",
+                          "Ως παιδί εμφανίστηκε στο The All-New Mickey Mouse Club."
+                      ],
+                      [
+                          "Her 2003 album In the Zone included Toxic.",
+                          "Το άλμπουμ της In the Zone του 2003 περιλάμβανε το Toxic."
+                      ],
+                      [
+                          "The pop star sang …Baby One More Time and Oops!… I Did It Again.",
+                          "Η ποπ σταρ τραγούδησε τα …Baby One More Time και Oops!… I Did It Again."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Britney_Spears"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "eminem",
+        "name":  [
+                     "Eminem",
+                     "Έμινεμ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Eminem",
+                        "Έμινεμ",
+                        "Marshall Mathers",
+                        "Slim Shady",
+                        "Εμινεμ"
+                    ],
+        "clues":  [
+                      [
+                          "His legal name is Marshall Bruce Mathers III.",
+                          "Το επίσημο όνομά του είναι Μάρσαλ Μπρους Μάδερς Γ΄."
+                      ],
+                      [
+                          "He starred in 8 Mile, a film connected with Detroit’s rap scene.",
+                          "Πρωταγωνίστησε στο 8 Mile, που συνδέεται με τη ραπ σκηνή του Ντιτρόιτ."
+                      ],
+                      [
+                          "The rapper known as Slim Shady recorded Lose Yourself and The Real Slim Shady.",
+                          "Ο ράπερ με το προσωνύμιο Slim Shady ηχογράφησε τα Lose Yourself και The Real Slim Shady."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Eminem"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "snoop",
+        "name":  [
+                     "Snoop Dogg",
+                     "Σνουπ Ντογκ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Snoop Dogg",
+                        "Σνουπ Ντογκ",
+                        "Snoop",
+                        "Calvin Broadus",
+                        "Σνουπ",
+                        "Snoop Doggy Dogg"
+                    ],
+        "clues":  [
+                      [
+                          "His birth name is Calvin Cordozar Broadus Jr.",
+                          "Το όνομα γέννησής του είναι Κάλβιν Κόρντοζαρ Μπρόντους Τζούνιορ."
+                      ],
+                      [
+                          "His debut album Doggystyle was produced by Dr. Dre.",
+                          "Το πρώτο του άλμπουμ, Doggystyle, είχε παραγωγό τον Dr. Dre."
+                      ],
+                      [
+                          "The Long Beach rapper is known for Gin and Juice and Drop It Like It’s Hot.",
+                          "Ο ράπερ από το Λονγκ Μπιτς είναι γνωστός για τα Gin and Juice και Drop It Like It’s Hot."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Snoop_Dogg"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "dualipa",
+        "name":  [
+                     "Dua Lipa",
+                     "Ντούα Λίπα"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Dua Lipa",
+                        "Ντούα Λίπα",
+                        "Dua",
+                        "Ντούα"
+                    ],
+        "clues":  [
+                      [
+                          "She was born in London to Kosovo Albanian parents and spent part of her youth in Pristina.",
+                          "Γεννήθηκε στο Λονδίνο από γονείς Αλβανούς του Κοσόβου και πέρασε μέρος των παιδικών της χρόνων στην Πρίστινα."
+                      ],
+                      [
+                          "Her 2020 album Future Nostalgia includes Don’t Start Now and Physical.",
+                          "Το άλμπουμ της Future Nostalgia του 2020 περιλαμβάνει τα Don’t Start Now και Physical."
+                      ],
+                      [
+                          "The singer behind New Rules and Levitating also sang Dance the Night for Barbie.",
+                          "Η τραγουδίστρια των New Rules και Levitating τραγούδησε επίσης το Dance the Night για την Barbie."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Dua_Lipa"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "eilish",
+        "name":  [
+                     "Billie Eilish",
+                     "Μπίλι Άιλις"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Billie Eilish",
+                        "Μπίλι Άιλις",
+                        "Billie",
+                        "Eilish",
+                        "Μπίλι",
+                        "Μπίλι Έιλις"
+                    ],
+        "clues":  [
+                      [
+                          "Ocean Eyes, written by her brother Finneas, first drew attention on SoundCloud.",
+                          "Το Ocean Eyes, που έγραψε ο αδελφός της Φινέας, τράβηξε αρχικά την προσοχή στο SoundCloud."
+                      ],
+                      [
+                          "She recorded the James Bond theme No Time to Die.",
+                          "Ηχογράφησε το τραγούδι του Τζέιμς Μποντ No Time to Die."
+                      ],
+                      [
+                          "She sang bad guy and Barbie’s What Was I Made For?",
+                          "Τραγούδησε το bad guy και το What Was I Made For? της Barbie."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Billie_Eilish"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "sheeran",
+        "name":  [
+                     "Ed Sheeran",
+                     "Εντ Σίραν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Ed Sheeran",
+                        "Εντ Σίραν",
+                        "Sheeran",
+                        "Σίραν"
+                    ],
+        "clues":  [
+                      [
+                          "His hometown of Framlingham inspired Castle on the Hill.",
+                          "Η πόλη όπου μεγάλωσε, το Φράμλινγκχαμ, ενέπνευσε το Castle on the Hill."
+                      ],
+                      [
+                          "His albums include titles represented by mathematical signs such as +, × and ÷.",
+                          "Στα άλμπουμ του υπάρχουν τίτλοι με μαθηματικά σύμβολα όπως +, × και ÷."
+                      ],
+                      [
+                          "The red-haired English singer-songwriter recorded Shape of You, Perfect and Thinking Out Loud.",
+                          "Ο κοκκινομάλλης Άγγλος τραγουδοποιός ηχογράφησε τα Shape of You, Perfect και Thinking Out Loud."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Ed_Sheeran"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "bruno",
+        "name":  [
+                     "Bruno Mars",
+                     "Μπρούνο Μαρς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Bruno Mars",
+                        "Μπρούνο Μαρς",
+                        "Bruno",
+                        "Peter Hernandez",
+                        "Μπρούνο"
+                    ],
+        "clues":  [
+                      [
+                          "Born Peter Gene Hernandez in Honolulu, he performed as an Elvis impersonator as a child.",
+                          "Γεννήθηκε ως Πίτερ Τζιν Χερνάντεζ στη Χονολουλού και ως παιδί μιμούνταν τον Έλβις στη σκηνή."
+                      ],
+                      [
+                          "He teamed up with Anderson .Paak to form Silk Sonic.",
+                          "Συνεργάστηκε με τον Anderson .Paak σχηματίζοντας τους Silk Sonic."
+                      ],
+                      [
+                          "He sang Just the Way You Are, Grenade and 24K Magic, and featured on Uptown Funk.",
+                          "Τραγούδησε τα Just the Way You Are, Grenade και 24K Magic και συμμετείχε στο Uptown Funk."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Bruno_Mars"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "radcliffe",
+        "name":  [
+                     "Daniel Radcliffe",
+                     "Ντάνιελ Ράντκλιφ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Daniel Radcliffe",
+                        "Ντάνιελ Ράντκλιφ",
+                        "Radcliffe",
+                        "Ράντκλιφ"
+                    ],
+        "clues":  [
+                      [
+                          "He played musical satirist “Weird Al” Yankovic in a 2022 biographical parody.",
+                          "Υποδύθηκε τον μουσικό σατιρικό «Weird Al» Γιάνκοβιτς σε βιογραφική παρωδία του 2022."
+                      ],
+                      [
+                          "He starred in the supernatural horror film The Woman in Black after his major fantasy franchise ended.",
+                          "Πρωταγωνίστησε στην ταινία τρόμου The Woman in Black μετά το τέλος της μεγάλης σειράς φαντασίας του."
+                      ],
+                      [
+                          "He played Harry Potter in all eight films of the original series.",
+                          "Υποδύθηκε τον Χάρι Πότερ και στις οκτώ ταινίες της αρχικής σειράς."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Daniel_Radcliffe"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "watson",
+        "name":  [
+                     "Emma Watson",
+                     "Έμα Γουάτσον"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Emma Watson",
+                        "Έμα Γουάτσον",
+                        "Watson",
+                        "Emma",
+                        "Έμμα Γουάτσον",
+                        "Γουάτσον"
+                    ],
+        "clues":  [
+                      [
+                          "She graduated from Brown University with a degree in English literature.",
+                          "Αποφοίτησε από το Πανεπιστήμιο Μπράουν με πτυχίο στην αγγλική λογοτεχνία."
+                      ],
+                      [
+                          "She played Belle in Disney’s live-action Beauty and the Beast.",
+                          "Υποδύθηκε την Μπελ στη ζωντανή κινηματογραφική εκδοχή της Πεντάμορφης και του Τέρατος της Disney."
+                      ],
+                      [
+                          "She played Hermione Granger in the Harry Potter films.",
+                          "Υποδύθηκε την Ερμιόνη Γκρέιντζερ στις ταινίες Χάρι Πότερ."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Emma_Watson"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "depp",
+        "name":  [
+                     "Johnny Depp",
+                     "Τζόνι Ντεπ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Johnny Depp",
+                        "Τζόνι Ντεπ",
+                        "Depp",
+                        "Ντεπ",
+                        "Τζόννυ Ντεπ"
+                    ],
+        "clues":  [
+                      [
+                          "He performs guitar in the rock supergroup Hollywood Vampires.",
+                          "Παίζει κιθάρα στο ροκ συγκρότημα Hollywood Vampires."
+                      ],
+                      [
+                          "He has often collaborated with Tim Burton, including on Edward Scissorhands.",
+                          "Έχει συνεργαστεί συχνά με τον Τιμ Μπάρτον, μεταξύ άλλων στον Ψαλιδοχέρη."
+                      ],
+                      [
+                          "He played Captain Jack Sparrow in Pirates of the Caribbean.",
+                          "Υποδύθηκε τον κάπτεν Τζακ Σπάροου στους Πειρατές της Καραϊβικής."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Johnny_Depp"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "pitt",
+        "name":  [
+                     "Brad Pitt",
+                     "Μπραντ Πιτ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Brad Pitt",
+                        "Μπραντ Πιτ",
+                        "Pitt",
+                        "Μπραντ",
+                        "Πιτ"
+                    ],
+        "clues":  [
+                      [
+                          "He studied journalism at the University of Missouri before leaving for Los Angeles.",
+                          "Σπούδασε δημοσιογραφία στο Πανεπιστήμιο του Μιζούρι πριν φύγει για το Λος Άντζελες."
+                      ],
+                      [
+                          "He won an acting Oscar for playing stuntman Cliff Booth in Once Upon a Time in Hollywood.",
+                          "Κέρδισε Όσκαρ ερμηνείας ως κασκαντέρ Κλιφ Μπουθ στο Κάποτε στο Χόλιγουντ."
+                      ],
+                      [
+                          "He played Tyler Durden in Fight Club and Achilles in Troy.",
+                          "Υποδύθηκε τον Τάιλερ Ντέρντεν στο Fight Club και τον Αχιλλέα στην Τροία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Brad_Pitt"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "jolie",
+        "name":  [
+                     "Angelina Jolie",
+                     "Αντζελίνα Τζολί"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Angelina Jolie",
+                        "Αντζελίνα Τζολί",
+                        "Jolie",
+                        "Τζολί",
+                        "Αντζελίνα"
+                    ],
+        "clues":  [
+                      [
+                          "Her father is actor Jon Voight.",
+                          "Πατέρας της είναι ο ηθοποιός Τζον Βόιτ."
+                      ],
+                      [
+                          "She won an Oscar for Girl, Interrupted and played Maleficent.",
+                          "Κέρδισε Όσκαρ για το Girl, Interrupted και υποδύθηκε τη Maleficent."
+                      ],
+                      [
+                          "She brought video-game adventurer Lara Croft to the screen in Tomb Raider.",
+                          "Έφερε στη μεγάλη οθόνη τη Λάρα Κροφτ των βιντεοπαιχνιδιών στο Tomb Raider."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Angelina_Jolie"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "aniston",
+        "name":  [
+                     "Jennifer Aniston",
+                     "Τζένιφερ Άνιστον"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Jennifer Aniston",
+                        "Τζένιφερ Άνιστον",
+                        "Aniston",
+                        "Άνιστον",
+                        "Τζένιφερ"
+                    ],
+        "clues":  [
+                      [
+                          "Her father, soap actor John Aniston, was born on the Greek island of Crete.",
+                          "Ο πατέρας της, ηθοποιός Τζον Άνιστον, γεννήθηκε στην Κρήτη."
+                      ],
+                      [
+                          "She played news presenter Alex Levy in The Morning Show.",
+                          "Υποδύθηκε την παρουσιάστρια ειδήσεων Άλεξ Λέβι στο The Morning Show."
+                      ],
+                      [
+                          "She became famous as Rachel Green in Friends.",
+                          "Έγινε διάσημη ως Ρέιτσελ Γκριν στα Φιλαράκια."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Jennifer_Aniston"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "freeman",
+        "name":  [
+                     "Morgan Freeman",
+                     "Μόργκαν Φρίμαν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Morgan Freeman",
+                        "Μόργκαν Φρίμαν",
+                        "Freeman",
+                        "Φρίμαν",
+                        "Μόργκαν"
+                    ],
+        "clues":  [
+                      [
+                          "Before his acting career took off, he served in the US Air Force.",
+                          "Πριν καθιερωθεί ως ηθοποιός, υπηρέτησε στην αμερικανική Πολεμική Αεροπορία."
+                      ],
+                      [
+                          "His supporting role in Million Dollar Baby earned him an Oscar.",
+                          "Ο δεύτερος ρόλος του στο Million Dollar Baby του χάρισε Όσκαρ."
+                      ],
+                      [
+                          "The actor with the distinctive narrator’s voice played Red in The Shawshank Redemption and God in Bruce Almighty.",
+                          "Ο ηθοποιός με τη χαρακτηριστική αφηγηματική φωνή υποδύθηκε τον Ρεντ στο Τελευταία Έξοδος: Ρίτα Χέιγουορθ και τον Θεό στο Bruce Almighty."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Morgan_Freeman"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "jackie",
+        "name":  [
+                     "Jackie Chan",
+                     "Τζάκι Τσαν"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Jackie Chan",
+                        "Τζάκι Τσαν",
+                        "Jackie",
+                        "Chan",
+                        "Τσαν",
+                        "Τζάκι"
+                    ],
+        "clues":  [
+                      [
+                          "As a child, he trained in acrobatics and performance at a Peking opera school.",
+                          "Ως παιδί εκπαιδεύτηκε σε ακροβατικά και ερμηνεία σε σχολή όπερας του Πεκίνου."
+                      ],
+                      [
+                          "His action comedies include Drunken Master and Police Story.",
+                          "Στις κωμωδίες δράσης του περιλαμβάνονται τα Drunken Master και Police Story."
+                      ],
+                      [
+                          "The Hong Kong action star, famous for performing his own stunts, teamed up with Chris Tucker in Rush Hour.",
+                          "Ο σταρ δράσης από το Χονγκ Κονγκ, γνωστός για τα δικά του κασκαντεριλίκια, συνεργάστηκε με τον Κρις Τάκερ στο Rush Hour."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Jackie_Chan"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "arnold",
+        "name":  [
+                     "Arnold Schwarzenegger",
+                     "Άρνολντ Σβαρτσενέγκερ"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Arnold Schwarzenegger",
+                        "Άρνολντ Σβαρτσενέγκερ",
+                        "Arnold",
+                        "Schwarzenegger",
+                        "Άρνολντ",
+                        "Σβαρτσενέγκερ",
+                        "Σβαρτζενέγκερ"
+                    ],
+        "clues":  [
+                      [
+                          "He won the Mr. Olympia bodybuilding title seven times.",
+                          "Κατέκτησε επτά φορές τον τίτλο Mr. Olympia στο bodybuilding."
+                      ],
+                      [
+                          "Born in Austria, he later served as governor of California.",
+                          "Γεννήθηκε στην Αυστρία και αργότερα υπηρέτησε ως κυβερνήτης της Καλιφόρνιας."
+                      ],
+                      [
+                          "The Terminator star made “I’ll be back” one of cinema’s most famous lines.",
+                          "Ο πρωταγωνιστής του Εξολοθρευτή έκανε το «I’ll be back» μια από τις πιο διάσημες ατάκες του σινεμά."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "robin",
+        "name":  [
+                     "Robin Williams",
+                     "Ρόμπιν Γουίλιαμς"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Robin Williams",
+                        "Ρόμπιν Γουίλιαμς",
+                        "Robin",
+                        "Ρόμπιν",
+                        "Ρόμπιν Ουίλιαμς"
+                    ],
+        "clues":  [
+                      [
+                          "He studied at Juilliard alongside Christopher Reeve.",
+                          "Σπούδασε στη σχολή Τζούλιαρντ μαζί με τον Κρίστοφερ Ριβ."
+                      ],
+                      [
+                          "He won an Oscar for playing therapist Sean Maguire in Good Will Hunting.",
+                          "Κέρδισε Όσκαρ ως θεραπευτής Σον Μαγκουάιρ στο Good Will Hunting."
+                      ],
+                      [
+                          "The comedian starred in Mrs. Doubtfire and voiced the Genie in Disney’s Aladdin.",
+                          "Ο κωμικός πρωταγωνίστησε στο Mrs. Doubtfire και έδωσε τη φωνή του στο Τζίνι του Αλαντίν της Disney."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Robin_Williams"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "mercouri",
+        "name":  [
+                     "Melina Mercouri",
+                     "Μελίνα Μερκούρη"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Melina Mercouri",
+                        "Μελίνα Μερκούρη",
+                        "Melina",
+                        "Mercouri",
+                        "Μελίνα",
+                        "Μερκούρη"
+                    ],
+        "clues":  [
+                      [
+                          "Her first film role was the title character in Michael Cacoyannis’s Stella.",
+                          "Ο πρώτος κινηματογραφικός της ρόλος ήταν η Στέλλα του Μιχάλη Κακογιάννη."
+                      ],
+                      [
+                          "She won the Cannes Best Actress award for Never on Sunday in 1960.",
+                          "Κέρδισε το βραβείο γυναικείας ερμηνείας στις Κάννες για το Ποτέ την Κυριακή το 1960."
+                      ],
+                      [
+                          "The Greek actress and culture minister became a leading campaigner for the return of the Parthenon Sculptures.",
+                          "Η Ελληνίδα ηθοποιός και υπουργός Πολιτισμού πρωτοστάτησε στην εκστρατεία επιστροφής των Γλυπτών του Παρθενώνα."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Melina_Mercouri"
+                    ],
+        "image":  ""
+    },
+    {
+        "id":  "theodorakis",
+        "name":  [
+                     "Mikis Theodorakis",
+                     "Μίκης Θεοδωράκης"
+                 ],
+        "kind":  "celebrity",
+        "aliases":  [
+                        "Mikis Theodorakis",
+                        "Μίκης Θεοδωράκης",
+                        "Mikis",
+                        "Theodorakis",
+                        "Μίκης",
+                        "Θεοδωράκης"
+                    ],
+        "clues":  [
+                      [
+                          "He was born on Chios in 1925 and composed music for the film Z.",
+                          "Γεννήθηκε στη Χίο το 1925 και συνέθεσε τη μουσική για την ταινία Ζ."
+                      ],
+                      [
+                          "He set major Greek poetry to music, including Ritsos’s Epitaphios.",
+                          "Μελοποίησε σημαντική ελληνική ποίηση, μεταξύ της οποίας τον Επιτάφιο του Ρίτσου."
+                      ],
+                      [
+                          "He composed the famous dance music from Zorba the Greek, closely associated with syrtaki.",
+                          "Συνέθεσε τον διάσημο χορό του Ζορμπά, που συνδέθηκε με το συρτάκι."
+                      ]
+                  ],
+        "sources":  [
+                        "https://en.wikipedia.org/wiki/Mikis_Theodorakis"
+                    ],
+        "image":  ""
+    }
 ]
