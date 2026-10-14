@@ -21,7 +21,7 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles, catalog;
   try {
-    const response = await fetch('titles.json?v=20261014-next30');
+    const response = await fetch('titles.json?v=20261014-next24');
     if (!response.ok) throw new Error('Titles unavailable');
     catalog = await response.json();
     window.GMPScreenLanguage?.register(Object.fromEntries(catalog.flatMap(t=>[[t.clue,t.clueEn],[t.synopsis,t.synopsisEn]]).filter(([a,b])=>a&&b)));
@@ -57,7 +57,7 @@ async function boot() {
         previous = result.guesses;
       }
       state = {number: Number.isSafeInteger(saved.number)&&saved.number>0?saved.number:1,id: saved.id, guesses: previous, bag: Array.isArray(saved.bag) ? [...new Set(saved.bag.filter(id => ids.includes(id) && id !== saved.id))] : []};
-      const known = Array.isArray(saved.roster) ? saved.roster : titles.filter(t => !['20261012-more40', '20261014-next30'].includes(t.addedIn)).map(t => t.id);
+      const known = Array.isArray(saved.roster) ? saved.roster : titles.filter(t => !['20261012-more40', '20261014-next30', '20261014-next24'].includes(t.addedIn)).map(t => t.id);
       state.bag.push(...ids.filter(id => !known.includes(id) && id !== state.id && !state.bag.includes(id)));
       state.roster = [...ids];
     }

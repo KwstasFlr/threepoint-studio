@@ -3994,5 +3994,902 @@
         "audioSourceTitle":  "Talked About Scene: Episode 105: Halt and Catch Fire: Adventure",
         "audioSpeechSeconds":  6.62,
         "audioMaxGap":  0.38
+    },
+    {
+        "id":  "saving-private-ryan",
+        "title":  "Saving Private Ryan",
+        "year":  1998,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Giovanni Ribisi",
+                           "Jeremy Davies"
+                       ],
+        "leads":  [
+                      "Tom Hanks",
+                      "Matt Damon"
+                  ],
+        "aliases":  [
+                        "Η Διάσωση του Στρατιώτη Ράιαν",
+                        "Διάσωση του Στρατιώτη Ράιαν"
+                    ],
+        "clue":  "Μια μικρή ομάδα έχει μια αποστολή που δεν μοιάζει με τις άλλες.",
+        "clueEn":  "A small squad has a mission unlike its other orders.",
+        "synopsis":  "Μετά την απόβαση στη Νορμανδία, μια ομάδα στρατιωτών αναζητά έναν αλεξιπτωτιστή που έχασε τους αδελφούς του στον πόλεμο.",
+        "synopsisEn":  "After the Normandy landings, a squad searches for a paratrooper whose brothers have died in the war.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/saving_private_ryan/cast-and-crew",
+        "audio":  "media/scene-saving-private-ryan.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=dKbdE5LOGNQ",
+        "audioStart":  37.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "ChrisHenSongs",
+        "audioSourceTitle":  "Saving Private Ryan \"Complaints Go Up\"",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "jaws",
+        "title":  "Jaws",
+        "year":  1975,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Murray Hamilton",
+                           "Lorraine Gary"
+                       ],
+        "leads":  [
+                      "Roy Scheider",
+                      "Robert Shaw"
+                  ],
+        "aliases":  [
+                        "Τα Σαγόνια του Καρχαρία",
+                        "Σαγόνια του Καρχαρία"
+                    ],
+        "clue":  "Η τουριστική σεζόν κρατά μια επικίνδυνη παραλία ανοιχτή.",
+        "clueEn":  "Tourist season keeps a dangerous beach open.",
+        "synopsis":  "Ένας αστυνομικός, ένας θαλάσσιος επιστήμονας και ένας ψαράς βγαίνουν στη θάλασσα για να σταματήσουν έναν καρχαρία που απειλεί ένα νησί.",
+        "synopsisEn":  "A police chief, a marine scientist and a fisherman go to sea to stop a shark threatening an island community.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/jaws/cast-and-crew",
+        "audio":  "media/scene-jaws.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=u9S41Kplsbs",
+        "audioStart":  24.084,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "Jaws (1975) - The Indianapolis Speech Scene (7/10) | Movieclips",
+        "audioSpeechSeconds":  5.06,
+        "audioMaxGap":  0.96
+    },
+    {
+        "id":  "et",
+        "title":  "E.T. the Extra-Terrestrial",
+        "year":  1982,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Peter Coyote",
+                           "Dee Wallace"
+                       ],
+        "leads":  [
+                      "Henry Thomas",
+                      "Drew Barrymore"
+                  ],
+        "aliases":  [
+                        "ET",
+                        "E T",
+                        "E.T.",
+                        "Ο Εξωγήινος",
+                        "E.T. ο Εξωγήινος"
+                    ],
+        "clue":  "Ένας απρόσμενος φίλος θέλει να επικοινωνήσει με το σπίτι του.",
+        "clueEn":  "An unexpected friend wants to contact his home.",
+        "synopsis":  "Ένα αγόρι κρύβει έναν εξωγήινο στο σπίτι του και προσπαθεί με τα αδέλφια του να τον βοηθήσει να επιστρέψει στον κόσμο του.",
+        "synopsisEn":  "A boy hides an alien at home and works with his siblings to help him return to his own world.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/et_the_extraterrestrial/cast-and-crew",
+        "audio":  "media/scene-et.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=s4v027SwfEw",
+        "audioStart":  17.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Binge Society",
+        "audioSourceTitle":  "E.T.: The Extra-Terrestrial: You want to call someone? (HD CLIP)",
+        "audioSpeechSeconds":  6.68,
+        "audioMaxGap":  0.32
+    },
+    {
+        "id":  "raiders-lost-ark",
+        "title":  "Raiders of the Lost Ark",
+        "year":  1981,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Paul Freeman",
+                           "Ronald Lacey"
+                       ],
+        "leads":  [
+                      "Harrison Ford",
+                      "Karen Allen"
+                  ],
+        "aliases":  [
+                        "Indiana Jones and the Raiders of the Lost Ark",
+                        "Indiana Jones 1",
+                        "Οι Κυνηγοί της Χαμένης Κιβωτού",
+                        "Κυνηγοί της Χαμένης Κιβωτού"
+                    ],
+        "clue":  "Μια αρχαιολογική αναζήτηση μετατρέπεται σε αγώνα δρόμου.",
+        "clueEn":  "An archaeological search becomes a race against time.",
+        "synopsis":  "Ένας αρχαιολόγος αναζητά ένα θρυλικό θρησκευτικό αντικείμενο πριν το αποκτήσουν οι Ναζί, με τη βοήθεια μιας παλιάς γνωστής του.",
+        "synopsisEn":  "An archaeologist seeks a legendary religious artifact before the Nazis obtain it, aided by a woman from his past.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/raiders_of_the_lost_ark/cast-and-crew",
+        "audio":  "media/scene-raiders-lost-ark.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=FT3m4LXq3b4",
+        "audioStart":  61.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movie stamps",
+        "audioSourceTitle":  "Raiders of the Lost Ark (1981)  - Ark of the Covenant Scene | Army Intelligence | Harrison Ford",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "star-wars-new-hope",
+        "title":  "Star Wars: Episode IV - A New Hope",
+        "year":  1977,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Peter Cushing",
+                           "Denis Lawson"
+                       ],
+        "leads":  [
+                      "Mark Hamill",
+                      "Harrison Ford"
+                  ],
+        "aliases":  [
+                        "Star Wars",
+                        "A New Hope",
+                        "Star Wars A New Hope",
+                        "Star Wars Episode IV A New Hope",
+                        "Star Wars 1977",
+                        "Μια Νέα Ελπίδα"
+                    ],
+        "clue":  "Ένα μήνυμα σε ένα μικρό ρομπότ αλλάζει τη ζωή ενός αγρότη.",
+        "clueEn":  "A message inside a small robot changes a farm boy\u0027s life.",
+        "synopsis":  "Ένας νεαρός συμμαχεί με έναν παλιό πολεμιστή και έναν πιλότο για να σώσει μια πριγκίπισσα και να χτυπήσει ένα αυτοκρατορικό υπερόπλο.",
+        "synopsisEn":  "A young man joins an old warrior and a pilot to rescue a princess and strike an imperial superweapon.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/star_wars_episode_iv_a_new_hope/cast-and-crew",
+        "audio":  "media/scene-star-wars-new-hope.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=YnNSnJbjdws",
+        "audioStart":  52.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Star Jedi 951",
+        "audioSourceTitle":  "Darth Vader \"I find your lack of faith disturbing\" - HD1080p - Star Wars Episode IV A New Hope",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "goodfellas",
+        "title":  "Goodfellas",
+        "year":  1990,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Frank Vincent",
+                           "Lorraine Bracco"
+                       ],
+        "leads":  [
+                      "Ray Liotta",
+                      "Robert De Niro"
+                  ],
+        "aliases":  [
+                        "Good Fellas",
+                        "Τα Καλά Παιδιά",
+                        "Καλά Παιδιά"
+                    ],
+        "clue":  "Η άνοδος μέσα σε μια συμμορία έχει κόστος που αργεί να φανεί.",
+        "clueEn":  "Rising through a gang has a price that takes time to emerge.",
+        "synopsis":  "Ένας νεαρός μπαίνει στον κόσμο της μαφίας και ανεβαίνει μαζί με τους συνεργάτες του, ώσπου η βία και η δυσπιστία διαλύουν τη ζωή του.",
+        "synopsisEn":  "A young man enters the Mafia and rises with his associates until violence and mistrust unravel his life.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/1032176-goodfellas/cast-and-crew",
+        "audio":  "media/scene-goodfellas.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=yL9rSwrsMHw",
+        "audioStart":  50.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "ItalianTerror",
+        "audioSourceTitle":  "GoodFellas Tommy DeVito \"Funny How?\"",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "silence-lambs",
+        "title":  "The Silence of the Lambs",
+        "year":  1991,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Anthony Heald",
+                           "Ted Levine"
+                       ],
+        "leads":  [
+                      "Jodie Foster",
+                      "Anthony Hopkins"
+                  ],
+        "aliases":  [
+                        "Silence of the Lambs",
+                        "Η Σιωπή των Αμνών",
+                        "Σιωπή των Αμνών"
+                    ],
+        "clue":  "Μια συνέντευξη στη φυλακή ανοίγει έναν επικίνδυνο δρόμο.",
+        "clueEn":  "A prison interview opens a dangerous path.",
+        "synopsis":  "Μια εκπαιδευόμενη του FBI ζητά βοήθεια από έναν φυλακισμένο ψυχίατρο και δολοφόνο για να εντοπίσει έναν άλλο κατά συρροή δολοφόνο.",
+        "synopsisEn":  "An FBI trainee seeks help from an imprisoned psychiatrist and killer to track another serial murderer.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/silence_of_the_lambs/cast-and-crew",
+        "audio":  "media/scene-silence-lambs.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=UhDZPYu8piQ",
+        "audioStart":  62.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "The Silence of the Lambs (8/12) Movie CLIP - What Does He Do, This Man You Seek? (1991) HD",
+        "audioSpeechSeconds":  6.2,
+        "audioMaxGap":  0.8
+    },
+    {
+        "id":  "wolf-wall-street",
+        "title":  "The Wolf of Wall Street",
+        "year":  2013,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Jon Bernthal",
+                           "Joanna Lumley"
+                       ],
+        "leads":  [
+                      "Leonardo DiCaprio",
+                      "Margot Robbie"
+                  ],
+        "aliases":  [
+                        "Wolf of Wall Street",
+                        "Ο Λύκος της Wall Street",
+                        "Ο Λύκος της Γουόλ Στριτ",
+                        "Λύκος της Γουόλ Στριτ"
+                    ],
+        "clue":  "Η επιτυχία σε μια χρηματιστηριακή εταιρεία ξεφεύγει από κάθε όριο.",
+        "clueEn":  "Success at a brokerage firm goes beyond every limit.",
+        "synopsis":  "Ένας χρηματιστής χτίζει μια περιουσία με επιθετικές πωλήσεις και απάτες, ενώ η υπερβολή και η αστυνομική έρευνα απειλούν την αυτοκρατορία του.",
+        "synopsisEn":  "A stockbroker builds a fortune through aggressive sales and fraud as excess and a police investigation threaten his empire.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/the_wolf_of_wall_street_2013/cast-and-crew",
+        "audio":  "media/scene-wolf-wall-street.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=cJOKgFbMdzY",
+        "audioStart":  54.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "The Wolf of Wall Street (2013) - Fugazi, Fugazi Scene | Movieclips",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "gattaca",
+        "title":  "Gattaca",
+        "year":  1997,
+        "kind":  "movies",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Ernest Borgnine",
+                           "Gore Vidal"
+                       ],
+        "leads":  [
+                      "Ethan Hawke",
+                      "Uma Thurman"
+                  ],
+        "aliases":  [
+                        "Γκάτακα"
+                    ],
+        "clue":  "Ένα δείγμα αίματος μπορεί να κλείσει την πόρτα στο διάστημα.",
+        "clueEn":  "A blood sample can close the door to space.",
+        "synopsis":  "Σε μια κοινωνία που κρίνει τους ανθρώπους από τα γονίδιά τους, ένας άντρας υιοθετεί την ταυτότητα άλλου για να κυνηγήσει ένα διαστημικό όνειρο.",
+        "synopsisEn":  "In a society judging people by their genes, a man adopts another identity to pursue his dream of space travel.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/gattaca/cast-and-crew",
+        "audio":  "media/scene-gattaca.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=2awq4wWLWZM",
+        "audioStart":  34.644,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "NOW PLAYING",
+        "audioSourceTitle":  "\"Even You Are Gonna Tell Me What I Can and Can\u0027t Do...\" | Gattaca",
+        "audioSpeechSeconds":  6.05,
+        "audioMaxGap":  0.67
+    },
+    {
+        "id":  "ex-machina",
+        "title":  "Ex Machina",
+        "year":  2015,
+        "kind":  "movies",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Sonoya Mizuno",
+                           "Corey Johnson"
+                       ],
+        "leads":  [
+                      "Domhnall Gleeson",
+                      "Alicia Vikander"
+                  ],
+        "aliases":  [
+                        "ExMachina",
+                        "Από Μηχανής"
+                    ],
+        "clue":  "Μια δοκιμή νοημοσύνης εξετάζει και τον εξεταστή.",
+        "clueEn":  "An intelligence test also puts the examiner to the test.",
+        "synopsis":  "Ένας προγραμματιστής επισκέπτεται το απομονωμένο σπίτι του εργοδότη του για να αξιολογήσει ένα ανθρωποειδές με τεχνητή νοημοσύνη.",
+        "synopsisEn":  "A programmer visits his employer\u0027s isolated home to assess a humanoid with artificial intelligence.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/ex_machina/cast-and-crew",
+        "audio":  "media/scene-ex-machina.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ruOXWHbyfjo",
+        "audioStart":  58.964,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "Ex Machina (4/10) Movie CLIP - How Ava Was Created (2015) HD",
+        "audioSpeechSeconds":  6.37,
+        "audioMaxGap":  0.61
+    },
+    {
+        "id":  "primer",
+        "title":  "Primer",
+        "year":  2004,
+        "kind":  "movies",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Anand Upadhyaya",
+                           "Carrie Crawford"
+                       ],
+        "leads":  [
+                      "Shane Carruth",
+                      "David Sullivan"
+                  ],
+        "aliases":  [
+                        "Primer 2004"
+                    ],
+        "clue":  "Ένα πείραμα στο γκαράζ αρχίζει να δημιουργεί δύσκολες εξηγήσεις.",
+        "clueEn":  "A garage experiment begins creating difficult explanations.",
+        "synopsis":  "Δύο μηχανικοί κατασκευάζουν κατά λάθος μια συσκευή με απρόσμενες χρονικές ιδιότητες και χάνουν τον έλεγχο των επιλογών τους.",
+        "synopsisEn":  "Two engineers accidentally build a device with unexpected temporal properties and lose control of their choices.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/primer/cast-and-crew",
+        "audio":  "media/scene-primer.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=3H7dzjXW6tU",
+        "audioStart":  148.492,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Comedy,Thriller,Horror Movie Scenes",
+        "audioSourceTitle":  "Primer (2004) - Here\u0027s what\u0027s going to happen you\u0027re not gonna interrupt or speak for any reason",
+        "audioSpeechSeconds":  6.71,
+        "audioMaxGap":  0.29
+    },
+    {
+        "id":  "enemy",
+        "title":  "Enemy",
+        "year":  2013,
+        "kind":  "movies",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Sarah Gadon",
+                           "Isabella Rossellini"
+                       ],
+        "leads":  [
+                      "Jake Gyllenhaal",
+                      "Mélanie Laurent"
+                  ],
+        "aliases":  [
+                        "Enemy 2013",
+                        "Ο Εχθρός"
+                    ],
+        "clue":  "Ένας άγνωστος στην οθόνη μοιάζει υπερβολικά γνώριμος.",
+        "clueEn":  "A stranger on screen looks far too familiar.",
+        "synopsis":  "Ένας καθηγητής βλέπει σε μια ταινία έναν ηθοποιό που του μοιάζει απόλυτα και αρχίζει να ερευνά τη ζωή του.",
+        "synopsisEn":  "A professor sees an actor who looks exactly like him in a film and starts investigating his life.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/m/enemy_2013/cast-and-crew",
+        "audio":  "media/scene-enemy.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=E4TqvpS-OyA",
+        "audioStart":  41.108,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Mari Roma",
+        "audioSourceTitle":  "Enemy Dictatorship Lecture Scene (2013) Denis Villeneuve Jake Gyllenhaal Adam Bell Mélanie Laurent",
+        "audioSpeechSeconds":  5.37,
+        "audioMaxGap":  1.18
+    },
+    {
+        "id":  "succession",
+        "title":  "Succession",
+        "year":  2018,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Alan Ruck",
+                           "J. Smith-Cameron"
+                       ],
+        "leads":  [
+                      "Brian Cox",
+                      "Jeremy Strong"
+                  ],
+        "aliases":  [
+                        "Διαδοχή"
+                    ],
+        "clue":  "Η οικογενειακή αγάπη μπερδεύεται με μια θέση εξουσίας.",
+        "clueEn":  "Family affection becomes entangled with a position of power.",
+        "synopsis":  "Τα παιδιά ενός ισχυρού ιδιοκτήτη ομίλου μέσων ενημέρωσης ανταγωνίζονται για την ηγεσία, ενώ ο πατέρας τους αρνείται να παραδώσει εύκολα τον έλεγχο.",
+        "synopsisEn":  "The children of a powerful media owner compete for leadership while their father resists surrendering control.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/succession/cast-and-crew",
+        "audio":  "media/scene-succession.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Cy9KkuPmQ_s",
+        "audioStart":  32.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Complicated Airflow",
+        "audioSourceTitle":  "Logan fires half the board after vote of no confidence | Succession Season 1, Episode 6",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "ted-lasso",
+        "title":  "Ted Lasso",
+        "year":  2020,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Jeremy Swift",
+                           "Phil Dunster"
+                       ],
+        "leads":  [
+                      "Jason Sudeikis",
+                      "Hannah Waddingham"
+                  ],
+        "aliases":  [
+                        "Τεντ Λάσο"
+                    ],
+        "clue":  "Ένας προπονητής αλλάζει άθλημα, χώρα και τις συνήθειες μιας ομάδας.",
+        "clueEn":  "A coach changes sport, country and a team\u0027s habits.",
+        "synopsis":  "Ένας Αμερικανός προπονητής αναλαμβάνει μια αγγλική ποδοσφαιρική ομάδα χωρίς σχετική εμπειρία και προσπαθεί να ενώσει τους παίκτες με αισιοδοξία.",
+        "synopsisEn":  "An American coach takes over an English football team without relevant experience and tries to unite its players through optimism.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/ted_lasso/cast-and-crew",
+        "audio":  "media/scene-ted-lasso.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=3S16b-x5mRA",
+        "audioStart":  45.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "CinemaGalaxy",
+        "audioSourceTitle":  "Ted Lasso (2020) - Darts Scene",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "the-crown",
+        "title":  "The Crown",
+        "year":  2016,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Alex Jennings",
+                           "Victoria Hamilton"
+                       ],
+        "leads":  [
+                      "Claire Foy",
+                      "Matt Smith"
+                  ],
+        "aliases":  [
+                        "Crown",
+                        "Το Στέμμα"
+                    ],
+        "clue":  "Το αξίωμα ακολουθεί μια οικογένεια ακόμη και πίσω από κλειστές πόρτες.",
+        "clueEn":  "Public office follows a family even behind closed doors.",
+        "synopsis":  "Η βασιλεία της Ελισάβετ Β΄ παρουσιάζεται μέσα από πολιτικές κρίσεις, προσωπικές σχέσεις και τις εντάσεις ανάμεσα στο καθήκον και την οικογένεια.",
+        "synopsisEn":  "Elizabeth II\u0027s reign is portrayed through political crises, personal relationships and tensions between duty and family.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/the_crown/cast-and-crew",
+        "audio":  "media/scene-the-crown.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=8tKV92rxad0",
+        "audioStart":  33.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Scene City",
+        "audioSourceTitle":  "The Dignified And The Efficient | The Crown (Claire Foy, John Lithgow)",
+        "audioSpeechSeconds":  5.4,
+        "audioMaxGap":  0.86
+    },
+    {
+        "id":  "the-boys",
+        "title":  "The Boys",
+        "year":  2019,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Laz Alonso",
+                           "Colby Minifie"
+                       ],
+        "leads":  [
+                      "Karl Urban",
+                      "Jack Quaid"
+                  ],
+        "aliases":  [
+                        "Boys",
+                        "The Boys 2019"
+                    ],
+        "clue":  "Οι διάσημοι προστάτες έχουν μια εικόνα που πρέπει να συντηρούν.",
+        "clueEn":  "Celebrity protectors have an image they need to maintain.",
+        "synopsis":  "Μια ομάδα ανθρώπων προσπαθεί να αποκαλύψει και να πολεμήσει υπερήρωες που καταχρώνται τη δύναμή τους υπό την προστασία μιας μεγάλης εταιρείας.",
+        "synopsisEn":  "A group tries to expose and fight superheroes who abuse their power under the protection of a major corporation.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/the_boys_2019/cast-and-crew",
+        "audio":  "media/scene-the-boys.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JYl3AFbK65w",
+        "audioStart":  20.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Best Scenes",
+        "audioSourceTitle":  "Butcher Refering the Matrix to Hughie Campbells | Amazon\u0027s The Boys S01E01",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0
+    },
+    {
+        "id":  "last-of-us",
+        "title":  "The Last of Us",
+        "year":  2023,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Merle Dandridge",
+                           "Lamar Johnson"
+                       ],
+        "leads":  [
+                      "Pedro Pascal",
+                      "Bella Ramsey"
+                  ],
+        "aliases":  [
+                        "Last of Us",
+                        "The Last of Us TV"
+                    ],
+        "clue":  "Μια διαδρομή μέσα σε ερείπια μπορεί να αλλάξει το μέλλον.",
+        "clueEn":  "A journey through ruins could change the future.",
+        "synopsis":  "Ένας επιζών συνοδεύει μια έφηβη στις κατεστραμμένες Ηνωμένες Πολιτείες, όπου μια μυκητιακή πανδημία έχει μεταμορφώσει τον κόσμο.",
+        "synopsisEn":  "A survivor escorts a teenager across a devastated United States transformed by a fungal pandemic.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/the_last_of_us/cast-and-crew",
+        "audio":  "media/scene-last-of-us.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=iHhvThyMlQ4",
+        "audioStart":  57.716,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Crime City",
+        "audioSourceTitle":  "Joel \u0026 Ellie Meet Old Couple Scene | The Last of Us (Pedro Pascal, Bella Ramsey)",
+        "audioSpeechSeconds":  5.85,
+        "audioMaxGap":  0.45
+    },
+    {
+        "id":  "house-dragon",
+        "title":  "House of the Dragon",
+        "year":  2022,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Graham McTavish",
+                           "Jefferson Hall"
+                       ],
+        "leads":  [
+                      "Matt Smith",
+                      "Emma D\u0027Arcy"
+                  ],
+        "aliases":  [
+                        "House of Dragon",
+                        "HOTD",
+                        "Ο Οίκος του Δράκου"
+                    ],
+        "clue":  "Η διεκδίκηση της διαδοχής βάζει μια δυναστεία σε πόλεμο.",
+        "clueEn":  "A succession dispute brings a dynasty to war.",
+        "synopsis":  "Μέλη μιας βασιλικής οικογένειας διεκδικούν τον ίδιο θρόνο και μετατρέπουν τις προσωπικές τους αντιπαλότητες σε εμφύλιο πόλεμο με δράκους.",
+        "synopsisEn":  "Members of a royal family claim the same throne and turn personal rivalries into a civil war fought with dragons.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/house_of_the_dragon/cast-and-crew",
+        "audio":  "media/scene-house-dragon.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=MzIwmg_cbCg",
+        "audioStart":  35.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "MaFayce",
+        "audioSourceTitle":  "Viserys tells Rhaenyra about the Song of Ice and Fire - House of The Dragon s1 e1 clips",
+        "audioSpeechSeconds":  6.71,
+        "audioMaxGap":  0.29
+    },
+    {
+        "id":  "mandalorian",
+        "title":  "The Mandalorian",
+        "year":  2019,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Emily Swallow",
+                           "Omid Abtahi"
+                       ],
+        "leads":  [
+                      "Pedro Pascal",
+                      "Carl Weathers"
+                  ],
+        "aliases":  [
+                        "Mandalorian",
+                        "Ο Μανταλοριανός"
+                    ],
+        "clue":  "Μια παράδοση αμοιβής γίνεται ευθύνη για κάτι πολύ μικρό.",
+        "clueEn":  "A bounty delivery becomes responsibility for someone very small.",
+        "synopsis":  "Ένας μοναχικός κυνηγός επικηρυγμένων αναλαμβάνει να προστατεύσει ένα παιδί, ενώ ισχυροί εχθροί το αναζητούν στα σύνορα ενός γαλαξία.",
+        "synopsisEn":  "A lone bounty hunter takes responsibility for protecting a child pursued by powerful enemies on the edges of a galaxy.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/the_mandalorian/cast-and-crew",
+        "audio":  "media/scene-mandalorian.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Z1TVWi_uGsY",
+        "audioStart":  0.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "StarWars Clips",
+        "audioSourceTitle":  "Star Wars The Mandalorian 2023 Greef Karga Talks About Cara Dune 1080p",
+        "audioSpeechSeconds":  5.46,
+        "audioMaxGap":  0.9
+    },
+    {
+        "id":  "lucifer",
+        "title":  "Lucifer",
+        "year":  2016,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "supporting":  [
+                           "Kevin Alejandro",
+                           "Lesley-Ann Brandt"
+                       ],
+        "leads":  [
+                      "Tom Ellis",
+                      "Lauren German"
+                  ],
+        "aliases":  [
+                        "Λούσιφερ",
+                        "Λουσίφερ"
+                    ],
+        "clue":  "Ένας απρόσμενος συνεργάτης της αστυνομίας απολαμβάνει τις εξομολογήσεις.",
+        "clueEn":  "An unexpected police partner enjoys confessions.",
+        "synopsis":  "Ο άρχοντας της Κόλασης εγκαταλείπει τη θέση του για το Λος Άντζελες και βοηθά μια αστυνομικό να λύνει εγκλήματα.",
+        "synopsisEn":  "The ruler of Hell leaves his post for Los Angeles and helps a detective solve crimes.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/lucifer/cast-and-crew",
+        "audio":  "media/scene-lucifer.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=pAekiKe1IWM",
+        "audioStart":  24.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "dollarbill2208",
+        "audioSourceTitle":  "Lucifer Morningstar VS Street Preacher",
+        "audioSpeechSeconds":  5.98,
+        "audioMaxGap":  1.02
+    },
+    {
+        "id":  "patriot",
+        "title":  "Patriot",
+        "year":  2015,
+        "kind":  "series",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Kurtwood Smith",
+                           "Michael Chernus"
+                       ],
+        "leads":  [
+                      "Michael Dorman",
+                      "Terry O\u0027Quinn"
+                  ],
+        "aliases":  [
+                        "Patriot TV",
+                        "Patriot 2015"
+                    ],
+        "clue":  "Μια συνηθισμένη εταιρική δουλειά είναι το πιο ασυνήθιστο κάλυμμα.",
+        "clueEn":  "An ordinary corporate job is a most unusual cover.",
+        "synopsis":  "Ένας πράκτορας αναλαμβάνει μυστική αποστολή χρησιμοποιώντας ως κάλυμμα μια δουλειά σε εταιρεία σωληνώσεων, όπου τα λάθη πολλαπλασιάζουν τα προβλήματά του.",
+        "synopsisEn":  "An intelligence officer uses a piping-company job as cover for a secret mission, where mistakes compound his problems.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/patriot/cast-and-crew",
+        "audio":  "media/scene-patriot.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=-F-IHvF5OCA",
+        "audioStart":  41.036,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "murphy slaw",
+        "audioSourceTitle":  "Amazon Patriot S01E04 John Lakeman gives Pipe Lecture",
+        "audioSpeechSeconds":  6.65,
+        "audioMaxGap":  0.35
+    },
+    {
+        "id":  "the-americans",
+        "title":  "The Americans",
+        "year":  2013,
+        "kind":  "series",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Noah Emmerich",
+                           "Alison Wright"
+                       ],
+        "leads":  [
+                      "Keri Russell",
+                      "Matthew Rhys"
+                  ],
+        "aliases":  [
+                        "Americans",
+                        "The Americans 2013"
+                    ],
+        "clue":  "Μια συνηθισμένη οικογένεια κρύβει μια δεύτερη ζωή πίσω από την πόρτα της.",
+        "clueEn":  "An ordinary family hides a second life behind its front door.",
+        "synopsis":  "Δύο Σοβιετικοί πράκτορες ζουν ως παντρεμένο ζευγάρι στις Ηνωμένες Πολιτείες του Ψυχρού Πολέμου, ισορροπώντας μυστικές αποστολές και οικογενειακές υποχρεώσεις.",
+        "synopsisEn":  "Two Soviet agents pose as a married couple in Cold War America, balancing secret missions with family responsibilities.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/the_americans/cast-and-crew",
+        "audio":  "media/scene-the-americans.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=c7Cg9MJYMWQ",
+        "audioStart":  25.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "the jenningses",
+        "audioSourceTitle":  "The Americans 1x01 - Philip suggests defecting to America",
+        "audioSpeechSeconds":  6.55,
+        "audioMaxGap":  0.45
+    },
+    {
+        "id":  "the-oa",
+        "title":  "The OA",
+        "year":  2016,
+        "kind":  "series",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Phyllis Smith",
+                           "Scott Wilson"
+                       ],
+        "leads":  [
+                      "Brit Marling",
+                      "Jason Isaacs"
+                  ],
+        "aliases":  [
+                        "OA",
+                        "The OA 2016"
+                    ],
+        "clue":  "Μια αγνοούμενη επιστρέφει με μια ικανότητα που δεν είχε πριν.",
+        "clueEn":  "A missing woman returns with an ability she did not have before.",
+        "synopsis":  "Μια γυναίκα επιστρέφει έπειτα από χρόνια εξαφάνισης, έχοντας ανακτήσει την όρασή της, και αφηγείται μια παράξενη ιστορία σε μια μικρή ομάδα.",
+        "synopsisEn":  "A woman returns after years missing with her sight restored and shares a strange story with a small group.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/the_oa/cast-and-crew",
+        "audio":  "media/scene-the-oa.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=_KRZkC9iZv4",
+        "audioStart":  15.884,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Yenwood",
+        "audioSourceTitle":  "nancy freaking out in an olive garden",
+        "audioSpeechSeconds":  5.5,
+        "audioMaxGap":  0.83
+    },
+    {
+        "id":  "devs",
+        "title":  "Devs",
+        "year":  2020,
+        "kind":  "series",
+        "difficulty":  "hard",
+        "supporting":  [
+                           "Alison Pill",
+                           "Zach Grenier"
+                       ],
+        "leads":  [
+                      "Sonoya Mizuno",
+                      "Nick Offerman"
+                  ],
+        "aliases":  [
+                        "Devs 2020"
+                    ],
+        "clue":  "Μια μυστική ομάδα έρευνας ξέρει περισσότερα από όσα αποκαλύπτει.",
+        "clueEn":  "A secret research team knows more than it reveals.",
+        "synopsis":  "Μια προγραμματίστρια ερευνά την εξαφάνιση του συντρόφου της και μια μυστική μονάδα τεχνολογικής εταιρείας που μελετά την ίδια την πραγματικότητα.",
+        "synopsisEn":  "A programmer investigates her partner\u0027s disappearance and a secret technology division studying reality itself.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261014-next24",
+        "source":  "https://www.rottentomatoes.com/tv/devs/cast-and-crew",
+        "audio":  "media/scene-devs.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=-BVNP2Ac0EY",
+        "audioStart":  50.156,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Cristian González",
+        "audioSourceTitle":  "Devs HBO scene - Lily Chan and Katie conversation about Devs - March 2020",
+        "audioSpeechSeconds":  5.5,
+        "audioMaxGap":  1.12
     }
 ]
