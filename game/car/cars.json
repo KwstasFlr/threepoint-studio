@@ -458,5 +458,483 @@
         "audioCredit":  "CarSpotterQVS",
         "audioSourceTitle":  "Lexus LFA PURE SOUND - Accelerations \u0026 Downshifts",
         "image":  "https://i.ytimg.com/vi/F0m6dvpK4m8/hqdefault.jpg"
+    },
+    {
+        "id":  "f40",
+        "name":  [
+                     "Ferrari F40",
+                     "Ferrari F40"
+                 ],
+        "aliases":  [
+                        "Ferrari F40",
+                        "F40",
+                        "Φεράρι F40"
+                    ],
+        "clues":  [
+                      [
+                          "1.315 road cars produced.",
+                          "Παρήχθησαν 1.315 αυτοκίνητα δρόμου."
+                      ],
+                      [
+                          "Auction example: £1.973.750 in London, 2024.",
+                          "Παράδειγμα πώλησης σε δημοπρασία: 1.973.750 £ στο Λονδίνο, το 2024."
+                      ],
+                      [
+                          "Factory top speed: 324 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 324 χλμ./ώρα."
+                      ],
+                      [
+                          "Created to celebrate the manufacturer\u0027s 40th anniversary.",
+                          "Δημιουργήθηκε για την 40ή επέτειο της εταιρείας."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.ferrari.com/en-HU/history/moments/1987/enzos-dream/more",
+                        "https://rmsothebys.com/auctions/lf24/lots/r0053-1989-ferrari-f40/",
+                        "https://rmsothebys.com/auctions/mo24/lots/r0157-1991-ferrari-f40-minty-forty/"
+                    ],
+        "audio":  "media/f40.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=O3pr-hAs-JE",
+        "audioStart":  28,
+        "audioDuration":  7,
+        "audioCredit":  "19Bozzy92",
+        "audioSourceTitle":  "Ferrari F40 Start Up SOUND",
+        "image":  "https://i.ytimg.com/vi/O3pr-hAs-JE/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "288-gto",
+        "name":  [
+                     "Ferrari 288 GTO",
+                     "Ferrari 288 GTO"
+                 ],
+        "aliases":  [
+                        "Ferrari 288 GTO",
+                        "288 GTO",
+                        "Ferrari GTO 1984",
+                        "Φεράρι 288 GTO"
+                    ],
+        "clues":  [
+                      [
+                          "272 cars produced between 1984 and 1986.",
+                          "Παρήχθησαν 272 αυτοκίνητα μεταξύ 1984 και 1986."
+                      ],
+                      [
+                          "Auction example: $4.405.000 at Monterey, 2022.",
+                          "Παράδειγμα πώλησης σε δημοπρασία: 4.405.000 $ στο Monterey, το 2022."
+                      ],
+                      [
+                          "Factory top speed: 305 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 305 χλμ./ώρα."
+                      ],
+                      [
+                          "Developed for Group B, with a twin-turbo V8.",
+                          "Εξελίχθηκε για το Group B, με V8 κινητήρα και δύο turbo."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.ferrari.com/en-HU/history/moments/1984/first-of-a-kind/more",
+                        "https://rmsothebys.com/auctions/mo22/lots/r0139-1985-ferrari-288-gto/",
+                        "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_Ferrari_GTO_Legacy_Tour_2024_gbr.pdf"
+                    ],
+        "audio":  "media/288-gto.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=l7hmm-wIIuo",
+        "audioStart":  17,
+        "audioDuration":  7,
+        "audioCredit":  "NM2255 | Raw Car Sounds",
+        "audioSourceTitle":  "White Ferrari 288 GTO Start Up, Rev Sound \u0026 Loading Into a Truck!",
+        "image":  "https://i.ytimg.com/vi/l7hmm-wIIuo/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "959",
+        "name":  [
+                     "Porsche 959",
+                     "Porsche 959"
+                 ],
+        "aliases":  [
+                        "Porsche 959",
+                        "959",
+                        "Πόρσε 959"
+                    ],
+        "clues":  [
+                      [
+                          "292 cars in its original limited series; the series sold out.",
+                          "292 αυτοκίνητα στην αρχική περιορισμένη σειρά — η σειρά εξαντλήθηκε."
+                      ],
+                      [
+                          "Original price: 420.000 German marks.",
+                          "Αρχική τιμή: 420.000 γερμανικά μάρκα."
+                      ],
+                      [
+                          "Factory top speed: 315 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 315 χλμ./ώρα."
+                      ],
+                      [
+                          "A pioneering road car with sequential twin turbos and controlled all-wheel drive.",
+                          "Πρωτοποριακό αυτοκίνητο δρόμου με διαδοχική λειτουργία δύο turbo και ελεγχόμενη τετρακίνηση."
+                      ],
+                      [
+                          "Country of origin: Germany.",
+                          "Χώρα προέλευσης: Γερμανία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://newsroom.porsche.com/pdf/942bc73e-709e-46c4-a9df-dbe214374223?print="
+                    ],
+        "audio":  "media/959.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=d51HC0EBC20",
+        "audioStart":  56,
+        "audioDuration":  7,
+        "audioCredit":  "TangentVector",
+        "audioSourceTitle":  "Porsche 959 - Pure Driving Footage",
+        "image":  "https://i.ytimg.com/vi/d51HC0EBC20/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "gt3-rs40",
+        "name":  [
+                     "Porsche 911 GT3 RS 4.0",
+                     "Porsche 911 GT3 RS 4.0"
+                 ],
+        "aliases":  [
+                        "Porsche 911 GT3 RS 4.0",
+                        "911 GT3 RS 4.0",
+                        "GT3 RS 4.0",
+                        "Porsche 997 GT3 RS 4.0",
+                        "Πόρσε 911 GT3 RS 4.0"
+                    ],
+        "clues":  [
+                      [
+                          "A limited series of 600 cars.",
+                          "Περιορισμένη σειρά 600 αυτοκινήτων."
+                      ],
+                      [
+                          "German launch list price: €178.596, including 19% VAT (2011).",
+                          "Τιμή παρουσίασης στη Γερμανία: 178.596 €, με ΦΠΑ 19% (2011)."
+                      ],
+                      [
+                          "Factory top speed: 310 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 310 χλμ./ώρα."
+                      ],
+                      [
+                          "A naturally aspirated 4.0-litre flat-six and a six-speed manual gearbox.",
+                          "Ατμοσφαιρικός εξακύλινδρος boxer 4,0 λίτρων και χειροκίνητο κιβώτιο έξι σχέσεων."
+                      ],
+                      [
+                          "Country of origin: Germany.",
+                          "Χώρα προέλευσης: Γερμανία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.porsche.com/usa/aboutporsche/pressreleases/pag/?id=2011-04-28\u0026pool=international-de",
+                        "https://newsroom.porsche.com/dam/jcr%3A46a23375-e7ee-4507-a577-d9761b784d33/992%20911%20GT3%20RS%20Press%20Kit%201.pdf",
+                        "https://seriouswheels.com/2011-porsche-911-gt3-rs-4-0.html"
+                    ],
+        "audio":  "media/gt3-rs40.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=R6fT2RFeMhQ",
+        "audioStart":  38,
+        "audioDuration":  7,
+        "audioCredit":  "19Bozzy92",
+        "audioSourceTitle":  "2012 Porsche 997 GT3 RS 4.0 Full Throttle Acceleration SOUND!",
+        "image":  "https://i.ytimg.com/vi/R6fT2RFeMhQ/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "r8-gt",
+        "name":  [
+                     "Audi R8 GT (2010)",
+                     "Audi R8 GT (2010)"
+                 ],
+        "aliases":  [
+                        "Audi R8 GT (2010)",
+                        "Audi R8 GT",
+                        "R8 GT",
+                        "Audi R8 GT 2010",
+                        "Άουντι R8 GT"
+                    ],
+        "clues":  [
+                      [
+                          "333 cars in the original coupé series.",
+                          "333 αυτοκίνητα στην αρχική σειρά κουπέ."
+                      ],
+                      [
+                          "German launch price: €193.000 (2010).",
+                          "Τιμή παρουσίασης στη Γερμανία: 193.000 € (2010)."
+                      ],
+                      [
+                          "Factory top speed: 320 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 320 χλμ./ώρα."
+                      ],
+                      [
+                          "A 5.2-litre V10, quattro all-wheel drive and a fixed rear wing.",
+                          "V10 κινητήρας 5,2 λίτρων, τετρακίνηση quattro και σταθερή πίσω αεροτομή."
+                      ],
+                      [
+                          "Country of origin: Germany.",
+                          "Χώρα προέλευσης: Γερμανία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://gtspirit.com/2010/05/02/official-audi-r8-gt/",
+                        "https://www.ausmotive.com/2010/05/02/2010-audi-r8-gt.html"
+                    ],
+        "audio":  "media/r8-gt.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=8rMlcyDWmKw",
+        "audioStart":  2,
+        "audioDuration":  7,
+        "audioCredit":  "Porsche București Nord",
+        "audioSourceTitle":  "Audi R8 GT 2010 Sound Engine",
+        "image":  "https://i.ytimg.com/vi/8rMlcyDWmKw/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "one77",
+        "name":  [
+                     "Aston Martin One-77",
+                     "Aston Martin One-77"
+                 ],
+        "aliases":  [
+                        "Aston Martin One-77",
+                        "One-77",
+                        "One77",
+                        "Aston Martin One77",
+                        "Άστον Μάρτιν One-77"
+                    ],
+        "clues":  [
+                      [
+                          "All 77 cars were sold; production ended in 2012.",
+                          "Και τα 77 αυτοκίνητα πουλήθηκαν — η παραγωγή ολοκληρώθηκε το 2012."
+                      ],
+                      [
+                          "Original price: approximately £1.000.000.",
+                          "Αρχική τιμή: περίπου 1.000.000 £."
+                      ],
+                      [
+                          "Factory top speed: 220 mph, approximately 354 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 220 mph, περίπου 354 χλμ./ώρα."
+                      ],
+                      [
+                          "A carbon-fibre monocoque beneath hand-crafted aluminium bodywork.",
+                          "Μονοκόκ από ανθρακονήματα κάτω από αμάξωμα χειροποίητου αλουμινίου."
+                      ],
+                      [
+                          "Country of origin: United Kingdom.",
+                          "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.astonmartin.com/en-gb/models/past-models/one-77",
+                        "https://www.astonmartin.com/en/our-world/news/2018/7/25/one-77"
+                    ],
+        "audio":  "media/one77.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=cestkxGrwBw",
+        "audioStart":  11,
+        "audioDuration":  7,
+        "audioCredit":  "BerlinTomek",
+        "audioSourceTitle":  "Aston Martin ONE 77 Sound REVVING V12 Exhaust REVs 7,3l - 760 HP PS - One-77 Coupe Exotic Supercar",
+        "image":  "https://i.ytimg.com/vi/cestkxGrwBw/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "675lt",
+        "name":  [
+                     "McLaren 675LT",
+                     "McLaren 675LT"
+                 ],
+        "aliases":  [
+                        "McLaren 675LT",
+                        "675LT",
+                        "McLaren 675 LT",
+                        "Μακλάρεν 675LT"
+                    ],
+        "clues":  [
+                      [
+                          "A limited series of 500 coupés.",
+                          "Περιορισμένη σειρά 500 κουπέ."
+                      ],
+                      [
+                          "UK launch price: £259.500 (2015).",
+                          "Τιμή παρουσίασης στο Ηνωμένο Βασίλειο: 259.500 £ (2015)."
+                      ],
+                      [
+                          "Factory top speed: 330 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 330 χλμ./ώρα."
+                      ],
+                      [
+                          "The letters LT refer to the historic Longtail name.",
+                          "Τα γράμματα LT παραπέμπουν στο ιστορικό όνομα Longtail."
+                      ],
+                      [
+                          "Country of origin: United Kingdom.",
+                          "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.motorshow.me/uploadImages/GalleryDocs/Doc5966.pdf"
+                    ],
+        "audio":  "media/675lt.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=g97N2EF1pls",
+        "audioStart":  33,
+        "audioDuration":  7,
+        "audioCredit":  "veloriderkm",
+        "audioSourceTitle":  "Raw sounds of McLaren 675LT",
+        "image":  "https://i.ytimg.com/vi/g97N2EF1pls/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "slr722",
+        "name":  [
+                     "Mercedes-Benz SLR McLaren 722 Edition",
+                     "Mercedes-Benz SLR McLaren 722 Edition"
+                 ],
+        "aliases":  [
+                        "Mercedes-Benz SLR McLaren 722 Edition",
+                        "SLR 722",
+                        "SLR McLaren 722",
+                        "Mercedes SLR 722",
+                        "722 Edition",
+                        "Mercedes-Benz SLR 722 Edition",
+                        "Μερσεντές SLR 722"
+                    ],
+        "clues":  [
+                      [
+                          "A limited production series of 150 cars.",
+                          "Περιορισμένη σειρά παραγωγής 150 αυτοκινήτων."
+                      ],
+                      [
+                          "Auction example: $467.000 at Monterey, 2019.",
+                          "Παράδειγμα πώλησης σε δημοπρασία: 467.000 $ στο Monterey, το 2019."
+                      ],
+                      [
+                          "Factory top speed: 337 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 337 χλμ./ώρα."
+                      ],
+                      [
+                          "The number recalls Stirling Moss\u0027s 7:22 a.m. start in the 1955 Mille Miglia.",
+                          "Ο αριθμός θυμίζει την εκκίνηση του Stirling Moss στις 7:22 π.μ. στο Mille Miglia του 1955."
+                      ],
+                      [
+                          "Brand origin: Germany; built with McLaren in the United Kingdom.",
+                          "Προέλευση μάρκας: Γερμανία — κατασκευάστηκε με τη McLaren στο Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://rmsothebys.com/auctions/mo19/lots/r0110-2007-mercedesbenz-slr-mclaren-722-edition/",
+                        "https://www.artcurial.com/en/sales/6017/lots/165-a",
+                        "https://media.mercedes-benz.com/article/0c4a0a8f-bb46-43f7-b578-fa5827b921a1"
+                    ],
+        "audio":  "media/slr722.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=qsn9b6SFKy4",
+        "audioStart":  46,
+        "audioDuration":  7,
+        "audioCredit":  "DLMphotos",
+        "audioSourceTitle":  "*Rare* MBZ SLR 722 Edition-REVS, Acceleration, Overview!",
+        "image":  "https://i.ytimg.com/vi/qsn9b6SFKy4/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "reventon",
+        "name":  [
+                     "Lamborghini Reventón",
+                     "Lamborghini Reventón"
+                 ],
+        "aliases":  [
+                        "Lamborghini Reventón",
+                        "Reventon",
+                        "Reventón",
+                        "Lamborghini Reventon",
+                        "Λαμποργκίνι Ρεβεντόν"
+                    ],
+        "clues":  [
+                      [
+                          "Only 20 coupés were produced.",
+                          "Παρήχθησαν μόλις 20 κουπέ."
+                      ],
+                      [
+                          "Launch price: €1.000.000 before tax.",
+                          "Τιμή παρουσίασης: 1.000.000 € χωρίς φόρους."
+                      ],
+                      [
+                          "Factory top speed: 340 km/h.",
+                          "Εργοστασιακή τελική ταχύτητα: 340 χλμ./ώρα."
+                      ],
+                      [
+                          "Its angular design was inspired by aeronautics.",
+                          "Ο γωνιώδης σχεδιασμός του εμπνεύστηκε από την αεροναυπηγική."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.lamborghini.com/it-en/news/lamborghini-reventon-la-prima-few",
+                        "https://www.lamborghini.com/en-en/news/lamborghini-few-roadster-emotional-limited-and-open"
+                    ],
+        "audio":  "media/reventon.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=l1FIkcCMQQY",
+        "audioStart":  28,
+        "audioDuration":  7,
+        "audioCredit":  "joe raga",
+        "audioSourceTitle":  "Lamborghini Reventón   Start Up Sound",
+        "image":  "https://i.ytimg.com/vi/l1FIkcCMQQY/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
+    },
+    {
+        "id":  "zonda-cinque",
+        "name":  [
+                     "Pagani Zonda Cinque",
+                     "Pagani Zonda Cinque"
+                 ],
+        "aliases":  [
+                        "Pagani Zonda Cinque",
+                        "Zonda Cinque",
+                        "Pagani Cinque",
+                        "Cinque",
+                        "Παγκάνι Ζόντα Τσίνκουε"
+                    ],
+        "clues":  [
+                      [
+                          "All five coupés were already sold when announced.",
+                          "Και τα πέντε κουπέ είχαν ήδη πουληθεί όταν ανακοινώθηκε το μοντέλο."
+                      ],
+                      [
+                          "Announced price: €1.000.000 plus tax (2008).",
+                          "Ανακοινωμένη τιμή: 1.000.000 € συν φόρους (2008)."
+                      ],
+                      [
+                          "Announced top speed: more than 350 km/h.",
+                          "Ανακοινωμένη τελική ταχύτητα: πάνω από 350 χλμ./ώρα."
+                      ],
+                      [
+                          "A headline car in Need for Speed: Hot Pursuit (2010), also featured in its cover art.",
+                          "Πρωταγωνιστικό αυτοκίνητο στο Need for Speed: Hot Pursuit (2010), που εμφανίζεται και στο εξώφυλλο."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.quattroruote.it/news/novita/2008/06/09/ecco_la_zonda_cinque.html",
+                        "https://www.youtube.com/watch?v=FnkRL9q3k1w"
+                    ],
+        "audio":  "media/zonda-cinque.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=4NBNDFbhpsY",
+        "audioStart":  24,
+        "audioDuration":  7,
+        "audioCredit":  "Marchettino",
+        "audioSourceTitle":  "Pagani Zonda Cinque Sound - Start, Rev and Accelerations",
+        "image":  "https://i.ytimg.com/vi/4NBNDFbhpsY/hqdefault.jpg",
+        "addedIn":  "20261014-car-next10"
     }
 ]
