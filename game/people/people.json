@@ -1,0 +1,130 @@
+[
+  {
+    "id": "einstein",
+    "name": [
+      "Albert Einstein",
+      "Άλμπερτ Αϊνστάιν"
+    ],
+    "aliases": [
+      "Albert Einstein",
+      "Einstein",
+      "Αϊνστάιν",
+      "Άλμπερτ Αϊνστάιν"
+    ],
+    "clues": [
+      [
+        "Before his academic career, he worked at the Swiss patent office in Bern.",
+        "Πριν την πανεπιστημιακή καριέρα του, εργαζόταν στο ελβετικό γραφείο ευρεσιτεχνιών στη Βέρνη."
+      ],
+      [
+        "His 1921 Nobel Prize specifically recognized the law of the photoelectric effect.",
+        "Το Νόμπελ του 1921 αναγνώρισε ειδικά τον νόμο του φωτοηλεκτρικού φαινομένου."
+      ],
+      [
+        "The physicist associated with relativity and E = mc².",
+        "Ο φυσικός που συνδέεται με τη σχετικότητα και το E = mc²."
+      ]
+    ],
+    "sources": [
+      "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "cleopatra",
+    "name": [
+      "Cleopatra VII",
+      "Κλεοπάτρα"
+    ],
+    "aliases": [
+      "Cleopatra",
+      "Cleopatra VII",
+      "Κλεοπάτρα",
+      "Κλεοπάτρα Ζ"
+    ],
+    "clues": [
+      [
+        "Ancient accounts praise her language skills; she learned Egyptian, unlike earlier rulers of her dynasty.",
+        "Αρχαίες πηγές επαινούν τη γλωσσομάθειά της· έμαθε αιγυπτιακά, σε αντίθεση με προηγούμενους ηγεμόνες της δυναστείας της."
+      ],
+      [
+        "The Egyptian queen allied with Julius Caesar and Mark Antony.",
+        "Η βασίλισσα της Αιγύπτου που συνδέθηκε με τον Ιούλιο Καίσαρα και τον Μάρκο Αντώνιο."
+      ],
+      [
+        "She belonged to the Ptolemaic dynasty, whose founder was Macedonian Greek.",
+        "Ανήκε στη δυναστεία των Πτολεμαίων, της οποίας ο ιδρυτής ήταν Μακεδόνας Έλληνας."
+      ]
+    ],
+    "sources": [
+      "https://blog.oup.com/2010/12/cleopatra-2/",
+      "https://en.wikipedia.org/wiki/Cleopatra"
+    ],
+    "image": ""
+  },
+  {
+    "id": "musk",
+    "name": [
+      "Elon Musk",
+      "Ίλον Μασκ"
+    ],
+    "aliases": [
+      "Elon Musk",
+      "Musk",
+      "Ίλον Μασκ",
+      "Έλον Μασκ",
+      "Ελον Μασκ"
+    ],
+    "clues": [
+      [
+        "At twelve, he sold his game Blastar to a magazine for about $500.",
+        "Στα δώδεκά του πούλησε το παιχνίδι Blastar σε περιοδικό για περίπου 500 $."
+      ],
+      [
+        "He was born in Pretoria, South Africa, in 1971.",
+        "Γεννήθηκε στην Πρετόρια της Νότιας Αφρικής το 1971."
+      ],
+      [
+        "He founded SpaceX in 2002 and became Tesla CEO in 2008.",
+        "Ίδρυσε τη SpaceX το 2002 και έγινε διευθύνων σύμβουλος της Tesla το 2008."
+      ]
+    ],
+    "sources": [
+      "https://www.biography.com/business-leaders/elon-musk",
+      "https://ir.tesla.com/corporate/elon-musk"
+    ],
+    "image": ""
+  },
+  {
+    "id": "swift",
+    "name": [
+      "Taylor Swift",
+      "Τέιλορ Σουίφτ"
+    ],
+    "aliases": [
+      "Taylor Swift",
+      "Swift",
+      "Τέιλορ Σουίφτ",
+      "Τέιλορ Σουίφτ"
+    ],
+    "clues": [
+      [
+        "Her 2022 album Midnights set a chart record involving ten simultaneous positions.",
+        "Το άλμπουμ Midnights του 2022 σημείωσε ρεκόρ στα charts με δέκα ταυτόχρονες θέσεις."
+      ],
+      [
+        "She was the first artist to occupy the entire top ten of the Billboard Hot 100.",
+        "Ήταν η πρώτη καλλιτέχνιδα που κατέλαβε ταυτόχρονα ολόκληρη την πρώτη δεκάδα του Billboard Hot 100."
+      ],
+      [
+        "Her fans are called Swifties, and her world tour was called The Eras Tour.",
+        "Οι θαυμαστές της λέγονται Swifties και η παγκόσμια περιοδεία της ονομάστηκε The Eras Tour."
+      ]
+    ],
+    "sources": [
+      "https://www.axios.com/2022/11/01/taylor-swift-billboard-hot-100-record-entire-top-10",
+      "https://ca.billboard.com/fyi/music-biz-headlines-nov-3-2022"
+    ],
+    "image": ""
+  }
+]

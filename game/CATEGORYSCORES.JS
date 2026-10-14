@@ -1,7 +1,7 @@
 "use strict";
 window.GMPCategoryScores=(()=>{
- const names={overall:'Top Legends',onepiece:'Top Weebs',gaming:'Top Noobs',football:'Top Footy Nerds',greek:'Top Greek Cinephiles',cinematix:'Top Movie Buffs',painter:'Top Art Lovers',country:'Top Geologist',car:'Top Petrolheads'};
- const categories=['football','onepiece','gaming','greek','cinematix','painter','country','car'];
+ const names={overall:'Top Legends',onepiece:'Top Weebs',gaming:'Top Noobs',football:'Top Footy Nerds',greek:'Top Greek Cinephiles',cinematix:'Top Movie Buffs',painter:'Top Art Lovers',country:'Top Geologist',car:'Top Petrolheads',people:'Top Icons'};
+ const categories=['football','onepiece','gaming','greek','cinematix','painter','country','car','people'];
  const number=n=>Number.isSafeInteger(n)&&n>=0?n:0;
  function clean(value){
   const result={};for(const category of categories){const v=value?.[category];if(v&&typeof v==='object')result[category]={points:number(v.points),wins:number(v.wins),first:number(v.first),bestStreak:number(v.bestStreak)};}return result;

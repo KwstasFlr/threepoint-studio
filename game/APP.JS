@@ -4146,6 +4146,7 @@ const GAME_DATA = [
   {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Greek movies & series", "Ελληνικές ταινίες & σειρές"]},
 
   {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Recognize the painter", "Βρες τον ζωγράφο"]},
+  {id: "people", name: "Guess the Person", available: true, category: "PEOPLE", description: ["Who is it?", "Ποιο πρόσωπο είναι;"]},
   {id: "car", name: "Guess the Car", available: true, category: "MOTORING", description: ["Recognise the engine", "Αναγνώρισε τον κινητήρα"]},
   {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Find the country", "Βρες τη χώρα"]},
 
@@ -5548,7 +5549,7 @@ function renderGames() {
       card.type = "button";
     }
 
-    const cardImages={car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={people:'people-cover.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6106,6 +6107,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if(id==="people"){location.href="people/";return;}
   if(id==="car"){location.href="car/";return;}
   if(id==="country"){location.href="country/";return;}
   if (["football","one-piece","gaming"].includes(id) && document.body.dataset.page !== "category-play") { location.href = id + ".html"; return; }
