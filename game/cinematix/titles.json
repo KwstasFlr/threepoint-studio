@@ -6224,5 +6224,3534 @@
         "audioSpeechSeconds":  6.43,
         "audioMaxGap":  0.29,
         "audioTranscript":  "No way, man. If we guy get in and out faster, the only guy can pull it off. You think I want to be here chipping wood for shit pay?"
+    },
+    {
+        "id":  "avatar",
+        "title":  "Avatar",
+        "year":  2009,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Άβαταρ"
+                    ],
+        "supporting":  [
+                           "Giovanni Ribisi",
+                           "Joel David Moore"
+                       ],
+        "leads":  [
+                      "Sam Worthington",
+                      "Zoe Saldana"
+                  ],
+        "clue":  "Ένας πρώην στρατιώτης μπαίνει με άγνωστο σώμα σε έναν δασωμένο κόσμο.",
+        "clueEn":  "A former soldier takes an unfamiliar body into a forest world.",
+        "synopsis":  "Ένας ξένος ενώνεται με μια εξωγήινη κοινότητα που απειλείται από ανθρώπινη εξόρυξη.",
+        "synopsisEn":  "An outsider joins an alien community threatened by a human mining operation.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/avatar/cast-and-crew",
+        "audio":  "media/scene-avatar.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=BRvskuX0CgA",
+        "audioStart":  26.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "REGELE FILMELOR",
+        "audioSourceTitle":  "AVATAR (IMAX) | \"You\u0027re Not in Kansas Anymore, You\u0027re On Pandora\" - Quaritch Scene",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0,
+        "audioTranscript":  "A living thing that crawls, flies, or squats in the mud wants to kill you and eat your eyes for jujube."
+    },
+    {
+        "id":  "alien",
+        "title":  "Alien",
+        "year":  1979,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Άλιεν",
+                        "Ο επιβάτης του διαστήματος"
+                    ],
+        "supporting":  [
+                           "Veronica Cartwright",
+                           "Harry Dean Stanton"
+                       ],
+        "leads":  [
+                      "Sigourney Weaver",
+                      "Tom Skerritt"
+                  ],
+        "clue":  "Ένα σήμα κινδύνου διακόπτει την επιστροφή ενός εμπορικού διαστημοπλοίου.",
+        "clueEn":  "A distress signal interrupts a commercial spacecraft\u0027s return journey.",
+        "synopsis":  "Το πλήρωμα ενός εμπορικού σκάφους αντιμετωπίζει ένα φονικό πλάσμα μετά την εξερεύνηση ενός μακρινού φεγγαριού.",
+        "synopsisEn":  "A merchant crew confronts a lethal creature after investigating a distant moon.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/alien/cast-and-crew",
+        "audio":  "media/scene-alien.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=EsSz6kDiITA",
+        "audioStart":  40.388,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "r3viladdict",
+        "audioSourceTitle":  "A L I E N: Ripley, Parker, and Lambert conversation scene",
+        "audioSpeechSeconds":  5.98,
+        "audioMaxGap":  0.61,
+        "audioTranscript":  "We get the shuttle and just get the hell out of here. We take our chances and just hope that somebody gets off."
+    },
+    {
+        "id":  "aliens",
+        "title":  "Aliens",
+        "year":  1986,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Άλιενς",
+                        "Η επιστροφή"
+                    ],
+        "supporting":  [
+                           "Bill Paxton",
+                           "Jenette Goldstein"
+                       ],
+        "leads":  [
+                      "Sigourney Weaver",
+                      "Michael Biehn"
+                  ],
+        "clue":  "Μια επιζήσασα επιστρέφει με στρατιωτική συνοδεία σε μια χαμένη αποικία.",
+        "clueEn":  "A survivor returns to a lost colony with a military escort.",
+        "synopsis":  "Πεζοναύτες ερευνούν μια σιωπηλή αποικία και ανακαλύπτουν ότι οι κάτοικοί της αντιμετώπισαν μια τρομακτική εισβολή πλασμάτων.",
+        "synopsisEn":  "Marines investigate a silent colony and discover that its missing residents faced a terrifying infestation.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/1000617-aliens/cast-and-crew",
+        "audio":  "media/scene-aliens.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=aR91nvDWwHg",
+        "audioStart":  48.436,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movie Jukebox - best movie scenes",
+        "audioSourceTitle":  "Briefing scene when Ripley tells about aliens - Aliens (1986) in 1080p",
+        "audioSpeechSeconds":  6.26,
+        "audioMaxGap":  0.67,
+        "audioTranscript":  "We sat down on LV-426. One of our crew members was brought back on board with something attached to his face, some kind of."
+    },
+    {
+        "id":  "whiplash",
+        "title":  "Whiplash",
+        "year":  2014,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Χωρίς μέτρο"
+                    ],
+        "supporting":  [
+                           "Paul Reiser",
+                           "Melissa Benoist"
+                       ],
+        "leads":  [
+                      "Miles Teller",
+                      "J.K. Simmons"
+                  ],
+        "clue":  "Μια αίθουσα πρόβας γίνεται δοκιμασία αντοχής και φιλοδοξίας.",
+        "clueEn":  "A rehearsal room becomes a test of endurance and ambition.",
+        "synopsis":  "Ένας νεαρός ντράμερ τζαζ μαθητεύει κοντά σε έναν απαιτητικό καθηγητή που τον πιέζει πέρα από τα όριά του.",
+        "synopsisEn":  "A young jazz drummer studies under a demanding instructor whose methods push him beyond his limits.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/whiplash_2014/cast-and-crew",
+        "audio":  "media/scene-whiplash.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=b9ilXLsz0KE",
+        "audioStart":  179.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Best of Movies \u0026 TV",
+        "audioSourceTitle":  "Rushing or dragging? | Whiplash 2014 | Best Scene",
+        "audioSpeechSeconds":  5.98,
+        "audioMaxGap":  0.83,
+        "audioTranscript":  "In four, dammit! Look at me! One, two, three, four."
+    },
+    {
+        "id":  "notebook",
+        "title":  "The Notebook",
+        "year":  2004,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Το ημερολόγιο"
+                    ],
+        "supporting":  [
+                           "James Marsden",
+                           "Sam Shepard"
+                       ],
+        "leads":  [
+                      "Ryan Gosling",
+                      "Rachel McAdams"
+                  ],
+        "clue":  "Μια αφήγηση συνδέει έναν οίκο ευγηρίας με έναν καλοκαιρινό έρωτα.",
+        "clueEn":  "A story read aloud connects a nursing home with a summer romance.",
+        "synopsis":  "Δύο νέοι εραστές που χωρίζονται από κοινωνικές διαφορές και περιστάσεις κάνουν επιλογές που καθορίζουν μια σχέση ζωής.",
+        "synopsisEn":  "Two young lovers separated by class and circumstance face choices that shape a lifelong relationship.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/notebook/cast-and-crew",
+        "audio":  "media/scene-notebook.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=E1I0hAxGFXw",
+        "audioStart":  36.308,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "What Do You Want? - The Notebook (4/6) Movie CLIP (2004) HD",
+        "audioSpeechSeconds":  5.7,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "You tell me when I\u0027m being an arrogant son of a bitch and I tell you when you\u0027re being a pain in the ass. Which you are, 99% of the time."
+    },
+    {
+        "id":  "la-la-land",
+        "title":  "La La Land",
+        "year":  2016,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Λα Λα Λαντ"
+                    ],
+        "supporting":  [
+                           "Rosemarie DeWitt",
+                           "Finn Wittrock"
+                       ],
+        "leads":  [
+                      "Ryan Gosling",
+                      "Emma Stone"
+                  ],
+        "clue":  "Δύο επίδοξοι καλλιτέχνες συναντιούνται ξανά και ξανά στο Λος Άντζελες.",
+        "clueEn":  "Two aspiring artists repeatedly cross paths in Los Angeles.",
+        "synopsis":  "Ένας πιανίστας τζαζ και μια ηθοποιός ισορροπούν ανάμεσα στον έρωτα και στις απαιτήσεις της καριέρας τους.",
+        "synopsisEn":  "A jazz pianist and an actress balance their romance against the demands of their careers.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/la_la_land/cast-and-crew",
+        "audio":  "media/scene-la-la-land.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=uErALQKDCp4",
+        "audioStart":  62.676,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Hulu",
+        "audioSourceTitle":  "Maybe I Am Not Good Enough | La La Land | Hulu",
+        "audioSpeechSeconds":  6.9,
+        "audioMaxGap":  0.1,
+        "audioTranscript":  "You want me to, then you have to make sense. If you don\u0027t want me to be quiet, you have to make some goddamn sense. You tell me why you\u0027re not going. Because, because I\u0027ve been to a million auditions."
+    },
+    {
+        "id":  "barbie",
+        "title":  "Barbie",
+        "year":  2023,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μπάρμπι"
+                    ],
+        "supporting":  [
+                           "America Ferrera",
+                           "Ariana Greenblatt"
+                       ],
+        "leads":  [
+                      "Margot Robbie",
+                      "Ryan Gosling"
+                  ],
+        "clue":  "Μια απρόσμενη αλλαγή αναστατώνει έναν φαινομενικά τέλειο παστέλ κόσμο.",
+        "clueEn":  "An unexpected change disrupts life in a seemingly perfect pastel world.",
+        "synopsis":  "Μια κούκλα αφήνει τον γνώριμο κόσμο της και ανακαλύπτει τις αντιφάσεις της ανθρώπινης κοινωνίας.",
+        "synopsisEn":  "A doll leaves her familiar world and discovers the contradictions of human society.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/barbie/cast-and-crew",
+        "audio":  "media/scene-barbie.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=CBqlDWHkdHk",
+        "audioStart":  24.628,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "HBO Max",
+        "audioSourceTitle":  "America Ferrera\u0027s Iconic Barbie Speech | Barbie | Max",
+        "audioSpeechSeconds":  6.94,
+        "audioMaxGap":  0.06,
+        "audioTranscript":  "You have to be thin but not too thin and you can never say you want to be thin you have to say you want to be healthy but"
+    },
+    {
+        "id":  "oppenheimer",
+        "title":  "Oppenheimer",
+        "year":  2023,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Οπενχάιμερ"
+                    ],
+        "supporting":  [
+                           "David Krumholtz",
+                           "Josh Hartnett"
+                       ],
+        "leads":  [
+                      "Cillian Murphy",
+                      "Emily Blunt"
+                  ],
+        "clue":  "Ένα επιστημονικό πρόγραμμα και μια μεταγενέστερη ακρόαση ασφαλείας πλαισιώνουν τη ζωή ενός άντρα.",
+        "clueEn":  "A scientific project and a later security hearing frame one man\u0027s life.",
+        "synopsis":  "Ένας φυσικός ηγείται ενός πολεμικού προγράμματος όπλων και αργότερα αντιμετωπίζει τις πολιτικές και ηθικές συνέπειές του.",
+        "synopsisEn":  "A physicist leads a wartime weapons programme and later confronts its political and moral consequences.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/oppenheimer_2023/cast-and-crew",
+        "audio":  "media/scene-oppenheimer.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=dXHs1sLBjJs",
+        "audioStart":  19.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "CBS Sunday Morning",
+        "audioSourceTitle":  "\"Oppenheimer\" clip: Cillian Murphy and Matt Damon",
+        "audioSpeechSeconds":  6.58,
+        "audioMaxGap":  0.42,
+        "audioTranscript":  "...mean by atmospheric ignition. Well, we had a moment where it looked like the chain reaction from an atomic device might never have."
+    },
+    {
+        "id":  "top-gun",
+        "title":  "Top Gun",
+        "year":  1986,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Τοπ Γκαν"
+                    ],
+        "supporting":  [
+                           "Anthony Edwards",
+                           "Tom Skerritt"
+                       ],
+        "leads":  [
+                      "Tom Cruise",
+                      "Kelly McGillis"
+                  ],
+        "clue":  "Ένας φιλόδοξος πιλότος του ναυτικού μπαίνει σε ένα επίλεκτο πρόγραμμα εκπαίδευσης.",
+        "clueEn":  "An ambitious naval pilot enters an elite training programme.",
+        "synopsis":  "Ένας χαρισματικός αλλά απερίσκεπτος πιλότος μαθαίνει για τη συνεργασία, την απώλεια και την ευθύνη δίπλα στους καλύτερους.",
+        "synopsisEn":  "A gifted but reckless aviator learns about teamwork, loss and responsibility while training with the best.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/top_gun/cast-and-crew",
+        "audio":  "media/scene-top-gun.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=9fTEGag00og",
+        "audioStart":  39.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Beezarino Studios",
+        "audioSourceTitle":  "Going to TOP GUN",
+        "audioSpeechSeconds":  6.94,
+        "audioMaxGap":  0.06,
+        "audioTranscript":  "Bullshit, Maverick, your family name ain\u0027t the best in the Navy. You need to be doing it better and cleaner than the other guy. Now, what is it with you?"
+    },
+    {
+        "id":  "pretty-woman",
+        "title":  "Pretty Woman",
+        "year":  1990,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Πρίτι Γούμαν"
+                    ],
+        "supporting":  [
+                           "Laura San Giacomo",
+                           "Hector Elizondo"
+                       ],
+        "leads":  [
+                      "Richard Gere",
+                      "Julia Roberts"
+                  ],
+        "clue":  "Μια συμφωνία μιας εβδομάδας ξεκινά από μια απρόσμενη συνάντηση στη Χόλιγουντ Μπούλεβαρντ.",
+        "clueEn":  "A week-long arrangement begins after an unexpected meeting on Hollywood Boulevard.",
+        "synopsis":  "Ένας πλούσιος επιχειρηματίας και μια εργαζόμενη στο σεξ αναπτύσσουν συναισθήματα καθώς κινούνται σε διαφορετικούς κοινωνικούς κόσμους.",
+        "synopsisEn":  "A wealthy businessman and a sex worker develop feelings while navigating different social worlds.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/pretty_woman/cast-and-crew",
+        "audio":  "media/scene-pretty-woman.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=HyQPUuGVXwM",
+        "audioStart":  135.212,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "STARZPLAY",
+        "audioSourceTitle":  "Pretty Woman | \"Big Mistake, Huge!\" Scene | Watch Now | STARZPLAY | ستارزبلاي",
+        "audioSpeechSeconds":  5.27,
+        "audioMaxGap":  0.64,
+        "audioTranscript":  "No, I\u0027m sorry, I was in here yesterday. You wouldn\u0027t wait on me? Oh, you work on commission, right? Yes."
+    },
+    {
+        "id":  "notting-hill",
+        "title":  "Notting Hill",
+        "year":  1999,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μια βραδιά στο Νότινγκ Χιλ"
+                    ],
+        "supporting":  [
+                           "Rhys Ifans",
+                           "Gina McKee"
+                       ],
+        "leads":  [
+                      "Hugh Grant",
+                      "Julia Roberts"
+                  ],
+        "clue":  "Ένα ήσυχο βιβλιοπωλείο δέχεται μια επισκέπτρια που ο ιδιοκτήτης του δεν περίμενε.",
+        "clueEn":  "A quiet bookshop receives a visitor its owner never expected.",
+        "synopsis":  "Ένας βιβλιοπώλης του Λονδίνου ερωτεύεται μια διάσημη ηθοποιό και δυσκολεύεται με τη δημοσιότητα που την ακολουθεί.",
+        "synopsisEn":  "A London bookseller falls in love with a famous actress and struggles with the attention surrounding her.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/notting_hill/cast-and-crew",
+        "audio":  "media/scene-notting-hill.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=RESwG23_YGw",
+        "audioStart":  45.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "Notting Hill (9/10) Movie CLIP - Just a Girl (1999) HD",
+        "audioSpeechSeconds":  5.75,
+        "audioMaxGap":  0.9,
+        "audioTranscript":  "again, cast aside, as I would absolutely expect to be. There are just too many pictures of you, too many."
+    },
+    {
+        "id":  "love-actually",
+        "title":  "Love Actually",
+        "year":  2003,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Αγάπη είναι"
+                    ],
+        "supporting":  [
+                           "Bill Nighy",
+                           "Kris Marshall"
+                       ],
+        "leads":  [
+                      "Hugh Grant",
+                      "Emma Thompson"
+                  ],
+        "clue":  "Πολλές προσωπικές ιστορίες διασταυρώνονται καθώς πλησιάζουν τα Χριστούγεννα στο Λονδίνο.",
+        "clueEn":  "Several personal stories intersect as Christmas approaches in London.",
+        "synopsis":  "Μια ομάδα Λονδρέζων βιώνει έρωτες, απογοητεύσεις και απρόσμενες συναντήσεις μέσα στην εορταστική περίοδο.",
+        "synopsisEn":  "An ensemble of Londoners experiences romance, heartbreak and unexpected connections during the festive season.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/love_actually/cast-and-crew",
+        "audio":  "media/scene-love-actually.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=DM4UZhQN0VY",
+        "audioStart":  19.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "faggtube",
+        "audioSourceTitle":  "Love actually - Karen and Harry scene",
+        "audioSpeechSeconds":  6.3,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "around to find out if it\u0027s just a necklace or if it\u0027s sex and a necklace or if it has to ball, it\u0027s a necklace and..."
+    },
+    {
+        "id":  "die-hard",
+        "title":  "Die Hard",
+        "year":  1988,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Πολύ σκληρός για να πεθάνει"
+                    ],
+        "supporting":  [
+                           "Bonnie Bedelia",
+                           "Reginald VelJohnson"
+                       ],
+        "leads":  [
+                      "Bruce Willis",
+                      "Alan Rickman"
+                  ],
+        "clue":  "Ένας αστυνομικός που επισκέπτεται την πόλη παγιδεύεται σε ένα χριστουγεννιάτικο πάρτι γραφείου.",
+        "clueEn":  "A visiting policeman finds himself trapped at an office Christmas party.",
+        "synopsis":  "Ένας ντετέκτιβ εκτός υπηρεσίας προσπαθεί να ελευθερώσει ομήρους όταν ένοπλοι καταλαμβάνουν έναν ουρανοξύστη στο Λος Άντζελες.",
+        "synopsisEn":  "An off-duty detective fights to free hostages after armed criminals seize a Los Angeles skyscraper.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/die_hard/cast-and-crew",
+        "audio":  "media/scene-die-hard.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=irTozIjeqFM",
+        "audioStart":  37.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "No Watermark Clips",
+        "audioSourceTitle":  "Die Hard Ellis Negotiation Scene (HD)",
+        "audioSpeechSeconds":  6.49,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "You\u0027re here to hostile takeover, you grab us for some green mail but you didn\u0027t expect some poison pill was gonna be running around in the building, am I right?"
+    },
+    {
+        "id":  "rocky",
+        "title":  "Rocky",
+        "year":  1976,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ρόκι"
+                    ],
+        "supporting":  [
+                           "Burt Young",
+                           "Burgess Meredith"
+                       ],
+        "leads":  [
+                      "Sylvester Stallone",
+                      "Talia Shire"
+                  ],
+        "clue":  "Ένας παραγνωρισμένος τοπικός μαχητής δέχεται μια ασυνήθιστη αθλητική ευκαιρία.",
+        "clueEn":  "An overlooked local fighter receives an extraordinary sporting opportunity.",
+        "synopsis":  "Ένας πυγμάχος της Φιλαδέλφειας προπονείται για έναν απρόσμενο αγώνα τίτλου και συνδέεται με μια ντροπαλή υπάλληλο καταστήματος.",
+        "synopsisEn":  "A Philadelphia boxer trains for an unlikely title fight while building a relationship with a shy shop assistant.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/1017776-rocky/cast-and-crew",
+        "audio":  "media/scene-rocky.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Lxfe0cKOx3g",
+        "audioStart":  24.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "Rocky (3/10) Movie CLIP - Pain and Experience (1976) HD",
+        "audioSpeechSeconds":  6.18,
+        "audioMaxGap":  0.45,
+        "audioTranscript":  "I say, if you wanted help, why didn\u0027t you ask? Why didn\u0027t you just ask me, kid? Look, I asked, but you never heard nothing."
+    },
+    {
+        "id":  "first-blood",
+        "title":  "First Blood",
+        "year":  1982,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ράμπο: Το πρώτο αίμα",
+                        "Rambo First Blood"
+                    ],
+        "supporting":  [
+                           "Richard Crenna",
+                           "David Caruso"
+                       ],
+        "leads":  [
+                      "Sylvester Stallone",
+                      "Brian Dennehy"
+                  ],
+        "clue":  "Μια αντιπαράθεση σε μικρή πόλη κλιμακώνεται όταν ένας βετεράνος πιέζεται υπερβολικά.",
+        "clueEn":  "A small-town confrontation escalates when a veteran is pushed too far.",
+        "synopsis":  "Ένας τραυματισμένος βετεράνος του Βιετνάμ χρησιμοποιεί τις γνώσεις επιβίωσής του για να ξεφύγει από ένα επίμονο αστυνομικό κυνηγητό.",
+        "synopsisEn":  "A troubled Vietnam veteran uses his survival skills to escape a relentless police pursuit.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/first_blood/cast-and-crew",
+        "audio":  "media/scene-first-blood.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PtWHgkNH5yU",
+        "audioStart":  52.5,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "StudiocanalUK",
+        "audioSourceTitle":  "Rambo: First Blood | Emotional Scene | Rambo\u0027s Breakdown",
+        "audioSpeechSeconds":  5.21,
+        "audioMaxGap":  0.93,
+        "audioTranscript":  "You asked me, I didn\u0027t ask you. And I did what I had to do to win, but somebody wouldn\u0027t let us win. And I come back to the war."
+    },
+    {
+        "id":  "scarface",
+        "title":  "Scarface",
+        "year":  1983,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ο σημαδεμένος"
+                    ],
+        "supporting":  [
+                           "Robert Loggia",
+                           "Mary Elizabeth Mastrantonio"
+                       ],
+        "leads":  [
+                      "Al Pacino",
+                      "Michelle Pfeiffer"
+                  ],
+        "clue":  "Ένας νεοφερμένος μετανάστης αναζητά εξουσία στην εγκληματική οικονομία του Μαϊάμι.",
+        "clueEn":  "A newly arrived immigrant pursues power in Miami\u0027s criminal economy.",
+        "synopsis":  "Ένας Κουβανός μετανάστης ανεβαίνει στο εμπόριο ναρκωτικών, αλλά η φιλοδοξία και η παράνοια απειλούν όσα αποκτά.",
+        "synopsisEn":  "A Cuban immigrant rises through the drug trade, but ambition and paranoia threaten everything he gains.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/scarface/cast-and-crew",
+        "audio":  "media/scene-scarface.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=fHaOJclkYlk",
+        "audioStart":  11.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movie News",
+        "audioSourceTitle":  "Scarface - The World Chico, And Everything In It (HD)",
+        "audioSpeechSeconds":  5.85,
+        "audioMaxGap":  0.67,
+        "audioTranscript":  "What do you think? Man, that\u0027s the boss and the lady, okay? We\u0027re gonna get us killed already, man. The boss and the lady."
+    },
+    {
+        "id":  "usual-suspects",
+        "title":  "The Usual Suspects",
+        "year":  1995,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Συνήθεις ύποπτοι"
+                    ],
+        "supporting":  [
+                           "Kevin Pollak",
+                           "Chazz Palminteri"
+                       ],
+        "leads":  [
+                      "Kevin Spacey",
+                      "Gabriel Byrne"
+                  ],
+        "clue":  "Μια ανάκριση προσπαθεί να εξηγήσει μια καταστροφική συνάντηση σε λιμάνι.",
+        "clueEn":  "An interrogation attempts to explain a disastrous meeting at a harbour.",
+        "synopsis":  "Ένας επιζών ύποπτος αφηγείται πώς μια αστυνομική αναγνώριση ένωσε πέντε εγκληματίες σε μια μυστηριώδη επιχείρηση.",
+        "synopsisEn":  "A surviving suspect recounts how a police lineup brought five criminals into a mysterious operation.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/usual_suspects/cast-and-crew",
+        "audio":  "media/scene-usual-suspects.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Dp5YwZCGpm0",
+        "audioStart":  56.404,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "The Usual Suspects (1/10) Movie CLIP - The Lineup (1995) HD",
+        "audioSpeechSeconds":  5.69,
+        "audioMaxGap":  0.7,
+        "audioTranscript":  "Hand me the keys, you fucking cocksucker. It was all the cops fault. You don\u0027t put guys like that into a room together."
+    },
+    {
+        "id":  "american-beauty",
+        "title":  "American Beauty",
+        "year":  1999,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Αμέρικαν Μπιούτι"
+                    ],
+        "supporting":  [
+                           "Chris Cooper",
+                           "Allison Janney"
+                       ],
+        "leads":  [
+                      "Kevin Spacey",
+                      "Annette Bening"
+                  ],
+        "clue":  "Η απογοήτευση ενός πατέρα στα προάστια διαλύει την προσεγμένη εικόνα της οικογένειάς του.",
+        "clueEn":  "A suburban father\u0027s frustration disrupts his carefully maintained family image.",
+        "synopsis":  "Ένας δυσαρεστημένος υπάλληλος επαναστατεί ενάντια στη ρουτίνα του, ενώ οι γύρω του κρύβουν τη δική τους δυστυχία.",
+        "synopsisEn":  "A dissatisfied office worker rebels against his routine while the people around him conceal their own unhappiness.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/american_beauty/cast-and-crew",
+        "audio":  "media/scene-american-beauty.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=psNuJuaYqVU",
+        "audioStart":  48.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Woosie Productions",
+        "audioSourceTitle":  "American Beauty How to Quit a Job With Kevin Spacey",
+        "audioSpeechSeconds":  6.84,
+        "audioMaxGap":  0.16,
+        "audioTranscript":  "Institute\u0027s fraud, and I\u0027m sure that some of our advertisers and rival publications might like to know about it as well, not to mention..."
+    },
+    {
+        "id":  "american-history-x",
+        "title":  "American History X",
+        "year":  1998,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μαθήματα αμερικανικής ιστορίας"
+                    ],
+        "supporting":  [
+                           "Beverly D\u0027Angelo",
+                           "Avery Brooks"
+                       ],
+        "leads":  [
+                      "Edward Norton",
+                      "Edward Furlong"
+                  ],
+        "clue":  "Ένας πρώην εξτρεμιστής επιστρέφει ανήσυχος για τον μικρότερο αδερφό του.",
+        "clueEn":  "A former extremist returns home worried about his younger brother.",
+        "synopsis":  "Μετά τη φυλακή, ένας πρώην νεοναζί προσπαθεί να εμποδίσει τον αδερφό του να ακολουθήσει τον βίαιο δρόμο του.",
+        "synopsisEn":  "After prison, a former neo-Nazi tries to prevent his brother from following his violent path.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/american_history_x/cast-and-crew",
+        "audio":  "media/scene-american-history-x.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Tr5zvuYGKyg",
+        "audioStart":  30.708,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movie Story",
+        "audioSourceTitle":  "Fight with the Leader - American History X",
+        "audioSpeechSeconds":  5.91,
+        "audioMaxGap":  0.45,
+        "audioTranscript":  "When I had to check it out, you knew I was going to come. Let the kid alone, Derek. He knows when to go to bed."
+    },
+    {
+        "id":  "requiem-dream",
+        "title":  "Requiem for a Dream",
+        "year":  2000,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ρέκβιεμ για ένα όνειρο"
+                    ],
+        "supporting":  [
+                           "Christopher McDonald",
+                           "Louise Lasser"
+                       ],
+        "leads":  [
+                      "Ellen Burstyn",
+                      "Jared Leto"
+                  ],
+        "clue":  "Μια τηλεοπτική πρόσκληση γίνεται εμμονή, ενώ άλλα όνειρα καταρρέουν γύρω της.",
+        "clueEn":  "A television invitation becomes an obsession while other dreams unravel nearby.",
+        "synopsis":  "Τέσσερις συνδεδεμένοι άνθρωποι επιδιώκουν να αλλάξουν ζωή μέσα από εξαρτήσεις που καταστρέφουν τις ελπίδες και τις σχέσεις τους.",
+        "synopsisEn":  "Four connected people pursue transformed lives through addictions that gradually consume their hopes and relationships.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/requiem_for_a_dream/cast-and-crew",
+        "audio":  "media/scene-requiem-dream.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=XAH0wDA5fRo",
+        "audioStart":  63.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Outstanding Screenplays",
+        "audioSourceTitle":  "Requiem for a Dream - Heartbreaking Argument Scene",
+        "audioSpeechSeconds":  6.74,
+        "audioMaxGap":  0.26,
+        "audioTranscript":  "God damn much, here go fix yourself up with him. You won\u0027t have to fucking wait around so much and I won\u0027t have to freeze my ass off in a fucking straight."
+    },
+    {
+        "id":  "green-book",
+        "title":  "Green Book",
+        "year":  2018,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Το πράσινο βιβλίο"
+                    ],
+        "supporting":  [
+                           "Linda Cardellini",
+                           "Sebastian Maniscalco"
+                       ],
+        "leads":  [
+                      "Viggo Mortensen",
+                      "Mahershala Ali"
+                  ],
+        "clue":  "Ένας μουσικός προσλαμβάνει έναν απρόσμενο οδηγό για περιοδεία στον αμερικανικό Νότο.",
+        "clueEn":  "A musician hires an unlikely driver for a southern concert tour.",
+        "synopsis":  "Ένας μαύρος πιανίστας και ο Ιταλοαμερικανός οδηγός του αναπτύσσουν φιλία ταξιδεύοντας στον Νότο του φυλετικού διαχωρισμού.",
+        "synopsisEn":  "A Black pianist and his Italian-American driver develop a friendship while travelling through the segregated South.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/green_book/cast-and-crew",
+        "audio":  "media/scene-green-book.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JCT1VtaBpqg",
+        "audioStart":  61.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "Green Book (2018) - Fried Chicken Etiquette Scene (2/10) | Movieclips",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "my blanket. Ooh, I\u0027m on the good grease on my blanket. Come on, have a piece. I ain\u0027t gonna kill you. Come on, take it easy. No."
+    },
+    {
+        "id":  "fifth-element",
+        "title":  "The Fifth Element",
+        "year":  1997,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Το πέμπτο στοιχείο"
+                    ],
+        "supporting":  [
+                           "Ian Holm",
+                           "Luke Perry"
+                       ],
+        "leads":  [
+                      "Bruce Willis",
+                      "Milla Jovovich"
+                  ],
+        "clue":  "Η συνηθισμένη βάρδια ενός ταξιτζή διακόπτεται από μια ασυνήθιστη επιβάτισσα.",
+        "clueEn":  "A taxi driver\u0027s ordinary shift is interrupted by an extraordinary passenger.",
+        "synopsis":  "Ένας ταξιτζής του μέλλοντος βοηθά μια μυστηριώδη γυναίκα να βρει αντικείμενα απαραίτητα ενάντια σε μια κοσμική απειλή.",
+        "synopsisEn":  "A futuristic cab driver helps a mysterious woman search for objects needed to confront a cosmic threat.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/fifth_element/cast-and-crew",
+        "audio":  "media/scene-fifth-element.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=N0BkjvUOtX4",
+        "audioStart":  11.028,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Nick Honko",
+        "audioSourceTitle":  "Fifth Element (1997) - General Staedert fires missiles at the ultimate evil",
+        "audioSpeechSeconds":  6.1,
+        "audioMaxGap":  0.74,
+        "audioTranscript":  "Its structure is just solidified on the surface. I think it\u0027s anticipating the attack. Anticipation denotes intelligence. The most."
+    },
+    {
+        "id":  "300",
+        "title":  "300",
+        "year":  2006,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Τριακόσιοι",
+                        "Οι 300"
+                    ],
+        "supporting":  [
+                           "David Wenham",
+                           "Dominic West"
+                       ],
+        "leads":  [
+                      "Gerard Butler",
+                      "Lena Headey"
+                  ],
+        "clue":  "Ένα στενό ορεινό πέρασμα γίνεται επίκεντρο μιας άνισης μάχης.",
+        "clueEn":  "A narrow mountain passage becomes the focus of an unequal battle.",
+        "synopsis":  "Μια στυλιζαρισμένη αφήγηση ακολουθεί Σπαρτιάτες πολεμιστές που υπερασπίζονται τις Θερμοπύλες απέναντι σε πολύ μεγαλύτερο περσικό στρατό.",
+        "synopsisEn":  "A stylised retelling follows Spartan warriors defending Thermopylae against a vastly larger Persian army.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/300/cast-and-crew",
+        "audio":  "media/scene-300.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=hjgff5UqOW8",
+        "audioStart":  148.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "ClipZone: Heroes \u0026 Villains",
+        "audioSourceTitle":  "300 | This Is Sparta! | ClipZone: Heroes \u0026 Villains",
+        "audioSpeechSeconds":  6.39,
+        "audioMaxGap":  0.58,
+        "audioTranscript":  "Will you speak, Persian? Know that in Sparta, everyone, even a king\u0027s messenger, is held accountable for the words of it."
+    },
+    {
+        "id":  "sin-city",
+        "title":  "Sin City",
+        "year":  2005,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Αμαρτωλή πόλη"
+                    ],
+        "supporting":  [
+                           "Devon Aoki",
+                           "Alexis Bledel"
+                       ],
+        "leads":  [
+                      "Mickey Rourke",
+                      "Bruce Willis"
+                  ],
+        "clue":  "Πολλές βίαιες ιστορίες εκτυλίσσονται σε μια πόλη σχεδόν αυστηρά ασπρόμαυρη.",
+        "clueEn":  "Several violent stories unfold in a city rendered mostly in stark monochrome.",
+        "synopsis":  "Αλληλένδετες νουάρ ιστορίες ακολουθούν εγκληματίες, προστάτες και διεφθαρμένες αρχές σε έναν βίαιο αστικό υπόκοσμο.",
+        "synopsisEn":  "Interwoven noir stories follow criminals, protectors and corrupt authorities through a brutal urban underworld.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/sin_city/cast-and-crew",
+        "audio":  "media/scene-sin-city.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JnasVIOLec0",
+        "audioStart":  26.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "valenski",
+        "audioSourceTitle":  "Sin City Illusion of Eloquence",
+        "audioSpeechSeconds":  6.01,
+        "audioMaxGap":  0.38,
+        "audioTranscript":  "Impulsiveness in selecting such an eye-catching and impractical car to heist, Mr. Schluck."
+    },
+    {
+        "id":  "v-vendetta",
+        "title":  "V for Vendetta",
+        "year":  2005,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "V for Vendetta",
+                        "Β για βεντέτα"
+                    ],
+        "supporting":  [
+                           "Stephen Rea",
+                           "Stephen Fry"
+                       ],
+        "leads":  [
+                      "Hugo Weaving",
+                      "Natalie Portman"
+                  ],
+        "clue":  "Ένας μασκοφόρος ξένος παρασύρει μια νεαρή γυναίκα στην αντίσταση κατά ενός αυταρχικού κράτους.",
+        "clueEn":  "A masked stranger draws a young woman into resistance against an authoritarian state.",
+        "synopsis":  "Ένας επαναστάτης και η απρόσμενη σύμμαχός του αμφισβητούν μια δυστοπική βρετανική κυβέρνηση με θεατρικές πράξεις εξέγερσης.",
+        "synopsisEn":  "A revolutionary and his unexpected ally challenge a dystopian British government through theatrical acts of rebellion.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/v_for_vendetta/cast-and-crew",
+        "audio":  "media/scene-v-vendetta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=sQ8l07a4d_0",
+        "audioStart":  45.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "101chickendance",
+        "audioSourceTitle":  "V For Vendetta \"Why they need us\"",
+        "audioSpeechSeconds":  6.74,
+        "audioMaxGap":  0.26,
+        "audioTranscript":  "She\u0027s putting avian flu vaccine on all summer. Outside the quarantine zone, a new airborne pathogen has killed 27 people."
+    },
+    {
+        "id":  "ice-age",
+        "title":  "Ice Age",
+        "year":  2002,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Η εποχή των παγετώνων"
+                    ],
+        "supporting":  [
+                           "Goran Visnjic",
+                           "Jack Black"
+                       ],
+        "leads":  [
+                      "Ray Romano",
+                      "John Leguizamo"
+                  ],
+        "clue":  "Μια απίθανη προϊστορική παρέα αναλαμβάνει την προστασία ενός χαμένου μωρού.",
+        "clueEn":  "An unlikely prehistoric group takes responsibility for a lost infant.",
+        "synopsis":  "Ένα μαμούθ, ένας βραδύπους και μια σμιλόδοντας προσπαθούν να επιστρέψουν ένα ανθρώπινο μωρό στην οικογένειά του.",
+        "synopsisEn":  "A mammoth, a sloth and a sabre-toothed tiger try to return a human baby to its family.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/ice_age/cast-and-crew",
+        "audio":  "media/scene-ice-age.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=fgRnHuXzrY0",
+        "audioStart":  31.14,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Ashley Jameson",
+        "audioSourceTitle":  "Ice Age 2002 Sid intro scene",
+        "audioSpeechSeconds":  5.75,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "For the nippy-air one, I\u0027m just saying, how do we know it\u0027s a night page? Because, of all, the I-"
+    },
+    {
+        "id":  "kung-fu-panda",
+        "title":  "Kung Fu Panda",
+        "year":  2008,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Κουνγκ Φου Πάντα"
+                    ],
+        "supporting":  [
+                           "James Hong",
+                           "Randall Duk Kim"
+                       ],
+        "leads":  [
+                      "Jack Black",
+                      "Dustin Hoffman"
+                  ],
+        "clue":  "Μια απρόσμενη επιλογή ανατρέπει τα σχέδια μιας επίλεκτης σχολής πολεμικών τεχνών.",
+        "clueEn":  "A surprising selection disrupts the plans of an elite martial-arts school.",
+        "synopsis":  "Ένας εργαζόμενος σε μαγαζί με νουντλς προπονείται με απρόθυμους δασκάλους για να αντιμετωπίσει έναν επικίνδυνο δραπέτη μαχητή.",
+        "synopsisEn":  "A noodle-shop worker trains with reluctant masters to confront a dangerous escaped fighter.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/kung_fu_panda/cast-and-crew",
+        "audio":  "media/scene-kung-fu-panda.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=0N4jeeubVnw",
+        "audioStart":  53.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Animation Momentz",
+        "audioSourceTitle":  "Kungfu Panda (2008) - Po argues with Master Shifu",
+        "audioSpeechSeconds":  6.49,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "Let us stop tylong. This is what you\u0027ve trained us for no it is not your destiny to defeat tylong"
+    },
+    {
+        "id":  "tangled",
+        "title":  "Tangled",
+        "year":  2010,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μαλλιά κουβάρια"
+                    ],
+        "supporting":  [
+                           "Donna Murphy",
+                           "Brad Garrett"
+                       ],
+        "leads":  [
+                      "Mandy Moore",
+                      "Zachary Levi"
+                  ],
+        "clue":  "Μια κάτοικος κρυμμένου πύργου κάνει συμφωνία με έναν απρόσμενο εισβολέα.",
+        "clueEn":  "A hidden tower\u0027s resident makes a bargain with an unexpected intruder.",
+        "synopsis":  "Μια προστατευμένη νεαρή αφήνει τον πύργο της μαζί με έναν κλέφτη για να ερευνήσει τα φώτα που βλέπει κάθε χρόνο.",
+        "synopsisEn":  "A sheltered young woman leaves her tower with a thief to investigate floating lights she sees every year.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/tangled/cast-and-crew",
+        "audio":  "media/scene-tangled.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=DNx2PHGpPwQ",
+        "audioStart":  132.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "JoBlo Animation 4K",
+        "audioSourceTitle":  "TANGLED Clip - \"Rapunzel \u0026 Flynn Rider\" (2010)",
+        "audioSpeechSeconds":  5.66,
+        "audioMaxGap":  0.61,
+        "audioTranscript":  "Look, I was being chased, I saw a tower, a climate, and a story. You\u0027re telling the truth? Yes!"
+    },
+    {
+        "id":  "coco",
+        "title":  "Coco",
+        "year":  2017,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Κόκο"
+                    ],
+        "supporting":  [
+                           "Alanna Ubach",
+                           "Renee Victor"
+                       ],
+        "leads":  [
+                      "Anthony Gonzalez",
+                      "Gael García Bernal"
+                  ],
+        "clue":  "Μια οικογενειακή απαγόρευση οδηγεί έναν νεαρό μουσικό σε μια απρόσμενη επανένωση.",
+        "clueEn":  "A family prohibition leads a young musician toward an unexpected reunion.",
+        "synopsis":  "Ένα αγόρι περνά στη Χώρα των Νεκρών και ανακαλύπτει την ιστορία πίσω από την οικογενειακή απόρριψη της μουσικής.",
+        "synopsisEn":  "A boy crosses into the Land of the Dead and uncovers the history behind his family\u0027s rejection of music.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/coco_2017/cast-and-crew",
+        "audio":  "media/scene-coco.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PuLo4yRTqBc",
+        "audioStart":  35.5,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Wishow Samudraw",
+        "audioSourceTitle":  "Coco - Ernesto De La Cruz poisoned Héctor scene",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "songs you took my songs that made you famous what if I\u0027m being forgotten it\u0027s because you never told anyone that I wrote them"
+    },
+    {
+        "id":  "inside-out",
+        "title":  "Inside Out",
+        "year":  2015,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Τα μυαλά που κουβαλάς"
+                    ],
+        "supporting":  [
+                           "Phyllis Smith",
+                           "Richard Kind"
+                       ],
+        "leads":  [
+                      "Amy Poehler",
+                      "Bill Hader"
+                  ],
+        "clue":  "Μια οικογενειακή μετακόμιση προκαλεί κρίση σε ένα πολύ ασυνήθιστο κέντρο ελέγχου.",
+        "clueEn":  "A family move creates a crisis inside a very unusual control room.",
+        "synopsis":  "Προσωποποιημένα συναισθήματα προσπαθούν να καθοδηγήσουν ένα κορίτσι μέσα στην αναστάτωση μιας μετακόμισης.",
+        "synopsisEn":  "Personified emotions struggle to guide a young girl through the upheaval of moving to a new city.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/inside_out_2015/cast-and-crew",
+        "audio":  "media/scene-inside-out.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=NfO-TPic36g",
+        "audioStart":  42.58,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "JoBlo Animation 4K",
+        "audioSourceTitle":  "Pretending To Be Joy Scene | INSIDE OUT (2015) Movie CLIP HD",
+        "audioSpeechSeconds":  6.94,
+        "audioMaxGap":  0.06,
+        "audioTranscript":  "Did you guys pick up on that? Uh-huh, sure. Something\u0027s wrong. Should we ask her? Let\u0027s probe. But keep it subtle so she doesn\u0027t notice."
+    },
+    {
+        "id":  "zootopia",
+        "title":  "Zootopia",
+        "year":  2016,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ζωούπολη",
+                        "Zootropolis"
+                    ],
+        "supporting":  [
+                           "Jenny Slate",
+                           "Nate Torrence"
+                       ],
+        "leads":  [
+                      "Ginnifer Goodwin",
+                      "Jason Bateman"
+                  ],
+        "clue":  "Μια νέα αστυνομικός και ένας απρόσμενος συνεργάτης ερευνούν εξαφανίσεις σε μητρόπολη ζώων.",
+        "clueEn":  "A new officer and an unlikely partner investigate disappearances in an animal metropolis.",
+        "synopsis":  "Μια κουνέλα αστυνομικός συνεργάζεται με μια αλεπού για να αποκαλύψει μια συνωμοσία που διχάζει την πόλη τους.",
+        "synopsisEn":  "A rabbit police officer teams up with a fox to uncover a conspiracy dividing their city.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/zootopia/cast-and-crew",
+        "audio":  "media/scene-zootopia.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=rLHiTYynWkk",
+        "audioStart":  57.588,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "🎥WALL•E MOVIECLIPS, TV CLIPS \u0026 SFX🎥",
+        "audioSourceTitle":  "Zootopia (2016) | Judy Convincing Nick scene | MOVIECLIPS HD",
+        "audioSpeechSeconds":  6.87,
+        "audioMaxGap":  0.13,
+        "audioTranscript":  "You\u0027re gonna want to refrain from calling me Carrots. My bad, I just naturally assumed you came from some little carrot choke podunk, no? Uh, no!"
+    },
+    {
+        "id":  "madagascar",
+        "title":  "Madagascar",
+        "year":  2005,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μαδαγασκάρη"
+                    ],
+        "supporting":  [
+                           "Cedric the Entertainer",
+                           "Andy Richter"
+                       ],
+        "leads":  [
+                      "Ben Stiller",
+                      "Chris Rock"
+                  ],
+        "clue":  "Μια παρέα καλομαθημένων ζώων αντιμετωπίζει ξαφνικά τη ζωή έξω από τον γνώριμο περίβολό της.",
+        "clueEn":  "A group of pampered animals suddenly faces life outside its familiar enclosure.",
+        "synopsis":  "Ζώα ενός ζωολογικού κήπου της Νέας Υόρκης ναυαγούν σε νησί και ανακαλύπτουν τις δυσκολίες της άγριας ζωής.",
+        "synopsisEn":  "New York zoo animals are stranded on an island and discover the difficulties of surviving in the wild.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/madagascar/cast-and-crew",
+        "audio":  "media/scene-madagascar.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=q-ntXu8Ux7I",
+        "audioStart":  2.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Madeline Simmon",
+        "audioSourceTitle":  "Madagascar (2005) Give Me Results Scene",
+        "audioSpeechSeconds":  5.27,
+        "audioMaxGap":  0.9,
+        "audioTranscript":  "It\u0027s no Go Skipper! I don\u0027t know the codes! Don\u0027t give me excuses! Give me results! Navigation!"
+    },
+    {
+        "id":  "taxi-driver",
+        "title":  "Taxi Driver",
+        "year":  1976,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ο ταξιτζής"
+                    ],
+        "supporting":  [
+                           "Albert Brooks",
+                           "Harvey Keitel"
+                       ],
+        "leads":  [
+                      "Robert De Niro",
+                      "Jodie Foster"
+                  ],
+        "clue":  "Οι νυχτερινές βάρδιες βαθαίνουν την αποξένωση ενός μοναχικού βετεράνου από τη Νέα Υόρκη.",
+        "clueEn":  "Night shifts deepen an isolated veteran\u0027s alienation from New York.",
+        "synopsis":  "Ένας διαταραγμένος ταξιτζής αποκτά εμμονή με τη βία και με τη σωτηρία ενός νεαρού κοριτσιού.",
+        "synopsisEn":  "A troubled cab driver develops an obsession with violence and with rescuing a young girl.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/taxi_driver/cast-and-crew",
+        "audio":  "media/scene-taxi-driver.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=rDgXeYlpbOE",
+        "audioStart":  133.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Júlio Fisherman",
+        "audioSourceTitle":  "Taxi Driver - Wizard Advice",
+        "audioSpeechSeconds":  6.17,
+        "audioMaxGap":  0.77,
+        "audioTranscript":  "One guy lives in a certain place. You get a lawyer. Another guy\u0027s a doctor. Another guy dies. Another guy gets well."
+    },
+    {
+        "id":  "band-brothers",
+        "title":  "Band of Brothers",
+        "year":  2001,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Στην πρώτη γραμμή"
+                    ],
+        "supporting":  [
+                           "Neal McDonough",
+                           "Donnie Wahlberg"
+                       ],
+        "leads":  [
+                      "Damian Lewis",
+                      "Ron Livingston"
+                  ],
+        "clue":  "Ένας λόχος εκπαιδεύεται για μια εκστρατεία που θα τον οδηγήσει σε όλη την Ευρώπη.",
+        "clueEn":  "One company trains for a campaign that will take it across Europe.",
+        "synopsis":  "Αμερικανοί αλεξιπτωτιστές βιώνουν τον Β΄ Παγκόσμιο Πόλεμο από την εκπαίδευση μέχρι την τελική προέλαση στη Γερμανία.",
+        "synopsisEn":  "American paratroopers experience the Second World War from training through the final advance into Germany.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/band_of_brothers/cast-and-crew",
+        "audio":  "media/scene-band-brothers.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=jfNXiij5o-A",
+        "audioStart":  21.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "monolegis",
+        "audioSourceTitle":  "Band of Brothers - Get out of my office... GET!",
+        "audioSpeechSeconds":  6.17,
+        "audioMaxGap":  0.64,
+        "audioTranscript":  "WNCOs have disgraced the 101st Abbott. You can tell yourself lucky that we are on the eve of the largest action in history award."
+    },
+    {
+        "id":  "mr-robot",
+        "title":  "Mr. Robot",
+        "year":  2015,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Κύριος Ρομπότ",
+                        "Mr Robot"
+                    ],
+        "supporting":  [
+                           "Carly Chaikin",
+                           "Martin Wallström"
+                       ],
+        "leads":  [
+                      "Rami Malek",
+                      "Christian Slater"
+                  ],
+        "clue":  "Ένας εργαζόμενος κυβερνοασφάλειας μπλέκεται με μια μυστική ομάδα χάκερ.",
+        "clueEn":  "A cybersecurity worker becomes involved with a secretive hacking collective.",
+        "synopsis":  "Ένας απομονωμένος χάκερ συμμετέχει σε σχέδιο υπονόμευσης της εταιρικής εξουσίας, παλεύοντας με τη δική του αντίληψη.",
+        "synopsisEn":  "An isolated hacker is drawn into a plan to undermine corporate power while struggling with his own perception.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/mr_robot/cast-and-crew",
+        "audio":  "media/scene-mr-robot.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=67gYEK4FtzA",
+        "audioStart":  28.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Mr. Robot",
+        "audioSourceTitle":  "I Live For This S*** | Mr. Robot",
+        "audioSpeechSeconds":  6.58,
+        "audioMaxGap":  0.32,
+        "audioTranscript":  "server and it\u0027s AS 400. A far cry from the Android zero days I\u0027m using the only FBI standard issue smartphone."
+    },
+    {
+        "id":  "homeland",
+        "title":  "Homeland",
+        "year":  2011,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Χόμλαντ"
+                    ],
+        "supporting":  [
+                           "Mandy Patinkin",
+                           "Rupert Friend"
+                       ],
+        "leads":  [
+                      "Claire Danes",
+                      "Damian Lewis"
+                  ],
+        "clue":  "Μια αξιωματικός πληροφοριών αμφισβητεί τη δημόσια ιστορία ενός αιχμαλώτου που επιστρέφει.",
+        "clueEn":  "An intelligence officer doubts the public story of a returning prisoner.",
+        "synopsis":  "Μια πράκτορας της CIA ερευνά απειλές μέσα σε αναξιόπιστα στοιχεία, προσωπική αστάθεια και συγκρούσεις στην υπηρεσία της.",
+        "synopsisEn":  "A CIA officer investigates threats while navigating unreliable evidence, personal instability and conflicts within her agency.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/homeland/cast-and-crew",
+        "audio":  "media/scene-homeland.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=4yw8HycLbnM",
+        "audioStart":  51.06,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Scott Schaefer",
+        "audioSourceTitle":  "Homeland s5e1 Quinn tells it like it is in Syria",
+        "audioSpeechSeconds":  6.23,
+        "audioMaxGap":  0.7,
+        "audioTranscript":  "U.S. air strikes prepare targets for surgical intervention by special forces initially against Assad then"
+    },
+    {
+        "id":  "house-cards",
+        "title":  "House of Cards",
+        "year":  2013,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Πύργος από τραπουλόχαρτα"
+                    ],
+        "supporting":  [
+                           "Michael Kelly",
+                           "Jayne Atkinson"
+                       ],
+        "leads":  [
+                      "Kevin Spacey",
+                      "Robin Wright"
+                  ],
+        "clue":  "Μια πολιτική απογοήτευση οδηγεί σε μια προσεκτικά σχεδιασμένη εκστρατεία για περισσότερη εξουσία.",
+        "clueEn":  "A political disappointment prompts a carefully planned campaign for greater power.",
+        "synopsis":  "Ένας φιλόδοξος πολιτικός και η γυναίκα του χειραγωγούν συμμάχους και εχθρούς καθώς ανεβαίνουν στην ιεραρχία της Ουάσιγκτον.",
+        "synopsisEn":  "An ambitious politician and his wife manipulate allies and enemies while climbing Washington\u0027s hierarchy.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/house-of-cards/cast-and-crew",
+        "audio":  "media/scene-house-cards.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Myp3mpzidvc",
+        "audioStart":  15.284,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Torres Yanny",
+        "audioSourceTitle":  "House Of Cards ——You are entitled to nothing（中文字幕）",
+        "audioSpeechSeconds":  6.39,
+        "audioMaxGap":  0.54,
+        "audioTranscript":  "We are driven by our own desire to get re-elected. Our need to stay in power eclipses our duty."
+    },
+    {
+        "id":  "boardwalk",
+        "title":  "Boardwalk Empire",
+        "year":  2010,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Αυτοκρατορία της ποτοαπαγόρευσης"
+                    ],
+        "supporting":  [
+                           "Shea Whigham",
+                           "Michael Stuhlbarg"
+                       ],
+        "leads":  [
+                      "Steve Buscemi",
+                      "Michael Pitt"
+                  ],
+        "clue":  "Ο πολιτικός μηχανισμός μιας παραθαλάσσιας πόλης κερδίζει από ένα πρόσφατα απαγορευμένο εμπόριο.",
+        "clueEn":  "A seaside city\u0027s political machine profits from a newly prohibited trade.",
+        "synopsis":  "Ένας ισχυρός παράγοντας του Ατλάντικ Σίτι διαχειρίζεται τη σχέση πολιτικής και οργανωμένου εγκλήματος κατά την ποτοαπαγόρευση.",
+        "synopsisEn":  "An Atlantic City power broker manages the dangerous overlap of politics and organised crime during Prohibition.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/boardwalk_empire/cast-and-crew",
+        "audio":  "media/scene-boardwalk.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=DJT3xZ9C5Ew",
+        "audioStart":  35.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "yellowfolder",
+        "audioSourceTitle":  "Boardwalk Empire - Rosetti\u0027s Tirade",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0,
+        "audioTranscript":  "I\u0027ve got friends and politics, highly placed friends, is a favorite to them and for my own peace of mind."
+    },
+    {
+        "id":  "deadwood",
+        "title":  "Deadwood",
+        "year":  2004,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ντέντγουντ"
+                    ],
+        "supporting":  [
+                           "Molly Parker",
+                           "Brad Dourif"
+                       ],
+        "leads":  [
+                      "Timothy Olyphant",
+                      "Ian McShane"
+                  ],
+        "clue":  "Ένας παραμεθόριος οικισμός αντιμετωπίζει την αβέβαιη άφιξη του νόμου και των επιχειρήσεων.",
+        "clueEn":  "A frontier settlement negotiates the uneasy arrival of law and business.",
+        "synopsis":  "Κάτοικοι μιας σκληρής μεταλλευτικής πόλης ανταγωνίζονται για εξουσία καθώς η κοινότητά τους οδεύει προς επίσημη αναγνώριση.",
+        "synopsisEn":  "Residents of a rough mining town compete for power as their community moves toward official recognition.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/deadwood/cast-and-crew",
+        "audio":  "media/scene-deadwood.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=aR2r-6EWhvc",
+        "audioStart":  40.564,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "jasperlamarcrabbful",
+        "audioSourceTitle":  "DEADWOOD - Seth \u0026 Sol Begin Negotiating with Al (Part 1).mpg",
+        "audioSpeechSeconds":  6.14,
+        "audioMaxGap":  0.77,
+        "audioTranscript":  "I\u0027d like to ask him what they mean. I fell I drew on Seth this morning. Never heard of him. No one mistook his intentions. Let\u0027s leave it all."
+    },
+    {
+        "id":  "wire",
+        "title":  "The Wire",
+        "year":  2002,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Το σύρμα",
+                        "Δίκτυο παρανομίας"
+                    ],
+        "supporting":  [
+                           "Lance Reddick",
+                           "Wendell Pierce"
+                       ],
+        "leads":  [
+                      "Dominic West",
+                      "Idris Elba"
+                  ],
+        "clue":  "Μια έρευνα σε ολόκληρη πόλη αποκαλύπτει πώς οι θεσμοί εμποδίζουν τους ανθρώπους μέσα τους.",
+        "clueEn":  "A citywide investigation reveals how institutions frustrate the people inside them.",
+        "synopsis":  "Αστυνομικοί, έμποροι ναρκωτικών και άλλες κοινότητες της Βαλτιμόρης αποκαλύπτουν τις αλληλένδετες πιέσεις της αστικής ζωής.",
+        "synopsisEn":  "Police, drug dealers and other Baltimore communities reveal the interconnected pressures shaping urban life.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_wire/cast-and-crew",
+        "audio":  "media/scene-wire.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JDpvkwBBu6U",
+        "audioStart":  41.524,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "WireFans",
+        "audioSourceTitle":  "The Wire | Snoop Buys A Nailgun",
+        "audioSpeechSeconds":  6.84,
+        "audioMaxGap":  0.16,
+        "audioTranscript":  "The Hilti DX460MX or the Simpson PTP, these two are my Cadillacs. Everything else on this board."
+    },
+    {
+        "id":  "oz",
+        "title":  "Oz",
+        "year":  1997,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Οζ"
+                    ],
+        "supporting":  [
+                           "Eamonn Walker",
+                           "Rita Moreno"
+                       ],
+        "leads":  [
+                      "Ernie Hudson",
+                      "J.K. Simmons"
+                  ],
+        "clue":  "Μια πειραματική πτέρυγα φυλακής φέρνει αντίπαλες ομάδες σε διαρκή γειτνίαση.",
+        "clueEn":  "An experimental prison unit brings rival groups into constant proximity.",
+        "synopsis":  "Κρατούμενοι και προσωπικό παλεύουν για επιβίωση και έλεγχο μέσα σε μια φυλακή υψίστης ασφαλείας.",
+        "synopsisEn":  "Inmates and staff struggle for survival and control inside a high-security prison.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/oz/cast-and-crew",
+        "audio":  "media/scene-oz.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=zlIbD00OHUA",
+        "audioStart":  38.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Fearosius",
+        "audioSourceTitle":  "Oz - Conversation between Kareem \u0026 Rebadow",
+        "audioSpeechSeconds":  5.72,
+        "audioMaxGap":  0.64,
+        "audioTranscript":  "You think I\u0027m lying or deluded? Oh, yes. I may well be. I do know sometimes I can see inside men\u0027s-"
+    },
+    {
+        "id":  "shield",
+        "title":  "The Shield",
+        "year":  2002,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Η ασπίδα"
+                    ],
+        "supporting":  [
+                           "CCH Pounder",
+                           "Benito Martinez"
+                       ],
+        "leads":  [
+                      "Michael Chiklis",
+                      "Walton Goggins"
+                  ],
+        "clue":  "Μια ομάδα δίωξης συμμοριών θολώνει το όριο ανάμεσα στην αστυνόμευση και το έγκλημα.",
+        "clueEn":  "An anti-gang unit blurs the boundary between enforcement and criminality.",
+        "synopsis":  "Ένας διεφθαρμένος ντετέκτιβ του Λος Άντζελες προσπαθεί να προστατεύσει την ομάδα του από τις έρευνες για τη δράση τους.",
+        "synopsisEn":  "A corrupt Los Angeles detective tries to protect his team while investigators close in on their misconduct.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_shield/cast-and-crew",
+        "audio":  "media/scene-shield.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=zErSNwAr-3k",
+        "audioStart":  27.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "NOW PLAYING",
+        "audioSourceTitle":  "Dutch Gets a Serial Killer to Confess | The Shield (2002), Season 1, Episode 10 | Now Playing",
+        "audioSpeechSeconds":  6.52,
+        "audioMaxGap":  0.29,
+        "audioTranscript":  "Pathetic. Oh man. What\u0027s going on? Sherlock Holmes here is getting smoked."
+    },
+    {
+        "id":  "justified",
+        "title":  "Justified",
+        "year":  2010,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Δικαιολογημένη βία"
+                    ],
+        "supporting":  [
+                           "Nick Searcy",
+                           "Joelle Carter"
+                       ],
+        "leads":  [
+                      "Timothy Olyphant",
+                      "Walton Goggins"
+                  ],
+        "clue":  "Η μετάθεση ενός ομοσπονδιακού αστυνομικού τον φέρνει απέναντι σε γνώριμα πρόσωπα και παλιές συγκρούσεις.",
+        "clueEn":  "A federal marshal\u0027s reassignment forces him to face familiar people and old conflicts.",
+        "synopsis":  "Ένας ομοσπονδιακός αστυνομικός επιστρέφει στο Κεντάκι, όπου οι μέθοδοί του συγκρούονται με τα τοπικά εγκληματικά δίκτυα.",
+        "synopsisEn":  "A US marshal returns to Kentucky, where his approach to justice collides with local criminal networks.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/justified/cast-and-crew",
+        "audio":  "media/scene-justified.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=QGzUchQCo6M",
+        "audioStart":  30.1,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Clips \u0026 Chill",
+        "audioSourceTitle":  "“I\u0027m Going to Give You Ten Seconds, Then I\u0027m Going to Shoot You.” Art Checks Marcos | Justified",
+        "audioSpeechSeconds":  6.52,
+        "audioMaxGap":  0.42,
+        "audioTranscript":  "We could make it official if you want. I could just arrest you on suspicion, take a look at your jacket, find out where the home office is."
+    },
+    {
+        "id":  "reacher",
+        "title":  "Reacher",
+        "year":  2022,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ρίτσερ"
+                    ],
+        "supporting":  [
+                           "Malcolm Goodwin",
+                           "Maria Sten"
+                       ],
+        "leads":  [
+                      "Alan Ritchson",
+                      "Willa Fitzgerald"
+                  ],
+        "clue":  "Η σύλληψη ενός ταξιδιώτη αποκαλύπτει προβλήματα πολύ μεγαλύτερα από μια μικρή πόλη.",
+        "clueEn":  "A traveller\u0027s arrest exposes problems far beyond one small town.",
+        "synopsis":  "Ένας πρώην στρατιωτικός ερευνητής αποκαλύπτει εγκληματικές συνωμοσίες με εξαιρετική παρατηρητικότητα και πολεμικές ικανότητες.",
+        "synopsisEn":  "A former military investigator uncovers criminal conspiracies using formidable observation and combat skills.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/reacher/cast-and-crew",
+        "audio":  "media/scene-reacher.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=7_f5Kdg59Tc",
+        "audioStart":  19.188,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Prime Video",
+        "audioSourceTitle":  "Reacher Doesn\u0027t Need a Lawyer | REACHER | Prime Video",
+        "audioSpeechSeconds":  6.42,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "Parsley covered by flat and out cardboard boxes. Two 9mm, 95 grain, close range shots to the back of the head."
+    },
+    {
+        "id":  "jack-ryan",
+        "title":  "Tom Clancy\u0027s Jack Ryan",
+        "year":  2018,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Τζακ Ράιαν",
+                        "Jack Ryan"
+                    ],
+        "supporting":  [
+                           "Abbie Cornish",
+                           "Michael Kelly"
+                       ],
+        "leads":  [
+                      "John Krasinski",
+                      "Wendell Pierce"
+                  ],
+        "clue":  "Η οικονομική έρευνα ενός αναλυτή γραφείου τον οδηγεί σε επικίνδυνες επιχειρήσεις πεδίου.",
+        "clueEn":  "A desk analyst\u0027s financial research draws him into dangerous field operations.",
+        "synopsis":  "Ένας αναλυτής της CIA ακολουθεί ύποπτες συναλλαγές και μπλέκεται σε διεθνείς συνωμοσίες και κλιμακούμενες κρίσεις ασφαλείας.",
+        "synopsisEn":  "A CIA analyst follows suspicious transactions into international conspiracies and escalating security crises.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/jack_ryan/cast-and-crew",
+        "audio":  "media/scene-jack-ryan.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=dUJKfAKsVwU",
+        "audioStart":  35.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Amazon Prime Video UK \u0026 IE",
+        "audioSourceTitle":  "Jack Ryan Is Questioned By The Senate Intelligence Committee | Jack Ryan",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0,
+        "audioTranscript":  "Director Miller warned this committee on several occasions about the threat that President Udo presented ideas that the acting director and I do know"
+    },
+    {
+        "id":  "person-interest",
+        "title":  "Person of Interest",
+        "year":  2011,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Πρόσωπο ενδιαφέροντος"
+                    ],
+        "supporting":  [
+                           "Kevin Chapman",
+                           "Taraji P. Henson"
+                       ],
+        "leads":  [
+                      "Jim Caviezel",
+                      "Michael Emerson"
+                  ],
+        "clue":  "Ένα μυστικό σύστημα παράγει αριθμούς συνδεδεμένους με ανθρώπους σε κίνδυνο.",
+        "clueEn":  "A secret system produces numbers linked to people in danger.",
+        "synopsis":  "Ένας πρώην πράκτορας και ένας απομονωμένος εφευρέτης παρεμβαίνουν σε βίαια εγκλήματα που προβλέπει ένα προηγμένο σύστημα παρακολούθησης.",
+        "synopsisEn":  "A former operative and a reclusive inventor intervene in violent crimes predicted by an advanced surveillance system.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/person_of_interest/cast-and-crew",
+        "audio":  "media/scene-person-interest.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=jvmkYe8-gNs",
+        "audioStart":  54.324,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "bloodyadorable",
+        "audioSourceTitle":  "Person of Interest - John keeping control of his temper.wmv",
+        "audioSpeechSeconds":  5.56,
+        "audioMaxGap":  0.74,
+        "audioTranscript":  "of crooked cops in this town, not gonna be hard to find another one just as useful as you, with less baggage."
+    },
+    {
+        "id":  "blacklist",
+        "title":  "The Blacklist",
+        "year":  2013,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Η μαύρη λίστα"
+                    ],
+        "supporting":  [
+                           "Diego Klattenhoff",
+                           "Harry Lennix"
+                       ],
+        "leads":  [
+                      "James Spader",
+                      "Megan Boone"
+                  ],
+        "clue":  "Ένας καταζητούμενος φυγάς προσφέρει συνεργασία με έναν ασυνήθιστο όρο.",
+        "clueEn":  "A wanted fugitive offers cooperation on one unusual condition.",
+        "synopsis":  "Ένας εγκληματίας πληροφοριοδότης βοηθά μια πράκτορα του FBI να εντοπίσει άπιαστους δράστες, κρύβοντας τη σχέση του μαζί της.",
+        "synopsisEn":  "A criminal informant helps an FBI agent locate elusive offenders while concealing his connection to her.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_blacklist/cast-and-crew",
+        "audio":  "media/scene-blacklist.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=B-8XY7KODms",
+        "audioStart":  11.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Clip",
+        "audioSourceTitle":  "Raymond Surrenders Himself To FBI Scene - The Blacklist (Season 1, Episode 1)",
+        "audioSpeechSeconds":  5.34,
+        "audioMaxGap":  0.58,
+        "audioTranscript":  "Good afternoon. You\u0027re the C. Assistant Director Harold Cooper. Do you have an appointment? I do not."
+    },
+    {
+        "id":  "elementary",
+        "title":  "Elementary",
+        "year":  2012,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Στοιχειώδες"
+                    ],
+        "supporting":  [
+                           "Aidan Quinn",
+                           "Jon Michael Hill"
+                       ],
+        "leads":  [
+                      "Jonny Lee Miller",
+                      "Lucy Liu"
+                  ],
+        "clue":  "Μια συμφωνία υποστήριξης κατά την ανάρρωση γίνεται αντισυμβατική ερευνητική συνεργασία.",
+        "clueEn":  "A recovery arrangement develops into an unconventional investigative partnership.",
+        "synopsis":  "Ένας ιδιοφυής ντετέκτιβ και η συνεργάτιδά του λύνουν υποθέσεις στη Νέα Υόρκη με παρατήρηση και επαγωγική σκέψη.",
+        "synopsisEn":  "A brilliant detective and his companion solve New York cases using close observation and deductive reasoning.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/elementary/cast-and-crew",
+        "audio":  "media/scene-elementary.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=meHMdrE4xH4",
+        "audioStart":  56.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Totem",
+        "audioSourceTitle":  "Elementary - Incel Confrontation Scene",
+        "audioSpeechSeconds":  7.0,
+        "audioMaxGap":  0.0,
+        "audioTranscript":  "sex outside of marriage, or another one that says any woman who has an abortion should be forced into government-controlled sex."
+    },
+    {
+        "id":  "castle",
+        "title":  "Castle",
+        "year":  2009,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Κασλ"
+                    ],
+        "supporting":  [
+                           "Jon Huertas",
+                           "Seamus Dever"
+                       ],
+        "leads":  [
+                      "Nathan Fillion",
+                      "Stana Katic"
+                  ],
+        "clue":  "Η έρευνα ενός μυθιστοριογράφου γίνεται μόνιμη συνεργασία με μια ερευνήτρια ανθρωποκτονιών.",
+        "clueEn":  "A novelist\u0027s research turns into an ongoing partnership with a homicide investigator.",
+        "synopsis":  "Ένας συγγραφέας μυστηρίου συμμετέχει στις έρευνες μιας ντετέκτιβ της Νέας Υόρκης και δένεται όλο και περισσότερο μαζί της.",
+        "synopsisEn":  "A mystery writer joins a New York detective\u0027s investigations and develops an increasingly personal connection with her.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/castle/cast-and-crew",
+        "audio":  "media/scene-castle.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=NM8k2ykN4CU",
+        "audioStart":  52.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Becklebee CastleVitalScenes S7 S8",
+        "audioSourceTitle":  "Castle 7x05  Meme is Murder\" Castle Beckett Get Interrogation Clue From Suspect",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "What people made me you were born this way or your mummy made you but Tim witherspoon and the rest of the kids at school"
+    },
+    {
+        "id":  "bones",
+        "title":  "Bones",
+        "year":  2005,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Οστά"
+                    ],
+        "supporting":  [
+                           "Michaela Conlin",
+                           "T.J. Thyne"
+                       ],
+        "leads":  [
+                      "Emily Deschanel",
+                      "David Boreanaz"
+                  ],
+        "clue":  "Μια ειδικός εργαστηρίου και ένας ομοσπονδιακός πράκτορας προσεγγίζουν τα στοιχεία πολύ διαφορετικά.",
+        "clueEn":  "A laboratory specialist and a federal agent approach evidence very differently.",
+        "synopsis":  "Μια δικαστική ανθρωπολόγος βοηθά έναν πράκτορα του FBI να αναγνωρίσει θύματα και να λύσει εγκλήματα από ανθρώπινα λείψανα.",
+        "synopsisEn":  "A forensic anthropologist helps an FBI agent identify victims and solve crimes from human remains.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/bones/cast-and-crew",
+        "audio":  "media/scene-bones.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=zlxu3CdaJu8",
+        "audioStart":  23.46,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "petiteJuzzie",
+        "audioSourceTitle":  "Bones: Plastic surgery is barbaric!!",
+        "audioSpeechSeconds":  6.94,
+        "audioMaxGap":  0.06,
+        "audioTranscript":  "I don\u0027t know what that means. LA Speak for Call Girl."
+    },
+    {
+        "id":  "psych",
+        "title":  "Psych",
+        "year":  2006,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ψυχ",
+                        "Πσαϊκ"
+                    ],
+        "supporting":  [
+                           "Timothy Omundson",
+                           "Maggie Lawson"
+                       ],
+        "leads":  [
+                      "James Roday Rodriguez",
+                      "Dulé Hill"
+                  ],
+        "clue":  "Ένας παρατηρητικός σύμβουλος κρύβει τις ικανότητές του πίσω από έναν περίπλοκο ισχυρισμό.",
+        "clueEn":  "An observant consultant disguises his abilities behind an elaborate claim.",
+        "synopsis":  "Ένας ετοιμόλογος άντρας προσποιείται ότι είναι μέντιουμ, λύνοντας αστυνομικές υποθέσεις με τον καλύτερό του φίλο.",
+        "synopsisEn":  "A quick-witted man pretends to be psychic while solving police cases with his best friend.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/psych/cast-and-crew",
+        "audio":  "media/scene-psych.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Hp5cfFwWmkQ",
+        "audioStart":  47.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Psych Official",
+        "audioSourceTitle":  "Psych, Legal Consultants | Psych",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "from the lead psychic detective at the SPPD. Yeah, I\u0027m a little busy. I can see you\u0027re doing a bang-up job. Please don\u0027t stop."
+    },
+    {
+        "id":  "monk",
+        "title":  "Monk",
+        "year":  2002,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ντετέκτιβ Μονκ"
+                    ],
+        "supporting":  [
+                           "Ted Levine",
+                           "Jason Gray-Stanford"
+                       ],
+        "leads":  [
+                      "Tony Shalhoub",
+                      "Traylor Howard"
+                  ],
+        "clue":  "Οι καθημερινές συνήθειες ενός ιδιοφυούς συμβούλου κάνουν τις απλές καταστάσεις ασυνήθιστα περίπλοκες.",
+        "clueEn":  "A brilliant consultant\u0027s everyday routines make ordinary situations unusually complicated.",
+        "synopsis":  "Ένας πρώην ντετέκτιβ με ιδεοψυχαναγκαστική διαταραχή λύνει εγκλήματα, αντιμετωπίζοντας την απώλεια της γυναίκας του.",
+        "synopsisEn":  "A former detective with obsessive-compulsive disorder solves crimes while coping with the aftermath of his wife\u0027s death.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/monk/cast-and-crew",
+        "audio":  "media/scene-monk.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=8kuUFOFAew0",
+        "audioStart":  16.164,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Knocking Rock Productions",
+        "audioSourceTitle":  "Funniest Scene on Monk",
+        "audioSpeechSeconds":  5.94,
+        "audioMaxGap":  0.58,
+        "audioTranscript":  "What are you doing? What are you doing? I\u0027m leaning in. Yeah, I went to law school for three semesters. You can lean anywhere you want. It\u0027s in the Constitution."
+    },
+    {
+        "id":  "lie-to-me",
+        "title":  "Lie to Me",
+        "year":  2009,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μη μου λες ψέματα"
+                    ],
+        "supporting":  [
+                           "Brendan Hines",
+                           "Monica Raymund"
+                       ],
+        "leads":  [
+                      "Tim Roth",
+                      "Kelli Williams"
+                  ],
+        "clue":  "Μια συμβουλευτική ομάδα μελετά φευγαλέες εκφράσεις για να ερευνήσει κρυφές πληροφορίες.",
+        "clueEn":  "A consultancy studies fleeting expressions to investigate concealed information.",
+        "synopsis":  "Ειδικοί στις εκφράσεις προσώπου και στη γλώσσα του σώματος βοηθούν έρευνες που περιλαμβάνουν εξαπάτηση.",
+        "synopsisEn":  "Specialists in facial expressions and body language assist investigations involving deception.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/lie_to_me/cast-and-crew",
+        "audio":  "media/scene-lie-to-me.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=owF4T1HIpOA",
+        "audioStart":  6.596,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "pretty_good",
+        "audioSourceTitle":  "Radical Honesty",
+        "audioSpeechSeconds":  6.65,
+        "audioMaxGap":  0.32,
+        "audioTranscript":  "Eli Loca, Rhea Torres, he\u0027s homeless, just always speaks the truth about what\u0027s on his mind, what do you call it again? Radical Honour."
+    },
+    {
+        "id":  "white-collar",
+        "title":  "White Collar",
+        "year":  2009,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Γουάιτ Κόλαρ"
+                    ],
+        "supporting":  [
+                           "Willie Garson",
+                           "Tiffani Thiessen"
+                       ],
+        "leads":  [
+                      "Matt Bomer",
+                      "Tim DeKay"
+                  ],
+        "clue":  "Η συμφωνία ενός κρατουμένου δημιουργεί ασυνήθιστη συνεργασία σε μια ομοσπονδιακή ομάδα απάτης.",
+        "clueEn":  "A prisoner\u0027s deal creates an unusual partnership inside a federal fraud unit.",
+        "synopsis":  "Ένας ευφυής απατεώνας βοηθά έναν πράκτορα του FBI σε υποθέσεις πλαστογραφίας, κλοπής και οικονομικού εγκλήματος.",
+        "synopsisEn":  "A sophisticated con artist helps an FBI agent investigate forgery, theft and financial crimes.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/white_collar/cast-and-crew",
+        "audio":  "media/scene-white-collar.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=nFIssUKc2EE",
+        "audioStart":  61.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Aisyah Bakery",
+        "audioSourceTitle":  "Best Cold Call Ever from White Collar",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "Monday, the FDA will approve them to begin clinical trials on a quantum-confined nanotechnology that has the potential to transform cancer medicine."
+    },
+    {
+        "id":  "burn-notice",
+        "title":  "Burn Notice",
+        "year":  2007,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Πρακτοροδουλειές"
+                    ],
+        "supporting":  [
+                           "Bruce Campbell",
+                           "Sharon Gless"
+                       ],
+        "leads":  [
+                      "Jeffrey Donovan",
+                      "Gabrielle Anwar"
+                  ],
+        "clue":  "Ένας αποκομμένος πράκτορας χρησιμοποιεί αυτοσχέδιες μεθόδους για να βοηθά πελάτες στο Μαϊάμι.",
+        "clueEn":  "A cut-off operative uses improvised methods to help clients in Miami.",
+        "synopsis":  "Ένας αποκηρυγμένος κατάσκοπος ερευνά ποιος τερμάτισε την καριέρα του, αναλαμβάνοντας επικίνδυνες δουλειές με έμπιστους συνεργάτες.",
+        "synopsisEn":  "A disavowed spy investigates who ended his career while taking dangerous jobs with trusted associates.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/burn_notice/cast-and-crew",
+        "audio":  "media/scene-burn-notice.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=EGwCXbu5Ie8",
+        "audioStart":  62.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Benjamin Hare",
+        "audioSourceTitle":  "Michael Westen is a priest",
+        "audioSpeechSeconds":  6.87,
+        "audioMaxGap":  0.13,
+        "audioTranscript":  "It\u0027s not Eric\u0027s fault. He needs help and care. Yeah, yeah, yeah, he\u0027s lying! Do you quit? Come on! Enough! Come on, you gotta believe me!"
+    },
+    {
+        "id":  "scrubs",
+        "title":  "Scrubs",
+        "year":  2001,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Σκραμπς"
+                    ],
+        "supporting":  [
+                           "Neil Flynn",
+                           "Ken Jenkins"
+                       ],
+        "leads":  [
+                      "Zach Braff",
+                      "Donald Faison"
+                  ],
+        "clue":  "Οι καθημερινές εμπειρίες ενός νέου νοσοκομειακού γιατρού γίνονται συχνά περίπλοκες ονειροπολήσεις.",
+        "clueEn":  "A new hospital doctor\u0027s daily experiences frequently turn into elaborate daydreams.",
+        "synopsis":  "Νέοι γιατροί μαθαίνουν ιατρική, φιλία και ευθύνη μέσα από την κωμική και συγκινητική ζωή ενός εκπαιδευτικού νοσοκομείου.",
+        "synopsisEn":  "Young doctors learn medicine, friendship and responsibility through the comic and emotional life of a teaching hospital.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/scrubs/cast-and-crew",
+        "audio":  "media/scene-scrubs.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=MZ8zGDYtfr4",
+        "audioStart":  0.932,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "scotty2601",
+        "audioSourceTitle":  "Scrubs Seamless Collaborative Guy Lie (extended)",
+        "audioSpeechSeconds":  6.27,
+        "audioMaxGap":  0.38,
+        "audioTranscript":  "Sucks about having a hot nanny. I can\u0027t even look at Heather without Carla going ballistic. Skeptical air five."
+    },
+    {
+        "id":  "new-girl",
+        "title":  "New Girl",
+        "year":  2011,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Το νέο κορίτσι"
+                    ],
+        "supporting":  [
+                           "Lamorne Morris",
+                           "Hannah Simone"
+                       ],
+        "leads":  [
+                      "Zooey Deschanel",
+                      "Jake Johnson"
+                  ],
+        "clue":  "Ένας δύσκολος χωρισμός οδηγεί μια δασκάλα σε ένα ασυνήθιστο κοινόχρηστο διαμέρισμα.",
+        "clueEn":  "A difficult breakup leads a teacher into an unusual shared apartment.",
+        "synopsis":  "Μια χαρούμενη δασκάλα συγκατοικεί με τρεις άντρες, αλλάζοντας τις φιλίες και τις ερωτικές τους ζωές.",
+        "synopsisEn":  "A cheerful teacher moves in with three men, reshaping their friendships and romantic lives.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/new_girl/cast-and-crew",
+        "audio":  "media/scene-new-girl.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=3EW17CSJX8c",
+        "audioStart":  26.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Still Watching Netflix",
+        "audioSourceTitle":  "All of Olivia Rodrigo\u0027s Scenes in New Girl | Netflix",
+        "audioSpeechSeconds":  6.58,
+        "audioMaxGap":  0.42,
+        "audioTranscript":  "Oh, and she\u0027s a rinko, so I\u0027m a romance. Guys, Pepperwood\u0027s about way more than just a romance."
+    },
+    {
+        "id":  "community",
+        "title":  "Community",
+        "year":  2009,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Κομιούνιτι"
+                    ],
+        "supporting":  [
+                           "Danny Pudi",
+                           "Yvette Nicole Brown"
+                       ],
+        "leads":  [
+                      "Joel McHale",
+                      "Gillian Jacobs"
+                  ],
+        "clue":  "Μια ομάδα μελέτης μετατρέπει διαρκώς συνηθισμένα πανεπιστημιακά γεγονότα σε περίπλοκες περιπέτειες.",
+        "clueEn":  "A study group repeatedly turns ordinary campus events into elaborate adventures.",
+        "synopsis":  "Μια απρόσμενη ομάδα φοιτητών κοινοτικού κολεγίου γίνεται παρέα μέσα σε παράλογα μαθήματα και πανεπιστημιακές αντιπαλότητες.",
+        "synopsisEn":  "An unlikely group of community-college students forms a friendship amid absurd classes and campus rivalries.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/community/cast-and-crew",
+        "audio":  "media/scene-community.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=7-bJzvEl_do",
+        "audioStart":  47.604,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Community",
+        "audioSourceTitle":  "Jeff Wins An Argument Against Annie | Community",
+        "audioSpeechSeconds":  6.94,
+        "audioMaxGap":  0.06,
+        "audioTranscript":  "Why, I\u0027m keeping you after class? Not really. Ski cap and white Dave got lots of stuff wrong, too. Get the teacher, Jeff. You don\u0027t have to rub it in. What I saw today?"
+    },
+    {
+        "id":  "parks-rec",
+        "title":  "Parks and Recreation",
+        "year":  2009,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Πάρκα και αναψυχή"
+                    ],
+        "supporting":  [
+                           "Retta",
+                           "Jim O\u0027Heir"
+                       ],
+        "leads":  [
+                      "Amy Poehler",
+                      "Nick Offerman"
+                  ],
+        "clue":  "Ένα μικρό δημοτικό έργο αποκαλύπτει τις εκκεντρικές συνήθειες της τοπικής αυτοδιοίκησης.",
+        "clueEn":  "A small municipal project exposes the eccentric routines of local government.",
+        "synopsis":  "Μια ενθουσιώδης δημόσια υπάλληλος προσπαθεί να βελτιώσει την πόλη της στην Ιντιάνα με μια αταίριαστη ομάδα συνεργατών.",
+        "synopsisEn":  "An enthusiastic public servant tries to improve her Indiana town with a mismatched team of colleagues.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/parks_and_recreation/cast-and-crew",
+        "audio":  "media/scene-parks-rec.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=0Bq9TOA7EiQ",
+        "audioStart":  62.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Parks and Recreation",
+        "audioSourceTitle":  "Ron Swanson Meets Ron Dunn | Parks and Recreation",
+        "audioSpeechSeconds":  6.94,
+        "audioMaxGap":  0.06,
+        "audioTranscript":  "in Pawnee value loyalty above all else. So would you be opposed to signing an official loyalty pledge?"
+    },
+    {
+        "id":  "arrested-development",
+        "title":  "Arrested Development",
+        "year":  2003,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Αρέστεντ Ντιβέλοπμεντ"
+                    ],
+        "supporting":  [
+                           "Tony Hale",
+                           "Alia Shawkat"
+                       ],
+        "leads":  [
+                      "Jason Bateman",
+                      "Michael Cera"
+                  ],
+        "clue":  "Η οικονομική κατάρρευση μιας οικογένειας αφήνει το πιο υπεύθυνο μέλος της να διαχειρίζεται το χάος.",
+        "clueEn":  "A family\u0027s financial collapse leaves its most responsible member managing the chaos.",
+        "synopsis":  "Ένας άντρας προσπαθεί να ξαναχτίσει την οικογενειακή περιουσία, ενώ οι συγγενείς του σαμποτάρουν διαρκώς τις προσπάθειές του.",
+        "synopsisEn":  "A man tries to rebuild his family\u0027s fortunes while his relatives repeatedly sabotage his efforts.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/arrested_development/cast-and-crew",
+        "audio":  "media/scene-arrested-development.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=DbCM6WvB57c",
+        "audioStart":  7.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Gabriel Carden",
+        "audioSourceTitle":  "Arrested Development - Hello, Who\u0027s on this phone?",
+        "audioSpeechSeconds":  6.52,
+        "audioMaxGap":  0.48,
+        "audioTranscript":  "You know about family and being true to ourselves. Oh, well, I\u0027m glad it made an impact"
+    },
+    {
+        "id":  "frasier",
+        "title":  "Frasier",
+        "year":  1993,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Φρέιζερ"
+                    ],
+        "supporting":  [
+                           "Jane Leeves",
+                           "Peri Gilpin"
+                       ],
+        "leads":  [
+                      "Kelsey Grammer",
+                      "David Hyde Pierce"
+                  ],
+        "clue":  "Οι συμβουλές ενός ραδιοφωνικού ψυχιάτρου δίνονται πιο εύκολα από όσο εφαρμόζονται στο σπίτι.",
+        "clueEn":  "A radio psychiatrist\u0027s advice is often easier to give than to follow at home.",
+        "synopsis":  "Ένας ραδιοφωνικός παρουσιαστής στο Σιάτλ διαχειρίζεται σχέσεις με τον ανταγωνιστικό αδερφό, τον συνταξιούχο πατέρα και τους αντισυμβατικούς συνεργάτες του.",
+        "synopsisEn":  "A Seattle radio host negotiates relationships with his competitive brother, retired father and unconventional colleagues.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/frasier/cast-and-crew",
+        "audio":  "media/scene-frasier.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=qM-LRxv2hrk",
+        "audioStart":  160.756,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "A Mug Of Ale Is Always Needed",
+        "audioSourceTitle":  "Almost every call In on the Frasier crane show [Frasier 1993]",
+        "audioSpeechSeconds":  5.98,
+        "audioMaxGap":  0.96,
+        "audioTranscript":  "I\u0027m sure he appreciated your candor. Maybe sometimes I ought to just learn how to keep my trap shut. That\u0027s good advice for us all."
+    },
+    {
+        "id":  "cheers",
+        "title":  "Cheers",
+        "year":  1982,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Στην υγειά μας"
+                    ],
+        "supporting":  [
+                           "George Wendt",
+                           "John Ratzenberger"
+                       ],
+        "leads":  [
+                      "Ted Danson",
+                      "Shelley Long"
+                  ],
+        "clue":  "Ένα συνοικιακό μπαρ γίνεται δεύτερο σπίτι για τους τακτικούς πελάτες του.",
+        "clueEn":  "A neighbourhood bar becomes a second home for its regular customers.",
+        "synopsis":  "Το προσωπικό και οι θαμώνες ενός μπαρ στη Βοστώνη μοιράζονται έρωτες, καβγάδες και τις δυσκολίες της καθημερινότητας.",
+        "synopsisEn":  "The staff and regulars of a Boston bar share romances, arguments and the complications of everyday life.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/cheers/cast-and-crew",
+        "audio":  "media/scene-cheers.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ABNqMLcHSf0",
+        "audioStart":  56.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Roxy Cakes",
+        "audioSourceTitle":  "Cheers - Norm Peterson funny moments Part 1 HD",
+        "audioSpeechSeconds":  6.26,
+        "audioMaxGap":  0.54,
+        "audioTranscript":  "Right on the corner, use the payphone, call her up, she turns me down. What do you mean? Yeah, no, I\u0027ll come to you if you\u0027re in a bad mood."
+    },
+    {
+        "id":  "sex-city",
+        "title":  "Sex and the City",
+        "year":  1998,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Σεξ και η πόλη"
+                    ],
+        "supporting":  [
+                           "Willie Garson",
+                           "David Eigenberg"
+                       ],
+        "leads":  [
+                      "Sarah Jessica Parker",
+                      "Kim Cattrall"
+                  ],
+        "clue":  "Μια αρθρογράφος και οι φίλες της συζητούν για σχέσεις μέσα στη ζωή του Μανχάταν.",
+        "clueEn":  "A columnist and her friends debate relationships over life in Manhattan.",
+        "synopsis":  "Τέσσερις Νεοϋορκέζες αντιμετωπίζουν τη φιλία, τη δουλειά και τις μεταβαλλόμενες προσδοκίες για τον έρωτα και την οικειότητα.",
+        "synopsisEn":  "Four New York women navigate friendship, work and changing expectations about love and intimacy.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/sex_and_the_city/cast-and-crew",
+        "audio":  "media/scene-sex-city.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=RBeRkZ2KoLI",
+        "audioStart":  17.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "SEX AND THE CITY 𝓐𝓻𝓬𝓱𝓲𝓿𝓮𝓼",
+        "audioSourceTitle":  "S1E01 Clip | Power-hungry New York Women",
+        "audioSpeechSeconds":  6.87,
+        "audioMaxGap":  0.13,
+        "audioTranscript":  "controlling relationships. By the time you\u0027re an eligible man in your thirties, you feel like you\u0027re being devoured by women."
+    },
+    {
+        "id":  "that70show",
+        "title":  "That \u002770s Show",
+        "year":  1998,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Εκείνα τα 70s"
+                    ],
+        "supporting":  [
+                           "Debra Jo Rupp",
+                           "Don Stark"
+                       ],
+        "leads":  [
+                      "Topher Grace",
+                      "Ashton Kutcher"
+                  ],
+        "clue":  "Ένα υπόγειο στο Ουισκόνσιν γίνεται το κέντρο μιας εφηβικής παρέας.",
+        "clueEn":  "A Wisconsin basement becomes the centre of a teenage friendship group.",
+        "synopsis":  "Μια παρέα μεγαλώνει μέσα σε οικογενειακές συγκρούσεις, έρωτες και πολιτισμικές αλλαγές στα αμερικανικά προάστια των τέλους των 70s.",
+        "synopsisEn":  "Friends grow up amid family conflicts, romance and changing culture in late-1970s suburban America.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/that_70s_show/cast-and-crew",
+        "audio":  "media/scene-that70show.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=mErRgHKr-1M",
+        "audioStart":  22.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Dutch.series",
+        "audioSourceTitle":  "6x16 part 1 \"EVERYONE WANTS JACKIE\u0027S MOM!!\" That 70s Show funniest moments",
+        "audioSpeechSeconds":  6.42,
+        "audioMaxGap":  0.29,
+        "audioTranscript":  "Friend over. No kitty, don\u0027t be ridiculous. I\u0027m just happy. Now, why do you want to ruin my happiness? Because that\u0027s what a wife does."
+    },
+    {
+        "id":  "married-children",
+        "title":  "Married... with Children",
+        "year":  1987,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Παντρεμένοι με παιδιά"
+                    ],
+        "supporting":  [
+                           "Amanda Bearse",
+                           "David Garrison"
+                       ],
+        "leads":  [
+                      "Ed O\u0027Neill",
+                      "Katey Sagal"
+                  ],
+        "clue":  "Το σπίτι ενός πωλητή παπουτσιών προσφέρει ελάχιστη ανακούφιση από την απογοητευτική εργάσιμη μέρα του.",
+        "clueEn":  "A shoe salesman\u0027s home offers little relief from his disappointing working day.",
+        "synopsis":  "Μια δυσλειτουργική οικογένεια του Σικάγο συγκρούεται για χρήματα, φιλοδοξίες και οικιακές υποχρεώσεις.",
+        "synopsisEn":  "A dysfunctional Chicago family clashes over money, ambitions and domestic responsibilities.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/married_with_children/cast-and-crew",
+        "audio":  "media/scene-married-children.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=uEubBPOZrVI",
+        "audioStart":  45.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Null",
+        "audioSourceTitle":  "Married...With Children - Bud\u0027s Movie Theatre Scene",
+        "audioSpeechSeconds":  5.53,
+        "audioMaxGap":  0.67,
+        "audioTranscript":  "is to see films with the public. This time I wanna watch a film exactly as the people do. So, if you don\u0027t mind."
+    },
+    {
+        "id":  "full-house",
+        "title":  "Full House",
+        "year":  1987,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μια τρελή οικογένεια"
+                    ],
+        "supporting":  [
+                           "Dave Coulier",
+                           "Lori Loughlin"
+                       ],
+        "leads":  [
+                      "Bob Saget",
+                      "John Stamos"
+                  ],
+        "clue":  "Ένας χήρος πατέρας ζητά απρόσμενη βοήθεια για να μεγαλώσει τρεις κόρες.",
+        "clueEn":  "A widowed father recruits unexpected help to raise three daughters.",
+        "synopsis":  "Τρεις άντρες μοιράζονται τη φροντίδα παιδιών σε ένα σπίτι στο Σαν Φρανσίσκο με οικογενειακά μαθήματα και κωμικές αναποδιές.",
+        "synopsisEn":  "Three men share parenting duties in a San Francisco home filled with family lessons and comic mishaps.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/full_house/cast-and-crew",
+        "audio":  "media/scene-full-house.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=1mMwx-2wQn4",
+        "audioStart":  26.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Warner Bros. TV",
+        "audioSourceTitle":  "You\u0027re In Big Trouble, Mister | Full House",
+        "audioSpeechSeconds":  6.17,
+        "audioMaxGap":  0.74,
+        "audioTranscript":  "Look, I don\u0027t know what he did, but I can\u0027t find Grandma or Becky, so I have to go down myself and bail him out."
+    },
+    {
+        "id":  "golden-girls",
+        "title":  "The Golden Girls",
+        "year":  1985,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Τα χρυσά κορίτσια"
+                    ],
+        "supporting":  [
+                           "Herb Edelman",
+                           "Harold Gould"
+                       ],
+        "leads":  [
+                      "Bea Arthur",
+                      "Betty White"
+                  ],
+        "clue":  "Τέσσερις μεγαλύτερες συγκάτοικοι ανακαλύπτουν ότι η φιλία δεν εξαφανίζει τις οικιακές διαφωνίες.",
+        "clueEn":  "Four older housemates find that friendship does not eliminate domestic disagreements.",
+        "synopsis":  "Γυναίκες που μοιράζονται ένα σπίτι στο Μαϊάμι στηρίζονται σε έρωτες, οικογενειακά προβλήματα και αλλαγές της ώριμης ζωής.",
+        "synopsisEn":  "Women sharing a Miami home support each other through dating, family troubles and later-life changes.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_golden_girls/cast-and-crew",
+        "audio":  "media/scene-golden-girls.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=hhYoDlpFs7o",
+        "audioStart":  50.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "A FUSCO - Classic TV",
+        "audioSourceTitle":  "THE GOLDEN GIRLS - \"The Girls Talk About Sex\" - 1985",
+        "audioSpeechSeconds":  6.52,
+        "audioMaxGap":  0.48,
+        "audioTranscript":  "would drive in with Stanley. He said he was being shipped off to Korea and would probably die and it would mean so much."
+    },
+    {
+        "id":  "buffy",
+        "title":  "Buffy the Vampire Slayer",
+        "year":  1997,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μπάφι η φονιάς των βρικολάκων"
+                    ],
+        "supporting":  [
+                           "Nicholas Brendon",
+                           "Emma Caulfield"
+                       ],
+        "leads":  [
+                      "Sarah Michelle Gellar",
+                      "Alyson Hannigan"
+                  ],
+        "clue":  "Μια νέα μαθήτρια ανακαλύπτει ότι η τοποθεσία του σχολείου της προσελκύει ασυνήθιστους κινδύνους.",
+        "clueEn":  "A new student discovers that her school\u0027s location attracts unusual dangers.",
+        "synopsis":  "Μια έφηβη κυνηγός βρικολάκων συνδυάζει σχολείο και φιλίες με την προστασία της πόλης της από υπερφυσικές απειλές.",
+        "synopsisEn":  "A teenage vampire hunter balances school and friendship with protecting her town from supernatural threats.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/buffy_the_vampire_slayer/cast-and-crew",
+        "audio":  "media/scene-buffy.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=7I_oiUcHOlQ",
+        "audioStart":  14.164,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "GUBBY",
+        "audioSourceTitle":  "Cerwin-Vega! - Series clips - Buffy the Vampire Slayer S4 E6",
+        "audioSpeechSeconds":  5.98,
+        "audioMaxGap":  0.64,
+        "audioTranscript":  "We could stay up all night if we want to say bring her on kid make our willing sex bunny"
+    },
+    {
+        "id":  "x-files",
+        "title":  "The X-Files",
+        "year":  1993,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Φάκελοι Χ"
+                    ],
+        "supporting":  [
+                           "Mitch Pileggi",
+                           "William B. Davis"
+                       ],
+        "leads":  [
+                      "David Duchovny",
+                      "Gillian Anderson"
+                  ],
+        "clue":  "Δύο ομοσπονδιακοί πράκτορες διαφωνούν για την εξήγηση των πιο παράξενων ερευνών τους.",
+        "clueEn":  "Two federal agents disagree about how to explain their strangest investigations.",
+        "synopsis":  "Ένας πράκτορας του FBI που πιστεύει στο ανεξήγητο και μια επιστημονικά σκεπτόμενη συνάδελφος ερευνούν φαινόμενα και μια ευρύτερη συνωμοσία.",
+        "synopsisEn":  "An FBI believer and a scientific sceptic investigate unexplained phenomena and evidence of a wider conspiracy.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_x_files/cast-and-crew",
+        "audio":  "media/scene-x-files.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=KomquOrtcCc",
+        "audioStart":  62.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Artem Baranov",
+        "audioSourceTitle":  "The X-Files - Scully meets Mulder for the first time [1x01 - Pilot]",
+        "audioSpeechSeconds":  6.36,
+        "audioMaxGap":  0.64,
+        "audioTranscript":  "Einstein\u0027s Twin Paradox, a new interpretation, Dana Scully\u0027s senior thesis, now that\u0027s a credential."
+    },
+    {
+        "id":  "fringe",
+        "title":  "Fringe",
+        "year":  2008,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Στο περιθώριο"
+                    ],
+        "supporting":  [
+                           "Jasika Nicole",
+                           "Lance Reddick"
+                       ],
+        "leads":  [
+                      "Anna Torv",
+                      "Joshua Jackson"
+                  ],
+        "clue":  "Μια ομοσπονδιακή έρευνα συναντά διαρκώς πειράματα πέρα από την αποδεκτή επιστήμη.",
+        "clueEn":  "A federal investigation repeatedly encounters experiments beyond accepted science.",
+        "synopsis":  "Μια πράκτορας, ένας ιδιοφυής επιστήμονας και ο γιος του ερευνούν παράξενα γεγονότα συνδεδεμένα με ασυνήθιστη επιστημονική έρευνα.",
+        "synopsisEn":  "An agent, a brilliant scientist and his son investigate strange events linked to extraordinary scientific research.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/fringe/cast-and-crew",
+        "audio":  "media/scene-fringe.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=zG8D2_sYbUI",
+        "audioStart":  44.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Tim Ballantine",
+        "audioSourceTitle":  "Fringe - Potassium Bromate..??",
+        "audioSpeechSeconds":  6.33,
+        "audioMaxGap":  0.48,
+        "audioTranscript":  "It\u0027s known to induce renal cell tumors, and vessel thelioomas of the pertinium. Can I call someone for you?"
+    },
+    {
+        "id":  "heroes",
+        "title":  "Heroes",
+        "year":  2006,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ήρωες"
+                    ],
+        "supporting":  [
+                           "Jack Coleman",
+                           "Greg Grunberg"
+                       ],
+        "leads":  [
+                      "Milo Ventimiglia",
+                      "Hayden Panettiere"
+                  ],
+        "clue":  "Συνηθισμένοι άνθρωποι ανακαλύπτουν ικανότητες που συνδέουν τις φαινομενικά άσχετες ζωές τους.",
+        "clueEn":  "Ordinary people discover abilities that connect their apparently separate lives.",
+        "synopsis":  "Άνθρωποι με υπερφυσικές δυνάμεις ανακαλύπτουν κοινές απειλές και μια πιθανή καταστροφή που πρέπει να αποτρέψουν.",
+        "synopsisEn":  "People with extraordinary powers gradually uncover shared threats and a possible catastrophe they must prevent.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/heroes/cast-and-crew",
+        "audio":  "media/scene-heroes.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=mefMHNCHf0M",
+        "audioStart":  45.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Heroes",
+        "audioSourceTitle":  "Hollow Him Out | Heroes",
+        "audioSpeechSeconds":  5.85,
+        "audioMaxGap":  0.7,
+        "audioTranscript":  "And from my perspective, she\u0027s the more reliable witness. You don\u0027t know your daughter. I know her better than even she does."
+    },
+    {
+        "id":  "blade-runner",
+        "title":  "Blade Runner",
+        "year":  1982,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μπλέιντ Ράνερ"
+                    ],
+        "supporting":  [
+                           "Edward James Olmos",
+                           "M. Emmet Walsh"
+                       ],
+        "leads":  [
+                      "Harrison Ford",
+                      "Rutger Hauer"
+                  ],
+        "clue":  "Ένας αποσυρμένος ειδικός διατάζεται να εντοπίσει τεχνητούς ανθρώπους.",
+        "clueEn":  "A retired specialist is ordered to track down artificial humans.",
+        "synopsis":  "Ένας ντετέκτιβ κυνηγά δραπέτες ρέπλικες σε ένα βροχερό μελλοντικό Λος Άντζελες.",
+        "synopsisEn":  "A detective hunts escaped replicants in a rain-soaked future Los Angeles.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/blade_runner/cast-and-crew",
+        "audio":  "media/scene-blade-runner.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=yWPyRSURYFQ",
+        "audioStart":  33.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "Blade Runner (1/10) Movie CLIP - She\u0027s a Replicant (1982) HD",
+        "audioSpeechSeconds":  5.54,
+        "audioMaxGap":  0.61,
+        "audioTranscript":  "You\u0027re watching a stage play. A banquet is in progress. The guests are enjoying an appetizer of raw oysters."
+    },
+    {
+        "id":  "terminator2",
+        "title":  "Terminator 2: Judgment Day",
+        "year":  1991,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Εξολοθρευτής 2: Ημέρα κρίσης",
+                        "T2"
+                    ],
+        "supporting":  [
+                           "Joe Morton",
+                           "Jenette Goldstein"
+                       ],
+        "leads":  [
+                      "Arnold Schwarzenegger",
+                      "Linda Hamilton"
+                  ],
+        "clue":  "Ένας απρόσμενος προστάτης έρχεται για να υπερασπιστεί ένα αγόρι από έναν διώκτη που αλλάζει μορφή.",
+        "clueEn":  "An unexpected protector arrives to defend a boy from a shape-shifting pursuer.",
+        "synopsis":  "Μητέρα και γιος συνεργάζονται με ένα επαναπρογραμματισμένο σάιμποργκ για να αποτρέψουν ένα καταστροφικό μέλλον.",
+        "synopsisEn":  "A mother and son join a reprogrammed cyborg to prevent a catastrophic future.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/terminator_2_judgment_day/cast-and-crew",
+        "audio":  "media/scene-terminator2.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=WvA6TkYuQP8",
+        "audioStart":  38.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "W\u0026H",
+        "audioSourceTitle":  "Terminator 2: Judgment Day (1991) - Phone Call",
+        "audioSpeechSeconds":  5.85,
+        "audioMaxGap":  0.58,
+        "audioTranscript":  "Honey, I was beginning to worry about you. If you hurry home, we can sit down and have dinner together. I\u0027m making..."
+    },
+    {
+        "id":  "shutter-island",
+        "title":  "Shutter Island",
+        "year":  2010,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Το νησί των καταραμένων"
+                    ],
+        "supporting":  [
+                           "Emily Mortimer",
+                           "Jackie Earle Haley"
+                       ],
+        "leads":  [
+                      "Leonardo DiCaprio",
+                      "Mark Ruffalo"
+                  ],
+        "clue":  "Μια έρευνα ξεκινά από την εξαφάνιση μιας ασθενούς από ένα απομονωμένο ίδρυμα.",
+        "clueEn":  "An investigation begins with a patient\u0027s disappearance from an isolated institution.",
+        "synopsis":  "Δύο ομοσπονδιακοί αστυνομικοί ερευνούν ένα απομακρυσμένο ψυχιατρείο, καθώς μια καταιγίδα και ανησυχητικές αναμνήσεις περιπλέκουν την αποστολή.",
+        "synopsisEn":  "Two marshals investigate a remote psychiatric hospital as a storm and disturbing memories complicate their mission.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/1198124-shutter_island/cast-and-crew",
+        "audio":  "media/scene-shutter-island.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=gne3jpFxVe0",
+        "audioStart":  161.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Josh Busfield aka bitterphase",
+        "audioSourceTitle":  "Shutter Island - \"God Gave Us Violence To Wage In His Honor\" - Leonardo DiCaprio x Ted Levine",
+        "audioSpeechSeconds":  5.47,
+        "audioMaxGap":  0.98,
+        "audioTranscript":  "If I was to sink my teeth into your eye right now, would you be able to stop me before I blinded you?"
+    },
+    {
+        "id":  "memento",
+        "title":  "Memento",
+        "year":  2000,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μεμέντο"
+                    ],
+        "supporting":  [
+                           "Joe Pantoliano",
+                           "Mark Boone Junior"
+                       ],
+        "leads":  [
+                      "Guy Pearce",
+                      "Carrie-Anne Moss"
+                  ],
+        "clue":  "Σημειώματα και τατουάζ αντικαθιστούν αναμνήσεις που δεν μένουν.",
+        "clueEn":  "Notes and tattoos substitute for memories that will not stay.",
+        "synopsis":  "Ένας άντρας που δεν μπορεί να σχηματίσει μόνιμες νέες αναμνήσεις αναζητά τον επιτιθέμενο της γυναίκας του.",
+        "synopsisEn":  "A man unable to form lasting new memories searches for his wife\u0027s attacker.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/memento/cast-and-crew",
+        "audio":  "media/scene-memento.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=EJdOj8mC3ZA",
+        "audioStart":  44.484,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Sandra Paukstaityte",
+        "audioSourceTitle":  "Memento 2000, I\u0027m Sorry I don\u0027t Remember You scene",
+        "audioSpeechSeconds":  5.46,
+        "audioMaxGap":  0.86,
+        "audioTranscript":  "I\u0027m sorry, I should\u0027ve explained that I have this... You did explain Lenny. Please call me Leonard. My wife called me Lenny. Yeah, I know he..."
+    },
+    {
+        "id":  "12-angry-men",
+        "title":  "12 Angry Men",
+        "year":  1957,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Οι δώδεκα ένορκοι",
+                        "Δώδεκα οργισμένοι άντρες"
+                    ],
+        "supporting":  [
+                           "E.G. Marshall",
+                           "Jack Warden"
+                       ],
+        "leads":  [
+                      "Henry Fonda",
+                      "Lee J. Cobb"
+                  ],
+        "clue":  "Μια αντίθετη ψήφος καθυστερεί μια ετυμηγορία που αρχικά μοιάζει προφανής.",
+        "clueEn":  "One dissenting vote delays a verdict that initially seems obvious.",
+        "synopsis":  "Ένορκοι επανεξετάζουν μια υπόθεση φόνου, καθώς ένας αμφισβητίας δοκιμάζει τις βεβαιότητες και τις προκαταλήψεις τους.",
+        "synopsisEn":  "Jurors reassess a murder case as a lone sceptic challenges assumptions and personal prejudices.",
+        "originalFormat":  "bw",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/1000013_12_angry_men/cast-and-crew",
+        "audio":  "media/scene-12-angry-men.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=Vbr1HmrplN0",
+        "audioStart":  18.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Gaurav Mishra",
+        "audioSourceTitle":  "12 Angry Men -Best Movie Scenes",
+        "audioSpeechSeconds":  6.39,
+        "audioMaxGap":  0.61,
+        "audioTranscript":  "You\u0027ve had the law read to you and interpreted as it applies in this case It\u0027s now your duty to sit down and try and separate the facts from the fancy"
+    },
+    {
+        "id":  "casablanca",
+        "title":  "Casablanca",
+        "year":  1942,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Καζαμπλάνκα"
+                    ],
+        "supporting":  [
+                           "Claude Rains",
+                           "Peter Lorre"
+                       ],
+        "leads":  [
+                      "Humphrey Bogart",
+                      "Ingrid Bergman"
+                  ],
+        "clue":  "Μια παλιά σχέση επανεμφανίζεται σε ένα πολυσύχναστο καφέ του πολέμου.",
+        "clueEn":  "An old relationship resurfaces in a crowded wartime café.",
+        "synopsis":  "Ένας εκπατρισμένος ιδιοκτήτης καφέ πρέπει να διαλέξει ανάμεσα σε έναν παλιό έρωτα και στη διαφυγή του συζύγου της από τους Ναζί.",
+        "synopsisEn":  "An expatriate café owner must choose between a past love and helping her husband escape the Nazis.",
+        "originalFormat":  "bw",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/1003707_casablanca/cast-and-crew",
+        "audio":  "media/scene-casablanca.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=w7IWLZcVU64",
+        "audioStart":  38.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "ortsas",
+        "audioSourceTitle":  "Casablanca (one of the best scenes)",
+        "audioSpeechSeconds":  6.52,
+        "audioMaxGap":  0.38,
+        "audioTranscript":  "Please, boss, let\u0027s go. Ain\u0027t nothing but trouble for you here. Coming back, I know she\u0027s coming back. We\u0027ll take the car and drive all night."
+    },
+    {
+        "id":  "cuckoo",
+        "title":  "One Flew Over the Cuckoo\u0027s Nest",
+        "year":  1975,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Στη φωλιά του κούκου"
+                    ],
+        "supporting":  [
+                           "Brad Dourif",
+                           "William Redfield"
+                       ],
+        "leads":  [
+                      "Jack Nicholson",
+                      "Louise Fletcher"
+                  ],
+        "clue":  "Ένας απείθαρχος νέος ασθενής αμφισβητεί την αυστηρή καθημερινή ρουτίνα μιας πτέρυγας.",
+        "clueEn":  "A disruptive new patient challenges a ward\u0027s rigid daily routines.",
+        "synopsis":  "Η εξέγερση ενός ψυχιατρικού ασθενούς τον φέρνει σε σύγκρουση με μια αυταρχική νοσοκόμα.",
+        "synopsisEn":  "A psychiatric patient\u0027s rebellion brings him into conflict with an authoritarian nurse.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/one_flew_over_the_cuckoos_nest/cast-and-crew",
+        "audio":  "media/scene-cuckoo.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=6l-Ob1zQ7DM",
+        "audioStart":  15.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "mixajlotuba",
+        "audioSourceTitle":  "One flew over the cokoo\u0027s nest   You\u0027re not crazy",
+        "audioSpeechSeconds":  5.24,
+        "audioMaxGap":  0.83,
+        "audioTranscript":  "You know what I mean? Is that it? Is that crazy enough for you? Want me to take a shit on the floor? Christ."
+    },
+    {
+        "id":  "expanse",
+        "title":  "The Expanse",
+        "year":  2015,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Η έκταση",
+                        "Διαστημική αποικία"
+                    ],
+        "supporting":  [
+                           "Wes Chatham",
+                           "Cas Anvar"
+                       ],
+        "leads":  [
+                      "Steven Strait",
+                      "Dominique Tipper"
+                  ],
+        "clue":  "Μια υπόθεση εξαφάνισης παρασύρει ένα πλήρωμα σε διαπλανητική σύγκρουση.",
+        "clueEn":  "A missing-person case draws a ship\u0027s crew into interplanetary conflict.",
+        "synopsis":  "Οι εντάσεις ανάμεσα στη Γη, τον Άρη και τη Ζώνη κλιμακώνονται μετά την ανακάλυψη μιας εξωγήινης ουσίας.",
+        "synopsisEn":  "Tensions between Earth, Mars and the Belt escalate after the discovery of an alien substance.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_expanse/cast-and-crew",
+        "audio":  "media/scene-expanse.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=uCd8MYnHTLw",
+        "audioStart":  19.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Nat Kimble",
+        "audioSourceTitle":  "Miller and Dawes",
+        "audioSpeechSeconds":  6.78,
+        "audioMaxGap":  0.22,
+        "audioTranscript":  "Right now the OPA controls most of the grid\u0027s air, power, water, the very lifeblood of the station."
+    },
+    {
+        "id":  "westworld",
+        "title":  "Westworld",
+        "year":  2016,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Γουέστγουορλντ"
+                    ],
+        "supporting":  [
+                           "Angela Sarafyan",
+                           "Luke Hemsworth"
+                       ],
+        "leads":  [
+                      "Evan Rachel Wood",
+                      "Thandiwe Newton"
+                  ],
+        "clue":  "Οι οικοδεσπότες ενός ακριβού θεματικού πάρκου αρχίζουν να αμφισβητούν τους προκαθορισμένους ρόλους τους.",
+        "clueEn":  "An expensive theme park\u0027s hosts begin to question their assigned roles.",
+        "synopsis":  "Τεχνητά όντα σε ένα πάρκο της Άγριας Δύσης αποκτούν συνείδηση και αμφισβητούν τους ανθρώπους που τα ελέγχουν.",
+        "synopsisEn":  "Artificial beings in a frontier-themed park develop awareness and challenge the humans who control them.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/westworld/cast-and-crew",
+        "audio":  "media/scene-westworld.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=8dagzaFjHU4",
+        "audioStart":  39.604,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Just The Best Scenes",
+        "audioSourceTitle":  "Westworld - Ford Restaurant Scene",
+        "audioSpeechSeconds":  6.1,
+        "audioMaxGap":  0.48,
+        "audioTranscript":  "I\u0027ve forgotten how beautiful it is. I came here once as a child with my parents. I think we even sat at this table."
+    },
+    {
+        "id":  "rick-morty",
+        "title":  "Rick and Morty",
+        "year":  2013,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ρικ και Μόρτι"
+                    ],
+        "supporting":  [
+                           "Sarah Chalke",
+                           "Spencer Grammer"
+                       ],
+        "leads":  [
+                      "Justin Roiland",
+                      "Chris Parnell"
+                  ],
+        "clue":  "Το γκαράζ μιας οικογένειας γίνεται πύλη για επικίνδυνες διαστατικές εκδρομές.",
+        "clueEn":  "A family\u0027s garage becomes the gateway to dangerous interdimensional excursions.",
+        "synopsis":  "Ένας κυνικός επιστήμονας παρασύρει τον αγχώδη εγγονό του σε χαοτικές περιπέτειες ανάμεσα σε σύμπαντα.",
+        "synopsisEn":  "A cynical scientist takes his anxious grandson on chaotic adventures across universes.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/rick_and_morty/cast-and-crew",
+        "audio":  "media/scene-rick-morty.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=SVKEYDy6fOQ",
+        "audioStart":  85.572,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Rick and Morty",
+        "audioSourceTitle":  "Rick and Morty season 1 episode 1",
+        "audioSpeechSeconds":  6.3,
+        "audioMaxGap":  0.51,
+        "audioTranscript":  "Take the wheel! Get off of me, boarder! I\u0027m taking charge of this situation, buddy! What\u0027s got into you? I\u0027m pooped! I\u0027m pooped! You look like so much money!"
+    },
+    {
+        "id":  "futurama",
+        "title":  "Futurama",
+        "year":  1999,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Φουτουράμα"
+                    ],
+        "supporting":  [
+                           "Phil LaMarr",
+                           "Lauren Tom"
+                       ],
+        "leads":  [
+                      "Billy West",
+                      "Katey Sagal"
+                  ],
+        "clue":  "Ένας ακούσιος μακρύς ύπνος αφήνει έναν διανομέα αιώνες έξω από την εποχή του.",
+        "clueEn":  "An accidental long sleep leaves a delivery worker centuries out of place.",
+        "synopsis":  "Ένας άντρας που καταψύχθηκε τον εικοστό αιώνα γίνεται μέλος διαπλανητικού πληρώματος διανομών στο μακρινό μέλλον.",
+        "synopsisEn":  "A man frozen in the twentieth century joins an interplanetary delivery crew in the distant future.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/futurama/cast-and-crew",
+        "audio":  "media/scene-futurama.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=RLoiD3ncxeI",
+        "audioStart":  36.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "SYFY",
+        "audioSourceTitle":  "FUTURAMA | Season 1, Episode 1: Family Ties | SYFY",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "Real-life spaceship! I designed it myself. Let me show you some of the different lengths of wire I use."
+    },
+    {
+        "id":  "bojack",
+        "title":  "BoJack Horseman",
+        "year":  2014,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Μπότζακ Χόρσμαν"
+                    ],
+        "supporting":  [
+                           "Amy Sedaris",
+                           "Alison Brie"
+                       ],
+        "leads":  [
+                      "Will Arnett",
+                      "Aaron Paul"
+                  ],
+        "clue":  "Ένας πρώην σταρ κωμωδίας προσπαθεί να μετατρέψει τα απομνημονεύματά του σε επιστροφή στη δόξα.",
+        "clueEn":  "A former sitcom star struggles to turn a memoir into a comeback.",
+        "synopsis":  "Ένας ηθοποιός κινουμένων σχεδίων αντιμετωπίζει τη διασημότητα, τις εξαρτήσεις και διαλυμένες σχέσεις ανάμεσα σε ανθρώπους και ανθρωπόμορφα ζώα.",
+        "synopsisEn":  "An animated actor confronts fame, addiction and damaged relationships in a world of humans and anthropomorphic animals.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/bojack_horseman/cast-and-crew",
+        "audio":  "media/scene-bojack.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=KkG7x-hwqN8",
+        "audioStart":  12.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Spazit",
+        "audioSourceTitle":  "Diane and Bojack discuss life",
+        "audioSpeechSeconds":  6.87,
+        "audioMaxGap":  0.13,
+        "audioTranscript":  "And then you kind of fall into one thing and then another. Well, you\u0027ve got time. There\u0027s always later, right? Yeah, I guess there\u0027s always..."
+    },
+    {
+        "id":  "vampire-diaries",
+        "title":  "The Vampire Diaries",
+        "year":  2009,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Τα ημερολόγια ενός βρικόλακα"
+                    ],
+        "supporting":  [
+                           "Zach Roerig",
+                           "Michael Trevino"
+                       ],
+        "leads":  [
+                      "Nina Dobrev",
+                      "Ian Somerhalder"
+                  ],
+        "clue":  "Η επιστροφή δύο αδερφών φέρνει υπερφυσικές εντάσεις στην πόλη μιας έφηβης.",
+        "clueEn":  "Two brothers\u0027 return brings supernatural tensions into a teenager\u0027s hometown.",
+        "synopsis":  "Μια νεαρή γυναίκα μπλέκεται με αδερφούς βρικόλακες και την υπερφυσική ιστορία του Μίστικ Φολς.",
+        "synopsisEn":  "A young woman becomes entangled with vampire brothers and the supernatural history of Mystic Falls.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_vampire_diaries/cast-and-crew",
+        "audio":  "media/scene-vampire-diaries.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=HmAqB87xRcE",
+        "audioStart":  13.732,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "TVDU x K-dramas",
+        "audioSourceTitle":  "\"It\u0027s not a competition Caroline\", \"Yeah it is\" | The Vampire Diaries |",
+        "audioSpeechSeconds":  5.5,
+        "audioMaxGap":  0.99,
+        "audioTranscript":  "Um, the guys that I want, never want me. I\u0027m not touching that. I\u0027m inappropriate. Always."
+    },
+    {
+        "id":  "gossip-girl",
+        "title":  "Gossip Girl",
+        "year":  2007,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Κουτσομπόλα"
+                    ],
+        "supporting":  [
+                           "Zuzanna Szadkowski",
+                           "Margaret Colin"
+                       ],
+        "leads":  [
+                      "Blake Lively",
+                      "Leighton Meester"
+                  ],
+        "clue":  "Ανώνυμες διαδικτυακές αναρτήσεις αναστατώνουν τη ζωή εύπορων μαθητών του Μανχάταν.",
+        "clueEn":  "Anonymous online reports disrupt the lives of wealthy Manhattan students.",
+        "synopsis":  "Προνομιούχοι έφηβοι αντιμετωπίζουν έρωτες, κοινωνική θέση και προδοσία υπό την παρακολούθηση ενός μυστηριώδους διαδικτυακού σχολιαστή.",
+        "synopsisEn":  "Privileged teenagers navigate romance, status and betrayal under the scrutiny of a mysterious online commentator.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/gossip_girl/cast-and-crew",
+        "audio":  "media/scene-gossip-girl.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=e8_Z7-97mIw",
+        "audioStart":  39.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Parisinthe1920s",
+        "audioSourceTitle":  "Gossip Girl 1x01 First Blair \u0026 Serena face-off on the Met Steps",
+        "audioSpeechSeconds":  5.72,
+        "audioMaxGap":  0.67,
+        "audioTranscript":  "Until 12 hours ago, everyone thought you were boarding school. Now we\u0027re full, and Jenny used up all the invites."
+    },
+    {
+        "id":  "yellowstone",
+        "title":  "Yellowstone",
+        "year":  2018,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Γέλοουστοουν"
+                    ],
+        "supporting":  [
+                           "Gil Birmingham",
+                           "Jefferson White"
+                       ],
+        "leads":  [
+                      "Kevin Costner",
+                      "Kelly Reilly"
+                  ],
+        "clue":  "Μια ισχυρή οικογένεια κτηνοτρόφων πιέζεται από κατασκευαστές και γειτονικές αρχές.",
+        "clueEn":  "A powerful ranching family faces pressure from developers and neighbouring authorities.",
+        "synopsis":  "Μια οικογένεια της Μοντάνα μάχεται να κρατήσει το τεράστιο ράντσο της μέσα σε πολιτικές συγκρούσεις και εσωτερικές διαιρέσεις.",
+        "synopsisEn":  "A Montana family fights to retain its vast ranch amid political conflict and internal divisions.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/yellowstone/cast-and-crew",
+        "audio":  "media/scene-yellowstone.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=aHEvCl1QNk0",
+        "audioStart":  61.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Yellowstone Universe",
+        "audioSourceTitle":  "Best of The Duttons vs. Everyone | Yellowstone | Paramount Network",
+        "audioSpeechSeconds":  6.49,
+        "audioMaxGap":  0.48,
+        "audioTranscript":  "It gets ego. I think it chaps your ass to walk through a grocery store and nobody knows who you are. You bet your ass it does. Because every time you move it."
+    },
+    {
+        "id":  "witcher",
+        "title":  "The Witcher",
+        "year":  2019,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ο γητευτής"
+                    ],
+        "supporting":  [
+                           "MyAnna Buring",
+                           "Tom Canton"
+                       ],
+        "leads":  [
+                      "Henry Cavill",
+                      "Anya Chalotra"
+                  ],
+        "clue":  "Ένας περιπλανώμενος επαγγελματίας ανακαλύπτει ότι τα τέρατα δεν είναι πάντα η μεγαλύτερη απειλή.",
+        "clueEn":  "A wandering professional discovers that monsters are not always the greatest threat.",
+        "synopsis":  "Ένας κυνηγός τεράτων, μια μάγισσα και μια νεαρή πριγκίπισσα συνδέονται από τη μοίρα σε μια ήπειρο που σπαράσσεται από πόλεμο.",
+        "synopsisEn":  "A monster hunter, a sorceress and a young princess become bound by destiny across a war-torn continent.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/the_witcher/cast-and-crew",
+        "audio":  "media/scene-witcher.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ekUtoIGp7bQ",
+        "audioStart":  137.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "The Witcher Universe",
+        "audioSourceTitle":  "The Witcher 1x1 | Geralt meets Stregobor",
+        "audioSpeechSeconds":  5.91,
+        "audioMaxGap":  0.99,
+        "audioTranscript":  "Lucif Sorcero uses an alias, and has a young girl to procure him a witcher. You don\u0027t want my monster?"
+    },
+    {
+        "id":  "ghostbusters",
+        "title":  "Ghostbusters",
+        "year":  1984,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Οι κυνηγοί φαντασμάτων"
+                    ],
+        "supporting":  [
+                           "Annie Potts",
+                           "William Atherton"
+                       ],
+        "leads":  [
+                      "Bill Murray",
+                      "Dan Aykroyd"
+                  ],
+        "clue":  "Άνεργοι ερευνητές βρίσκουν μια ασυνήθιστη επιχειρηματική ευκαιρία στη Νέα Υόρκη.",
+        "clueEn":  "Unemployed researchers find an unusual business opportunity in New York.",
+        "synopsis":  "Επιστήμονες στήνουν επιχείρηση σύλληψης υπερφυσικών φαινομένων πριν αντιμετωπίσουν μια απειλή για ολόκληρη την πόλη.",
+        "synopsisEn":  "Scientists build a business capturing supernatural disturbances before confronting a threat to the entire city.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/ghostbusters/cast-and-crew",
+        "audio":  "media/scene-ghostbusters.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=3ej8EO4eyaw",
+        "audioStart":  12.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Ghostbusters",
+        "audioSourceTitle":  "Winston\u0027s Interview: You\u0027re Hired! | Film Clip | GHOSTBUSTERS | With Captions",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "...photography, telekinetic movement, full trans-mediums, the Loch Ness Monster and the theory of Atlantis."
+    },
+    {
+        "id":  "bruce-almighty",
+        "title":  "Bruce Almighty",
+        "year":  2003,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Θεός για μια εβδομάδα"
+                    ],
+        "supporting":  [
+                           "Philip Baker Hall",
+                           "Catherine Bell"
+                       ],
+        "leads":  [
+                      "Jim Carrey",
+                      "Morgan Freeman"
+                  ],
+        "clue":  "Ένας απογοητευμένος ρεπόρτερ αποκτά δυνάμεις που μοιάζουν να λύνουν όλα του τα προβλήματα.",
+        "clueEn":  "A frustrated reporter receives powers that seem to solve all his problems.",
+        "synopsis":  "Ένας άντρας που κατηγορεί τον Θεό για τις ατυχίες του καλείται να αναλάβει ο ίδιος τις θεϊκές ευθύνες.",
+        "synopsisEn":  "A man blaming God for his misfortunes is challenged to handle divine responsibilities himself.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/bruce_almighty/cast-and-crew",
+        "audio":  "media/scene-bruce-almighty.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=5tNiEq4lUOU",
+        "audioStart":  158.356,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Genesis Oasis",
+        "audioSourceTitle":  "Bruce Almighty (2003) - Bruce Meets God",
+        "audioSpeechSeconds":  5.56,
+        "audioMaxGap":  0.7,
+        "audioTranscript":  "He didn\u0027t mind rolling up his sleeves either, son. People underestimate the benefit of good old manual labor. It\u0027s freedom in it."
+    },
+    {
+        "id":  "groundhog-day",
+        "title":  "Groundhog Day",
+        "year":  1993,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Η μέρα της μαρμότας"
+                    ],
+        "supporting":  [
+                           "Chris Elliott",
+                           "Stephen Tobolowsky"
+                       ],
+        "leads":  [
+                      "Bill Murray",
+                      "Andie MacDowell"
+                  ],
+        "clue":  "Μια συνηθισμένη μετεωρολογική αποστολή γίνεται αδύνατο να ολοκληρωθεί.",
+        "clueEn":  "A routine weather assignment becomes impossible to leave behind.",
+        "synopsis":  "Ένας κυνικός τηλεοπτικός παρουσιαστής ζει ξανά την ίδια μέρα και σταδιακά επανεξετάζει πώς φέρεται στους άλλους.",
+        "synopsisEn":  "A cynical television presenter relives the same day repeatedly and gradually reconsiders how he treats others.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/groundhog_day/cast-and-crew",
+        "audio":  "media/scene-groundhog-day.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=PhjYBX9M_8A",
+        "audioStart":  51.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "NOW PLAYING",
+        "audioSourceTitle":  "Chit Chat | Groundhog Day (1993) | Now Playing",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "you\u0027re coming up out of the south by midday is probably going to push on to the east of us and at high altitudes it\u0027s going to crystallize and give us a weak pulse."
+    },
+    {
+        "id":  "big-lebowski",
+        "title":  "The Big Lebowski",
+        "year":  1998,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ο μεγάλος Λεμπόφσκι"
+                    ],
+        "supporting":  [
+                           "John Turturro",
+                           "David Huddleston"
+                       ],
+        "leads":  [
+                      "Jeff Bridges",
+                      "John Goodman"
+                  ],
+        "clue":  "Μια υπόθεση λάθος ταυτότητας ξεκινά από τη ζημιά σε ένα αγαπημένο χαλί.",
+        "clueEn":  "A case of mistaken identity begins with damage to a cherished rug.",
+        "synopsis":  "Ένας χαλαρός παίκτης μπόουλινγκ μπλέκεται σε σχέδιο απαγωγής που αφορά έναν πλούσιο άντρα με το ίδιο επώνυμο.",
+        "synopsisEn":  "An easygoing bowler becomes entangled in a kidnapping scheme involving a wealthy man with the same surname.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/big_lebowski/cast-and-crew",
+        "audio":  "media/scene-big-lebowski.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=gk5WiQWOXtY",
+        "audioStart":  54.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "The Big Lebowski (1998) - You\u0027re Entering a World of Pain Scene | Movieclips",
+        "audioSpeechSeconds":  6.81,
+        "audioMaxGap":  0.19,
+        "audioTranscript":  "With fucking papers you can\u0027t board it it gets upset it\u0027s hair falls out Walter fucking dog has fucking papers"
+    },
+    {
+        "id":  "hunger-games",
+        "title":  "The Hunger Games",
+        "year":  2012,
+        "kind":  "movies",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Αγώνες πείνας"
+                    ],
+        "supporting":  [
+                           "Stanley Tucci",
+                           "Wes Bentley"
+                       ],
+        "leads":  [
+                      "Jennifer Lawrence",
+                      "Josh Hutcherson"
+                  ],
+        "clue":  "Μια εθελόντρια παίρνει τη θέση της μικρότερης αδερφής της σε μια υποχρεωτική τηλεοπτική διοργάνωση.",
+        "clueEn":  "A volunteer takes her younger sister\u0027s place in a compulsory televised event.",
+        "synopsis":  "Μια έφηβη παλεύει για επιβίωση σε κρατικά ελεγχόμενο διαγωνισμό που αναγκάζει νέους να σκοτώνουν ο ένας τον άλλο.",
+        "synopsisEn":  "A teenager fights for survival in a state-controlled contest that forces young people to kill one another.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/m/the_hunger_games/cast-and-crew",
+        "audio":  "media/scene-hunger-games.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=mtuBqolFOVs",
+        "audioStart":  27.0,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Movieclips",
+        "audioSourceTitle":  "The Hunger Games (5/12) Movie CLIP - Hope (2012) HD",
+        "audioSpeechSeconds":  5.44,
+        "audioMaxGap":  0.61,
+        "audioTranscript":  "I mean if we just wanted to intimidate the districts, why not round up twenty-four of them at random and execute them all at once?"
+    },
+    {
+        "id":  "doctor-who",
+        "title":  "Doctor Who",
+        "year":  2005,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Ντόκτορ Χου"
+                    ],
+        "supporting":  [
+                           "Jenna Coleman",
+                           "Arthur Darvill"
+                       ],
+        "leads":  [
+                      "David Tennant",
+                      "Billie Piper"
+                  ],
+        "clue":  "Ένα φαινομενικά συνηθισμένο μπλε κουτί ανοίγει τον δρόμο σε ταξίδια στον χρόνο και στο διάστημα.",
+        "clueEn":  "An apparently ordinary blue box opens onto journeys through time and space.",
+        "synopsis":  "Ένας εξωγήινος ταξιδιώτης που αναγεννιέται και οι ανθρώπινοι σύντροφοί του προστατεύουν κόσμους, εξερευνώντας την ιστορία και το μέλλον.",
+        "synopsisEn":  "A regenerating alien traveller and human companions protect worlds while exploring history and the future.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/doctor_who/cast-and-crew",
+        "audio":  "media/scene-doctor-who.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=cwdbLu_x0gY",
+        "audioStart":  50.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Doctor Who",
+        "audioSourceTitle":  "Don\u0027t Blink! | Blink | Doctor Who",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "The time is a strict progression of course to affect but actually from a non-linear non subjective viewpoint. It\u0027s more like a big"
+    },
+    {
+        "id":  "charmed",
+        "title":  "Charmed",
+        "year":  1998,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Οι μάγισσες"
+                    ],
+        "supporting":  [
+                           "Brian Krause",
+                           "Dorian Gregory"
+                       ],
+        "leads":  [
+                      "Holly Marie Combs",
+                      "Alyssa Milano"
+                  ],
+        "clue":  "Μια οικογενειακή κληρονομιά ξυπνά ικανότητες που μοιράζονται τρεις αδερφές.",
+        "clueEn":  "A family inheritance awakens abilities shared by three sisters.",
+        "synopsis":  "Αδερφές στο Σαν Φρανσίσκο συνδυάζουν καθημερινές σχέσεις με την προστασία αθώων από υπερφυσικές απειλές.",
+        "synopsisEn":  "Sisters in San Francisco combine everyday relationships with protecting innocents from supernatural threats.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/charmed/cast-and-crew",
+        "audio":  "media/scene-charmed.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=ipSS3tF2h4U",
+        "audioStart":  25.44,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "TNT",
+        "audioSourceTitle":  "Prue, Piper, and Phoebe\u0027s Mom Gave Away Their Powers [CLIP] | Charmed | TNT",
+        "audioSpeechSeconds":  6.87,
+        "audioMaxGap":  0.13,
+        "audioTranscript":  "Every year, same day, same time says, you know, the flowers are from a secret admirer. When it\u0027s obvious he\u0027s the admirer."
+    },
+    {
+        "id":  "arrow",
+        "title":  "Arrow",
+        "year":  2012,
+        "kind":  "series",
+        "difficulty":  "classic",
+        "aliases":  [
+                        "Άροου",
+                        "Το βέλος"
+                    ],
+        "supporting":  [
+                           "David Ramsey",
+                           "Paul Blackthorne"
+                       ],
+        "leads":  [
+                      "Stephen Amell",
+                      "Emily Bett Rickards"
+                  ],
+        "clue":  "Ένας επί χρόνια αγνοούμενος κληρονόμος επιστρέφει με ικανότητες που κρύβει από την οικογένειά του.",
+        "clueEn":  "A long-missing heir returns with skills he keeps hidden from his family.",
+        "synopsis":  "Ένας εύπορος επιζών γίνεται μασκοφόρος εκδικητής προσπαθώντας να αντιμετωπίσει τη διαφθορά που κατατρώει την πόλη του.",
+        "synopsisEn":  "A wealthy survivor becomes a masked vigilante trying to correct the corruption consuming his city.",
+        "originalFormat":  "color",
+        "image":  "",
+        "imageCredit":  "",
+        "addedIn":  "20261016-cinematix-expanded",
+        "source":  "https://www.rottentomatoes.com/tv/arrow/cast-and-crew",
+        "audio":  "media/scene-arrow.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=_KFBLn4ecgs",
+        "audioStart":  26.94,
+        "audioDuration":  7,
+        "audioType":  "scene",
+        "audioCredit":  "Arrow CW",
+        "audioSourceTitle":  "Arrow - Oliver and Thea Scene 1.01 This is the best I can do",
+        "audioSpeechSeconds":  6.97,
+        "audioMaxGap":  0.03,
+        "audioTranscript":  "But you can\u0027t come back here and judge me, especially for being just like you. I know that it couldn\u0027t have been easy for you when I was away. Away?"
     }
 ]
