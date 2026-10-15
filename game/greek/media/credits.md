@@ -349,3 +349,60 @@
 
 <!-- greek-audio:ora -->
 - Η τελευταία ώρα (2021): https://www.youtube.com/watch?v=eWkmpocYsOY; scene 360.004 to 367.004 seconds. Audio: OPEN. Metadata: https://live.tvopen.gr/press/2500/premierashmeragiathneakathhmerinhseiratoyopenhteleytaiaora
+
+<!-- greek-audio:vlakas -->
+- Ένας βλάκας και μισός (1959): https://www.youtube.com/watch?v=zXGeVkk_CDM; scene 48.44 to 55.44 seconds. Audio: George Samos 65.. Metadata: https://greek-movies.com/movies.php?m=15
+
+<!-- greek-audio:koritsi2 -->
+- Ένα κορίτσι για δύο (1963): https://www.youtube.com/watch?v=ULTS-akTInc; scene 42.44 to 49.44 seconds. Audio: greg vosk. Metadata: https://finosfilm.com/portfolio-items/ena-koritsi-gia-dyo/
+
+<!-- greek-audio:tenty -->
+- Τέντυ μπόυ αγάπη μου (1965): https://www.youtube.com/watch?v=RBKc2zVoEQk; scene 140.44 to 147.44 seconds. Audio: ΠΑΝΑΓΙΩΤΗΣ ΣΟΡΟΒΙΓΚΑΣ. Metadata: https://greek-movies.com/movies.php?m=54
+
+<!-- greek-audio:ziliara -->
+- Η ζηλιάρα (1968): https://www.youtube.com/watch?v=mHyXpdH6fPw; scene 45.94 to 52.94 seconds. Audio: lostromoscorfu. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%97_%CE%96%CE%B7%CE%BB%CE%B9%CE%AC%CF%81%CE%B1
+
+<!-- greek-audio:plaka -->
+- Ο άνθρωπος που έσπαγε πλάκα (1972): https://www.youtube.com/watch?v=CrOTEjuz08o; scene 9.94 to 16.94 seconds. Audio: Ηλίας Αλαμάνας. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CE%AC%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82_%CF%80%CE%BF%CF%85_%CE%AD%CF%83%CF%80%CE%B1%CE%B3%CE%B5_%CF%80%CE%BB%CE%AC%CE%BA%CE%B1
+
+<!-- greek-audio:daskalo -->
+- Θα βρεις το δάσκαλό σου (2005): https://www.youtube.com/watch?v=W7oTJw0OLpo; scene 8.94 to 15.94 seconds. Audio: Penny Diamantakou. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%98%CE%B1_%CE%B2%CF%81%CE%B5%CE%B9%CF%82_%CF%84%CE%BF_%CE%B4%CE%AC%CF%83%CE%BA%CE%B1%CE%BB%CF%8C_%CF%83%CE%BF%CF%85
+
+<!-- greek-audio:kalimera -->
+- Καλημέρα ζωή (1993): https://www.youtube.com/watch?v=yVQdnFbOQcc; scene 376.94 to 383.94 seconds. Audio: Kalimera Zwi. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9A%CE%B1%CE%BB%CE%B7%CE%BC%CE%AD%CF%81%CE%B1_%CE%96%CF%89%CE%AE
+
+<!-- greek-audio:gorgones-tv -->
+- Γοργόνες (2007): https://www.youtube.com/watch?v=KH63H_oU7SY; scene 360.44 to 367.44 seconds. Audio: Greek TV HD. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%93%CE%BF%CF%81%CE%B3%CF%8C%CE%BD%CE%B5%CF%82
+
+<!-- greek-audio:kymata40 -->
+- 40 κύματα (2008): https://www.youtube.com/watch?v=wIHCLz-2J2c; scene 4.708 to 11.708 seconds. Audio: sawyermaniac. Metadata: https://www.retrodb.gr/wiki/index.php/40_%CE%9A%CF%8D%CE%BC%CE%B1%CF%84%CE%B1
+
+<!-- greek-audio:zoiall -->
+- Η ζωή της άλλης (2009): https://www.youtube.com/watch?v=jTOuh-PmINE; scene 523.94 to 530.94 seconds. Audio: Rafail Papathanasiou. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%97_%CE%96%CF%89%CE%AE_%CF%84%CE%B7%CF%82_%CE%86%CE%BB%CE%BB%CE%B7%CF%82
+
+<!-- greek-audio:tsarlatanos -->
+- Ο τσαρλατάνος (1973): https://www.youtube.com/watch?v=y51bcjfJB2k; scene 48.94 to 55.94 seconds. Audio: galano leykos. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CF%84%CF%83%CE%B1%CF%81%CE%BB%CE%B1%CF%84%CE%AC%CE%BD%CE%BF%CF%82
+
+<!-- greek-audio:parthena -->
+- Παρθένα ζωή (2017): https://www.youtube.com/watch?v=FYuFJSLqqnk; scene 366.94 to 373.94 seconds. Audio: Εύα Σακελλαρίδη. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A0%CE%B1%CF%81%CE%B8%CE%AD%CE%BD%CE%B1_%CE%96%CF%89%CE%AE
+
+<!-- greek-audio:methystakas -->
+- Ο μεθύστακας (1950): https://www.youtube.com/watch?v=qvjl2r7Cq0I; scene 8.94 to 15.94 seconds. Audio: BGMS - Best Greek Movie Scenes. Metadata: https://finosfilm.com/portfolio-items/o-methystakas/
+
+<!-- greek-audio:kyries -->
+- Οι κυρίες της αυλής (1966): https://www.youtube.com/watch?v=rK2RgUhvYRE; scene 50.82 to 57.82 seconds. Audio: GEORGEBMWE30. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F%CE%B9_%CE%BA%CF%85%CF%81%CE%AF%CE%B5%CF%82_%CF%84%CE%B7%CF%82_%CE%B1%CF%85%CE%BB%CE%AE%CF%82
+
+<!-- greek-audio:dimarxos -->
+- Η κυρία δήμαρχος (1960): https://www.youtube.com/watch?v=8AaopwNrEX0; scene 9.94 to 16.94 seconds. Audio: TeoFokas - Χαλκί   Κορινθία. Metadata: https://www.tvopen.gr/hkyriadhmarxos/about
+
+<!-- greek-audio:fantasmenos -->
+- Ο φαντασμένος (1973): https://www.youtube.com/watch?v=6C9vO_6L95E; scene 51.94 to 58.94 seconds. Audio: Red Glory . Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CF%86%CE%B1%CE%BD%CF%84%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CF%82
+
+<!-- greek-audio:gois -->
+- Ο γόης (1969): https://www.youtube.com/watch?v=-z9gDdyEcjU; scene 30.94 to 37.94 seconds. Audio: George Samos 65.. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CE%B3%CF%8C%CE%B7%CF%82
+
+<!-- greek-audio:polemo -->
+- Τι έκανες στον πόλεμο Θανάση (1971): https://www.youtube.com/watch?v=6oYCbB14dfs; scene 41.636 to 48.636 seconds. Audio: George Samos 65.. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A4%CE%B9_%CE%AD%CE%BA%CE%B1%CE%BD%CE%B5%CF%82_%CF%83%CF%84%CE%BF%CE%BD_%CF%80%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF_%CE%98%CE%B1%CE%BD%CE%AC%CF%83%CE%B7
+
+<!-- greek-audio:katergaris -->
+- Ο κατεργάρης (1971): https://www.youtube.com/watch?v=83m9TbTHPuY; scene 37.94 to 44.94 seconds. Audio: MrDvdjim. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CE%BA%CE%B1%CF%84%CE%B5%CF%81%CE%B3%CE%AC%CF%81%CE%B7%CF%82
