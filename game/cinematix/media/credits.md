@@ -156,3 +156,111 @@
 - The Americans (2013): [the jenningses](https://www.youtube.com/watch?v=c7Cg9MJYMWQ), 25.94–32.94s. The Americans 1x01 - Philip suggests defecting to America. [Cast and story reference](https://www.rottentomatoes.com/tv/the_americans/cast-and-crew).
 - The OA (2016): [Yenwood](https://www.youtube.com/watch?v=_KRZkC9iZv4), 15.884–22.884s. nancy freaking out in an olive garden. [Cast and story reference](https://www.rottentomatoes.com/tv/the_oa/cast-and-crew).
 - Devs (2020): [Cristian González](https://www.youtube.com/watch?v=-BVNP2Ac0EY), 50.156–57.156s. Devs HBO scene - Lily Chan and Katie conversation about Devs - March 2020. [Cast and story reference](https://www.rottentomatoes.com/tv/devs/cast-and-crew).
+
+<!-- cinematix-audio:truman-show -->
+- The Truman Show (1998): https://www.youtube.com/watch?v=6U4-KZSoe6g; scene 20.44 to 27.44 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/truman_show/cast-and-crew
+
+<!-- cinematix-audio:green-mile -->
+- The Green Mile (1999): https://www.youtube.com/watch?v=K4KTJKUnkig; scene 24.564 to 31.564 seconds. Audio: JJack. Metadata: https://www.rottentomatoes.com/m/green_mile/cast-and-crew
+
+<!-- cinematix-audio:good-will-hunting -->
+- Good Will Hunting (1997): https://www.youtube.com/watch?v=8gfipuaIA68; scene 58.94 to 65.94 seconds. Audio: TheFunFlicks. Metadata: https://www.rottentomatoes.com/m/good_will_hunting/cast-and-crew
+
+<!-- cinematix-audio:dead-poets -->
+- Dead Poets Society (1989): https://www.youtube.com/watch?v=8x0COtH4Vrw; scene 39.44 to 46.44 seconds. Audio: Carl Niblock. Metadata: https://www.rottentomatoes.com/m/dead_poets_society/cast-and-crew
+
+<!-- cinematix-audio:braveheart -->
+- Braveheart (1995): https://www.youtube.com/watch?v=G4Ym9zokSZo; scene 44.94 to 51.94 seconds. Audio: Ηρώων Γη. Metadata: https://www.rottentomatoes.com/m/1065684-braveheart/cast-and-crew
+
+<!-- cinematix-audio:prestige -->
+- The Prestige (2006): https://www.youtube.com/watch?v=T4G9y5BrFFk; scene 36.94 to 43.94 seconds. Audio: W&H. Metadata: https://www.rottentomatoes.com/m/prestige/cast-and-crew
+
+<!-- cinematix-audio:departed -->
+- The Departed (2006): https://www.youtube.com/watch?v=sbRbsSc1Kwk; scene 150.44 to 157.44 seconds. Audio: Audun. Metadata: https://www.rottentomatoes.com/m/departed/cast-and-crew
+
+<!-- cinematix-audio:catch-me -->
+- Catch Me If You Can (2002): https://www.youtube.com/watch?v=gFr0_ywVdhY; scene 31.94 to 38.94 seconds. Audio: Binge Society. Metadata: https://www.rottentomatoes.com/m/catch_me_if_you_can/cast-and-crew
+
+<!-- cinematix-audio:prada -->
+- The Devil Wears Prada (2006): https://www.youtube.com/watch?v=b2f2Kqt_KcE; scene 25.94 to 32.94 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/the_devil_wears_prada/cast-and-crew
+
+<!-- cinematix-audio:mean-girls -->
+- Mean Girls (2004): https://www.youtube.com/watch?v=re5veV2F7eY; scene 32.468 to 39.468 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/mean_girls/cast-and-crew
+
+<!-- cinematix-audio:legally-blonde -->
+- Legally Blonde (2001): https://www.youtube.com/watch?v=yfy4and2vPg; scene 56.44 to 63.44 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/legally_blonde/cast-and-crew
+
+<!-- cinematix-audio:toy-story -->
+- Toy Story (1995): https://www.youtube.com/watch?v=2BTQRYzNL-E; scene 24.372 to 31.372 seconds. Audio: Pixar. Metadata: https://www.rottentomatoes.com/m/toy_story/cast-and-crew
+
+<!-- cinematix-audio:finding-nemo -->
+- Finding Nemo (2003): https://www.youtube.com/watch?v=RtwfDWo2fs4; scene 55.668 to 62.668 seconds. Audio: Claudette. Metadata: https://www.rottentomatoes.com/m/finding_nemo/cast-and-crew
+
+<!-- cinematix-audio:ratatouille -->
+- Ratatouille (2007): https://www.youtube.com/watch?v=_etmPC2y-Tc; scene 27.476 to 34.476 seconds. Audio: Pixar. Metadata: https://www.rottentomatoes.com/m/ratatouille/cast-and-crew
+
+<!-- cinematix-audio:incredibles -->
+- The Incredibles (2004): https://www.youtube.com/watch?v=6u9a2u2452Y; scene 52.94 to 59.94 seconds. Audio: The Neon Theater. Metadata: https://www.rottentomatoes.com/m/incredibles/cast-and-crew
+
+<!-- cinematix-audio:simpsons -->
+- The Simpsons (1989): https://www.youtube.com/watch?v=SqDP8SnPVA0; scene 14.98 to 21.98 seconds. Audio: Alex F. Metadata: https://www.rottentomatoes.com/tv/the_simpsons/cast-and-crew
+
+<!-- cinematix-audio:family-guy -->
+- Family Guy (1999): https://www.youtube.com/watch?v=9Sx2HHzmp8Q; scene 35.44 to 42.44 seconds. Audio: Mr. Rupert. Metadata: https://www.rottentomatoes.com/tv/family_guy/cast-and-crew
+
+<!-- cinematix-audio:south-park -->
+- South Park (1997): https://www.youtube.com/watch?v=qTC9j0QpCBM; scene 57.94 to 64.94 seconds. Audio: CS. Metadata: https://southpark.cc.com/legal/tkdxo6/cast-and-crew
+
+<!-- cinematix-audio:two-half-men -->
+- Two and a Half Men (2003): https://www.youtube.com/watch?v=gMvpEE7wQUw; scene 72.94 to 79.94 seconds. Audio: Two and a Half Men. Metadata: https://www.rottentomatoes.com/tv/two_and_a_half_men/cast-and-crew
+
+<!-- cinematix-audio:fresh-prince -->
+- The Fresh Prince of Bel-Air (1990): https://www.youtube.com/watch?v=EZGXCDJATDs; scene 57.108 to 64.108 seconds. Audio: BBC. Metadata: https://www.rottentomatoes.com/tv/the_fresh_prince_of_bel_air/cast-and-crew
+
+<!-- cinematix-audio:mentalist -->
+- The Mentalist (2008): https://www.youtube.com/watch?v=cAxEQYqo7no; scene 35.252 to 42.252 seconds. Audio: Comic Pencil. Metadata: https://www.rottentomatoes.com/tv/the_mentalist/cast-and-crew
+
+<!-- cinematix-audio:criminal-minds -->
+- Criminal Minds (2005): https://www.youtube.com/watch?v=ZPVjuVArq4g; scene 44.724 to 51.724 seconds. Audio: bauprofilers. Metadata: https://www.rottentomatoes.com/tv/criminal_minds/cast-and-crew
+
+<!-- cinematix-audio:ncis -->
+- NCIS (2003): https://www.youtube.com/watch?v=rN_lQUAipQI; scene 60.44 to 67.44 seconds. Audio: Film / TV Clips & Quotes. Metadata: https://www.rottentomatoes.com/tv/ncis/cast-and-crew
+
+<!-- cinematix-audio:csi -->
+- CSI: Crime Scene Investigation (2000): https://www.youtube.com/watch?v=x71_t44SEj4; scene 51.44 to 58.44 seconds. Audio: gomphotherium22. Metadata: https://www.rottentomatoes.com/tv/csi_crime_scene_investigation/cast-and-crew
+
+<!-- cinematix-audio:24 -->
+- 24 (2001): https://www.youtube.com/watch?v=wKT5AhMsFJ8; scene 36.94 to 43.94 seconds. Audio: hrbhr. Metadata: https://www.rottentomatoes.com/tv/24/cast-and-crew
+
+<!-- cinematix-audio:smallville -->
+- Smallville (2001): https://www.youtube.com/watch?v=scsCykcNzuA; scene 10.1 to 17.1 seconds. Audio: Joe Morrison. Metadata: https://www.rottentomatoes.com/tv/smallville/cast-and-crew
+
+<!-- cinematix-audio:gilmore-girls -->
+- Gilmore Girls (2000): https://www.youtube.com/watch?v=wrTyJ4pY8ZA; scene 40.756 to 47.756 seconds. Audio: TV Clips. Metadata: https://www.rottentomatoes.com/tv/gilmore_girls/cast-and-crew
+
+<!-- cinematix-audio:good-place -->
+- The Good Place (2016): https://www.youtube.com/watch?v=knPIzHEaGmw; scene 62.44 to 69.44 seconds. Audio: Ambrose Chamberpot. Metadata: https://www.rottentomatoes.com/tv/the_good_place/cast-and-crew
+
+<!-- cinematix-audio:true-detective -->
+- True Detective (2014): https://www.youtube.com/watch?v=u2wVqOD2-zI; scene 149.94 to 156.94 seconds. Audio: G Pranav Hari ce17b115. Metadata: https://www.rottentomatoes.com/tv/true_detective/cast-and-crew
+
+<!-- cinematix-audio:mad-men -->
+- Mad Men (2007): https://www.youtube.com/watch?v=rq3n2sJ43Hg; scene 14.004 to 21.004 seconds. Audio: Rod Rothwell. Metadata: https://www.rottentomatoes.com/tv/mad_men/cast-and-crew
+
+<!-- cinematix-audio:seven -->
+- Se7en (1995): https://www.youtube.com/watch?v=lWZU3pPZWig; scene 44.94 to 51.94 seconds. Audio: Movieclips. Metadata: https://catalog.afi.com/Film/60087-SE7EN
+
+<!-- cinematix-audio:beautiful-mind -->
+- A Beautiful Mind (2001): https://www.youtube.com/watch?v=LJS7Igvk6ZM; scene 60.94 to 67.94 seconds. Audio: Cringe Cook. Metadata: https://www.rottentomatoes.com/m/beautiful_mind/cast-and-crew
+
+<!-- cinematix-audio:django -->
+- Django Unchained (2012): https://www.youtube.com/watch?v=d5ZMQq7rH7s; scene 60.94 to 67.94 seconds. Audio: Iconic Flicks. Metadata: https://www.rottentomatoes.com/m/django_unchained/cast-and-crew
+
+<!-- cinematix-audio:big-little-lies -->
+- Big Little Lies (2017): https://www.youtube.com/watch?v=4GnlVd4l_5Y; scene 52.44 to 59.44 seconds. Audio: HBO. Metadata: https://www.rottentomatoes.com/tv/big_little_lies/cast-and-crew
+
+<!-- cinematix-audio:desperate-housewives -->
+- Desperate Housewives (2004): https://www.youtube.com/watch?v=BHJUr-pyw5I; scene 62.44 to 69.44 seconds. Audio: honeybunches73. Metadata: https://www.rottentomatoes.com/tv/desperate_housewives/cast-and-crew
+
+<!-- cinematix-audio:sons-anarchy -->
+- Sons of Anarchy (2008): https://www.youtube.com/watch?v=wgky7oiNqoY; scene 18.44 to 25.44 seconds. Audio: Teller Morrow. Metadata: https://www.rottentomatoes.com/tv/sons_of_anarchy/cast-and-crew
