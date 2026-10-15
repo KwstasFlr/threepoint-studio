@@ -1,0 +1,8 @@
+Guess the Person category cover
+
+Base artwork: Font Awesome Free 6 user icon, Fonticons, Inc.
+Source: https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/solid/user.svg
+Licence: Creative Commons Attribution 4.0 International (icons).
+https://creativecommons.org/licenses/by/4.0/
+Changes: black silhouette, white question mark overlay, dark background and layout.
+This is a stock vector icon; no AI image generation was used.

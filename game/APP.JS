@@ -5549,7 +5549,7 @@ function renderGames() {
       card.type = "button";
     }
 
-    const cardImages={people:'people-cover.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={people:'people-mystery-20261015.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
