@@ -21,7 +21,7 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles, catalog;
   try {
-    const response = await fetch('titles.json?v=20261013-greek-more');
+    const response = await fetch('titles.json?v=20261015-greek-expanded');
     if (!response.ok) throw new Error('Titles unavailable');
     catalog = await response.json();
     window.GMPScreenLanguage?.register(Object.fromEntries(catalog.flatMap(t => [[t.clue, t.clueEn], [t.synopsis, t.synopsisEn]]).filter(([el,en]) => el && en)));

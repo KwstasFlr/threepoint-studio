@@ -202,3 +202,150 @@
 - Βότκα πορτοκάλι (2001): [GeorgeBac88](https://www.youtube.com/watch?v=6mdfvg1Rpa4), 51.44–58.44s. Βοτκα πορτοκαλι - ΣΔΟΕ στο μπαρ. Speech activity 6.17s; longest gap 0.54s. Metadata: https://www.retrodb.gr/wiki/index.php/Βότκα_πορτοκάλι.
 - Αχ και να ’ξερες (2002): [GROUDPOND](https://www.youtube.com/watch?v=z05VEjiUugM), 649.06–656.06s. ΑΧ ΚΑΙ ΝΑ ΞΕΡΕΣ - Επ.3. Speech activity 5.38s; longest gap 0.64s. Metadata: https://www.tanea.gr/2002/08/21/lifearts/culture/erwtes-stin-eyp/.
 - Λόγω τιμής (1996): [Greek TV HD](https://www.youtube.com/watch?v=ZM9jNOxP78o), 603.94–610.94s. Λόγω Τιμής - Επεισόδιο 2 HD. Speech activity 7.0s; longest gap 0.0s. Metadata: https://www.retrodb.gr/wiki/index.php/Λόγω_τιμής_(1996).
+
+<!-- greek-audio:rakos14 -->
+- Ράκος Νο 14 και ο πρώτος μπουνάκιας (1986): https://www.youtube.com/watch?v=uFV-n67U0Uw; scene 47.44 to 54.44 seconds. Audio: Fotis Valmas. Metadata: https://www.filmy.gr/movies-database/rakos-no-14/
+
+<!-- greek-audio:papasouzas -->
+- Ο από μηχανής θεός (1983): https://www.youtube.com/watch?v=htaDGNCO524; scene 17.94 to 24.94 seconds. Audio: tolis1989. Metadata: https://www.tvopen.gr/oapomhxanhstheos/about
+
+<!-- greek-audio:apofraxi -->
+- Η μεγάλη απόφραξη (1988): https://www.youtube.com/watch?v=_N09EoNPGro; scene 3.94 to 10.94 seconds. Audio: Kostis Asteras8. Metadata: https://www.retrodb.gr/wiki/index.php/Η_μεγάλη_απόφραξη
+
+<!-- greek-audio:vlavi -->
+- Κλασική περίπτωση βλάβης (1987): https://www.youtube.com/watch?v=k9NVgd6xMBU; scene 38.564 to 45.564 seconds. Audio: Peter Nikol. Metadata: https://ellinikoskinimatografos.gr/klasiki-periptosi-vlavis-1987-1988/
+
+<!-- greek-audio:touvla -->
+- Τα τούβλα (1985): https://www.youtube.com/watch?v=k9pTLLmPU50; scene 21.44 to 28.44 seconds. Audio: djgrp (DJ GRP). Metadata: https://www.retrodb.gr/wiki/index.php/Τα_τούβλα
+
+<!-- greek-audio:erastis -->
+- Εραστής δυτικών προαστίων (2004): https://www.youtube.com/watch?v=HvLkbPKxxo8; scene 928.44 to 935.44 seconds. Audio: Greek TV HD. Metadata: https://retrodb.gr/wiki/index.php/Εραστής_δυτικών_προαστίων
+
+<!-- greek-audio:litsa -->
+- Λίτσα.com (2008): https://www.youtube.com/watch?v=8IOnaHkaYjM; scene 60.1 to 67.1 seconds. Audio: Anipotakti Kardia. Metadata: https://www.maktv.gr/litsacom
+
+<!-- greek-audio:mila -->
+- Μίλα μου βρώμικα (2009): https://www.youtube.com/watch?v=Dr9UbOtl1w8; scene 613.988 to 620.988 seconds. Audio: Greek TV HD. Metadata: https://www.in.gr/2009/11/18/entertainment/mila-moy-brwmika-stis-22-15-sto-mega/
+
+<!-- greek-audio:mazi -->
+- Μαζί σου (2007): https://www.youtube.com/watch?v=2K1ySujIfu8; scene 913.348 to 920.348 seconds. Audio: Greek TV 2 HD. Metadata: https://www.megatv.com/tvshows/49494/epeisodio-20/
+
+<!-- greek-audio:filodoxies -->
+- Φιλοδοξίες (2002): https://www.youtube.com/watch?v=qGt_pxyW2As; scene 756.708 to 763.708 seconds. Audio: Greek TV HD. Metadata: https://www.megatv.com/tvshows/47093/epeisodio-64-16/
+
+<!-- greek-audio:stella -->
+- Στέλλα (1955): https://www.youtube.com/watch?v=b89nJKk2BgI; scene 23.44 to 30.44 seconds. Audio: Ιάκωβος Καμπανέλλης - Iakovos Kambanellis. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A3%CF%84%CE%AD%CE%BB%CE%BB%CE%B1
+
+<!-- greek-audio:alimono -->
+- Αλλοίμονο στους νέους (1961): https://www.youtube.com/watch?v=hPgqkDFoYPA; scene 43.44 to 50.44 seconds. Audio: George Samos 65.. Metadata: https://www.filmy.gr/movies-database/woe-to-the-young/
+
+<!-- greek-audio:synoikia -->
+- Συνοικία το όνειρο (1961): https://www.youtube.com/watch?v=iEmaqM-J4Y8; scene 23.268 to 30.268 seconds. Audio: δια λόγου. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A3%CF%85%CE%BD%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1_%CF%84%CE%BF_%CE%8C%CE%BD%CE%B5%CE%B9%CF%81%CE%BF
+
+<!-- greek-audio:vasilissa -->
+- Θα σε κάνω βασίλισσα (1964): https://www.youtube.com/watch?v=sIVb7_kHB4g; scene 39.44 to 46.44 seconds. Audio: Jimmy Greek. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%98%CE%B1_%CF%83%CE%B5_%CE%BA%CE%AC%CE%BD%CF%89_%CE%B2%CE%B1%CF%83%CE%AF%CE%BB%CE%B9%CF%83%CF%83%CE%B1_%281964%29
+
+<!-- greek-audio:gamproi -->
+- Οι γαμπροί της Ευτυχίας (1962): https://www.youtube.com/watch?v=h_sWP976yG4; scene 18.44 to 25.44 seconds. Audio: BGMS - Best Greek Movie Scenes. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F%CE%B9_%CE%B3%CE%B1%CE%BC%CF%80%CF%81%CE%BF%CE%AF_%CF%84%CE%B7%CF%82_%CE%95%CF%85%CF%84%CF%85%CF%87%CE%AF%CE%B1%CF%82_%281962%29
+
+<!-- greek-audio:triti13 -->
+- Τρίτη και 13 (1963): https://www.youtube.com/watch?v=icmhYKdBFJA; scene 50.94 to 57.94 seconds. Audio: tempo.gr. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A4%CF%81%CE%AF%CF%84%CE%B7_%CE%BA%CE%B1%CE%B9_13_%281963%29
+
+<!-- greek-audio:grousouzis -->
+- Ο γρουσούζης (1952): https://www.youtube.com/watch?v=gSVKkpdiCGI; scene 44.44 to 51.44 seconds. Audio: George Samos 65.. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CE%B3%CF%81%CE%BF%CF%85%CF%83%CE%BF%CF%8D%CE%B6%CE%B7%CF%82
+
+<!-- greek-audio:rebetiko -->
+- Ρεμπέτικο (1983): https://www.youtube.com/watch?v=Dz_MSTtKIWo; scene 729.86 to 736.86 seconds. Audio: VHS Time Machine. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A1%CE%B5%CE%BC%CF%80%CE%AD%CF%84%CE%B9%CE%BA%CE%BF_%281983%29
+
+<!-- greek-audio:balkanizater -->
+- Βαλκανιζατέρ (1997): https://www.youtube.com/watch?v=BKIZnnIF0EQ; scene 168.1 to 175.1 seconds. Audio: Γιώργος Ζήκος. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%B9%CE%B6%CE%B1%CF%84%CE%AD%CF%81
+
+<!-- greek-audio:digger -->
+- Digger (2020): https://www.youtube.com/watch?v=zbdAsKjS1Kw; scene 8.964 to 15.964 seconds. Audio: Voudouras 21. Metadata: https://www.retrodb.gr/wiki/index.php/Digger
+
+<!-- greek-audio:suntan -->
+- Suntan (2016): https://www.youtube.com/watch?v=3NKwvS4kRZ8; scene 17.44 to 24.44 seconds. Audio: BGMS - Best Greek Movie Scenes. Metadata: https://www.retrodb.gr/wiki/index.php/Suntan
+
+<!-- greek-audio:kynodontas -->
+- Κυνόδοντας (2009): https://www.youtube.com/watch?v=NAQ-cuuqAyI; scene 3.44 to 10.44 seconds. Audio: triocinefil. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9A%CF%85%CE%BD%CF%8C%CE%B4%CE%BF%CE%BD%CF%84%CE%B1%CF%82
+
+<!-- greek-audio:tzivaeri -->
+- Τζιβαέρι (1997): https://www.youtube.com/watch?v=KI72FVLPTKw; scene 420.44 to 427.44 seconds. Audio: Greek TV HD. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A4%CE%B6%CE%B9%CE%B2%CE%B1%CE%AD%CF%81%CE%B9
+
+<!-- greek-audio:prosexeis -->
+- Να με προσέχεις (2000): https://www.youtube.com/watch?v=xSJcMmtG1pI; scene 399.14 to 406.14 seconds. Audio: Greek TV HD. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9D%CE%B1_%CE%BC%CE%B5_%CF%80%CF%81%CE%BF%CF%83%CE%AD%CF%87%CE%B5%CE%B9%CF%82
+
+<!-- greek-audio:ploio -->
+- Θα σε δω στο πλοίο (2000): https://www.youtube.com/watch?v=TdwEppI9OtM; scene 360.44 to 367.44 seconds. Audio: Alpha TV Greece. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%98%CE%B1_%CF%83%CE%B5_%CE%B4%CF%89_%CF%83%CF%84%CE%BF_%CF%80%CE%BB%CE%BF%CE%AF%CE%BF
+
+<!-- greek-audio:thronou -->
+- Η αίθουσα του θρόνου (1998): https://www.youtube.com/watch?v=2d4_yb-Fhzo; scene 525.7 to 532.7 seconds. Audio: Greek TV HD. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%97_%CE%91%CE%AF%CE%B8%CE%BF%CF%85%CF%83%CE%B1_%CF%84%CE%BF%CF%85_%CE%98%CF%81%CF%8C%CE%BD%CE%BF%CF%85
+
+<!-- greek-audio:ksafnika -->
+- Έτσι ξαφνικά (2004): https://www.youtube.com/watch?v=ULegV6kUF6U; scene 490.44 to 497.44 seconds. Audio: Alexandros Christou. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%88%CF%84%CF%83%CE%B9_%CE%9E%CE%B1%CF%86%CE%BD%CE%B9%CE%BA%CE%AC
+
+<!-- greek-audio:iliakada -->
+- Σαν χειμωνιάτικη λιακάδα (2000): https://www.youtube.com/watch?v=ts9wz2-ggrM; scene 412.44 to 419.44 seconds. Audio: StarTvGreece. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%A3%CE%B1%CE%BD_%CE%A7%CE%B5%CE%B9%CE%BC%CF%89%CE%BD%CE%B9%CE%AC%CF%84%CE%B9%CE%BA%CE%B7_%CE%9B%CE%B9%CE%B1%CE%BA%CE%AC%CE%B4%CE%B1
+
+<!-- greek-audio:erotas -->
+- Άγιος έρωτας (2024): https://www.youtube.com/watch?v=RGvt3myw0Xo; scene 20.324 to 27.324 seconds. Audio: Alpha TV Greece. Metadata: https://www.alphatv.gr/series/agios-erotas/
+
+<!-- greek-audio:famagusta -->
+- Famagusta (2024): https://www.youtube.com/watch?v=13oqFYXPv5I; scene 37.38 to 44.38 seconds. Audio: MEGA TV - OFFICIAL. Metadata: https://www.retrodb.gr/wiki/index.php/Famagusta
+
+<!-- greek-audio:lexeis8 -->
+- 8 λέξεις (2019): https://www.youtube.com/watch?v=rc6M1kPpTSk; scene 493.44 to 500.44 seconds. Audio: 8 Λέξεις | 8 Words. Metadata: https://www.retrodb.gr/wiki/index.php/8_%CE%9B%CE%AD%CE%BE%CE%B5%CE%B9%CF%82
+
+<!-- greek-audio:mines9 -->
+- 9 μήνες (2015): https://www.youtube.com/watch?v=rQoDv5uEB4k; scene 385.94 to 392.94 seconds. Audio: StarTvGreece. Metadata: https://www.star.gr/lifestyle/media/289008/nea_elliniki_kathimerini_seira_sto_star_9_mines
+
+<!-- greek-audio:pseftra -->
+- Η ψεύτρα (1963): https://www.youtube.com/watch?v=1EuSPTvj_Yc; scene 42.44 to 49.44 seconds. Audio: Alekos AleksandrakisFanPage. Metadata: https://www.megatv.com/tvmovies/2283433/
+
+<!-- greek-audio:vasoula -->
+- Ένας ιππότης για τη Βασούλα (1968): https://www.youtube.com/watch?v=KCUlNKIhn6M; scene 24.612 to 31.612 seconds. Audio: Σοφία Γούσια. Metadata: https://finosfilm.com/portfolio-items/enas-ippotis-gia-ti-vasoula/
+
+<!-- greek-audio:elefantas -->
+- Η αγάπη είναι ελέφαντας (2000): https://www.youtube.com/watch?v=xaqYk_F0Ca0; scene 32.1 to 39.1 seconds. Audio: george kalkantaras. Metadata: https://www.retrodb.gr/wiki/index.php/Η_Αγάπη_Είναι..._...Ελέφαντας
+
+<!-- greek-audio:tsiou -->
+- Τσίου... (2005): https://www.youtube.com/watch?v=cKaU2snJmog; scene 529.572 to 536.572 seconds. Audio: FearOfTheDark. Metadata: https://www.lifo.gr/guide/cinema/tsiu
+
+<!-- greek-audio:spirtokouto -->
+- Σπιρτόκουτο (2002): https://www.youtube.com/watch?v=JgemRu0AQuY; scene 21.94 to 28.94 seconds. Audio: aggelosfr49. Metadata: https://www.retrodb.gr/wiki/index.php/Σπιρτόκουτο
+
+<!-- greek-audio:chef -->
+- Μάλιστα, σεφ! (2015): https://www.youtube.com/watch?v=aaDe5cFWkac; scene 29.44 to 36.44 seconds. Audio: Alexandros Tranoulidis. Metadata: https://www.megatv.com/tvshows/53083/episode-002/
+
+<!-- greek-audio:kampanario -->
+- Φόνοι στο καμπαναριό (2023): https://www.youtube.com/watch?v=6n2LeJ0_3Oo; scene 42.44 to 49.44 seconds. Audio: Alpha TV Greece. Metadata: https://www.retrodb.gr/wiki/index.php/Φόνοι_στο_Καμπαναριό
+
+<!-- greek-audio:yperoxa -->
+- Υπέροχα πλάσματα (2007): https://www.youtube.com/watch?v=9zYJp6bthlU; scene 412.44 to 419.44 seconds. Audio: Alpha TV Greece. Metadata: https://www.retrodb.gr/wiki/index.php/Υπέροχα_πλάσματα
+
+<!-- greek-audio:zoes7 -->
+- 7 ζωές (2008): https://www.youtube.com/watch?v=7D3dXrAuEJo; scene 374.5 to 381.5 seconds. Audio: Pumpkin girl. Metadata: https://www.retrodb.gr/wiki/index.php/7_Ζωές
+
+<!-- greek-audio:stravoxylo -->
+- Το στραβόξυλο (1952): https://www.youtube.com/watch?v=zRiwOMoDJZY; scene 29.44 to 36.44 seconds. Audio: Μελετώντας την Ιστορία και τον Πολιτισμό. Metadata: https://www.retrodb.gr/wiki/index.php/Το_στραβόξυλο_(1952)
+
+<!-- greek-audio:koroidaki -->
+- Το κοροϊδάκι της δεσποινίδος (1960): https://www.youtube.com/watch?v=WxqFNYS0AnY; scene 47.44 to 54.44 seconds. Audio: George Papadopoulos. Metadata: https://www.retrodb.gr/wiki/index.php/Το_κοροϊδάκι_της_δεσποινίδος
+
+<!-- greek-audio:kalisp -->
+- Βασικά... καλησπέρα σας (1982): https://www.youtube.com/watch?v=MkATYAIMkv8; scene 499.44 to 506.44 seconds. Audio: HALIWOODMOVIES. Metadata: https://www.ishow.gr/production/259390/basika-kalispera-sas
+
+<!-- greek-audio:varvara -->
+- Τροχονόμος Βαρβάρα (1981): https://www.youtube.com/watch?v=uELE6tGA47k; scene 506.94 to 513.94 seconds. Audio: Όμηρος Ευστρατιάδης. Metadata: https://www.retrodb.gr/wiki/index.php/Τροχονόμος_...Βαρβάρα
+
+<!-- greek-audio:roda -->
+- Ρόδα, τσάντα και κοπάνα (1982): https://www.youtube.com/watch?v=KBs75OdeyZc; scene 0.644 to 7.644 seconds. Audio: ad2sound. Metadata: https://greek-movies.com/movies.php?m=295
+
+<!-- greek-audio:tsakalia -->
+- Τα τσακάλια (1981): https://www.youtube.com/watch?v=jDJarMB2OIs; scene 528.44 to 535.44 seconds. Audio: Terisflo. Metadata: https://www.filmy.gr/movies-database/the-jackals-1981/
+
+<!-- greek-audio:kamika -->
+- Καμικάζι, αγάπη μου (1983): https://www.youtube.com/watch?v=mDSmMCp6LnM; scene 508.292 to 515.292 seconds. Audio: Terisflo. Metadata: https://ellinikoskinimatografos.gr/kamikazi-agapi-mou/
+
+<!-- greek-audio:ora -->
+- Η τελευταία ώρα (2021): https://www.youtube.com/watch?v=eWkmpocYsOY; scene 360.004 to 367.004 seconds. Audio: OPEN. Metadata: https://live.tvopen.gr/press/2500/premierashmeragiathneakathhmerinhseiratoyopenhteleytaiaora
