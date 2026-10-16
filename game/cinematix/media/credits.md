@@ -549,3 +549,282 @@
 
 <!-- cinematix-audio:arrow -->
 - Arrow (2012): https://www.youtube.com/watch?v=_KFBLn4ecgs; scene 26.94 to 33.94 seconds. Audio: Arrow CW. Metadata: https://www.rottentomatoes.com/tv/arrow/cast-and-crew
+
+<!-- cinematix-audio:black-swan -->
+- Black Swan (2010): https://www.youtube.com/watch?v=ylRO9Yenjmg; scene 4.0 to 11 seconds. Audio: ThMasker. Metadata: https://www.rottentomatoes.com/m/black_swan_2010/cast-and-crew
+
+<!-- cinematix-audio:up -->
+- Up (2009): https://www.youtube.com/watch?v=abTNDu0kZAw; scene 20.0 to 27 seconds. Audio: ThePixarManiacs. Metadata: https://www.rottentomatoes.com/m/up/cast-and-crew
+
+<!-- cinematix-audio:shining -->
+- The Shining (1980): https://www.youtube.com/watch?v=N8PLzM9HZQ4; scene 46.5 to 53.5 seconds. Audio: Zello . Metadata: https://www.rottentomatoes.com/m/shining/cast-and-crew
+
+<!-- cinematix-audio:bosch -->
+- Bosch (2014): https://www.youtube.com/watch?v=-PGEU8sKr2s; scene 86.5 to 93.5 seconds. Audio: Huell Babineaux. Metadata: https://www.rottentomatoes.com/tv/bosch/cast-and-crew
+
+<!-- cinematix-audio:once-upon-time -->
+- Once Upon a Time (2011): https://www.youtube.com/watch?v=fkHpxxFiGxs; scene 89.5 to 96.5 seconds. Audio: Tv show Clips. Metadata: https://www.rottentomatoes.com/tv/once_upon_a_time/s01/cast-and-crew
+
+<!-- cinematix-audio:schindler -->
+- Schindler's List (1993): https://www.youtube.com/watch?v=OEfiC_G5efU; scene 14.5 to 21.5 seconds. Audio: Critic Picks. Metadata: https://www.rottentomatoes.com/m/schindlers_list/cast-and-crew
+
+<!-- cinematix-audio:cobra-kai -->
+- Cobra Kai (2018): https://www.youtube.com/watch?v=nwf4g60yXRU; scene 12.0 to 19 seconds. Audio: 𝕂𝕠𝕘𝕒𝕟𝕖. Metadata: https://www.rottentomatoes.com/tv/cobra_kai/cast-and-crew
+
+<!-- cinematix-audio:troy -->
+- Troy (2004): https://www.youtube.com/watch?v=2rGFbiM1Hoo; scene 83.5 to 90.5 seconds. Audio: Satellite Y. L.. Metadata: https://www.rottentomatoes.com/m/troy/cast-and-crew
+
+<!-- cinematix-audio:devils-advocate -->
+- The Devil's Advocate (1997): https://www.youtube.com/watch?v=tMejda0xdDw; scene 0.5 to 7.5 seconds. Audio: Captain Ron Lives. Metadata: https://www.rottentomatoes.com/m/devils_advocate/cast-and-crew
+
+<!-- cinematix-audio:meet-parents -->
+- Meet the Parents (2000): https://www.youtube.com/watch?v=VPkPuRBR3H8; scene 43.0 to 50 seconds. Audio: Best Movie Quote. Metadata: https://www.rottentomatoes.com/m/meet_the_parents/cast-and-crew
+
+<!-- cinematix-audio:yes-man -->
+- Yes Man (2008): https://www.youtube.com/watch?v=lM7gmnr50pQ; scene 50.0 to 57 seconds. Audio: Carl Eric Vaillancourt. Metadata: https://www.rottentomatoes.com/m/yes_man/cast-and-crew
+
+<!-- cinematix-audio:liar-liar -->
+- Liar Liar (1997): https://www.youtube.com/watch?v=X6YLAmKFpRM; scene 32.5 to 39.5 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/liar_liar/cast-and-crew
+
+<!-- cinematix-audio:ferris-bueller -->
+- Ferris Bueller's Day Off (1986): https://www.youtube.com/watch?v=mHa1zTLrXO8; scene 17.5 to 24.5 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/ferris_buellers_day_off/cast-and-crew
+
+<!-- cinematix-audio:breakfast-club -->
+- The Breakfast Club (1985): https://www.youtube.com/watch?v=sdrTKPyW018; scene 112.5 to 119.5 seconds. Audio: suuperachael. Metadata: https://www.rottentomatoes.com/m/breakfast_club/cast-and-crew
+
+<!-- cinematix-audio:beetlejuice -->
+- Beetlejuice (1988): https://www.youtube.com/watch?v=DV5c16vOzSs; scene 10.5 to 17.5 seconds. Audio: parkerwest5179. Metadata: https://www.rottentomatoes.com/m/beetlejuice/cast-and-crew
+
+<!-- cinematix-audio:great-gatsby -->
+- The Great Gatsby (2013): https://www.youtube.com/watch?v=2zHHkSu1br4; scene 34.0 to 41 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/the_great_gatsby_2013/cast-and-crew
+
+<!-- cinematix-audio:donnie-darko -->
+- Donnie Darko (2001): https://www.youtube.com/watch?v=XWCTqtqLZ10; scene 52.5 to 59.5 seconds. Audio: Facundo Verdun. Metadata: https://www.rottentomatoes.com/m/donnie_darko/cast-and-crew
+
+<!-- cinematix-audio:there-will-blood -->
+- There Will Be Blood (2007): https://www.youtube.com/watch?v=FQmb3b3HYeA; scene 108.5 to 115.5 seconds. Audio: There Will Be Cinema. Metadata: https://www.rottentomatoes.com/m/there_will_be_blood/cast-and-crew
+
+<!-- cinematix-audio:trainspotting -->
+- Trainspotting (1996): https://www.youtube.com/watch?v=UcJkLGKl-dU; scene 55.0 to 62 seconds. Audio: Asle Knudsen. Metadata: https://www.rottentomatoes.com/m/trainspotting/cast-and-crew
+
+<!-- cinematix-audio:snatch -->
+- Snatch (2000): https://www.youtube.com/watch?v=hVR0GYOO6hY; scene 8.0 to 15 seconds. Audio: Phuck Yiu. Metadata: https://www.rottentomatoes.com/m/snatch/cast-and-crew
+
+<!-- cinematix-audio:reservoir-dogs -->
+- Reservoir Dogs (1992): https://www.youtube.com/watch?v=M4sTSIYzDIk; scene 100.5 to 107.5 seconds. Audio: Peacock. Metadata: https://www.rottentomatoes.com/m/reservoir_dogs/cast-and-crew
+
+<!-- cinematix-audio:kill-bill -->
+- Kill Bill: Vol. 1 (2003): https://www.youtube.com/watch?v=JMbO7vTuXHw; scene 85.0 to 92 seconds. Audio: Binge Society. Metadata: https://www.rottentomatoes.com/m/kill_bill_vol_1/cast-and-crew
+
+<!-- cinematix-audio:inglourious -->
+- Inglourious Basterds (2009): https://www.youtube.com/watch?v=ScA4s92G_0U; scene 42.0 to 49 seconds. Audio: Screen Bites. Metadata: https://www.rottentomatoes.com/m/inglourious_basterds/cast-and-crew
+
+<!-- cinematix-audio:once-hollywood -->
+- Once Upon a Time in Hollywood (2019): https://www.youtube.com/watch?v=s3maJDDoX1Y; scene 31.5 to 38.5 seconds. Audio: What A Clip!. Metadata: https://www.rottentomatoes.com/m/once_upon_a_time_in_hollywood/cast-and-crew
+
+<!-- cinematix-audio:hateful-eight -->
+- The Hateful Eight (2015): https://www.youtube.com/watch?v=zS0hjNqluMo; scene 94.5 to 101.5 seconds. Audio: webiplus. Metadata: https://www.rottentomatoes.com/m/the_hateful_eight/cast-and-crew
+
+<!-- cinematix-audio:12-years-slave -->
+- 12 Years a Slave (2013): https://www.youtube.com/watch?v=NDYCPUXFemI; scene 19.5 to 26.5 seconds. Audio: International Drama's. Metadata: https://www.rottentomatoes.com/m/12_years_a_slave/cast-and-crew
+
+<!-- cinematix-audio:million-dollar-baby -->
+- Million Dollar Baby (2004): https://www.youtube.com/watch?v=-3Q_LHQHkcQ; scene 71.5 to 78.5 seconds. Audio: Mirceacatalinandrei. Metadata: https://www.rottentomatoes.com/m/million_dollar_baby/cast-and-crew
+
+<!-- cinematix-audio:gran-torino -->
+- Gran Torino (2008): https://www.youtube.com/watch?v=MhjkY45ztH0; scene 99.0 to 106 seconds. Audio: Mirceacatalinandrei. Metadata: https://www.rottentomatoes.com/m/gran_torino/cast-and-crew
+
+<!-- cinematix-audio:unforgiven -->
+- Unforgiven (1992): https://www.youtube.com/watch?v=4x_MfkJvgbU; scene 90.5 to 97.5 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/1041911-unforgiven/cast-and-crew
+
+<!-- cinematix-audio:mystic-river -->
+- Mystic River (2003): https://www.youtube.com/watch?v=gTgm44dkSCY; scene 101.5 to 108.5 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/mystic_river/cast-and-crew
+
+<!-- cinematix-audio:american-sniper -->
+- American Sniper (2014): https://www.youtube.com/watch?v=19PwsPzlYlA; scene 19.5 to 26.5 seconds. Audio: Warner Bros. Entertainment. Metadata: https://www.rottentomatoes.com/m/american_sniper/cast-and-crew
+
+<!-- cinematix-audio:hacksaw-ridge -->
+- Hacksaw Ridge (2016): https://www.youtube.com/watch?v=nNZq1uBXOz0; scene 102.5 to 109.5 seconds. Audio: Boxoffice Movie Scenes. Metadata: https://www.rottentomatoes.com/m/hacksaw_ridge/cast-and-crew
+
+<!-- cinematix-audio:1917 -->
+- 1917 (2019): https://www.youtube.com/watch?v=YROAHcWiTpA; scene 21.0 to 28 seconds. Audio: Binge Society. Metadata: https://www.rottentomatoes.com/m/1917_2019/cast-and-crew
+
+<!-- cinematix-audio:platoon -->
+- Platoon (1986): https://www.youtube.com/watch?v=S0IfbNVCoCE; scene 78.5 to 85.5 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/platoon/cast-and-crew
+
+<!-- cinematix-audio:last-samurai -->
+- The Last Samurai (2003): https://www.youtube.com/watch?v=KEUnb2mE_nw; scene 7.5 to 14.5 seconds. Audio: Charlie Xu. Metadata: https://www.rottentomatoes.com/m/last_samurai/cast-and-crew
+
+<!-- cinematix-audio:aviator -->
+- The Aviator (2004): https://www.youtube.com/watch?v=0MXSAwkVU3U; scene 53.0 to 60 seconds. Audio: Aurianne Or. Metadata: https://www.rottentomatoes.com/m/aviator/cast-and-crew
+
+<!-- cinematix-audio:revenant -->
+- The Revenant (2015): https://www.youtube.com/watch?v=iIG3xX1Owoo; scene 62.0 to 69 seconds. Audio: Gromon. Metadata: https://www.rottentomatoes.com/m/the_revenant_2015/cast-and-crew
+
+<!-- cinematix-audio:cast-away -->
+- Cast Away (2000): https://www.youtube.com/watch?v=wpenuBnaVhs; scene 89.0 to 96 seconds. Audio: Marcelo Nobre. Metadata: https://www.rottentomatoes.com/m/cast_away/cast-and-crew
+
+<!-- cinematix-audio:terminal -->
+- The Terminal (2004): https://www.youtube.com/watch?v=JrtHW2Rpl4Q; scene 77.0 to 84 seconds. Audio: Movie Movie. Metadata: https://www.paramountpictures.com/movies/the-terminal
+
+<!-- cinematix-audio:captain-phillips -->
+- Captain Phillips (2013): https://www.youtube.com/watch?v=KHsn2smp4N4; scene 55.0 to 62 seconds. Audio: Movieclips. Metadata: https://www.rottentomatoes.com/m/captain_phillips/cast-and-crew
+
+<!-- cinematix-audio:philadelphia -->
+- Philadelphia (1993): https://www.youtube.com/watch?v=aE3zkfux948; scene 2.0 to 9 seconds. Audio: NOW PLAYING. Metadata: https://www.rottentomatoes.com/m/philadelphia/cast-and-crew
+
+<!-- cinematix-audio:big -->
+- Big (1988): https://www.youtube.com/watch?v=YqJfe09UTi0; scene 9.0 to 16 seconds. Audio: okidokivideos. Metadata: https://www.rottentomatoes.com/m/big/cast-and-crew
+
+<!-- cinematix-audio:martian -->
+- The Martian (2015): https://www.youtube.com/watch?v=od3CSzhfB10; scene 102.0 to 109 seconds. Audio: Ozturw. Metadata: https://www.rottentomatoes.com/m/the_martian/cast-and-crew
+
+<!-- cinematix-audio:gravity -->
+- Gravity (2013): https://www.youtube.com/watch?v=Ca8duRf3nDc; scene 3.5 to 10.5 seconds. Audio: Industrial Scripts® - Screenplay & Screenwriting Consultants. Metadata: https://www.rottentomatoes.com/m/gravity_2013/cast-and-crew
+
+<!-- cinematix-audio:arrival -->
+- Arrival (2016): https://www.youtube.com/watch?v=urcuxFQ9uyQ; scene 1.0 to 8 seconds. Audio: NOW PLAYING. Metadata: https://www.rottentomatoes.com/m/arrival_2016/cast-and-crew
+
+<!-- cinematix-audio:edge-tomorrow -->
+- Edge of Tomorrow (2014): https://www.youtube.com/watch?v=YyQfs8-m3NI; scene 103.5 to 110.5 seconds. Audio: CinematicCutsHQ. Metadata: https://www.rottentomatoes.com/m/edge_of_tomorrow/cast-and-crew
+
+<!-- cinematix-audio:minority-report -->
+- Minority Report (2002): https://www.youtube.com/watch?v=c38XreJzxC0; scene 56.5 to 63.5 seconds. Audio: Alexandre Clairefontaine. Metadata: https://www.rottentomatoes.com/m/minority_report/cast-and-crew
+
+<!-- cinematix-audio:ready-player-one -->
+- Ready Player One (2018): https://www.youtube.com/watch?v=cjcVJsHF3Cw; scene 6.0 to 13 seconds. Audio: Movie Particle. Metadata: https://www.rottentomatoes.com/m/ready_player_one/cast-and-crew
+
+<!-- cinematix-audio:iron-man -->
+- Iron Man (2008): https://www.youtube.com/watch?v=Zq15nUPm-us; scene 28.0 to 35 seconds. Audio: TopMovieClips. Metadata: https://www.rottentomatoes.com/m/iron_man/cast-and-crew
+
+<!-- cinematix-audio:guardians -->
+- Guardians of the Galaxy (2014): https://www.youtube.com/watch?v=k0zpYAZbdg4; scene 36.5 to 43.5 seconds. Audio: Iconic Movie Moments. Metadata: https://www.rottentomatoes.com/m/guardians_of_the_galaxy/cast-and-crew
+
+<!-- cinematix-audio:deadpool -->
+- Deadpool (2016): https://www.youtube.com/watch?v=eC8UbmU2kB8; scene 75.0 to 82 seconds. Audio: MovieClipsAndTrailers. Metadata: https://www.rottentomatoes.com/m/deadpool/cast-and-crew
+
+<!-- cinematix-audio:logan -->
+- Logan (2017): https://www.youtube.com/watch?v=ECSBYI_AjK0; scene 107.0 to 114 seconds. Audio: DesiHotspot. Metadata: https://www.rottentomatoes.com/m/logan_2017/cast-and-crew
+
+<!-- cinematix-audio:pacific -->
+- The Pacific (2010): https://www.youtube.com/watch?v=NaWkXS3xO5M; scene 15.5 to 22.5 seconds. Audio: TheMarineRaider. Metadata: https://www.rottentomatoes.com/tv/the_pacific/cast-and-crew
+
+<!-- cinematix-audio:mare-easttown -->
+- Mare of Easttown (2021): https://www.youtube.com/watch?v=S4hUQ7SDawA; scene 8.5 to 15.5 seconds. Audio: HBO Max. Metadata: https://www.rottentomatoes.com/tv/mare_of_easttown/cast-and-crew
+
+<!-- cinematix-audio:ozark -->
+- Ozark (2017): https://www.youtube.com/watch?v=bA_A5_6bXnY; scene 108.5 to 115.5 seconds. Audio: Netflix Nordic. Metadata: https://www.rottentomatoes.com/tv/ozark/cast-and-crew
+
+<!-- cinematix-audio:good-wife -->
+- The Good Wife (2009): https://www.youtube.com/watch?v=xAllfwIKzx4; scene 13.0 to 20 seconds. Audio: PLP. Metadata: https://www.rottentomatoes.com/tv/the_good_wife/cast-and-crew
+
+<!-- cinematix-audio:scandal -->
+- Scandal (2012): https://www.youtube.com/watch?v=2-pxtwIkdvU; scene 101.0 to 108 seconds. Audio: Television Club. Metadata: https://www.rottentomatoes.com/tv/scandal/cast-and-crew
+
+<!-- cinematix-audio:murder -->
+- How to Get Away with Murder (2014): https://www.youtube.com/watch?v=zfNIM7mkcw4; scene 5.0 to 12 seconds. Audio: Edmond Syla. Metadata: https://www.rottentomatoes.com/tv/how_to_get_away_with_murder/cast-and-crew
+
+<!-- cinematix-audio:queens-gambit -->
+- The Queen's Gambit (2020): https://www.youtube.com/watch?v=esRZchm3Gq8; scene 13.5 to 20.5 seconds. Audio: Netflix India. Metadata: https://www.rottentomatoes.com/tv/the_queens_gambit/cast-and-crew
+
+<!-- cinematix-audio:orange-black -->
+- Orange Is the New Black (2013): https://www.youtube.com/watch?v=Qt6B0tYXvxM; scene 109.5 to 116.5 seconds. Audio: Rotten Tomatoes TV. Metadata: https://www.rottentomatoes.com/tv/orange_is_the_new_black/cast-and-crew
+
+<!-- cinematix-audio:shameless -->
+- Shameless (2011): https://www.youtube.com/watch?v=ykUTh9cVuJs; scene 17.5 to 24.5 seconds. Audio: Annaece. Metadata: https://www.rottentomatoes.com/tv/shameless/cast-and-crew
+
+<!-- cinematix-audio:weeds -->
+- Weeds (2005): https://www.youtube.com/watch?v=zmKGss6JfsM; scene 5.5 to 12.5 seconds. Audio: Bill Sloniker. Metadata: https://www.rottentomatoes.com/tv/weeds/cast-and-crew
+
+<!-- cinematix-audio:californication -->
+- Californication (2007): https://www.youtube.com/watch?v=GsTUDOGlgGc; scene 72.5 to 79.5 seconds. Audio: SHOWTIME. Metadata: https://www.rottentomatoes.com/tv/californication/cast-and-crew
+
+<!-- cinematix-audio:silicon-valley -->
+- Silicon Valley (2014): https://www.youtube.com/watch?v=oRva7UxGQDw; scene 109.5 to 116.5 seconds. Audio: aksonai. Metadata: https://www.rottentomatoes.com/tv/silicon_valley/cast-and-crew
+
+<!-- cinematix-audio:veep -->
+- Veep (2012): https://www.youtube.com/watch?v=Qqh2RiiqbYE; scene 39.5 to 46.5 seconds. Audio: ClipZone: Comedy Callbacks. Metadata: https://www.rottentomatoes.com/tv/veep/cast-and-crew
+
+<!-- cinematix-audio:30-rock -->
+- 30 Rock (2006): https://www.youtube.com/watch?v=hEPcrwb7Nqk; scene 34.0 to 41 seconds. Audio: 30 Rock Official. Metadata: https://www.rottentomatoes.com/tv/30_rock/cast-and-crew
+
+<!-- cinematix-audio:it-crowd -->
+- The IT Crowd (2006): https://www.youtube.com/watch?v=1EBfxjSFAxQ; scene 121.5 to 128.5 seconds. Audio: The IT Crowd. Metadata: https://www.rottentomatoes.com/tv/the_it_crowd_2006/s02/cast-and-crew
+
+<!-- cinematix-audio:black-books -->
+- Black Books (2000): https://www.youtube.com/watch?v=Uwjc5LAhrsE; scene 52.5 to 59.5 seconds. Audio: Channel 4 Comedy. Metadata: https://www.comedy.co.uk/tv/black_books/cast_crew/full/
+
+<!-- cinematix-audio:inbetweeners -->
+- The Inbetweeners (2008): https://www.youtube.com/watch?v=LOnPqGdDB4w; scene 112.0 to 119 seconds. Audio: Best of British TV. Metadata: https://www.rottentomatoes.com/tv/the_inbetweeners/cast-and-crew
+
+<!-- cinematix-audio:alf -->
+- ALF (1986): https://www.youtube.com/watch?v=qqUa7KdPkqU; scene 21.5 to 28.5 seconds. Audio: learnteachenglish teacher. Metadata: https://www.rottentomatoes.com/tv/alf/cast-and-crew
+
+<!-- cinematix-audio:middle -->
+- The Middle (2009): https://www.youtube.com/watch?v=44vp9XF9Fx4; scene 2.5 to 9.5 seconds. Audio: OelLama. Metadata: https://www.rottentomatoes.com/tv/the-middle/s05/cast-and-crew
+
+<!-- cinematix-audio:raymond -->
+- Everybody Loves Raymond (1996): https://www.youtube.com/watch?v=g-orNzwNOCk; scene 4.0 to 11 seconds. Audio: clover53. Metadata: https://www.rottentomatoes.com/tv/everybody_loves_raymond/s01/cast-and-crew
+
+<!-- cinematix-audio:king-queens -->
+- The King of Queens (1998): https://www.youtube.com/watch?v=X9uf8pUUkRM; scene 1.0 to 8 seconds. Audio: The King of Queens. Metadata: https://www.rottentomatoes.com/tv/the_king_of_queens/cast-and-crew
+
+<!-- cinematix-audio:2-broke-girls -->
+- 2 Broke Girls (2011): https://www.youtube.com/watch?v=x0GowHPAN7Y; scene 52.0 to 59 seconds. Audio: Warner Bros. TV. Metadata: https://www.rottentomatoes.com/tv/2_broke_girls/cast-and-crew
+
+<!-- cinematix-audio:young-sheldon -->
+- Young Sheldon (2017): https://www.youtube.com/watch?v=8t_qFivFGaM; scene 80.0 to 87 seconds. Audio: TBS. Metadata: https://www.rottentomatoes.com/tv/young_sheldon/s01/cast-and-crew
+
+<!-- cinematix-audio:er -->
+- ER (1994): https://www.youtube.com/watch?v=AUmAxh8ztyE; scene 54.0 to 61 seconds. Audio: ER - Emergency Room. Metadata: https://www.tvguide.com/tvshows/er/cast/1030201271
+
+<!-- cinematix-audio:blue-bloods -->
+- Blue Bloods (2010): https://www.youtube.com/watch?v=-VAiAuCglkk; scene 48.5 to 55.5 seconds. Audio: M Pee. Metadata: https://www.rottentomatoes.com/tv/blue_bloods/s01/cast-and-crew
+
+<!-- cinematix-audio:svu -->
+- Law & Order: Special Victims Unit (1999): https://www.youtube.com/watch?v=aAGLGtzA2ns; scene 4.0 to 11 seconds. Audio: Law & Order. Metadata: https://www.rottentomatoes.com/tv/law_and_order_special_victims_unit/cast-and-crew
+
+<!-- cinematix-audio:csi-miami -->
+- CSI: Miami (2002): https://www.youtube.com/watch?v=yCB6E8GePPc; scene 7.5 to 14.5 seconds. Audio: itsallaboutme123. Metadata: https://www.rottentomatoes.com/tv/csi_miami/cast-and-crew
+
+<!-- cinematix-audio:hawaii-five0 -->
+- Hawaii Five-0 (2010): https://www.youtube.com/watch?v=Rg_fL_r_5BY; scene 106.0 to 113 seconds. Audio: Filipe Câmara. Metadata: https://www.rottentomatoes.com/tv/hawaii_five_0/cast-and-crew
+
+<!-- cinematix-audio:teen-wolf -->
+- Teen Wolf (2011): https://www.youtube.com/watch?v=hnRN7ihKAHk; scene 4.0 to 11 seconds. Audio: Teen Wolf UK. Metadata: https://www.tvguide.com/tvshows/teen-wolf/cast/1000893559/
+
+<!-- cinematix-audio:originals -->
+- The Originals (2013): https://www.youtube.com/watch?v=PT1_hd9LxiQ; scene 36.0 to 43 seconds. Audio: The Originals OZ. Metadata: https://www.rottentomatoes.com/tv/the_originals/cast-and-crew
+
+<!-- cinematix-audio:angel -->
+- Angel (1999): https://www.youtube.com/watch?v=6JiOlRNYA08; scene 8.0 to 15 seconds. Audio: herondale. Metadata: https://www.rottentomatoes.com/tv/angel/s02/cast-and-crew
+
+<!-- cinematix-audio:grimm -->
+- Grimm (2011): https://www.youtube.com/watch?v=WmXB-6_bdis; scene 53.5 to 60.5 seconds. Audio: Central Scenes. Metadata: https://www.rottentomatoes.com/tv/grimm/cast-and-crew
+
+<!-- cinematix-audio:merlin -->
+- Merlin (2008): https://www.youtube.com/watch?v=6U4jixGU56I; scene 59.0 to 66 seconds. Audio: dragonlcrd. Metadata: https://www.rottentomatoes.com/tv/merlin/cast-and-crew
+
+<!-- cinematix-audio:flash -->
+- The Flash (2014): https://www.youtube.com/watch?v=ouIZdnozmSc; scene 61.0 to 68 seconds. Audio: THE CW EPISODES. Metadata: https://www.rottentomatoes.com/tv/the_flash/cast-and-crew
+
+<!-- cinematix-audio:gotham -->
+- Gotham (2014): https://www.youtube.com/watch?v=DKhRNIYpnQo; scene 18.5 to 25.5 seconds. Audio: InTheCityOfGotham. Metadata: https://www.rottentomatoes.com/tv/gotham/cast-and-crew
+
+<!-- cinematix-audio:punisher -->
+- The Punisher (2017): https://www.youtube.com/watch?v=rjqDTdvlRDA; scene 44.5 to 51.5 seconds. Audio: Aurelius. Metadata: https://www.rottentomatoes.com/tv/marvels_the_punisher/cast-and-crew
+
+<!-- cinematix-audio:loki -->
+- Loki (2021): https://www.youtube.com/watch?v=GgJpoVB5850; scene 71.5 to 78.5 seconds. Audio: MarveXEditz. Metadata: https://www.rottentomatoes.com/tv/loki/cast-and-crew
+
+<!-- cinematix-audio:wandavision -->
+- WandaVision (2021): https://www.youtube.com/watch?v=ETlyrQTwioQ; scene 45.5 to 52.5 seconds. Audio: Marvel Entertainment. Metadata: https://www.rottentomatoes.com/tv/wandavision/cast-and-crew
+
+<!-- cinematix-audio:oc -->
+- The O.C. (2003): https://www.youtube.com/watch?v=Q4969chbolA; scene 16.0 to 23 seconds. Audio: Tessa Mikaelson. Metadata: https://www.rottentomatoes.com/tv/the-o-c-/s01/cast-and-crew
+
+<!-- cinematix-audio:bridgerton -->
+- Bridgerton (2020): https://www.youtube.com/watch?v=W5Z2Z7COQkg; scene 30.0 to 37 seconds. Audio: Still Watching Netflix. Metadata: https://www.rottentomatoes.com/tv/bridgerton/cast-and-crew
+
+<!-- cinematix-audio:downton-abbey -->
+- Downton Abbey (2010): https://www.youtube.com/watch?v=aeffLpo0_WU; scene 96.0 to 103 seconds. Audio: Downton Abbey. Metadata: https://www.rottentomatoes.com/tv/downton_abbey/cast-and-crew
