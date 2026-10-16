@@ -1404,5 +1404,485 @@
         "audioSourceTitle":  "Aston Martin Vulcan SCREAMING V12 Sounds on Public Roads! - Burnouts, Revs \u0026 Accelerations!",
         "image":  "https://i.ytimg.com/vi/4P7BgO-yzeU/hqdefault.jpg",
         "addedIn":  "20261015-car-oct15"
+    },
+    {
+        "id":  "812-competizione",
+        "name":  [
+                     "Ferrari 812 Competizione",
+                     "Ferrari 812 Competizione"
+                 ],
+        "aliases":  [
+                        "Ferrari 812 Competizione",
+                        "812 Competizione",
+                        "Φεράρι 812 Κομπετιτσιόνε"
+                    ],
+        "clues":  [
+                      [
+                          "Limited to 999 coupés.",
+                          "Περιορισμένη σειρά 999 κουπέ."
+                      ],
+                      [
+                          "Italian launch price: €499.000 (2021).",
+                          "Αρχική τιμή στην Ιταλία: 499.000 € (2021)."
+                      ],
+                      [
+                          "Factory top speed: over 340 km/h.",
+                          "Εργοστασιακή τελική: πάνω από 340 χλμ./ώρα."
+                      ],
+                      [
+                          "Its naturally aspirated V12 reaches 9.500 rpm.",
+                          "Ο ατμοσφαιρικός V12 φτάνει τις 9.500 στροφές ανά λεπτό."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://tailormade.ferrari.com/en/cars/301314-812-competizione/",
+                        "https://www.ferrari.com/content/dam/ferrari-fcom/old/pdf/CS_812_Competizione_812_Competizione_A_gbr.pdf",
+                        "https://www.quattroruote.it/news/nuovi-modelli/2021/05/05/ferrari_812_competizione_motore_prestazioni_interni.gallery.html"
+                    ],
+        "audio":  "media/812-competizione.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=lJ5NBMywjLA",
+        "audioStart":  20,
+        "audioDuration":  7,
+        "audioCredit":  "LucchRevs",
+        "audioSourceTitle":  "Ferrari 812 Competizione | Start Up 🔥🔥",
+        "image":  "https://i.ytimg.com/vi/lJ5NBMywjLA/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "458-speciale-aperta",
+        "name":  [
+                     "Ferrari 458 Speciale A",
+                     "Ferrari 458 Speciale A"
+                 ],
+        "aliases":  [
+                        "Ferrari 458 Speciale A",
+                        "458 Speciale A",
+                        "458 Speciale Aperta",
+                        "Ferrari 458 Speciale Aperta",
+                        "Φεράρι 458 Σπετσιάλε Απέρτα"
+                    ],
+        "clues":  [
+                      [
+                          "Limited to 499 open-top examples.",
+                          "Περιορισμένη σειρά 499 ανοιχτών αυτοκινήτων."
+                      ],
+                      [
+                          "One example sold for €1.175.000 at RM Sotheby\u0027s Monaco auction in 2026.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 1.175.000 € στη δημοπρασία RM Sotheby\u0027s στο Μονακό το 2026."
+                      ],
+                      [
+                          "Factory top speed: 320 km/h.",
+                          "Εργοστασιακή τελική: 320 χλμ./ώρα."
+                      ],
+                      [
+                          "A retractable aluminium roof opens in 14 seconds above a naturally aspirated V8.",
+                          "Αναδιπλούμενη αλουμινένια οροφή ανοίγει σε 14 δευτερόλεπτα πάνω από έναν ατμοσφαιρικό V8."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://rmsothebys.com/auctions/mc26/lots/r0011-2015-ferrari-458-speciale-a/",
+                        "https://www.ferrari.com/en-UG/history/garage/2014/458-speciale-a"
+                    ],
+        "audio":  "media/458-speciale-aperta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=JPnGyMQd2Pc",
+        "audioStart":  2,
+        "audioDuration":  7,
+        "audioCredit":  "cvdzijden - Supercar Videos",
+        "audioSourceTitle":  "Ferrari 458 Speciale Aperta - Loud Capristo Exhaust + Acceleration!",
+        "image":  "https://i.ytimg.com/vi/JPnGyMQd2Pc/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "sa-aperta",
+        "name":  [
+                     "Ferrari SA Aperta",
+                     "Ferrari SA Aperta"
+                 ],
+        "aliases":  [
+                        "Ferrari SA Aperta",
+                        "SA Aperta",
+                        "Ferrari 599 SA Aperta",
+                        "599 SA Aperta",
+                        "Φεράρι SA Απέρτα"
+                    ],
+        "clues":  [
+                      [
+                          "Announced as a numbered series of 80 cars.",
+                          "Ανακοινώθηκε ως αριθμημένη σειρά 80 αυτοκινήτων."
+                      ],
+                      [
+                          "One example sold for €694.400 at RM Sotheby\u0027s Monaco auction in 2014.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 694.400 € στη δημοπρασία RM Sotheby\u0027s στο Μονακό το 2014."
+                      ],
+                      [
+                          "Factory top speed: 325 km/h.",
+                          "Εργοστασιακή τελική: 325 χλμ./ώρα."
+                      ],
+                      [
+                          "Created to celebrate Pininfarina\u0027s 80th anniversary, with a front-mounted V12.",
+                          "Δημιουργήθηκε για τα 80 χρόνια της Pininfarina, με V12 κινητήρα εμπρός."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.ferrari.com/it-SM/history/garage/2010/sa-aperta",
+                        "https://rmsothebys.com/auctions/mc14/lots/r177-2012-ferrari-sa-aperta/"
+                    ],
+        "audio":  "media/sa-aperta.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=QFa7gG9d2QY",
+        "audioStart":  30,
+        "audioDuration":  7,
+        "audioCredit":  "NM2255 | Raw Car Sounds",
+        "audioSourceTitle":  "Loud Ferrari 599 SA Aperta Start Ups",
+        "image":  "https://i.ytimg.com/vi/QFa7gG9d2QY/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "765lt",
+        "name":  [
+                     "McLaren 765LT",
+                     "McLaren 765LT"
+                 ],
+        "aliases":  [
+                        "McLaren 765LT",
+                        "765LT",
+                        "765 LT",
+                        "ΜακΛάρεν 765LT"
+                    ],
+        "clues":  [
+                      [
+                          "765 coupés were announced worldwide; the Spider is a separate series.",
+                          "Ανακοινώθηκαν 765 κουπέ παγκοσμίως — η Spider είναι χωριστή σειρά."
+                      ],
+                      [
+                          "UK launch price: £280.000 (2020).",
+                          "Αρχική τιμή στο Ηνωμένο Βασίλειο: 280.000 £ (2020)."
+                      ],
+                      [
+                          "Factory top speed: 330 km/h.",
+                          "Εργοστασιακή τελική: 330 χλμ./ώρα."
+                      ],
+                      [
+                          "A quad-exit titanium exhaust and an extended tail distinguish this lightweight V8 coupé.",
+                          "Τέσσερις απολήξεις εξάτμισης από τιτάνιο και μακρύτερη ουρά ξεχωρίζουν αυτό το ελαφρύ V8 κουπέ."
+                      ],
+                      [
+                          "Country of origin: United Kingdom.",
+                          "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://cars.mclaren.com/uk_en/legacy/765lt",
+                        "https://www.prnewswire.com/news-releases/the-mclaren-765lt-spider-extreme-performance-and-new-heights-of-driver-engagement-from-mclarens-most-powerful-ever-convertible-supercar-301341943.html",
+                        "https://www.standard.co.uk/business/mclaren-covid-supercar-racing-ferrari-lamborghini-a4554291.html"
+                    ],
+        "audio":  "media/765lt.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=nZfShQSWHa4",
+        "audioStart":  20,
+        "audioDuration":  7,
+        "audioCredit":  "AutoTopNL",
+        "audioSourceTitle":  "McLaren 765LT *INSANE* 0-326 LAUNCH CONTROL ACCELERATION \u0026 SOUND by AutoTopNL",
+        "image":  "https://i.ytimg.com/vi/nZfShQSWHa4/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "elva",
+        "name":  [
+                     "McLaren Elva",
+                     "McLaren Elva"
+                 ],
+        "aliases":  [
+                        "McLaren Elva",
+                        "Elva",
+                        "ΜακΛάρεν Έλβα"
+                    ],
+        "clues":  [
+                      [
+                          "149 examples were produced.",
+                          "Παρήχθησαν 149 αυτοκίνητα."
+                      ],
+                      [
+                          "One example sold for US$1.517.500 at RM Sotheby\u0027s Las Vegas auction in 2023.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 1.517.500 δολάρια ΗΠΑ στη δημοπρασία RM Sotheby\u0027s στο Λας Βέγκας το 2023."
+                      ],
+                      [
+                          "Factory top speed: 326 km/h.",
+                          "Εργοστασιακή τελική: 326 χλμ./ώρα."
+                      ],
+                      [
+                          "Its open cockpit can use an active air-management system in place of a windscreen.",
+                          "Το ανοιχτό κόκπιτ μπορεί να χρησιμοποιεί ενεργό σύστημα διαχείρισης αέρα αντί για παρμπρίζ."
+                      ],
+                      [
+                          "Country of origin: United Kingdom.",
+                          "Χώρα προέλευσης: Ηνωμένο Βασίλειο."
+                      ]
+                  ],
+        "sources":  [
+                        "https://rmsothebys.com/auctions/lv23/lots/r0001-2021-mclaren-elva/",
+                        "https://www.mclarenlongisland.com/elva/",
+                        "https://eurokarsgroup.com/newsroom/debut-of-the-mclaren-elva-in-gulf-livery-by-mso"
+                    ],
+        "audio":  "media/elva.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=l59xgL_jq6g",
+        "audioStart":  38,
+        "audioDuration":  7,
+        "audioCredit":  "Supercars Of Milan",
+        "audioSourceTitle":  "1 of 149 McLaren Elva sound and revs!",
+        "image":  "https://i.ytimg.com/vi/l59xgL_jq6g/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "sian",
+        "name":  [
+                     "Lamborghini Sián FKP 37",
+                     "Lamborghini Sián FKP 37"
+                 ],
+        "aliases":  [
+                        "Lamborghini Sián FKP 37",
+                        "Sian",
+                        "Sian FKP 37",
+                        "Sián",
+                        "Λαμποργκίνι Σιάν"
+                    ],
+        "clues":  [
+                      [
+                          "A limited series of 63 coupés; roadsters are separate.",
+                          "Περιορισμένη σειρά 63 κουπέ — τα roadster είναι χωριστά."
+                      ],
+                      [
+                          "One example sold for €2.012.500 including buyer\u0027s premium at Bonhams Monaco in 2026.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 2.012.500 € μαζί με την προμήθεια αγοραστή στην Bonhams στο Μονακό το 2026."
+                      ],
+                      [
+                          "Factory top speed: over 350 km/h.",
+                          "Εργοστασιακή τελική: πάνω από 350 χλμ./ώρα."
+                      ],
+                      [
+                          "Its V12 hybrid system stores electric energy in a supercapacitor.",
+                          "Το υβριδικό σύστημα V12 αποθηκεύει ηλεκτρική ενέργεια σε υπερπυκνωτή."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.lamborghini.com/en-en/news/lamborghini-sian-fkp-37-first-hybrid-few",
+                        "https://carsd.bonhams.com/auction/31711/lot/123/2021-lamborghini-sian-chassis-no-zhwej7zd8mla10761/"
+                    ],
+        "audio":  "media/sian.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=fT-WOILgoSs",
+        "audioStart":  9,
+        "audioDuration":  7,
+        "audioCredit":  "NM2255 | Raw Car Sounds",
+        "audioSourceTitle":  "Lamborghini Sian FKP 37 Hypercar in Milan at Night | Start Up Sounds \u0026 Loading Into a Truck",
+        "image":  "https://i.ytimg.com/vi/fT-WOILgoSs/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "countach-lpi",
+        "name":  [
+                     "Lamborghini Countach LPI 800-4",
+                     "Lamborghini Countach LPI 800-4"
+                 ],
+        "aliases":  [
+                        "Lamborghini Countach LPI 800-4",
+                        "Countach LPI 800-4",
+                        "Countach LPI 800",
+                        "Countach LPI8004",
+                        "Λαμποργκίνι Κούντατς LPI 800-4"
+                    ],
+        "clues":  [
+                      [
+                          "112 examples; all sold before its public premiere.",
+                          "112 αυτοκίνητα — όλα πουλήθηκαν πριν τη δημόσια παρουσίαση."
+                      ],
+                      [
+                          "One example sold for €2.001.875 at RM Sotheby\u0027s Monaco auction in 2024.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 2.001.875 € στη δημοπρασία RM Sotheby\u0027s στο Μονακό το 2024."
+                      ],
+                      [
+                          "Factory top speed: 355 km/h.",
+                          "Εργοστασιακή τελική: 355 χλμ./ώρα."
+                      ],
+                      [
+                          "A V12 hybrid celebrates 50 years since a famous wedge-shaped 1971 concept.",
+                          "Ένα υβριδικό V12 γιορτάζει 50 χρόνια από ένα διάσημο σφηνοειδές πρωτότυπο του 1971."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.lamborghini.com/en-en/news/countach-lpi-800-4-debuts-on-the-road",
+                        "https://www.lamborghini.com/it-en/modelli/few-off/countach-lpi-800-4",
+                        "https://rmsothebys.com/auctions/mc24/lots/r0097-2022-lamborghini-countach-lpi-8004/"
+                    ],
+        "audio":  "media/countach-lpi.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=K7qn0gwVOTA",
+        "audioStart":  19,
+        "audioDuration":  7,
+        "audioCredit":  "Supercars of Austria",
+        "audioSourceTitle":  "Lamborghini Countach LPI 800-4 - Full Throttle V12 Sound!",
+        "image":  "https://i.ytimg.com/vi/K7qn0gwVOTA/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "one1",
+        "name":  [
+                     "Koenigsegg One:1",
+                     "Koenigsegg One:1"
+                 ],
+        "aliases":  [
+                        "Koenigsegg One:1",
+                        "One:1",
+                        "One1",
+                        "One 1",
+                        "Κένιγκσεγκ One1"
+                    ],
+        "clues":  [
+                      [
+                          "Seven examples including the development prototype.",
+                          "Επτά αυτοκίνητα μαζί με το πρωτότυπο εξέλιξης."
+                      ],
+                      [
+                          "One example sold for CHF4.600.000 including buyer\u0027s premium at Bonhams in 2019.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 4.600.000 ελβετικά φράγκα μαζί με την προμήθεια αγοραστή στην Bonhams το 2019."
+                      ],
+                      [
+                          "Theoretical top speed: approximately 440 km/h; this is not a verified speed record.",
+                          "Θεωρητική τελική: περίπου 440 χλμ./ώρα — δεν είναι πιστοποιημένο ρεκόρ ταχύτητας."
+                      ],
+                      [
+                          "Its name refers to a power-to-weight ratio of one metric horsepower per kilogram.",
+                          "Το όνομά του παραπέμπει σε αναλογία ενός μετρικού ίππου ανά κιλό."
+                      ],
+                      [
+                          "Country of origin: Sweden.",
+                          "Χώρα προέλευσης: Σουηδία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.koenigsegg.com/model/one1",
+                        "https://www.topgear.com/car-news/supercar/exclusive-more-koenigseggs-273mph-one1",
+                        "https://carsd.bonhams.com/auction/25819/the-bonmont-sale-collectors-motor-cars-including-a-private-collection-of-supercars/"
+                    ],
+        "audio":  "media/one1.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=dz7DtghS6T0",
+        "audioStart":  13,
+        "audioDuration":  7,
+        "audioCredit":  "WorldSupercars",
+        "audioSourceTitle":  "1360HP Koenigsegg One:1 SOUND in Monaco \u0026 Full Throttle on Track!",
+        "image":  "https://i.ytimg.com/vi/dz7DtghS6T0/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "speedster-2019",
+        "name":  [
+                     "Porsche 911 Speedster (2019)",
+                     "Porsche 911 Speedster (2019)"
+                 ],
+        "aliases":  [
+                        "Porsche 911 Speedster (2019)",
+                        "911 Speedster 2019",
+                        "Porsche 911 Speedster",
+                        "991 Speedster",
+                        "Πόρσε 911 Σπίντστερ"
+                    ],
+        "clues":  [
+                      [
+                          "1.948 examples, marking the year of its manufacturer\u0027s first sports car.",
+                          "1.948 αυτοκίνητα, ως αναφορά στο έτος του πρώτου σπορ αυτοκινήτου της εταιρείας."
+                      ],
+                      [
+                          "German launch price: €269.274 including VAT (2019).",
+                          "Αρχική τιμή στη Γερμανία: 269.274 € με ΦΠΑ (2019)."
+                      ],
+                      [
+                          "Factory top speed: 310 km/h.",
+                          "Εργοστασιακή τελική: 310 χλμ./ώρα."
+                      ],
+                      [
+                          "A six-speed manual gearbox, a naturally aspirated flat-six and an open two-seat body.",
+                          "Εξατάχυτο χειροκίνητο κιβώτιο, ατμοσφαιρικός επίπεδος εξακύλινδρος και ανοιχτό διθέσιο αμάξωμα."
+                      ],
+                      [
+                          "Country of origin: Germany.",
+                          "Χώρα προέλευσης: Γερμανία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.porsche.com/usa/aboutporsche/pressreleases/pag/?id=536339\u0026pool=international-de",
+                        "https://newsroom.porsche.com/de/2019/produkte/porsche-911-speedster-serie-limitiertes-sondermodell-17554.html"
+                    ],
+        "audio":  "media/speedster-2019.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=0ldRcsZoMrs",
+        "audioStart":  10,
+        "audioDuration":  7,
+        "audioCredit":  "PremiumMoto TV",
+        "audioSourceTitle":  "Porsche 911 Speedster 2019 pure engine sound",
+        "image":  "https://i.ytimg.com/vi/0ldRcsZoMrs/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
+    },
+    {
+        "id":  "f12tdf",
+        "name":  [
+                     "Ferrari F12tdf",
+                     "Ferrari F12tdf"
+                 ],
+        "aliases":  [
+                        "Ferrari F12tdf",
+                        "F12tdf",
+                        "F12 TDF",
+                        "Ferrari F12 TDF",
+                        "Φεράρι F12 TDF"
+                    ],
+        "clues":  [
+                      [
+                          "A limited production run of 799 cars.",
+                          "Περιορισμένη παραγωγή 799 αυτοκινήτων."
+                      ],
+                      [
+                          "One example sold for €792.500 at RM Sotheby\u0027s Villa Erba auction in 2019.",
+                          "Ένα αυτοκίνητο πουλήθηκε για 792.500 € στη δημοπρασία RM Sotheby\u0027s στη Villa Erba το 2019."
+                      ],
+                      [
+                          "Factory top speed: over 340 km/h.",
+                          "Εργοστασιακή τελική: πάνω από 340 χλμ./ώρα."
+                      ],
+                      [
+                          "Its name pays tribute to the Tour de France road race.",
+                          "Το όνομά του τιμά τον οδικό αγώνα Tour de France."
+                      ],
+                      [
+                          "Country of origin: Italy.",
+                          "Χώρα προέλευσης: Ιταλία."
+                      ]
+                  ],
+        "sources":  [
+                        "https://www.ferrari.com/it-SM/history/garage/2015/f12tdf",
+                        "https://rmsothebys.com/auctions/ve19/lots/r0023-2016-ferrari-f12tdf/"
+                    ],
+        "audio":  "media/f12tdf.mp3",
+        "audioSource":  "https://www.youtube.com/watch?v=TEcV7vhJLik",
+        "audioStart":  88,
+        "audioDuration":  7,
+        "audioCredit":  "NM2255 | Raw Car Sounds",
+        "audioSourceTitle":  "Ferrari F12 TDF LOUD V12 Sounds! - Start Up, Revs, Accelerations \u0026 More!",
+        "image":  "https://i.ytimg.com/vi/TEcV7vhJLik/hqdefault.jpg",
+        "addedIn":  "20261016-car-oct16"
     }
 ]
