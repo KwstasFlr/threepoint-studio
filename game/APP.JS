@@ -4116,12 +4116,12 @@ const GAME_DATA = [
     category: "SPORT",
 
     description: [
-      "Who Am I?",
-      "Ποιος είμαι;"
+      "Guess the Footballer",
+      "Μάντεψε τον ποδοσφαιριστή"
     ]
   },
 
-  {id: "cinematix", name: "Cinematix", available: true, category: "MOVIES & SERIES", description: ["Classic movies & series", "Κλασικές ταινίες & σειρές"]},
+  {id: "cinematix", name: "Cinematix", available: true, category: "MOVIES & SERIES", description: ["Guess the movie or series", "Μάντεψε την ταινία ή σειρά"]},
 
   {
     id: "one-piece",
@@ -4140,15 +4140,15 @@ const GAME_DATA = [
     name: "Gaming",
     available: true,
     category: "GAMING",
-    description: ["Characters & quotes", "Χαρακτήρες & ατάκες"]
+    description: ["Guess the gaming character", "Μάντεψε τον χαρακτήρα"]
   },
 
-  {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Greek movies & series", "Ελληνικές ταινίες & σειρές"]},
+  {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Guess the Greek movie or series", "Μάντεψε την ελληνική ταινία ή σειρά"]},
 
-  {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Recognize the painter", "Βρες τον ζωγράφο"]},
-  {id: "people", name: "Guess the Person", available: true, category: "PEOPLE", description: ["Who is it?", "Ποιο πρόσωπο είναι;"]},
-  {id: "car", name: "Guess the Car", available: true, category: "MOTORING", description: ["Recognise the engine", "Αναγνώρισε τον κινητήρα"]},
-  {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Find the country", "Βρες τη χώρα"]},
+  {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Guess the painter", "Μάντεψε τον ζωγράφο"]},
+  {id: "people", name: "Guess the Person", available: true, category: "PEOPLE", description: ["Guess the person", "Μάντεψε το πρόσωπο"]},
+  {id: "car", name: "Guess the Car", available: true, category: "MOTORING", description: ["Guess the car", "Μάντεψε το αυτοκίνητο"]},
+  {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Guess the country", "Μάντεψε τη χώρα"]},
 
   {
     id: "naruto",
@@ -4208,7 +4208,9 @@ const GAME_DATA = [
       "In development",
       "Σε ανάπτυξη"
     ]
-  }
+  },
+  {id: "knowledge", name: "General Knowledge", available: true, category: "QUIZ", description: ["Beat the clock", "Νίκησε τον χρόνο"]},
+
 ];
 
 /* STATE */
@@ -5528,7 +5530,7 @@ function renderGames() {
   playableGames.forEach(game => {
     const card =
       document.createElement(
-        (game.id === "painter" || game.id === "car") ? "a" : game.available
+        (game.id === "painter" || game.id === "car" || game.id === "knowledge") ? "a" : game.available
           ? "button"
           : "article"
       );
@@ -5543,13 +5545,13 @@ function renderGames() {
 
     card.dataset.game =
       game.id;
-    if (game.id === "painter" || game.id === "car") { card.href = game.id + "/"; card.style.textDecoration = "none"; }
+    if (game.id === "painter" || game.id === "car" || game.id === "knowledge") { card.href = game.id + "/"; card.style.textDecoration = "none"; }
 
     if (game.available) {
       card.type = "button";
     }
 
-    const cardImages={people:'people-mystery-20261015.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={knowledge:'knowledge.svg',people:'people-mystery-20261015.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6107,6 +6109,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if(id==="knowledge"){location.href="knowledge/";return;}
   if(id==="people"){location.href="people/";return;}
   if(id==="car"){location.href="car/";return;}
   if(id==="country"){location.href="country/";return;}
