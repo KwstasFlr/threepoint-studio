@@ -81,6 +81,76 @@ Technology~Τεχνολογία|Which of these is an operating system rather tha
 Food~Γεύσεις|Which cheese is traditionally used in a classic Greek village salad?|Ποιο τυρί χρησιμοποιείται παραδοσιακά στην κλασική χωριάτικη σαλάτα;|Feta~Φέτα|Manouri~Μανούρι|Graviera~Γραβιέρα|Kasseri~Κασέρι
 Food~Γεύσεις|Which nut is the traditional base of marzipan?|Ποιος ξηρός καρπός είναι η παραδοσιακή βάση του μάρτσιπαν;|Almond~Αμύγδαλο|Hazelnut~Φουντούκι|Walnut~Καρύδι|Pistachio~Φιστίκι Αιγίνης
 Food~Γεύσεις|Which spice comes from the dried stigmas of a crocus flower?|Ποιο μπαχαρικό προέρχεται από τα αποξηραμένα στίγματα άνθους κρόκου;|Saffron~Σαφράν|Turmeric~Κουρκουμάς|Cardamom~Κάρδαμο|Cumin~Κύμινο
+History~Ιστορία|In which year was Magna Carta first issued?|Ποια χρονιά εκδόθηκε για πρώτη φορά η Μάγκνα Κάρτα;|1215|1205|1225|1235
+History~Ιστορία|In which year did Columbus first reach the Americas?|Ποια χρονιά έφτασε για πρώτη φορά ο Κολόμβος στην Αμερική;|1492|1482|1502|1512
+History~Ιστορία|In which year was the United States Declaration of Independence adopted?|Ποια χρονιά υιοθετήθηκε η Διακήρυξη της Ανεξαρτησίας των ΗΠΑ;|1776|1766|1786|1789
+History~Ιστορία|Who was the first Roman emperor?|Ποιος ήταν ο πρώτος Ρωμαίος αυτοκράτορας;|Augustus~Αύγουστος|Julius Caesar~Ιούλιος Καίσαρας|Nero~Νέρων|Trajan~Τραϊανός
+History~Ιστορία|Which philosopher was a tutor to Alexander the Great?|Ποιος φιλόσοφος υπήρξε δάσκαλος του Μεγάλου Αλεξάνδρου;|Aristotle~Αριστοτέλης|Socrates~Σωκράτης|Plato~Πλάτων|Epicurus~Επίκουρος
+History~Ιστορία|Who was the first person to walk on the Moon?|Ποιος ήταν ο πρώτος άνθρωπος που περπάτησε στη Σελήνη;|Neil Armstrong~Νιλ Άρμστρονγκ|Buzz Aldrin~Μπαζ Όλντριν|Yuri Gagarin~Γιούρι Γκαγκάριν|Michael Collins~Μάικλ Κόλινς
+History~Ιστορία|In which country were the pyramids of Giza built?|Σε ποια χώρα χτίστηκαν οι πυραμίδες της Γκίζας;|Egypt~Αίγυπτος|Sudan~Σουδάν|Iraq~Ιράκ|Mexico~Μεξικό
+History~Ιστορία|Which city hosted the congress that reorganized Europe in 1814–1815?|Ποια πόλη φιλοξένησε το συνέδριο που αναδιοργάνωσε την Ευρώπη το 1814–1815;|Vienna~Βιέννη|Paris~Παρίσι|Berlin~Βερολίνο|Prague~Πράγα
+History~Ιστορία|Who is associated with the movable-type printing press in 15th-century Europe?|Ποιος συνδέεται με το τυπογραφικό πιεστήριο κινητών στοιχείων στην Ευρώπη του 15ου αιώνα;|Johannes Gutenberg~Γιοχάνες Γουτεμβέργιος|Galileo Galilei~Γαλιλαίος Γαλιλέι|Leonardo da Vinci~Λεονάρντο ντα Βίντσι|Nicolaus Copernicus~Νικόλαος Κοπέρνικος
+History~Ιστορία|Where were the ancient Olympic Games held?|Πού διεξάγονταν οι αρχαίοι Ολυμπιακοί Αγώνες;|Olympia~Ολυμπία|Athens~Αθήνα|Delphi~Δελφοί|Sparta~Σπάρτη
+Geography~Γεωγραφία|In which country is the Taj Mahal?|Σε ποια χώρα βρίσκεται το Ταζ Μαχάλ;|India~Ινδία|Pakistan~Πακιστάν|Bangladesh~Μπανγκλαντές|Nepal~Νεπάλ
+Geography~Γεωγραφία|In which country is the Great Wall?|Σε ποια χώρα βρίσκεται το Σινικό Τείχος;|China~Κίνα|Japan~Ιαπωνία|Mongolia~Μογγολία|South Korea~Νότια Κορέα
+Geography~Γεωγραφία|What is the capital of Italy?|Ποια είναι η πρωτεύουσα της Ιταλίας;|Rome~Ρώμη|Milan~Μιλάνο|Florence~Φλωρεντία|Naples~Νάπολη
+Geography~Γεωγραφία|What is the capital of France?|Ποια είναι η πρωτεύουσα της Γαλλίας;|Paris~Παρίσι|Lyon~Λυών|Marseille~Μασσαλία|Bordeaux~Μπορντό
+Geography~Γεωγραφία|What is the capital of Germany?|Ποια είναι η πρωτεύουσα της Γερμανίας;|Berlin~Βερολίνο|Munich~Μόναχο|Hamburg~Αμβούργο|Frankfurt~Φρανκφούρτη
+Geography~Γεωγραφία|What is the capital of Egypt?|Ποια είναι η πρωτεύουσα της Αιγύπτου;|Cairo~Κάιρο|Alexandria~Αλεξάνδρεια|Luxor~Λούξορ|Aswan~Ασουάν
+Geography~Γεωγραφία|On which continent are the Andes?|Σε ποια ήπειρο βρίσκονται οι Άνδεις;|South America~Νότια Αμερική|North America~Βόρεια Αμερική|Asia~Ασία|Europe~Ευρώπη
+Geography~Γεωγραφία|On which continent is the Sahara Desert?|Σε ποια ήπειρο βρίσκεται η έρημος Σαχάρα;|Africa~Αφρική|Asia~Ασία|Australia~Αυστραλία|South America~Νότια Αμερική
+Geography~Γεωγραφία|On which continent is Mount Everest?|Σε ποια ήπειρο βρίσκεται το Έβερεστ;|Asia~Ασία|Europe~Ευρώπη|Africa~Αφρική|South America~Νότια Αμερική
+Geography~Γεωγραφία|Which sea lies between mainland Greece and western Türkiye?|Ποιο πέλαγος βρίσκεται ανάμεσα στην ηπειρωτική Ελλάδα και τη δυτική Τουρκία;|Aegean~Αιγαίο|Ionian~Ιόνιο|Adriatic~Αδριατική|Tyrrhenian~Τυρρηνική
+Science~Επιστήμη|What is the chemical formula of water?|Ποιος είναι ο χημικός τύπος του νερού;|H₂O|CO₂|H₂O₂|O₂
+Science~Επιστήμη|What is the chemical symbol for gold?|Ποιο είναι το χημικό σύμβολο του χρυσού;|Au|Ag|Cu|Fe
+Science~Επιστήμη|How many planets are in our solar system?|Πόσοι πλανήτες υπάρχουν στο ηλιακό μας σύστημα;|8|7|9|10
+Science~Επιστήμη|Which planet is known as the Red Planet?|Ποιος πλανήτης είναι γνωστός ως Κόκκινος Πλανήτης;|Mars~Άρης|Venus~Αφροδίτη|Mercury~Ερμής|Jupiter~Δίας
+Science~Επιστήμη|What is Earth's natural satellite called?|Πώς ονομάζεται ο φυσικός δορυφόρος της Γης;|The Moon~Σελήνη|Titan~Τιτάνας|Europa~Ευρώπη|Phobos~Φόβος
+Science~Επιστήμη|Which gas do plants absorb from the air during photosynthesis?|Ποιο αέριο απορροφούν τα φυτά από τον αέρα κατά τη φωτοσύνθεση;|Carbon dioxide~Διοξείδιο του άνθρακα|Oxygen~Οξυγόνο|Nitrogen~Άζωτο|Helium~Ήλιο
+Science~Επιστήμη|Which organ pumps blood around the human body?|Ποιο όργανο αντλεί αίμα σε όλο το ανθρώπινο σώμα;|Heart~Καρδιά|Liver~Ήπαρ|Lung~Πνεύμονας|Stomach~Στομάχι
+Science~Επιστήμη|Which is the largest organ of the human body?|Ποιο είναι το μεγαλύτερο όργανο του ανθρώπινου σώματος;|Skin~Δέρμα|Liver~Ήπαρ|Brain~Εγκέφαλος|Heart~Καρδιά
+Science~Επιστήμη|What electrical charge does an electron carry?|Τι ηλεκτρικό φορτίο έχει ένα ηλεκτρόνιο;|Negative~Αρνητικό|Positive~Θετικό|Zero~Μηδενικό|Alternating~Εναλλασσόμενο
+Science~Επιστήμη|Approximately how fast does light travel in a vacuum?|Περίπου πόσο γρήγορα ταξιδεύει το φως στο κενό;|300,000 km/s~300.000 χλμ./δευτ.|30,000 km/s~30.000 χλμ./δευτ.|150,000 km/s~150.000 χλμ./δευτ.|450,000 km/s~450.000 χλμ./δευτ.
+Arts~Τέχνες|Who painted the Mona Lisa?|Ποιος ζωγράφισε τη «Μόνα Λίζα»;|Leonardo da Vinci~Λεονάρντο ντα Βίντσι|Michelangelo~Μιχαήλ Άγγελος|Raphael~Ραφαήλ|Sandro Botticelli~Σάντρο Μποτιτσέλι
+Arts~Τέχνες|Who painted the ceiling of the Sistine Chapel?|Ποιος ζωγράφισε την οροφή της Καπέλα Σιξτίνα;|Michelangelo~Μιχαήλ Άγγελος|Leonardo da Vinci~Λεονάρντο ντα Βίντσι|Raphael~Ραφαήλ|Caravaggio~Καραβάτζιο
+Literature~Λογοτεχνία|Who wrote Hamlet?|Ποιος έγραψε τον «Άμλετ»;|William Shakespeare~Ουίλιαμ Σαίξπηρ|Charles Dickens~Τσαρλς Ντίκενς|Oscar Wilde~Όσκαρ Ουάιλντ|George Bernard Shaw~Τζορτζ Μπέρναρντ Σο
+Literature~Λογοτεχνία|To which ancient poet is the Odyssey traditionally attributed?|Σε ποιον αρχαίο ποιητή αποδίδεται παραδοσιακά η «Οδύσσεια»;|Homer~Όμηρος|Hesiod~Ησίοδος|Sophocles~Σοφοκλής|Euripides~Ευριπίδης
+Literature~Λογοτεχνία|Who wrote Don Quixote?|Ποιος έγραψε τον «Δον Κιχώτη»;|Miguel de Cervantes~Μιγκέλ ντε Θερβάντες|Federico García Lorca~Φεντερίκο Γκαρθία Λόρκα|Gabriel García Márquez~Γκαμπριέλ Γκαρθία Μάρκες|Pablo Neruda~Πάμπλο Νερούδα
+Literature~Λογοτεχνία|Who wrote the Harry Potter novels?|Ποια έγραψε τα μυθιστορήματα του Χάρι Πότερ;|J. K. Rowling~Τζ. Κ. Ρόουλινγκ|Suzanne Collins~Σούζαν Κόλινς|Stephenie Meyer~Στέφενι Μάιερ|Agatha Christie~Άγκαθα Κρίστι
+Arts~Τέχνες|Who composed Swan Lake?|Ποιος συνέθεσε τη «Λίμνη των Κύκνων»;|Pyotr Ilyich Tchaikovsky~Πιοτρ Ίλιτς Τσαϊκόφσκι|Igor Stravinsky~Ίγκορ Στραβίνσκι|Sergei Prokofiev~Σεργκέι Προκόφιεφ|Sergei Rachmaninoff~Σεργκέι Ραχμάνινοφ
+Arts~Τέχνες|How many keys does a standard full-size modern piano have?|Πόσα πλήκτρα έχει ένα σύγχρονο πιάνο τυπικού πλήρους μεγέθους;|88|76|84|96
+Arts~Τέχνες|Which composer's Ninth Symphony includes the Ode to Joy?|Ποιου συνθέτη η Ενάτη Συμφωνία περιλαμβάνει την «Ωδή στη Χαρά»;|Ludwig van Beethoven~Λούντβιχ βαν Μπετόβεν|Wolfgang Amadeus Mozart~Βόλφγκανγκ Αμαντέους Μότσαρτ|Joseph Haydn~Γιόζεφ Χάιντν|Franz Schubert~Φραντς Σούμπερτ
+Arts~Τέχνες|Who sculpted the marble David displayed in Florence's Accademia?|Ποιος φιλοτέχνησε τον μαρμάρινο «Δαβίδ» που εκτίθεται στην Ακαδημία της Φλωρεντίας;|Michelangelo~Μιχαήλ Άγγελος|Donatello~Ντονατέλο|Gian Lorenzo Bernini~Τζαν Λορέντσο Μπερνίνι|Auguste Rodin~Ογκίστ Ροντέν
+Sport~Αθλητισμός|How many players does a football team start with on the pitch, including the goalkeeper?|Με πόσους παίκτες ξεκινά μια ομάδα ποδοσφαίρου στο γήπεδο, μαζί με τον τερματοφύλακα;|11|10|12|9
+Sport~Αθλητισμός|How long is a standard football match, excluding stoppage time and extra time?|Πόσο διαρκεί ένας κανονικός αγώνας ποδοσφαίρου, χωρίς καθυστερήσεις και παράταση;|90 minutes~90 λεπτά|80 minutes~80 λεπτά|100 minutes~100 λεπτά|120 minutes~120 λεπτά
+Sport~Αθλητισμός|How many rings are in the Olympic symbol?|Πόσοι κύκλοι υπάρχουν στο Ολυμπιακό σύμβολο;|5|4|6|7
+Sport~Αθλητισμός|Which country won the men's football World Cup in 2002?|Ποια χώρα κατέκτησε το Μουντιάλ ανδρών το 2002;|Brazil~Βραζιλία|Germany~Γερμανία|France~Γαλλία|Argentina~Αργεντινή
+Sport~Αθλητισμός|Which country won the men's football World Cup in 2022?|Ποια χώρα κατέκτησε το Μουντιάλ ανδρών το 2022;|Argentina~Αργεντινή|France~Γαλλία|Brazil~Βραζιλία|Croatia~Κροατία
+Sport~Αθλητισμός|Which country won the men's football World Cup in 2014?|Ποια χώρα κατέκτησε το Μουντιάλ ανδρών το 2014;|Germany~Γερμανία|Argentina~Αργεντινή|Brazil~Βραζιλία|Netherlands~Ολλανδία
+Sport~Αθλητισμός|Which country won the men's UEFA European Championship in 2016?|Ποια χώρα κατέκτησε το Ευρωπαϊκό Πρωτάθλημα ποδοσφαίρου ανδρών το 2016;|Portugal~Πορτογαλία|France~Γαλλία|Spain~Ισπανία|Germany~Γερμανία
+Sport~Αθλητισμός|In which sport did Michael Phelps win his Olympic medals?|Σε ποιο άθλημα κέρδισε τα Ολυμπιακά του μετάλλια ο Μάικλ Φελπς;|Swimming~Κολύμβηση|Athletics~Στίβος|Rowing~Κωπηλασία|Diving~Καταδύσεις
+Sport~Αθλητισμός|In which sport did Michael Jordan become a global star?|Σε ποιο άθλημα έγινε παγκόσμιος σταρ ο Μάικλ Τζόρνταν;|Basketball~Μπάσκετ|Baseball~Μπέιζμπολ|American football~Αμερικανικό ποδόσφαιρο|Ice hockey~Χόκεϊ επί πάγου
+Sport~Αθλητισμός|Which country did Usain Bolt represent at the Olympics?|Ποια χώρα εκπροσώπησε ο Γιουσέιν Μπολτ στους Ολυμπιακούς Αγώνες;|Jamaica~Τζαμάικα|United States~ΗΠΑ|Trinidad and Tobago~Τρινιντάντ και Τομπάγκο|Bahamas~Μπαχάμες
+Culture~Πολιτισμός|Who was the king of the Olympian gods in Greek mythology?|Ποιος ήταν ο βασιλιάς των θεών του Ολύμπου στην ελληνική μυθολογία;|Zeus~Δίας|Poseidon~Ποσειδώνας|Hades~Άδης|Apollo~Απόλλωνας
+Culture~Πολιτισμός|Who was the god of the sea in Greek mythology?|Ποιος ήταν ο θεός της θάλασσας στην ελληνική μυθολογία;|Poseidon~Ποσειδώνας|Zeus~Δίας|Hermes~Ερμής|Ares~Άρης
+Culture~Πολιτισμός|Which Greek goddess was associated with wisdom?|Ποια ελληνική θεά συνδεόταν με τη σοφία;|Athena~Αθηνά|Aphrodite~Αφροδίτη|Artemis~Άρτεμη|Demeter~Δήμητρα
+Culture~Πολιτισμός|Which Greek god was known as the messenger of the gods?|Ποιος Έλληνας θεός ήταν γνωστός ως αγγελιοφόρος των θεών;|Hermes~Ερμής|Hephaestus~Ήφαιστος|Ares~Άρης|Dionysus~Διόνυσος
+Culture~Πολιτισμός|Which Norse god is associated with the hammer Mjölnir?|Ποιος θεός της σκανδιναβικής μυθολογίας συνδέεται με το σφυρί Μιόλνιρ;|Thor~Θορ|Odin~Όντιν|Loki~Λόκι|Tyr~Τιρ
+Culture~Πολιτισμός|How many signs are in the traditional Western zodiac?|Πόσα ζώδια έχει ο παραδοσιακός δυτικός ζωδιακός κύκλος;|12|10|11|13
+Arts~Τέχνες|How many strings does a standard classical guitar have?|Πόσες χορδές έχει μια τυπική κλασική κιθάρα;|6|4|5|7
+Arts~Τέχνες|In which English city were the Beatles formed?|Σε ποια αγγλική πόλη σχηματίστηκαν οι Beatles;|Liverpool~Λίβερπουλ|Manchester~Μάντσεστερ|London~Λονδίνο|Birmingham~Μπέρμιγχαμ
+Arts~Τέχνες|Which band had Freddie Mercury as its lead singer?|Ποιο συγκρότημα είχε βασικό τραγουδιστή τον Φρέντι Μέρκιουρι;|Queen|Led Zeppelin|Pink Floyd|The Rolling Stones
+Arts~Τέχνες|Which artist released the album Thriller in 1982?|Ποιος καλλιτέχνης κυκλοφόρησε το άλμπουμ «Thriller» το 1982;|Michael Jackson~Μάικλ Τζάκσον|Prince~Πρινς|Stevie Wonder~Στίβι Γουόντερ|Lionel Richie~Λάιονελ Ρίτσι
+Maths~Μαθηματικά|What is 15% of 200?|Πόσο είναι το 15% του 200;|30|20|25|35
+Maths~Μαθηματικά|Which number does the Roman numeral X represent?|Ποιον αριθμό συμβολίζει το λατινικό X;|10|5|50|100
+Maths~Μαθηματικά|What is 7 multiplied by 8?|Πόσο κάνει 7 επί 8;|56|48|54|64
+Maths~Μαθηματικά|How many sides does an octagon have?|Πόσες πλευρές έχει ένα οκτάγωνο;|8|6|7|9
+Maths~Μαθηματικά|How many metres are in one kilometre?|Πόσα μέτρα έχει ένα χιλιόμετρο;|1,000~1.000|100|10,000~10.000|100,000~100.000
+Technology~Τεχνολογία|What base does the binary number system use?|Ποια βάση χρησιμοποιεί το δυαδικό αριθμητικό σύστημα;|2|8|10|16
+Technology~Τεχνολογία|What does the P in CPU stand for?|Τι σημαίνει το P στο CPU;|Processing~Επεξεργασία|Programming~Προγραμματισμός|Power~Ισχύς|Peripheral~Περιφερειακό
+Technology~Τεχνολογία|What does the U in USB stand for?|Τι σημαίνει το U στο USB;|Universal~Καθολικό|Unified~Ενοποιημένο|Unique~Μοναδικό|User~Χρήστης
+Technology~Τεχνολογία|What does WWW stand for?|Τι σημαίνουν τα αρχικά WWW;|World Wide Web~Παγκόσμιος Ιστός|World Web Window~Παγκόσμιο Διαδικτυακό Παράθυρο|Wide World Wireless~Παγκόσμιο Ασύρματο Δίκτυο|Web Wide World~Διαδικτυακός Ευρύς Κόσμος
+Technology~Τεχνολογία|Which of these is an image file format?|Ποιο από αυτά είναι μορφή αρχείου εικόνας;|JPEG|MP3|WAV|AAC
 `;
 const pair=value=>value.includes('~')?value.split('~'):[value,value];
 export const questions=rows.trim().split('\n').map((line,index)=>{
