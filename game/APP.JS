@@ -5703,7 +5703,7 @@ function renderLeaderboard() {
   let leaderboard=realLeaderboard;
   // Presentation-only seeded entries. Never stored as accounts or score records.
   if (boardFilter === "overall" && !leaderboardError && realLeaderboard.length) {
-    const seedNames = ["PixelNinja","GoalRush","MangaFox","CinemaOwl","AtlasAce","TurboWolf","ArtNomad","QuizComet","RetroRaven","StrawHatNova","NeonKeeper","MythHunter","CanvasCat","SilverDrift","BrainSpark"];
+    const seedNames = ["Giannak1s", "Levadeiakosfcg1", "Kleo", "HellyK", "Draaaaven", "Austr1an Pa1nter", "Bossman", "Tikaaaneis", "Mugiwara", "Thanos", "Paul SM"];
     const seedPoints = [320, 275, 230, 195, 165, 140, 118, 98, 76, 54, 32, 18, 14, 13, 12];
     const existingNames = new Set(realLeaderboard.map(player => String(player.name).toLowerCase()));
     const seeds=seedNames.map((name,index)=>({name,points:seedPoints[index],first:Math.max(1,21-index),correct:Math.ceil(seedPoints[index]/4),streak:Math.max(2,13-Math.floor(index/2)),currentUser:false,presentationOnly:true})).filter(player=>!existingNames.has(player.name.toLowerCase())).slice(0,Math.max(0,15-realLeaderboard.length));
