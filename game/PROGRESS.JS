@@ -13,6 +13,7 @@ window.GMPProgress=(()=>{
   if(!window.supabase)return;
   client=window.supabase.createClient('https://yrwgwxopleydtyckkvaz.supabase.co','sb_publishable_Prv6Os1Y96CtkVfbySk_ww_hiIzo5-L');
   const result=await client.auth.getSession();user=result.data.session?.user??null;
+  client.auth.onAuthStateChange?.((_event,session)=>{user=session?.user??null;});
  }).catch(()=>{});
  async function award(event){
   const task=async()=>{
@@ -21,23 +22,31 @@ window.GMPProgress=(()=>{
    const ctx=adapter?await adapter.context():{key:user?KEY+':'+user.id:KEY,state:get(user?KEY+':'+user.id:KEY,blank()),user,client};
    const token=[ctx.key,event.game,event.mode,event.mode==='daily'?event.day:event.round].join('|');
    const ledger=get(LEDGER,{});
-   if(ledger[token])return {points:ledger[token],duplicate:true,online:!!ctx.user};
-   const attempt=count(event.attempt);if(!attempt||!event.round||!event.game||!event.mode)return {points:0};
+   const sprint=event.game==='knowledge',existing=ledger[token];
+   const previousAward=typeof existing==='number'?{points:existing,online:false,guest:!ctx.user}:existing;
+   if(existing&&(!sprint||previousAward.online||previousAward.guest))return {...previousAward,duplicate:true};
+   const attempt=count(event.attempt);
+   if(!event.round||!event.game||!event.mode||(!sprint&&!attempt))return {points:0};
+   if(sprint&&(event.mode!=='sprint'||!count(event.correct)||event.correct>600))return {points:0};
    let profile=null;
    if(!adapter&&ctx.user&&ctx.client){
     const response=await ctx.client.from('profiles').select('*').eq('id',ctx.user.id).single();
     if(!response.error)profile=response.data;
+    else if(sprint)throw new Error('Could not load account score');
    }
+   if(sprint&&ctx.user&&!adapter&&!Object.hasOwn(profile??{},'category_scores'))throw new Error('Category scoring unavailable');
    const fields={points:'points',totalWins:'correct_guesses',firstWins:'first_try',dailyWins:'daily_wins',bestStreak:'best_streak'};
    if(profile)for(const [local,remote] of Object.entries(fields))ctx.state[local]=Math.max(count(ctx.state[local]),count(profile[remote]));
    const before=JSON.parse(JSON.stringify(ctx.state));
    ctx.state.categoryScores=window.GMPCategoryScores.merge(ctx.state.categoryScores,profile?.category_scores);
-   const points=(event.extra?1:([5,4,3,2][attempt-1]||1))+(event.mode==='daily'?2:0);
+   const points=existing?previousAward.points:sprint?event.correct:(event.extra?1:([5,4,3,2][attempt-1]||1))+(event.mode==='daily'?2:0);
+   if(!existing){
    ctx.state.points=count(ctx.state.points)+points;ctx.state.totalWins=count(ctx.state.totalWins)+1;
-   if(attempt===1&&!event.extra)ctx.state.firstWins=count(ctx.state.firstWins)+1;
+   if(!sprint&&attempt===1&&!event.extra)ctx.state.firstWins=count(ctx.state.firstWins)+1;
    if(event.mode==='daily')ctx.state.dailyWins=count(ctx.state.dailyWins)+1;
-   window.GMPCategoryScores.add(ctx.state,event.game,points,event.extra?0:attempt);
-   ledger[token]=points;
+   window.GMPCategoryScores.add(ctx.state,event.game,points,sprint||event.extra?0:attempt,sprint?event.correct:0);
+   ledger[token]={points,online:false,guest:!ctx.user};
+   }
    // Roll back the stored counters if the ledger cannot be written.
    const previous=localStorage.getItem(ctx.key);
    try{put(ctx.key,ctx.state);put(LEDGER,ledger);}catch(error){Object.assign(ctx.state,before);if(previous!==null)localStorage.setItem(ctx.key,previous);else localStorage.removeItem(ctx.key);throw error;}
@@ -49,7 +58,8 @@ window.GMPProgress=(()=>{
     const response=await ctx.client.from('profiles').update(stats).eq('id',ctx.user.id);online=!response.error;
    }
    window.dispatchEvent(new Event('gmp-score-change'));
-   return {points,online,guest:!ctx.user};
+   const awarded={points,online,guest:!ctx.user};ledger[token]=awarded;try{put(LEDGER,ledger);}catch{}
+   return {...awarded,...(existing?{duplicate:true}:{})};
   };
   queue=queue.catch(()=>{}).then(()=>navigator.locks?navigator.locks.request('guessplex-score',task):task());return queue;
  }
