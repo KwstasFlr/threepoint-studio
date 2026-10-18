@@ -5702,7 +5702,7 @@ function renderLeaderboard() {
   const leaderboard=window.GMPCategoryScores.ranking(onlineLeaderboard,boardFilter);
 
   const top10 =
-    leaderboard.slice(0, 10);
+    leaderboard.slice(0, 15);
 
   rows.innerHTML = "";
 
@@ -5779,6 +5779,23 @@ function renderLeaderboard() {
     );
   }
 
+  // Display-only names never enter account data, rankings or score calculations.
+  if (boardFilter === "overall" && !leaderboardError && leaderboard.length) {
+    const previewNames = ["PixelNinja","GoalRush","MangaFox","CinemaOwl","AtlasAce","TurboWolf","ArtNomad","QuizComet","RetroRaven","StrawHatNova","NeonKeeper","MythHunter","CanvasCat","SilverDrift","BrainSpark"];
+    const existingNames = new Set(leaderboard.map(player => String(player.name).toLowerCase()));
+    let remaining = Math.max(0, 15 - top10.length);
+    for (const name of previewNames) {
+      if (!remaining) break;
+      if (existingNames.has(name.toLowerCase())) continue;
+      const row = document.createElement("div");
+      row.className = "leaderboard-row leaderboard-placeholder";
+      row.title = T("Preview name; no recorded results.", "Όνομα προεπισκόπησης, χωρίς καταγεγραμμένα αποτελέσματα.");
+      row.innerHTML = `<span>—</span><strong>${esc(name)}</strong><span class="leader-points">—</span><span>—</span><span>—</span><span>—</span>`;
+      rows.appendChild(row);
+      remaining--;
+    }
+  }
+
   if (currentPlayerBox) {
     const currentIndex =
       leaderboard.findIndex(
@@ -5786,7 +5803,7 @@ function renderLeaderboard() {
           player.currentUser
       );
 
-    if (currentIndex >= 10) {
+    if (currentIndex >= 15) {
       const player =
         leaderboard[
           currentIndex
