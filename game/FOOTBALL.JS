@@ -1,7 +1,8 @@
 "use strict";
 const FB_PLAYERS = [...P,...UNLIMITED_PLAYERS].map(player=>({...player,...FB_METADATA[player.id],name:player.name})).concat(FB_NEW_PLAYERS);
-const FB_DAILY_IDS=new Set(P.map(player=>player.id));
-const FB_UNLIMITED_IDS=new Set(FB_PLAYERS.filter(player=>!FB_DAILY_IDS.has(player.id)).map(player=>player.id));
+const FB_DAILY_IDS=new Set([...P.map(player=>player.id),...FB_DAILY_ADDITIONAL_IDS]);
+const FB_DAILY_POOL=FB_PLAYERS.filter(player=>FB_DAILY_IDS.has(player.id));
+const FB_UNLIMITED_IDS=new Set(FB_PLAYERS.map(player=>player.id));
 let fbCurrency=read("GMP_FOOTBALL_CURRENCY","EUR")==="USD"?"USD":"EUR";
 const FB_BY_ID = new Map(FB_PLAYERS.map(player=>[player.id,player]));
 const FB_STORAGE_KEY = "GMP_FOOTBALL_COMPARE_V1";
@@ -17,7 +18,15 @@ function fbDay(){
   return `${get("year")}-${get("month")}-${get("day")}`;
 }
 
-function fbDailyId(day){return playerForDay(Math.floor(Date.parse(`${day}T00:00:00Z`)/86400000)).id;}
+function fbDailyId(day){
+  const dayNumber=Math.floor(Date.parse(`${day}T00:00:00Z`)/86400000);
+  // Preserve every published answer, including today's unfinished Daily.
+  if(day<FB_DAILY_EXPANSION_START)return playerForDay(dayNumber).id;
+  const start=Math.floor(Date.parse(`${FB_DAILY_EXPANSION_START}T00:00:00Z`)/86400000);
+  const elapsed=dayNumber-start,cycle=Math.floor(elapsed/FB_DAILY_POOL.length);
+  const order=[...FB_DAILY_POOL].sort((a,b)=>hash(`guessplex-football-50:${cycle}:${a.id}`)-hash(`guessplex-football-50:${cycle}:${b.id}`)||a.id.localeCompare(b.id));
+  return order[elapsed%order.length].id;
+}
 
 function fbNewRound(mode,previousId){
   const day = fbDay();
