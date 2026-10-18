@@ -1666,4 +1666,926 @@ const FB_NEW_PLAYERS = [
 {"id": "gyokeres", "name": "Viktor Gyökeres", "nation": ["Sweden", "Σουηδία"], "position": ["Striker", "Σέντερ φορ"], "aliases": ["Viktor Gyökeres", "gyokeres", "viktor gyokeres", "βικτορ γκιοκερες", "γκιοκερες"], "birthDate": "1998-06-04", "highestMarketValue": 75000000, "status": "active", "source": "https://www.transfermarkt.com/gyokeres/marktwertverlauf/spieler/325443", "checkedAt": "2026-10-13"},
 {"id": "kvaratskhelia", "name": "Khvicha Kvaratskhelia", "nation": ["Georgia", "Γεωργία"], "position": ["Winger", "Εξτρέμ"], "aliases": ["Khvicha Kvaratskhelia", "kvaratskhelia", "kvara", "χβιτσα κβαρατσκελια", "κβαρατσκελια"], "birthDate": "2001-02-12", "highestMarketValue": 140000000, "status": "active", "source": "https://www.transfermarkt.com/kvaratskhelia/marktwertverlauf/spieler/502670", "checkedAt": "2026-10-13"}
 ];
+// Additional Classic players; null means no recorded career peak was found.
+FB_NEW_PLAYERS.push(...[
+  {
+    "id": "hakimi",
+    "name": "Achraf Hakimi",
+    "nation": [
+      "Morocco",
+      "Μαρόκο"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Achraf Hakimi",
+      "hakimi",
+      "αχραφ χακιμι",
+      "Hakimi"
+    ],
+    "birthDate": "1998-11-04",
+    "highestMarketValue": 80000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/398073",
+    "profileSource": "https://en.wikipedia.org/wiki/Achraf_Hakimi",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "alisson",
+    "name": "Alisson Becker",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Alisson Becker",
+      "alisson",
+      "αλισον",
+      "Becker",
+      "Alisson"
+    ],
+    "birthDate": "1992-10-02",
+    "highestMarketValue": 90000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/105470",
+    "profileSource": "https://en.wikipedia.org/wiki/Alisson_Becker",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "brunofernandes",
+    "name": "Bruno Fernandes",
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Bruno Fernandes",
+      "brunofernandes",
+      "μπρουνο φερναντες",
+      "Fernandes"
+    ],
+    "birthDate": "1994-09-08",
+    "highestMarketValue": 90000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/240306",
+    "profileSource": "https://en.wikipedia.org/wiki/Bruno_Fernandes",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "brunoguimaraes",
+    "name": "Bruno Guimarães",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Bruno Guimarães",
+      "brunoguimaraes",
+      "μπρουνο γκιμαραες",
+      "Guimarães"
+    ],
+    "birthDate": "1997-11-16",
+    "highestMarketValue": 85000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/520624",
+    "profileSource": "https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "saka",
+    "name": "Bukayo Saka",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Bukayo Saka",
+      "saka",
+      "μπουκαγιο σακα",
+      "Saka"
+    ],
+    "birthDate": "2001-09-05",
+    "highestMarketValue": 150000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/433177",
+    "profileSource": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "ederson",
+    "name": "Ederson",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Ederson",
+      "ederson",
+      "εντερσον"
+    ],
+    "birthDate": "1993-08-17",
+    "highestMarketValue": 70000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/238223",
+    "profileSource": "https://en.wikipedia.org/wiki/Ederson_%28footballer%2C_born_1993%29",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "valverde",
+    "name": "Federico Valverde",
+    "nation": [
+      "Uruguay",
+      "Ουρουγουάη"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Federico Valverde",
+      "valverde",
+      "φεντερικο βαλβερδε",
+      "Valverde"
+    ],
+    "birthDate": "1998-07-22",
+    "highestMarketValue": 130000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/369081",
+    "profileSource": "https://en.wikipedia.org/wiki/Federico_Valverde",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "rijkaard",
+    "name": "Frank Rijkaard",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Frank Rijkaard",
+      "rijkaard",
+      "φρανκ ραικαρντ",
+      "Rijkaard"
+    ],
+    "birthDate": "1962-09-30",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/70667",
+    "profileSource": "https://en.wikipedia.org/wiki/Frank_Rijkaard",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "lineker",
+    "name": "Gary Lineker",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "aliases": [
+      "Gary Lineker",
+      "lineker",
+      "γκαρι λινεκερ",
+      "Lineker"
+    ],
+    "birthDate": "1960-11-30",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/22256",
+    "profileSource": "https://en.wikipedia.org/wiki/Gary_Lineker",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "hagi",
+    "name": "Gheorghe Hagi",
+    "nation": [
+      "Romania",
+      "Ρουμανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Gheorghe Hagi",
+      "hagi",
+      "γκεοργκε χατζι",
+      "Hagi"
+    ],
+    "birthDate": "1965-02-05",
+    "highestMarketValue": 1500000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/7939",
+    "profileSource": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "donnarumma",
+    "name": "Gianluigi Donnarumma",
+    "nation": [
+      "Italy",
+      "Ιταλία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Gianluigi Donnarumma",
+      "donnarumma",
+      "τζιανλουιτζι ντοναρουμα",
+      "Donnarumma"
+    ],
+    "birthDate": "1999-02-25",
+    "highestMarketValue": 65000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/315858",
+    "profileSource": "https://en.wikipedia.org/wiki/Gianluigi_Donnarumma",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "stoichkov",
+    "name": "Hristo Stoichkov",
+    "nation": [
+      "Bulgaria",
+      "Βουλγαρία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Hristo Stoichkov",
+      "stoichkov",
+      "χριστο στοιτσκοφ",
+      "Stoichkov"
+    ],
+    "birthDate": "1966-02-08",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/7938",
+    "profileSource": "https://en.wikipedia.org/wiki/Hristo_Stoichkov",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "rush",
+    "name": "Ian Rush",
+    "nation": [
+      "Wales",
+      "Ουαλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Ian Rush",
+      "rush",
+      "ιαν ρας",
+      "Rush"
+    ],
+    "birthDate": "1961-10-20",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/145743",
+    "profileSource": "https://en.wikipedia.org/wiki/Ian_Rush",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "ianwright",
+    "name": "Ian Wright",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Ian Wright",
+      "ianwright",
+      "ιαν ραιτ",
+      "Wright"
+    ],
+    "birthDate": "1963-11-03",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/104637",
+    "profileSource": "https://en.wikipedia.org/wiki/Ian_Wright",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "oblak",
+    "name": "Jan Oblak",
+    "nation": [
+      "Slovenia",
+      "Σλοβενία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Jan Oblak",
+      "oblak",
+      "γιαν ομπλακ",
+      "Oblak"
+    ],
+    "birthDate": "1993-01-07",
+    "highestMarketValue": 100000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/121483",
+    "profileSource": "https://en.wikipedia.org/wiki/Jan_Oblak",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "cruyff",
+    "name": "Johan Cruyff",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Johan Cruyff",
+      "cruyff",
+      "γιοχαν κροιφ",
+      "Cruyff",
+      "Johan Cruijff",
+      "Cruijff"
+    ],
+    "birthDate": "1947-04-25",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/8021",
+    "profileSource": "https://en.wikipedia.org/wiki/Johan_Cruyff",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "barnes",
+    "name": "John Barnes",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "John Barnes",
+      "barnes",
+      "τζον μπαρνς",
+      "Barnes"
+    ],
+    "birthDate": "1963-11-07",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/87436",
+    "profileSource": "https://en.wikipedia.org/wiki/John_Barnes",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "dalglish",
+    "name": "Kenny Dalglish",
+    "nation": [
+      "Scotland",
+      "Σκωτία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Kenny Dalglish",
+      "dalglish",
+      "κενι νταλγκλις",
+      "Dalglish"
+    ],
+    "birthDate": "1951-03-04",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/135269",
+    "profileSource": "https://en.wikipedia.org/wiki/Kenny_Dalglish",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "yamal",
+    "name": "Lamine Yamal",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Lamine Yamal",
+      "yamal",
+      "λαμιν γιαμαλ",
+      "Yamal"
+    ],
+    "birthDate": "2007-07-13",
+    "highestMarketValue": 220000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/937958",
+    "profileSource": "https://en.wikipedia.org/wiki/Lamine_Yamal",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "neuer",
+    "name": "Manuel Neuer",
+    "nation": [
+      "Germany",
+      "Γερμανία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Manuel Neuer",
+      "neuer",
+      "μανουελ νοιερ",
+      "Neuer"
+    ],
+    "birthDate": "1986-03-27",
+    "highestMarketValue": 45000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/17259",
+    "profileSource": "https://en.wikipedia.org/wiki/Manuel_Neuer",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "vanbasten",
+    "name": "Marco van Basten",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "aliases": [
+      "Marco van Basten",
+      "vanbasten",
+      "μαρκο φαν μπαστεν",
+      "Basten"
+    ],
+    "birthDate": "1964-10-31",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/74471",
+    "profileSource": "https://en.wikipedia.org/wiki/Marco_van_Basten",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "odegaard",
+    "name": "Martin Ødegaard",
+    "nation": [
+      "Norway",
+      "Νορβηγία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Martin Ødegaard",
+      "odegaard",
+      "μαρτιν εντεγκααρντ",
+      "Ødegaard",
+      "Martin Odegaard",
+      "Odegaard"
+    ],
+    "birthDate": "1998-12-17",
+    "highestMarketValue": 110000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/316264",
+    "profileSource": "https://en.wikipedia.org/wiki/Martin_%C3%98degaard",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "michaellaudrup",
+    "name": "Michael Laudrup",
+    "nation": [
+      "Denmark",
+      "Δανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Michael Laudrup",
+      "michaellaudrup",
+      "μικαελ λαουντρουπ",
+      "Laudrup"
+    ],
+    "birthDate": "1964-06-15",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/8023",
+    "profileSource": "https://en.wikipedia.org/wiki/Michael_Laudrup",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "dembele",
+    "name": "Ousmane Dembélé",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Ousmane Dembélé",
+      "dembele",
+      "ουσμαν ντεμπελε",
+      "Dembélé"
+    ],
+    "birthDate": "1997-05-15",
+    "highestMarketValue": 120000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/288230",
+    "profileSource": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "kluivert",
+    "name": "Patrick Kluivert",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "aliases": [
+      "Patrick Kluivert",
+      "kluivert",
+      "πατρικ κλαιφερτ",
+      "Kluivert"
+    ],
+    "birthDate": "1976-07-01",
+    "highestMarketValue": 12500000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/4385",
+    "profileSource": "https://en.wikipedia.org/wiki/Patrick_Kluivert",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "gascoigne",
+    "name": "Paul Gascoigne",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Paul Gascoigne",
+      "gascoigne",
+      "πολ γκασκοιν",
+      "Gascoigne"
+    ],
+    "birthDate": "1967-05-27",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/3830",
+    "profileSource": "https://en.wikipedia.org/wiki/Paul_Gascoigne",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "pedri",
+    "name": "Pedri",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Pedri",
+      "pedri",
+      "πεδρι"
+    ],
+    "birthDate": "2002-11-25",
+    "highestMarketValue": 150000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/683840",
+    "profileSource": "https://en.wikipedia.org/wiki/Pedri",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "schmeichel",
+    "name": "Peter Schmeichel",
+    "nation": [
+      "Denmark",
+      "Δανία"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Peter Schmeichel",
+      "schmeichel",
+      "πιτερ σμαιχελ",
+      "Schmeichel"
+    ],
+    "birthDate": "1963-11-18",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/3465",
+    "profileSource": "https://en.wikipedia.org/wiki/Peter_Schmeichel",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "varane",
+    "name": "Raphaël Varane",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Raphaël Varane",
+      "varane",
+      "ραφαελ βαραν",
+      "Varane"
+    ],
+    "birthDate": "1993-04-25",
+    "highestMarketValue": 80000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/164770",
+    "profileSource": "https://en.wikipedia.org/wiki/Rapha%C3%ABl_Varane",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "raphinha",
+    "name": "Raphinha",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Forward",
+      "Επιθετικός"
+    ],
+    "aliases": [
+      "Raphinha",
+      "raphinha",
+      "ραφινια"
+    ],
+    "birthDate": "1996-12-14",
+    "highestMarketValue": 90000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/411295",
+    "profileSource": "https://en.wikipedia.org/wiki/Raphinha",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "rodrygo",
+    "name": "Rodrygo",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "aliases": [
+      "Rodrygo",
+      "rodrygo",
+      "ροντριγκο"
+    ],
+    "birthDate": "2001-01-09",
+    "highestMarketValue": 110000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/412363",
+    "profileSource": "https://en.wikipedia.org/wiki/Rodrygo",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "gullit",
+    "name": "Ruud Gullit",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Ruud Gullit",
+      "gullit",
+      "ρουντ γκουλιτ",
+      "Gullit"
+    ],
+    "birthDate": "1962-09-01",
+    "highestMarketValue": null,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/101045",
+    "profileSource": "https://en.wikipedia.org/wiki/Ruud_Gullit",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "vannistelrooy",
+    "name": "Ruud van Nistelrooy",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "aliases": [
+      "Ruud van Nistelrooy",
+      "vannistelrooy",
+      "ρουντ φαν νιστελροι",
+      "Nistelrooy"
+    ],
+    "birthDate": "1976-07-01",
+    "highestMarketValue": 40000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/3407",
+    "profileSource": "https://en.wikipedia.org/wiki/Ruud_van_Nistelrooy",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "thiago",
+    "name": "Thiago Alcântara",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Thiago Alcântara",
+      "thiago",
+      "τιαγκο αλκανταρα",
+      "Alcântara",
+      "Thiago Alcántara",
+      "Thiago"
+    ],
+    "birthDate": "1991-04-11",
+    "highestMarketValue": 70000000,
+    "status": "retired",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/60444",
+    "profileSource": "https://en.wikipedia.org/wiki/Thiago_Alc%C3%A2ntara",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "courtois",
+    "name": "Thibaut Courtois",
+    "nation": [
+      "Belgium",
+      "Βέλγιο"
+    ],
+    "position": [
+      "Goalkeeper",
+      "Τερματοφύλακας"
+    ],
+    "aliases": [
+      "Thibaut Courtois",
+      "courtois",
+      "τιμπο κουρτουα",
+      "Courtois"
+    ],
+    "birthDate": "1992-05-11",
+    "highestMarketValue": 75000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/108390",
+    "profileSource": "https://en.wikipedia.org/wiki/Thibaut_Courtois",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "vandijk",
+    "name": "Virgil van Dijk",
+    "nation": [
+      "Netherlands",
+      "Ολλανδία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "Virgil van Dijk",
+      "vandijk",
+      "βιρτζιλ φαν νταικ",
+      "Dijk"
+    ],
+    "birthDate": "1991-07-08",
+    "highestMarketValue": 100000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/139208",
+    "profileSource": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "vitinha",
+    "name": "Vitinha",
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "aliases": [
+      "Vitinha",
+      "vitinha",
+      "βιτινια"
+    ],
+    "birthDate": "2000-02-13",
+    "highestMarketValue": 140000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/487469",
+    "profileSource": "https://en.wikipedia.org/wiki/Vitinha",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "saliba",
+    "name": "William Saliba",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Defender",
+      "Αμυντικός"
+    ],
+    "aliases": [
+      "William Saliba",
+      "saliba",
+      "γουιλιαμ σαλιμπα",
+      "Saliba"
+    ],
+    "birthDate": "2001-03-24",
+    "highestMarketValue": 100000000,
+    "status": "active",
+    "source": "https://www.transfermarkt.com/-/marktwertverlauf/spieler/495666",
+    "profileSource": "https://en.wikipedia.org/wiki/William_Saliba",
+    "checkedAt": "2026-10-18"
+  }
+]);
+
 const FB_EXCHANGE = {usdPerEuro:1.1225,date:"2026-10-02",source:"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"};
+
+// The Daily selection is a curated subset of the full Classic pool.
+const FB_DAILY_ADDITIONAL_IDS = ["neymar", "suarez", "lewandowski", "benzema", "salah", "mane", "debruyne", "hazard", "bale", "ibrahimovic", "aguero", "torres", "villa", "eto", "drogba", "kaka", "figo", "rivaldo", "beckham", "lampard", "rooney", "owen", "shearer", "bergkamp", "vanpersie", "robben", "sneijder", "seedorf", "pirlo", "baggio", "ronaldonazario", "buffon", "cech", "vandersar", "casillas", "gerrard", "xavi", "iniesta", "ramos", "puyol", "lahm"];
+const FB_DAILY_EXPANSION_START = "2026-10-19";
