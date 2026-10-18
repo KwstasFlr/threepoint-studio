@@ -87,3 +87,69 @@ South Korea: https://whc.unesco.org/en/list/1264/ | https://nationalatlas.ngii.g
 Chile: https://whc.unesco.org/en/list/715/ | https://chile.travel/en/destinations/torres-del-paine/ | https://api.worldbank.org/v2/country/CHL/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
 
 Cambodia: https://whc.unesco.org/en/list/668/ | https://www.wwf.org.kh/our_work/wildlife_at_risk_in_cambodia/mammals_at_risk_in_cambodia/ | https://api.worldbank.org/v2/country/KHM/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+## Additional countries — 18 October 2026
+
+Population: World Bank, 2024. Religious composition: Pew Research Center, 2020. Nature and heritage clues: sources linked below. Historical observations are identified in their clue wording.
+
+Bulgaria: https://whc.unesco.org/en/list/225/ | https://api.worldbank.org/v2/country/BGR/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Hungary: https://whc.unesco.org/en/list/474/ | https://whc.unesco.org/en/list/474/gallery | https://whc.unesco.org/uploads/nominations/474rev.pdf | https://api.worldbank.org/v2/country/HUN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Slovakia: https://whc.unesco.org/en/list/725/ | https://api.worldbank.org/v2/country/SVK/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Slovenia: https://whc.unesco.org/en/list/390/ | https://api.worldbank.org/v2/country/SVN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Serbia: https://whc.unesco.org/en/tentativelists/1693/ | https://api.worldbank.org/v2/country/SRB/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Montenegro: https://whc.unesco.org/en/list/100/ | https://api.worldbank.org/v2/country/MNE/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+North Macedonia: https://whc.unesco.org/en/list/99/ | https://api.worldbank.org/v2/country/MKD/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Russia: https://whc.unesco.org/en/list/754/ | https://api.worldbank.org/v2/country/RUS/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Kazakhstan: https://whc.unesco.org/en/list/1102/ | https://api.worldbank.org/v2/country/KAZ/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Laos: https://whc.unesco.org/en/list/1587/ | https://whc.unesco.org/document/222086 | https://api.worldbank.org/v2/country/LAO/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Bhutan: https://whc.unesco.org/en/tentativelists/5698/ | https://api.worldbank.org/v2/country/BTN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Uruguay: https://www.ramsar.org/sites/default/files/documents/library/site_summary_1_banados_en_0.pdf | https://api.worldbank.org/v2/country/URY/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Kiribati: https://whc.unesco.org/en/list/1325/ | https://api.worldbank.org/v2/country/KIR/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Solomon Islands: https://whc.unesco.org/en/list/854/ | https://api.worldbank.org/v2/country/SLB/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Tunisia: https://whc.unesco.org/en/list/8/ | https://whc.unesco.org/archive/advisory_body_evaluation/008.pdf | https://api.worldbank.org/v2/country/TUN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Algeria: https://whc.unesco.org/en/list/179/ | https://api.worldbank.org/v2/country/DZA/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Georgia: https://whc.unesco.org/en/list/1616/ | https://whc.unesco.org/document/189232 | https://api.worldbank.org/v2/country/GEO/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Ivory Coast: https://whc.unesco.org/en/list/195/ | https://whc.unesco.org/en/decisions/4651/ | https://api.worldbank.org/v2/country/CIV/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Gabon: https://whc.unesco.org/en/list/1147/ | https://gabon.wcs.org/en-us/wildlife/mandrills.aspx | https://gabon.wcs.org/en-us/Wild-Places/Gabons-Forests/Mandrill-Research-and-Tourism.aspx | https://api.worldbank.org/v2/country/GAB/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Republic of the Congo: https://whc.unesco.org/en/list/692/ | https://api.worldbank.org/v2/country/COG/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Niger: https://whc.unesco.org/en/list/573/ | https://api.worldbank.org/v2/country/NER/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Malawi: https://whc.unesco.org/en/list/289/ | https://api.worldbank.org/v2/country/MWI/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Bolivia: https://whc.unesco.org/en/list/967/ | https://www.unesco.org/en/mab/pilon-lajas | https://api.worldbank.org/v2/country/BOL/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Honduras: https://whc.unesco.org/en/list/196/ | https://api.worldbank.org/v2/country/HND/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Nicaragua: https://www.unesco.org/en/mab/bosawas | https://api.worldbank.org/v2/country/NIC/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Chad: https://whc.unesco.org/en/list/1475/ | https://www.africanparks.org/the-parks/ennedi/ennedi-biodiversity-conservation | https://api.worldbank.org/v2/country/TCD/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Jamaica: https://whc.unesco.org/en/list/1356/ | https://api.worldbank.org/v2/country/JAM/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Mauritania: https://whc.unesco.org/en/list/506/ | https://api.worldbank.org/v2/country/MRT/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Seychelles: https://whc.unesco.org/en/list/185/ | https://whc.unesco.org/en/list/261/ | https://api.worldbank.org/v2/country/SYC/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Benin: https://whc.unesco.org/en/list/749/ | https://api.worldbank.org/v2/country/BEN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
+
+Guinea: https://whc.unesco.org/en/list/155/ | https://api.worldbank.org/v2/country/GIN/indicator/SP.POP.TOTL?format=json&date=2024 | https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/
