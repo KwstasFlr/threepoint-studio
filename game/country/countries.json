@@ -4619,5 +4619,2074 @@
                         "https://api.worldbank.org/v2/country/KHM/indicator/SP.POP.TOTL?format=json\u0026date=2024",
                         "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
                     ]
+    },
+    {
+        "id": "BG",
+        "name": [
+            "Bulgaria",
+            "Βουλγαρία"
+        ],
+        "aliases": [
+            "Bulgaria",
+            "Βουλγαρία"
+        ],
+        "facts": [
+            [
+                "Its Pirin mountain park contains more than 70 glacial lakes.",
+                "Το ορεινό πάρκο Πιρίν περιλαμβάνει περισσότερες από 70 παγετωνικές λίμνες."
+            ],
+            [
+                "UNESCO describes around 40.000 hectares of protected mountain landscapes in Pirin.",
+                "Η UNESCO περιγράφει περίπου 40.000 εκτάρια προστατευόμενων ορεινών τοπίων στο Πιρίν."
+            ]
+        ],
+        "locations": [
+            [
+                "Southeastern Europe, with a Black Sea coast.",
+                "Νοτιοανατολική Ευρώπη, με ακτές στη Μαύρη Θάλασσα."
+            ],
+            [
+                "It borders Greece, Turkey, Romania, Serbia and North Macedonia.",
+                "Συνορεύει με Ελλάδα, Τουρκία, Ρουμανία, Σερβία και Βόρεια Μακεδονία."
+            ]
+        ],
+        "animals": [
+            [
+                "Brown bears and wolves inhabit its Pirin mountains.",
+                "Στα βουνά του Πιρίν ζουν καφέ αρκούδες και λύκοι."
+            ],
+            [
+                "Pine martens are among the mammals recorded in Pirin.",
+                "Τα δασοκούναβα είναι από τα θηλαστικά που καταγράφονται στο Πιρίν."
+            ]
+        ],
+        "population": 6441421,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 79.5,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 10.3,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/225/",
+            "https://api.worldbank.org/v2/country/BGR/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "HU",
+        "name": [
+            "Hungary",
+            "Ουγγαρία"
+        ],
+        "aliases": [
+            "Hungary",
+            "Ουγγαρία"
+        ],
+        "facts": [
+            [
+                "Its Hortobágy grasslands preserve pastoral traditions developed over more than 2.000 years.",
+                "Τα λιβάδια του Χορτομπάγκι διατηρούν κτηνοτροφικές παραδόσεις που εξελίχθηκαν για περισσότερα από 2.000 χρόνια."
+            ],
+            [
+                "The Hortobágy national park has grown to almost 81.000 hectares.",
+                "Το εθνικό πάρκο Χορτομπάγκι έχει επεκταθεί σε σχεδόν 81.000 εκτάρια."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked country in Central Europe.",
+                "Περίκλειστη χώρα της Κεντρικής Ευρώπης."
+            ],
+            [
+                "The Danube crosses its capital; its neighbours include Austria and Romania.",
+                "Ο Δούναβης διασχίζει την πρωτεύουσά της· γειτονικές χώρες είναι η Αυστρία και η Ρουμανία."
+            ]
+        ],
+        "animals": [
+            [
+                "Grey cattle and spiral-horned Racka sheep graze on its protected plains.",
+                "Γκρίζα βοοειδή και πρόβατα Ράτσκα με σπειροειδή κέρατα βόσκουν στις προστατευόμενες πεδιάδες της."
+            ],
+            [
+                "Common cranes use the Hortobágy wetlands during migration.",
+                "Οι γερανοί χρησιμοποιούν τους υγρότοπους του Χορτομπάγκι στη μετανάστευσή τους."
+            ]
+        ],
+        "population": 9562065,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 72.4,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Buddhists",
+                    "Βουδιστές"
+                ],
+                "percent": 0.2,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/474/",
+            "https://whc.unesco.org/en/list/474/gallery",
+            "https://whc.unesco.org/uploads/nominations/474rev.pdf",
+            "https://api.worldbank.org/v2/country/HUN/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "SK",
+        "name": [
+            "Slovakia",
+            "Σλοβακία"
+        ],
+        "aliases": [
+            "Slovakia",
+            "Σλοβακία"
+        ],
+        "facts": [
+            [
+                "It shares a UNESCO cave landscape where 712 caves were recorded at inscription in 1995.",
+                "Μοιράζεται ένα σπηλαιώδες τοπίο της UNESCO όπου είχαν καταγραφεί 712 σπήλαια κατά την ένταξη το 1995."
+            ],
+            [
+                "A cross-border karst property it shares with Hungary now has more than 1.000 known caves.",
+                "Ένα διασυνοριακό καρστικό μνημείο που μοιράζεται με την Ουγγαρία έχει πλέον περισσότερα από 1.000 γνωστά σπήλαια."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked country in Central Europe, south of Poland.",
+                "Περίκλειστη χώρα της Κεντρικής Ευρώπης, νότια της Πολωνίας."
+            ],
+            [
+                "Its neighbours include Czechia, Austria, Hungary, Poland and Ukraine.",
+                "Γείτονές της είναι η Τσεχία, η Αυστρία, η Ουγγαρία, η Πολωνία και η Ουκρανία."
+            ]
+        ],
+        "animals": [
+            [
+                "Its shared karst cave system supports more than 500 cave-associated animal species.",
+                "Το κοινό καρστικό σύστημα σπηλαίων φιλοξενεί περισσότερα από 500 είδη ζώων που συνδέονται με σπήλαια."
+            ],
+            [
+                "Cave-dwelling invertebrates are an important part of its protected karst fauna.",
+                "Τα ασπόνδυλα των σπηλαίων αποτελούν σημαντικό μέρος της προστατευόμενης καρστικής πανίδας της."
+            ]
+        ],
+        "population": 5422069,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 73.7,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 0.7,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/725/",
+            "https://api.worldbank.org/v2/country/SVK/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "SI",
+        "name": [
+            "Slovenia",
+            "Σλοβενία"
+        ],
+        "aliases": [
+            "Slovenia",
+            "Σλοβενία"
+        ],
+        "facts": [
+            [
+                "Its Škocjan caves contain an underground canyon roughly 2 kilometres long.",
+                "Τα σπήλαια Σκότσιαν περιλαμβάνουν υπόγειο φαράγγι μήκους περίπου 2 χιλιομέτρων."
+            ],
+            [
+                "A famous underground canyon here reaches about 150 metres in height.",
+                "Ένα διάσημο υπόγειο φαράγγι εδώ φτάνει περίπου τα 150 μέτρα σε ύψος."
+            ]
+        ],
+        "locations": [
+            [
+                "Where the Alps meet the northern Adriatic.",
+                "Εκεί όπου οι Άλπεις συναντούν τη βόρεια Αδριατική."
+            ],
+            [
+                "It borders Italy, Austria, Hungary and Croatia.",
+                "Συνορεύει με Ιταλία, Αυστρία, Ουγγαρία και Κροατία."
+            ]
+        ],
+        "animals": [
+            [
+                "The olm, a pale cave-dwelling salamander, lives in its karst waters.",
+                "Ο πρωτέας, μια ωχρή σαλαμάνδρα των σπηλαίων, ζει στα καρστικά νερά της."
+            ],
+            [
+                "Subterranean crustaceans form part of the Škocjan cave ecosystem.",
+                "Υπόγεια καρκινοειδή αποτελούν μέρος του οικοσυστήματος των σπηλαίων Σκότσιαν."
+            ]
+        ],
+        "population": 2127400,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 65.4,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 1.6,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/390/",
+            "https://api.worldbank.org/v2/country/SVN/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "RS",
+        "name": [
+            "Serbia",
+            "Σερβία"
+        ],
+        "aliases": [
+            "Serbia",
+            "Σερβία"
+        ],
+        "facts": [
+            [
+                "Its Djerdap national park follows a river gorge for around 100 kilometres.",
+                "Το εθνικό πάρκο Τζέρνταπ ακολουθεί ένα ποτάμιο φαράγγι για περίπου 100 χιλιόμετρα."
+            ],
+            [
+                "More than 1.000 plant varieties are recorded in its Djerdap park.",
+                "Στο πάρκο Τζέρνταπ καταγράφονται περισσότερες από 1.000 ποικιλίες φυτών."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked Balkan country crossed by the Danube.",
+                "Περίκλειστη βαλκανική χώρα που διασχίζεται από τον Δούναβη."
+            ],
+            [
+                "Its neighbours include Hungary, Romania, Bulgaria and Montenegro.",
+                "Γειτονικές χώρες είναι η Ουγγαρία, η Ρουμανία, η Βουλγαρία και το Μαυροβούνιο."
+            ]
+        ],
+        "animals": [
+            [
+                "Lynx and wolves occur in the Djerdap region.",
+                "Στην περιοχή Τζέρνταπ συναντώνται λύγκες και λύκοι."
+            ],
+            [
+                "Black storks are among the birds recorded in Djerdap.",
+                "Οι μαυροπελαργοί είναι από τα πτηνά που καταγράφονται στο Τζέρνταπ."
+            ]
+        ],
+        "population": 6586476,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 91.5,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 4.4,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/tentativelists/1693/",
+            "https://api.worldbank.org/v2/country/SRB/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "ME",
+        "name": [
+            "Montenegro",
+            "Μαυροβούνιο"
+        ],
+        "aliases": [
+            "Montenegro",
+            "Μαυροβούνιο"
+        ],
+        "facts": [
+            [
+                "Its Durmitor region contains more than 1.600 vascular plant species.",
+                "Η περιοχή Ντούρμιτορ περιλαμβάνει περισσότερα από 1.600 είδη αγγειόφυτων."
+            ],
+            [
+                "UNESCO records 130 bird species in its Durmitor region.",
+                "Η UNESCO καταγράφει 130 είδη πτηνών στην περιοχή Ντούρμιτορ."
+            ]
+        ],
+        "locations": [
+            [
+                "A small Balkan country on the Adriatic Sea.",
+                "Μικρή βαλκανική χώρα στην Αδριατική Θάλασσα."
+            ],
+            [
+                "It lies between Croatia, Bosnia and Herzegovina, Serbia and Albania.",
+                "Βρίσκεται ανάμεσα στην Κροατία, τη Βοσνία και Ερζεγοβίνη, τη Σερβία και την Αλβανία."
+            ]
+        ],
+        "animals": [
+            [
+                "Brown bears and grey wolves inhabit Durmitor.",
+                "Στο Ντούρμιτορ ζουν καφέ αρκούδες και γκρίζοι λύκοι."
+            ],
+            [
+                "Golden eagles and peregrine falcons occur in its mountain park.",
+                "Στο ορεινό πάρκο της συναντώνται χρυσαετοί και πετρίτες."
+            ]
+        ],
+        "population": 623525,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 76,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 21.3,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/100/",
+            "https://api.worldbank.org/v2/country/MNE/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "MK",
+        "name": [
+            "North Macedonia",
+            "Βόρεια Μακεδονία"
+        ],
+        "aliases": [
+            "North Macedonia",
+            "Βόρεια Μακεδονία",
+            "North-Macedonia"
+        ],
+        "facts": [
+            [
+                "It shares an ancient lake estimated to be 2.000.000–3.000.000 years old.",
+                "Μοιράζεται μια αρχαία λίμνη ηλικίας περίπου 2.000.000–3.000.000 ετών."
+            ],
+            [
+                "More than 200 endemic species occur in the ancient lake it shares with Albania.",
+                "Περισσότερα από 200 ενδημικά είδη ζουν στην αρχαία λίμνη που μοιράζεται με την Αλβανία."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked Balkan country directly north of Greece.",
+                "Περίκλειστη βαλκανική χώρα ακριβώς βόρεια της Ελλάδας."
+            ],
+            [
+                "It borders Greece, Bulgaria, Albania, Serbia and Kosovo.",
+                "Συνορεύει με Ελλάδα, Βουλγαρία, Αλβανία, Σερβία και Κόσοβο."
+            ]
+        ],
+        "animals": [
+            [
+                "The Ohrid trout is one of its ancient lake’s endemic fish.",
+                "Η πέστροφα της Οχρίδας είναι ένα από τα ενδημικά ψάρια της αρχαίας λίμνης της."
+            ],
+            [
+                "Its shared ancient lake contains endemic freshwater snails.",
+                "Η κοινή αρχαία λίμνη της φιλοξενεί ενδημικά σαλιγκάρια γλυκού νερού."
+            ]
+        ],
+        "population": 1824359,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 64.7,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 34.7,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/99/",
+            "https://api.worldbank.org/v2/country/MKD/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "RU",
+        "name": [
+            "Russia",
+            "Ρωσία"
+        ],
+        "aliases": [
+            "Russia",
+            "Ρωσία",
+            "Russian Federation"
+        ],
+        "facts": [
+            [
+                "One of its lakes contains about 20% of the world’s unfrozen freshwater reserves.",
+                "Μία λίμνη της περιέχει περίπου το 20% των μη παγωμένων αποθεμάτων γλυκού νερού του κόσμου."
+            ],
+            [
+                "It contains the world’s deepest lake, around 1.700 metres deep.",
+                "Περιλαμβάνει τη βαθύτερη λίμνη του κόσμου, με βάθος περίπου 1.700 μέτρα."
+            ]
+        ],
+        "locations": [
+            [
+                "It spans northern Asia and eastern Europe.",
+                "Εκτείνεται στη βόρεια Ασία και την ανατολική Ευρώπη."
+            ],
+            [
+                "Its shores reach both the Arctic and Pacific Oceans.",
+                "Οι ακτές της φτάνουν στον Αρκτικό και τον Ειρηνικό Ωκεανό."
+            ]
+        ],
+        "animals": [
+            [
+                "A freshwater seal lives in Lake Baikal.",
+                "Μια φώκια γλυκού νερού ζει στη λίμνη Βαϊκάλη."
+            ],
+            [
+                "Sables inhabit the taiga surrounding its great Siberian lake.",
+                "Σαμούρια ζουν στην τάιγκα γύρω από τη μεγάλη λίμνη της Σιβηρίας."
+            ]
+        ],
+        "population": 143669648,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 69.9,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 8.2,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/754/",
+            "https://api.worldbank.org/v2/country/RUS/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "KZ",
+        "name": [
+            "Kazakhstan",
+            "Καζακστάν"
+        ],
+        "aliases": [
+            "Kazakhstan",
+            "Καζακστάν"
+        ],
+        "facts": [
+            [
+                "Its Saryarka UNESCO property combines two reserves covering 450.344 hectares.",
+                "Το μνημείο Σαριάρκα της UNESCO ενώνει δύο καταφύγια έκτασης 450.344 εκταρίων."
+            ],
+            [
+                "Its Saryarka property includes around 200.000 hectares of steppe.",
+                "Το μνημείο Σαριάρκα περιλαμβάνει περίπου 200.000 εκτάρια στέπας."
+            ]
+        ],
+        "locations": [
+            [
+                "Central Asia, with a coast on the Caspian Sea.",
+                "Κεντρική Ασία, με ακτές στην Κασπία Θάλασσα."
+            ],
+            [
+                "It borders Russia and China, as well as Kyrgyzstan, Uzbekistan and Turkmenistan.",
+                "Συνορεύει με Ρωσία και Κίνα, καθώς και με Κιργιστάν, Ουζμπεκιστάν και Τουρκμενιστάν."
+            ]
+        ],
+        "animals": [
+            [
+                "Saiga antelopes find refuge in its protected steppe.",
+                "Οι αντιλόπες σάιγκα βρίσκουν καταφύγιο στην προστατευόμενη στέπα της."
+            ],
+            [
+                "Dalmatian pelicans use its northern wetlands.",
+                "Αργυροπελεκάνοι χρησιμοποιούν τους βόρειους υγρότοπούς της."
+            ]
+        ],
+        "population": 20592571,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 77.9,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 19.3,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1102/",
+            "https://api.worldbank.org/v2/country/KAZ/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "LA",
+        "name": [
+            "Laos",
+            "Λάος"
+        ],
+        "aliases": [
+            "Laos",
+            "Λάος",
+            "Lao PDR",
+            "Lao People’s Democratic Republic"
+        ],
+        "facts": [
+            [
+                "More than 2.100 ancient stone jars are associated with its famous funerary landscape.",
+                "Περισσότερα από 2.100 αρχαία λίθινα πιθάρια συνδέονται με το διάσημο ταφικό τοπίο της."
+            ],
+            [
+                "Its UNESCO-listed jar landscape consists of 15 components.",
+                "Το τοπίο των πιθαριών που προστατεύει η UNESCO αποτελείται από 15 επιμέρους θέσεις."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked country in Southeast Asia.",
+                "Περίκλειστη χώρα της Νοτιοανατολικής Ασίας."
+            ],
+            [
+                "It lies between Thailand and Vietnam, with the Mekong along much of its western border.",
+                "Βρίσκεται ανάμεσα στην Ταϊλάνδη και το Βιετνάμ, με τον Μεκόνγκ σε μεγάλο μέρος των δυτικών συνόρων της."
+            ]
+        ],
+        "animals": [
+            [
+                "Red-shanked douc langurs inhabit Hin Nam No.",
+                "Κόκκινοι ντουκ λανγκούρ ζουν στο Χιν Ναμ Νο."
+            ],
+            [
+                "The Sunda pangolin is among the threatened animals recorded in Hin Nam No.",
+                "Ο παγκολίνος της Σούνδης είναι από τα απειλούμενα ζώα που καταγράφονται στο Χιν Ναμ Νο."
+            ]
+        ],
+        "population": 7769819,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Buddhists",
+                    "Βουδιστές"
+                ],
+                "percent": 64.2,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 34.2,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1587/",
+            "https://whc.unesco.org/document/222086",
+            "https://api.worldbank.org/v2/country/LAO/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "BT",
+        "name": [
+            "Bhutan",
+            "Μπουτάν"
+        ],
+        "aliases": [
+            "Bhutan",
+            "Μπουτάν"
+        ],
+        "facts": [
+            [
+                "A 2012 UNESCO submission reported 430 bird species in its Royal Manas park.",
+                "Υποβολή στην UNESCO το 2012 ανέφερε 430 είδη πτηνών στο πάρκο Ρόγιαλ Μάνας."
+            ],
+            [
+                "Its Royal Manas park has habitats ranging from below 500 metres to above 2.500 metres.",
+                "Το πάρκο Ρόγιαλ Μάνας διαθέτει ενδιαιτήματα από κάτω των 500 έως πάνω από τα 2.500 μέτρα."
+            ]
+        ],
+        "locations": [
+            [
+                "A Himalayan country between India and China.",
+                "Χώρα των Ιμαλαΐων ανάμεσα στην Ινδία και την Κίνα."
+            ],
+            [
+                "It lies east of Nepal and north of the Indian state of Assam.",
+                "Βρίσκεται ανατολικά του Νεπάλ και βόρεια της ινδικής πολιτείας Άσαμ."
+            ]
+        ],
+        "animals": [
+            [
+                "Golden langurs occur in Royal Manas.",
+                "Χρυσοί λανγκούρ συναντώνται στο Ρόγιαλ Μάνας."
+            ],
+            [
+                "Tigers and clouded leopards inhabit its southern forests.",
+                "Τίγρεις και νεφελώδεις λεοπαρδάλεις ζουν στα νότια δάση της."
+            ]
+        ],
+        "population": 791524,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Buddhists",
+                    "Βουδιστές"
+                ],
+                "percent": 74.7,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Hindus",
+                    "Ινδουιστές"
+                ],
+                "percent": 22.5,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/tentativelists/5698/",
+            "https://api.worldbank.org/v2/country/BTN/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "UY",
+        "name": [
+            "Uruguay",
+            "Ουρουγουάη"
+        ],
+        "aliases": [
+            "Uruguay",
+            "Ουρουγουάη"
+        ],
+        "facts": [
+            [
+                "Its Eastern Wetlands Ramsar site covers approximately 407.408 hectares.",
+                "Ο υγρότοπος Ραμσάρ στα ανατολικά της καλύπτει περίπου 407.408 εκτάρια."
+            ],
+            [
+                "An eastern wetland system here connects three major coastal lagoons.",
+                "Ένα σύστημα ανατολικών υγροτόπων συνδέει τρεις μεγάλες παράκτιες λιμνοθάλασσες."
+            ]
+        ],
+        "locations": [
+            [
+                "Southeastern South America, on the Atlantic coast.",
+                "Νοτιοανατολική Νότια Αμερική, στις ακτές του Ατλαντικού."
+            ],
+            [
+                "It lies between Brazil and Argentina, beside the Río de la Plata.",
+                "Βρίσκεται ανάμεσα στη Βραζιλία και την Αργεντινή, δίπλα στον Ρίο ντε λα Πλάτα."
+            ]
+        ],
+        "animals": [
+            [
+                "Capybaras live in its eastern wetlands.",
+                "Καπιμπάρα ζουν στους ανατολικούς υγροτόπους της."
+            ],
+            [
+                "Margays inhabit riverbank forests around Yaguarón and Tacuarí.",
+                "Μαργκάι ζουν στα παραποτάμια δάση γύρω από τους ποταμούς Γιαγκουαρόν και Τακουαρί."
+            ]
+        ],
+        "population": 3386588,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 44.5,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 2.5,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://www.ramsar.org/sites/default/files/documents/library/site_summary_1_banados_en_0.pdf",
+            "https://api.worldbank.org/v2/country/URY/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "KI",
+        "name": [
+            "Kiribati",
+            "Κιριμπάτι"
+        ],
+        "aliases": [
+            "Kiribati",
+            "Κιριμπάτι"
+        ],
+        "facts": [
+            [
+                "Its Phoenix Islands protected area covers 408.250 square kilometres.",
+                "Η προστατευόμενη περιοχή των Νήσων Φοίνιξ καλύπτει 408.250 τετραγωνικά χιλιόμετρα."
+            ],
+            [
+                "Fourteen known underwater seamounts lie within its Phoenix Islands protected area.",
+                "Δεκατέσσερα γνωστά υποθαλάσσια όρη βρίσκονται στην προστατευόμενη περιοχή των Νήσων Φοίνιξ."
+            ]
+        ],
+        "locations": [
+            [
+                "An island country spread across the central Pacific.",
+                "Νησιωτική χώρα απλωμένη στον κεντρικό Ειρηνικό."
+            ],
+            [
+                "Its territory includes the Gilbert, Phoenix and Line island groups.",
+                "Η επικράτειά της περιλαμβάνει τις νησιωτικές ομάδες Γκίλμπερτ, Φοίνιξ και Λάιν."
+            ]
+        ],
+        "animals": [
+            [
+                "Around 500 fish species are recorded in its Phoenix Islands protected area.",
+                "Περίπου 500 είδη ψαριών καταγράφονται στην προστατευόμενη περιοχή των Νήσων Φοίνιξ."
+            ],
+            [
+                "UNESCO records 18 marine mammal species in its Phoenix Islands protected area.",
+                "Η UNESCO καταγράφει 18 είδη θαλάσσιων θηλαστικών στην προστατευόμενη περιοχή των Νήσων Φοίνιξ."
+            ]
+        ],
+        "population": 134518,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 97.6,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 2.2,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1325/",
+            "https://api.worldbank.org/v2/country/KIR/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "SB",
+        "name": [
+            "Solomon Islands",
+            "Νήσοι Σολομώντα"
+        ],
+        "aliases": [
+            "Solomon Islands",
+            "Νήσοι Σολομώντα"
+        ],
+        "facts": [
+            [
+                "It contains Rennell, described by UNESCO as the world’s largest raised coral atoll.",
+                "Περιλαμβάνει το Ρενέλ, που η UNESCO περιγράφει ως τη μεγαλύτερη υπερυψωμένη κοραλλιογενή ατόλη του κόσμου."
+            ],
+            [
+                "Its Lake Tegano covers approximately 15.500 hectares.",
+                "Η λίμνη Τεγκάνο καλύπτει περίπου 15.500 εκτάρια."
+            ]
+        ],
+        "locations": [
+            [
+                "A Pacific archipelago east of Papua New Guinea.",
+                "Αρχιπέλαγος του Ειρηνικού ανατολικά της Παπούας Νέας Γουινέας."
+            ],
+            [
+                "It lies in Melanesia, northwest of Vanuatu.",
+                "Βρίσκεται στη Μελανησία, βορειοδυτικά του Βανουάτου."
+            ]
+        ],
+        "animals": [
+            [
+                "Rennell’s brackish lake supports an endemic sea snake.",
+                "Η υφάλμυρη λίμνη του Ρενέλ φιλοξενεί ένα ενδημικό θαλάσσιο φίδι."
+            ],
+            [
+                "Several bird species are found only on Rennell.",
+                "Αρκετά είδη πτηνών απαντώνται μόνο στο Ρενέλ."
+            ]
+        ],
+        "population": 819198,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 95,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 4,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/854/",
+            "https://api.worldbank.org/v2/country/SLB/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "TN",
+        "name": [
+            "Tunisia",
+            "Τυνησία"
+        ],
+        "aliases": [
+            "Tunisia",
+            "Τυνησία"
+        ],
+        "facts": [
+            [
+                "A UNESCO evaluation recorded more than 185 bird species at its Ichkeul wetland.",
+                "Αξιολόγηση της UNESCO κατέγραψε περισσότερα από 185 είδη πτηνών στον υγρότοπο Ισκέλ."
+            ],
+            [
+                "Its Ichkeul lake and marshes entered the UNESCO World Heritage List in 1980.",
+                "Η λίμνη και τα έλη Ισκέλ εντάχθηκαν στον Κατάλογο Παγκόσμιας Κληρονομιάς της UNESCO το 1980."
+            ]
+        ],
+        "locations": [
+            [
+                "North Africa, on the Mediterranean Sea.",
+                "Βόρεια Αφρική, στη Μεσόγειο Θάλασσα."
+            ],
+            [
+                "It lies between Algeria and Libya, south of Sicily.",
+                "Βρίσκεται ανάμεσα στην Αλγερία και τη Λιβύη, νότια της Σικελίας."
+            ]
+        ],
+        "animals": [
+            [
+                "Migrating ducks and geese gather at Lake Ichkeul.",
+                "Μεταναστευτικές πάπιες και χήνες συγκεντρώνονται στη λίμνη Ισκέλ."
+            ],
+            [
+                "Storks and flamingos use its famous northern wetland.",
+                "Πελαργοί και φλαμίνγκο χρησιμοποιούν τον διάσημο βόρειο υγρότοπό της."
+            ]
+        ],
+        "population": 12277109,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 99.3,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 0.2,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/8/",
+            "https://whc.unesco.org/archive/advisory_body_evaluation/008.pdf",
+            "https://api.worldbank.org/v2/country/TUN/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "DZ",
+        "name": [
+            "Algeria",
+            "Αλγερία"
+        ],
+        "aliases": [
+            "Algeria",
+            "Αλγερία"
+        ],
+        "facts": [
+            [
+                "Its Tassili plateau contains more than 15.000 prehistoric drawings and engravings.",
+                "Το οροπέδιο Τασιλί περιλαμβάνει περισσότερα από 15.000 προϊστορικά σχέδια και χαράγματα."
+            ],
+            [
+                "Its Tassili rock-art landscape covers about 72.000 square kilometres.",
+                "Το τοπίο βραχογραφιών του Τασιλί καλύπτει περίπου 72.000 τετραγωνικά χιλιόμετρα."
+            ]
+        ],
+        "locations": [
+            [
+                "North Africa, with a Mediterranean coast and a vast Saharan interior.",
+                "Βόρεια Αφρική, με μεσογειακές ακτές και τεράστια σαχαριανή ενδοχώρα."
+            ],
+            [
+                "Its neighbours include Morocco, Tunisia, Libya, Niger and Mali.",
+                "Γειτονικές χώρες είναι το Μαρόκο, η Τυνησία, η Λιβύη, ο Νίγηρας και το Μάλι."
+            ]
+        ],
+        "animals": [
+            [
+                "Prehistoric rock art here depicts hippos from a wetter Saharan past.",
+                "Προϊστορικές βραχογραφίες απεικονίζουν ιπποπόταμους από ένα υγρότερο παρελθόν της Σαχάρας."
+            ],
+            [
+                "Cattle and horses appear in its prehistoric Tassili paintings.",
+                "Βοοειδή και άλογα εμφανίζονται στις προϊστορικές βραχογραφίες του Τασιλί."
+            ]
+        ],
+        "population": 46814308,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 98.4,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 0.3,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/179/",
+            "https://api.worldbank.org/v2/country/DZA/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "GE",
+        "name": [
+            "Georgia",
+            "Γεωργία"
+        ],
+        "aliases": [
+            "Georgia",
+            "Γεωργία"
+        ],
+        "facts": [
+            [
+                "Its Colchic UNESCO property has seven components along an 80-kilometre coastal corridor.",
+                "Το μνημείο Κολχίδας της UNESCO έχει επτά τμήματα κατά μήκος παράκτιου διαδρόμου 80 χιλιομέτρων."
+            ],
+            [
+                "Its protected Colchic forests and wetlands support almost 500 vertebrate species.",
+                "Τα προστατευόμενα δάση και οι υγρότοποι της Κολχίδας φιλοξενούν σχεδόν 500 είδη σπονδυλωτών."
+            ]
+        ],
+        "locations": [
+            [
+                "In the Caucasus, on the Black Sea.",
+                "Στον Καύκασο, στη Μαύρη Θάλασσα."
+            ],
+            [
+                "It borders Russia, Turkey, Armenia and Azerbaijan.",
+                "Συνορεύει με Ρωσία, Τουρκία, Αρμενία και Αζερμπαϊτζάν."
+            ]
+        ],
+        "animals": [
+            [
+                "The Colchic crayfish occurs in its western wetlands.",
+                "Η καραβίδα της Κολχίδας συναντάται στους δυτικούς υγροτόπους της."
+            ],
+            [
+                "Its Colchic rivers are important habitats for threatened sturgeons.",
+                "Τα ποτάμια της Κολχίδας είναι σημαντικά ενδιαιτήματα για απειλούμενους οξύρρυγχους."
+            ]
+        ],
+        "population": 3812518,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 88.2,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 10.5,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1616/",
+            "https://whc.unesco.org/document/189232",
+            "https://api.worldbank.org/v2/country/GEO/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "CI",
+        "name": [
+            "Ivory Coast",
+            "Ακτή Ελεφαντοστού"
+        ],
+        "aliases": [
+            "Ivory Coast",
+            "Ακτή Ελεφαντοστού",
+            "Côte d’Ivoire",
+            "Cote d Ivoire",
+            "Cote dIvoire"
+        ],
+        "facts": [
+            [
+                "Its Taï UNESCO property protects 330.000 hectares of tropical forest.",
+                "Το μνημείο Ταΐ της UNESCO προστατεύει 330.000 εκτάρια τροπικού δάσους."
+            ],
+            [
+                "Eleven monkey species are recorded in its Taï forest.",
+                "Έντεκα είδη πιθήκων καταγράφονται στο δάσος Ταΐ."
+            ]
+        ],
+        "locations": [
+            [
+                "West Africa, on the Gulf of Guinea.",
+                "Δυτική Αφρική, στον Κόλπο της Γουινέας."
+            ],
+            [
+                "It borders Liberia, Guinea, Mali, Burkina Faso and Ghana.",
+                "Συνορεύει με Λιβερία, Γουινέα, Μάλι, Μπουρκίνα Φάσο και Γκάνα."
+            ]
+        ],
+        "animals": [
+            [
+                "Pygmy hippos live in the Taï forest.",
+                "Πυγμαίοι ιπποπόταμοι ζουν στο δάσος Ταΐ."
+            ],
+            [
+                "Chimpanzees inhabit its protected tropical forests.",
+                "Χιμπαντζήδες ζουν στα προστατευόμενα τροπικά δάση της."
+            ]
+        ],
+        "population": 31934230,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 46.3,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 44.9,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/195/",
+            "https://whc.unesco.org/en/decisions/4651/",
+            "https://api.worldbank.org/v2/country/CIV/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "GA",
+        "name": [
+            "Gabon",
+            "Γκαμπόν"
+        ],
+        "aliases": [
+            "Gabon",
+            "Γκαμπόν"
+        ],
+        "facts": [
+            [
+                "Its Lopé-Okanda landscape preserves around 1.800 ancient rock carvings.",
+                "Το τοπίο Λοπέ-Οκάντα διατηρεί περίπου 1.800 αρχαία βραχοχαράγματα."
+            ],
+            [
+                "Its Lopé-Okanda landscape preserves both Neolithic and Iron Age archaeological sites.",
+                "Το τοπίο Λοπέ-Οκάντα διατηρεί αρχαιολογικές θέσεις τόσο της Νεολιθικής όσο και της Εποχής του Σιδήρου."
+            ]
+        ],
+        "locations": [
+            [
+                "Central Africa, on the Atlantic coast and crossed by the Equator.",
+                "Κεντρική Αφρική, στις ακτές του Ατλαντικού και πάνω στον Ισημερινό."
+            ],
+            [
+                "It borders Cameroon, Equatorial Guinea and the Republic of the Congo.",
+                "Συνορεύει με Καμερούν, Ισημερινή Γουινέα και Δημοκρατία του Κονγκό."
+            ]
+        ],
+        "animals": [
+            [
+                "WCS has observed mandrill groups of more than 800 animals in Lopé.",
+                "Η WCS έχει παρατηρήσει ομάδες μανδρίλλων άνω των 800 ζώων στο Λοπέ."
+            ],
+            [
+                "Wild mandrills move between forest and savanna in Lopé.",
+                "Άγριοι μανδρίλλοι κινούνται ανάμεσα σε δάσος και σαβάνα στο Λοπέ."
+            ]
+        ],
+        "population": 2538952,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 83.7,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 8.6,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1147/",
+            "https://gabon.wcs.org/en-us/wildlife/mandrills.aspx",
+            "https://gabon.wcs.org/en-us/Wild-Places/Gabons-Forests/Mandrill-Research-and-Tourism.aspx",
+            "https://api.worldbank.org/v2/country/GAB/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "CG",
+        "name": [
+            "Republic of the Congo",
+            "Δημοκρατία του Κονγκό"
+        ],
+        "aliases": [
+            "Republic of the Congo",
+            "Δημοκρατία του Κονγκό",
+            "Congo",
+            "Congo-Brazzaville",
+            "Republic of Congo",
+            "Κονγκό Μπραζαβίλ"
+        ],
+        "facts": [
+            [
+                "Its Odzala-Kokoua UNESCO property covers 1.179.376 hectares.",
+                "Το μνημείο Οτζάλα-Κοκούα της UNESCO καλύπτει 1.179.376 εκτάρια."
+            ],
+            [
+                "Its Odzala forests have a recorded 647 species of daytime butterflies.",
+                "Στα δάση Οτζάλα έχουν καταγραφεί 647 είδη ημερόβιων πεταλούδων."
+            ]
+        ],
+        "locations": [
+            [
+                "Central Africa, with a short Atlantic coast.",
+                "Κεντρική Αφρική, με μικρή ακτογραμμή στον Ατλαντικό."
+            ],
+            [
+                "Its capital is Brazzaville, across a river from Kinshasa.",
+                "Πρωτεύουσά της είναι η Μπραζαβίλ, απέναντι από την Κινσάσα στην άλλη όχθη του ποταμού."
+            ]
+        ],
+        "animals": [
+            [
+                "Forest elephants gather at the clearings of Odzala-Kokoua.",
+                "Δασόβιοι ελέφαντες συγκεντρώνονται στα ξέφωτα του Οτζάλα-Κοκούα."
+            ],
+            [
+                "Dwarf crocodiles occur in its Odzala-Kokoua wetlands.",
+                "Νάνοι κροκόδειλοι συναντώνται στους υγροτόπους Οτζάλα-Κοκούα."
+            ]
+        ],
+        "population": 6332961,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 92.2,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 1.5,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/692/",
+            "https://api.worldbank.org/v2/country/COG/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "NE",
+        "name": [
+            "Niger",
+            "Νίγηρας"
+        ],
+        "aliases": [
+            "Niger",
+            "Νίγηρας"
+        ],
+        "facts": [
+            [
+                "Its Aïr and Ténéré UNESCO reserves cover 7.736.000 hectares.",
+                "Τα καταφύγια Αΐρ και Τενερέ της UNESCO καλύπτουν 7.736.000 εκτάρια."
+            ],
+            [
+                "Its Aïr mountain peaks rise to around 2.000 metres amid the Sahara.",
+                "Οι κορυφές των βουνών Αΐρ υψώνονται περίπου στα 2.000 μέτρα μέσα στη Σαχάρα."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked West African country, much of it in the Sahara.",
+                "Περίκλειστη χώρα της Δυτικής Αφρικής, με μεγάλο τμήμα στη Σαχάρα."
+            ],
+            [
+                "It lies north of Nigeria and south of Algeria and Libya.",
+                "Βρίσκεται βόρεια της Νιγηρίας και νότια της Αλγερίας και της Λιβύης."
+            ]
+        ],
+        "animals": [
+            [
+                "The addax antelope is a flagship animal of its desert reserves.",
+                "Η αντιλόπη άνταξ είναι εμβληματικό ζώο των ερημικών καταφυγίων της."
+            ],
+            [
+                "Fennec foxes and Dorcas gazelles occur in its Saharan reserves.",
+                "Αλεπούδες φενέκ και γαζέλες ντόρκας συναντώνται στα σαχαριανά καταφύγιά της."
+            ]
+        ],
+        "population": 27032412,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 98.1,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 0.6,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/573/",
+            "https://api.worldbank.org/v2/country/NER/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "MW",
+        "name": [
+            "Malawi",
+            "Μαλάουι"
+        ],
+        "aliases": [
+            "Malawi",
+            "Μαλάουι"
+        ],
+        "facts": [
+            [
+                "Its great lake contains about 30% of the world’s known cichlid fish species, according to UNESCO.",
+                "Η μεγάλη λίμνη της περιλαμβάνει περίπου το 30% των γνωστών ειδών κιχλίδων του κόσμου, σύμφωνα με την UNESCO."
+            ],
+            [
+                "A UNESCO-listed lakeside national park here covers about 94 square kilometres.",
+                "Ένα παραλίμνιο εθνικό πάρκο της UNESCO εδώ καλύπτει περίπου 94 τετραγωνικά χιλιόμετρα."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked country in southeastern Africa.",
+                "Περίκλειστη χώρα της νοτιοανατολικής Αφρικής."
+            ],
+            [
+                "It borders Mozambique, Zambia and Tanzania.",
+                "Συνορεύει με Μοζαμβίκη, Ζάμπια και Τανζανία."
+            ]
+        ],
+        "animals": [
+            [
+                "Brightly coloured rocky-shore cichlids are locally called mbuna.",
+                "Οι έντονα χρωματιστές κιχλίδες των βραχωδών ακτών λέγονται τοπικά μπούνα."
+            ],
+            [
+                "Almost all of the hundreds of cichlid species in its lake park are endemic.",
+                "Σχεδόν όλα τα εκατοντάδες είδη κιχλίδων του λιμναίου πάρκου της είναι ενδημικά."
+            ]
+        ],
+        "population": 21655286,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 87.4,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 11.6,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/289/",
+            "https://api.worldbank.org/v2/country/MWI/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "BO",
+        "name": [
+            "Bolivia",
+            "Βολιβία"
+        ],
+        "aliases": [
+            "Bolivia",
+            "Βολιβία"
+        ],
+        "facts": [
+            [
+                "Its Noel Kempff Mercado national park covers roughly 1.523.000 hectares.",
+                "Το εθνικό πάρκο Νοέλ Κεμπφ Μερκάδο καλύπτει περίπου 1.523.000 εκτάρια."
+            ],
+            [
+                "Around 4.000 plant species are recorded in its Noel Kempff Mercado park.",
+                "Περίπου 4.000 είδη φυτών καταγράφονται στο πάρκο Νοέλ Κεμπφ Μερκάδο."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked South American country spanning the Andes and Amazon lowlands.",
+                "Περίκλειστη χώρα της Νότιας Αμερικής, από τις Άνδεις έως τις πεδιάδες του Αμαζονίου."
+            ],
+            [
+                "It borders Brazil, Peru, Chile, Argentina and Paraguay.",
+                "Συνορεύει με Βραζιλία, Περού, Χιλή, Αργεντινή και Παραγουάη."
+            ]
+        ],
+        "animals": [
+            [
+                "Spectacled bears occur in its Pilón-Lajas biosphere reserve.",
+                "Διοπτροφόρες αρκούδες συναντώνται στο απόθεμα βιόσφαιρας Πιλόν-Λάχας."
+            ],
+            [
+                "Jaguars and tapirs inhabit its Pilón-Lajas reserve.",
+                "Ιαγουάροι και τάπιροι ζουν στο καταφύγιο Πιλόν-Λάχας."
+            ]
+        ],
+        "population": 12413315,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 88.9,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 1.5,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/967/",
+            "https://www.unesco.org/en/mab/pilon-lajas",
+            "https://api.worldbank.org/v2/country/BOL/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "HN",
+        "name": [
+            "Honduras",
+            "Ονδούρα"
+        ],
+        "aliases": [
+            "Honduras",
+            "Ονδούρα"
+        ],
+        "facts": [
+            [
+                "UNESCO records 411 bird species in its Río Plátano reserve.",
+                "Η UNESCO καταγράφει 411 είδη πτηνών στο καταφύγιο Ρίο Πλάτανο."
+            ],
+            [
+                "Its Río Plátano UNESCO property covers about 350.000 hectares.",
+                "Το μνημείο Ρίο Πλάτανο της UNESCO καλύπτει περίπου 350.000 εκτάρια."
+            ]
+        ],
+        "locations": [
+            [
+                "Central America, with a long Caribbean coast and a small Pacific frontage.",
+                "Κεντρική Αμερική, με μεγάλη ακτογραμμή στην Καραϊβική και μικρή στον Ειρηνικό."
+            ],
+            [
+                "It borders Guatemala, El Salvador and Nicaragua.",
+                "Συνορεύει με Γουατεμάλα, Ελ Σαλβαδόρ και Νικαράγουα."
+            ]
+        ],
+        "animals": [
+            [
+                "Jaguars and Central American tapirs inhabit Río Plátano.",
+                "Ιαγουάροι και τάπιροι της Κεντρικής Αμερικής ζουν στο Ρίο Πλάτανο."
+            ],
+            [
+                "Manatees and harpy eagles are among the wildlife of Río Plátano.",
+                "Μανατίνοι και άρπυιες είναι από τα ζώα του Ρίο Πλάτανο."
+            ]
+        ],
+        "population": 10825703,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 88.5,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 1.8,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/196/",
+            "https://api.worldbank.org/v2/country/HND/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "NI",
+        "name": [
+            "Nicaragua",
+            "Νικαράγουα"
+        ],
+        "aliases": [
+            "Nicaragua",
+            "Νικαράγουα"
+        ],
+        "facts": [
+            [
+                "Its Bosawas biosphere reserve covers approximately 1.994.187 hectares.",
+                "Το απόθεμα βιόσφαιρας Μποσαουάς καλύπτει περίπου 1.994.187 εκτάρια."
+            ],
+            [
+                "Six forest types are represented in its Bosawas biosphere reserve.",
+                "Έξι τύποι δάσους αντιπροσωπεύονται στο απόθεμα βιόσφαιρας Μποσαουάς."
+            ]
+        ],
+        "locations": [
+            [
+                "Central America, between Honduras and Costa Rica.",
+                "Κεντρική Αμερική, ανάμεσα στην Ονδούρα και την Κόστα Ρίκα."
+            ],
+            [
+                "Its shores face both the Pacific Ocean and Caribbean Sea.",
+                "Οι ακτές της βλέπουν τόσο στον Ειρηνικό Ωκεανό όσο και στην Καραϊβική Θάλασσα."
+            ]
+        ],
+        "animals": [
+            [
+                "Quetzals occur in significant numbers in Bosawas.",
+                "Κετσάλ συναντώνται σε σημαντικούς αριθμούς στο Μποσαουάς."
+            ],
+            [
+                "Bosawas lies where animal communities from North and South America meet.",
+                "Το Μποσαουάς βρίσκεται εκεί όπου συναντώνται ζωικές κοινότητες της Βόρειας και της Νότιας Αμερικής."
+            ]
+        ],
+        "population": 6916140,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 84.8,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 1.9,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://www.unesco.org/en/mab/bosawas",
+            "https://api.worldbank.org/v2/country/NIC/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "TD",
+        "name": [
+            "Chad",
+            "Τσαντ"
+        ],
+        "aliases": [
+            "Chad",
+            "Τσαντ"
+        ],
+        "facts": [
+            [
+                "Thousands of prehistoric rock images survive in its Ennedi massif.",
+                "Χιλιάδες προϊστορικές βραχογραφίες σώζονται στον ορεινό όγκο Ενεντί."
+            ],
+            [
+                "Its Ennedi sandstone plateau is carved into natural arches, canyons and stone towers.",
+                "Το αμμολιθικό οροπέδιο Ενεντί σχηματίζει φυσικές αψίδες, φαράγγια και πέτρινους πύργους."
+            ]
+        ],
+        "locations": [
+            [
+                "A landlocked country in north-central Africa.",
+                "Περίκλειστη χώρα της βόρειας κεντρικής Αφρικής."
+            ],
+            [
+                "It lies south of Libya, west of Sudan and east of Niger.",
+                "Βρίσκεται νότια της Λιβύης, δυτικά του Σουδάν και ανατολικά του Νίγηρα."
+            ]
+        ],
+        "animals": [
+            [
+                "West African crocodiles survive in its Ennedi reserve.",
+                "Κροκόδειλοι της Δυτικής Αφρικής επιβιώνουν στο καταφύγιο Ενεντί."
+            ],
+            [
+                "Barbary sheep and Dorcas gazelles inhabit Ennedi.",
+                "Βερβερικά πρόβατα και γαζέλες ντόρκας ζουν στο Ενεντί."
+            ]
+        ],
+        "population": 20299123,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 56.4,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 38.9,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1475/",
+            "https://www.africanparks.org/the-parks/ennedi/ennedi-biodiversity-conservation",
+            "https://api.worldbank.org/v2/country/TCD/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "JM",
+        "name": [
+            "Jamaica",
+            "Τζαμάικα"
+        ],
+        "aliases": [
+            "Jamaica",
+            "Τζαμάικα"
+        ],
+        "facts": [
+            [
+                "UNESCO records 1.357 flowering plant species in its Blue and John Crow Mountains property.",
+                "Η UNESCO καταγράφει 1.357 είδη ανθοφόρων φυτών στο μνημείο Μπλου και Τζον Κρόου Μάουντενς."
+            ],
+            [
+                "Above 2.000 metres, its Blue Mountains have stunted woodland known as Elfin Forest.",
+                "Πάνω από τα 2.000 μέτρα, τα Μπλου Μάουντενς έχουν χαμηλό δάσος γνωστό ως Έλφιν Φόρεστ."
+            ]
+        ],
+        "locations": [
+            [
+                "An island country in the Caribbean’s Greater Antilles.",
+                "Νησιωτική χώρα στις Μεγάλες Αντίλλες της Καραϊβικής."
+            ],
+            [
+                "It lies south of Cuba and west of Hispaniola.",
+                "Βρίσκεται νότια της Κούβας και δυτικά της Ισπανιόλας."
+            ]
+        ],
+        "animals": [
+            [
+                "The hutia, a threatened rodent, lives in the John Crow Mountains.",
+                "Η χούτια, ένα απειλούμενο τρωκτικό, ζει στα Τζον Κρόου Μάουντενς."
+            ],
+            [
+                "Yellow-billed and black-billed parrots inhabit its protected mountain forests.",
+                "Παπαγάλοι με κίτρινο και μαύρο ράμφος ζουν στα προστατευόμενα ορεινά δάση της."
+            ]
+        ],
+        "population": 2839175,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 68.6,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 7.6,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/1356/",
+            "https://api.worldbank.org/v2/country/JAM/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "MR",
+        "name": [
+            "Mauritania",
+            "Μαυριτανία"
+        ],
+        "aliases": [
+            "Mauritania",
+            "Μαυριτανία"
+        ],
+        "facts": [
+            [
+                "UNESCO describes more than 2.000.000 migrating waders using its Banc d’Arguin wetlands.",
+                "Η UNESCO αναφέρει περισσότερα από 2.000.000 μεταναστευτικά παρυδάτια πτηνά στους υγρότοπους Μπανκ ντ’ Αργκέν."
+            ],
+            [
+                "Its Banc d’Arguin national park covers approximately 1.200.000 hectares.",
+                "Το εθνικό πάρκο Μπανκ ντ’ Αργκέν καλύπτει περίπου 1.200.000 εκτάρια."
+            ]
+        ],
+        "locations": [
+            [
+                "Northwestern Africa, where the Sahara meets the Atlantic.",
+                "Βορειοδυτική Αφρική, εκεί όπου η Σαχάρα συναντά τον Ατλαντικό."
+            ],
+            [
+                "It lies north of Senegal and west of Mali.",
+                "Βρίσκεται βόρεια της Σενεγάλης και δυτικά του Μάλι."
+            ]
+        ],
+        "animals": [
+            [
+                "Bottlenose and Atlantic humpback dolphins are seen in Banc d’Arguin.",
+                "Ρινοδέλφινα και ατλαντικά καμπούρικα δελφίνια παρατηρούνται στο Μπανκ ντ’ Αργκέν."
+            ],
+            [
+                "Green sea turtles occur in its protected coastal waters.",
+                "Πράσινες θαλάσσιες χελώνες συναντώνται στα προστατευόμενα παράκτια νερά της."
+            ]
+        ],
+        "population": 5169395,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 99.2,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Other religions",
+                    "Άλλες θρησκείες"
+                ],
+                "percent": 0.5,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/506/",
+            "https://api.worldbank.org/v2/country/MRT/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "SC",
+        "name": [
+            "Seychelles",
+            "Σεϋχέλλες"
+        ],
+        "aliases": [
+            "Seychelles",
+            "Σεϋχέλλες",
+            "Seychelles Islands"
+        ],
+        "facts": [
+            [
+                "Its Aldabra atoll supports more than 100.000 giant tortoises, according to UNESCO.",
+                "Η ατόλη Αλντάμπρα φιλοξενεί περισσότερες από 100.000 γιγάντιες χελώνες, σύμφωνα με την UNESCO."
+            ],
+            [
+                "Its Vallée de Mai is home to the coco de mer palm, famous for its enormous seeds.",
+                "Η Βαλέ ντε Με φιλοξενεί τον φοίνικα κόκο ντε μερ, διάσημο για τους τεράστιους σπόρους του."
+            ]
+        ],
+        "locations": [
+            [
+                "An Indian Ocean archipelago off eastern Africa.",
+                "Αρχιπέλαγος του Ινδικού Ωκεανού ανοικτά της ανατολικής Αφρικής."
+            ],
+            [
+                "It lies northeast of Madagascar and east of the African mainland.",
+                "Βρίσκεται βορειοανατολικά της Μαδαγασκάρης και ανατολικά της αφρικανικής ηπείρου."
+            ]
+        ],
+        "animals": [
+            [
+                "Aldabra giant tortoises are a signature animal of its outer islands.",
+                "Οι γιγάντιες χελώνες της Αλντάμπρα είναι εμβληματικά ζώα των εξωτερικών νησιών της."
+            ],
+            [
+                "The rare black parrot inhabits the palm forests of Praslin.",
+                "Ο σπάνιος μαύρος παπαγάλος ζει στα φοινικοδάση του Πραλέν."
+            ]
+        ],
+        "population": 121354,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 94,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Hindus",
+                    "Ινδουιστές"
+                ],
+                "percent": 1.4,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/185/",
+            "https://whc.unesco.org/en/list/261/",
+            "https://api.worldbank.org/v2/country/SYC/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "BJ",
+        "name": [
+            "Benin",
+            "Μπενίν"
+        ],
+        "aliases": [
+            "Benin",
+            "Μπενίν"
+        ],
+        "facts": [
+            [
+                "It shares the W-Arly-Pendjari UNESCO complex with two other countries.",
+                "Μοιράζεται το συγκρότημα W-Άρλι-Πεντζάρι της UNESCO με δύο ακόμη χώρες."
+            ],
+            [
+                "A transnational wildlife property it shares covers 1.714.831 hectares.",
+                "Ένα διακρατικό μνημείο άγριας ζωής που μοιράζεται καλύπτει 1.714.831 εκτάρια."
+            ]
+        ],
+        "locations": [
+            [
+                "West Africa, on the Gulf of Guinea.",
+                "Δυτική Αφρική, στον Κόλπο της Γουινέας."
+            ],
+            [
+                "It lies between Togo and Nigeria, with Burkina Faso and Niger to the north.",
+                "Βρίσκεται ανάμεσα στο Τόγκο και τη Νιγηρία, με Μπουρκίνα Φάσο και Νίγηρα στα βόρεια."
+            ]
+        ],
+        "animals": [
+            [
+                "Pendjari forms part of a vital refuge for West African lions.",
+                "Το Πεντζάρι αποτελεί μέρος σημαντικού καταφυγίου για λιοντάρια της Δυτικής Αφρικής."
+            ],
+            [
+                "Savanna elephants range across its shared W-Arly-Pendjari protected landscape.",
+                "Ελέφαντες της σαβάνας κινούνται στο κοινό προστατευόμενο τοπίο W-Άρλι-Πεντζάρι."
+            ]
+        ],
+        "population": 14462724,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 53.2,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 31.4,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/749/",
+            "https://api.worldbank.org/v2/country/BEN/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
+    },
+    {
+        "id": "GN",
+        "name": [
+            "Guinea",
+            "Γουινέα"
+        ],
+        "aliases": [
+            "Guinea",
+            "Γουινέα"
+        ],
+        "facts": [
+            [
+                "Its shared Mount Nimba reserve rises to 1.752 metres.",
+                "Το κοινό καταφύγιο του όρους Νίμπα υψώνεται στα 1.752 μέτρα."
+            ],
+            [
+                "Of the Mount Nimba reserve’s 17.540 hectares, 12.540 lie in this country.",
+                "Από τα 17.540 εκτάρια του καταφυγίου Νίμπα, τα 12.540 βρίσκονται σε αυτή τη χώρα."
+            ]
+        ],
+        "locations": [
+            [
+                "West Africa, on the Atlantic coast.",
+                "Δυτική Αφρική, στις ακτές του Ατλαντικού."
+            ],
+            [
+                "It borders Guinea-Bissau, Senegal, Mali, Ivory Coast, Liberia and Sierra Leone.",
+                "Συνορεύει με Γουινέα-Μπισάου, Σενεγάλη, Μάλι, Ακτή Ελεφαντοστού, Λιβερία και Σιέρα Λεόνε."
+            ]
+        ],
+        "animals": [
+            [
+                "Mount Nimba is home to a rare toad that gives birth to live young.",
+                "Το όρος Νίμπα φιλοξενεί έναν σπάνιο φρύνο που γεννά ζωντανά μικρά."
+            ],
+            [
+                "Chimpanzees in the Mount Nimba region use stones as tools.",
+                "Χιμπαντζήδες στην περιοχή του όρους Νίμπα χρησιμοποιούν πέτρες ως εργαλεία."
+            ]
+        ],
+        "population": 14754785,
+        "populationYear": 2024,
+        "religion": [
+            {
+                "group": [
+                    "Muslims",
+                    "Μουσουλμάνοι"
+                ],
+                "percent": 86.8,
+                "year": 2020
+            },
+            {
+                "group": [
+                    "Christians",
+                    "Χριστιανοί"
+                ],
+                "percent": 11.7,
+                "year": 2020
+            }
+        ],
+        "sources": [
+            "https://whc.unesco.org/en/list/155/",
+            "https://api.worldbank.org/v2/country/GIN/indicator/SP.POP.TOTL?format=json&date=2024",
+            "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+        ]
     }
 ]
