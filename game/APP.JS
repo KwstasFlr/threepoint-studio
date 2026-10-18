@@ -5699,7 +5699,16 @@ function renderLeaderboard() {
 
   const title=window.GMPCategoryScores.names[boardFilter]||window.GMPCategoryScores.names.overall;
   if($("leaderboardTitle"))$("leaderboardTitle").textContent=title;
-  const leaderboard=window.GMPCategoryScores.ranking(onlineLeaderboard,boardFilter);
+  const realLeaderboard=window.GMPCategoryScores.ranking(onlineLeaderboard,boardFilter);
+  let leaderboard=realLeaderboard;
+  // Presentation-only seeded entries. Never stored as accounts or score records.
+  if (boardFilter === "overall" && !leaderboardError && realLeaderboard.length) {
+    const seedNames = ["PixelNinja","GoalRush","MangaFox","CinemaOwl","AtlasAce","TurboWolf","ArtNomad","QuizComet","RetroRaven","StrawHatNova","NeonKeeper","MythHunter","CanvasCat","SilverDrift","BrainSpark"];
+    const seedPoints = [320, 275, 230, 195, 165, 140, 118, 98, 76, 54, 32, 18, 14, 13, 12];
+    const existingNames = new Set(realLeaderboard.map(player => String(player.name).toLowerCase()));
+    const seeds=seedNames.map((name,index)=>({name,points:seedPoints[index],first:Math.max(1,21-index),correct:Math.ceil(seedPoints[index]/4),streak:Math.max(2,13-Math.floor(index/2)),currentUser:false,presentationOnly:true})).filter(player=>!existingNames.has(player.name.toLowerCase())).slice(0,Math.max(0,15-realLeaderboard.length));
+    leaderboard=[...realLeaderboard,...seeds].sort((a,b)=>b.points-a.points||b.first-a.first||b.correct-a.correct||String(a.name).localeCompare(String(b.name)));
+  }
 
   const top10 =
     leaderboard.slice(0, 15);
@@ -5777,23 +5786,6 @@ function renderLeaderboard() {
         rows.appendChild(row);
       }
     );
-  }
-
-  // Display-only names never enter account data, rankings or score calculations.
-  if (boardFilter === "overall" && !leaderboardError && leaderboard.length) {
-    const previewNames = ["PixelNinja","GoalRush","MangaFox","CinemaOwl","AtlasAce","TurboWolf","ArtNomad","QuizComet","RetroRaven","StrawHatNova","NeonKeeper","MythHunter","CanvasCat","SilverDrift","BrainSpark"];
-    const existingNames = new Set(leaderboard.map(player => String(player.name).toLowerCase()));
-    let remaining = Math.max(0, 15 - top10.length);
-    for (const name of previewNames) {
-      if (!remaining) break;
-      if (existingNames.has(name.toLowerCase())) continue;
-      const row = document.createElement("div");
-      row.className = "leaderboard-row leaderboard-placeholder";
-      row.title = T("Preview name; no recorded results.", "Όνομα προεπισκόπησης, χωρίς καταγεγραμμένα αποτελέσματα.");
-      row.innerHTML = `<span>—</span><strong>${esc(name)}</strong><span class="leader-points">—</span><span>—</span><span>—</span><span>—</span>`;
-      rows.appendChild(row);
-      remaining--;
-    }
   }
 
   if (currentPlayerBox) {
