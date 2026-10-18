@@ -1,4 +1,4 @@
-import {questions} from './questions.mjs?v=20261017-quiz';
+import {questions} from './questions.mjs?v=20261018-150';
 
 export function shuffle(values,random=Math.random){const out=[...values];for(let k=out.length-1;k>0;k--){const j=Math.floor(random()*(k+1));[out[k],out[j]]=[out[j],out[k]];}return out;}
 export class Sprint {
