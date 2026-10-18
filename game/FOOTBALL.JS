@@ -18,15 +18,7 @@ function fbDay(){
   return `${get("year")}-${get("month")}-${get("day")}`;
 }
 
-function fbDailyId(day){
-  const dayNumber=Math.floor(Date.parse(`${day}T00:00:00Z`)/86400000);
-  // Preserve every published answer, including today's unfinished Daily.
-  if(day<FB_DAILY_EXPANSION_START)return playerForDay(dayNumber).id;
-  const start=Math.floor(Date.parse(`${FB_DAILY_EXPANSION_START}T00:00:00Z`)/86400000);
-  const elapsed=dayNumber-start,cycle=Math.floor(elapsed/FB_DAILY_POOL.length);
-  const order=[...FB_DAILY_POOL].sort((a,b)=>hash(`guessplex-football-50:${cycle}:${a.id}`)-hash(`guessplex-football-50:${cycle}:${b.id}`)||a.id.localeCompare(b.id));
-  return order[elapsed%order.length].id;
-}
+function fbDailyId(day){return playerForDay(Math.floor(Date.parse(`${day}T00:00:00Z`)/86400000)).id;}
 
 function fbNewRound(mode,previousId){
   const day = fbDay();
