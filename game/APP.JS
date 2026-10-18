@@ -4108,6 +4108,10 @@ UNLIMITED_PLAYERS.push(...[
   highestMarketValue:null, clubs:[clubA,clubB], image:null
 })));
 
+// The Daily selection is a curated subset of the full Classic pool.
+const FOOTBALL_DAILY_ADDITIONS = ["neymar", "suarez", "lewandowski", "benzema", "salah", "mane", "debruyne", "hazard", "bale", "ibrahimovic", "aguero", "torres", "villa", "eto", "drogba", "kaka", "figo", "rivaldo", "beckham", "lampard", "rooney", "owen", "shearer", "bergkamp", "vanpersie", "robben", "sneijder", "seedorf", "pirlo", "baggio", "ronaldonazario", "buffon", "cech", "vandersar", "casillas", "gerrard", "xavi", "iniesta", "ramos", "puyol", "lahm"];
+const FOOTBALL_DAILY_START = "2026-10-19";
+
 const GAME_DATA = [
   {
     id: "football",
@@ -5281,6 +5285,14 @@ function hash(value) {
 }
 
 function playerForDay(value) {
+  const expansionStart=Math.floor(Date.parse(`${FOOTBALL_DAILY_START}T00:00:00Z`)/DAY);
+  if(value>=expansionStart){
+    const ids=new Set([...P.map(player=>player.id),...FOOTBALL_DAILY_ADDITIONS]);
+    const pool=P.concat(UNLIMITED_PLAYERS).filter(player=>ids.has(player.id));
+    const elapsed=value-expansionStart,cycle=Math.floor(elapsed/pool.length);
+    const order=[...pool].sort((a,b)=>hash(`guessplex-football-50:${cycle}:${a.id}`)-hash(`guessplex-football-50:${cycle}:${b.id}`)||a.id.localeCompare(b.id));
+    return order[elapsed%order.length];
+  }
   // Keep published Daily answers unchanged through 8 October 2026.
   const dailyPool = value < 20735 ? P.filter(player => player.id !== "gerdmuller") : P;
   const elapsed =
