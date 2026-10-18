@@ -5677,9 +5677,48 @@ async function loadLeaderboard() {
   renderLeaderboard();
 }
 
+function leaderboardPlayersForDisplay() {
+  if (leaderboardError || !onlineLeaderboard.length) return onlineLeaderboard;
+  const names = ["giannak1s", "Levadeiakosfcg1", "Kleo", "HellyK", "Draaaaven", "Austr1an Pa1nter", "Bossman", "Tikaaaneis", "Mugiwara", "Thanos", "Paul SM"];
+  const totals = [320, 275, 230, 195, 165, 140, 118, 98, 76, 54, 32];
+  const categories = ["football", "onepiece", "gaming", "greek", "cinematix", "painter", "country", "car", "people", "knowledge"];
+  const existingNames = new Set(onlineLeaderboard.map(player => String(player.name).toLowerCase()));
+  // Display-only records: one shared allocation feeds every board, never account storage.
+  const seeds = names.map((name, index) => {
+    const weights = categories.map((_, categoryIndex) => 1 + ((index * 7 + categoryIndex * 3) % 5));
+    const weightTotal = weights.reduce((sum, value) => sum + value, 0);
+    const spare = totals[index] - categories.length;
+    const points = weights.map(weight => 1 + Math.floor(spare * weight / weightTotal));
+    let remainder = totals[index] - points.reduce((sum, value) => sum + value, 0);
+    for (let step = 0; remainder > 0; step++, remainder--) points[(step + index) % categories.length]++;
+    const categoryScores = {};
+    categories.forEach((category, categoryIndex) => {
+      let remaining = points[categoryIndex], wins = 0, first = 0, bestRound = 0;
+      while (remaining > 0) {
+        const score = Math.min(remaining, category === "knowledge"
+          ? 3 + ((index + wins) % 8)
+          : 1 + ((index * 3 + categoryIndex * 7 + wins * 2) % 5));
+        remaining -= score;
+        wins++;
+        if (category !== "knowledge" && score === 5) first++;
+        bestRound = Math.max(bestRound, score);
+      }
+      categoryScores[category] = {points: points[categoryIndex], wins, first,
+        bestStreak: category === "knowledge" ? bestRound : Math.min(wins, 1 + ((index + categoryIndex) % 5))};
+    });
+    const values = Object.values(categoryScores);
+    return {id: `presentation-${index}`, name, points: totals[index],
+      first: values.reduce((sum, score) => sum + score.first, 0),
+      correct: values.reduce((sum, score) => sum + score.wins, 0),
+      streak: Math.max(...categories.filter(category => category !== "knowledge").map(category => categoryScores[category].bestStreak)),
+      categoryScores, currentUser: false, presentationOnly: true};
+  }).filter(player => !existingNames.has(player.name.toLowerCase())).slice(0, Math.max(0, 15 - onlineLeaderboard.length));
+  return [...onlineLeaderboard, ...seeds];
+}
+
 function renderSprintLeaderboard() {
   const rows=$("sprintLeaderboardRows");if(!rows)return;
-  const ranking=window.GMPCategoryScores.ranking(onlineLeaderboard,"knowledge").sort((a,b)=>b.points-a.points||b.streak-a.streak||b.correct-a.correct||String(a.name).localeCompare(String(b.name)));
+  const ranking=window.GMPCategoryScores.ranking(leaderboardPlayersForDisplay(),"knowledge").sort((a,b)=>b.points-a.points||b.streak-a.streak||b.correct-a.correct||String(a.name).localeCompare(String(b.name)));
   rows.replaceChildren();
   if(!ranking.length){const empty=document.createElement("div");empty.className="leaderboard-empty sprint-empty";empty.textContent=T(leaderboardError?"Leaderboard temporarily unavailable.":"No scores yet. Log in and play General Knowledge to join Fast Pistol.",leaderboardError?"Η κατάταξη δεν είναι προσωρινά διαθέσιμη.":"Δεν υπάρχουν ακόμα βαθμολογίες. Συνδέσου και παίξε General Knowledge για να μπεις στο Fast Pistol.");rows.append(empty);return;}
   const visible=ranking.map((player,index)=>({player,index})).filter(({player,index})=>index<10||player.currentUser);
@@ -5699,16 +5738,7 @@ function renderLeaderboard() {
 
   const title=window.GMPCategoryScores.names[boardFilter]||window.GMPCategoryScores.names.overall;
   if($("leaderboardTitle"))$("leaderboardTitle").textContent=title;
-  const realLeaderboard=window.GMPCategoryScores.ranking(onlineLeaderboard,boardFilter);
-  let leaderboard=realLeaderboard;
-  // Presentation-only seeded entries. Never stored as accounts or score records.
-  if (boardFilter === "overall" && !leaderboardError && realLeaderboard.length) {
-    const seedNames = ["Giannak1s", "Levadeiakosfcg1", "Kleo", "HellyK", "Draaaaven", "Austr1an Pa1nter", "Bossman", "Tikaaaneis", "Mugiwara", "Thanos", "Paul SM"];
-    const seedPoints = [320, 275, 230, 195, 165, 140, 118, 98, 76, 54, 32, 18, 14, 13, 12];
-    const existingNames = new Set(realLeaderboard.map(player => String(player.name).toLowerCase()));
-    const seeds=seedNames.map((name,index)=>({name,points:seedPoints[index],first:Math.max(1,21-index),correct:Math.ceil(seedPoints[index]/4),streak:Math.max(2,13-Math.floor(index/2)),currentUser:false,presentationOnly:true})).filter(player=>!existingNames.has(player.name.toLowerCase())).slice(0,Math.max(0,15-realLeaderboard.length));
-    leaderboard=[...realLeaderboard,...seeds].sort((a,b)=>b.points-a.points||b.first-a.first||b.correct-a.correct||String(a.name).localeCompare(String(b.name)));
-  }
+  const leaderboard=window.GMPCategoryScores.ranking(leaderboardPlayersForDisplay(),boardFilter);
 
   const top10 =
     leaderboard.slice(0, 15);
