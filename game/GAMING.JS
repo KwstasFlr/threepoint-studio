@@ -55,6 +55,150 @@ const GM_CHARACTERS = [
 {"id": "daisy", "name": "Princess Daisy", "aliases": ["daisy", "ντειζι"], "gender": "female", "series": "Super Mario", "genre": "platform", "year": 1989, "platform": ["Game Boy"], "game": "Super Mario Land", "source": "https://mario.nintendo.com/characters/", "classicOnly": true},
 {"id": "pac-man", "name": "Pac-Man", "aliases": ["pacman", "πακ μαν"], "gender": "male", "series": "Pac-Man", "genre": "maze", "year": 1980, "platform": ["Arcade"], "game": "Pac-Man", "source": "https://www.bandainamcoent.com/pac-man-45th-anniversary", "classicOnly": true}
 ];
+// Additional quote speakers do not change the Classic roster.
+GM_CHARACTERS.push(...[
+  {
+    "id": "gman",
+    "name": "G-Man",
+    "aliases": [
+      "g man",
+      "gman",
+      "τζι μαν"
+    ],
+    "quote": [
+      "Rise and shine, Mr. Freeman.",
+      "Ξυπνήστε, κύριε Φρίμαν."
+    ],
+    "game": "Half-Life 2",
+    "source": "https://en.wikiquote.org/wiki/Half-Life#G-Man_2",
+    "quoteOnly": true
+  },
+  {
+    "id": "solaire",
+    "name": "Solaire of Astora",
+    "aliases": [
+      "solaire",
+      "σολερ",
+      "σολαιρ"
+    ],
+    "quote": [
+      "If only I could be so grossly incandescent!",
+      "Μακάρι να μπορούσα κι εγώ να λάμπω τόσο εκτυφλωτικά!"
+    ],
+    "game": "Dark Souls",
+    "source": "https://en.wikiquote.org/wiki/Dark_Souls#Solaire_of_Astora",
+    "quoteOnly": true
+  },
+  {
+    "id": "dva",
+    "name": "D.Va",
+    "aliases": [
+      "dva",
+      "d va",
+      "hana song",
+      "ντι βα"
+    ],
+    "quote": [
+      "Nerf this!",
+      "Αποδυναμώστε αυτό!"
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#D.Va",
+    "quoteOnly": true
+  },
+  {
+    "id": "soldier76",
+    "name": "Soldier: 76",
+    "aliases": [
+      "soldier 76",
+      "soldier",
+      "jack morrison",
+      "σολτζερ 76"
+    ],
+    "quote": [
+      "I’ve got you in my sights!",
+      "Σας έχω στο στόχαστρο!"
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#Soldier:_76",
+    "quoteOnly": true
+  },
+  {
+    "id": "reaper",
+    "name": "Reaper",
+    "aliases": [
+      "gabriel reyes",
+      "ριπερ"
+    ],
+    "quote": [
+      "Die, die, DIE!",
+      "Πέθανε, πέθανε, ΠΕΘΑΝΕ!"
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#Reaper",
+    "quoteOnly": true
+  },
+  {
+    "id": "reinhardt",
+    "name": "Reinhardt",
+    "aliases": [
+      "reinhardt wilhelm",
+      "ραινχαρντ"
+    ],
+    "quote": [
+      "Hammer down!",
+      "Κάτω το σφυρί!"
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#Reinhardt",
+    "quoteOnly": true
+  },
+  {
+    "id": "zenyatta",
+    "name": "Zenyatta",
+    "aliases": [
+      "tekhartha zenyatta",
+      "ζενιατα"
+    ],
+    "quote": [
+      "Experience tranquility.",
+      "Νιώσε τη γαλήνη."
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#Zennyata",
+    "quoteOnly": true
+  },
+  {
+    "id": "lucio",
+    "name": "Lúcio",
+    "aliases": [
+      "lucio",
+      "λουσιο"
+    ],
+    "quote": [
+      "Oh, let’s break it down!",
+      "Πάμε να τα δώσουμε όλα!"
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#L%C3%BAcio",
+    "quoteOnly": true
+  },
+  {
+    "id": "zarya",
+    "name": "Zarya",
+    "aliases": [
+      "aleksandra zaryanova",
+      "ζαρια"
+    ],
+    "quote": [
+      "Fire at will!",
+      "Πυρ κατά βούληση!"
+    ],
+    "game": "Overwatch",
+    "source": "https://en.wikiquote.org/wiki/Overwatch#Zarya",
+    "quoteOnly": true
+  }
+]);
 const GM_LEGACY_IDS=GM_CHARACTERS.slice(0,10).map(c=>c.id);
 const GM_BY_ID=new Map(GM_CHARACTERS.map(c=>[c.id,c]));
 const GM_LABELS={maze:["Maze chase","Λαβύρινθος"],"fireball":["Fireballs / jumps", "Πύρινες μπάλες / άλματα"],"spin":["Spin attack", "Περιστροφική επίθεση"],"golf-club":["Golf club", "Μπαστούνι γκολφ"],"staff":["Caduceus Staff", "Ράβδος Caduceus"],"tears":["Dimensional tears", "Διαστατικά ρήγματα"],"biotics":["Biotics", "Βιοτικές δυνάμεις"],"claws":["Claws / psionics", "Νύχια / ψιονικές δυνάμεις"],"strategy":["Strategy", "Στρατηγική"],"stealth":["Stealth", "Μυστικότητα"],"metroidvania":["Metroidvania", "Metroidvania"],"puzzle":["Puzzle", "Γρίφοι"],"silenced-handgun":["Silenced handgun", "Πιστόλι με σιγαστήρα"],"arm-cannon":["Arm cannon", "Κανόνι βραχίονα"],"rocket-launcher":["Rocket launcher", "Εκτοξευτής ρουκετών"],"steel-fans":["Steel fans", "Ατσάλινες βεντάλιες"],'platform':['Platformer','Πλατφόρμας'],'sword-pistols':['Sword / dual pistols','Σπαθί / δύο πιστόλια'],'buster-sword':['Buster Sword','Buster Sword'],'kunai':['Kunai / hellfire','Kunai / φωτιά'],'grapple':['Grappling gun','Όπλο γάντζου'],'gunblade':['Gunblade','Gunblade'],'parasol':['Parasol','Ομπρέλα'],'ai':['AI / hacking','AI / hacking'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],adventure:['Action adventure','Δράση / περιπέτεια'],horror:['Survival horror','Τρόμος / επιβίωση'],fighting:['Fighting','Μάχες'],action:['Action','Δράση'],rpg:['RPG','RPG'],fps:['FPS','FPS'],pistols:['Dual pistols','Δύο πιστόλια'],handgun:['Handgun','Πιστόλι'],kicks:['Martial arts / kicks','Πολεμικές τέχνες / κλωτσιές'],bow:['Bow','Τόξο'],'gun-heels':['Guns / gun heels','Όπλα / ένοπλα τακούνια'],blades:['Blades of Chaos','Λεπίδες του Χάους'],swords:['Steel / silver swords','Ατσάλινο / ασημένιο σπαθί'],revolver:['Revolver','Περίστροφο'],rifle:['Assault rifle','Τυφέκιο εφόδου'],'hidden-blade':['Hidden blade','Κρυφή λεπίδα']};
@@ -71,7 +215,8 @@ function gmValidRound(round,mode){
   if(hit!==-1&&(hit!==round.guesses.length-1||!round.ended))return false;
   return round.guesses.length!==gmMax(mode)||round.ended;
 }
-function gmPool(mode){return GM_CHARACTERS.filter(c=>mode!=='quote'||Array.isArray(c.quote));}
+function gmPool(mode){return GM_CHARACTERS.filter(c=>mode==='quote'?Array.isArray(c.quote):!c.quoteOnly);}
+function gmCandidates(mode){return GM_CHARACTERS.filter(c=>mode==='quote'||!c.quoteOnly);}
 function gmExpandRoster(round,mode=gmMode){
   const pool=gmPool(mode);
   const known=Array.isArray(round.roster)?round.roster:GM_LEGACY_IDS;
@@ -88,7 +233,7 @@ function gmNewRound(mode){
 function gmRound(){const round=gmValidRound(gmRounds[gmMode],gmMode)?gmRounds[gmMode]:gmNewRound(gmMode);const expanded=gmExpandRoster(round);if(gmpEnsureRoundNumber('gaming',gmMode,round)||expanded)gmSave();return round;}
 function gmGuess(value){
   const round=gmRound();if(round.ended)return 'ended';
-  const character=window.GMPNames.resolve(value,GM_CHARACTERS);
+  const character=window.GMPNames.resolve(value,gmCandidates(gmMode));
   if(!character)return 'invalid';if(round.guesses.includes(character.id))return 'duplicate';
   round.guesses.push(character.id);if(character.id===round.target||round.guesses.length===gmMax(gmMode))round.ended=true;
   gmSave();if(character.id===round.target)window.GMPProgress?.award({game:'gaming',mode:gmMode,round:round.number,attempt:round.guesses.length}).catch(console.error);return character.id===round.target?'won':'miss';
@@ -103,7 +248,7 @@ function gmRender(){
     ${gmpModeTabs('gaming',gmMode)}
 ${gmMode==='quote'?`<blockquote class="op-quote">“${esc(T(...target.quote))}”</blockquote>`:''}
     ${gmMode==='classic'?`<p class="gmp-start-hint">💡 ${T('Starting clue','Αρχικό στοιχείο')} · ${T('Genre','Είδος')}: <strong>${esc(gmValue(target,'genre'))}</strong></p>`:''}
-    ${!round.ended?`<form class="op-form"><label for="gmGuess">${T('Choose or type a character','Διάλεξε ή γράψε χαρακτήρα')}</label><div class="guess-row"><input id="gmGuess" list="gmChoices" autocomplete="off" maxlength="80" required placeholder="${T('e.g. Lara Croft','π.χ. Lara Croft')}"><button class="button lime" type="submit">${T('Guess →','Απάντηση →')}</button></div><datalist id="gmChoices">${[...GM_CHARACTERS].sort((a,b)=>a.name.localeCompare(b.name)).map(c=>`<option value="${esc(c.name)}" data-aliases="${esc((c.aliases||[]).join(' | '))}"></option>`).join('')}</datalist></form>`:''}
+    ${!round.ended?`<form class="op-form"><label for="gmGuess">${T('Choose or type a character','Διάλεξε ή γράψε χαρακτήρα')}</label><div class="guess-row"><input id="gmGuess" list="gmChoices" autocomplete="off" maxlength="80" required placeholder="${T('e.g. Lara Croft','π.χ. Lara Croft')}"><button class="button lime" type="submit">${T('Guess →','Απάντηση →')}</button></div><datalist id="gmChoices">${[...gmCandidates(gmMode)].sort((a,b)=>a.name.localeCompare(b.name)).map(c=>`<option value="${esc(c.name)}" data-aliases="${esc((c.aliases||[]).join(' | '))}"></option>`).join('')}</datalist></form>`:''}
     <p data-correct-answer="${won?esc(target.name):''}" class="op-message ${won?'op-won':''}" role="status" aria-live="polite">${won?T('Correct!','Σωστά!'):round.ended?T('Round ended.','Ο γύρος τελείωσε.'):T(`${gmMax(gmMode)-round.guesses.length} guesses remaining.`,`${gmMax(gmMode)-round.guesses.length} προσπάθειες απομένουν.`)}</p>
     ${gmMode==='classic'&&round.guesses.length?`<div class="op-table-scroll" tabindex="0" role="region" aria-label="${T('Guess comparisons, scroll horizontally','Συγκρίσεις απαντήσεων, κύλιση οριζόντια')}"><table class="op-table"><caption>${T('Your guesses · newest first','Προσπάθειες · πιο πρόσφατη πρώτη')}</caption><thead><tr>${columns.map(([,label])=>`<th scope="col">${label}</th>`).join('')}</tr></thead><tbody>${[...round.guesses].reverse().map(id=>{const c=GM_BY_ID.get(id);return `<tr>${columns.map(([key])=>{const match=key==='platform'?c.platform.length===target.platform.length&&c.platform.every(p=>target.platform.includes(p)):c[key]===target[key],partial=key==='platform'&&!match&&c.platform.some(p=>target.platform.includes(p)),symbol=match?'✓':partial?'≈':key==='year'?(target.year>c.year?'↑':'↓'):'×';return `<td class="${match?'op-match':partial?'op-partial':'op-miss'}">${esc(gmValue(c,key))}<span class="op-symbol">${symbol}</span></td>`;}).join('')}</tr>`;}).join('')}</tbody></table></div>`:''}
     ${gmMode==='quote'&&round.guesses.length?`<ul class="op-quote-guesses">${round.guesses.map(id=>`<li>${id===target.id?'✓':'✕'} ${esc(GM_BY_ID.get(id).name)}</li>`).join('')}</ul>`:''}
