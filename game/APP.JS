@@ -5681,10 +5681,10 @@ function renderSprintLeaderboard() {
   const rows=$("sprintLeaderboardRows");if(!rows)return;
   const ranking=window.GMPCategoryScores.ranking(onlineLeaderboard,"knowledge").sort((a,b)=>b.points-a.points||b.streak-a.streak||b.correct-a.correct||String(a.name).localeCompare(String(b.name)));
   rows.replaceChildren();
-  if(!ranking.length){const empty=document.createElement("div");empty.className="sprint-empty";empty.textContent=T(leaderboardError?"Leaderboard temporarily unavailable.":"No scores yet. Log in and play General Knowledge to join Fast Pistol.",leaderboardError?"Η κατάταξη δεν είναι προσωρινά διαθέσιμη.":"Δεν υπάρχουν ακόμα βαθμολογίες. Συνδέσου και παίξε General Knowledge για να μπεις στο Fast Pistol.");rows.append(empty);return;}
+  if(!ranking.length){const empty=document.createElement("div");empty.className="leaderboard-empty sprint-empty";empty.textContent=T(leaderboardError?"Leaderboard temporarily unavailable.":"No scores yet. Log in and play General Knowledge to join Fast Pistol.",leaderboardError?"Η κατάταξη δεν είναι προσωρινά διαθέσιμη.":"Δεν υπάρχουν ακόμα βαθμολογίες. Συνδέσου και παίξε General Knowledge για να μπεις στο Fast Pistol.");rows.append(empty);return;}
   const visible=ranking.map((player,index)=>({player,index})).filter(({player,index})=>index<10||player.currentUser);
-  for(const {player,index} of visible){const row=document.createElement("div");row.className="sprint-row"+(player.currentUser?" current-user-row":"");row.setAttribute("role","row");
-    const values=[index+1,player.name,player.points,player.streak,player.correct];values.forEach((value,k)=>{const cell=document.createElement(k===1?"strong":"span");cell.setAttribute("role","cell");cell.textContent=String(value);if(k===2)cell.className="sprint-points";if(k===1&&player.currentUser){const badge=document.createElement("small");badge.className="you-badge";badge.textContent=T("YOU","ΕΣΥ");cell.append(" ",badge);}row.append(cell);});rows.append(row);}
+  for(const {player,index} of visible){const row=document.createElement("div");row.className="leaderboard-row sprint-row"+(player.currentUser?" current-user-row":"");row.setAttribute("role","row");
+    const values=[index+1,player.name,player.points,player.streak,player.correct];values.forEach((value,k)=>{const cell=document.createElement(k===1?"strong":"span");cell.setAttribute("role","cell");cell.textContent=String(value);if(k===2)cell.className="leader-points";if(k===1&&player.currentUser){const badge=document.createElement("small");badge.className="you-badge";badge.textContent=T("YOU","ΕΣΥ");cell.append(" ",badge);}row.append(cell);});rows.append(row);}
 }
 
 function renderLeaderboard() {
