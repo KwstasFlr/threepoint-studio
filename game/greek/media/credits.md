@@ -406,3 +406,16 @@
 
 <!-- greek-audio:katergaris -->
 - Ο κατεργάρης (1971): https://www.youtube.com/watch?v=83m9TbTHPuY; scene 37.94 to 44.94 seconds. Audio: MrDvdjim. Metadata: https://www.retrodb.gr/wiki/index.php/%CE%9F_%CE%BA%CE%B1%CF%84%CE%B5%CF%81%CE%B3%CE%AC%CF%81%CE%B7%CF%82
+
+## Additional familiar-series rounds — 19 October 2026
+
+- konstantinou-alt-20261019 — Κωνσταντίνου και Ελένης: https://www.youtube.com/watch?v=e0C-P9NqhAk | Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13 | 252.75–259.750s | ANT1 TV
+- para-pente-alt-20261019 — Στο Παρά Πέντε: https://www.youtube.com/watch?v=YjeH7Ed-Drw | Στο Παρά Πέντε - Επεισόδιο 05 HD | Mega Tv Classics | 208.5–215.500s | MEGA TV Classics
+- egklimata-alt-20261019 — Εγκλήματα: https://www.youtube.com/watch?v=D8CnF-e1IuM | Eglimata - o axilleas... teleiwnei | 46.75–53.750s | mariangela vasileiou
+- xenoi-alt-20261019 — Δύο Ξένοι: https://www.youtube.com/watch?v=neDdjf04Lvg | Dyo ksenoi - Δύο ξένοι - Όλες οι σκηνές με τα λουλούδια | 96.25–103.250s | AndreasPhill
+- kafe-alt-20261019 — Το καφέ της Χαράς: https://www.youtube.com/watch?v=4r_oX3vtht8 | FLASHBACK: Η ΧΑΡΑ ΚΑΙ Η ΒΑΛΙΑ ΕΓΚΑΤΑΛΕΙΠΟΥΝ ΤΟ ΚΟΛΟΚΟΤΡΩΝΙΤΣΙ (ΤΕΛΕΥΤΑΙΟ ΕΠΕΙΣΟΔΙΟ 3ΟΥ ΚΥΚΛΟΥ) | 50.75–57.750s | ΤΟ ΚΑΦΕ ΤΗΣ ΧΑΡΑΣ – 4ος κύκλος
+- soi-alt-20261019 — Το Σόι σου: https://www.youtube.com/watch?v=nlSPmtjdwn4 | ΤΟ ΣΟΪ ΣΟΥ - ΧΑΜΠΕΑΣ (Η ΚΑΛΥΤΕΡΗ ΑΤΑΚΑ) | 5.25–12.250s | ΝΕΚΤΑΡΙΑ ΝΤΟΥΒΑ
+- mourmoura-alt-20261019 — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 212.5–219.500s | Alpha TV Greece
+- partali-alt-20261019 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 50.25–57.250s | thodoris magiannis
+- mourmoura-second-alt-20261019 — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 324.992–331.992s | Alpha TV Greece
+- partali-second-alt-20261019 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 188.25–195.250s | thodoris magiannis
