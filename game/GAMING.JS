@@ -199,6 +199,160 @@ GM_CHARACTERS.push(...[
     "quoteOnly": true
   }
 ]);
+// Nine existing quote speakers now join Classic with their debut platforms.
+const GM_CLASSIC_EXPANSION={"gman": {"gender": "male", "series": "Half-Life", "genre": "fps", "year": 1998, "platform": ["PC"]}, "solaire": {"gender": "male", "series": "Dark Souls", "genre": "rpg", "year": 2011, "platform": ["PS3", "Xbox 360"]}, "dva": {"gender": "female", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}, "soldier76": {"gender": "male", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}, "reaper": {"gender": "male", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}, "reinhardt": {"gender": "male", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}, "zenyatta": {"gender": "male", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}, "lucio": {"gender": "male", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}, "zarya": {"gender": "female", "series": "Overwatch", "genre": "fps", "year": 2016, "platform": ["PC", "PS4", "Xbox One"]}};
+for(const c of GM_CHARACTERS){if(GM_CLASSIC_EXPANSION[c.id]){Object.assign(c,GM_CLASSIC_EXPANSION[c.id]);delete c.quoteOnly;}}
+GM_CHARACTERS.push(...[
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "aliases": [
+      "frank fontaine",
+      "ατλας"
+    ],
+    "quote": [
+      "Would you kindly?",
+      "Θα είχες την καλοσύνη;"
+    ],
+    "game": "BioShock",
+    "source": "https://en.wikiquote.org/wiki/BioShock#Atlas",
+    "quoteOnly": true
+  },
+  {
+    "id": "cavejohnson",
+    "name": "Cave Johnson",
+    "aliases": [
+      "cave",
+      "κειβ τζονσον"
+    ],
+    "quote": [
+      "When life gives you lemons, don’t make lemonade.",
+      "Όταν η ζωή σού δίνει λεμόνια, μη φτιάχνεις λεμονάδα."
+    ],
+    "game": "Portal 2",
+    "source": "https://en.wikiquote.org/wiki/Portal_2#Cave_Johnson",
+    "quoteOnly": true
+  },
+  {
+    "id": "mordin",
+    "name": "Mordin Solus",
+    "aliases": [
+      "mordin",
+      "μορντιν σολους"
+    ],
+    "quote": [
+      "Had to be me. Someone else might have gotten it wrong.",
+      "Έπρεπε να το κάνω εγώ. Κάποιος άλλος μπορεί να έκανε λάθος."
+    ],
+    "game": "Mass Effect 3",
+    "source": "https://en.wikiquote.org/wiki/Mass_Effect_3#Mordin_Solus",
+    "quoteOnly": true
+  },
+  {
+    "id": "garrus",
+    "name": "Garrus Vakarian",
+    "aliases": [
+      "garrus",
+      "γκαρους βακαριαν"
+    ],
+    "quote": [
+      "I’m in the middle of some calibrations.",
+      "Είμαι στη μέση κάποιων ρυθμίσεων."
+    ],
+    "game": "Mass Effect 2",
+    "source": "https://en.wikiquote.org/wiki/Mass_Effect_2#Garrus_Vakarian",
+    "quoteOnly": true
+  },
+  {
+    "id": "papyrus",
+    "name": "Papyrus",
+    "aliases": [
+      "the great papyrus",
+      "παπυρους"
+    ],
+    "quote": [
+      "Nyeh heh heh!",
+      "Νιε χε χε!"
+    ],
+    "game": "Undertale",
+    "source": "https://en.wikiquote.org/wiki/Undertale#Papyrus",
+    "quoteOnly": true
+  },
+  {
+    "id": "flowey",
+    "name": "Flowey",
+    "aliases": [
+      "flowey the flower",
+      "φλαουι"
+    ],
+    "quote": [
+      "In this world, it’s kill or be killed.",
+      "Σε αυτόν τον κόσμο, σκοτώνεις ή σκοτώνεσαι."
+    ],
+    "game": "Undertale",
+    "source": "https://en.wikiquote.org/wiki/Undertale#Flowey",
+    "quoteOnly": true
+  },
+  {
+    "id": "toriel",
+    "name": "Toriel",
+    "aliases": [
+      "τοριελ"
+    ],
+    "quote": [
+      "Every human that falls down here meets the same fate.",
+      "Κάθε άνθρωπος που πέφτει εδώ κάτω έχει την ίδια μοίρα."
+    ],
+    "game": "Undertale",
+    "source": "https://en.wikiquote.org/wiki/Undertale#Toriel",
+    "quoteOnly": true
+  },
+  {
+    "id": "handsomejack",
+    "name": "Handsome Jack",
+    "aliases": [
+      "jack",
+      "χαντσομ τζακ"
+    ],
+    "quote": [
+      "These pretzels suck.",
+      "Αυτά τα πρέτσελ είναι χάλια."
+    ],
+    "game": "Borderlands 2",
+    "source": "https://borderlands.fandom.com/wiki/Handsome_Jack/Quotes",
+    "quoteOnly": true
+  },
+  {
+    "id": "claptrap",
+    "name": "Claptrap",
+    "aliases": [
+      "cl4p-tp",
+      "κλαπτραπ"
+    ],
+    "quote": [
+      "Stairs?!",
+      "Σκάλες;!"
+    ],
+    "game": "Borderlands 2",
+    "source": "https://borderlands.fandom.com/wiki/Claptrap/Quotes",
+    "quoteOnly": true
+  },
+  {
+    "id": "bigsmoke",
+    "name": "Big Smoke",
+    "aliases": [
+      "melvin harris",
+      "μπιγκ σμοουκ"
+    ],
+    "quote": [
+      "All we had to do was follow the damn train, CJ!",
+      "Το μόνο που έπρεπε να κάνουμε ήταν να ακολουθήσουμε το αναθεματισμένο τρένο, CJ!"
+    ],
+    "game": "Grand Theft Auto: San Andreas",
+    "source": "https://en.wikiquote.org/wiki/Grand_Theft_Auto:_San_Andreas#Big_Smoke",
+    "quoteOnly": true
+  }
+]);
 const GM_LEGACY_IDS=GM_CHARACTERS.slice(0,10).map(c=>c.id);
 const GM_BY_ID=new Map(GM_CHARACTERS.map(c=>[c.id,c]));
 const GM_LABELS={maze:["Maze chase","Λαβύρινθος"],"fireball":["Fireballs / jumps", "Πύρινες μπάλες / άλματα"],"spin":["Spin attack", "Περιστροφική επίθεση"],"golf-club":["Golf club", "Μπαστούνι γκολφ"],"staff":["Caduceus Staff", "Ράβδος Caduceus"],"tears":["Dimensional tears", "Διαστατικά ρήγματα"],"biotics":["Biotics", "Βιοτικές δυνάμεις"],"claws":["Claws / psionics", "Νύχια / ψιονικές δυνάμεις"],"strategy":["Strategy", "Στρατηγική"],"stealth":["Stealth", "Μυστικότητα"],"metroidvania":["Metroidvania", "Metroidvania"],"puzzle":["Puzzle", "Γρίφοι"],"silenced-handgun":["Silenced handgun", "Πιστόλι με σιγαστήρα"],"arm-cannon":["Arm cannon", "Κανόνι βραχίονα"],"rocket-launcher":["Rocket launcher", "Εκτοξευτής ρουκετών"],"steel-fans":["Steel fans", "Ατσάλινες βεντάλιες"],'platform':['Platformer','Πλατφόρμας'],'sword-pistols':['Sword / dual pistols','Σπαθί / δύο πιστόλια'],'buster-sword':['Buster Sword','Buster Sword'],'kunai':['Kunai / hellfire','Kunai / φωτιά'],'grapple':['Grappling gun','Όπλο γάντζου'],'gunblade':['Gunblade','Gunblade'],'parasol':['Parasol','Ομπρέλα'],'ai':['AI / hacking','AI / hacking'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],adventure:['Action adventure','Δράση / περιπέτεια'],horror:['Survival horror','Τρόμος / επιβίωση'],fighting:['Fighting','Μάχες'],action:['Action','Δράση'],rpg:['RPG','RPG'],fps:['FPS','FPS'],pistols:['Dual pistols','Δύο πιστόλια'],handgun:['Handgun','Πιστόλι'],kicks:['Martial arts / kicks','Πολεμικές τέχνες / κλωτσιές'],bow:['Bow','Τόξο'],'gun-heels':['Guns / gun heels','Όπλα / ένοπλα τακούνια'],blades:['Blades of Chaos','Λεπίδες του Χάους'],swords:['Steel / silver swords','Ατσάλινο / ασημένιο σπαθί'],revolver:['Revolver','Περίστροφο'],rifle:['Assault rifle','Τυφέκιο εφόδου'],'hidden-blade':['Hidden blade','Κρυφή λεπίδα']};
