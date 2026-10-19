@@ -27,7 +27,7 @@ async function boot() {
     window.GMPScreenLanguage?.register(Object.fromEntries(catalog.flatMap(t => [[t.clue, t.clueEn], [t.synopsis, t.synopsisEn]]).filter(([el,en]) => el && en)));
     titles = filterTitles(catalog, kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
-    if (newDemo) titles = titles.filter(title => title.addedIn === '20261013-greek-more');
+    if (newDemo) titles = titles.filter(title => title.addedIn === '20261019-known-series');
     if (!titles.length) throw new Error('Empty category');
   } catch {
     $('loading').textContent = 'Δεν φορτώθηκαν οι γρίφοι. Δοκίμασε ανανέωση της σελίδας.';
