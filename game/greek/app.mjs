@@ -21,7 +21,7 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles, catalog;
   try {
-    const response = await fetch('titles.json?v=20261015-greek-extra');
+    const response = await fetch('titles.json?v=20261019-known-series');
     if (!response.ok) throw new Error('Titles unavailable');
     catalog = await response.json();
     window.GMPScreenLanguage?.register(Object.fromEntries(catalog.flatMap(t => [[t.clue, t.clueEn], [t.synopsis, t.synopsisEn]]).filter(([el,en]) => el && en)));
@@ -35,7 +35,7 @@ async function boot() {
   }
   const titleChoices = document.createElement('datalist');
   titleChoices.id = 'titleChoices';
-  catalog.filter(t => t.kind === kind).sort((a,b)=>a.title.localeCompare(b.title)).forEach(t => {
+  [...new Map(catalog.filter(t => t.kind === kind).map(t => [t.title,t])).values()].sort((a,b)=>a.title.localeCompare(b.title)).forEach(t => {
     const option = document.createElement('option');
     option.value = t.title;
     option.dataset.aliases = (t.aliases || []).join(' | ');
@@ -57,7 +57,7 @@ async function boot() {
         previous = result.guesses;
       }
       state = {number: Number.isSafeInteger(saved.number)&&saved.number>0?saved.number:1,id: saved.id, guesses: previous, bag: Array.isArray(saved.bag) ? [...new Set(saved.bag.filter(id => ids.includes(id) && id !== saved.id))] : []};
-      const known = Array.isArray(saved.roster) ? saved.roster : titles.filter(t => !['20261012-greek20','20261013-greek-more'].includes(t.addedIn)).map(t => t.id);
+      const known = Array.isArray(saved.roster) ? saved.roster : titles.filter(t => !['20261012-greek20','20261013-greek-more','20261019-known-series'].includes(t.addedIn)).map(t => t.id);
       state.bag.push(...ids.filter(id => !known.includes(id) && id !== state.id && !state.bag.includes(id)));
       state.roster = [...ids];
     }
@@ -68,7 +68,9 @@ async function boot() {
     stop();
     const last = state?.id;
     let bag = state?.bag?.length ? state.bag : [...ids];
-    let choices = bag.filter(id => id !== last);
+    const family = id => catalog.find(t => t.id === id)?.variantOf || id;
+    let choices = bag.filter(id => id !== last && family(id) !== family(last));
+    if (!choices.length) choices = bag.filter(id => id !== last);
     if (!choices.length) choices = bag;
     const id = choices[Math.floor(Math.random() * choices.length)];
     state = {number:(state?.number||0)+1,id, guesses: [], bag: bag.filter(item => item !== id), roster: [...ids]};
