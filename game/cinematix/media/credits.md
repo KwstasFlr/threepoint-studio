@@ -828,3 +828,8 @@
 
 <!-- cinematix-audio:downton-abbey -->
 - Downton Abbey (2010): https://www.youtube.com/watch?v=aeffLpo0_WU; scene 96.0 to 103 seconds. Audio: Downton Abbey. Metadata: https://www.rottentomatoes.com/tv/downton_abbey/cast-and-crew
+
+## Expert additions — 20 October 2026
+
+- locke — Locke: https://www.youtube.com/watch?v=DpHWQpBWmA4 | One Phone Call Gets VERY Tense | LOCKE (4K) | 40.5–47.500s | JoBlo Movie Clips | Metadata: https://filmsandfestivals.britishcouncil.org/projects/locke
+- better-off-ted — Better Off Ted: https://www.youtube.com/watch?v=MT2VVT8tht8 | Chair - Better Off Ted | 5.25–12.250s | Sangeetha A | Metadata: https://www.rottentomatoes.com/tv/better-off-ted/s01/cast-and-crew
