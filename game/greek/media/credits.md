@@ -431,3 +431,16 @@
 - partali-1-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 197.75–204.750s | thodoris magiannis
 - partali-2-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 80.75–87.750s | thodoris magiannis
 - partali-3-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 60.25–67.250s | thodoris magiannis
+
+## Ten more newer-series rounds — 20 October 2026
+
+- klemmena-more-1-20261020 — Κλεμμένα όνειρα: https://www.youtube.com/watch?v=7wyiX7PkN0w | Κλεμμένα Όνειρα - Επεισόδιο 257 | 301.75–308.750s | Greek TV HD
+- klemmena-more-2-20261020 — Κλεμμένα όνειρα: https://www.youtube.com/watch?v=7wyiX7PkN0w | Κλεμμένα Όνειρα - Επεισόδιο 257 | 327.75–334.750s | Greek TV HD
+- klemmena-more-3-20261020 — Κλεμμένα όνειρα: https://www.youtube.com/watch?v=7wyiX7PkN0w | Κλεμμένα Όνειρα - Επεισόδιο 257 | 318.75–325.750s | Greek TV HD
+- ela-thesi-more-1-20261020 — Έλα στη θέση μου: https://www.youtube.com/watch?v=ioaosUuS1vs | Σκηνές με Αχιλλέα Ρενάτα επ.15 (έλα στη θέση μου) | 148.0–155.000s | icantsay
+- partali-more-1-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 180.25–187.250s | thodoris magiannis
+- kliniki-extra-1-20261020 — Κλινική περίπτωση: https://www.youtube.com/watch?v=-XAlUaLhKuk | MEGA - ΚΛΙΝΙΚΗ ΠΕΡΙΠΤΩΣΗ - ΕΠΕΙΣΟΔΙΟ 04 S01E04 | 421.25–428.250s | Greek Watchers
+- kliniki-extra-2-20261020 — Κλινική περίπτωση: https://www.youtube.com/watch?v=-XAlUaLhKuk | MEGA - ΚΛΙΝΙΚΗ ΠΕΡΙΠΤΩΣΗ - ΕΠΕΙΣΟΔΙΟ 04 S01E04 | 434.0–441.000s | Greek Watchers
+- mourmoura-extra-1-20261020a — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 509.0–516.000s | Alpha TV Greece
+- mourmoura-extra-2-20261020a — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 516.75–523.750s | Alpha TV Greece
+- mourmoura-last-1-20261020a — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 467.0–474.000s | Alpha TV Greece
