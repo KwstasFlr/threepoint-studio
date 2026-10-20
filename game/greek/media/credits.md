@@ -419,3 +419,15 @@
 - partali-alt-20261019 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 50.25–57.250s | thodoris magiannis
 - mourmoura-second-alt-20261019 — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 324.992–331.992s | Alpha TV Greece
 - partali-second-alt-20261019 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 188.25–195.250s | thodoris magiannis
+
+## Additional familiar-series rounds — 20 October 2026
+
+- konstantinou-1-20261020 — Κωνσταντίνου και Ελένης: https://www.youtube.com/watch?v=e0C-P9NqhAk | Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13 | 206.0–213.000s | ANT1 TV
+- egklimata-1-20261020 — Εγκλήματα: https://www.youtube.com/watch?v=D8CnF-e1IuM | Eglimata - o axilleas... teleiwnei | 59.5–66.500s | mariangela vasileiou
+- mourmoura-1-20261020 — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 228.25–235.250s | Alpha TV Greece
+- mourmoura-2-20261020 — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 201.5–208.500s | Alpha TV Greece
+- mourmoura-3-20261020 — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 250.75–257.750s | Alpha TV Greece
+- mourmoura-4-20261020aa — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 372.75–379.750s | Alpha TV Greece
+- partali-1-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 197.75–204.750s | thodoris magiannis
+- partali-2-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 80.75–87.750s | thodoris magiannis
+- partali-3-20261020 — Κάτω Παρτάλι: https://www.youtube.com/watch?v=reLegNz3DUk | ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ | 60.25–67.250s | thodoris magiannis
