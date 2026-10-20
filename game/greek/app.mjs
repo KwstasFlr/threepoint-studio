@@ -21,13 +21,13 @@ async function boot() {
   document.title = `${filters[filter]} · ${names[kind]} — GuessPlex`;
   let titles, catalog;
   try {
-    const response = await fetch('titles.json?v=20261019-known-series');
+    const response = await fetch('titles.json?v=20261020-series80-70');
     if (!response.ok) throw new Error('Titles unavailable');
     catalog = await response.json();
     window.GMPScreenLanguage?.register(Object.fromEntries(catalog.flatMap(t => [[t.clue, t.clueEn], [t.synopsis, t.synopsisEn]]).filter(([el,en]) => el && en)));
     titles = filterTitles(catalog, kind, filter);
     if (audioDemo) titles = titles.filter(title => title.audio);
-    if (newDemo) titles = titles.filter(title => title.addedIn === '20261019-known-series');
+    if (newDemo) titles = titles.filter(title => title.addedIn === '20261020-series80-70');
     if (!titles.length) throw new Error('Empty category');
   } catch {
     $('loading').textContent = 'Δεν φορτώθηκαν οι γρίφοι. Δοκίμασε ανανέωση της σελίδας.';
@@ -57,7 +57,7 @@ async function boot() {
         previous = result.guesses;
       }
       state = {number: Number.isSafeInteger(saved.number)&&saved.number>0?saved.number:1,id: saved.id, guesses: previous, bag: Array.isArray(saved.bag) ? [...new Set(saved.bag.filter(id => ids.includes(id) && id !== saved.id))] : []};
-      const known = Array.isArray(saved.roster) ? saved.roster : titles.filter(t => !['20261012-greek20','20261013-greek-more','20261019-known-series'].includes(t.addedIn)).map(t => t.id);
+      const known = Array.isArray(saved.roster) ? saved.roster : titles.filter(t => !['20261012-greek20','20261013-greek-more','20261019-known-series','20261020-series80-70'].includes(t.addedIn)).map(t => t.id);
       state.bag.push(...ids.filter(id => !known.includes(id) && id !== state.id && !state.bag.includes(id)));
       state.roster = [...ids];
     }
