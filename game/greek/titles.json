@@ -9486,5 +9486,344 @@
     "clueEn": "A trip to the countryside goes completely off plan.",
     "synopsisEn": "Athenians visiting an isolated village try to understand its eccentric inhabitants. Strange habits and hidden secrets make a return to normality difficult.",
     "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%AC%CF%84%CF%89_%CE%A0%CE%B1%CF%81%CF%84%CE%AC%CE%BB%CE%B9"
+  },
+  {
+    "id": "konstantinou-1-20261020",
+    "kind": "series",
+    "title": "Κωνσταντίνου και Ελένης",
+    "year": 1998,
+    "originalFormat": null,
+    "aliases": [
+      "Κωνσταντίνου & Ελένης",
+      "Konstantinou kai Elenis"
+    ],
+    "supporting": [
+      "Στέργιος Νένες",
+      "Βασίλης Κούκουρας"
+    ],
+    "leads": [
+      "Χάρης Ρώμας",
+      "Μαρία Λεκάκη"
+    ],
+    "synopsis": "Μια κληρονομιά αναγκάζει δύο αντίθετους χαρακτήρες να συγκατοικήσουν. Η παρέα τους μπλέκει σε σχέδια και παρεξηγήσεις, ενώ κανείς δεν θέλει να εγκαταλείψει το σπίτι.",
+    "clue": "Δύο συγκάτοικοι διαφωνούν ακόμη και για τους επισκέπτες.",
+    "source": "https://www.ordino.gr/movie_detail.asp?id=635",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-konstantinou-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=e0C-P9NqhAk",
+    "audioCredit": "ANT1 TV",
+    "audioStart": 206.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Κωνσταντίνου και Ελένης - Mad Σπίτι - Σεζόν 1 Επεισόδιο 13",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "variantOf": "konstantinou",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "Two housemates cannot even agree about visitors.",
+    "synopsisEn": "An inheritance forces two opposing personalities to share a home. Their friends become caught up in schemes and misunderstandings while neither occupant wants to move out.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CF%89%CE%BD%CF%83%CF%84%CE%B1%CE%BD%CF%84%CE%AF%CE%BD%CE%BF%CF%85_%CE%BA%CE%B1%CE%B9_%CE%95%CE%BB%CE%AD%CE%BD%CE%B7%CF%82"
+  },
+  {
+    "id": "egklimata-1-20261020",
+    "kind": "series",
+    "title": "Εγκλήματα",
+    "year": 1998,
+    "originalFormat": null,
+    "aliases": [
+      "Eglimata",
+      "Egklimata"
+    ],
+    "supporting": [
+      "Σταύρος Νικολαΐδης",
+      "Αθηνόδωρος Προύσαλης"
+    ],
+    "leads": [
+      "Κώστας Κόκλας",
+      "Υρώ Μανέ"
+    ],
+    "synopsis": "Μια φαινομενικά συνηθισμένη γειτονιά γεμίζει απιστίες και σκοτεινά σχέδια. Οι απόπειρες συγκάλυψης μπλέκουν όλο και περισσότερο φίλους, συγγενείς και εραστές.",
+    "clue": "Οι προσωπικές σχέσεις κρύβουν επικίνδυνες προθέσεις.",
+    "source": "https://www.ordino.gr/movie_detail.asp?id=427",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-egklimata-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=D8CnF-e1IuM",
+    "audioCredit": "mariangela vasileiou",
+    "audioStart": 59.5,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Eglimata - o axilleas... teleiwnei",
+    "audioSpeechSeconds": 6.49,
+    "audioMaxGap": 0.42,
+    "variantOf": "egklimata",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "Personal relationships conceal dangerous intentions.",
+    "synopsisEn": "A seemingly ordinary neighbourhood fills with affairs and sinister schemes. Attempts to cover things up entangle friends, relatives and lovers ever further.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%95%CE%B3%CE%BA%CE%BB%CE%AE%CE%BC%CE%B1%CF%84%CE%B1_%28%CF%84%CE%B7%CE%BB%CE%B5%CE%BF%CF%80%CF%84%CE%B9%CE%BA%CE%AE_%CF%83%CE%B5%CE%B9%CF%81%CE%AC%29"
+  },
+  {
+    "id": "mourmoura-1-20261020",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Μαρία Χάνου",
+      "Σπύρος Τσεκούρας"
+    ],
+    "leads": [
+      "Ελένη Κοκκίδου",
+      "Δάφνη Λαμπρόγιαννη"
+    ],
+    "synopsis": "Διαφορετικά ζευγάρια αντιμετωπίζουν μικρές κρίσεις μέσα στο σπίτι. Από τις συνήθειες ως τις οικογενειακές υποχρεώσεις, κάθε θέμα μπορεί να γίνει αφορμή για κωμική διαφωνία.",
+    "clue": "Η καθημερινότητα των ζευγαριών δεν γνωρίζει ανακωχή.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 228.25,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 6.68,
+    "audioMaxGap": 0.32,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "Everyday life offers these couples no truce.",
+    "synopsisEn": "Different couples face small crises at home. From habits to family obligations, any subject can spark a comic disagreement.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "mourmoura-2-20261020",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Σπύρος Χατζηαγγελάκης",
+      "Άννα Κουτσαφτίκη"
+    ],
+    "leads": [
+      "Αντώνης Αντωνίου",
+      "Δάφνη Λαμπρόγιαννη"
+    ],
+    "synopsis": "Άνθρωποι διαφορετικών ηλικιών μοιράζονται τη ζωή και τις μικρές αντιθέσεις τους. Η αγάπη συνυπάρχει με παράπονα, πειράγματα και καθημερινές διαπραγματεύσεις.",
+    "clue": "Ακόμη και οι καλές προθέσεις σηκώνουν συζήτηση.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-2-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 201.5,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 6.65,
+    "audioMaxGap": 0.35,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "Even good intentions are up for debate.",
+    "synopsisEn": "People of different ages share their lives and everyday differences. Love coexists with complaints, teasing and daily negotiations.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "mourmoura-3-20261020",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Σπύρος Χατζηαγγελάκης",
+      "Σπύρος Τσεκούρας"
+    ],
+    "leads": [
+      "Ελένη Κοκκίδου",
+      "Βλαδίμηρος Κυριακίδης"
+    ],
+    "synopsis": "Η συμβίωση δοκιμάζεται από διαφορετικά γούστα, προσδοκίες και οικογενειακά ζητήματα. Κάθε ζευγάρι βρίσκει τον δικό του κωμικό τρόπο να τα βγάζει πέρα.",
+    "clue": "Στο ίδιο σπίτι χωρούν πολλές διαφορετικές απόψεις.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-3-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 250.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 6.65,
+    "audioMaxGap": 0.35,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "One home can hold many conflicting opinions.",
+    "synopsisEn": "Living together is tested by different tastes, expectations and family issues. Each couple finds its own comic way to cope.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "mourmoura-4-20261020aa",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Ιωάννα Τριανταφυλλίδου",
+      "Μαρία Χάνου"
+    ],
+    "leads": [
+      "Αντώνης Αντωνίου",
+      "Πάνος Βλάχος"
+    ],
+    "synopsis": "Νεότερα και μεγαλύτερα ζευγάρια προσπαθούν να συνεννοηθούν για τα απλά της ζωής. Οι διαφωνίες τους μετατρέπουν την καθημερινή ρουτίνα σε κωμωδία σχέσεων.",
+    "clue": "Οι μικρές αποφάσεις γίνονται μεγάλες διαφωνίες.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-4-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 372.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 5.8,
+    "audioMaxGap": 0.45,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "Small decisions become big disagreements.",
+    "synopsisEn": "Younger and older couples try to agree on life’s simple matters. Their disagreements turn everyday routines into relationship comedy.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "partali-1-20261020",
+    "kind": "series",
+    "title": "Κάτω Παρτάλι",
+    "year": 2014,
+    "originalFormat": null,
+    "aliases": [
+      "Kato partali"
+    ],
+    "supporting": [
+      "Λεωνίδας Καλφαγιάννης",
+      "Σταύρος Σβήγκος"
+    ],
+    "leads": [
+      "Βίκυ Σταυροπούλου",
+      "Μίνως Θεοχάρης"
+    ],
+    "synopsis": "Μια παρέα της πόλης βρίσκεται σε ένα χωριό με ασυνήθιστους κατοίκους. Καθώς προσπαθεί να προσαρμοστεί, η φιλόξενη εικόνα του τόπου αποκαλύπτει παράξενες πλευρές.",
+    "clue": "Οι ξένοι πρέπει να μάθουν τους άγραφους κανόνες του χωριού.",
+    "source": "https://www.in.gr/2014/02/03/entertainment/oi-ellinikes-kwmikes-seires-epistrefoyn-stoys-tileoptikoys-stathmoys/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-partali-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=reLegNz3DUk",
+    "audioCredit": "thodoris magiannis",
+    "audioStart": 197.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ",
+    "audioSpeechSeconds": 6.28,
+    "audioMaxGap": 0.42,
+    "variantOf": "partali",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "Outsiders must learn the village’s unwritten rules.",
+    "synopsisEn": "A group from the city arrives in a village of unusual residents. As the visitors try to adapt, the welcoming setting reveals its stranger sides.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%AC%CF%84%CF%89_%CE%A0%CE%B1%CF%81%CF%84%CE%AC%CE%BB%CE%B9"
+  },
+  {
+    "id": "partali-2-20261020",
+    "kind": "series",
+    "title": "Κάτω Παρτάλι",
+    "year": 2014,
+    "originalFormat": null,
+    "aliases": [
+      "Kato partali"
+    ],
+    "supporting": [
+      "Βασιλική Τρουφάκου",
+      "Γιώργος Βουλτζάτης"
+    ],
+    "leads": [
+      "Γιάννης Τσιμιτσέλης",
+      "Νάντια Κοντογεώργη"
+    ],
+    "synopsis": "Επισκέπτες από την Αθήνα συναντούν μια κοινότητα γεμάτη εκκεντρικότητες. Πίσω από τις κωμικές συναντήσεις και τις καθημερινές εκπλήξεις παραμένουν αναπάντητα ερωτήματα.",
+    "clue": "Η επαρχία αποδεικνύεται λιγότερο ήσυχη από όσο φαίνεται.",
+    "source": "https://www.in.gr/2014/02/03/entertainment/oi-ellinikes-kwmikes-seires-epistrefoyn-stoys-tileoptikoys-stathmoys/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-partali-2-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=reLegNz3DUk",
+    "audioCredit": "thodoris magiannis",
+    "audioStart": 80.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ",
+    "audioSpeechSeconds": 5.59,
+    "audioMaxGap": 0.54,
+    "variantOf": "partali",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "The countryside proves less peaceful than it looks.",
+    "synopsisEn": "Visitors from Athens encounter an eccentric community. Behind comic encounters and everyday surprises, unanswered questions remain.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%AC%CF%84%CF%89_%CE%A0%CE%B1%CF%81%CF%84%CE%AC%CE%BB%CE%B9"
+  },
+  {
+    "id": "partali-3-20261020",
+    "kind": "series",
+    "title": "Κάτω Παρτάλι",
+    "year": 2014,
+    "originalFormat": null,
+    "aliases": [
+      "Kato partali"
+    ],
+    "supporting": [
+      "Αγορίτσα Οικονόμου",
+      "Λεωνίδας Καλφαγιάννης"
+    ],
+    "leads": [
+      "Νάντια Κοντογεώργη",
+      "Μίνως Θεοχάρης"
+    ],
+    "synopsis": "Η ζωή μιας αθηναϊκής παρέας αλλάζει όταν φτάνει σε ένα αλλόκοτο χωριό. Οι διαφορές με τους ντόπιους προκαλούν κωμικές συγκρούσεις και απρόβλεπτες καταστάσεις.",
+    "clue": "Οι επισκέπτες δεν είναι προετοιμασμένοι για αυτή τη φιλοξενία.",
+    "source": "https://www.in.gr/2014/02/03/entertainment/oi-ellinikes-kwmikes-seires-epistrefoyn-stoys-tileoptikoys-stathmoys/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-partali-3-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=reLegNz3DUk",
+    "audioCredit": "thodoris magiannis",
+    "audioStart": 60.25,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ",
+    "audioSpeechSeconds": 5.15,
+    "audioMaxGap": 0.77,
+    "variantOf": "partali",
+    "addedIn": "20261020-series80-70",
+    "clueEn": "The visitors are unprepared for this kind of hospitality.",
+    "synopsisEn": "An Athenian group’s life changes upon reaching an odd village. Differences with the locals lead to comic clashes and unpredictable situations.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%AC%CF%84%CF%89_%CE%A0%CE%B1%CF%81%CF%84%CE%AC%CE%BB%CE%B9"
   }
 ]
