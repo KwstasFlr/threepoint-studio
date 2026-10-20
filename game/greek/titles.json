@@ -9825,5 +9825,384 @@
     "clueEn": "The visitors are unprepared for this kind of hospitality.",
     "synopsisEn": "An Athenian group’s life changes upon reaching an odd village. Differences with the locals lead to comic clashes and unpredictable situations.",
     "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%AC%CF%84%CF%89_%CE%A0%CE%B1%CF%81%CF%84%CE%AC%CE%BB%CE%B9"
+  },
+  {
+    "id": "klemmena-more-1-20261020",
+    "kind": "series",
+    "title": "Κλεμμένα όνειρα",
+    "year": 2011,
+    "originalFormat": null,
+    "leads": [
+      "Αλέξανδρος Σταύρου",
+      "Ελισάβετ Μουτάφη"
+    ],
+    "supporting": [
+      "Ορέστης Τρίκας",
+      "Μυρτώ Αυγερινού"
+    ],
+    "clue": "Οι οικογενειακές αλήθειες δεν μένουν έξω από την τάξη.",
+    "synopsis": "Σε ένα ιδιωτικό σχολείο οι σχέσεις μαθητών και γονιών κρύβουν μυστικά. Παλιές αποφάσεις επιστρέφουν και ανατρέπουν φιλίες, έρωτες και οικογενειακούς δεσμούς.",
+    "clueEn": "Family truths do not stay outside the classroom.",
+    "synopsisEn": "At a private school, relationships between pupils and parents conceal secrets. Past decisions return to disrupt friendships, romances and family ties.",
+    "source": "https://www.megatv.com/tvshows/52079/episode-267/",
+    "aliases": [
+      "Klemmena oneira"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-klemmena-more-1-20261020.mp3",
+    "addedIn": "20261020-series80-80",
+    "audioSource": "https://www.youtube.com/watch?v=7wyiX7PkN0w",
+    "audioStart": 301.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Κλεμμένα Όνειρα - Επεισόδιο 257",
+    "audioSpeechSeconds": 6.23,
+    "audioMaxGap": 0.48,
+    "audioTranscript": "Τι πες τώρα? Και σ' ένα φορά το, γιατί έφυγα από το σπίτι, για το λόγο και τα λιπακαι που πήγα, θα τα πούμε κάποια άλλη στη γνή. Τώρα πρέπει να φίγω.",
+    "variantOf": "klemmena",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B5%CE%BC%CE%BC%CE%AD%CE%BD%CE%B1_%CF%8C%CE%BD%CE%B5%CE%B9%CF%81%CE%B1"
+  },
+  {
+    "id": "klemmena-more-2-20261020",
+    "kind": "series",
+    "title": "Κλεμμένα όνειρα",
+    "year": 2011,
+    "originalFormat": null,
+    "leads": [
+      "Βάσω Λασκαράκη",
+      "Αθηνά Οικονομάκου"
+    ],
+    "supporting": [
+      "Κωνσταντίνος Λάγκος",
+      "Λιλή Τσεσμετζόγλου"
+    ],
+    "clue": "Οι διαφορές καταγωγής δοκιμάζουν τις νεανικές φιλίες.",
+    "synopsis": "Έφηβοι με διαφορετικές ευκαιρίες μοιράζονται το ίδιο σχολικό περιβάλλον. Ανάμεσα σε ανταγωνισμούς και πρώτους έρωτες, τα μυστικά των ενηλίκων επηρεάζουν το μέλλον τους.",
+    "clueEn": "Differences in background test young friendships.",
+    "synopsisEn": "Teenagers with different opportunities share the same school. Amid rivalries and first romances, adults’ secrets influence their future.",
+    "source": "https://www.megatv.com/tvshows/52079/episode-267/",
+    "aliases": [
+      "Klemmena oneira"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-klemmena-more-2-20261020.mp3",
+    "addedIn": "20261020-series80-80",
+    "audioSource": "https://www.youtube.com/watch?v=7wyiX7PkN0w",
+    "audioStart": 327.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Κλεμμένα Όνειρα - Επεισόδιο 257",
+    "audioSpeechSeconds": 6.07,
+    "audioMaxGap": 0.93,
+    "audioTranscript": "Τι πες τώρα? Και σ' ένα φορά το, γιατί έφυγα από το σπίτι, για το λόγο και τα λιπακαι που πήγα, θα τα πούμε κάποια άλλη στη γνή. Τώρα πρέπει να φίγω.",
+    "variantOf": "klemmena",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B5%CE%BC%CE%BC%CE%AD%CE%BD%CE%B1_%CF%8C%CE%BD%CE%B5%CE%B9%CF%81%CE%B1"
+  },
+  {
+    "id": "klemmena-more-3-20261020",
+    "kind": "series",
+    "title": "Κλεμμένα όνειρα",
+    "year": 2011,
+    "originalFormat": null,
+    "leads": [
+      "Άννα Αδριανού",
+      "Ορφέας Παπαδόπουλος"
+    ],
+    "supporting": [
+      "Υρώ Λούπη",
+      "Χρήστος Πλαΐνης"
+    ],
+    "clue": "Οι μεγάλοι δεν έχουν όλες τις σωστές απαντήσεις.",
+    "synopsis": "Η καθημερινότητα ενός ιδιωτικού σχολείου συνδέεται με τις ζωές των οικογενειών του. Κρυφές συγγένειες και αντικρουόμενα συμφέροντα μετατρέπουν τις σχέσεις σε διαρκή δοκιμασία.",
+    "clueEn": "The adults do not have all the right answers.",
+    "synopsisEn": "Daily life at a private school is tied to its families’ lives. Hidden family connections and conflicting interests put relationships under constant pressure.",
+    "source": "https://www.megatv.com/tvshows/52079/episode-267/",
+    "aliases": [
+      "Klemmena oneira"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-klemmena-more-3-20261020.mp3",
+    "addedIn": "20261020-series80-80",
+    "audioSource": "https://www.youtube.com/watch?v=7wyiX7PkN0w",
+    "audioStart": 318.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek TV HD",
+    "audioSourceTitle": "Κλεμμένα Όνειρα - Επεισόδιο 257",
+    "audioSpeechSeconds": 5.5,
+    "audioMaxGap": 0.5,
+    "audioTranscript": "Τι πες τώρα? Και σ' ένα φορά το, γιατί έφυγα από το σπίτι, για το λόγο και τα λιπακαι που πήγα, θα τα πούμε κάποια άλλη στη γνή. Τώρα πρέπει να φίγω.",
+    "variantOf": "klemmena",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B5%CE%BC%CE%BC%CE%AD%CE%BD%CE%B1_%CF%8C%CE%BD%CE%B5%CE%B9%CF%81%CE%B1"
+  },
+  {
+    "id": "ela-thesi-more-1-20261020",
+    "kind": "series",
+    "title": "Έλα στη θέση μου",
+    "year": 2016,
+    "originalFormat": null,
+    "leads": [
+      "Γιάννης Τσιμιτσέλης",
+      "Ευαγγελία Συριοπούλου"
+    ],
+    "supporting": [
+      "Χάρης Γρηγορόπουλος",
+      "Μαρία Φιλίππου"
+    ],
+    "clue": "Μια παλιά ανταλλαγή αλλάζει όσα θεωρούσαν δεδομένα.",
+    "synopsis": "Μια αποκάλυψη για δύο μωρά που ανταλλάχθηκαν φέρνει έναν πλούσιο και έναν φτωχό άντρα σε αντίθετους κόσμους. Οι νέες ισορροπίες γεννούν έρωτες και κωμικές συγκρούσεις.",
+    "clueEn": "An old swap changes everything they took for granted.",
+    "synopsisEn": "A revelation about two babies swapped at birth takes a rich man and a poor man into opposite worlds. Their changed circumstances spark romances and comic clashes.",
+    "source": "https://www.alphatv.gr/series/ela-sti-thesi-moy/",
+    "aliases": [
+      "Ela sti thesi mou"
+    ],
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-ela-thesi-more-1-20261020.mp3",
+    "addedIn": "20261020-series80-80",
+    "audioSource": "https://www.youtube.com/watch?v=ioaosUuS1vs",
+    "audioStart": 148.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "icantsay",
+    "audioSourceTitle": "Σκηνές με Αχιλλέα Ρενάτα επ.15 (έλα στη θέση μου)",
+    "audioSpeechSeconds": 5.43,
+    "audioMaxGap": 0.8,
+    "audioTranscript": "Το διασχεδάζω αφάντα στα και να σου πω και κάτι, έχω και περιέργεια να δω μέχρι που μπορεί να φτάσει όλα αυτό, μη μου χαλάστος ασπέντσ",
+    "variantOf": "ela-thesi",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%88%CE%BB%CE%B1_%CF%83%CF%84%CE%B7_%CE%B8%CE%AD%CF%83%CE%B7_%CE%BC%CE%BF%CF%85"
+  },
+  {
+    "id": "partali-more-1-20261020",
+    "kind": "series",
+    "title": "Κάτω Παρτάλι",
+    "year": 2014,
+    "originalFormat": null,
+    "aliases": [
+      "Kato partali"
+    ],
+    "supporting": [
+      "Αγορίτσα Οικονόμου",
+      "Σταύρος Σβήγκος"
+    ],
+    "leads": [
+      "Βασιλική Τρουφάκου",
+      "Βίκυ Σταυροπούλου"
+    ],
+    "synopsis": "Μια απόλυση γίνεται αφορμή να βρεθούν άνθρωποι της πόλης στην επαρχία. Ο ιδιαίτερος τρόπος ζωής των κατοίκων τούς μπλέκει σε παράξενες ιστορίες και μυστικά.",
+    "clue": "Εδώ η κουβέντα με τους ντόπιους κρύβει εκπλήξεις.",
+    "source": "https://www.in.gr/2014/02/03/entertainment/oi-ellinikes-kwmikes-seires-epistrefoyn-stoys-tileoptikoys-stathmoys/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-partali-more-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=reLegNz3DUk",
+    "audioCredit": "thodoris magiannis",
+    "audioStart": 180.25,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "ΚΑΤΩ ΠΑΡΤΑΛΙ  Επ 7   Στο μπαρ",
+    "audioSpeechSeconds": 5.35,
+    "audioMaxGap": 1.06,
+    "variantOf": "partali",
+    "addedIn": "20261020-series80-80",
+    "clueEn": "Here, chatting with the locals brings surprises.",
+    "synopsisEn": "A dismissal brings city dwellers to the countryside. The locals’ unusual way of life draws them into strange stories and secrets.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%AC%CF%84%CF%89_%CE%A0%CE%B1%CF%81%CF%84%CE%AC%CE%BB%CE%B9"
+  },
+  {
+    "id": "kliniki-extra-1-20261020",
+    "kind": "series",
+    "title": "Κλινική περίπτωση",
+    "year": 2011,
+    "originalFormat": null,
+    "aliases": [
+      "Kliniki periptosi"
+    ],
+    "supporting": [
+      "Ευαγγελία Μουμούρη",
+      "Γιώργος Δάμπασης"
+    ],
+    "leads": [
+      "Γιάννης Μπέζος",
+      "Τάσος Νούσιας"
+    ],
+    "clue": "Ένας ειδικός δυσκολεύεται να προσαρμοστεί στη μικρή κοινότητα.",
+    "synopsis": "Ένας χειρουργός με φοβία για το αίμα επιστρέφει στο χωριό του. Οι κάτοικοι και μια δασκάλα αναστατώνουν την αυστηρή καθημερινότητα που προσπαθεί να διατηρήσει.",
+    "clueEn": "A specialist struggles to fit into a small community.",
+    "synopsisEn": "A surgeon with a fear of blood returns to his village. The residents and a teacher unsettle the strict daily routine he tries to maintain.",
+    "source": "https://www.megatv.com/tvshows/52496/episode-019/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kliniki-extra-1-20261020.mp3",
+    "addedIn": "20261020-series80-80",
+    "audioSource": "https://www.youtube.com/watch?v=-XAlUaLhKuk",
+    "audioStart": 421.25,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek Watchers",
+    "audioSourceTitle": "MEGA - ΚΛΙΝΙΚΗ ΠΕΡΙΠΤΩΣΗ - ΕΠΕΙΣΟΔΙΟ 04 S01E04",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Και δεν θέλω να την αποκοητήσω. Μα δεν μπορείς! Θέλω να είμαι ο άντρας, το νονοίρον της. Μα είσαι, είσαι! Και αρτέρθεσες εν...",
+    "variantOf": "kliniki",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B9%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A0%CE%B5%CF%81%CE%AF%CF%80%CF%84%CF%89%CF%83%CE%B7"
+  },
+  {
+    "id": "kliniki-extra-2-20261020",
+    "kind": "series",
+    "title": "Κλινική περίπτωση",
+    "year": 2011,
+    "originalFormat": null,
+    "aliases": [
+      "Kliniki periptosi"
+    ],
+    "supporting": [
+      "Μάρκος Λεζές",
+      "Γιάννης Καπετάνιος"
+    ],
+    "leads": [
+      "Άννα Μαρία Παπαχαραλάμπους",
+      "Τάσος Νούσιας"
+    ],
+    "clue": "Στο χωριό η επιστημονική λογική δεν αρκεί για όλα.",
+    "synopsis": "Ένας επιτυχημένος αλλά αντικοινωνικός γιατρός αφήνει το εξωτερικό για την ελληνική επαρχία. Η δουλειά στο αγροτικό ιατρείο τον φέρνει συνεχώς αντιμέτωπο με τις ιδιοτροπίες των κατοίκων.",
+    "clueEn": "In this village, scientific reasoning cannot solve everything.",
+    "synopsisEn": "A successful but unsociable doctor leaves a career abroad for rural Greece. Working at the village practice constantly brings him face to face with the residents’ quirks.",
+    "source": "https://www.megatv.com/tvshows/52496/episode-019/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-kliniki-extra-2-20261020.mp3",
+    "addedIn": "20261020-series80-80",
+    "audioSource": "https://www.youtube.com/watch?v=-XAlUaLhKuk",
+    "audioStart": 434.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Greek Watchers",
+    "audioSourceTitle": "MEGA - ΚΛΙΝΙΚΗ ΠΕΡΙΠΤΩΣΗ - ΕΠΕΙΣΟΔΙΟ 04 S01E04",
+    "audioSpeechSeconds": 5.34,
+    "audioMaxGap": 0.48,
+    "audioTranscript": "Και δεν θέλω να την αποκοητήσω. Μα δεν μπορείς! Θέλω να είμαι ο άντρας, το νονοίρον της. Μα είσαι, είσαι! Και αρτέρθεσες εν...",
+    "variantOf": "kliniki",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B9%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A0%CE%B5%CF%81%CE%AF%CF%80%CF%84%CF%89%CF%83%CE%B7"
+  },
+  {
+    "id": "mourmoura-extra-1-20261020a",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Ιωάννα Τριανταφυλλίδου",
+      "Σπύρος Τσεκούρας"
+    ],
+    "leads": [
+      "Πάνος Βλάχος",
+      "Δάφνη Λαμπρόγιαννη"
+    ],
+    "synopsis": "Σε σπίτια διαφορετικών ζευγαριών, ασήμαντες αφορμές εξελίσσονται σε έντονες κουβέντες. Παρά τις διαφωνίες τους, οι σύντροφοι συνεχίζουν να αναζητούν κοινό βηματισμό.",
+    "clue": "Ένα παλιό ψέμα μπορεί να χαλάσει την ηρεμία του σπιτιού.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-extra-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 509.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-80",
+    "clueEn": "An old lie can disturb the peace at home.",
+    "synopsisEn": "In different couples’ homes, minor incidents develop into heated conversations. Despite their disagreements, the partners keep trying to find common ground.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "mourmoura-extra-2-20261020a",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Ιωάννα Τριανταφυλλίδου",
+      "Σπύρος Χατζηαγγελάκης"
+    ],
+    "leads": [
+      "Πάνος Βλάχος",
+      "Ελένη Κοκκίδου"
+    ],
+    "synopsis": "Η κωμωδία παρακολουθεί ζευγάρια σε διαφορετικές φάσεις ζωής. Οικογενειακά ζητήματα, ζήλιες και προσωπικές συνήθειες δοκιμάζουν καθημερινά την υπομονή τους.",
+    "clue": "Οι γονείς και τα παιδιά δίνουν αφορμές για καβγάδες.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-extra-2-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 516.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-80",
+    "clueEn": "Parents and children provide plenty of reasons to argue.",
+    "synopsisEn": "The comedy follows couples at different stages of life. Family issues, jealousy and personal habits test their patience every day.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "mourmoura-last-1-20261020a",
+    "kind": "series",
+    "title": "Μην αρχίζεις τη μουρμούρα",
+    "year": 2013,
+    "originalFormat": null,
+    "aliases": [
+      "Μουρμούρα",
+      "Min arhizeis ti mourmoura"
+    ],
+    "supporting": [
+      "Ιωάννα Τριανταφυλλίδου",
+      "Άννα Κουτσαφτίκη"
+    ],
+    "leads": [
+      "Πάνος Βλάχος",
+      "Βλαδίμηρος Κυριακίδης"
+    ],
+    "synopsis": "Οι διαφορετικοί χαρακτήρες μέσα σε κάθε ζευγάρι συγκρούονται στις λεπτομέρειες της καθημερινότητας. Η οικειότητα και το χιούμορ συνοδεύουν τα συνεχή πειράγματα και παράπονα.",
+    "clue": "Ακόμη και μια απλή αγορά μπορεί να ανάψει συζήτηση.",
+    "source": "https://www.alphatv.gr/series/min-arxizeis-ti-moyrmoyra/",
+    "image": "",
+    "imageCredit": "",
+    "audio": "media/scene-mourmoura-last-1-20261020.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=KznbsoHwN4s",
+    "audioCredit": "Alpha TV Greece",
+    "audioStart": 467.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioSourceTitle": "Μην αρχίζεις τη μουρμούρα - Επ 67",
+    "audioSpeechSeconds": 6.82,
+    "audioMaxGap": 0.18,
+    "variantOf": "mourmoura",
+    "addedIn": "20261020-series80-80",
+    "clueEn": "Even a simple purchase can start an argument.",
+    "synopsisEn": "Different personalities within each couple clash over everyday details. Familiarity and humour accompany their constant teasing and complaints.",
+    "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
   }
 ]
