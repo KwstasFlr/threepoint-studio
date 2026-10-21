@@ -7986,5 +7986,617 @@
       "https://www.nobelprize.org/prizes/physics/1918/planck/lecture/"
     ],
     "image": ""
+  },
+  {
+    "id": "feynman",
+    "name": [
+      "Richard Feynman",
+      "Ρίτσαρντ Φάινμαν"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Richard Feynman",
+      "Ρίτσαρντ Φάινμαν",
+      "Feynman",
+      "Φάινμαν",
+      "Richard P. Feynman"
+    ],
+    "clues": [
+      [
+        "During World War II, he worked on the Manhattan Project at Los Alamos.",
+        "Στον Β΄ Παγκόσμιο Πόλεμο εργάστηκε στο Πρόγραμμα Μανχάταν, στο Λος Άλαμος."
+      ],
+      [
+        "He shared the 1965 Nobel Prize in Physics with Julian Schwinger and Sin-Itiro Tomonaga.",
+        "Μοιράστηκε το Νόμπελ Φυσικής του 1965 με τον Τζούλιαν Σουίνγκερ και τον Σινίτιρο Τομονάγκα."
+      ],
+      [
+        "This American physicist is famous for his Caltech lectures and diagrams used to describe particle interactions.",
+        "Ο Αμερικανός φυσικός είναι γνωστός για τις διαλέξεις του στο Caltech και τα διαγράμματα αλληλεπίδρασης σωματιδίων."
+      ]
+    ],
+    "sources": [
+      "https://www.feynmanlectures.caltech.edu/I_89.html"
+    ],
+    "image": ""
+  },
+  {
+    "id": "schrodinger",
+    "name": [
+      "Erwin Schrödinger",
+      "Έρβιν Σρέντινγκερ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Erwin Schrödinger",
+      "Έρβιν Σρέντινγκερ",
+      "Erwin Schrodinger",
+      "Schrodinger",
+      "Schrödinger",
+      "Σρέντινγκερ",
+      "Έρβιν Σρέντιγκερ",
+      "Σρέντιγκερ"
+    ],
+    "clues": [
+      [
+        "He directed the School of Theoretical Physics at the Institute for Advanced Studies in Dublin.",
+        "Διηύθυνε τη Σχολή Θεωρητικής Φυσικής στο Ινστιτούτο Προχωρημένων Σπουδών του Δουβλίνου."
+      ],
+      [
+        "He shared the 1933 Nobel Prize in Physics with Paul Dirac.",
+        "Μοιράστηκε το Νόμπελ Φυσικής του 1933 με τον Πολ Ντιράκ."
+      ],
+      [
+        "His famous thought experiment places a cat in a box, linked to a quantum event that could leave it alive or dead.",
+        "Στο διάσημο νοητικό του πείραμα, μια γάτα μέσα σε κουτί συνδέεται με ένα κβαντικό γεγονός που μπορεί να την αφήσει ζωντανή ή νεκρή."
+      ]
+    ],
+    "sources": [
+      "https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/",
+      "https://educationalgames.nobelprize.org/educational/physics/quantised_world/final-7.html"
+    ],
+    "image": ""
+  },
+  {
+    "id": "heisenberg",
+    "name": [
+      "Werner Heisenberg",
+      "Βέρνερ Χάιζενμπεργκ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Werner Heisenberg",
+      "Βέρνερ Χάιζενμπεργκ",
+      "Heisenberg",
+      "Χάιζενμπεργκ",
+      "Βέρνερ Χάιζενμπεργ"
+    ],
+    "clues": [
+      [
+        "After his doctorate in Munich, he became an assistant to Max Born in Göttingen.",
+        "Μετά το διδακτορικό του στο Μόναχο έγινε βοηθός του Μαξ Μπορν στο Γκέτινγκεν."
+      ],
+      [
+        "He received the Nobel Prize in Physics for 1932 for his role in creating quantum mechanics.",
+        "Τιμήθηκε με το Νόμπελ Φυσικής για το 1932 για τη συμβολή του στη θεμελίωση της κβαντομηχανικής."
+      ],
+      [
+        "His uncertainty principle limits how precisely a particle’s position and momentum can both be known.",
+        "Η αρχή της απροσδιοριστίας του περιορίζει την ακρίβεια με την οποία γνωρίζουμε ταυτόχρονα τη θέση και την ορμή ενός σωματιδίου."
+      ]
+    ],
+    "sources": [
+      "https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/",
+      "https://educationalgames.nobelprize.org/educational/physics/quantised_world/final-3.html"
+    ],
+    "image": ""
+  },
+  {
+    "id": "rutherford",
+    "name": [
+      "Ernest Rutherford",
+      "Έρνεστ Ράδερφορντ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Ernest Rutherford",
+      "Έρνεστ Ράδερφορντ",
+      "Rutherford",
+      "Ράδερφορντ",
+      "Έρνεστ Ράθερφορντ",
+      "Ράθερφορντ"
+    ],
+    "clues": [
+      [
+        "He was born in the Nelson region of New Zealand in 1871.",
+        "Γεννήθηκε στην περιοχή του Νέλσον στη Νέα Ζηλανδία το 1871."
+      ],
+      [
+        "Although a physicist, he received the 1908 Nobel Prize in Chemistry for work on radioactivity.",
+        "Αν και φυσικός, έλαβε το Νόμπελ Χημείας του 1908 για την έρευνά του στη ραδιενέργεια."
+      ],
+      [
+        "His interpretation of gold-foil scattering experiments revealed the atom’s small, dense nucleus.",
+        "Η ερμηνεία του για τα πειράματα σκέδασης σε φύλλο χρυσού αποκάλυψε τον μικρό, πυκνό πυρήνα του ατόμου."
+      ]
+    ],
+    "sources": [
+      "https://www.nobelprize.org/prizes/chemistry/1908/rutherford/biographical/",
+      "https://educationalgames.nobelprize.org/educational/physics/quantised_world/structure-1.html"
+    ],
+    "image": ""
+  },
+  {
+    "id": "pavlov",
+    "name": [
+      "Ivan Pavlov",
+      "Ιβάν Παβλόφ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Ivan Pavlov",
+      "Ιβάν Παβλόφ",
+      "Pavlov",
+      "Παβλόφ",
+      "Ιβάν Πάβλοφ",
+      "Πάβλοφ",
+      "Ivan Petrovich Pavlov"
+    ],
+    "clues": [
+      [
+        "He abandoned plans for a religious career and devoted himself to science.",
+        "Εγκατέλειψε τα σχέδιά του για θρησκευτική σταδιοδρομία και αφοσιώθηκε στην επιστήμη."
+      ],
+      [
+        "His research on digestion earned him the 1904 Nobel Prize in Physiology or Medicine.",
+        "Η έρευνά του στην πέψη τού χάρισε το Νόμπελ Φυσιολογίας ή Ιατρικής το 1904."
+      ],
+      [
+        "His experiments with dogs helped establish how a learned signal can trigger salivation: the conditioned reflex.",
+        "Τα πειράματά του με σκύλους έδειξαν πώς ένα μαθημένο σήμα μπορεί να προκαλέσει σιελόρροια: το εξαρτημένο αντανακλαστικό."
+      ]
+    ],
+    "sources": [
+      "https://www.nobelprize.org/prizes/medicine/1904/pavlov/biographical/",
+      "https://www.nobelprize.org/prizes/medicine/1904/pavlov/lecture/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "koch",
+    "name": [
+      "Robert Koch",
+      "Ρόμπερτ Κοχ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Robert Koch",
+      "Ρόμπερτ Κοχ",
+      "Koch",
+      "Κοχ"
+    ],
+    "clues": [
+      [
+        "He studied the life cycle of anthrax bacteria and the survival of their spores.",
+        "Μελέτησε τον κύκλο ζωής των βακτηρίων του άνθρακα και την επιβίωση των σπορίων τους."
+      ],
+      [
+        "He received the Nobel Prize in Physiology or Medicine in 1905.",
+        "Έλαβε το Νόμπελ Φυσιολογίας ή Ιατρικής το 1905."
+      ],
+      [
+        "In 1882, this German physician announced the discovery of the bacterium that causes tuberculosis.",
+        "Το 1882, ο Γερμανός γιατρός ανακοίνωσε την ανακάλυψη του βακτηρίου που προκαλεί τη φυματίωση."
+      ]
+    ],
+    "sources": [
+      "https://educationalgames.nobelprize.org/educational/medicine/tuberculosis/contributions.html",
+      "https://educationalgames.nobelprize.org/educational/medicine/tuberculosis/readmore.html"
+    ],
+    "image": ""
+  },
+  {
+    "id": "mendeleev",
+    "name": [
+      "Dmitri Mendeleev",
+      "Ντμίτρι Μεντελέγιεφ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Dmitri Mendeleev",
+      "Ντμίτρι Μεντελέγιεφ",
+      "Mendeleev",
+      "Μεντελέγιεφ",
+      "Dmitri Mendeleyev",
+      "Δημήτριος Μεντελέγιεφ"
+    ],
+    "clues": [
+      [
+        "He was born in Tobolsk, Siberia, in 1834.",
+        "Γεννήθηκε στο Τομπόλσκ της Σιβηρίας το 1834."
+      ],
+      [
+        "He predicted the properties of elements later identified as gallium and germanium.",
+        "Προέβλεψε ιδιότητες στοιχείων που αργότερα αναγνωρίστηκαν ως γάλλιο και γερμάνιο."
+      ],
+      [
+        "This Russian chemist published an influential periodic table in 1869, leaving gaps for undiscovered elements.",
+        "Ο Ρώσος χημικός δημοσίευσε το 1869 έναν καθοριστικό περιοδικό πίνακα, αφήνοντας κενά για άγνωστα ακόμη στοιχεία."
+      ]
+    ],
+    "sources": [
+      "https://periodic-table.rsc.org/about"
+    ],
+    "image": ""
+  },
+  {
+    "id": "michelangelo",
+    "name": [
+      "Michelangelo",
+      "Μιχαήλ Άγγελος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Michelangelo",
+      "Μιχαήλ Άγγελος",
+      "Michelangelo Buonarroti",
+      "Μικελάντζελο",
+      "Μιχαήλ Άγγελος Μπουοναρότι",
+      "Μικελάντζελο Μπουοναρότι"
+    ],
+    "clues": [
+      [
+        "As a young artist in Florence, he benefited from the patronage of Lorenzo de’ Medici.",
+        "Ως νεαρός καλλιτέχνης στη Φλωρεντία ωφελήθηκε από την προστασία του Λορέντσο των Μεδίκων."
+      ],
+      [
+        "He sculpted the marble Pietà now housed in St Peter’s Basilica.",
+        "Φιλοτέχνησε τη μαρμάρινη Πιετά που βρίσκεται στη Βασιλική του Αγίου Πέτρου."
+      ],
+      [
+        "This Renaissance master sculpted David and painted the ceiling of the Sistine Chapel.",
+        "Ο μεγάλος δημιουργός της Αναγέννησης φιλοτέχνησε τον Δαβίδ και ζωγράφισε την οροφή της Καπέλα Σιστίνα."
+      ]
+    ],
+    "sources": [
+      "https://www.metmuseum.org/met-publications/michelangelo-divine-draftsman-and-designer",
+      "https://www.nga.gov/content/dam/ngaweb/research/gallery-archives/PressReleases/1989-1980/1988/14A11_44711_19880803.pdf"
+    ],
+    "image": ""
+  },
+  {
+    "id": "dante",
+    "name": [
+      "Dante Alighieri",
+      "Δάντης Αλιγκέρι"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Dante Alighieri",
+      "Δάντης Αλιγκέρι",
+      "Dante",
+      "Δάντης",
+      "Δάντης Αλιγκιέρι"
+    ],
+    "clues": [
+      [
+        "He was sentenced to exile from Florence in 1302.",
+        "Καταδικάστηκε σε εξορία από τη Φλωρεντία το 1302."
+      ],
+      [
+        "His early work La Vita Nuova combines poetry and prose about his love for Beatrice.",
+        "Το πρώιμο έργο του Νέα Ζωή συνδυάζει ποίηση και πεζό λόγο για την αγάπη του προς τη Βεατρίκη."
+      ],
+      [
+        "He wrote the Divine Comedy, a journey through Hell, Purgatory and Paradise.",
+        "Έγραψε τη Θεία Κωμωδία, ένα ταξίδι στην Κόλαση, το Καθαρτήριο και τον Παράδεισο."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dante_Alighieri"
+    ],
+    "image": ""
+  },
+  {
+    "id": "pacino",
+    "name": [
+      "Al Pacino",
+      "Αλ Πατσίνο"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Al Pacino",
+      "Αλ Πατσίνο",
+      "Pacino",
+      "Πατσίνο",
+      "Alfredo Pacino"
+    ],
+    "clues": [
+      [
+        "One of his early leading film roles was in The Panic in Needle Park in 1971.",
+        "Ένας από τους πρώτους πρωταγωνιστικούς κινηματογραφικούς του ρόλους ήταν στο The Panic in Needle Park το 1971."
+      ],
+      [
+        "He won the Best Actor Oscar for playing a blind retired army officer in Scent of a Woman.",
+        "Κέρδισε Όσκαρ Α΄ Ανδρικού Ρόλου ως τυφλός απόστρατος αξιωματικός στο Άρωμα Γυναίκας."
+      ],
+      [
+        "He played Michael Corleone in The Godfather and Tony Montana in Scarface.",
+        "Έπαιξε τον Μάικλ Κορλεόνε στον Νονό και τον Τόνι Μοντάνα στον Σημαδεμένο."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Al_Pacino"
+    ],
+    "image": ""
+  },
+  {
+    "id": "de-niro",
+    "name": [
+      "Robert De Niro",
+      "Ρόμπερτ Ντε Νίρο"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Robert De Niro",
+      "Ρόμπερτ Ντε Νίρο",
+      "De Niro",
+      "Ντε Νίρο",
+      "Robert DeNiro",
+      "Ντενίρο"
+    ],
+    "clues": [
+      [
+        "He played baseball player Bruce Pearson in the 1973 film Bang the Drum Slowly.",
+        "Έπαιξε τον παίκτη μπέιζμπολ Μπρους Πίρσον στην ταινία Bang the Drum Slowly του 1973."
+      ],
+      [
+        "His portrayal of boxer Jake LaMotta in Raging Bull earned him the Best Actor Oscar.",
+        "Η ερμηνεία του ως πυγμάχος Τζέικ ΛαΜότα στο Οργισμένο Είδωλο τού χάρισε Όσκαρ Α΄ Ανδρικού Ρόλου."
+      ],
+      [
+        "He played Travis Bickle in Taxi Driver and the young Vito Corleone in The Godfather Part II.",
+        "Έπαιξε τον Τράβις Μπικλ στον Ταξιτζή και τον νεαρό Βίτο Κορλεόνε στον Νονό II."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_De_Niro"
+    ],
+    "image": ""
+  },
+  {
+    "id": "denzel-washington",
+    "name": [
+      "Denzel Washington",
+      "Ντένζελ Ουάσινγκτον"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Denzel Washington",
+      "Ντένζελ Ουάσινγκτον",
+      "Denzel",
+      "Ντένζελ",
+      "Denzel Hayes Washington"
+    ],
+    "clues": [
+      [
+        "He played Dr Phillip Chandler in the television medical drama St. Elsewhere.",
+        "Έπαιξε τον γιατρό Φίλιπ Τσάντλερ στην τηλεοπτική ιατρική σειρά St. Elsewhere."
+      ],
+      [
+        "He won a supporting-actor Oscar for portraying a Civil War soldier in Glory.",
+        "Κέρδισε Όσκαρ Β΄ Ανδρικού Ρόλου ως στρατιώτης του Αμερικανικού Εμφυλίου στην ταινία Glory."
+      ],
+      [
+        "He played corrupt detective Alonzo Harris in Training Day and Robert McCall in The Equalizer films.",
+        "Έπαιξε τον διεφθαρμένο αστυνομικό Αλόνζο Χάρις στο Training Day και τον Ρόμπερτ Μακόλ στις ταινίες The Equalizer."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Denzel_Washington"
+    ],
+    "image": ""
+  },
+  {
+    "id": "christian-bale",
+    "name": [
+      "Christian Bale",
+      "Κρίστιαν Μπέιλ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Christian Bale",
+      "Κρίστιαν Μπέιλ",
+      "Bale",
+      "Μπέιλ",
+      "Κρίστιαν Μπέηλ"
+    ],
+    "clues": [
+      [
+        "At thirteen, he starred in Steven Spielberg’s Empire of the Sun.",
+        "Στα δεκατρία του πρωταγωνίστησε στην Αυτοκρατορία του Ήλιου του Στίβεν Σπίλμπεργκ."
+      ],
+      [
+        "He portrayed Patrick Bateman in American Psycho.",
+        "Ενσάρκωσε τον Πάτρικ Μπέιτμαν στο American Psycho."
+      ],
+      [
+        "He played Bruce Wayne and Batman in Christopher Nolan’s Dark Knight trilogy.",
+        "Έπαιξε τον Μπρους Γουέιν και τον Μπάτμαν στην τριλογία του Σκοτεινού Ιππότη του Κρίστοφερ Νόλαν."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_Bale"
+    ],
+    "image": ""
+  },
+  {
+    "id": "matt-damon",
+    "name": [
+      "Matt Damon",
+      "Ματ Ντέιμον"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Matt Damon",
+      "Ματ Ντέιμον",
+      "Damon",
+      "Ντέιμον",
+      "Ματ Ντέημον"
+    ],
+    "clues": [
+      [
+        "He attended Harvard but left before completing his degree to pursue acting.",
+        "Φοίτησε στο Χάρβαρντ, αλλά έφυγε πριν ολοκληρώσει το πτυχίο του για να ασχοληθεί με την υποκριτική."
+      ],
+      [
+        "He shared a screenwriting Oscar with Ben Affleck for Good Will Hunting.",
+        "Μοιράστηκε με τον Μπεν Άφλεκ Όσκαρ σεναρίου για το Good Will Hunting."
+      ],
+      [
+        "He played Jason Bourne and the stranded astronaut Mark Watney in The Martian.",
+        "Έπαιξε τον Τζέισον Μπορν και τον αποκλεισμένο αστροναύτη Μαρκ Γουάτνι στη Διάσωση."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matt_Damon"
+    ],
+    "image": ""
+  },
+  {
+    "id": "joaquin-phoenix",
+    "name": [
+      "Joaquin Phoenix",
+      "Χοακίν Φίνιξ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Joaquin Phoenix",
+      "Χοακίν Φίνιξ",
+      "Phoenix",
+      "Χοακίν Φοίνιξ",
+      "Χοακίν",
+      "Joaquin"
+    ],
+    "clues": [
+      [
+        "As a child actor, he appeared in the 1986 adventure film SpaceCamp.",
+        "Ως παιδί ηθοποιός εμφανίστηκε στην ταινία περιπέτειας SpaceCamp του 1986."
+      ],
+      [
+        "He played Emperor Commodus opposite Russell Crowe in Gladiator.",
+        "Έπαιξε τον αυτοκράτορα Κόμμοδο δίπλα στον Ράσελ Κρόου στον Μονομάχο."
+      ],
+      [
+        "His portrayal of Arthur Fleck in the 2019 film Joker won him the Best Actor Oscar.",
+        "Η ερμηνεία του ως Άρθουρ Φλεκ στο Joker του 2019 τού χάρισε Όσκαρ Α΄ Ανδρικού Ρόλου."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joaquin_Phoenix"
+    ],
+    "image": ""
+  },
+  {
+    "id": "cillian-murphy",
+    "name": [
+      "Cillian Murphy",
+      "Κίλιαν Μέρφι"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Cillian Murphy",
+      "Κίλιαν Μέρφι",
+      "Cillian",
+      "Κίλιαν",
+      "Σίλιαν Μέρφι",
+      "Κίλιαν Μέρφυ"
+    ],
+    "clues": [
+      [
+        "He began studying law at University College Cork before turning to acting.",
+        "Ξεκίνησε σπουδές Νομικής στο University College Cork πριν στραφεί στην υποκριτική."
+      ],
+      [
+        "He played Dr Jonathan Crane, also known as Scarecrow, in Christopher Nolan’s Batman films.",
+        "Έπαιξε τον γιατρό Τζόναθαν Κρέιν, γνωστό ως Σκιάχτρο, στις ταινίες Μπάτμαν του Κρίστοφερ Νόλαν."
+      ],
+      [
+        "He starred as Tommy Shelby in Peaky Blinders and as the title character in Oppenheimer.",
+        "Πρωταγωνίστησε ως Τόμι Σέλμπι στο Peaky Blinders και στον ομώνυμο ρόλο του Oppenheimer."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cillian_Murphy"
+    ],
+    "image": ""
+  },
+  {
+    "id": "harrison-ford",
+    "name": [
+      "Harrison Ford",
+      "Χάρισον Φορντ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Harrison Ford",
+      "Χάρισον Φορντ",
+      "Ford",
+      "Φορντ",
+      "Χάρισον"
+    ],
+    "clues": [
+      [
+        "Before his major breakthrough, he supported his family by working as a carpenter.",
+        "Πριν από τη μεγάλη κινηματογραφική επιτυχία του συντηρούσε την οικογένειά του δουλεύοντας ως ξυλουργός."
+      ],
+      [
+        "He portrayed Rick Deckard in Blade Runner.",
+        "Ενσάρκωσε τον Ρικ Ντέκαρντ στο Blade Runner."
+      ],
+      [
+        "He is the actor behind Indiana Jones and Han Solo in Star Wars.",
+        "Είναι ο ηθοποιός πίσω από τον Ιντιάνα Τζόουνς και τον Χαν Σόλο στο Star Wars."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harrison_Ford"
+    ],
+    "image": ""
+  },
+  {
+    "id": "samuel-jackson",
+    "name": [
+      "Samuel L. Jackson",
+      "Σάμιουελ Λ. Τζάκσον"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Samuel L. Jackson",
+      "Σάμιουελ Λ. Τζάκσον",
+      "Samuel Jackson",
+      "Samuel L Jackson",
+      "Σάμιουελ Τζάκσον",
+      "Σάμιουελ Λ Τζάκσον",
+      "Σάμουελ Τζάκσον"
+    ],
+    "clues": [
+      [
+        "He initially studied marine biology at Morehouse College.",
+        "Αρχικά σπούδασε θαλάσσια βιολογία στο Morehouse College."
+      ],
+      [
+        "He provides the voice of Frozone in The Incredibles films.",
+        "Δανείζει τη φωνή του στον Φροζόουν στις ταινίες Οι Απίθανοι."
+      ],
+      [
+        "He played Jules Winnfield in Pulp Fiction and Nick Fury in the Marvel films.",
+        "Έπαιξε τον Τζουλς Γουίνφιλντ στο Pulp Fiction και τον Νικ Φιούρι στις ταινίες της Marvel."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samuel_L._Jackson"
+    ],
+    "image": ""
   }
 ]
