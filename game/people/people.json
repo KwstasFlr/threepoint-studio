@@ -8598,5 +8598,653 @@
       "https://en.wikipedia.org/wiki/Samuel_L._Jackson"
     ],
     "image": ""
+  },
+  {
+    "id": "homer",
+    "name": [
+      "Homer",
+      "Όμηρος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Homer",
+      "Όμηρος",
+      "Homeros"
+    ],
+    "clues": [
+      [
+        "Ancient traditions associated him with Smyrna and Chios.",
+        "Αρχαίες παραδόσεις τον συνέδεαν με τη Σμύρνη και τη Χίο."
+      ],
+      [
+        "The epics attributed to him use dactylic hexameter.",
+        "Τα έπη που του αποδίδονται είναι γραμμένα σε δακτυλικό εξάμετρο."
+      ],
+      [
+        "The ancient Greek poet traditionally credited with the Iliad and the Odyssey.",
+        "Ο αρχαίος Έλληνας ποιητής στον οποίο παραδοσιακά αποδίδονται η Ιλιάδα και η Οδύσσεια."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Homer"
+    ],
+    "image": ""
+  },
+  {
+    "id": "herodotus",
+    "name": [
+      "Herodotus",
+      "Ηρόδοτος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Herodotus",
+      "Ηρόδοτος"
+    ],
+    "clues": [
+      [
+        "He came from Halicarnassus, then part of the Persian Empire.",
+        "Καταγόταν από την Αλικαρνασσό, που τότε ανήκε στην Περσική Αυτοκρατορία."
+      ],
+      [
+        "His Histories examine the conflict between Greeks and Persians.",
+        "Οι Ιστορίες του εξετάζουν τη σύγκρουση Ελλήνων και Περσών."
+      ],
+      [
+        "This ancient Greek author is widely called the Father of History.",
+        "Ο αρχαίος Έλληνας συγγραφέας είναι γνωστός ως ο Πατέρας της Ιστορίας."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Herodotus"
+    ],
+    "image": ""
+  },
+  {
+    "id": "thucydides",
+    "name": [
+      "Thucydides",
+      "Θουκυδίδης"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Thucydides",
+      "Θουκυδίδης"
+    ],
+    "clues": [
+      [
+        "He spent years in exile after failing to save Amphipolis in 424 BC.",
+        "Πέρασε χρόνια στην εξορία αφού απέτυχε να σώσει την Αμφίπολη το 424 π.Χ."
+      ],
+      [
+        "He survived the plague of Athens and described its effects.",
+        "Επέζησε από τον λοιμό της Αθήνας και περιέγραψε τις συνέπειές του."
+      ],
+      [
+        "The Athenian historian who wrote the History of the Peloponnesian War.",
+        "Ο Αθηναίος ιστορικός που έγραψε την Ιστορία του Πελοποννησιακού Πολέμου."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thucydides"
+    ],
+    "image": ""
+  },
+  {
+    "id": "leonidas",
+    "name": [
+      "Leonidas I",
+      "Λεωνίδας"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Leonidas I",
+      "Λεωνίδας",
+      "Leonidas",
+      "Λεωνίδας Α΄",
+      "Leonidas of Sparta"
+    ],
+    "clues": [
+      [
+        "He belonged to Sparta’s Agiad royal dynasty.",
+        "Ανήκε στη βασιλική δυναστεία των Αγιαδών της Σπάρτης."
+      ],
+      [
+        "He died fighting the invasion led by Xerxes in 480 BC.",
+        "Σκοτώθηκε πολεμώντας την εισβολή του Ξέρξη το 480 π.Χ."
+      ],
+      [
+        "The Spartan king who led the famous 300 at Thermopylae.",
+        "Ο βασιλιάς της Σπάρτης που ηγήθηκε των περίφημων 300 στις Θερμοπύλες."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonidas_I"
+    ],
+    "image": ""
+  },
+  {
+    "id": "spartacus",
+    "name": [
+      "Spartacus",
+      "Σπάρτακος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Spartacus",
+      "Σπάρτακος"
+    ],
+    "clues": [
+      [
+        "Ancient sources describe him as being of Thracian origin.",
+        "Οι αρχαίες πηγές τον περιγράφουν ως θρακικής καταγωγής."
+      ],
+      [
+        "He escaped from a gladiatorial school at Capua in 73 BC.",
+        "Δραπέτευσε από σχολή μονομάχων στην Καπούη το 73 π.Χ."
+      ],
+      [
+        "The gladiator who became a leader of a major slave revolt against Rome.",
+        "Ο μονομάχος που έγινε ηγέτης μεγάλης εξέγερσης δούλων εναντίον της Ρώμης."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Spartacus"
+    ],
+    "image": ""
+  },
+  {
+    "id": "hannibal",
+    "name": [
+      "Hannibal",
+      "Αννίβας"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Hannibal",
+      "Αννίβας",
+      "Hannibal Barca",
+      "Αννίβας Βάρκας"
+    ],
+    "clues": [
+      [
+        "He took command of Carthaginian forces in Spain in 221 BC.",
+        "Ανέλαβε τις καρχηδονιακές δυνάμεις στην Ισπανία το 221 π.Χ."
+      ],
+      [
+        "He inflicted a devastating defeat on Rome at Cannae in 216 BC.",
+        "Προκάλεσε συντριπτική ήττα στη Ρώμη στις Κάννες το 216 π.Χ."
+      ],
+      [
+        "The Carthaginian general famous for crossing the Alps with war elephants.",
+        "Ο Καρχηδόνιος στρατηγός που έμεινε γνωστός επειδή διέσχισε τις Άλπεις με πολεμικούς ελέφαντες."
+      ]
+    ],
+    "sources": [
+      "https://www.livius.org/person/hannibal-3-barca"
+    ],
+    "image": ""
+  },
+  {
+    "id": "confucius",
+    "name": [
+      "Confucius",
+      "Κομφούκιος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Confucius",
+      "Κομφούκιος",
+      "Kong Fuzi",
+      "Kongzi"
+    ],
+    "clues": [
+      [
+        "He is traditionally associated with the ancient Chinese state of Lu.",
+        "Παραδοσιακά συνδέεται με το αρχαίο κινεζικό κράτος Λου."
+      ],
+      [
+        "His ethical teaching emphasized family duties, ritual and humane conduct.",
+        "Η ηθική του διδασκαλία τόνιζε τις οικογενειακές υποχρεώσεις, την τελετουργία και την ανθρωπιά."
+      ],
+      [
+        "The Chinese sage whose sayings and conversations are collected in the Analects.",
+        "Ο Κινέζος σοφός του οποίου τα λόγια και οι συζητήσεις συγκεντρώνονται στα Ανάλεκτα."
+      ]
+    ],
+    "sources": [
+      "https://plato.stanford.edu/entries/confucius/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "descartes",
+    "name": [
+      "René Descartes",
+      "Ρενέ Ντεκάρτ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "René Descartes",
+      "Ρενέ Ντεκάρτ",
+      "Rene Descartes",
+      "Descartes",
+      "Ντεκάρτ",
+      "Καρτέσιος"
+    ],
+    "clues": [
+      [
+        "As a young man, he joined the army of Maurice of Nassau in the Netherlands.",
+        "Ως νέος κατατάχθηκε στον στρατό του Μαυρικίου του Νασσάου στην Ολλανδία."
+      ],
+      [
+        "He helped connect algebra and geometry through analytic geometry.",
+        "Συνέδεσε την άλγεβρα με τη γεωμετρία μέσω της αναλυτικής γεωμετρίας."
+      ],
+      [
+        "The French philosopher associated with “I think, therefore I am.”",
+        "Ο Γάλλος φιλόσοφος που συνδέεται με τη φράση «Σκέφτομαι, άρα υπάρχω»."
+      ]
+    ],
+    "sources": [
+      "https://plato.stanford.edu/entries/descartes/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "kant",
+    "name": [
+      "Immanuel Kant",
+      "Ιμάνουελ Καντ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Immanuel Kant",
+      "Ιμάνουελ Καντ",
+      "Kant",
+      "Καντ",
+      "Εμμανουήλ Καντ"
+    ],
+    "clues": [
+      [
+        "In 1755, he published a theory about the formation of the solar system.",
+        "Το 1755 δημοσίευσε θεωρία για τον σχηματισμό του ηλιακού συστήματος."
+      ],
+      [
+        "His life and academic career were closely tied to Königsberg in Prussia.",
+        "Η ζωή και η ακαδημαϊκή του σταδιοδρομία συνδέθηκαν στενά με το Κένιγκσμπεργκ της Πρωσίας."
+      ],
+      [
+        "The philosopher of the categorical imperative and the Critique of Pure Reason.",
+        "Ο φιλόσοφος της κατηγορικής προσταγής και της Κριτικής του Καθαρού Λόγου."
+      ]
+    ],
+    "sources": [
+      "https://plato.stanford.edu/entries/kant-development/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "voltaire",
+    "name": [
+      "Voltaire",
+      "Βολταίρος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Voltaire",
+      "Βολταίρος"
+    ],
+    "clues": [
+      [
+        "He lived in England during part of the 1720s.",
+        "Έζησε στην Αγγλία για ένα διάστημα τη δεκαετία του 1720."
+      ],
+      [
+        "He wrote Letters Concerning the English Nation, also known as Philosophical Letters.",
+        "Έγραψε τις Επιστολές για τους Άγγλους, γνωστές και ως Φιλοσοφικές Επιστολές."
+      ],
+      [
+        "The French Enlightenment writer and satirist behind Candide.",
+        "Ο Γάλλος συγγραφέας και σατιρικός του Διαφωτισμού που έγραψε τον Καντίντ."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Voltaire"
+    ],
+    "image": ""
+  },
+  {
+    "id": "rousseau",
+    "name": [
+      "Jean-Jacques Rousseau",
+      "Ζαν-Ζακ Ρουσσώ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Jean-Jacques Rousseau",
+      "Ζαν-Ζακ Ρουσσώ",
+      "Jean Jacques Rousseau",
+      "Rousseau",
+      "Ρουσσώ",
+      "Ζαν Ζακ Ρουσό",
+      "Ρουσό"
+    ],
+    "clues": [
+      [
+        "His essay won the Academy of Dijon’s prize in 1750.",
+        "Το δοκίμιό του κέρδισε το βραβείο της Ακαδημίας της Ντιζόν το 1750."
+      ],
+      [
+        "His book Émile explores education and human development.",
+        "Το βιβλίο του Αιμίλιος εξετάζει την εκπαίδευση και την ανθρώπινη ανάπτυξη."
+      ],
+      [
+        "The Genevan philosopher who wrote The Social Contract.",
+        "Ο φιλόσοφος από τη Γενεύη που έγραψε το Κοινωνικό Συμβόλαιο."
+      ]
+    ],
+    "sources": [
+      "https://plato.stanford.edu/entries/rousseau/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "marx",
+    "name": [
+      "Karl Marx",
+      "Καρλ Μαρξ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Karl Marx",
+      "Καρλ Μαρξ",
+      "Marx",
+      "Μαρξ"
+    ],
+    "clues": [
+      [
+        "He worked as a journalist for the Rheinische Zeitung.",
+        "Εργάστηκε ως δημοσιογράφος στη Rheinische Zeitung."
+      ],
+      [
+        "Friedrich Engels was his long-term collaborator.",
+        "Ο Φρίντριχ Ένγκελς ήταν μακροχρόνιος συνεργάτης του."
+      ],
+      [
+        "He wrote Capital and co-authored The Communist Manifesto.",
+        "Έγραψε Το Κεφάλαιο και συνέγραψε το Κομμουνιστικό Μανιφέστο."
+      ]
+    ],
+    "sources": [
+      "https://plato.stanford.edu/entries/marx/"
+    ],
+    "image": ""
+  },
+  {
+    "id": "picasso",
+    "name": [
+      "Pablo Picasso",
+      "Πάμπλο Πικάσο"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Pablo Picasso",
+      "Πάμπλο Πικάσο",
+      "Picasso",
+      "Πικάσο"
+    ],
+    "clues": [
+      [
+        "He was born in Málaga, Spain, in 1881.",
+        "Γεννήθηκε στη Μάλαγα της Ισπανίας το 1881."
+      ],
+      [
+        "He developed Cubism alongside Georges Braque.",
+        "Ανέπτυξε τον κυβισμό μαζί με τον Ζορζ Μπρακ."
+      ],
+      [
+        "The Spanish artist who painted Guernica in 1937.",
+        "Ο Ισπανός καλλιτέχνης που ζωγράφισε την Γκερνίκα το 1937."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pablo_Picasso"
+    ],
+    "image": ""
+  },
+  {
+    "id": "dali",
+    "name": [
+      "Salvador Dalí",
+      "Σαλβαδόρ Νταλί"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Salvador Dalí",
+      "Σαλβαδόρ Νταλί",
+      "Salvador Dali",
+      "Dali",
+      "Dalí",
+      "Νταλί"
+    ],
+    "clues": [
+      [
+        "He was born in Figueres, Catalonia, in 1904.",
+        "Γεννήθηκε στο Φιγκέρες της Καταλονίας το 1904."
+      ],
+      [
+        "He collaborated with Luis Buñuel on the film Un Chien Andalou.",
+        "Συνεργάστηκε με τον Λουίς Μπουνιουέλ στην ταινία Ένας Ανδαλουσιανός Σκύλος."
+      ],
+      [
+        "The Surrealist painter of the melting clocks in The Persistence of Memory.",
+        "Ο σουρεαλιστής ζωγράφος των λιωμένων ρολογιών στην Εμμονή της Μνήμης."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD"
+    ],
+    "image": ""
+  },
+  {
+    "id": "monet",
+    "name": [
+      "Claude Monet",
+      "Κλοντ Μονέ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Claude Monet",
+      "Κλοντ Μονέ",
+      "Monet",
+      "Μονέ",
+      "Κλωντ Μονέ"
+    ],
+    "clues": [
+      [
+        "He grew up in the French port city of Le Havre.",
+        "Μεγάλωσε στη γαλλική πόλη και λιμάνι της Χάβρης."
+      ],
+      [
+        "The garden and pond at his home in Giverny inspired many of his paintings.",
+        "Ο κήπος και η λίμνη στο σπίτι του στο Ζιβερνί ενέπνευσαν πολλούς πίνακές του."
+      ],
+      [
+        "The French Impressionist behind Water Lilies and Impression, Sunrise.",
+        "Ο Γάλλος ιμπρεσιονιστής που ζωγράφισε τα Νούφαρα και τον πίνακα Εντύπωση, Ανατολή του Ήλιου."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Claude_Monet"
+    ],
+    "image": ""
+  },
+  {
+    "id": "rembrandt",
+    "name": [
+      "Rembrandt",
+      "Ρέμπραντ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Rembrandt",
+      "Ρέμπραντ",
+      "Rembrandt van Rijn",
+      "Ρέμπραντ φαν Ράιν"
+    ],
+    "clues": [
+      [
+        "He was born in Leiden in 1606.",
+        "Γεννήθηκε στο Λέιντεν το 1606."
+      ],
+      [
+        "His work includes numerous self-portraits and etchings.",
+        "Το έργο του περιλαμβάνει πολλές αυτοπροσωπογραφίες και χαρακτικά."
+      ],
+      [
+        "The Dutch Golden Age master who painted The Night Watch.",
+        "Ο μεγάλος ζωγράφος της ολλανδικής Χρυσής Εποχής που φιλοτέχνησε τη Νυχτερινή Περίπολο."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rembrandt"
+    ],
+    "image": ""
+  },
+  {
+    "id": "che-guevara",
+    "name": [
+      "Che Guevara",
+      "Τσε Γκεβάρα"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Che Guevara",
+      "Τσε Γκεβάρα",
+      "Che",
+      "Τσε",
+      "Ernesto Guevara",
+      "Ernesto Che Guevara",
+      "Ερνέστο Γκεβάρα"
+    ],
+    "clues": [
+      [
+        "He trained as a doctor in Argentina.",
+        "Σπούδασε Ιατρική στην Αργεντινή."
+      ],
+      [
+        "A youthful journey through South America became the basis of The Motorcycle Diaries.",
+        "Ένα νεανικό ταξίδι του στη Νότια Αμερική έγινε η βάση για τα Ημερολόγια Μοτοσικλέτας."
+      ],
+      [
+        "The Argentine revolutionary who fought alongside Fidel Castro in Cuba and became an iconic image in a starred beret.",
+        "Ο Αργεντινός επαναστάτης που πολέμησε μαζί με τον Φιντέλ Κάστρο στην Κούβα και έγινε εμβληματική εικόνα με μπερέ με αστέρι."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Che_Guevara"
+    ],
+    "image": ""
+  },
+  {
+    "id": "fidel-castro",
+    "name": [
+      "Fidel Castro",
+      "Φιντέλ Κάστρο"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Fidel Castro",
+      "Φιντέλ Κάστρο",
+      "Castro",
+      "Κάστρο",
+      "Fidel",
+      "Φιντέλ"
+    ],
+    "clues": [
+      [
+        "He led the failed attack on the Moncada Barracks in 1953.",
+        "Ηγήθηκε της αποτυχημένης επίθεσης στους στρατώνες Μονκάδα το 1953."
+      ],
+      [
+        "He returned from Mexico to Cuba aboard the Granma in 1956.",
+        "Επέστρεψε από το Μεξικό στην Κούβα με το Granma το 1956."
+      ],
+      [
+        "The longtime Cuban leader who came to power after the 1959 revolution against Batista.",
+        "Ο επί δεκαετίες ηγέτης της Κούβας που ανέβηκε στην εξουσία μετά την επανάσταση του 1959 εναντίον του Μπατίστα."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fidel_Castro"
+    ],
+    "image": ""
+  },
+  {
+    "id": "lenin",
+    "name": [
+      "Vladimir Lenin",
+      "Βλαντίμιρ Λένιν"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Vladimir Lenin",
+      "Βλαντίμιρ Λένιν",
+      "Lenin",
+      "Λένιν"
+    ],
+    "clues": [
+      [
+        "He was sentenced to exile in Siberia in 1897.",
+        "Καταδικάστηκε σε εξορία στη Σιβηρία το 1897."
+      ],
+      [
+        "He returned to Russia in 1917, travelling through Germany in a sealed train.",
+        "Επέστρεψε στη Ρωσία το 1917, περνώντας από τη Γερμανία με σφραγισμένο τρένο."
+      ],
+      [
+        "The Bolshevik leader of the October Revolution and an architect of the Soviet Union.",
+        "Ο ηγέτης των μπολσεβίκων στην Οκτωβριανή Επανάσταση και πρωτεργάτης της Σοβιετικής Ένωσης."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vladimir_Lenin"
+    ],
+    "image": ""
+  },
+  {
+    "id": "amundsen",
+    "name": [
+      "Roald Amundsen",
+      "Ρόαλντ Αμούνδσεν"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Roald Amundsen",
+      "Ρόαλντ Αμούνδσεν",
+      "Amundsen",
+      "Αμούνδσεν",
+      "Ρόαλντ Άμουνδσεν",
+      "Άμουνδσεν"
+    ],
+    "clues": [
+      [
+        "He led the first successful navigation of the Northwest Passage between 1903 and 1906.",
+        "Ηγήθηκε του πρώτου επιτυχημένου διάπλου του Βορειοδυτικού Περάσματος μεταξύ 1903 και 1906."
+      ],
+      [
+        "His Antarctic expedition relied heavily on sled dogs.",
+        "Η αποστολή του στην Ανταρκτική βασίστηκε σε μεγάλο βαθμό σε σκύλους έλκηθρου."
+      ],
+      [
+        "The Norwegian explorer who led the first expedition to reach the South Pole in 1911.",
+        "Ο Νορβηγός εξερευνητής που ηγήθηκε της πρώτης αποστολής που έφτασε στον Νότιο Πόλο το 1911."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roald_Amundsen"
+    ],
+    "image": ""
   }
 ]
