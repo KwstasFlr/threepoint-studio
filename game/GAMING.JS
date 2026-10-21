@@ -353,9 +353,450 @@ GM_CHARACTERS.push(...[
     "quoteOnly": true
   }
 ]);
+// Familiar characters; Classic traits use each character’s first game appearance.
+const GM_EXPANSION80={
+  "garrus": {
+    "gender": "male",
+    "series": "Mass Effect",
+    "genre": "rpg",
+    "year": 2007,
+    "platform": [
+      "Xbox 360"
+    ]
+  },
+  "handsomejack": {
+    "gender": "male",
+    "series": "Borderlands",
+    "genre": "fps",
+    "year": 2012,
+    "platform": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ]
+  },
+  "claptrap": {
+    "gender": "male",
+    "series": "Borderlands",
+    "genre": "fps",
+    "year": 2009,
+    "platform": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ]
+  },
+  "bigsmoke": {
+    "gender": "male",
+    "series": "Grand Theft Auto",
+    "genre": "adventure",
+    "year": 2004,
+    "platform": [
+      "PS2"
+    ]
+  }
+};
+for(const c of GM_CHARACTERS){if(GM_EXPANSION80[c.id]){Object.assign(c,GM_EXPANSION80[c.id]);delete c.quoteOnly;}}
+const GM_QUOTES80={
+  "jak": {
+    "quote": [
+      "I'm gonna kill Praxis!",
+      "Θα σκοτώσω τον Πράξις!"
+    ],
+    "game": "Jak II",
+    "source": "https://en.wikiquote.org/wiki/Jak_II#Jak"
+  },
+  "ratchet": {
+    "quote": [
+      "This isn't the real Captain Qwark, you numskull. It's a robot!",
+      "Δεν είναι ο αληθινός Κάπτεν Κουόρκ, κουτοκέφαλε. Είναι ρομπότ!"
+    ],
+    "game": "Ratchet & Clank (2002)",
+    "source": "https://en.wikiquote.org/wiki/Ratchet_%26_Clank_series"
+  },
+  "spyro": {
+    "quote": [
+      "Bring him on! I think I smell a barbecue!",
+      "Ας έρθει! Νομίζω ότι μυρίζω μπάρμπεκιου!"
+    ],
+    "game": "Spyro the Dragon",
+    "source": "https://en.wikiquote.org/wiki/Spyro_the_Dragon#Toasty"
+  },
+  "zelda": {
+    "quote": [
+      "But courage need not be remembered... For it is never forgotten.",
+      "Το θάρρος δεν χρειάζεται να το θυμηθείς… γιατί δεν ξεχνιέται ποτέ."
+    ],
+    "game": "The Legend of Zelda: Breath of the Wild",
+    "source": "https://en.wikiquote.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Zelda"
+  }
+};
+for(const c of GM_CHARACTERS){if(GM_QUOTES80[c.id]){Object.assign(c,GM_QUOTES80[c.id]);delete c.classicOnly;}}
+GM_CHARACTERS.push(...[
+  {
+    "id": "cj",
+    "name": "Carl “CJ” Johnson",
+    "aliases": [
+      "cj",
+      "carl johnson",
+      "carl cj johnson",
+      "καρλ τζονσον"
+    ],
+    "gender": "male",
+    "series": "Grand Theft Auto",
+    "genre": "adventure",
+    "year": 2004,
+    "platform": [
+      "PS2"
+    ],
+    "quote": [
+      "Ah shit, here we go again.",
+      "Γαμώτο, πάλι τα ίδια."
+    ],
+    "game": "Grand Theft Auto: San Andreas",
+    "source": "https://en.wikiquote.org/wiki/Grand_Theft_Auto:_San_Andreas"
+  },
+  {
+    "id": "trevor",
+    "name": "Trevor Philips",
+    "aliases": [
+      "trevor",
+      "τρέβορ",
+      "τρεβορ"
+    ],
+    "gender": "male",
+    "series": "Grand Theft Auto",
+    "genre": "adventure",
+    "year": 2013,
+    "platform": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "quote": [
+      "Let’s party, gentlemen!",
+      "Ας αρχίσει το πάρτι, κύριοι!"
+    ],
+    "game": "Grand Theft Auto V",
+    "source": "https://en.wikiquote.org/wiki/Grand_Theft_Auto_V#Trevor_Philips"
+  },
+  {
+    "id": "michael",
+    "name": "Michael De Santa",
+    "aliases": [
+      "michael",
+      "michael townley",
+      "μαικλ ντε σαντα"
+    ],
+    "gender": "male",
+    "series": "Grand Theft Auto",
+    "genre": "adventure",
+    "year": 2013,
+    "platform": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "quote": [
+      "You forget a thousand things every day, pal.",
+      "Ξεχνάς χίλια πράγματα κάθε μέρα, φίλε."
+    ],
+    "game": "Grand Theft Auto V",
+    "source": "https://en.wikiquote.org/wiki/Grand_Theft_Auto_V#Michael_De_Santa"
+  },
+  {
+    "id": "franklin",
+    "name": "Franklin Clinton",
+    "aliases": [
+      "franklin",
+      "φρανκλιν"
+    ],
+    "gender": "male",
+    "series": "Grand Theft Auto",
+    "genre": "adventure",
+    "year": 2013,
+    "platform": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "quote": [
+      "You two motherfuckers terrify me of that middle age.",
+      "Εσείς οι δυο με κάνετε να τρέμω τη μέση ηλικία."
+    ],
+    "game": "Grand Theft Auto V",
+    "source": "https://en.wikiquote.org/wiki/Grand_Theft_Auto_V#Franklin_Clinton"
+  },
+  {
+    "id": "niko",
+    "name": "Niko Bellic",
+    "aliases": [
+      "niko",
+      "νικο μπελιτς"
+    ],
+    "gender": "male",
+    "series": "Grand Theft Auto",
+    "genre": "adventure",
+    "year": 2008,
+    "platform": [
+      "PS3",
+      "Xbox 360",
+      "PC"
+    ],
+    "quote": [
+      "War is where the young and stupid are tricked by the old and bitter into killing each other.",
+      "Πόλεμος είναι όταν οι γέροι και πικραμένοι ξεγελούν τους νέους και αφελείς για να σκοτώνουν ο ένας τον άλλον."
+    ],
+    "game": "Grand Theft Auto IV",
+    "source": "https://en.wikiquote.org/wiki/Grand_Theft_Auto_IV#Niko_Bellic"
+  },
+  {
+    "id": "agent47",
+    "name": "Agent 47",
+    "aliases": [
+      "47",
+      "agent forty seven",
+      "πρακτορας 47"
+    ],
+    "gender": "male",
+    "series": "Hitman",
+    "genre": "stealth",
+    "year": 2000,
+    "platform": [
+      "PC"
+    ],
+    "quote": [
+      "Names are for friends...so I don't need one.",
+      "Τα ονόματα είναι για τους φίλους… άρα δεν χρειάζομαι ένα."
+    ],
+    "game": "Hitman: Blood Money",
+    "source": "https://en.wikiquote.org/wiki/Hitman:_Blood_Money"
+  },
+  {
+    "id": "shepard",
+    "name": "Commander Shepard",
+    "aliases": [
+      "shepard",
+      "commander shepherd",
+      "σεπαρντ"
+    ],
+    "gender": "player",
+    "series": "Mass Effect",
+    "genre": "rpg",
+    "year": 2007,
+    "platform": [
+      "Xbox 360"
+    ],
+    "quote": [
+      "I should go.",
+      "Πρέπει να φύγω."
+    ],
+    "game": "Mass Effect",
+    "source": "https://en.wikiquote.org/wiki/Mass_Effect#Commander_Shepard"
+  },
+  {
+    "id": "marcus",
+    "name": "Marcus Fenix",
+    "aliases": [
+      "marcus",
+      "μαρκους φινιξ"
+    ],
+    "gender": "male",
+    "series": "Gears of War",
+    "genre": "action",
+    "year": 2006,
+    "platform": [
+      "Xbox 360"
+    ],
+    "quote": [
+      "They're sinking cities with a giant worm!",
+      "Βυθίζουν πόλεις με ένα γιγάντιο σκουλήκι!"
+    ],
+    "game": "Gears of War 2",
+    "source": "https://gearsofwar.fandom.com/wiki/Marcus_Michael_Fenix"
+  },
+  {
+    "id": "price",
+    "name": "Captain Price",
+    "aliases": [
+      "price",
+      "john price",
+      "captain john price",
+      "καπτεν πραϊς"
+    ],
+    "gender": "male",
+    "series": "Call of Duty",
+    "genre": "fps",
+    "year": 2007,
+    "platform": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "quote": [
+      "Just another day at the office.",
+      "Άλλη μια μέρα στο γραφείο."
+    ],
+    "game": "Call of Duty 4: Modern Warfare",
+    "source": "https://en.wikiquote.org/wiki/Call_of_Duty_(series)#Call_of_Duty_4:_Modern_Warfare"
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "aliases": [
+      "simon riley",
+      "simon ghost riley",
+      "γκoστ",
+      "γκοστ"
+    ],
+    "gender": "male",
+    "series": "Call of Duty",
+    "genre": "fps",
+    "year": 2009,
+    "platform": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "quote": [
+      "Be careful who you trust, Sergeant. People you know can hurt you the most.",
+      "Πρόσεχε ποιον εμπιστεύεσαι, λοχία. Οι γνωστοί σου μπορούν να σε πληγώσουν περισσότερο."
+    ],
+    "game": "Call of Duty: Modern Warfare II (2022)",
+    "source": "https://www.youtube.com/watch?v=aBKyyg9ZEtg"
+  },
+  {
+    "id": "akuma",
+    "name": "Akuma",
+    "aliases": [
+      "gouki",
+      "ακουμα"
+    ],
+    "gender": "male",
+    "series": "Street Fighter",
+    "genre": "fighting",
+    "year": 1994,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Die one thousand deaths!",
+      "Πέθανε χίλιους θανάτους!"
+    ],
+    "game": "Street Fighter IV",
+    "source": "https://streetfighter.fandom.com/wiki/Akuma/Quotes"
+  },
+  {
+    "id": "subzero",
+    "name": "Sub-Zero",
+    "aliases": [
+      "sub zero",
+      "subzero",
+      "kuai liang",
+      "σαμπ ζιρο"
+    ],
+    "gender": "male",
+    "series": "Mortal Kombat",
+    "genre": "fighting",
+    "year": 1993,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "My blood runs cold.",
+      "Το αίμα μου είναι παγωμένο."
+    ],
+    "game": "Mortal Kombat 11",
+    "source": "https://en.wikiquote.org/wiki/Mortal_Kombat_11"
+  },
+  {
+    "id": "raiden",
+    "name": "Raiden",
+    "aliases": [
+      "ραιντεν",
+      "ράιντεν"
+    ],
+    "gender": "male",
+    "series": "Mortal Kombat",
+    "genre": "fighting",
+    "year": 1992,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "There are fates worse than death.",
+      "Υπάρχουν μοίρες χειρότερες από τον θάνατο."
+    ],
+    "game": "Mortal Kombat X",
+    "source": "https://en.wikiquote.org/wiki/Mortal_Kombat_X"
+  },
+  {
+    "id": "liukang",
+    "name": "Liu Kang",
+    "aliases": [
+      "liu",
+      "liu kang",
+      "λιου κανγκ"
+    ],
+    "gender": "male",
+    "series": "Mortal Kombat",
+    "genre": "fighting",
+    "year": 1992,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "What does it mean to wield the Sands of Time?",
+      "Τι σημαίνει να εξουσιάζεις την Άμμο του Χρόνου;"
+    ],
+    "game": "Mortal Kombat 11",
+    "source": "https://en.wikiquote.org/wiki/Mortal_Kombat_11"
+  },
+  {
+    "id": "bowser",
+    "name": "Bowser",
+    "aliases": [
+      "king koopa",
+      "κουπα",
+      "μπαουζερ"
+    ],
+    "gender": "male",
+    "series": "Super Mario",
+    "genre": "platform",
+    "year": 1985,
+    "platform": [
+      "Nintendo NES / Famicom"
+    ],
+    "quote": [
+      "Welcome. No one's home! Now scram—and don't come back!",
+      "Καλώς ήρθες. Κανείς δεν είναι σπίτι! Φύγε και μην ξανάρθεις!"
+    ],
+    "game": "Super Mario 64",
+    "source": "https://en.wikiquote.org/wiki/Super_Mario_64#Bowser"
+  },
+  {
+    "id": "sephiroth",
+    "name": "Sephiroth",
+    "aliases": [
+      "σεφιροθ",
+      "σεφιροτ"
+    ],
+    "gender": "male",
+    "series": "Final Fantasy",
+    "genre": "rpg",
+    "year": 1997,
+    "platform": [
+      "PS1"
+    ],
+    "quote": [
+      "Seven seconds till the end. Time enough for you. Perhaps.",
+      "Επτά δευτερόλεπτα ως το τέλος. Αρκετός χρόνος για σένα. Ίσως."
+    ],
+    "game": "Final Fantasy VII Remake",
+    "source": "https://en.wikiquote.org/wiki/Final_Fantasy_VII_Remake#Sephiroth"
+  }
+]);
+
 const GM_LEGACY_IDS=GM_CHARACTERS.slice(0,10).map(c=>c.id);
 const GM_BY_ID=new Map(GM_CHARACTERS.map(c=>[c.id,c]));
-const GM_LABELS={maze:["Maze chase","Λαβύρινθος"],"fireball":["Fireballs / jumps", "Πύρινες μπάλες / άλματα"],"spin":["Spin attack", "Περιστροφική επίθεση"],"golf-club":["Golf club", "Μπαστούνι γκολφ"],"staff":["Caduceus Staff", "Ράβδος Caduceus"],"tears":["Dimensional tears", "Διαστατικά ρήγματα"],"biotics":["Biotics", "Βιοτικές δυνάμεις"],"claws":["Claws / psionics", "Νύχια / ψιονικές δυνάμεις"],"strategy":["Strategy", "Στρατηγική"],"stealth":["Stealth", "Μυστικότητα"],"metroidvania":["Metroidvania", "Metroidvania"],"puzzle":["Puzzle", "Γρίφοι"],"silenced-handgun":["Silenced handgun", "Πιστόλι με σιγαστήρα"],"arm-cannon":["Arm cannon", "Κανόνι βραχίονα"],"rocket-launcher":["Rocket launcher", "Εκτοξευτής ρουκετών"],"steel-fans":["Steel fans", "Ατσάλινες βεντάλιες"],'platform':['Platformer','Πλατφόρμας'],'sword-pistols':['Sword / dual pistols','Σπαθί / δύο πιστόλια'],'buster-sword':['Buster Sword','Buster Sword'],'kunai':['Kunai / hellfire','Kunai / φωτιά'],'grapple':['Grappling gun','Όπλο γάντζου'],'gunblade':['Gunblade','Gunblade'],'parasol':['Parasol','Ομπρέλα'],'ai':['AI / hacking','AI / hacking'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],adventure:['Action adventure','Δράση / περιπέτεια'],horror:['Survival horror','Τρόμος / επιβίωση'],fighting:['Fighting','Μάχες'],action:['Action','Δράση'],rpg:['RPG','RPG'],fps:['FPS','FPS'],pistols:['Dual pistols','Δύο πιστόλια'],handgun:['Handgun','Πιστόλι'],kicks:['Martial arts / kicks','Πολεμικές τέχνες / κλωτσιές'],bow:['Bow','Τόξο'],'gun-heels':['Guns / gun heels','Όπλα / ένοπλα τακούνια'],blades:['Blades of Chaos','Λεπίδες του Χάους'],swords:['Steel / silver swords','Ατσάλινο / ασημένιο σπαθί'],revolver:['Revolver','Περίστροφο'],rifle:['Assault rifle','Τυφέκιο εφόδου'],'hidden-blade':['Hidden blade','Κρυφή λεπίδα']};
+const GM_LABELS={player:["Player choice","Επιλογή παίκτη"],maze:["Maze chase","Λαβύρινθος"],"fireball":["Fireballs / jumps", "Πύρινες μπάλες / άλματα"],"spin":["Spin attack", "Περιστροφική επίθεση"],"golf-club":["Golf club", "Μπαστούνι γκολφ"],"staff":["Caduceus Staff", "Ράβδος Caduceus"],"tears":["Dimensional tears", "Διαστατικά ρήγματα"],"biotics":["Biotics", "Βιοτικές δυνάμεις"],"claws":["Claws / psionics", "Νύχια / ψιονικές δυνάμεις"],"strategy":["Strategy", "Στρατηγική"],"stealth":["Stealth", "Μυστικότητα"],"metroidvania":["Metroidvania", "Metroidvania"],"puzzle":["Puzzle", "Γρίφοι"],"silenced-handgun":["Silenced handgun", "Πιστόλι με σιγαστήρα"],"arm-cannon":["Arm cannon", "Κανόνι βραχίονα"],"rocket-launcher":["Rocket launcher", "Εκτοξευτής ρουκετών"],"steel-fans":["Steel fans", "Ατσάλινες βεντάλιες"],'platform':['Platformer','Πλατφόρμας'],'sword-pistols':['Sword / dual pistols','Σπαθί / δύο πιστόλια'],'buster-sword':['Buster Sword','Buster Sword'],'kunai':['Kunai / hellfire','Kunai / φωτιά'],'grapple':['Grappling gun','Όπλο γάντζου'],'gunblade':['Gunblade','Gunblade'],'parasol':['Parasol','Ομπρέλα'],'ai':['AI / hacking','AI / hacking'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],adventure:['Action adventure','Δράση / περιπέτεια'],horror:['Survival horror','Τρόμος / επιβίωση'],fighting:['Fighting','Μάχες'],action:['Action','Δράση'],rpg:['RPG','RPG'],fps:['FPS','FPS'],pistols:['Dual pistols','Δύο πιστόλια'],handgun:['Handgun','Πιστόλι'],kicks:['Martial arts / kicks','Πολεμικές τέχνες / κλωτσιές'],bow:['Bow','Τόξο'],'gun-heels':['Guns / gun heels','Όπλα / ένοπλα τακούνια'],blades:['Blades of Chaos','Λεπίδες του Χάους'],swords:['Steel / silver swords','Ατσάλινο / ασημένιο σπαθί'],revolver:['Revolver','Περίστροφο'],rifle:['Assault rifle','Τυφέκιο εφόδου'],'hidden-blade':['Hidden blade','Κρυφή λεπίδα']};
 function gmNormalize(value){return (window.GMPNames?.fold(value)??value.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase()).replace(/[.\s_-]+/g,' ').trim();}
 function gmValue(c,key){if(key==='platform')return c.platform.join(' / ');return GM_LABELS[c[key]]?T(...GM_LABELS[c[key]]):String(c[key]);}
 function gmMax(mode){return mode==='classic'?6:5;}
