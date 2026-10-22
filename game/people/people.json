@@ -9246,5 +9246,656 @@
       "https://en.wikipedia.org/wiki/Roald_Amundsen"
     ],
     "image": ""
+  },
+  {
+    "id": "bach",
+    "name": [
+      "Johann Sebastian Bach",
+      "Γιόχαν Σεμπάστιαν Μπαχ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Johann Sebastian Bach",
+      "Γιόχαν Σεμπάστιαν Μπαχ",
+      "Bach",
+      "Johann Bach",
+      "Μπαχ"
+    ],
+    "clues": [
+      [
+        "He became Leipzig’s Thomaskantor in 1723, directing music for its principal churches.",
+        "Έγινε κάντορας του Αγίου Θωμά στη Λειψία το 1723, διευθύνοντας τη μουσική στις κύριες εκκλησίες της."
+      ],
+      [
+        "Four of his twenty children also became composers.",
+        "Τέσσερα από τα είκοσι παιδιά του έγιναν επίσης συνθέτες."
+      ],
+      [
+        "The German Baroque composer behind the Brandenburg Concertos and The Well-Tempered Clavier.",
+        "Ο Γερμανός συνθέτης του μπαρόκ που έγραψε τα Βρανδεμβούργια Κοντσέρτα και το Καλώς Συγκερασμένο Κλειδοκύμβαλο."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
+    ],
+    "image": ""
+  },
+  {
+    "id": "chopin",
+    "name": [
+      "Frédéric Chopin",
+      "Φρεντερίκ Σοπέν"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Frédéric Chopin",
+      "Φρεντερίκ Σοπέν",
+      "Frederic Chopin",
+      "Fryderyk Chopin",
+      "Chopin",
+      "Σοπέν"
+    ],
+    "clues": [
+      [
+        "He left Poland at twenty and settled in Paris the following year.",
+        "Έφυγε από την Πολωνία στα είκοσι και εγκαταστάθηκε στο Παρίσι την επόμενη χρονιά."
+      ],
+      [
+        "His music includes celebrated mazurkas, polonaises and nocturnes.",
+        "Η μουσική του περιλαμβάνει διάσημες μαζούρκες, πολωνέζες και νυχτερινά."
+      ],
+      [
+        "The Polish Romantic composer and virtuoso whose work is centered on the piano.",
+        "Ο Πολωνός ρομαντικός συνθέτης και δεξιοτέχνης του οποίου το έργο επικεντρώνεται στο πιάνο."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
+    ],
+    "image": ""
+  },
+  {
+    "id": "vivaldi",
+    "name": [
+      "Antonio Vivaldi",
+      "Αντόνιο Βιβάλντι"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Antonio Vivaldi",
+      "Αντόνιο Βιβάλντι",
+      "Vivaldi",
+      "Βιβάλντι"
+    ],
+    "clues": [
+      [
+        "He wrote much of his music for a girls’ ensemble at Venice’s Ospedale della Pietà.",
+        "Έγραψε πολλή από τη μουσική του για γυναικείο σύνολο στο Οσπεντάλε ντέλα Πιετά της Βενετίας."
+      ],
+      [
+        "This virtuoso violinist was also ordained as a Catholic priest.",
+        "Ο δεξιοτέχνης βιολονίστας είχε χειροτονηθεί και καθολικός ιερέας."
+      ],
+      [
+        "The Italian Baroque composer of the violin concertos The Four Seasons.",
+        "Ο Ιταλός συνθέτης του μπαρόκ που έγραψε τα κοντσέρτα για βιολί Οι Τέσσερις Εποχές."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antonio_Vivaldi"
+    ],
+    "image": ""
+  },
+  {
+    "id": "tchaikovsky",
+    "name": [
+      "Pyotr Ilyich Tchaikovsky",
+      "Πιοτρ Ίλιτς Τσαϊκόφσκι"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Pyotr Ilyich Tchaikovsky",
+      "Πιοτρ Ίλιτς Τσαϊκόφσκι",
+      "Tchaikovsky",
+      "Pyotr Tchaikovsky",
+      "Τσαϊκόφσκι",
+      "Πιοτρ Τσαϊκόφσκι"
+    ],
+    "clues": [
+      [
+        "He was initially educated for a career in the civil service.",
+        "Αρχικά εκπαιδεύτηκε για να ακολουθήσει σταδιοδρομία στη δημόσια διοίκηση."
+      ],
+      [
+        "His concert works include the 1812 Overture and a famous First Piano Concerto.",
+        "Στα συμφωνικά έργα του περιλαμβάνονται η Εισαγωγή 1812 και ένα διάσημο Πρώτο Κοντσέρτο για Πιάνο."
+      ],
+      [
+        "The Russian composer of Swan Lake, The Sleeping Beauty and The Nutcracker.",
+        "Ο Ρώσος συνθέτης της Λίμνης των Κύκνων, της Ωραίας Κοιμωμένης και του Καρυοθραύστη."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
+    ],
+    "image": ""
+  },
+  {
+    "id": "raphael",
+    "name": [
+      "Raphael",
+      "Ραφαήλ"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Raphael",
+      "Ραφαήλ",
+      "Raffaello Sanzio",
+      "Raffaello",
+      "Ραφαέλο",
+      "Ραφαήλ Σάντσιο"
+    ],
+    "clues": [
+      [
+        "His father was a court painter in Urbino.",
+        "Ο πατέρας του ήταν ζωγράφος της αυλής στο Ουρμπίνο."
+      ],
+      [
+        "Pope Julius II invited him to Rome in 1508 to work at the Vatican.",
+        "Ο πάπας Ιούλιος Β΄ τον κάλεσε στη Ρώμη το 1508 για να εργαστεί στο Βατικανό."
+      ],
+      [
+        "The High Renaissance master who painted The School of Athens.",
+        "Ο μεγάλος ζωγράφος της Ώριμης Αναγέννησης που φιλοτέχνησε τη Σχολή των Αθηνών."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Raphael"
+    ],
+    "image": ""
+  },
+  {
+    "id": "gutenberg",
+    "name": [
+      "Johannes Gutenberg",
+      "Γιοχάνες Γουτεμβέργιος"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Johannes Gutenberg",
+      "Γιοχάνες Γουτεμβέργιος",
+      "Gutenberg",
+      "Johann Gutenberg",
+      "Γουτεμβέργιος",
+      "Γκούτενμπεργκ"
+    ],
+    "clues": [
+      [
+        "A museum dedicated to his work opened in his hometown of Mainz in 1900.",
+        "Μουσείο αφιερωμένο στο έργο του άνοιξε στη γενέτειρά του, το Μάιντς, το 1900."
+      ],
+      [
+        "His printing methods combined cast metal type, oil-based ink and a mechanical press.",
+        "Οι μέθοδοι εκτύπωσής του συνδύαζαν χυτά μεταλλικά στοιχεία, ελαιώδες μελάνι και μηχανικό πιεστήριο."
+      ],
+      [
+        "The German inventor whose movable-type printing press transformed book production in Europe.",
+        "Ο Γερμανός εφευρέτης του οποίου το τυπογραφικό πιεστήριο με κινητά στοιχεία άλλαξε την παραγωγή βιβλίων στην Ευρώπη."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+    ],
+    "image": ""
+  },
+  {
+    "id": "henry-viii",
+    "name": [
+      "Henry VIII",
+      "Ερρίκος Η΄"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Henry VIII",
+      "Ερρίκος Η΄",
+      "Henry VIII of England",
+      "Henry 8",
+      "Ερρίκος ο Όγδοος",
+      "Ερρίκος 8"
+    ],
+    "clues": [
+      [
+        "He became heir to the throne after his elder brother Arthur died.",
+        "Έγινε διάδοχος του θρόνου μετά τον θάνατο του μεγαλύτερου αδελφού του, Αρθούρου."
+      ],
+      [
+        "His dispute over the annulment of a marriage helped trigger England’s break with papal authority.",
+        "Η διαμάχη για την ακύρωση γάμου του συνέβαλε στη ρήξη της Αγγλίας με την παπική εξουσία."
+      ],
+      [
+        "The Tudor king of England famously married six times.",
+        "Ο Άγγλος βασιλιάς των Τυδώρ που έμεινε διάσημος για τους έξι γάμους του."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Henry_VIII"
+    ],
+    "image": ""
+  },
+  {
+    "id": "elizabeth-i",
+    "name": [
+      "Elizabeth I",
+      "Ελισάβετ Α΄"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Elizabeth I",
+      "Ελισάβετ Α΄",
+      "Elizabeth I of England",
+      "Elizabeth 1",
+      "Ελισάβετ η Πρώτη",
+      "Ελισάβετ 1"
+    ],
+    "clues": [
+      [
+        "She was the daughter of Anne Boleyn and came to the throne in 1558.",
+        "Ήταν κόρη της Άννας Μπολέυν και ανέβηκε στον θρόνο το 1558."
+      ],
+      [
+        "Her reign included the defeat of the Spanish Armada in 1588.",
+        "Κατά τη βασιλεία της η Ισπανική Αρμάδα ηττήθηκε το 1588."
+      ],
+      [
+        "The last Tudor monarch, the English queen known as the Virgin Queen.",
+        "Η τελευταία μονάρχης των Τυδώρ, η Αγγλίδα βασίλισσα που έμεινε γνωστή ως η Παρθένος Βασίλισσα."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elizabeth_I"
+    ],
+    "image": ""
+  },
+  {
+    "id": "alexander-hamilton",
+    "name": [
+      "Alexander Hamilton",
+      "Αλεξάντερ Χάμιλτον"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Alexander Hamilton",
+      "Αλεξάντερ Χάμιλτον"
+    ],
+    "clues": [
+      [
+        "He was born on the Caribbean island of Nevis.",
+        "Γεννήθηκε στο νησί Νέβις της Καραϊβικής."
+      ],
+      [
+        "He died after a duel with Aaron Burr in 1804.",
+        "Πέθανε ύστερα από μονομαχία με τον Άαρον Μπερ το 1804."
+      ],
+      [
+        "A US Founding Father and the first Treasury secretary, portrayed in a hit Broadway musical.",
+        "Ιδρυτής των ΗΠΑ και πρώτος υπουργός Οικονομικών τους, πρωταγωνιστής ενός επιτυχημένου μιούζικαλ του Μπρόντγουεϊ."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Hamilton"
+    ],
+    "image": ""
+  },
+  {
+    "id": "suleiman",
+    "name": [
+      "Suleiman the Magnificent",
+      "Σουλεϊμάν ο Μεγαλοπρεπής"
+    ],
+    "kind": "historical",
+    "aliases": [
+      "Suleiman the Magnificent",
+      "Σουλεϊμάν ο Μεγαλοπρεπής",
+      "Suleiman",
+      "Suleiman I",
+      "Suleyman",
+      "Σουλεϊμάν"
+    ],
+    "clues": [
+      [
+        "He succeeded his father Selim I in 1520.",
+        "Διαδέχθηκε τον πατέρα του, Σελίμ Α΄, το 1520."
+      ],
+      [
+        "His armies besieged Vienna in 1529 but failed to capture the city.",
+        "Οι στρατιές του πολιόρκησαν τη Βιέννη το 1529 χωρίς να την καταλάβουν."
+      ],
+      [
+        "The Ottoman sultan who ruled from 1520 to 1566, also known as the Lawgiver.",
+        "Ο Οθωμανός σουλτάνος που κυβέρνησε από το 1520 έως το 1566 και ήταν γνωστός και ως Νομοθέτης."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent"
+    ],
+    "image": ""
+  },
+  {
+    "id": "will-smith",
+    "name": [
+      "Will Smith",
+      "Γουίλ Σμιθ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Will Smith",
+      "Γουίλ Σμιθ",
+      "Willard Smith",
+      "Γουιλ Σμιθ"
+    ],
+    "clues": [
+      [
+        "He first gained recognition in a hip-hop duo with DJ Jazzy Jeff.",
+        "Έγινε αρχικά γνωστός ως μέλος ενός χιπ χοπ ντουέτου με τον DJ Jazzy Jeff."
+      ],
+      [
+        "He won the Best Actor Oscar for playing Richard Williams in King Richard.",
+        "Κέρδισε το Όσκαρ Α΄ Ανδρικού Ρόλου υποδυόμενος τον Ρίτσαρντ Γουίλιαμς στο King Richard."
+      ],
+      [
+        "The Fresh Prince of Bel-Air star who also led Men in Black and I Am Legend.",
+        "Ο πρωταγωνιστής του The Fresh Prince of Bel-Air που έπαιξε επίσης στα Men in Black και I Am Legend."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Will_Smith"
+    ],
+    "image": ""
+  },
+  {
+    "id": "bruce-willis",
+    "name": [
+      "Bruce Willis",
+      "Μπρους Γουίλις"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Bruce Willis",
+      "Μπρους Γουίλις",
+      "Μπρους Γουιλις"
+    ],
+    "clues": [
+      [
+        "He became a television star in Moonlighting during the 1980s.",
+        "Έγινε τηλεοπτικός αστέρας με το Moonlighting τη δεκαετία του 1980."
+      ],
+      [
+        "His films include 12 Monkeys, The Fifth Element and The Sixth Sense.",
+        "Στις ταινίες του περιλαμβάνονται τα 12 Monkeys, The Fifth Element και The Sixth Sense."
+      ],
+      [
+        "The actor who played John McClane in the Die Hard films.",
+        "Ο ηθοποιός που υποδύθηκε τον Τζον ΜακΛέιν στις ταινίες Die Hard."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bruce_Willis"
+    ],
+    "image": ""
+  },
+  {
+    "id": "stallone",
+    "name": [
+      "Sylvester Stallone",
+      "Σιλβέστερ Σταλόνε"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Sylvester Stallone",
+      "Σιλβέστερ Σταλόνε",
+      "Stallone",
+      "Σταλόνε"
+    ],
+    "clues": [
+      [
+        "He played mercenary Barney Ross in The Expendables films.",
+        "Υποδύθηκε τον μισθοφόρο Μπάρνεϊ Ρος στις ταινίες The Expendables."
+      ],
+      [
+        "He wrote the 1976 boxing film that launched his best-known franchise and starred in it.",
+        "Έγραψε την ταινία πυγμαχίας του 1976 που ξεκίνησε τη γνωστότερη σειρά ταινιών του και πρωταγωνίστησε σε αυτή."
+      ],
+      [
+        "The action star behind Rocky Balboa and John Rambo.",
+        "Ο σταρ δράσης που ενσάρκωσε τον Ρόκι Μπαλμπόα και τον Τζον Ράμπο."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sylvester_Stallone"
+    ],
+    "image": ""
+  },
+  {
+    "id": "jim-carrey",
+    "name": [
+      "Jim Carrey",
+      "Τζιμ Κάρεϊ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Jim Carrey",
+      "Τζιμ Κάρεϊ",
+      "Τζιμ Καρει"
+    ],
+    "clues": [
+      [
+        "He gained recognition on the sketch show In Living Color.",
+        "Έγινε γνωστός μέσα από την εκπομπή σκετς In Living Color."
+      ],
+      [
+        "He played a man whose entire life was secretly televised in The Truman Show.",
+        "Υποδύθηκε έναν άντρα του οποίου όλη η ζωή μεταδιδόταν κρυφά στην τηλεόραση στο The Truman Show."
+      ],
+      [
+        "The rubber-faced comedy star of Ace Ventura, The Mask and Dumb and Dumber.",
+        "Ο κωμικός με το εκφραστικό πρόσωπο που πρωταγωνίστησε στα Ace Ventura, The Mask και Dumb and Dumber."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jim_Carrey"
+    ],
+    "image": ""
+  },
+  {
+    "id": "jack-nicholson",
+    "name": [
+      "Jack Nicholson",
+      "Τζακ Νίκολσον"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Jack Nicholson",
+      "Τζακ Νίκολσον",
+      "Nicholson",
+      "Τζακ Νικολσον"
+    ],
+    "clues": [
+      [
+        "He won a supporting-actor Oscar for Terms of Endearment.",
+        "Κέρδισε Όσκαρ Β΄ Ανδρικού Ρόλου για το Terms of Endearment."
+      ],
+      [
+        "He played Randle McMurphy in One Flew Over the Cuckoo’s Nest.",
+        "Υποδύθηκε τον Ραντλ ΜακΜέρφι στη Φωλιά του Κούκου."
+      ],
+      [
+        "The actor who played Jack Torrance in The Shining and the Joker in Batman (1989).",
+        "Ο ηθοποιός που ενσάρκωσε τον Τζακ Τόρανς στη Λάμψη και τον Τζόκερ στο Batman του 1989."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Nicholson"
+    ],
+    "image": ""
+  },
+  {
+    "id": "clint-eastwood",
+    "name": [
+      "Clint Eastwood",
+      "Κλιντ Ίστγουντ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Clint Eastwood",
+      "Κλιντ Ίστγουντ",
+      "Eastwood",
+      "Κλιντ Ιστγουντ"
+    ],
+    "clues": [
+      [
+        "He was elected mayor of Carmel-by-the-Sea, California, in 1986.",
+        "Εξελέγη δήμαρχος του Κάρμελ-μπάι-δε-Σι στην Καλιφόρνια το 1986."
+      ],
+      [
+        "He rose to fame as the Man with No Name in Sergio Leone’s Dollars Trilogy.",
+        "Έγινε διάσημος ως ο Άνθρωπος Χωρίς Όνομα στην Τριλογία των Δολαρίων του Σέρτζιο Λεόνε."
+      ],
+      [
+        "The Western icon who also played cop Harry Callahan in Dirty Harry.",
+        "Το σύμβολο των γουέστερν που υποδύθηκε και τον αστυνομικό Χάρι Κάλαχαν στο Dirty Harry."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Clint_Eastwood"
+    ],
+    "image": ""
+  },
+  {
+    "id": "adam-sandler",
+    "name": [
+      "Adam Sandler",
+      "Άνταμ Σάντλερ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Adam Sandler",
+      "Άνταμ Σάντλερ",
+      "Sandler",
+      "Ανταμ Σαντλερ"
+    ],
+    "clues": [
+      [
+        "He received the Mark Twain Prize for American Humor in 2023.",
+        "Τιμήθηκε με το Βραβείο Μαρκ Τουέιν για το Αμερικανικό Χιούμορ το 2023."
+      ],
+      [
+        "He was a Saturday Night Live cast member from 1990 to 1995.",
+        "Ήταν μέλος του καστ του Saturday Night Live από το 1990 έως το 1995."
+      ],
+      [
+        "The comedy star of Happy Gilmore, Big Daddy and The Wedding Singer.",
+        "Ο κωμικός πρωταγωνιστής των Happy Gilmore, Big Daddy και The Wedding Singer."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adam_Sandler"
+    ],
+    "image": ""
+  },
+  {
+    "id": "jack-black",
+    "name": [
+      "Jack Black",
+      "Τζακ Μπλακ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Jack Black",
+      "Τζακ Μπλακ"
+    ],
+    "clues": [
+      [
+        "He formed the comedy rock duo Tenacious D with Kyle Gass.",
+        "Δημιούργησε το κωμικό ροκ ντουέτο Tenacious D με τον Κάιλ Γκας."
+      ],
+      [
+        "He voices Po in the Kung Fu Panda films.",
+        "Δανείζει τη φωνή του στον Πο στις ταινίες Kung Fu Panda."
+      ],
+      [
+        "The energetic actor who played teacher Dewey Finn in School of Rock.",
+        "Ο εκρηκτικός ηθοποιός που υποδύθηκε τον δάσκαλο Ντιούι Φιν στο School of Rock."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Black"
+    ],
+    "image": ""
+  },
+  {
+    "id": "jason-statham",
+    "name": [
+      "Jason Statham",
+      "Τζέισον Στέιθαμ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Jason Statham",
+      "Τζέισον Στέιθαμ",
+      "Statham",
+      "Τζεισον Στειθαμ"
+    ],
+    "clues": [
+      [
+        "He competed for England in diving at the 1990 Commonwealth Games.",
+        "Αγωνίστηκε με την Αγγλία στις καταδύσεις στους Αγώνες της Κοινοπολιτείας το 1990."
+      ],
+      [
+        "Guy Ritchie cast him in Lock, Stock and Two Smoking Barrels and Snatch.",
+        "Ο Γκάι Ρίτσι τον επέλεξε για τα Lock, Stock and Two Smoking Barrels και Snatch."
+      ],
+      [
+        "The action star who played driver Frank Martin in The Transporter films.",
+        "Ο σταρ δράσης που υποδύθηκε τον οδηγό Φρανκ Μάρτιν στις ταινίες The Transporter."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jason_Statham"
+    ],
+    "image": ""
+  },
+  {
+    "id": "jennifer-lopez",
+    "name": [
+      "Jennifer Lopez",
+      "Τζένιφερ Λόπεζ"
+    ],
+    "kind": "celebrity",
+    "aliases": [
+      "Jennifer Lopez",
+      "Τζένιφερ Λόπεζ",
+      "J.Lo",
+      "JLo",
+      "J Lo",
+      "Τζενιφερ Λοπεζ"
+    ],
+    "clues": [
+      [
+        "She appeared as a Fly Girl dancer on In Living Color in the early 1990s.",
+        "Εμφανίστηκε ως χορεύτρια των Fly Girls στο In Living Color στις αρχές της δεκαετίας του 1990."
+      ],
+      [
+        "She played the lead in the 1997 biographical film Selena.",
+        "Έπαιξε τον κεντρικό ρόλο στη βιογραφική ταινία Selena του 1997."
+      ],
+      [
+        "The singer and actress behind hits such as On the Floor and Jenny from the Block.",
+        "Η τραγουδίστρια και ηθοποιός των επιτυχιών On the Floor και Jenny from the Block."
+      ]
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jennifer_Lopez"
+    ],
+    "image": ""
   }
 ]
