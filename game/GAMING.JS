@@ -794,9 +794,455 @@ GM_CHARACTERS.push(...[
   }
 ]);
 
+// Familiar franchise leads and rivals; short in-game lines in English and Greek.
+const GM_EXPANSION100=[
+  {
+    "id": "ken",
+    "name": "Ken Masters",
+    "aliases": [
+      "ken",
+      "κεν",
+      "κεν μαστερς"
+    ],
+    "gender": "male",
+    "series": "Street Fighter",
+    "genre": "fighting",
+    "year": 1987,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Attack me if you dare, I will crush you!",
+      "Τόλμησε να μου επιτεθείς και θα σε συντρίψω!"
+    ],
+    "game": "Street Fighter II",
+    "source": "https://streetfighter.fandom.com/wiki/Ken_Masters/Quotes"
+  },
+  {
+    "id": "guile",
+    "name": "Guile",
+    "aliases": [
+      "γκάιλ",
+      "γκαιλ"
+    ],
+    "gender": "male",
+    "series": "Street Fighter",
+    "genre": "fighting",
+    "year": 1991,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Go home and be a family man.",
+      "Γύρνα σπίτι και γίνε οικογενειάρχης."
+    ],
+    "game": "Street Fighter II (console versions)",
+    "source": "https://streetfighter.fandom.com/wiki/Guile/Quotes"
+  },
+  {
+    "id": "cammy",
+    "name": "Cammy",
+    "aliases": [
+      "cammy white",
+      "κάμι",
+      "καμι"
+    ],
+    "gender": "female",
+    "series": "Street Fighter",
+    "genre": "fighting",
+    "year": 1993,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Target acquired... Beginning mission!",
+      "Στόχος εντοπίστηκε… Έναρξη αποστολής!"
+    ],
+    "game": "Street Fighter IV",
+    "source": "https://streetfighter.fandom.com/wiki/Cammy/Quotes"
+  },
+  {
+    "id": "mbison",
+    "name": "M. Bison",
+    "aliases": [
+      "bison",
+      "m bison",
+      "vega dictator",
+      "μπαϊσον"
+    ],
+    "gender": "male",
+    "series": "Street Fighter",
+    "genre": "fighting",
+    "year": 1991,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Anyone who opposes me will be destroyed!",
+      "Όποιος μου αντισταθεί θα καταστραφεί!"
+    ],
+    "game": "Street Fighter II",
+    "source": "https://streetfighter.fandom.com/wiki/M._Bison/Quotes"
+  },
+  {
+    "id": "shaokahn",
+    "name": "Shao Kahn",
+    "aliases": [
+      "shao kahn",
+      "shao khan",
+      "σαο καν"
+    ],
+    "gender": "male",
+    "series": "Mortal Kombat",
+    "genre": "fighting",
+    "year": 1993,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "You suck!",
+      "Είσαι άχρηστος!"
+    ],
+    "game": "Mortal Kombat II",
+    "source": "https://icemantraveler.github.io/mkksg/mk2/default.htm"
+  },
+  {
+    "id": "johnnycage",
+    "name": "Johnny Cage",
+    "aliases": [
+      "johnny",
+      "τζονι κειτζ"
+    ],
+    "gender": "male",
+    "series": "Mortal Kombat",
+    "genre": "fighting",
+    "year": 1992,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Whoa! Hold the phone. Rehab?",
+      "Ώπα! Για στάσου. Αποτοξίνωση;"
+    ],
+    "game": "Mortal Kombat 11",
+    "source": "https://en.wikiquote.org/wiki/Mortal_Kombat_11"
+  },
+  {
+    "id": "sonya",
+    "name": "Sonya Blade",
+    "aliases": [
+      "sonya",
+      "σονια μπλειντ"
+    ],
+    "gender": "female",
+    "series": "Mortal Kombat",
+    "genre": "fighting",
+    "year": 1992,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Your Empire picked the wrong fight.",
+      "Η Αυτοκρατορία σου διάλεξε λάθος αντίπαλο."
+    ],
+    "game": "Mortal Kombat 11",
+    "source": "https://en.wikiquote.org/wiki/Mortal_Kombat_11"
+  },
+  {
+    "id": "kazuya",
+    "name": "Kazuya Mishima",
+    "aliases": [
+      "kazuya",
+      "καζουγια μισιμα"
+    ],
+    "gender": "male",
+    "series": "Tekken",
+    "genre": "fighting",
+    "year": 1994,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Enough of this farce.",
+      "Αρκετά με αυτή τη φάρσα."
+    ],
+    "game": "Tekken 8",
+    "source": "https://en.wikiquote.org/wiki/Tekken#Kazuya_Mishima"
+  },
+  {
+    "id": "jin",
+    "name": "Jin Kazama",
+    "aliases": [
+      "jin",
+      "τζιν καζαμα"
+    ],
+    "gender": "male",
+    "series": "Tekken",
+    "genre": "fighting",
+    "year": 1997,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "The Mishima bloodline ends here.",
+      "Η γενιά των Μισίμα τελειώνει εδώ."
+    ],
+    "game": "Tekken 4",
+    "source": "https://en.wikiquote.org/wiki/Tekken#Jin_Kazama"
+  },
+  {
+    "id": "heihachi",
+    "name": "Heihachi Mishima",
+    "aliases": [
+      "heihachi",
+      "χειχατσι μισιμα"
+    ],
+    "gender": "male",
+    "series": "Tekken",
+    "genre": "fighting",
+    "year": 1994,
+    "platform": [
+      "Arcade"
+    ],
+    "quote": [
+      "Come back when you're ready to fight!",
+      "Έλα πάλι όταν είσαι έτοιμος να πολεμήσεις!"
+    ],
+    "game": "Tekken 4",
+    "source": "https://en.wikiquote.org/wiki/Tekken#Heihachi_Mishima"
+  },
+  {
+    "id": "luigi",
+    "name": "Luigi",
+    "aliases": [
+      "λουιτζι",
+      "λουίτζι"
+    ],
+    "gender": "male",
+    "series": "Super Mario",
+    "genre": "platform",
+    "year": 1983,
+    "platform": [
+      "Game & Watch",
+      "Arcade"
+    ],
+    "quote": [
+      "A ghost! Eeeeek!",
+      "Ένα φάντασμα! Αααα!"
+    ],
+    "game": "Super Mario Galaxy",
+    "source": "https://www.mariowiki.com/List_of_Luigi_quotes"
+  },
+  {
+    "id": "wario",
+    "name": "Wario",
+    "aliases": [
+      "γουαριο",
+      "ουαριο"
+    ],
+    "gender": "male",
+    "series": "Super Mario",
+    "genre": "platform",
+    "year": 1992,
+    "platform": [
+      "Game Boy"
+    ],
+    "quote": [
+      "I lost! To a buncha' losers!",
+      "Έχασα! Από ένα τσούρμο χαμένους!"
+    ],
+    "game": "Mario Kart: Double Dash!!",
+    "source": "https://www.mariowiki.com/List_of_Wario_quotes"
+  },
+  {
+    "id": "waluigi",
+    "name": "Waluigi",
+    "aliases": [
+      "γουαλουιτζι",
+      "ουαλουιτζι"
+    ],
+    "gender": "male",
+    "series": "Super Mario",
+    "genre": "sports",
+    "year": 2000,
+    "platform": [
+      "Nintendo 64",
+      "Game Boy Color"
+    ],
+    "quote": [
+      "We're gonna settle this like men!...With baseball!",
+      "Θα το λύσουμε σαν άντρες!… Με μπέιζμπολ!"
+    ],
+    "game": "Mario Super Sluggers",
+    "source": "https://www.mariowiki.com/List_of_Waluigi_quotes"
+  },
+  {
+    "id": "tails",
+    "name": "Miles “Tails” Prower",
+    "aliases": [
+      "tails",
+      "miles prower",
+      "miles tails prower",
+      "τειλς"
+    ],
+    "gender": "male",
+    "series": "Sonic the Hedgehog",
+    "genre": "platform",
+    "year": 1992,
+    "platform": [
+      "Game Gear",
+      "Sega Mega Drive / Genesis"
+    ],
+    "quote": [
+      "Tornado Transformation!",
+      "Μεταμόρφωση Τορνέιντο!"
+    ],
+    "game": "Sonic Adventure 2",
+    "source": "https://en.wikiquote.org/wiki/Sonic_Adventure_2"
+  },
+  {
+    "id": "knuckles",
+    "name": "Knuckles the Echidna",
+    "aliases": [
+      "knuckles",
+      "νακλς"
+    ],
+    "gender": "male",
+    "series": "Sonic the Hedgehog",
+    "genre": "platform",
+    "year": 1994,
+    "platform": [
+      "Sega Mega Drive / Genesis"
+    ],
+    "quote": [
+      "Look who's calling who a thief.",
+      "Κοίτα ποιος αποκαλεί ποιον κλέφτη."
+    ],
+    "game": "Sonic Adventure 2",
+    "source": "https://en.wikiquote.org/wiki/Sonic_Adventure_2"
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow the Hedgehog",
+    "aliases": [
+      "shadow",
+      "σαντοου"
+    ],
+    "gender": "male",
+    "series": "Sonic the Hedgehog",
+    "genre": "platform",
+    "year": 2001,
+    "platform": [
+      "Sega Dreamcast"
+    ],
+    "quote": [
+      "Behold the true power I possess!",
+      "Δες την αληθινή δύναμη που διαθέτω!"
+    ],
+    "game": "Sonic Adventure 2",
+    "source": "https://en.wikiquote.org/wiki/Sonic_Adventure_2"
+  },
+  {
+    "id": "eggman",
+    "name": "Dr. Eggman",
+    "aliases": [
+      "eggman",
+      "doctor eggman",
+      "dr robotnik",
+      "doctor robotnik",
+      "robotnik",
+      "εγκμαν",
+      "ρομποτνικ"
+    ],
+    "gender": "male",
+    "series": "Sonic the Hedgehog",
+    "genre": "platform",
+    "year": 1991,
+    "platform": [
+      "Sega Mega Drive / Genesis",
+      "Master System",
+      "Game Gear"
+    ],
+    "quote": [
+      "Because you just told me, fox boy!",
+      "Επειδή μόλις μου το είπες, αλεπουδάκι!"
+    ],
+    "game": "Sonic Adventure 2",
+    "source": "https://en.wikiquote.org/wiki/Sonic_Adventure_2"
+  },
+  {
+    "id": "chris",
+    "name": "Chris Redfield",
+    "aliases": [
+      "chris",
+      "κρυς ρεντφιλντ",
+      "κρις ρεντφιλντ"
+    ],
+    "gender": "male",
+    "series": "Resident Evil",
+    "genre": "horror",
+    "year": 1996,
+    "platform": [
+      "PS1"
+    ],
+    "quote": [
+      "For a future without fear... Yeah, it's worth it.",
+      "Για ένα μέλλον χωρίς φόβο… Ναι, αξίζει."
+    ],
+    "game": "Resident Evil 5",
+    "source": "https://en.wikiquote.org/wiki/Resident_Evil_5"
+  },
+  {
+    "id": "wesker",
+    "name": "Albert Wesker",
+    "aliases": [
+      "wesker",
+      "αλμπερτ γουεσκερ",
+      "γουεσκερ"
+    ],
+    "gender": "male",
+    "series": "Resident Evil",
+    "genre": "horror",
+    "year": 1996,
+    "platform": [
+      "PS1"
+    ],
+    "quote": [
+      "Seven minutes. Seven minutes is all I can spare to play with you.",
+      "Επτά λεπτά. Μόνο επτά λεπτά μπορώ να διαθέσω για να παίξω μαζί σου."
+    ],
+    "game": "Resident Evil 5",
+    "source": "https://en.wikiquote.org/wiki/Resident_Evil_5"
+  },
+  {
+    "id": "isaac",
+    "name": "Isaac Clarke",
+    "aliases": [
+      "isaac",
+      "αιζακ κλαρκ"
+    ],
+    "gender": "male",
+    "series": "Dead Space",
+    "genre": "horror",
+    "year": 2008,
+    "platform": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "quote": [
+      "You mean the Marker? Do you know where the Marker is, Stross?",
+      "Εννοείς τον Μάρκερ; Ξέρεις πού βρίσκεται ο Μάρκερ, Στρος;"
+    ],
+    "game": "Dead Space 2",
+    "source": "https://en.wikiquote.org/wiki/Dead_Space_2"
+  }
+];
+GM_CHARACTERS.push(...GM_EXPANSION100);
+
 const GM_LEGACY_IDS=GM_CHARACTERS.slice(0,10).map(c=>c.id);
 const GM_BY_ID=new Map(GM_CHARACTERS.map(c=>[c.id,c]));
-const GM_LABELS={player:["Player choice","Επιλογή παίκτη"],maze:["Maze chase","Λαβύρινθος"],"fireball":["Fireballs / jumps", "Πύρινες μπάλες / άλματα"],"spin":["Spin attack", "Περιστροφική επίθεση"],"golf-club":["Golf club", "Μπαστούνι γκολφ"],"staff":["Caduceus Staff", "Ράβδος Caduceus"],"tears":["Dimensional tears", "Διαστατικά ρήγματα"],"biotics":["Biotics", "Βιοτικές δυνάμεις"],"claws":["Claws / psionics", "Νύχια / ψιονικές δυνάμεις"],"strategy":["Strategy", "Στρατηγική"],"stealth":["Stealth", "Μυστικότητα"],"metroidvania":["Metroidvania", "Metroidvania"],"puzzle":["Puzzle", "Γρίφοι"],"silenced-handgun":["Silenced handgun", "Πιστόλι με σιγαστήρα"],"arm-cannon":["Arm cannon", "Κανόνι βραχίονα"],"rocket-launcher":["Rocket launcher", "Εκτοξευτής ρουκετών"],"steel-fans":["Steel fans", "Ατσάλινες βεντάλιες"],'platform':['Platformer','Πλατφόρμας'],'sword-pistols':['Sword / dual pistols','Σπαθί / δύο πιστόλια'],'buster-sword':['Buster Sword','Buster Sword'],'kunai':['Kunai / hellfire','Kunai / φωτιά'],'grapple':['Grappling gun','Όπλο γάντζου'],'gunblade':['Gunblade','Gunblade'],'parasol':['Parasol','Ομπρέλα'],'ai':['AI / hacking','AI / hacking'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],adventure:['Action adventure','Δράση / περιπέτεια'],horror:['Survival horror','Τρόμος / επιβίωση'],fighting:['Fighting','Μάχες'],action:['Action','Δράση'],rpg:['RPG','RPG'],fps:['FPS','FPS'],pistols:['Dual pistols','Δύο πιστόλια'],handgun:['Handgun','Πιστόλι'],kicks:['Martial arts / kicks','Πολεμικές τέχνες / κλωτσιές'],bow:['Bow','Τόξο'],'gun-heels':['Guns / gun heels','Όπλα / ένοπλα τακούνια'],blades:['Blades of Chaos','Λεπίδες του Χάους'],swords:['Steel / silver swords','Ατσάλινο / ασημένιο σπαθί'],revolver:['Revolver','Περίστροφο'],rifle:['Assault rifle','Τυφέκιο εφόδου'],'hidden-blade':['Hidden blade','Κρυφή λεπίδα']};
+const GM_LABELS={sports:["Sports","Αθλητικά"],player:["Player choice","Επιλογή παίκτη"],maze:["Maze chase","Λαβύρινθος"],"fireball":["Fireballs / jumps", "Πύρινες μπάλες / άλματα"],"spin":["Spin attack", "Περιστροφική επίθεση"],"golf-club":["Golf club", "Μπαστούνι γκολφ"],"staff":["Caduceus Staff", "Ράβδος Caduceus"],"tears":["Dimensional tears", "Διαστατικά ρήγματα"],"biotics":["Biotics", "Βιοτικές δυνάμεις"],"claws":["Claws / psionics", "Νύχια / ψιονικές δυνάμεις"],"strategy":["Strategy", "Στρατηγική"],"stealth":["Stealth", "Μυστικότητα"],"metroidvania":["Metroidvania", "Metroidvania"],"puzzle":["Puzzle", "Γρίφοι"],"silenced-handgun":["Silenced handgun", "Πιστόλι με σιγαστήρα"],"arm-cannon":["Arm cannon", "Κανόνι βραχίονα"],"rocket-launcher":["Rocket launcher", "Εκτοξευτής ρουκετών"],"steel-fans":["Steel fans", "Ατσάλινες βεντάλιες"],'platform':['Platformer','Πλατφόρμας'],'sword-pistols':['Sword / dual pistols','Σπαθί / δύο πιστόλια'],'buster-sword':['Buster Sword','Buster Sword'],'kunai':['Kunai / hellfire','Kunai / φωτιά'],'grapple':['Grappling gun','Όπλο γάντζου'],'gunblade':['Gunblade','Gunblade'],'parasol':['Parasol','Ομπρέλα'],'ai':['AI / hacking','AI / hacking'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],adventure:['Action adventure','Δράση / περιπέτεια'],horror:['Survival horror','Τρόμος / επιβίωση'],fighting:['Fighting','Μάχες'],action:['Action','Δράση'],rpg:['RPG','RPG'],fps:['FPS','FPS'],pistols:['Dual pistols','Δύο πιστόλια'],handgun:['Handgun','Πιστόλι'],kicks:['Martial arts / kicks','Πολεμικές τέχνες / κλωτσιές'],bow:['Bow','Τόξο'],'gun-heels':['Guns / gun heels','Όπλα / ένοπλα τακούνια'],blades:['Blades of Chaos','Λεπίδες του Χάους'],swords:['Steel / silver swords','Ατσάλινο / ασημένιο σπαθί'],revolver:['Revolver','Περίστροφο'],rifle:['Assault rifle','Τυφέκιο εφόδου'],'hidden-blade':['Hidden blade','Κρυφή λεπίδα']};
 function gmNormalize(value){return (window.GMPNames?.fold(value)??value.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase()).replace(/[.\s_-]+/g,' ').trim();}
 function gmValue(c,key){if(key==='platform')return c.platform.join(' / ');return GM_LABELS[c[key]]?T(...GM_LABELS[c[key]]):String(c[key]);}
 function gmMax(mode){return mode==='classic'?6:5;}
