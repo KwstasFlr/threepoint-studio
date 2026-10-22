@@ -1024,7 +1024,8 @@ const GM_EXPANSION100=[
     "year": 1983,
     "platform": [
       "Game & Watch",
-      "Arcade"
+      "Arcade",
+      "Nintendo NES / Famicom"
     ],
     "quote": [
       "A ghost! Eeeeek!",
@@ -1090,6 +1091,7 @@ const GM_EXPANSION100=[
     "genre": "platform",
     "year": 1992,
     "platform": [
+      "Master System",
       "Game Gear",
       "Sega Mega Drive / Genesis"
     ],
@@ -1133,7 +1135,8 @@ const GM_EXPANSION100=[
     "genre": "platform",
     "year": 2001,
     "platform": [
-      "Sega Dreamcast"
+      "Sega Dreamcast",
+      "Nintendo GameCube"
     ],
     "quote": [
       "Behold the true power I possess!",
