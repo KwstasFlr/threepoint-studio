@@ -444,3 +444,16 @@
 - mourmoura-extra-1-20261020a — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 509.0–516.000s | Alpha TV Greece
 - mourmoura-extra-2-20261020a — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 516.75–523.750s | Alpha TV Greece
 - mourmoura-last-1-20261020a — Μην αρχίζεις τη μουρμούρα: https://www.youtube.com/watch?v=KznbsoHwN4s | Μην αρχίζεις τη μουρμούρα - Επ 67 | 467.0–474.000s | Alpha TV Greece
+
+## 23 October 2026 additions
+
+- **Της κακομοίρας** — George Samos 65.: [Της Κακομοιρας  -  Αποσπασμα  -  HD.](https://www.youtube.com/watch?v=-y8sXMfP0dA), 106.0–113 s. File: `media/scene-bakalogatos-oct23.mp3`.
+- **Τα κίτρινα γάντια** — Panos Delta: [Τα κίτρινα γάντια - Γκιωνάκης - Σταυρίδης - Μπρίλης, Τα κίτρινα γάντια (1960), Finos Films](https://www.youtube.com/watch?v=_GQJszNVLKw), 97.25–104.25 s. File: `media/scene-gantia-oct23.mp3`.
+- **Η θεία από το Σικάγο** — George Samos 65.: [Η Θεια απο το Σικαγο  - Αποσπασμα -  HD.](https://www.youtube.com/watch?v=PsCzxrbTl88), 59.75–66.75 s. File: `media/scene-theia-oct23.mp3`.
+- **Η δε γυνή να φοβήται τον άνδρα** — Αθάνατες Ατάκες Ελληνικού Κινηματογράφου: ["Εσύ ΜΠΟΥΛΗ ρούφα το αυγό σου και άντε στη γωνία"  -  Η δε γυνή να φοβήται τον άντρα (1965)](https://www.youtube.com/watch?v=GIkdELH3na8), 107.0–114 s. File: `media/scene-gyni-oct23.mp3`.
+- **Ο Ηλίας του 16ου** — What ever: [Ατάκες από τον Ηλία του 16ου | Αστυνομικό Τμήμα](https://www.youtube.com/watch?v=M5DEt-KxRo0), 47.0–54 s. File: `media/scene-ilias-oct23.mp3`.
+- **Υπάρχει και φιλότιμο** — George Samos 65.: [Υπαρχει και Φιλοτιμο -  Αποσπασμα -  HD.](https://www.youtube.com/watch?v=qAOOZcdpoVk), 53.5–60.5 s. File: `media/scene-filotimo-oct23.mp3`.
+- **Η Αλίκη στο ναυτικό** — Ilitsa Katsoulotos: [Η Αλίκη Στο Ναυτικό (απόσπασμα)_Ο μπαμπάς (Λ. Κωσταντάρας)_Τό΄πε  και τό΄κανε -Ποιο?_Τους κρέμασε!](https://www.youtube.com/watch?v=XpqdAbAMqmw), 101.0–108 s. File: `media/scene-aliki-oct23.mp3`.
+- **Γοργόνες και μάγκες** — Nikos Kommatas: [(Ερωτική εξομολόγηση) Γοργόνες Και Μάγκες (1968) - Gorgones kai Mages (1968)](https://www.youtube.com/watch?v=PDpIDMNG8e0), 40.75–47.75 s. File: `media/scene-gorgones-oct23.mp3`.
+- **Μια τρελή τρελή οικογένεια** — George Samos 65.: [Μια τρελλη τρελλη Οικογενεια  -  Αποσπασμα.](https://www.youtube.com/watch?v=vqjByvLlsws), 65.0–72 s. File: `media/scene-treli-oct23.mp3`.
+- **Πολίτικη Κουζίνα** — Life Is A Feeling: [Ηλιακό Σύστημα και Μπαχαρικά (απόσπασμα από την Πολίτικη κουζίνα)](https://www.youtube.com/watch?v=SAst_GOFZrs), 44.0–51 s. File: `media/scene-kouzina-oct23.mp3`.
