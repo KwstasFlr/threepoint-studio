@@ -10204,5 +10204,384 @@
     "clueEn": "Even a simple purchase can start an argument.",
     "synopsisEn": "Different personalities within each couple clash over everyday details. Familiarity and humour accompany their constant teasing and complaints.",
     "castSource": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CE%BD_%CE%B1%CF%81%CF%87%CE%AF%CE%B6%CE%B5%CE%B9%CF%82_%CF%84%CE%B7_%CE%BC%CE%BF%CF%85%CF%81%CE%BC%CE%BF%CF%8D%CF%81%CE%B1"
+  },
+  {
+    "id": "bakalogatos-second-oct23",
+    "kind": "movies",
+    "title": "Της κακομοίρας",
+    "year": 1963,
+    "originalFormat": "bw",
+    "aliases": [
+      "Ο Μπακαλόγατος",
+      "Μπακαλόγατος",
+      "Της κακομοίρας ο μπακαλόγατος"
+    ],
+    "supporting": [
+      "Ντίνα Τριάντη",
+      "Θανάσης Μυλωνάς"
+    ],
+    "leads": [
+      "Κώστας Χατζηχρήστος",
+      "Κώστας Δούκας"
+    ],
+    "synopsis": "Στο μπακάλικο της γειτονιάς, ένας πολυλογάς υπάλληλος μπλέκει τις παραγγελίες με τους έρωτες. Το αφεντικό του σχεδιάζει έναν γάμο, αλλά οι νεότεροι έχουν ήδη δώσει αλλού την καρδιά τους.",
+    "clue": "Στο μπακάλικο της γειτονιάς, ένας πολυλογάς υπάλληλος μπλέκει τις παραγγελίες με τους έρωτες.",
+    "source": "https://greek-movies.com/movies.php?m=35",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "bakalogatos",
+    "audio": "media/scene-bakalogatos-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=-y8sXMfP0dA",
+    "audioStart": 106.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Της Κακομοιρας  -  Αποσπασμα  -  HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Μας χεράστηκε κανά φωνταλάκια. Μου δώσει μέρα δυο φωντάνι και τα τρώω και πολύ. Έλα, τι λισάς. Τις να μας περνάει και κοινό ανηστούς.",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "A talkative shop assistant mixes grocery orders with romantic schemes. His employer plans a marriage, but the younger people have already fallen for someone else.",
+    "clueEn": "Romantic schemes upset the daily routine in a neighbourhood grocery."
+  },
+  {
+    "id": "gantia-second-oct23",
+    "kind": "movies",
+    "title": "Τα κίτρινα γάντια",
+    "year": 1960,
+    "originalFormat": "bw",
+    "aliases": [
+      "Κίτρινα γάντια"
+    ],
+    "supporting": [
+      "Νίκη Λινάρδου",
+      "Κώστας Δούκας"
+    ],
+    "leads": [
+      "Νίκος Σταυρίδης",
+      "Μίμης Φωτόπουλος"
+    ],
+    "synopsis": "Μια στάση στην εξοχή γίνεται αφορμή για ανακρίσεις και απανωτές παρεξηγήσεις. Ένας σύζυγος ψάχνει επίμονα αποδείξεις απιστίας, ενώ ένας σερβιτόρος μπερδεύει ακόμη περισσότερο την κατάσταση.",
+    "clue": "Μια στάση στην εξοχή γίνεται αφορμή για ανακρίσεις και απανωτές παρεξηγήσεις.",
+    "source": "https://finosfilm.com/portfolio-items/ta-kitrina-gantia/",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "gantia",
+    "audio": "media/scene-gantia-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=_GQJszNVLKw",
+    "audioStart": 97.25,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Panos Delta",
+    "audioSourceTitle": "Τα κίτρινα γάντια - Γκιωνάκης - Σταυρίδης - Μπρίλης, Τα κίτρινα γάντια (1960), Finos Films",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Τα τραμπέλια οι άνθρωποι. Καφότα για το μωρέ. Τον τραμπέλι, όχι. Στις καρέκρες. Στις καρέκρες, μάλιστα. Αλλά στις μου λέντι...",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "A countryside stop turns into a series of interrogations and misunderstandings. A husband hunts for evidence of infidelity while a waiter makes the situation even more confusing.",
+    "clueEn": "A jealous husband turns an innocent stop into an investigation."
+  },
+  {
+    "id": "theia-second-oct23",
+    "kind": "movies",
+    "title": "Η θεία από το Σικάγο",
+    "year": 1957,
+    "originalFormat": "bw",
+    "aliases": [
+      "Η θεία απ το Σικάγο",
+      "Η θεία απ το Σικάγκo"
+    ],
+    "supporting": [
+      "Γκέλυ Μαυροπούλου",
+      "Στέφανος Στρατηγός"
+    ],
+    "leads": [
+      "Γεωργία Βασιλειάδου",
+      "Ορέστης Μακρής"
+    ],
+    "synopsis": "Σε ένα αυστηρό αθηναϊκό σπίτι μεγαλώνουν τέσσερις κόρες. Η άφιξη μιας συγγενούς από το εξωτερικό φέρνει μοντέρνες ιδέες και ένα ασυνήθιστο σχέδιο για να βρεθούν γαμπροί.",
+    "clue": "Σε ένα αυστηρό αθηναϊκό σπίτι μεγαλώνουν τέσσερις κόρες.",
+    "source": "https://finosfilm.com/portfolio-items/i-theia-apo-to-sikago/",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "theia",
+    "audio": "media/scene-theia-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=PsCzxrbTl88",
+    "audioStart": 59.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Η Θεια απο το Σικαγο  - Αποσπασμα -  HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Και γιατί να φύγω δηλαδή Γιατί έτσι μου ουστάρει Και τι σε βάλεσαι ένα δηλαδή Αδροφήλα κασταφήκια Βράσκοδια λεπωγή που δεν πήσε ξεκίναδε",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "Four daughters grow up in a strict Athenian household. A relative arriving from abroad brings modern ideas and an unusual plan for finding them husbands.",
+    "clueEn": "A visiting relative challenges a strict father’s ideas about marriage."
+  },
+  {
+    "id": "gyni-second-oct23",
+    "kind": "movies",
+    "title": "Η δε γυνή να φοβήται τον άνδρα",
+    "year": 1965,
+    "originalFormat": "bw",
+    "aliases": [
+      "Η γυνή να φοβήται τον άνδρα",
+      "Η δε γυνή να φοβάται τον άνδρα",
+      "Η δε γυνή να φοβείται τον άνδρα",
+      "Η δε γυνη να φοβηται τον αντρα"
+    ],
+    "supporting": [
+      "Δέσπω Διαμαντίδου",
+      "Καίτη Λαμπροπούλου"
+    ],
+    "leads": [
+      "Γιώργος Κωνσταντίνου",
+      "Μάρω Κοντού"
+    ],
+    "synopsis": "Ένας άντρας θεωρεί δεδομένη τη γυναίκα που ζει μαζί του. Μόλις παντρευτούν, εκείνη αρνείται να συνεχίσει να υπακούει αδιαμαρτύρητα και οι καβγάδες τους δοκιμάζουν τη σχέση.",
+    "clue": "Ένας άντρας θεωρεί δεδομένη τη γυναίκα που ζει μαζί του.",
+    "source": "https://www.tvopen.gr/hdegynhnafobhtaitonandra/about",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "gyni",
+    "audio": "media/scene-gyni-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=GIkdELH3na8",
+    "audioStart": 107.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Αθάνατες Ατάκες Ελληνικού Κινηματογράφου",
+    "audioSourceTitle": "\"Εσύ ΜΠΟΥΛΗ ρούφα το αυγό σου και άντε στη γωνία\"  -  Η δε γυνή να φοβήται τον άντρα (1965)",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Εσύ λεκτους μπουλί. Μπουλί! Και όταν λέω εγώ τέσσερα δομάτια κάτι ξέρωσαν η κοκύρα. Και εσύ παρακαλώ όταν μιλάω εγώ, εσύ ρούφεται βγώσου, ε.",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "A man takes the woman living with him for granted. Once they marry, she refuses to remain obedient, and their arguments put the relationship to the test.",
+    "clueEn": "Marriage changes the balance of power in a long-standing relationship."
+  },
+  {
+    "id": "ilias-second-oct23",
+    "kind": "movies",
+    "title": "Ο Ηλίας του 16ου",
+    "year": 1959,
+    "originalFormat": "bw",
+    "aliases": [
+      "Ο Ηλίας του δέκατου έκτου",
+      "Ηλίας του 16ου",
+      "Ο Ηλίας του 16"
+    ],
+    "supporting": [
+      "Κυβέλη Θεοχάρη",
+      "Σταύρος Ξενίδης"
+    ],
+    "leads": [
+      "Κώστας Χατζηχρήστος",
+      "Διονύσης Παπαγιαννόπουλος"
+    ],
+    "synopsis": "Μια αστυνομική στολή χρησιμοποιείται ως κάλυψη για μια διάρρηξη. Όταν όμως ο μεταμφιεσμένος άντρας καλείται να κάνει πραγματικά αστυνομικά καθήκοντα, το σχέδιο ξεφεύγει από κάθε έλεγχο.",
+    "clue": "Μια αστυνομική στολή χρησιμοποιείται ως κάλυψη για μια διάρρηξη.",
+    "source": "https://finosfilm.com/portfolio-items/o-ilias-tou-16ou/",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "ilias",
+    "audio": "media/scene-ilias-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=M5DEt-KxRo0",
+    "audioStart": 47.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "What ever",
+    "audioSourceTitle": "Ατάκες από τον Ηλία του 16ου | Αστυνομικό Τμήμα",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "όχι όχι όχι όχι όχι πως θα το να μολήσουμε τώρα τι είναι αυτά που κάτσε κίλες άστι έβεσα το να μολήσουμε το σημείο διαρύκτης καρονικός καρονικός",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "A police uniform is used as cover for a burglary. But when the disguised man is asked to carry out real police duties, the scheme gets out of control.",
+    "clueEn": "A fake policeman is unexpectedly required to do the real job."
+  },
+  {
+    "id": "filotimo-second-oct23",
+    "kind": "movies",
+    "title": "Υπάρχει και φιλότιμο",
+    "year": 1965,
+    "originalFormat": "bw",
+    "aliases": [
+      "Υπάρχει φιλότιμο"
+    ],
+    "supporting": [
+      "Νίκη Λινάρδου",
+      "Ανδρέας Ντούζος"
+    ],
+    "leads": [
+      "Λάμπρος Κωνσταντάρας",
+      "Διονύσης Παπαγιαννόπουλος"
+    ],
+    "synopsis": "Πιστεύοντας ότι οι ψηφοφόροι τον λατρεύουν, ένας πολιτικός φτάνει στην επαρχία για περιοδεία. Πίσω από τις φιέστες βλέπει δρόμους που δεν έγιναν και ανθρώπους που έχουν αγανακτήσει.",
+    "clue": "Πιστεύοντας ότι οι ψηφοφόροι τον λατρεύουν, ένας πολιτικός φτάνει στην επαρχία για περιοδεία.",
+    "source": "https://finosfilm.com/portfolio-items/yparchei-kai-filotimo/",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "filotimo",
+    "audio": "media/scene-filotimo-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=qAOOZcdpoVk",
+    "audioStart": 53.5,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Υπαρχει και Φιλοτιμο -  Αποσπασμα -  HD.",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Έλα Χριστέχε Πάρτακες! Μόνο εδώ, κοντά στο διπλανό χωριό στον Ταμπανά, μπορείτε να τηλεφωνήσετε από το σαθμό της χωροφυλάκης.",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "A politician visits the provinces convinced that voters adore him. Behind the celebrations he discovers unfinished roads and people who have run out of patience.",
+    "clueEn": "An election tour exposes the reality behind flattering political reports."
+  },
+  {
+    "id": "aliki-second-oct23",
+    "kind": "movies",
+    "title": "Η Αλίκη στο ναυτικό",
+    "year": 1961,
+    "originalFormat": "color",
+    "aliases": [
+      "Αλίκη στο ναυτικό",
+      "I Aliki sto naftiko"
+    ],
+    "supporting": [
+      "Γιάννης Μαλούχος",
+      "Γιώργος Τσιτσόπουλος"
+    ],
+    "leads": [
+      "Αλίκη Βουγιουκλάκη",
+      "Δημήτρης Παπαμιχαήλ"
+    ],
+    "synopsis": "Ένας νεαρός δόκιμος γνωρίζει μια κοπέλα χωρίς να ξέρει ότι είναι κόρη του διοικητή του. Εκείνη ακολουθεί κρυφά το εκπαιδευτικό ταξίδι και ο αυστηρός πατέρας της βρίσκεται μπροστά σε συνεχείς εκπλήξεις.",
+    "clue": "Ένας νεαρός δόκιμος γνωρίζει μια κοπέλα χωρίς να ξέρει ότι είναι κόρη του διοικητή του.",
+    "source": "https://finosfilm.com/portfolio-items/i-aliki-sto-naftiko/",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261023-movies80-70",
+    "baseTitleId": "aliki",
+    "audio": "media/scene-aliki-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=XpqdAbAMqmw",
+    "audioStart": 101.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Ilitsa Katsoulotos",
+    "audioSourceTitle": "Η Αλίκη Στο Ναυτικό (απόσπασμα)_Ο μπαμπάς (Λ. Κωσταντάρας)_Τό΄πε  και τό΄κανε -Ποιο?_Τους κρέμασε!",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Ο μόνος υπέφτυνος είμαι εγώ. Μην τον ακούτε καλέ μπαμπά, εγώ φτεογεόλα. Εγώ φτεογεό, κυρίο Δίκητα. Τι φτεσεις είκα λεπόν, εγώ στο καραβίση, με προσκάλισες.",
+    "synopsisEn": "A young naval cadet meets a girl without knowing she is his commander’s daughter. She secretly joins the training voyage, bringing the strict father one surprise after another.",
+    "clueEn": "A commander’s daughter secretly follows a cadet aboard a naval ship."
+  },
+  {
+    "id": "gorgones-second-oct23",
+    "kind": "movies",
+    "title": "Γοργόνες και μάγκες",
+    "year": 1968,
+    "originalFormat": "color",
+    "aliases": [],
+    "supporting": [
+      "Νόρα Βαλσάμη",
+      "Βαγγέλης Σειληνός"
+    ],
+    "leads": [
+      "Μαίρη Χρονοπούλου",
+      "Φαίδων Γεωργίτσης"
+    ],
+    "synopsis": "Ξένοι φτάνουν σε ένα νησί και συναντούν ντόπιους που ανησυχούν για τα κτήματά τους. Ανάμεσα σε οικονομικές διαπραγματεύσεις, νυχτερινές διασκεδάσεις και τραγούδια γεννιούνται νέοι έρωτες.",
+    "clue": "Ξένοι φτάνουν σε ένα νησί και συναντούν ντόπιους που ανησυχούν για τα κτήματά τους.",
+    "source": "https://www.athensvoice.gr/city-guide/cinema/cinema-guide/471780/mermaids-love/",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261023-movies80-70",
+    "baseTitleId": "gorgones",
+    "audio": "media/scene-gorgones-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=PDpIDMNG8e0",
+    "audioStart": 40.75,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Nikos Kommatas",
+    "audioSourceTitle": "(Ερωτική εξομολόγηση) Γοργόνες Και Μάγκες (1968) - Gorgones kai Mages (1968)",
+    "audioSpeechSeconds": 7.0,
+    "audioMaxGap": 0.0,
+    "audioTranscript": "Σοβαρεύομαι! Πάντως να ξέρεις, της γυναίκες σήμερα αρέσει η διπλοπενιά. Πάει και τελείωση. Κοιάζα διπλοπενιά!",
+    "synopsisEn": "Visitors arrive on an island where residents are worried about their land. Property negotiations, nights out and songs become entangled with new romances.",
+    "clueEn": "Property deals and new romances unsettle an island community."
+  },
+  {
+    "id": "treli-second-oct23",
+    "kind": "movies",
+    "title": "Μια τρελή τρελή οικογένεια",
+    "year": 1965,
+    "originalFormat": "color",
+    "aliases": [
+      "Μία τρελή τρελή οικογένεια",
+      "Μια τρελλή τρελλή οικογένεια"
+    ],
+    "supporting": [
+      "Λίλη Παπαγιάννη",
+      "Δημήτρης Καλλιβωκάς"
+    ],
+    "leads": [
+      "Τζένη Καρέζη",
+      "Αλέκος Αλεξανδράκης"
+    ],
+    "synopsis": "Ένας γάμος βάζει έναν νεαρό άντρα σε ένα σπίτι γεμάτο ιδιορρυθμίες. Μπερδεμένα ραντεβού, η πεθερά του και οι επισκέπτες της μετατρέπουν την οικογενειακή καθημερινότητα σε διαρκές κωμικό χάος.",
+    "clue": "Ένας γάμος βάζει έναν νεαρό άντρα σε ένα σπίτι γεμάτο ιδιορρυθμίες.",
+    "source": "https://filmfestival.gr/el/films/mia-treli-treli-oikogeneia/",
+    "image": "",
+    "imageCredit": "",
+    "addedIn": "20261023-movies80-70",
+    "baseTitleId": "treli",
+    "audio": "media/scene-treli-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=vqjByvLlsws",
+    "audioStart": 65.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "George Samos 65.",
+    "audioSourceTitle": "Μια τρελλη τρελλη Οικογενεια  -  Αποσπασμα.",
+    "audioSpeechSeconds": 5.73,
+    "audioMaxGap": 0.8,
+    "audioTranscript": "Πολύ σε αυτά, άλλος δεν μ' αρέσει καθόλου η κολόνια που φοράς, δεν μου λες, μπορώ να σου χάει δέψω το μου λιώσιο.",
+    "synopsisEn": "Marriage brings a young man into an eccentric household. Confused dates, his mother-in-law and her visitors turn family life into continuous comic chaos.",
+    "clueEn": "A newlywed discovers that his wife’s family is anything but ordinary."
+  },
+  {
+    "id": "kouzina-second-oct23",
+    "kind": "movies",
+    "title": "Πολίτικη Κουζίνα",
+    "year": 2003,
+    "originalFormat": "color",
+    "aliases": [
+      "Politiki kouzina",
+      "A touch of spice"
+    ],
+    "supporting": [
+      "Μαρίνα Καλογήρου",
+      "Οδυσσέας Παπασπηλιόπουλος"
+    ],
+    "leads": [
+      "Γιώργος Χωραφάς",
+      "Μπασάκ Κοκλούκαγια"
+    ],
+    "synopsis": "Οι μυρωδιές των μπαχαρικών ξυπνούν σε έναν άντρα τις ιστορίες του παππού του και τις αναμνήσεις μιας παιδικής αγάπης. Η διαδρομή ανάμεσα στην Πόλη και την Αθήνα κουβαλά τη μνήμη της προσφυγιάς.",
+    "clue": "Οι μυρωδιές των μπαχαρικών ξυπνούν σε έναν άντρα τις ιστορίες του παππού του και τις αναμνήσεις μιας παιδικής αγάπης.",
+    "source": "https://ellinikoskinimatografos.gr/politiki-kouzina/",
+    "image": "",
+    "imageCredit": "",
+    "baseTitleId": "kouzina",
+    "audio": "media/scene-kouzina-oct23.mp3",
+    "audioSource": "https://www.youtube.com/watch?v=SAst_GOFZrs",
+    "audioStart": 44.0,
+    "audioDuration": 7,
+    "audioType": "scene",
+    "audioCredit": "Life Is A Feeling",
+    "audioSourceTitle": "Ηλιακό Σύστημα και Μπαχαρικά (απόσπασμα από την Πολίτικη κουζίνα)",
+    "audioSpeechSeconds": 5.08,
+    "audioMaxGap": 0.99,
+    "audioTranscript": "Τα βλέπει όλα. Τα βλέπει όλα. Για αυτό και το πιπέρι μπαίνει πάντος όλα τα φαγιά. Τα είναι...",
+    "addedIn": "20261023-movies80-70",
+    "synopsisEn": "The scent of spices brings back a man’s memories of his grandfather and a childhood love. His journey between Istanbul and Athens carries the memory of displacement.",
+    "clueEn": "Spices connect family memories, displacement and a childhood romance."
   }
 ]
