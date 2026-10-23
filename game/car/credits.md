@@ -149,3 +149,16 @@ Ten original seven-second revving or acceleration excerpts. Speech screening fou
 - Koenigsegg One:1: [WorldSupercars](https://www.youtube.com/watch?v=dz7DtghS6T0), 13–20s. 1360HP Koenigsegg One:1 SOUND in Monaco & Full Throttle on Track!. References: https://www.koenigsegg.com/model/one1 | https://www.topgear.com/car-news/supercar/exclusive-more-koenigseggs-273mph-one1 | https://carsd.bonhams.com/auction/25819/the-bonmont-sale-collectors-motor-cars-including-a-private-collection-of-supercars/
 - Porsche 911 Speedster (2019): [PremiumMoto TV](https://www.youtube.com/watch?v=0ldRcsZoMrs), 10–17s. Porsche 911 Speedster 2019 pure engine sound. References: https://www.porsche.com/usa/aboutporsche/pressreleases/pag/?id=536339&pool=international-de | https://newsroom.porsche.com/de/2019/produkte/porsche-911-speedster-serie-limitiertes-sondermodell-17554.html
 - Ferrari F12tdf: [NM2255 | Raw Car Sounds](https://www.youtube.com/watch?v=TEcV7vhJLik), 88–95s. Ferrari F12 TDF LOUD V12 Sounds! - Start Up, Revs, Accelerations & More!. References: https://www.ferrari.com/it-SM/history/garage/2015/f12tdf | https://rmsothebys.com/auctions/ve19/lots/r0023-2016-ferrari-f12tdf/
+
+## 23 October 2026 additions
+
+- **Lamborghini Aventador SVJ** — SpottedCars.Warszawa: [Aventador SVJ Novitec exhaust in Warsaw *Brutal sound*](https://www.youtube.com/watch?v=WCxwkzFp4HA), 8.0–15 s. File: `media/svj-oct23.mp3`.
+- **Lamborghini Huracán Performante** — ExoticCarspotters: [Lamborghini Huracan LP640-4 Performante - LOUD Accelerations, Downshifts & Revs !](https://www.youtube.com/watch?v=hLi5nS2fD0Y), 98.5–105.5 s. File: `media/performante-oct23.mp3`.
+- **Nissan GT-R R35** — NM2255 | Raw Car Sounds: [Nissan GT-R R35 with Supersprint Exhaust Sound](https://www.youtube.com/watch?v=Aa0hpOyuv8E), 105.0–112 s. File: `media/gtr35-oct23.mp3`.
+- **Toyota Supra A80** — WPDCarSpotter: [Stock Toyota Supra full throttle 2JZ acceleration sound](https://www.youtube.com/watch?v=4ehS1eM7EkE), 1.5–8.5 s. File: `media/supra80-oct23.mp3`.
+- **Mazda RX-7 FD** — DriveHub: [1992 FD Mazda RX-7 | Pure Rotary Engine Sound, Accelerations & Fly-By's | DriveHub](https://www.youtube.com/watch?v=G_t8DB7D5VE), 69.0–76 s. File: `media/rx7-oct23.mp3`.
+- **Ford Mustang Shelby GT500 (2020)** — RoadandTrack: [Listen to the 2020 Ford Mustang Shelby GT500's Four Exhaust Modes](https://www.youtube.com/watch?v=zOqdQUOTjV0), 66.5–73.5 s. File: `media/gt500-oct23.mp3`.
+- **Chevrolet Corvette C8 Z06** — Soul Performance Products: [SOUL | C8 Corvette Z06 Sport Package Revs](https://www.youtube.com/watch?v=EylD7ui-boM), 3.5–10.5 s. File: `media/z06-oct23.mp3`.
+- **Dodge Challenger SRT Demon (2018)** — Titus Slaughter: [Dodge Demon startup and rev](https://www.youtube.com/watch?v=8-tP2QMHX6g), 18.5–25.5 s. File: `media/demon-oct23.mp3`.
+- **BMW M3 E46** — Justin H: [E46 M3 stock exhaust sound clips](https://www.youtube.com/watch?v=9h83-zYmAQA), 6.5–13.5 s. File: `media/m3e46-oct23.mp3`.
+- **Mercedes-AMG GT Black Series** — AutoTopNL: [Mercedes AMG GT Black Series 730HP 0-315 ACCELERATION & SOUND by AutoTopNL](https://www.youtube.com/watch?v=MNHpKboiSDs), 40.0–47 s. File: `media/gtblack-oct23.mp3`.
