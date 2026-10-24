@@ -16,7 +16,8 @@ export function eligibleCards(cards,mode,type,player,players,spicy=false){
   const adult=spicy&&mode==='extreme'&&optedIn(player);
   return cards.filter(c=>c.mode===mode&&c.type===type&&Boolean(c.adult)===adult&&(!c.pair||spicy&&targets.length)&&(!c.group||players.every(optedIn))&&(!c.minTargets||targets.length>=c.minTargets));
 }
-export function canOfferForfeit(mode,players,player,spicy){return mode==='extreme'&&spicy&&player.forfeitConsent===true&&optedIn(player)&&players.every(optedIn);}
+export function canRequestForfeit(mode,players,player,spicy){return mode==='extreme'&&spicy&&optedIn(player)&&players.every(optedIn);}
+export function canOfferForfeit(mode,players,player,spicy){return player.forfeitConsent===true&&canRequestForfeit(mode,players,player,spicy);}
 export function drawCard(cards,mode,type,player,players,used=[],random=Math.random,spicy=false){
   const targets=players.filter(p=>eligiblePair(player,p));
   const eligible=eligibleCards(cards,mode,type,player,players,spicy);
