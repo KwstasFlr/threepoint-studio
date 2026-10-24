@@ -26,10 +26,11 @@ export function restoreSession(raw,cards){
     if(!s.players.every((p,i)=>p&&p.id===i&&typeof p.name==='string'&&p.name.length<=32&&typeof p.country==='string'&&p.country.length<=60&&typeof p.customGender==='string'&&p.customGender.length<=40&&typeof p.ready==='boolean'))return null;
     if(s.players.some(p=>p.ready&&!validPlayer(p))||s.stage==='game'&&s.players.some(p=>!p.ready||!validPlayer(p)))return null;
     const cardIds=new Set(cards.map(c=>c.id));
+    s.flirting=s.flirting===true;
     s.used=Array.isArray(s.used)?[...new Set(s.used.filter(id=>cardIds.has(id)))]:[];
     s.turn=Number.isSafeInteger(s.turn)&&s.turn>=0?s.turn:0;
     s.profileIndex=Number.isInteger(s.profileIndex)&&s.profileIndex>=0&&s.profileIndex<s.players.length?s.profileIndex:0;
-    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const b=s.players.find(p=>p.id===s.active.target);if(!c||c.mode!==s.mode||(c.pair&&!eligiblePair(a,b)))s.active=null;else if(!c.pair)s.active.target=null;}
+    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const b=s.players.find(p=>p.id===s.active.target);if(!c||c.mode!==s.mode||(c.pair&&(!s.flirting||!eligiblePair(a,b))))s.active=null;else if(!c.pair)s.active.target=null;}
     return s;
   }catch{return null;}
 }
