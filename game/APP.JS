@@ -4153,6 +4153,7 @@ const GAME_DATA = [
   {id: "people", name: "Guess the Person", available: true, category: "PEOPLE", description: ["Guess the person", "Μάντεψε το πρόσωπο"]},
   {id: "car", name: "Guess the Car", available: true, category: "MOTORING", description: ["Guess the car", "Μάντεψε το αυτοκίνητο"]},
   {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Guess the country", "Μάντεψε τη χώρα"]},
+  {id: "truth-dare", name: "Can You Handle It?", available: true, category: "PARTY · 18+", description: ["Truth or Dare · 18+", "Αλήθεια ή Θάρρος · 18+"]},
 
   {
     id: "naruto",
@@ -5542,7 +5543,7 @@ function renderGames() {
   playableGames.forEach(game => {
     const card =
       document.createElement(
-        (game.id === "painter" || game.id === "car" || game.id === "knowledge") ? "a" : game.available
+        (game.id === "painter" || game.id === "car" || game.id === "knowledge" || game.id === "truth-dare") ? "a" : game.available
           ? "button"
           : "article"
       );
@@ -5557,13 +5558,13 @@ function renderGames() {
 
     card.dataset.game =
       game.id;
-    if (game.id === "painter" || game.id === "car" || game.id === "knowledge") { card.href = game.id + "/"; card.style.textDecoration = "none"; }
+    if (game.id === "painter" || game.id === "car" || game.id === "knowledge" || game.id === "truth-dare") { card.href = game.id + "/"; card.style.textDecoration = "none"; }
 
     if (game.available) {
       card.type = "button";
     }
 
-    const cardImages={knowledge:'knowledge.svg',people:'people-mystery-20261015.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
+    const cardImages={'truth-dare':'../truth-dare/cover.svg',knowledge:'knowledge.svg',people:'people-mystery-20261015.svg',car:'car-photo.jpg',country:'country-world.webp',painter:'painter-gallery.jpg',greek:'greek-tv-photo.webp',gaming:'gaming.svg',football:'football-ball.svg',movies:'movies.jpg',cinematix:'cinematix.jpg','one-piece':'one-piece.svg',naruto:'naruto.svg',bleach:'bleach.png',basketball:'basketball.jpg',cricket:'cricket-action.jpg',pokemon:'pokemon.svg'};
     const logo=['one-piece','naruto','bleach','pokemon'].includes(game.id);
     card.innerHTML = `
       <div
@@ -6171,6 +6172,7 @@ function selectRound(mode) {
 }
 
 function openGame(id) {
+  if (id === "truth-dare") { location.href = "truth-dare/"; return; }
   if(id==="knowledge"){location.href="knowledge/";return;}
   if(id==="people"){location.href="people/";return;}
   if(id==="car"){location.href="car/";return;}
