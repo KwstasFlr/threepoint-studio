@@ -1,10 +1,21 @@
-import {CARDS} from './cards.mjs';
-import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession} from './engine.mjs?v=2';
+import {CARDS} from './cards.mjs?v=4';
+import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit} from './engine.mjs?v=4';
 const $=id=>document.getElementById(id);
 const COPY={
+ whoPlays:['Who’s playing?','Ποιοι παίζουν;'],
+ forfeitOptIn:['I agree to the clothing forfeit after my second pass. I can withdraw consent and end the game.','Συμφωνώ στην ποινή αφαίρεσης ρούχου μετά το δεύτερο πάσο μου. Μπορώ να ανακαλέσω τη συναίνεση και να τελειώσω το παιχνίδι.'],endGame:['End game','Τέλος παιχνιδιού'],gameEnded:['The game has ended. Player profiles have been deleted.','Το παιχνίδι τελείωσε. Τα προφίλ παικτών διαγράφηκαν.'],
+ decline:['I don’t want to · next player','Δεν θέλω · επόμενος παίκτης'],secondPass:['Second pass','Δεύτερο πάσο'],secondPassNotice:['You already used your one card swap this turn. You may accept the agreed forfeit or end the game.','Χρησιμοποίησες ήδη τη μία αλλαγή κάρτας σου σε αυτόν τον γύρο. Μπορείς να δεχτείς τη συμφωνημένη ποινή ή να τελειώσεις το παιχνίδι.'],noForfeitNotice:['You already used your one card swap this turn. You can end your turn without completing the card.','Χρησιμοποίησες ήδη τη μία αλλαγή κάρτας σου σε αυτόν τον γύρο. Μπορείς να τελειώσεις τη σειρά σου χωρίς να εκτελέσεις την κάρτα.'],forfeitConsent:['The forfeit is optional. You can end the game without doing it.','Η ποινή είναι προαιρετική. Μπορείς να τελειώσεις το παιχνίδι χωρίς να την εκτελέσεις.'],acceptForfeit:['I agree','Δέχομαι'],endTurn:['End turn','Τέλος σειράς'],forfeit:['Optional forfeit','Προαιρετική ποινή'],adultNote:['You choose what to share or do. Everyone involved can say no or stop.','Εσύ επιλέγεις τι θα μοιραστείς ή θα κάνεις. Κάθε άτομο που συμμετέχει μπορεί να πει όχι ή να σταματήσει.'],passLeft:['Pass · 1 left','Πάσο · απομένει 1'],passAgain:['Pass · second pass notice','Πάσο · ειδοποίηση δεύτερου πάσο'],
  enableFlirting:['Enable flirting · optional, for couples or friends who both opt in.','Ενεργοποίηση φλερτ · προαιρετικά, για ζευγάρια ή φίλους που συμφωνούν και οι δύο.'],
  back:['← All games','← Όλα τα παιχνίδια'],eyebrow:['TRUTH OR DARE · 18+','ΑΛΗΘΕΙΑ Ή ΘΑΡΡΟΣ · 18+'],tagline:['Your friends. Your secrets. Your call.','Η παρέα σου. Τα μυστικά σου. Η επιλογή σου.'],setup:['Set the mood','Διάλεξε διάθεση'],howMany:['How many players?','Πόσοι παίζουν;'],chooseMode:['Choose your mood','Διάλεξε ένταση'],casualNote:['Funny truths. Playful challenges.','Αστείες αλήθειες. Παιχνιδιάρικες δοκιμασίες.'],extremeNote:['Bolder questions. Bigger blushes.','Πιο τολμηρές ερωτήσεις. Περισσότερη αμηχανία.'],adultConsent:['Everyone is 18 or older and agrees to play. Any card can be skipped.','Όλοι είναι τουλάχιστον 18 ετών και συμφωνούν να παίξουν. Κάθε κάρτα μπορεί να παραλειφθεί.'],addPlayers:['Add players','Πρόσθεσε παίκτες'],name:['Name or nickname','Όνομα ή ψευδώνυμο'],age:['Age · 18+','Ηλικία · 18+'],gender:['Gender · optional','Φύλο · προαιρετικό'],ratherNot:['Prefer not to say','Δεν θέλω να απαντήσω'],male:['Male','Άνδρας'],female:['Female','Γυναίκα'],writeYours:['Write yours','Γράψε το δικό σου'],yourGender:['Your gender','Το φύλο σου'],country:['Country · optional','Χώρα · προαιρετικό'],relationship:['Relationship to this group','Σχέση με την παρέα'],friends:['Friends','Φίλοι'],partner:['Partner','Σύντροφος'],family:['Family','Συγγενείς'],other:['Other','Άλλο'],whichPartner:['My partner is','Ο/Η σύντροφός μου είναι'],preferences:['Flirting preferences · optional','Προτιμήσεις φλερτ · προαιρετικό'],preferenceNote:['Only for optional, non-explicit flirting cards. Both players must opt in. Family profiles never receive these cards.','Μόνο για προαιρετικές κάρτες φλερτ, χωρίς γραφικό περιεχόμενο. Πρέπει να συμφωνούν και οι δύο. Τα προφίλ συγγενών δεν λαμβάνουν αυτές τις κάρτες.'],comfortable:["I'm comfortable flirting with",'Νιώθω άνετα να φλερτάρω με'],noFlirting:['No flirting cards','Χωρίς κάρτες φλερτ'],anyGender:['Any gender','Όλα τα φύλα'],men:['Men','Άνδρες'],women:['Women','Γυναίκες'],previous:['Back','Πίσω'],privacy:['Profiles stay in this browser tab and are not uploaded. End session deletes them.','Τα προφίλ μένουν μόνο σε αυτή την καρτέλα του browser και δεν αποστέλλονται. Το τέλος συνεδρίας τα διαγράφει.'],edit:['Edit players','Αλλαγή παικτών'],yourTurn:['YOUR TURN','Η ΣΕΙΡΑ ΣΟΥ'],truth:['Truth','Αλήθεια'],dare:['Dare','Θάρρος'],truthNote:['Tell us something.','Πες μας κάτι.'],dareNote:['Show us something.','Δείξε μας κάτι.'],pairConsent:['Ask first. Continue only if both of you want to.','Ρώτα πρώτα. Συνεχίστε μόνο αν το θέλετε και οι δύο.'],pass:['Pass · no penalty','Πάσο · χωρίς ποινή'],next:['Next player','Επόμενος παίκτης'],gameNote:['A pass is always an answer. No points. No pressure.','Το πάσο είναι πάντα απάντηση. Χωρίς πόντους. Χωρίς πίεση.'],moreInfo:['More information · How to play','Περισσότερες πληροφορίες · Πώς παίζεται'],rules:['Add 2–20 adults and choose Casual or Extreme. Take turns picking Truth or Dare, then pass the device to the next player. Cards do not repeat until the eligible deck runs out. Switch language at any time. Flirting is optional, never explicit, and requires matching preferences; a Partner profile pairs only with a mutually selected partner. Family profiles get non-romantic cards. Everyone can pass without a penalty.','Πρόσθεσε 2–20 ενήλικες και διάλεξε Casual ή Extreme. Με τη σειρά επιλέγετε Αλήθεια ή Θάρρος και δίνετε τη συσκευή στον επόμενο. Οι διαθέσιμες κάρτες δεν επαναλαμβάνονται μέχρι να εξαντληθούν. Αλλάζεις γλώσσα όποτε θέλεις. Το φλερτ είναι προαιρετικό, χωρίς γραφικό περιεχόμενο, και χρειάζεται αμοιβαίες προτιμήσεις. Τα προφίλ συντρόφων συνδυάζονται μόνο όταν επιλέξουν ο ένας τον άλλον. Τα προφίλ συγγενών παίρνουν μη ρομαντικές κάρτες. Όλοι μπορούν να πουν πάσο χωρίς ποινή.'],noRank:['This party game has no leaderboard or competitive score.','Αυτό το παιχνίδι παρέας δεν έχει leaderboard ή ανταγωνιστική βαθμολογία.'],end:['End session & delete profiles','Τέλος συνεδρίας & διαγραφή προφίλ'],endTitle:['End this session?','Να τελειώσει η συνεδρία;'],endNote:["All player profiles and this game's progress will be deleted from this tab.",'Όλα τα προφίλ παικτών και η πρόοδος αυτού του παιχνιδιού θα διαγραφούν από την καρτέλα.'],cancel:['Cancel','Ακύρωση'],confirmEnd:['End & delete','Τέλος & διαγραφή'],privacyLink:['Privacy','Απόρρητο'],nextProfile:['Save & next player','Αποθήκευση & επόμενος'],start:['Let’s play','Πάμε να παίξουμε'],ageError:['Enter a whole-number age from 18 to 120 for every player.','Βάλε ακέραιη ηλικία από 18 έως 120 για κάθε παίκτη.'],storageError:['Browser storage is unavailable. You can play, but reloading will clear this session.','Η αποθήκευση του browser δεν είναι διαθέσιμη. Μπορείτε να παίξετε, αλλά η ανανέωση θα σβήσει τη συνεδρία.'],player:['Player','Παίκτης'],turn:['Turn','Σειρά'],with:['With','Με'],selectPartner:['Choose player','Διάλεξε παίκτη'],fewer:['Fewer players','Λιγότεροι παίκτες'],morePlayers:['More players','Περισσότεροι παίκτες']
 };
+Object.assign(COPY,{
+ enableFlirting:['Enable spicy cards · only if everyone agrees to sexual themes. Optional for couples or friends.','Ενεργοποίηση spicy καρτών · μόνο αν όλοι συμφωνούν με τα σεξουαλικά θέματα. Προαιρετικά για ζευγάρια ή φίλους.'],
+ preferences:['Spicy cards & preferences · optional','Spicy κάρτες & προτιμήσεις · προαιρετικό'],
+ preferenceNote:['Opt in separately for adult questions and dares. Paired cards require matching preferences. Family profiles are excluded.','Ξεχωριστή επιλογή συμμετοχής σε ερωτήσεις και δοκιμασίες ενηλίκων. Οι κάρτες με δεύτερο άτομο απαιτούν αμοιβαίες προτιμήσεις. Τα προφίλ συγγενών εξαιρούνται.'],
+ comfortable:['I opt in to spicy cards, with','Συμμετέχω στις spicy κάρτες, με'],noFlirting:['No spicy cards','Χωρίς spicy κάρτες'],
+ pass:['Pass · 1 left','Πάσο · απομένει 1'],gameNote:['One card swap per player per round. You can always decline and end your turn.','Μία αλλαγή κάρτας ανά παίκτη σε κάθε γύρο. Μπορείς πάντα να αρνηθείς και να τελειώσεις τη σειρά σου.'],
+ rules:['Add 2–20 adults. Choose Lovers, Friends or Other, then Casual or Extreme. Each player gets one card swap on their turn. A second pass opens a notice; a clothing forfeit is offered only if you consented to it in your profile and everyone opted in to the adult deck. You may accept it or end the game. Enable spicy cards and choose preferences in each profile to use the supplied adult deck in Extreme. Pairings require mutual preferences; family profiles are excluded. Cards do not repeat until the eligible deck runs out. Switch language whenever you like.','Πρόσθεσε 2–20 ενήλικες. Διάλεξε Lovers, Friends ή Other και μετά Casual ή Extreme. Κάθε παίκτης έχει μία αλλαγή κάρτας στη σειρά του. Στο δεύτερο πάσο εμφανίζεται ειδοποίηση. Ποινή αφαίρεσης ρούχου προσφέρεται μόνο αν τη δέχτηκες στο προφίλ σου και όλοι συμμετέχουν στις spicy κάρτες. Μπορείς να τη δεχτείς ή να τελειώσεις το παιχνίδι. Ενεργοποίησε τις spicy κάρτες και επίλεξε προτιμήσεις σε κάθε προφίλ για το νέο υλικό στο Extreme. Οι συνδυασμοί απαιτούν αμοιβαίες προτιμήσεις και εξαιρούν συγγενείς. Οι διαθέσιμες κάρτες δεν επαναλαμβάνονται μέχρι να εξαντληθούν. Αλλάζεις γλώσσα όποτε θέλεις.']
+});
 let lang='en',state=null,index=0,count=2,storageFailed=false;
 try{lang=localStorage.getItem('GMP_LANGUAGE')==='el'?'el':'en';}catch{}
 try{state=restoreSession(sessionStorage.getItem(SESSION_KEY),CARDS);}catch{storageFailed=true;}
@@ -29,23 +40,27 @@ function render(focus=false){
  for(const name of ['setup','profiles','game'])$(name).hidden=stage!==name;
  $('endSession').hidden=!state;
  document.body.dataset.mode=state?.mode||document.querySelector('[name=mode]:checked').value;
- if(stage==='setup'){setCount(count);if(state){document.querySelector(`[name=mode][value=${state.mode}]`).checked=true;$('enableFlirting').checked=!!state.flirting;}return;}
+ if(stage==='setup'){setCount(count);if(state){document.querySelector(`[name=mode][value=${state.mode}]`).checked=true;$('enableFlirting').checked=!!state.flirting;document.querySelector(`[name=group][value=${state.group||'friends'}]`).checked=true;}return;}
  if(stage==='profiles'){loadProfile();if(focus)$('profileTitle').focus();return;}
  const current=state.players[state.turn%state.players.length];
- $('modeBadge').textContent=state.mode==='casual'?'Casual':'Extreme';
+ $('modeBadge').textContent=(state.group==='lovers'?'Lovers':state.group==='other'?'Other':'Friends')+' · '+(state.mode==='casual'?'Casual':'Extreme');
  $('turnNumber').textContent=`${t('turn')} ${state.turn+1}`;
  $('turnTitle').textContent=playerName(current);
- $('pickCard').hidden=!!state.active;$('card').hidden=!state.active;$('cardActions').hidden=!state.active;
+ $('pickCard').hidden=!!state.active;$('card').hidden=!state.active;$('cardActions').hidden=!state.active;$('decline').hidden=!state.active;
+ $('pass').textContent=t(state.passUses?'passAgain':'passLeft');$('pass').hidden=!!state.active?.forfeit;$('decline').textContent=t(state.active?.forfeit?'endGame':'decline');
  if(state.active){
   const c=CARDS.find(c=>c.id===state.active.id);const target=state.players.find(p=>p.id===state.active.target);
-  $('card').classList.toggle('dare-card',c.type==='dare');$('cardType').textContent=t(c.type);
+  $('card').classList.toggle('dare-card',c.type==='dare');$('cardType').textContent=t(state.active.forfeit?'forfeit':c.type);
   $('cardText').textContent=c[lang].replaceAll('{target}',target?playerName(target):'');
-  $('targetNote').textContent=target?`${t('with')} ${playerName(target)}`:'';$('consentNote').hidden=!c.pair;
+  $('targetNote').textContent=target?`${t('with')} ${playerName(target)}`:'';$('consentNote').hidden=!c.pair&&!c.adult;$('consentNote').textContent=t(c.pair?'pairConsent':'adultNote');
  }
  if(focus)(state.active?$('cardText'):$('turnTitle')).focus();
 }
 function toggleFields(){
  document.querySelector('.preferences').hidden=!state.flirting;
+ $('forfeitConsentField').hidden=!state.flirting||state.mode!=='extreme'||$('playerRelationship').value==='family';
+ $('forfeitConsent').disabled=$('forfeitConsentField').hidden;
+ if($('forfeitConsent').disabled)$('forfeitConsent').checked=false;
  $('customGenderField').hidden=$('playerGender').value!=='custom';
  $('partnerField').hidden=$('playerRelationship').value!=='partner';
  $('playerPartner').required=$('playerRelationship').value==='partner';
@@ -55,7 +70,7 @@ function toggleFields(){
 function loadProfile(){
  const p=state.players[index];$('profileTitle').textContent=`${t('player')} ${index+1}`;$('profileProgress').textContent=`${index+1} / ${state.players.length}`;
  $('playerChips').replaceChildren(...state.players.map((p,i)=>{const b=document.createElement('button');b.type='button';b.textContent=`${p.ready?'✓ ':''}${playerName(p)}`;b.setAttribute('aria-current',String(i===index));b.onclick=()=>{capture();index=i;save();loadProfile();$('profileTitle').focus();};return b;}));
- $('playerName').value=p.name;$('playerName').placeholder=`${t('player')} ${index+1}`;$('playerAge').value=p.age;$('playerGender').value=p.gender;$('customGender').value=p.customGender;$('playerCountry').value=p.country;$('playerRelationship').value=p.relationship;$('playerPreference').value=p.preference;
+ $('playerName').value=p.name;$('playerName').placeholder=`${t('player')} ${index+1}`;$('playerAge').value=p.age;$('playerGender').value=p.gender;$('customGender').value=p.customGender;$('playerCountry').value=p.country;$('playerRelationship').value=p.relationship;$('playerPreference').value=p.preference;$('forfeitConsent').checked=p.forfeitConsent===true;
  const empty=document.createElement('option');empty.value='';empty.textContent=t('selectPartner');
  $('playerPartner').replaceChildren(empty,...state.players.filter(q=>q.id!==p.id).map(q=>{const o=document.createElement('option');o.value=q.id;o.textContent=playerName(q);return o;}));$('playerPartner').value=String(p.partner);
  $('savePlayer').textContent=index<state.players.length-1?t('nextProfile'):t('start');$('profileError').textContent='';toggleFields();
@@ -63,6 +78,7 @@ function loadProfile(){
 function capture(){
  if(state?.stage!=='profiles')return;
  const p=state.players[index];Object.assign(p,{name:$('playerName').value.trim().slice(0,32),age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:$('playerCountry').value.trim().slice(0,60),relationship:$('playerRelationship').value,partner:$('playerRelationship').value==='partner'?$('playerPartner').value:'',preference:$('playerRelationship').value==='family'?'none':$('playerPreference').value});
+ p.forfeitConsent=!$('forfeitConsent').disabled&&$('forfeitConsent').checked;
  p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
 }
 $('less').onclick=()=>setCount(count-1);$('more').onclick=()=>setCount(count+1);
@@ -70,7 +86,8 @@ document.querySelectorAll('[name=mode]').forEach(el=>el.onchange=()=>document.bo
 $('setupForm').onsubmit=e=>{
  e.preventDefault();if(!$('setupForm').reportValidity())return;
  const old=state?.players||[];
- state={stage:'profiles',flirting:$('enableFlirting').checked,mode:document.querySelector('[name=mode]:checked').value,players:Array.from({length:count},(_,i)=>old[i]||makePlayer(i)),turn:0,used:[],active:null,profileIndex:0};
+ const group=document.querySelector('[name=group]:checked').value;
+ state={stage:'profiles',group,flirting:$('enableFlirting').checked,mode:document.querySelector('[name=mode]:checked').value,players:Array.from({length:count},(_,i)=>old[i]||{...makePlayer(i),relationship:group==='lovers'?'partner':group==='other'?'other':'friend',partner:group==='lovers'&&count===2?String(1-i):''}),turn:0,passUses:0,used:[],active:null,profileIndex:0};
  state.players.forEach(p=>{if(p.relationship==='partner'&&!state.players.some(q=>String(q.id)===String(p.partner))){p.partner='';p.ready=false;}});
  index=0;save();render(true);
 };
@@ -85,11 +102,19 @@ $('profileForm').onsubmit=e=>{
 };
 $('previousPlayer').onclick=()=>{capture();if(index>0)index--;else state.stage='setup';save();render(true);};
 $('editPlayers').onclick=()=>{state.stage='profiles';state.active=null;index=0;save();render(true);};
-function choose(type){if(state?.stage!=='game'||state.active)return;const result=drawCard(state.flirting?CARDS:CARDS.filter(c=>!c.pair),state.mode,type,state.players[state.turn%state.players.length],state.players,state.used);state.used=result.used;state.active={id:result.id,target:result.target};save();render(true);}
+function choose(type){if(state?.stage!=='game'||state.active)return;const result=drawCard(CARDS,state.mode,type,state.players[state.turn%state.players.length],state.players,state.used,Math.random,state.flirting);state.used=result.used;state.active={id:result.id,target:result.target};save();render(true);}
 $('truth').onclick=()=>choose('truth');$('dare').onclick=()=>choose('dare');
-function next(){if(!state?.active)return;state.turn++;state.active=null;save();render(true);}
-$('pass').onclick=next;$('done').onclick=next;
+function next(){if(!state?.active)return;state.turn++;state.passUses=0;state.active=null;save();render(true);}
+$('done').onclick=next;$('decline').onclick=()=>state.active?.forfeit?finishGame():next();
+function offerForfeit(){return canOfferForfeit(state.mode,state.players,state.players[state.turn%state.players.length],state.flirting);}
+$('pass').onclick=()=>{
+ if(!state?.active||state.active.forfeit)return;
+ if(!state.passUses){const type=CARDS.find(c=>c.id===state.active.id).type;state.passUses=1;state.active=null;choose(type);return;}
+ const offered=offerForfeit();$('passNotice').textContent=t(offered?'secondPassNotice':'noForfeitNotice');$('forfeitPrompt').textContent=offered?CARDS.find(c=>c.id==='supplied-dare-3')[lang]:'';$('acceptForfeit').hidden=!offered;$('endPassGame').textContent=t(offered?'endGame':'endTurn');$('passDialog').showModal();
+};
+$('passDialog').addEventListener('close',()=>{if($('passDialog').returnValue==='end'){if(offerForfeit())finishGame();else next();return;}if($('passDialog').returnValue==='accept'&&offerForfeit()){state.active={id:'supplied-dare-3',target:null,forfeit:true};if(!state.used.includes('supplied-dare-3'))state.used.push('supplied-dare-3');save();render(true);}});
 document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{capture();lang=b.dataset.lang;try{localStorage.setItem('GMP_LANGUAGE',lang);}catch{}save();render();});
 $('endSession').onclick=()=>{$('endDialog').showModal();};
-$('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue!=='delete')return;try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;index=0;count=2;$('adultConsent').checked=false;$('setupForm').reset();$('profileForm').reset();render();$('setupTitle').setAttribute('tabindex','-1');$('setupTitle').focus();});
+function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;index=0;count=2;$('adultConsent').checked=false;$('setupForm').reset();$('profileForm').reset();render();$('storageStatus').textContent=t('gameEnded');$('setupTitle').setAttribute('tabindex','-1');$('setupTitle').focus();}
+$('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue==='delete')finishGame();});
 render();

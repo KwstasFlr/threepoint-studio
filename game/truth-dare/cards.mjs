@@ -1,4 +1,5 @@
-// Original bilingual prompts. Pair cards are optional, non-explicit and consent-filtered.
+import {SUPPLIED_CARDS} from './supplied-cards.mjs?v=1';
+// Original decks plus the supplied adult deck. Pairings are consent-filtered.
 const decks = {
   casual: {
     truth: [
@@ -93,4 +94,4 @@ const decks = {
     ]
   }
 };
-export const CARDS = Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair}))));
+export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS];

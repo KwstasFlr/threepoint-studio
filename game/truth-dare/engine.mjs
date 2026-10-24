@@ -1,5 +1,5 @@
 export const SESSION_KEY = 'GUESSPLEX_PARTY_V1';
-export function makePlayer(id){return {id,name:'',age:'',gender:'',customGender:'',country:'',relationship:'friend',partner:'',preference:'none',ready:false};}
+export function makePlayer(id){return {id,name:'',age:'',gender:'',customGender:'',country:'',relationship:'friend',partner:'',preference:'none',forfeitConsent:false,ready:false};}
 export function validPlayer(p){return !!p && Number.isInteger(Number(p.age)) && Number(p.age)>=18 && Number(p.age)<=120 && typeof p.name==='string' && p.name.length<=32 && ['','male','female','custom'].includes(p.gender) && ['friend','partner','family','other'].includes(p.relationship) && ['none','any','male','female'].includes(p.preference);}
 export function eligiblePair(a,b){
   if(!a||!b||a.id===b.id||!validPlayer(a)||!validPlayer(b)||a.relationship==='family'||b.relationship==='family')return false;
@@ -10,9 +10,16 @@ export function eligiblePair(a,b){
   return accepts(a,b)&&accepts(b,a);
 }
 export function shuffle(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-export function drawCard(cards,mode,type,player,players,used=[],random=Math.random){
+export function optedIn(p){return validPlayer(p)&&p.preference!=='none'&&p.relationship!=='family';}
+export function eligibleCards(cards,mode,type,player,players,spicy=false){
   const targets=players.filter(p=>eligiblePair(player,p));
-  const eligible=cards.filter(c=>c.mode===mode&&c.type===type&&(!c.pair||targets.length));
+  const adult=spicy&&mode==='extreme'&&optedIn(player);
+  return cards.filter(c=>c.mode===mode&&c.type===type&&Boolean(c.adult)===adult&&(!c.pair||spicy&&targets.length)&&(!c.group||players.every(optedIn))&&(!c.minTargets||targets.length>=c.minTargets));
+}
+export function canOfferForfeit(mode,players,player,spicy){return mode==='extreme'&&spicy&&player.forfeitConsent===true&&optedIn(player)&&players.every(optedIn);}
+export function drawCard(cards,mode,type,player,players,used=[],random=Math.random,spicy=false){
+  const targets=players.filter(p=>eligiblePair(player,p));
+  const eligible=eligibleCards(cards,mode,type,player,players,spicy);
   if(!eligible.length)throw new Error('No eligible cards');
   let pool=eligible.filter(c=>!used.includes(c.id));
   let nextUsed=[...used];
@@ -26,11 +33,14 @@ export function restoreSession(raw,cards){
     if(!s.players.every((p,i)=>p&&p.id===i&&typeof p.name==='string'&&p.name.length<=32&&typeof p.country==='string'&&p.country.length<=60&&typeof p.customGender==='string'&&p.customGender.length<=40&&typeof p.ready==='boolean'))return null;
     if(s.players.some(p=>p.ready&&!validPlayer(p))||s.stage==='game'&&s.players.some(p=>!p.ready||!validPlayer(p)))return null;
     const cardIds=new Set(cards.map(c=>c.id));
+    s.group=['lovers','friends','other'].includes(s.group)?s.group:'friends';
     s.flirting=s.flirting===true;
+    s.players.forEach(p=>p.forfeitConsent=p.forfeitConsent===true);
     s.used=Array.isArray(s.used)?[...new Set(s.used.filter(id=>cardIds.has(id)))]:[];
     s.turn=Number.isSafeInteger(s.turn)&&s.turn>=0?s.turn:0;
+    s.passUses=s.passUses===1?1:0;
     s.profileIndex=Number.isInteger(s.profileIndex)&&s.profileIndex>=0&&s.profileIndex<s.players.length?s.profileIndex:0;
-    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const b=s.players.find(p=>p.id===s.active.target);if(!c||c.mode!==s.mode||(c.pair&&(!s.flirting||!eligiblePair(a,b))))s.active=null;else if(!c.pair)s.active.target=null;}
+    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const allowed=c&&eligibleCards(cards,s.mode,c.type,a,s.players,s.flirting).some(x=>x.id===c.id);if(!allowed||(s.active.forfeit&&(c.id!=='supplied-dare-3'||!canOfferForfeit(s.mode,s.players,a,s.flirting))))s.active=null;else if(!c.pair)s.active.target=null;else if(!eligiblePair(a,s.players.find(p=>p.id===s.active.target)))s.active=null;}
     return s;
   }catch{return null;}
 }
