@@ -23,16 +23,18 @@ Object.assign(COPY,{
  mainMenu:['← Main menu','← Κεντρικό μενού'],optionsFirst:['Complete your players in Options, then press Play.','Συμπλήρωσε τους παίκτες στο Options και μετά πάτησε Play.'],
  setup:['Set up your players','Προσθήκη παικτών'],gender:['Gender · required','Φύλο · υποχρεωτικό'],country:['Country · required','Χώρα · υποχρεωτικό'],selectGender:['Choose gender','Διάλεξε φύλο'],yourGender:['Write your gender','Γράψε το φύλο σου'],chooseLevel:['Choose Casual / Extreme','Επιλογή Casual / Extreme'],whoPlays:['Choose category','Διάλεξε κατηγορία'],turnSetup:['Your turn','Η σειρά σου'],countryError:['Choose a country from the suggestions.','Διάλεξε χώρα από τις προτάσεις.'],profileError:['Complete age, country and gender, including your description if you chose Write yours.','Συμπλήρωσε ηλικία, χώρα και φύλο, μαζί με την περιγραφή αν επέλεξες «Γράψε το δικό σου».'],answered:['I answered — next player','Απάντησα — επόμενος παίκτης'],didDare:['I did it — next player','Το έκανα — επόμενος παίκτης'],didForfeit:['Punishment done — next player','Έκανα την ποινή — επόμενος παίκτης'],completed:['completed the card. Next:','ολοκλήρωσε την κάρτα. Επόμενος:'],analyticsConsent:['I agree to share my age band, gender category and country with Google Analytics for participant statistics. Optional; no name, custom gender text or sexual preferences are sent.','Συμφωνώ να στέλνονται στο Google Analytics το ηλικιακό εύρος, η κατηγορία φύλου και η χώρα μου για συνολικά στατιστικά συμμετεχόντων. Προαιρετικό· δεν στέλνονται όνομα, δικό μου κείμενο φύλου ή σεξουαλικές προτιμήσεις.'],privacy:['Profiles stay in this browser tab. Optional participant statistics require both this consent and analytics cookies. Names and sexual preferences are never sent. End session deletes local profiles.','Τα προφίλ μένουν σε αυτή την καρτέλα. Τα προαιρετικά στατιστικά χρειάζονται και τη συγκατάθεσή σου εδώ και αποδοχή analytics cookies. Ονόματα και σεξουαλικές προτιμήσεις δεν στέλνονται. Το τέλος συνεδρίας διαγράφει τα τοπικά προφίλ.'],rules:['Open Options to enter age, country and gender once for each adult player, then return to the main menu and press Play. At the start of each turn, confirm the name and choose Friend, Lover or Other, then Casual or Extreme. Choose Truth or Dare. After answering or completing a dare, press the large completion button to move to the next player. A pass swaps the card once; a second pass opens the consent notice. Everyone can stop. Profiles and preferences stay in this tab; optional statistical categories can be sent to Google Analytics only with consent.','Άνοιξε το Options για να συμπληρώσεις μία φορά ηλικία, χώρα και φύλο για κάθε ενήλικο παίκτη και μετά πάτησε Play στο κεντρικό μενού. Στην αρχή κάθε σειράς επιβεβαίωσε το όνομα και διάλεξε Friend, Lover ή Other και μετά Casual ή Extreme. Διάλεξε Αλήθεια ή Θάρρος. Όταν απαντήσεις ή ολοκληρώσεις την πρόκληση, πάτησε το μεγάλο κουμπί ολοκλήρωσης για τον επόμενο παίκτη. Το πάσο αλλάζει μία κάρτα· στο δεύτερο εμφανίζεται η ειδοποίηση συναίνεσης. Όλοι μπορούν να σταματήσουν. Τα προφίλ και οι προτιμήσεις μένουν στην καρτέλα· οι προαιρετικές κατηγορίες στατιστικών στέλνονται στο Google Analytics μόνο με συγκατάθεση.']
 });
+Object.assign(COPY,{mainMenu:['← Back to game menu','← Πίσω στην αρχική παιχνιδιού'],saveDetails:['Save details','Αποθήκευση στοιχείων'],detailsSaved:['Details saved.','Τα στοιχεία αποθηκεύτηκαν.'],howTitle:['How to play','Πώς παίζεται']});
+COPY.rules=COPY.rules.map((s,i)=>s.replace(i?'Άνοιξε το Options για να συμπληρώσεις μία φορά ηλικία, χώρα και φύλο για κάθε ενήλικο παίκτη και μετά πάτησε Play στο κεντρικό μενού.':'Open Options to enter age, country and gender once for each adult player, then return to the main menu and press Play.',i?'Συμπλήρωσε ηλικία, φύλο και χώρα στην αρχική. Στο Options ορίζεις παίκτες και προτιμήσεις και μετά πατάς Play.':'Enter age, gender and country on the main menu. Use Options to set up players and preferences, then press Play.'));
 let uiStage='menu';
 let lang='en',state=null,index=0,count=2,storageFailed=false;
 try{lang=localStorage.getItem('GMP_LANGUAGE')==='el'?'el':'en';}catch{}
 try{state=restoreSession(sessionStorage.getItem(SESSION_KEY),CARDS);}catch{storageFailed=true;}
-if(state){index=state.profileIndex;count=state.players.length;state.stage='menu';}
+if(state){index=state.profileIndex;count=state.players.length;state.stage='menu';state.players.forEach(p=>{if(typeof p.optionsReady!=='boolean')p.optionsReady=p.ready;});}
 const t=key=>COPY[key]?.[lang==='el'?1:0]||key;
 const playerName=p=>p.name.trim()||`${t('player')} ${p.id+1}`;
 const currentPlayer=()=>state.players[state.turn%state.players.length];
 function status(){$('storageStatus').textContent=storageFailed?t('storageError'):'';}
-function save(){if(!state)return;state.profileIndex=index;try{sessionStorage.setItem(SESSION_KEY,JSON.stringify(state));}catch{storageFailed=true;}status();}
+function save(){if(!state)return;state.profileIndex=index;try{sessionStorage.setItem(SESSION_KEY,JSON.stringify({...state,stage:state.stage==='rules'?'menu':state.stage}));}catch{storageFailed=true;}status();}
 function report(){if(!state)return;try{if(reportDemographics(state.players,localStorage,window.gtag))save();}catch{}}
 function setCount(n){count=Math.max(2,Math.min(20,n));$('playerCount').value=count;$('countDisplay').value=count;$('less').disabled=count===2;$('more').disabled=count===20;}
 function translate(){
@@ -45,10 +47,11 @@ function translate(){
 function render(focus=false){
  translate();const stage=state?.stage||uiStage;document.body.dataset.stage=stage;
  for(const name of ['menu','setup','profiles','turn','game'])$(name).hidden=stage!==name;
- $('endSession').hidden=!state;$('menuBack').hidden=stage==='menu';document.body.dataset.mode=state?.mode||'casual';
+ $('endSession').hidden=!state||!['turn','game'].includes(stage);$('rules').hidden=stage!=='rules';$('menuBack').hidden=stage==='menu';document.body.dataset.mode=state?.mode||'casual';
  $('lastCompleted').hidden=!state?.lastCompleted||stage!=='turn';
  if(state?.lastCompleted&&stage==='turn')$('lastCompleted').textContent=`${state.lastCompleted} ${t('completed')} ${playerName(currentPlayer())}`;
- if(stage==='menu')return;
+ if(stage==='menu'){ensurePlayers();loadProfile();$('menuPlayerTitle').textContent=playerName(state.players[index]);return;}
+ if(stage==='rules'){if(focus)$('rules').querySelector('h2').focus();return;}
  if(stage==='setup'){setCount(count);if(state)$('enableFlirting').checked=state.flirting;return;}
  if(stage==='profiles'){loadProfile();if(focus)$('profileTitle').focus();return;}
  if(stage==='turn'){
@@ -79,25 +82,30 @@ function toggleFields(){
 }
 function loadProfile(){
  const p=state.players[index];$('profileTitle').textContent=`${t('player')} ${index+1}`;$('profileProgress').textContent=`${index+1} / ${state.players.length}`;
- $('playerChips').replaceChildren(...state.players.map((q,i)=>{const b=document.createElement('button');b.type='button';b.textContent=`${q.ready?'✓ ':''}${playerName(q)}`;b.setAttribute('aria-current',String(i===index));b.onclick=()=>{capture();index=i;save();loadProfile();$('profileTitle').focus();};return b;}));
+ $('playerChips').replaceChildren(...state.players.map((q,i)=>{const b=document.createElement('button');b.type='button';b.textContent=`${q.ready?'✓ ':''}${playerName(q)}`;b.setAttribute('aria-current',String(i===index));b.onclick=()=>{capture();index=i;save();loadProfile();$('menuPlayerTitle').textContent=playerName(state.players[index]);$('playerAge').focus();};return b;}));
  $('playerAge').value=p.age;$('playerGender').value=p.gender;$('customGender').value=p.customGender;$('playerCountry').value=countryName(p.country,lang);$('playerCountry').setCustomValidity('');$('playerRelationship').value=p.relationship;$('playerPreference').value=p.preference;$('forfeitConsent').checked=p.forfeitConsent===true;$('profileAnalytics').checked=p.analyticsConsent===true;
  const empty=document.createElement('option');empty.value='';empty.textContent=t('selectPartner');$('playerPartner').replaceChildren(empty,...state.players.filter(q=>q.id!==p.id).map(q=>{const o=document.createElement('option');o.value=q.id;o.textContent=playerName(q);return o;}));$('playerPartner').value=String(p.partner);
  $('savePlayer').textContent=index<state.players.length-1?t('nextProfile'):t('start');$('profileError').textContent='';toggleFields();
 }
 function capture(){
- if(state?.stage!=='profiles')return;
- const p=state.players[index];Object.assign(p,{age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:resolveCountry($('playerCountry').value),relationship:$('playerRelationship').value,partner:$('playerRelationship').value==='partner'?$('playerPartner').value:'',preference:$('playerRelationship').value==='family'?'none':$('playerPreference').value,analyticsConsent:$('profileAnalytics').checked});
- p.forfeitConsent=!$('forfeitConsent').disabled&&$('forfeitConsent').checked;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
+ if(!state||!['menu','profiles'].includes(state.stage))return;
+ const p=state.players[index];if(state.stage==='menu'){Object.assign(p,{age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:resolveCountry($('playerCountry').value),analyticsConsent:$('profileAnalytics').checked});p.ready=p.optionsReady===true&&validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');return;}Object.assign(p,{age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:resolveCountry($('playerCountry').value),relationship:$('playerRelationship').value,partner:$('playerRelationship').value==='partner'?$('playerPartner').value:'',preference:$('playerRelationship').value==='family'?'none':$('playerPreference').value,analyticsConsent:$('profileAnalytics').checked});
+ p.optionsReady=true;p.forfeitConsent=!$('forfeitConsent').disabled&&$('forfeitConsent').checked;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
 }
-function openOptions(){if(state){state.stage='profiles';state.active=null;index=0;}else uiStage='setup';save();render(true);}
+function ensurePlayers(){if(state)return;state={stage:'menu',group:'friends',flirting:false,mode:'casual',players:[makePlayer(0),makePlayer(1)],turn:0,turnStep:'identity',passUses:0,used:[],active:null,profileIndex:0,setupReady:false};}
+function saveMenuDetails(){const code=resolveCountry($('playerCountry').value);$('playerCountry').setCustomValidity(code?'':t('countryError'));if(!$('menuProfile').reportValidity())return false;capture();save();report();return true;}
+$('menuProfile').onsubmit=e=>{e.preventDefault();if(saveMenuDetails())$('menuProfileStatus').textContent=t('detailsSaved');};
+$('menuProfile').addEventListener('input',()=>{$('playerCountry').setCustomValidity('');capture();save();});
+$('menuProfile').addEventListener('change',()=>{capture();save();});
+function openOptions(){capture();if(state){state.stage=state.setupReady===false?'setup':'profiles';state.active=null;index=0;}else uiStage='setup';save();render(true);}
 $('menuOptions').onclick=openOptions;
-$('menuPlay').onclick=()=>{if(!state||state.players.some(p=>!p.ready||!validPlayer(p))){openOptions();$('storageStatus').textContent=t('optionsFirst');return;}state.stage=state.active?'game':'turn';state.turnStep='identity';save();render(true);};
+$('menuPlay').onclick=()=>{if(!saveMenuDetails())return;const missing=state.players.findIndex(p=>!validPlayer(p));if(missing!==-1){index=missing;render();$('menuProfile').reportValidity();return;}if(!state||state.players.some(p=>!p.ready||!validPlayer(p))){openOptions();$('storageStatus').textContent=t('optionsFirst');return;}state.stage=state.active?'game':'turn';state.turnStep='identity';save();render(true);};
 $('menuBack').onclick=()=>{capture();if(state)state.stage='menu';else uiStage='menu';save();render();$('menuPlay').focus();};
-$('menuHow').onclick=()=>{$('rules').open=true;$('rules').querySelector('summary').focus();};
+$('menuHow').onclick=()=>{capture();state.stage='rules';render(true);};
 $('less').onclick=()=>setCount(count-1);$('more').onclick=()=>setCount(count+1);
 $('setupForm').onsubmit=e=>{
  e.preventDefault();if(!$('setupForm').reportValidity())return;const old=state?.players||[];
- state={stage:'profiles',group:'friends',flirting:$('enableFlirting').checked,mode:'casual',players:Array.from({length:count},(_,i)=>old[i]||makePlayer(i)),turn:0,turnStep:'identity',passUses:0,used:[],active:null,profileIndex:0,lastCompleted:''};
+ state={setupReady:true,stage:'profiles',group:'friends',flirting:$('enableFlirting').checked,mode:'casual',players:Array.from({length:count},(_,i)=>old[i]||makePlayer(i)),turn:0,turnStep:'identity',passUses:0,used:[],active:null,profileIndex:0,lastCompleted:''};
  state.players.forEach(p=>{if(p.relationship==='partner'&&!state.players.some(q=>String(q.id)===String(p.partner))){p.partner='';p.ready=false;}});index=0;save();render(true);
 };
 $('playerGender').onchange=()=>{toggleFields();if($('playerGender').value==='custom')$('customGender').focus();};
@@ -105,12 +113,12 @@ $('profileForm').addEventListener('input',()=>{$('playerCountry').setCustomValid
 $('profileForm').addEventListener('change',()=>{toggleFields();capture();save();});
 $('profileForm').onsubmit=e=>{
  e.preventDefault();const code=resolveCountry($('playerCountry').value);$('playerCountry').setCustomValidity(code?'':t('countryError'));if(!$('profileForm').reportValidity())return;capture();
- if(!state.players[index].ready){$('profileError').textContent=t('profileError');return;}report();
+ if(!validPlayer(state.players[index])){state.stage='menu';save();render();$('menuProfile').reportValidity();return;}if(!state.players[index].ready){$('profileError').textContent=t('profileError');return;}report();
  if(index<state.players.length-1)index++;else{const unready=state.players.findIndex(p=>!p.ready||!validPlayer(p));if(unready!==-1)index=unready;else{state.stage='menu';state.turnStep='identity';state.active=null;}}
  save();render(true);
 };
 $('previousPlayer').onclick=()=>{capture();if(index>0)index--;else state.stage='setup';save();render(true);};
-$('editPlayers').onclick=()=>{state.stage='profiles';state.active=null;state.turnStep='identity';index=0;save();render(true);};
+$('editPlayers').onclick=()=>{state.stage='menu';state.active=null;state.turnStep='identity';index=0;save();render(true);};
 $('turnIdentity').onsubmit=e=>{e.preventDefault();if(!$('turnIdentity').reportValidity())return;const name=$('turnName').value.trim();if(!name){$('turnName').focus();return;}currentPlayer().name=name.slice(0,32);state.group=document.querySelector('[name=group]:checked').value;currentPlayer().roundGroup=state.group;state.turnStep='mode';save();render(true);};
 $('turnBack').onclick=()=>{state.turnStep='identity';save();render(true);};
 document.querySelectorAll('[data-turn-mode]').forEach(b=>b.onclick=()=>{state.mode=b.dataset.turnMode;state.stage='game';state.lastCompleted='';save();render(true);});
@@ -128,6 +136,6 @@ $('passDialog').addEventListener('close',()=>{if($('passDialog').returnValue==='
 document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{capture();if(state?.stage==='turn'&&state.turnStep!=='mode')currentPlayer().name=$('turnName').value.trim().slice(0,32);lang=b.dataset.lang;try{localStorage.setItem('GMP_LANGUAGE',lang);}catch{}save();render();});
 document.addEventListener('click',e=>{if(e.target.closest('.gp-privacy-actions button'))setTimeout(report,0);});window.addEventListener('storage',e=>{if(e.key==='guessplex-analytics-v1')report();});
 $('endSession').onclick=()=>{$('endDialog').showModal();};
-function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;uiStage='menu';index=0;count=2;$('setupForm').reset();$('profileForm').reset();$('turnIdentity').reset();render();$('storageStatus').textContent=t('gameEnded');$('menuPlay').focus();}
+function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;uiStage='menu';index=0;count=2;$('setupForm').reset();$('profileForm').reset();$('menuProfile').reset();$('turnIdentity').reset();render();$('storageStatus').textContent=t('gameEnded');$('menuPlay').focus();}
 $('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue==='delete')finishGame();});
 render();
