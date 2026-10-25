@@ -29,6 +29,7 @@ COPY.rules=COPY.rules.map(s=>s.replace('Profiles and preferences stay in this ta
 Object.assign(COPY,{eyebrow:['TRUTH OR DARE','ΑΛΗΘΕΙΑ Ή ΘΑΡΡΟΣ'],age:['Age','Ηλικία'],backToModes:['← Back to Casual / Extreme','← Πίσω σε Casual / Extreme'],extremeTitle:['Extreme · 18+','Extreme · 18+'],extremeNote:['This mode contains spicy adult questions and dares.','Αυτή η ένταση περιλαμβάνει spicy ερωτήσεις και δοκιμασίες ενηλίκων.'],extremeConsent:['Everyone playing is 18+ and agrees to spicy adult questions and dares. Anyone can decline or stop.','Όλοι οι παίκτες είναι 18+ και συμφωνούν με spicy ερωτήσεις και δοκιμασίες ενηλίκων. Ο καθένας μπορεί να αρνηθεί ή να σταματήσει.'],continueExtreme:['Continue to Extreme','Συνέχεια στο Extreme'],extremeAgeError:['Extreme requires every player to be 18 or older. You can play Casual.','Για το Extreme όλοι οι παίκτες πρέπει να είναι τουλάχιστον 18 ετών. Μπορείτε να παίξετε Casual.']});
 COPY.rules=[ 'Press Play, choose the player count and save each player’s name and details. Choose Casual for friendly questions or Extreme for adult spicy cards. Extreme requires everyone to be 18+ and a separate agreement. Turn numbers appear only inside the round. Use Back to Casual / Extreme to change intensity. After answering or completing a dare, press the completion button for the next player. Anyone can decline or stop. Profiles stay in this tab.', 'Πάτησε Play, διάλεξε αριθμό παικτών και αποθήκευσε τα ονόματα και τα στοιχεία τους. Διάλεξε Casual για φιλικές ερωτήσεις ή Extreme για spicy κάρτες ενηλίκων. Το Extreme χρειάζεται όλοι να είναι 18+ και ξεχωριστή συγκατάθεση. Οι αριθμοί γύρων εμφανίζονται μόνο μέσα στον γύρο. Με το Πίσω σε Casual / Extreme αλλάζεις ένταση. Μετά την απάντηση ή τη δοκιμασία πάτησε ολοκλήρωση για τον επόμενο παίκτη. Ο καθένας μπορεί να αρνηθεί ή να σταματήσει. Τα προφίλ μένουν στην καρτέλα.'];
 Object.assign(COPY,{extremeGateNote:COPY.extremeNote,extremeNote:['Spicy questions. Adults only.','Spicy ερωτήσεις. Μόνο ενήλικες.']});
+Object.assign(COPY,{end:['End game & delete profiles','Τέλος παιχνιδιού & διαγραφή προφίλ'],endTitle:['End game and delete profiles?','Τέλος παιχνιδιού και διαγραφή προφίλ;']});
 let uiStage='menu';
 let lang='en',state=null,index=0,count=2,storageFailed=false;
 try{lang=localStorage.getItem('GMP_LANGUAGE')==='el'?'el':'en';}catch{}
@@ -51,7 +52,7 @@ function translate(){
 function render(focus=false){
  translate();const stage=state?.stage||uiStage;document.body.dataset.stage=stage;
  for(const name of ['menu','setup','profiles','turn','extremeGate','game'])$(name).hidden=stage!==name;
- $('endSession').hidden=!state||stage!=='game';$('rules').hidden=stage!=='rules';$('menuBack').hidden=stage==='menu';document.body.dataset.mode=state?.mode||'casual';
+ $('endSession').hidden=!state||stage!=='game';$('endGameControl').hidden=!state||stage!=='game';$('endControls').hidden=!state||stage!=='game';$('rules').hidden=stage!=='rules';$('menuBack').hidden=stage==='menu';document.body.dataset.mode=state?.mode||'casual';
  $('lastCompleted').hidden=true;
  if(state?.lastCompleted&&stage==='turn')$('lastCompleted').textContent=`${state.lastCompleted} ${t('completed')} ${playerName(currentPlayer())}`;
  if(stage==='menu')return;
@@ -118,12 +119,12 @@ $('previousPlayer').onclick=()=>{capture();if(index>0)index--;else state.stage='
 $('editPlayers').onclick=()=>{state.stage='profiles';state.active=null;state.turnStep='mode';index=0;save();render(true);};
 function enterMode(mode){if(state.mode!==mode){state.active=null;state.passUses=0;}state.mode=mode;state.flirting=mode==='extreme';state.stage='game';state.lastCompleted='';save();render(true);}
 document.querySelectorAll('[data-turn-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.turnMode==='casual'){enterMode('casual');return;}state.stage='extremeGate';$('extremeConsent').checked=false;$('extremeError').textContent='';save();render(true);});
-$('extremeForm').onsubmit=e=>{e.preventDefault();if(!$('extremeForm').reportValidity())return;if(state.players.some(p=>Number(p.age)<18)){$('extremeError').textContent=t('extremeAgeError');return;}currentPlayer().spicyConsent=true;enterMode('extreme');};
+$('extremeForm').onsubmit=e=>{e.preventDefault();if(!$('extremeForm').reportValidity())return;if(state.players.some(p=>Number(p.age)<18)){$('extremeError').textContent=t('extremeAgeError');return;}state.players.forEach(p=>{p.spicyConsent=true;});enterMode('extreme');};
 function backToModes(){state.stage='turn';state.turnStep='mode';save();render(true);}
 $('modeBack').onclick=backToModes;$('extremeBack').onclick=backToModes;
 function choose(type){if(state?.stage!=='game'||state.active)return;const result=drawCard(CARDS,state.mode,type,currentPlayer(),state.players,state.used,Math.random,state.flirting);state.used=result.used;state.active={id:result.id,target:result.target};save();render(true);}
 $('truth').onclick=()=>choose('truth');$('dare').onclick=()=>choose('dare');
-function advance(completed){if(!state?.active)return;state.lastCompleted=completed?playerName(currentPlayer()):'';state.turn++;state.group=currentPlayer().roundGroup||'friends';state.passUses=0;state.active=null;state.stage='turn';state.turnStep='mode';save();render(true);}
+function advance(completed){if(!state?.active)return;state.lastCompleted=completed?playerName(currentPlayer()):'';state.turn++;state.group=currentPlayer().relationship==='partner'?'lovers':'friends';state.passUses=0;state.active=null;state.stage='game';state.turnStep='mode';save();render(true);}
 $('done').onclick=()=>advance(true);$('decline').onclick=()=>state.active?.forfeit?finishGame():advance(false);
 $('pass').onclick=()=>{
  if(!state?.active||state.active.forfeit)return;
@@ -134,6 +135,7 @@ $('passConsent').onchange=()=>{$('acceptForfeit').disabled=!$('passConsent').che
 $('passDialog').addEventListener('close',()=>{if($('passDialog').returnValue==='end'){finishGame();return;}if(state&&$('passDialog').returnValue==='accept'&&$('passConsent').checked&&canRequestForfeit(state.mode,state.players,currentPlayer(),state.flirting)){currentPlayer().forfeitConsent=true;state.active={id:'supplied-dare-3',target:null,forfeit:true};if(!state.used.includes('supplied-dare-3'))state.used.push('supplied-dare-3');save();render(true);}});
 document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{capture();lang=b.dataset.lang;try{localStorage.setItem('GMP_LANGUAGE',lang);}catch{}save();render();});
 document.addEventListener('click',e=>{if(e.target.closest('.gp-privacy-actions button'))setTimeout(report,0);});window.addEventListener('storage',e=>{if(e.key==='guessplex-analytics-v1')report();});
+$('endGameControl').onclick=()=>{if(!state)return;state.stage='menu';state.active=null;state.turn=0;state.used=[];state.passUses=0;state.lastCompleted='';state.flirting=false;state.players.forEach(p=>{p.spicyConsent=false;p.forfeitConsent=false;});save();render();$('menuPlay').focus();};
 $('endSession').onclick=()=>{$('endDialog').showModal();};
 function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;uiStage='menu';index=0;count=2;$('setupForm').reset();$('profileForm').reset();render();$('storageStatus').textContent=t('gameEnded');$('menuPlay').focus();}
 $('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue==='delete')finishGame();});
