@@ -1,5 +1,5 @@
 import {COUNTRY_CODES,resolveCountry,countryName} from './countries.mjs?v=6';
-import {CARDS,cardWording} from './cards.mjs?v=18';
+import {CARDS,cardWording} from './cards.mjs?v=19';
 import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=16';
 const $=id=>document.getElementById(id);
 const COPY={
