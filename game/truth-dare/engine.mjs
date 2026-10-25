@@ -1,6 +1,7 @@
+import {isCountryCode,resolveCountry} from './countries.mjs?v=6';
 export const SESSION_KEY = 'GUESSPLEX_PARTY_V1';
-export function makePlayer(id){return {id,name:'',age:'',gender:'',customGender:'',country:'',relationship:'friend',partner:'',preference:'none',forfeitConsent:false,ready:false};}
-export function validPlayer(p){return !!p && Number.isInteger(Number(p.age)) && Number(p.age)>=18 && Number(p.age)<=120 && typeof p.name==='string' && p.name.length<=32 && ['','male','female','custom'].includes(p.gender) && ['friend','partner','family','other'].includes(p.relationship) && ['none','any','male','female'].includes(p.preference);}
+export function makePlayer(id){return {id,name:'',age:'',gender:'',customGender:'',country:'',relationship:'friend',partner:'',preference:'none',forfeitConsent:false,analyticsConsent:false,analyticsSent:false,roundGroup:'friends',ready:false};}
+export function validPlayer(p){return !!p && Number.isInteger(Number(p.age)) && Number(p.age)>=18 && Number(p.age)<=120 && typeof p.name==='string' && p.name.length<=32 && ['male','female','custom','unspecified'].includes(p.gender)&&isCountryCode(p.country)&&(p.gender!=='custom'||typeof p.customGender==='string'&&p.customGender.trim().length>0) && ['friend','partner','family','other'].includes(p.relationship) && ['none','any','male','female'].includes(p.preference);}
 export function eligiblePair(a,b){
   if(!a||!b||a.id===b.id||!validPlayer(a)||!validPlayer(b)||a.relationship==='family'||b.relationship==='family')return false;
   if(a.relationship==='partner'||b.relationship==='partner'){
@@ -30,16 +31,18 @@ export function drawCard(cards,mode,type,player,players,used=[],random=Math.rand
 }
 export function restoreSession(raw,cards){
   try{
-    const s=JSON.parse(raw);if(!s||!Array.isArray(s.players)||s.players.length<2||s.players.length>20||!['casual','extreme'].includes(s.mode)||!['setup','profiles','game'].includes(s.stage))return null;
+    const s=JSON.parse(raw);if(!s||!Array.isArray(s.players)||s.players.length<2||s.players.length>20||!['casual','extreme'].includes(s.mode)||!['setup','profiles','turn','game'].includes(s.stage))return null;
     if(!s.players.every((p,i)=>p&&p.id===i&&typeof p.name==='string'&&p.name.length<=32&&typeof p.country==='string'&&p.country.length<=60&&typeof p.customGender==='string'&&p.customGender.length<=40&&typeof p.ready==='boolean'))return null;
-    if(s.players.some(p=>p.ready&&!validPlayer(p))||s.stage==='game'&&s.players.some(p=>!p.ready||!validPlayer(p)))return null;
+    s.players.forEach(p=>{p.country=resolveCountry(p.country);if(!validPlayer(p))p.ready=false;p.analyticsConsent=p.analyticsConsent===true;p.analyticsSent=p.analyticsSent===true;});
+    if(['turn','game'].includes(s.stage)&&s.players.some(p=>!p.ready)){s.stage='profiles';s.profileIndex=s.players.findIndex(p=>!p.ready);s.active=null;}
     const cardIds=new Set(cards.map(c=>c.id));
     s.group=['lovers','friends','other'].includes(s.group)?s.group:'friends';
     s.flirting=s.flirting===true;
-    s.players.forEach(p=>p.forfeitConsent=p.forfeitConsent===true);
+    s.players.forEach(p=>{p.forfeitConsent=p.forfeitConsent===true;p.roundGroup=['friends','lovers','other'].includes(p.roundGroup)?p.roundGroup:'friends';});
     s.used=Array.isArray(s.used)?[...new Set(s.used.filter(id=>cardIds.has(id)))]:[];
     s.turn=Number.isSafeInteger(s.turn)&&s.turn>=0?s.turn:0;
     s.passUses=s.passUses===1?1:0;
+    s.turnStep=s.turnStep==='mode'?'mode':'identity';
     s.profileIndex=Number.isInteger(s.profileIndex)&&s.profileIndex>=0&&s.profileIndex<s.players.length?s.profileIndex:0;
     if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const allowed=c&&eligibleCards(cards,s.mode,c.type,a,s.players,s.flirting).some(x=>x.id===c.id);if(!allowed||(s.active.forfeit&&(c.id!=='supplied-dare-3'||!canOfferForfeit(s.mode,s.players,a,s.flirting))))s.active=null;else if(!c.pair)s.active.target=null;else if(!eligiblePair(a,s.players.find(p=>p.id===s.active.target)))s.active=null;}
     return s;
