@@ -243,4 +243,55 @@ const EXTRA_PHOTO_QUESTIONS = [
   }
 ];
 const GROUP_QUESTION_IDS = new Set(["photo-truth-elevator", "photo-truth-holiday-fling", "photo-truth-flirting", "photo-truth-dating-profile", "casual-truth-16", "extreme-truth-2", "supplied-truth-15"]);
-export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})}));
+const TWO_PLAYER_WORDING = {
+  "casual-dare-2": {
+    "en": "Sell an imaginary, completely useless invention to the other player.",
+    "el": "Πούλησε στο άλλο άτομο μια φανταστική, εντελώς άχρηστη εφεύρεση."
+  },
+  "casual-dare-5": {
+    "en": "Mime a familiar movie and let the other player guess it.",
+    "el": "Κάνε παντομίμα μια γνωστή ταινία για να τη βρει το άλλο άτομο."
+  },
+  "casual-dare-14": {
+    "en": "Give the other player a fictional superhero nickname. Keep it kind.",
+    "el": "Δώσε στο άλλο άτομο ένα φανταστικό όνομα υπερήρωα. Με καλή διάθεση."
+  },
+  "casual-dare-15": {
+    "en": "Teach the other player one friendly greeting from your country.",
+    "el": "Μάθε στο άλλο άτομο έναν φιλικό χαιρετισμό από τη χώρα σου."
+  },
+  "casual-dare-16": {
+    "en": "Describe an animal without naming it and let the other player guess.",
+    "el": "Περιέγραψε ένα ζώο χωρίς να το ονομάσεις για να το βρει το άλλο άτομο."
+  },
+  "supplied-dare-5": {
+    "en": "Dance in an overtly sensual way for 30 seconds to music chosen by the other player. Let loose!",
+    "el": "Χόρεψε έντονα αισθησιακά για 30 δευτερόλεπτα με μουσική που διαλέγει το άλλο άτομο."
+  },
+  "supplied-dare-32": {
+    "en": "Give the other player three very deliberate winks.",
+    "el": "Κλείσε επιτηδευμένα το μάτι στο άλλο άτομο τρεις φορές."
+  },
+  "supplied-dare-41": {
+    "en": "Propose a dirty toast to the other player.",
+    "el": "Κάνε μια πικάντικη πρόποση στο άλλο άτομο."
+  },
+  "supplied-dare-50": {
+    "en": "End your turn by blowing a lingering kiss to the other player.",
+    "el": "Κλείσε τη σειρά σου στέλνοντας ένα παρατεταμένο φιλί στο άλλο άτομο."
+  },
+  "photo2-truth-first-impression": {
+    "en": "What was your first impression of the person opposite you, and what do you find most attractive about them right now?",
+    "el": "Ποια ήταν η πρώτη σου εντύπωση για το άτομο απέναντί σου και ποιο στοιχείο του βρίσκεις πιο ελκυστικό αυτή τη στιγμή;"
+  },
+  "photo2-truth-weekend": {
+    "en": "If the two of you could disappear together for a weekend, where would you want to go and what would you do?",
+    "el": "Αν φεύγατε οι δυο σας για ένα Σαββατοκύριακο, πού θα ήθελες να πάτε και τι θα κάνατε;"
+  },
+  "photo2-truth-unshared-fantasy": {
+    "en": "What secret fantasy have you not yet shared with the person opposite you?",
+    "el": "Ποια κρυφή σου φαντασίωση δεν έχεις εξομολογηθεί ακόμα στο άτομο απέναντί σου;"
+  }
+};
+export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})})).map(card=>({...card,variants:TWO_PLAYER_WORDING[card.id]?{two:TWO_PLAYER_WORDING[card.id]}:undefined,...(card.id==='supplied-dare-32'?{minTargets:0,variants:{two:TWO_PLAYER_WORDING[card.id],group:{en:'Give a very deliberate wink to each of the other players.',el:'Κλείσε επιτηδευμένα το μάτι σε καθένα από τα υπόλοιπα άτομα της παρέας.'}}}:{})}));
+export function cardWording(card,language,playerCount){return (playerCount===2?card.variants?.two?.[language]:card.variants?.group?.[language])||card[language];}

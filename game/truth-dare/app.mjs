@@ -1,5 +1,5 @@
 import {COUNTRY_CODES,resolveCountry,countryName} from './countries.mjs?v=6';
-import {CARDS} from './cards.mjs?v=16';
+import {CARDS,cardWording} from './cards.mjs?v=17';
 import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=16';
 const $=id=>document.getElementById(id);
 const COPY={
@@ -33,11 +33,12 @@ Object.assign(COPY,{end:['End game & delete profiles','Τέλος παιχνιδ
 Object.assign(COPY,{partner:['Lovers','Σύντροφοι'],friends:['Friends','Φίλοι'],other:['Other','Άλλο'],forfeit:['😈 PENALTY 😈','😈 ΠΟΙΝΗ 😈'],forfeitText:['OUT OF PASSES? IT’S TIME TO REMOVE ONE ITEM YOU’RE WEARING. WHOEVER CHICKENS OUT LOSES 😇','ΤΕΛΕΙΩΣΕ ΤΟ ΠΑΣΟ; ΗΡΘΕ Η ΩΡΑ ΝΑ ΑΦΑΙΡΕΣΕΙΣ ΕΝΑ ΑΝΤΙΚΕΙΜΕΝΟ ΑΠΟ ΠΑΝΩ ΣΟΥ. ΟΠΟΙΟΣ ΚΟΤΕΨΕ ΧΑΝΕΙ 😇'],forfeitItems:['(SOCKS, SHOES, JEWELRY AND BRACELETS EACH COUNT AS ONE SEPARATE ITEM.)','(ΟΙ ΚΑΛΤΣΕΣ, ΤΑ ΠΑΠΟΥΤΣΙΑ, ΤΑ ΚΟΣΜΗΜΑΤΑ ΚΑΙ ΤΑ ΒΡΑΧΙΟΛΙΑ ΠΙΑΝΟΝΤΑΙ ΣΑΝ ΕΝΑ ΑΝΤΙΚΕΙΜΕΝΟ, ΞΕΧΩΡΙΣΤΑ ΤΟ ΚΑΘΕΝΑ.)'],didForfeit:['Penalty done — continue','Έκανα την ποινή — συνέχεια'],secondPassNotice:['Your free pass for this turn is used. Confirm the penalty to continue, or go back.','Χρησιμοποίησες το δωρεάν πάσο αυτής της σειράς. Επιβεβαίωσε την ποινή για να συνεχίσεις ή γύρισε πίσω.']});
 Object.assign(COPY,{passAgain:['Pass · penalty','Πάσο · ποινή'],passPlain:['Pass','Πάσο']});
 COPY.rules=COPY.rules.map((s,i)=>s+(i?' Οι ερωτήσεις παρέας εμφανίζονται από τρεις παίκτες. Friends και Other έχουν ίδιες ερωτήσεις· οι ερωτήσεις που απευθύνονται σε σύντροφο χρειάζονται Lovers. Στο Extreme υπάρχει ένα δωρεάν πάσο ανά σειρά. Κάθε επιπλέον πάσο εμφανίζει την ποινή και, μετά την ολοκλήρωσή της, συνεχίζει ο ίδιος παίκτης με νέα κάρτα.':' Group questions appear with three or more players. Friends and Other share questions; partner-addressed questions require Lovers. Extreme gives one free pass per turn. Each further pass shows the penalty; completing it gives the same player a new card.'));
+Object.assign(COPY,{extremeConsent:['Everyone playing is 18+ and agrees to spicy adult questions, dares and one-item clothing penalties after extra passes.','Όλοι οι παίκτες είναι 18+ και συμφωνούν με spicy ερωτήσεις, δοκιμασίες και ποινές αφαίρεσης ενός αντικειμένου ένδυσης μετά τα επιπλέον πάσο.']});
 let uiStage='menu';
 let lang='en',state=null,index=0,count=2,storageFailed=false;
 try{lang=localStorage.getItem('GMP_LANGUAGE')==='el'?'el':'en';}catch{}
 try{state=restoreSession(sessionStorage.getItem(SESSION_KEY),CARDS);}catch{storageFailed=true;}
-if(state){state.flirting=false;index=state.profileIndex;count=state.players.length;state.stage='menu';state.players.forEach(p=>{if(typeof p.optionsReady!=='boolean')p.optionsReady=p.ready;p.analyticsConsent=false;p.preference='none';p.forfeitConsent=false;p.spicyConsent=p.spicyConsent===true&&Number(p.age)>=18;});}
+if(state){state.flirting=false;index=state.profileIndex;count=state.players.length;state.stage='menu';state.players.forEach(p=>{if(typeof p.optionsReady!=='boolean')p.optionsReady=p.ready;p.analyticsConsent=false;p.preference='none';p.forfeitConsent=p.extremeConsentVersion===2&&p.spicyConsent===true&&Number(p.age)>=18;p.spicyConsent=p.spicyConsent===true&&Number(p.age)>=18;});}
 const t=key=>COPY[key]?.[lang==='el'?1:0]||key;
 const playerName=p=>p.name.trim()||`${t('player')} ${p.id+1}`;
 const currentPlayer=()=>state.players[state.turn%state.players.length];
@@ -75,9 +76,9 @@ function render(focus=false){
  if(state.active){
   const c=CARDS.find(c=>c.id===state.active.id);const target=state.players.find(p=>p.id===state.active.target);
   $('card').classList.toggle('dare-card',c.type==='dare'&&!state.active.forfeit);$('card').classList.toggle('forfeit-card',!!state.active.forfeit);$('card').dataset.penaltyTone=String((state.penaltyCount||1)%3);$('forfeitItems').hidden=!state.active.forfeit;$('forfeitItems').textContent=t('forfeitItems');$('cardType').textContent=t(state.active.forfeit?'forfeit':c.type);
-  $('cardText').textContent=state.active.forfeit?t('forfeitText'):c[lang].replaceAll('{target}',target?playerName(target):'');
+  $('cardText').textContent=state.active.forfeit?t('forfeitText'):cardWording(c,lang,state.players.length).replaceAll('{target}',target?playerName(target):'');
   $('done').textContent=t(state.active.forfeit?'didForfeit':c.type==='truth'?'answered':'didDare');
-  $('targetNote').textContent=target?`${t('with')} ${playerName(target)}`:'';$('consentNote').hidden=!!state.active.forfeit||!c.pair&&!c.adult;$('consentNote').textContent=t(c.pair?'pairConsent':'adultNote');
+  $('targetNote').textContent=target?`${t('with')} ${playerName(target)}`:'';
  }
  if(focus)(state.active?$('cardText'):$('turnTitle')).focus();report();
 }
@@ -95,7 +96,7 @@ function loadProfile(){
 function capture(){
  if(state?.stage!=='profiles')return;
  const p=state.players[index];Object.assign(p,{name:$('playerName').value.trim().slice(0,32),age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:resolveCountry($('playerCountry').value),relationship:$('playerRelationship').value,partner:$('playerRelationship').value==='partner'?$('playerPartner').value:'',preference:'none',analyticsConsent:false});
- p.optionsReady=true;p.forfeitConsent=false;p.spicyConsent=p.spicyConsent===true&&Number(p.age)>=18;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
+ p.optionsReady=true;p.forfeitConsent=p.extremeConsentVersion===2&&p.spicyConsent===true&&Number(p.age)>=18;p.spicyConsent=p.spicyConsent===true&&Number(p.age)>=18;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
 }
 function ensurePlayers(){if(state)return;state={stage:'menu',group:'friends',flirting:false,mode:'casual',players:[makePlayer(0),makePlayer(1)],turn:0,turnStep:'mode',passUses:0,used:[],active:null,profileIndex:0,setupReady:false};}
 function openOptions(){capture();if(state){state.stage='setup';count=state.players.length;}else uiStage='setup';index=0;save();render(true);}
@@ -121,8 +122,8 @@ $('profileForm').onsubmit=e=>{
 $('previousPlayer').onclick=()=>{capture();if(index>0)index--;else state.stage='setup';save();render(true);};
 $('editPlayers').onclick=()=>{state.stage='profiles';state.active=null;state.turnStep='mode';index=0;save();render(true);};
 function enterMode(mode){state.active=null;state.passUses=0;state.mode=mode;state.flirting=mode==='extreme';state.stage='game';state.lastCompleted='';save();render(true);}
-document.querySelectorAll('[data-turn-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.turnMode==='casual'){enterMode('casual');return;}if(state.players.every(p=>Number(p.age)>=18&&p.spicyConsent===true)){enterMode('extreme');return;}state.stage='extremeGate';$('extremeConsent').checked=false;$('extremeError').textContent='';save();render(true);});
-$('extremeForm').onsubmit=e=>{e.preventDefault();if(!$('extremeForm').reportValidity())return;if(state.players.some(p=>Number(p.age)<18)){$('extremeError').textContent=t('extremeAgeError');return;}state.players.forEach(p=>{p.spicyConsent=true;});enterMode('extreme');};
+document.querySelectorAll('[data-turn-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.turnMode==='casual'){enterMode('casual');return;}if(state.players.every(p=>Number(p.age)>=18&&p.spicyConsent===true&&p.extremeConsentVersion===2)){enterMode('extreme');return;}state.stage='extremeGate';$('extremeConsent').checked=false;$('extremeError').textContent='';save();render(true);});
+$('extremeForm').onsubmit=e=>{e.preventDefault();if(!$('extremeForm').reportValidity())return;if(state.players.some(p=>Number(p.age)<18)){$('extremeError').textContent=t('extremeAgeError');return;}state.players.forEach(p=>{p.spicyConsent=true;p.forfeitConsent=true;p.extremeConsentVersion=2;});enterMode('extreme');};
 function backToModes(){state.stage='turn';state.turnStep='mode';save();render(true);}
 $('modeBack').onclick=backToModes;$('extremeBack').onclick=backToModes;
 function choose(type){if(state?.stage!=='game'||state.active)return;const result=drawCard(CARDS,state.mode,type,currentPlayer(),state.players,state.used,Math.random,state.flirting);state.used=result.used;state.active={id:result.id,target:result.target};save();render(true);}
@@ -134,17 +135,13 @@ $('pass').onclick=()=>{
  if(!state?.active||state.active.forfeit)return;
  const type=CARDS.find(c=>c.id===state.active.id).type;
  if(!state.passUses){state.passUses=1;state.active=null;choose(type);return;}
- const p=currentPlayer();
- if(!canRequestForfeit(state.mode,state.players,p,state.flirting)){state.active=null;choose(type);return;}
- if(p.forfeitConsent===true){showPenalty(type);return;}
- $('passNotice').textContent=t('secondPassNotice');$('forfeitPrompt').textContent=t('forfeitText')+' '+t('forfeitItems');$('passConsentField').hidden=false;$('passConsent').checked=false;$('acceptForfeit').hidden=false;$('acceptForfeit').disabled=true;$('passDialog').returnValue='';$('passDialog').showModal();
+ if(canRequestForfeit(state.mode,state.players,currentPlayer(),state.flirting)&&state.players.every(p=>p.forfeitConsent===true&&p.extremeConsentVersion===2)){showPenalty(type);return;}
+ state.active=null;choose(type);
 };
-$('passConsent').onchange=()=>{$('acceptForfeit').disabled=!$('passConsent').checked||!canRequestForfeit(state.mode,state.players,currentPlayer(),state.flirting);};
-$('passDialog').addEventListener('close',()=>{if(state&&$('passDialog').returnValue==='accept'&&$('passConsent').checked&&canRequestForfeit(state.mode,state.players,currentPlayer(),state.flirting)){const type=CARDS.find(c=>c.id===state.active.id).type;currentPlayer().forfeitConsent=true;showPenalty(type);}});
 
 document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{capture();lang=b.dataset.lang;try{localStorage.setItem('GMP_LANGUAGE',lang);}catch{}save();render();});
 document.addEventListener('click',e=>{if(e.target.closest('.gp-privacy-actions button'))setTimeout(report,0);});window.addEventListener('storage',e=>{if(e.key==='guessplex-analytics-v1')report();});
-$('endGameControl').onclick=()=>{if(!state)return;state.stage='menu';state.active=null;state.turn=0;state.used=[];state.passUses=0;state.lastCompleted='';state.flirting=false;state.players.forEach(p=>{p.forfeitConsent=false;});save();render();$('menuPlay').focus();};
+$('endGameControl').onclick=()=>{if(!state)return;state.stage='menu';state.active=null;state.turn=0;state.used=[];state.passUses=0;state.lastCompleted='';state.flirting=false;save();render();$('menuPlay').focus();};
 $('endSession').onclick=()=>{$('endDialog').showModal();};
 function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;uiStage='menu';index=0;count=2;$('setupForm').reset();$('profileForm').reset();render();$('storageStatus').textContent=t('gameEnded');$('menuPlay').focus();}
 $('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue==='delete')finishGame();});
