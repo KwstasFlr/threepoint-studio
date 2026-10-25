@@ -12,10 +12,14 @@ export function eligiblePair(a,b){
 }
 export function shuffle(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function optedIn(p){return validPlayer(p)&&Number(p.age)>=18&&(p.spicyConsent===true||p.preference!=='none')&&p.relationship!=='family';}
+export function cardTargets(card,player,players){
+ if(!card.partnerOnly)return players.filter(p=>eligiblePair(player,p));
+ return players.filter(p=>p.id!==player.id&&validPlayer(player)&&validPlayer(p)&&Number(player.age)>=18&&Number(p.age)>=18&&player.relationship==='partner'&&p.relationship==='partner'&&String(player.partner)===String(p.id)&&String(p.partner)===String(player.id)&&(!card.adult||optedIn(player)&&optedIn(p)));
+}
 export function eligibleCards(cards,mode,type,player,players,spicy=false){
   const targets=players.filter(p=>eligiblePair(player,p));
   const adult=spicy&&mode==='extreme'&&optedIn(player);
-  return cards.filter(c=>c.mode===mode&&c.type===type&&Boolean(c.adult)===adult&&(!c.pair||spicy&&targets.length)&&(!c.group||players.every(optedIn))&&(!c.minTargets||targets.length>=c.minTargets));
+  return cards.filter(c=>c.mode===mode&&c.type===type&&Boolean(c.adult)===adult&&(!c.minPlayers||players.length>=c.minPlayers)&&(!c.partnerOnly||cardTargets(c,player,players).length>0)&&(!c.pair||(c.partnerOnly?cardTargets(c,player,players).length>0:spicy&&targets.length))&&(!c.group||players.every(optedIn))&&(!c.minTargets||targets.length>=c.minTargets));
 }
 export function canRequestForfeit(mode,players,player,spicy){return mode==='extreme'&&spicy&&optedIn(player)&&players.every(optedIn);}
 export function canOfferForfeit(mode,players,player,spicy){return player.forfeitConsent===true&&canRequestForfeit(mode,players,player,spicy);}
@@ -27,7 +31,8 @@ export function drawCard(cards,mode,type,player,players,used=[],random=Math.rand
   let nextUsed=[...used];
   if(!pool.length){const ids=new Set(eligible.map(c=>c.id));nextUsed=used.filter(id=>!ids.has(id));pool=eligible;}
   const card=pool[Math.floor(random()*pool.length)];
-  return {id:card.id,target:card.pair?targets[Math.floor(random()*targets.length)].id:null,used:[...nextUsed,card.id]};
+  const cardPartners=cardTargets(card,player,players);
+  return {id:card.id,target:card.pair?cardPartners[Math.floor(random()*cardPartners.length)].id:null,used:[...nextUsed,card.id]};
 }
 export function restoreSession(raw,cards){
   try{
@@ -44,7 +49,7 @@ export function restoreSession(raw,cards){
     s.passUses=s.passUses===1?1:0;
     s.turnStep=s.turnStep==='mode'?'mode':'identity';
     s.profileIndex=Number.isInteger(s.profileIndex)&&s.profileIndex>=0&&s.profileIndex<s.players.length?s.profileIndex:0;
-    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const allowed=c&&eligibleCards(cards,s.mode,c.type,a,s.players,s.flirting).some(x=>x.id===c.id);if(!allowed||(s.active.forfeit&&(c.id!=='supplied-dare-3'||!canOfferForfeit(s.mode,s.players,a,s.flirting))))s.active=null;else if(!c.pair)s.active.target=null;else if(!eligiblePair(a,s.players.find(p=>p.id===s.active.target)))s.active=null;}
+    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const allowed=c&&eligibleCards(cards,s.mode,c.type,a,s.players,s.flirting).some(x=>x.id===c.id);if(!allowed||(s.active.forfeit&&(c.id!=='supplied-dare-3'||!canOfferForfeit(s.mode,s.players,a,s.flirting))))s.active=null;else if(!c.pair)s.active.target=null;else if(!cardTargets(c,a,s.players).some(p=>p.id===s.active.target))s.active=null;}
     return s;
   }catch{return null;}
 }

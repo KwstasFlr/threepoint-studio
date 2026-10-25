@@ -162,4 +162,85 @@ const PHOTO_QUESTIONS = [
 ];
 // Keep stable IDs for saved sessions while correcting answer-only prompts.
 const ANSWER_ONLY_IDS = new Set(["extreme-dare-9", "extreme-dare-12", "extreme-dare-15", "supplied-dare-8", "supplied-dare-19", "supplied-dare-26", "supplied-dare-36"]);
-export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS].map(card=>ANSWER_ONLY_IDS.has(card.id)?{...card,type:'truth'}:card);
+const EXTRA_PHOTO_QUESTIONS = [
+  {
+    "id": "photo2-truth-first-impression",
+    "mode": "casual",
+    "type": "truth",
+    "pair": true,
+    "partnerOnly": true,
+    "adult": false,
+    "en": "What was your first impression of {target}, and what do you find most attractive about them right now?",
+    "el": "Ποια ήταν η πρώτη σου εντύπωση για το άτομο {target} και ποιο στοιχείο του βρίσκεις πιο ελκυστικό αυτή τη στιγμή;"
+  },
+  {
+    "id": "photo2-truth-weekend",
+    "mode": "casual",
+    "type": "truth",
+    "pair": true,
+    "partnerOnly": true,
+    "adult": false,
+    "en": "If you and {target} could disappear together for a weekend, where would you want to go and what would you do?",
+    "el": "Αν μπορούσατε να εξαφανιστείτε για ένα Σαββατοκύριακο, εσύ και το άτομο {target}, πού θα ήθελες να πάτε και τι θα κάνατε;"
+  },
+  {
+    "id": "photo2-truth-unshared-fantasy",
+    "mode": "extreme",
+    "type": "truth",
+    "pair": true,
+    "partnerOnly": true,
+    "adult": true,
+    "en": "What secret fantasy have you not yet shared with {target}?",
+    "el": "Ποια κρυφή σου φαντασίωση δεν έχεις εξομολογηθεί ακόμα στο άτομο {target};"
+  },
+  {
+    "id": "photo2-truth-partner-tastes",
+    "mode": "extreme",
+    "type": "truth",
+    "pair": false,
+    "minPlayers": 3,
+    "adult": true,
+    "en": "Who in this group do you think has the most unusual taste in partners?",
+    "el": "Ποιος από την παρέα πιστεύεις ότι έχει τα πιο περίεργα γούστα στους συντρόφους του;"
+  },
+  {
+    "id": "photo2-truth-staying-in",
+    "mode": "casual",
+    "type": "truth",
+    "pair": false,
+    "minPlayers": 3,
+    "adult": false,
+    "en": "Have you ever lied to this group to avoid going out so you could stay in with someone you were flirting with?",
+    "el": "Έχεις πει ποτέ ψέματα στην παρέα για να αποφύγεις να βγεις και να μείνεις με κάποιο φλερτ;"
+  },
+  {
+    "id": "photo2-truth-getting-attention",
+    "mode": "casual",
+    "type": "truth",
+    "pair": false,
+    "adult": false,
+    "en": "What is the craziest thing you have done to get someone’s attention?",
+    "el": "Ποιο είναι το πιο τρελό πράγμα που έχεις κάνει για να τραβήξεις την προσοχή κάποιου ή κάποιας;"
+  },
+  {
+    "id": "photo2-truth-kissed-in-group",
+    "mode": "extreme",
+    "type": "truth",
+    "pair": false,
+    "minPlayers": 3,
+    "adult": true,
+    "en": "Have you ever kissed someone in this group, or thought about doing it?",
+    "el": "Έχεις φιλήσει ποτέ κάποιον από αυτή την παρέα ή έχεις σκεφτεί να το κάνεις;"
+  },
+  {
+    "id": "photo2-truth-date-red-flag",
+    "mode": "casual",
+    "type": "truth",
+    "pair": false,
+    "adult": false,
+    "en": "What is the biggest red flag you have tolerated on a date?",
+    "el": "Ποιο είναι το μεγαλύτερο «red flag» που έχεις ανεχτεί σε ένα ραντεβού;"
+  }
+];
+const GROUP_QUESTION_IDS = new Set(["photo-truth-elevator", "photo-truth-holiday-fling", "photo-truth-flirting", "photo-truth-dating-profile", "casual-truth-16", "extreme-truth-2", "supplied-truth-15"]);
+export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})}));
