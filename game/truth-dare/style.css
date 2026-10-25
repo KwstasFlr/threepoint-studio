@@ -10,3 +10,5 @@ body[data-stage=game] .heading{padding:0 0 18px}body[data-stage=game] .heading h
 .main-menu{display:grid;gap:14px}.main-menu button{min-height:60px;font-size:20px}.main-menu button:not(.primary){background:#2e1421;border-color:#804056}#menuBack{margin:0 0 18px}#menu .primary{background:#ff526d;color:#21060e}
 
 .menu-profile{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:8px}.main-menu .menu-profile button{min-height:44px;font-size:15px}.menu-profile h2{font-size:19px;margin:0 0 12px}.menu-profile .analytics-choice{font-size:12px}.menu-profile #menuProfileStatus:empty{display:none}#menuBack{border:1px solid #804056;border-radius:99px;padding:10px 18px;background:#2e1421}
+
+.heading h1,body[data-stage] .heading h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(23px,5.8vw,48px);font-weight:500;font-style:italic;letter-spacing:-.035em;line-height:1.2;white-space:nowrap;color:var(--text);margin:18px 0}body[data-stage=game] .heading h1,body[data-stage=turn] .heading h1{font-size:clamp(21px,4vw,32px)}
