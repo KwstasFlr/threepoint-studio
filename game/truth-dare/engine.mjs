@@ -1,9 +1,9 @@
 import {isCountryCode,resolveCountry} from './countries.mjs?v=6';
 export const SESSION_KEY = 'GUESSPLEX_PARTY_V1';
 export function makePlayer(id){return {id,name:'',age:'',gender:'',customGender:'',country:'',relationship:'friend',partner:'',preference:'none',forfeitConsent:false,analyticsConsent:false,analyticsSent:false,roundGroup:'friends',ready:false};}
-export function validPlayer(p){return !!p && Number.isInteger(Number(p.age)) && Number(p.age)>=18 && Number(p.age)<=120 && typeof p.name==='string' && p.name.length<=32 && ['male','female','custom','unspecified'].includes(p.gender)&&isCountryCode(p.country)&&(p.gender!=='custom'||typeof p.customGender==='string'&&p.customGender.trim().length>0) && ['friend','partner','family','other'].includes(p.relationship) && ['none','any','male','female'].includes(p.preference);}
+export function validPlayer(p){return !!p && Number.isInteger(Number(p.age)) && Number(p.age)>=1 && Number(p.age)<=120 && typeof p.name==='string' && p.name.length<=32 && ['male','female','custom','unspecified'].includes(p.gender)&&isCountryCode(p.country)&&(p.gender!=='custom'||typeof p.customGender==='string'&&p.customGender.trim().length>0) && ['friend','partner','family','other'].includes(p.relationship) && ['none','any','male','female'].includes(p.preference);}
 export function eligiblePair(a,b){
-  if(!a||!b||a.id===b.id||!validPlayer(a)||!validPlayer(b)||a.relationship==='family'||b.relationship==='family')return false;
+  if(!a||!b||Number(a.age)<18||Number(b.age)<18||a.id===b.id||!validPlayer(a)||!validPlayer(b)||a.relationship==='family'||b.relationship==='family')return false;
   if(a.relationship==='partner'||b.relationship==='partner'){
     if(a.relationship!=='partner'||b.relationship!=='partner'||String(a.partner)!==String(b.id)||String(b.partner)!==String(a.id))return false;
   }
@@ -11,7 +11,7 @@ export function eligiblePair(a,b){
   return accepts(a,b)&&accepts(b,a);
 }
 export function shuffle(items,random=Math.random){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-export function optedIn(p){return validPlayer(p)&&p.preference!=='none'&&p.relationship!=='family';}
+export function optedIn(p){return validPlayer(p)&&Number(p.age)>=18&&(p.spicyConsent===true||p.preference!=='none')&&p.relationship!=='family';}
 export function eligibleCards(cards,mode,type,player,players,spicy=false){
   const targets=players.filter(p=>eligiblePair(player,p));
   const adult=spicy&&mode==='extreme'&&optedIn(player);
