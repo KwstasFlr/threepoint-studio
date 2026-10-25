@@ -31,7 +31,7 @@ export function drawCard(cards,mode,type,player,players,used=[],random=Math.rand
 }
 export function restoreSession(raw,cards){
   try{
-    const s=JSON.parse(raw);if(!s||!Array.isArray(s.players)||s.players.length<2||s.players.length>20||!['casual','extreme'].includes(s.mode)||!['setup','profiles','turn','game'].includes(s.stage))return null;
+    const s=JSON.parse(raw);if(!s||!Array.isArray(s.players)||s.players.length<2||s.players.length>20||!['casual','extreme'].includes(s.mode)||!['menu','setup','profiles','turn','game'].includes(s.stage))return null;
     if(!s.players.every((p,i)=>p&&p.id===i&&typeof p.name==='string'&&p.name.length<=32&&typeof p.country==='string'&&p.country.length<=60&&typeof p.customGender==='string'&&p.customGender.length<=40&&typeof p.ready==='boolean'))return null;
     s.players.forEach(p=>{p.country=resolveCountry(p.country);if(!validPlayer(p))p.ready=false;p.analyticsConsent=p.analyticsConsent===true;p.analyticsSent=p.analyticsSent===true;});
     if(['turn','game'].includes(s.stage)&&s.players.some(p=>!p.ready)){s.stage='profiles';s.profileIndex=s.players.findIndex(p=>!p.ready);s.active=null;}

@@ -1,7 +1,7 @@
 import {COUNTRY_CODES,resolveCountry,countryName} from './countries.mjs?v=6';
 import {reportDemographics} from './demographics.mjs?v=6';
 import {CARDS} from './cards.mjs?v=4';
-import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=6';
+import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=7';
 const $=id=>document.getElementById(id);
 const COPY={
  passConsent:['I consent to this forfeit. I can stop and end the game.','Συναινώ σε αυτή την ποινή. Μπορώ να σταματήσω και να τελειώσω το παιχνίδι.'],
@@ -20,12 +20,14 @@ Object.assign(COPY,{
  rules:['Add 2–20 adults. Choose Lovers, Friends or Other, then Casual or Extreme. Each player gets one card swap on their turn. A second pass opens a notice; a clothing forfeit is offered only if you consented to it in your profile and everyone opted in to the adult deck. You may accept it or end the game. Enable spicy cards and choose preferences in each profile to use the supplied adult deck in Extreme. Pairings require mutual preferences; family profiles are excluded. Cards do not repeat until the eligible deck runs out. Switch language whenever you like.','Πρόσθεσε 2–20 ενήλικες. Διάλεξε Lovers, Friends ή Other και μετά Casual ή Extreme. Κάθε παίκτης έχει μία αλλαγή κάρτας στη σειρά του. Στο δεύτερο πάσο εμφανίζεται ειδοποίηση. Ποινή αφαίρεσης ρούχου προσφέρεται μόνο αν τη δέχτηκες στο προφίλ σου και όλοι συμμετέχουν στις spicy κάρτες. Μπορείς να τη δεχτείς ή να τελειώσεις το παιχνίδι. Ενεργοποίησε τις spicy κάρτες και επίλεξε προτιμήσεις σε κάθε προφίλ για το νέο υλικό στο Extreme. Οι συνδυασμοί απαιτούν αμοιβαίες προτιμήσεις και εξαιρούν συγγενείς. Οι διαθέσιμες κάρτες δεν επαναλαμβάνονται μέχρι να εξαντληθούν. Αλλάζεις γλώσσα όποτε θέλεις.']
 });
 Object.assign(COPY,{
- setup:['Set up your players','Προσθήκη παικτών'],gender:['Gender · required','Φύλο · υποχρεωτικό'],country:['Country · required','Χώρα · υποχρεωτικό'],selectGender:['Choose gender','Διάλεξε φύλο'],yourGender:['Write your gender','Γράψε το φύλο σου'],chooseLevel:['Choose Casual / Extreme','Επιλογή Casual / Extreme'],whoPlays:['Choose category','Διάλεξε κατηγορία'],turnSetup:['Your turn','Η σειρά σου'],countryError:['Choose a country from the suggestions.','Διάλεξε χώρα από τις προτάσεις.'],profileError:['Complete age, country and gender, including your description if you chose Write yours.','Συμπλήρωσε ηλικία, χώρα και φύλο, μαζί με την περιγραφή αν επέλεξες «Γράψε το δικό σου».'],answered:['I answered — next player','Απάντησα — επόμενος παίκτης'],didDare:['I did it — next player','Το έκανα — επόμενος παίκτης'],didForfeit:['Punishment done — next player','Έκανα την ποινή — επόμενος παίκτης'],completed:['completed the card. Next:','ολοκλήρωσε την κάρτα. Επόμενος:'],analyticsConsent:['I agree to share my age band, gender category and country with Google Analytics for participant statistics. Optional; no name, custom gender text or sexual preferences are sent.','Συμφωνώ να στέλνονται στο Google Analytics το ηλικιακό εύρος, η κατηγορία φύλου και η χώρα μου για συνολικά στατιστικά συμμετεχόντων. Προαιρετικό· δεν στέλνονται όνομα, δικό μου κείμενο φύλου ή σεξουαλικές προτιμήσεις.'],privacy:['Profiles stay in this browser tab. Optional participant statistics require both this consent and analytics cookies. Names and sexual preferences are never sent. End session deletes local profiles.','Τα προφίλ μένουν σε αυτή την καρτέλα. Τα προαιρετικά στατιστικά χρειάζονται και τη συγκατάθεσή σου εδώ και αποδοχή analytics cookies. Ονόματα και σεξουαλικές προτιμήσεις δεν στέλνονται. Το τέλος συνεδρίας διαγράφει τα τοπικά προφίλ.'],rules:['Enter age, country and gender once for each adult player. At the start of each turn, confirm the name and choose Friend, Lover or Other, then Casual or Extreme. Choose Truth or Dare. After answering or completing a dare, press the large completion button to move to the next player. A pass swaps the card once; a second pass opens the consent notice. Everyone can stop. Profiles and preferences stay in this tab; optional statistical categories can be sent to Google Analytics only with consent.','Συμπλήρωσε μία φορά ηλικία, χώρα και φύλο για κάθε ενήλικο παίκτη. Στην αρχή κάθε σειράς επιβεβαίωσε το όνομα και διάλεξε Friend, Lover ή Other και μετά Casual ή Extreme. Διάλεξε Αλήθεια ή Θάρρος. Όταν απαντήσεις ή ολοκληρώσεις την πρόκληση, πάτησε το μεγάλο κουμπί ολοκλήρωσης για τον επόμενο παίκτη. Το πάσο αλλάζει μία κάρτα· στο δεύτερο εμφανίζεται η ειδοποίηση συναίνεσης. Όλοι μπορούν να σταματήσουν. Τα προφίλ και οι προτιμήσεις μένουν στην καρτέλα· οι προαιρετικές κατηγορίες στατιστικών στέλνονται στο Google Analytics μόνο με συγκατάθεση.']
+ mainMenu:['← Main menu','← Κεντρικό μενού'],optionsFirst:['Complete your players in Options, then press Play.','Συμπλήρωσε τους παίκτες στο Options και μετά πάτησε Play.'],
+ setup:['Set up your players','Προσθήκη παικτών'],gender:['Gender · required','Φύλο · υποχρεωτικό'],country:['Country · required','Χώρα · υποχρεωτικό'],selectGender:['Choose gender','Διάλεξε φύλο'],yourGender:['Write your gender','Γράψε το φύλο σου'],chooseLevel:['Choose Casual / Extreme','Επιλογή Casual / Extreme'],whoPlays:['Choose category','Διάλεξε κατηγορία'],turnSetup:['Your turn','Η σειρά σου'],countryError:['Choose a country from the suggestions.','Διάλεξε χώρα από τις προτάσεις.'],profileError:['Complete age, country and gender, including your description if you chose Write yours.','Συμπλήρωσε ηλικία, χώρα και φύλο, μαζί με την περιγραφή αν επέλεξες «Γράψε το δικό σου».'],answered:['I answered — next player','Απάντησα — επόμενος παίκτης'],didDare:['I did it — next player','Το έκανα — επόμενος παίκτης'],didForfeit:['Punishment done — next player','Έκανα την ποινή — επόμενος παίκτης'],completed:['completed the card. Next:','ολοκλήρωσε την κάρτα. Επόμενος:'],analyticsConsent:['I agree to share my age band, gender category and country with Google Analytics for participant statistics. Optional; no name, custom gender text or sexual preferences are sent.','Συμφωνώ να στέλνονται στο Google Analytics το ηλικιακό εύρος, η κατηγορία φύλου και η χώρα μου για συνολικά στατιστικά συμμετεχόντων. Προαιρετικό· δεν στέλνονται όνομα, δικό μου κείμενο φύλου ή σεξουαλικές προτιμήσεις.'],privacy:['Profiles stay in this browser tab. Optional participant statistics require both this consent and analytics cookies. Names and sexual preferences are never sent. End session deletes local profiles.','Τα προφίλ μένουν σε αυτή την καρτέλα. Τα προαιρετικά στατιστικά χρειάζονται και τη συγκατάθεσή σου εδώ και αποδοχή analytics cookies. Ονόματα και σεξουαλικές προτιμήσεις δεν στέλνονται. Το τέλος συνεδρίας διαγράφει τα τοπικά προφίλ.'],rules:['Open Options to enter age, country and gender once for each adult player, then return to the main menu and press Play. At the start of each turn, confirm the name and choose Friend, Lover or Other, then Casual or Extreme. Choose Truth or Dare. After answering or completing a dare, press the large completion button to move to the next player. A pass swaps the card once; a second pass opens the consent notice. Everyone can stop. Profiles and preferences stay in this tab; optional statistical categories can be sent to Google Analytics only with consent.','Άνοιξε το Options για να συμπληρώσεις μία φορά ηλικία, χώρα και φύλο για κάθε ενήλικο παίκτη και μετά πάτησε Play στο κεντρικό μενού. Στην αρχή κάθε σειράς επιβεβαίωσε το όνομα και διάλεξε Friend, Lover ή Other και μετά Casual ή Extreme. Διάλεξε Αλήθεια ή Θάρρος. Όταν απαντήσεις ή ολοκληρώσεις την πρόκληση, πάτησε το μεγάλο κουμπί ολοκλήρωσης για τον επόμενο παίκτη. Το πάσο αλλάζει μία κάρτα· στο δεύτερο εμφανίζεται η ειδοποίηση συναίνεσης. Όλοι μπορούν να σταματήσουν. Τα προφίλ και οι προτιμήσεις μένουν στην καρτέλα· οι προαιρετικές κατηγορίες στατιστικών στέλνονται στο Google Analytics μόνο με συγκατάθεση.']
 });
+let uiStage='menu';
 let lang='en',state=null,index=0,count=2,storageFailed=false;
 try{lang=localStorage.getItem('GMP_LANGUAGE')==='el'?'el':'en';}catch{}
 try{state=restoreSession(sessionStorage.getItem(SESSION_KEY),CARDS);}catch{storageFailed=true;}
-if(state){index=state.profileIndex;count=state.players.length;}
+if(state){index=state.profileIndex;count=state.players.length;state.stage='menu';}
 const t=key=>COPY[key]?.[lang==='el'?1:0]||key;
 const playerName=p=>p.name.trim()||`${t('player')} ${p.id+1}`;
 const currentPlayer=()=>state.players[state.turn%state.players.length];
@@ -41,11 +43,12 @@ function translate(){
  status();
 }
 function render(focus=false){
- translate();const stage=state?.stage||'setup';document.body.dataset.stage=stage;
- for(const name of ['setup','profiles','turn','game'])$(name).hidden=stage!==name;
- $('endSession').hidden=!state;document.body.dataset.mode=state?.mode||'casual';
+ translate();const stage=state?.stage||uiStage;document.body.dataset.stage=stage;
+ for(const name of ['menu','setup','profiles','turn','game'])$(name).hidden=stage!==name;
+ $('endSession').hidden=!state;$('menuBack').hidden=stage==='menu';document.body.dataset.mode=state?.mode||'casual';
  $('lastCompleted').hidden=!state?.lastCompleted||stage!=='turn';
  if(state?.lastCompleted&&stage==='turn')$('lastCompleted').textContent=`${state.lastCompleted} ${t('completed')} ${playerName(currentPlayer())}`;
+ if(stage==='menu')return;
  if(stage==='setup'){setCount(count);if(state)$('enableFlirting').checked=state.flirting;return;}
  if(stage==='profiles'){loadProfile();if(focus)$('profileTitle').focus();return;}
  if(stage==='turn'){
@@ -86,6 +89,11 @@ function capture(){
  const p=state.players[index];Object.assign(p,{age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:resolveCountry($('playerCountry').value),relationship:$('playerRelationship').value,partner:$('playerRelationship').value==='partner'?$('playerPartner').value:'',preference:$('playerRelationship').value==='family'?'none':$('playerPreference').value,analyticsConsent:$('profileAnalytics').checked});
  p.forfeitConsent=!$('forfeitConsent').disabled&&$('forfeitConsent').checked;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
 }
+function openOptions(){if(state){state.stage='profiles';state.active=null;index=0;}else uiStage='setup';save();render(true);}
+$('menuOptions').onclick=openOptions;
+$('menuPlay').onclick=()=>{if(!state||state.players.some(p=>!p.ready||!validPlayer(p))){openOptions();$('storageStatus').textContent=t('optionsFirst');return;}state.stage=state.active?'game':'turn';state.turnStep='identity';save();render(true);};
+$('menuBack').onclick=()=>{capture();if(state)state.stage='menu';else uiStage='menu';save();render();$('menuPlay').focus();};
+$('menuHow').onclick=()=>{$('rules').open=true;$('rules').querySelector('summary').focus();};
 $('less').onclick=()=>setCount(count-1);$('more').onclick=()=>setCount(count+1);
 $('setupForm').onsubmit=e=>{
  e.preventDefault();if(!$('setupForm').reportValidity())return;const old=state?.players||[];
@@ -98,7 +106,7 @@ $('profileForm').addEventListener('change',()=>{toggleFields();capture();save();
 $('profileForm').onsubmit=e=>{
  e.preventDefault();const code=resolveCountry($('playerCountry').value);$('playerCountry').setCustomValidity(code?'':t('countryError'));if(!$('profileForm').reportValidity())return;capture();
  if(!state.players[index].ready){$('profileError').textContent=t('profileError');return;}report();
- if(index<state.players.length-1)index++;else{const unready=state.players.findIndex(p=>!p.ready||!validPlayer(p));if(unready!==-1)index=unready;else{state.stage='turn';state.turnStep='identity';state.active=null;}}
+ if(index<state.players.length-1)index++;else{const unready=state.players.findIndex(p=>!p.ready||!validPlayer(p));if(unready!==-1)index=unready;else{state.stage='menu';state.turnStep='identity';state.active=null;}}
  save();render(true);
 };
 $('previousPlayer').onclick=()=>{capture();if(index>0)index--;else state.stage='setup';save();render(true);};
@@ -120,6 +128,6 @@ $('passDialog').addEventListener('close',()=>{if($('passDialog').returnValue==='
 document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{capture();if(state?.stage==='turn'&&state.turnStep!=='mode')currentPlayer().name=$('turnName').value.trim().slice(0,32);lang=b.dataset.lang;try{localStorage.setItem('GMP_LANGUAGE',lang);}catch{}save();render();});
 document.addEventListener('click',e=>{if(e.target.closest('.gp-privacy-actions button'))setTimeout(report,0);});window.addEventListener('storage',e=>{if(e.key==='guessplex-analytics-v1')report();});
 $('endSession').onclick=()=>{$('endDialog').showModal();};
-function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;index=0;count=2;$('setupForm').reset();$('profileForm').reset();$('turnIdentity').reset();render();$('storageStatus').textContent=t('gameEnded');$('setupTitle').setAttribute('tabindex','-1');$('setupTitle').focus();}
+function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;uiStage='menu';index=0;count=2;$('setupForm').reset();$('profileForm').reset();$('turnIdentity').reset();render();$('storageStatus').textContent=t('gameEnded');$('menuPlay').focus();}
 $('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue==='delete')finishGame();});
 render();
