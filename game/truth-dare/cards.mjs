@@ -94,4 +94,72 @@ const decks = {
     ]
   }
 };
-export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS];
+// Questions supplied by the user in two screenshots, transcribed and translated.
+const PHOTO_QUESTIONS = [
+  {
+    "id": "photo-truth-elevator",
+    "mode": "casual",
+    "type": "truth",
+    "en": "If you had to choose one person here to be stuck in an elevator with for 24 hours, who would you choose and why?",
+    "el": "Αν έπρεπε να διαλέξεις έναν/μία από την παρέα εδώ μέσα για να κλειστείτε σε ένα ασανσέρ για 24 ώρες, ποιον θα διάλεγες και γιατί;",
+    "pair": false,
+    "adult": false
+  },
+  {
+    "id": "photo-truth-private-moment",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "What was your most awkward moment of being caught during a private moment?",
+    "el": "Ποια είναι η πιο αμήχανη στιγμή που σε «έπιασαν» σε προσωπική σου στιγμή;",
+    "pair": false,
+    "adult": true
+  },
+  {
+    "id": "photo-truth-wrong-recipient",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Have you ever sent a message or photo to the wrong person by mistake, and what happened?",
+    "el": "Έχεις ποτέ στείλει μήνυμα ή φωτογραφία σε λάθος άτομο κατά λάθος και τι έγινε;",
+    "pair": false,
+    "adult": false
+  },
+  {
+    "id": "photo-truth-red-flag",
+    "mode": "casual",
+    "type": "truth",
+    "en": "What is the biggest red flag in a partner that you personally forgive?",
+    "el": "Ποιο είναι το μεγαλύτερο «red flag» σε έναν σύντροφο που εσύ ο ίδιος/η ίδια συγχωρείς;",
+    "pair": false,
+    "adult": false
+  },
+  {
+    "id": "photo-truth-holiday-fling",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Who in this group is most likely to have a one-night stand on vacation?",
+    "el": "Ποιος από την παρέα είναι πιο πιθανό να κάνει σχέση μίας βραδιάς στις διακοπές;",
+    "pair": false,
+    "adult": true
+  },
+  {
+    "id": "photo-truth-flirting",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Who is most likely to flirt while already in a relationship?",
+    "el": "Ποιος είναι πιο πιθανό να φλερτάρει ενώ έχει ήδη σχέση;",
+    "pair": false,
+    "adult": true
+  },
+  {
+    "id": "photo-truth-dating-profile",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Who is most likely to have a secret profile on a dating app?",
+    "el": "Ποιος είναι πιο πιθανό να έχει κρυφό προφίλ σε εφαρμογή γνωριμιών;",
+    "pair": false,
+    "adult": true
+  }
+];
+// Keep stable IDs for saved sessions while correcting answer-only prompts.
+const ANSWER_ONLY_IDS = new Set(["extreme-dare-9", "extreme-dare-12", "extreme-dare-15", "supplied-dare-8", "supplied-dare-19", "supplied-dare-26", "supplied-dare-36"]);
+export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS].map(card=>ANSWER_ONLY_IDS.has(card.id)?{...card,type:'truth'}:card);

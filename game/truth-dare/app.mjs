@@ -1,5 +1,5 @@
 import {COUNTRY_CODES,resolveCountry,countryName} from './countries.mjs?v=6';
-import {CARDS} from './cards.mjs?v=4';
+import {CARDS} from './cards.mjs?v=15';
 import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=13';
 const $=id=>document.getElementById(id);
 const COPY={
@@ -34,7 +34,7 @@ let uiStage='menu';
 let lang='en',state=null,index=0,count=2,storageFailed=false;
 try{lang=localStorage.getItem('GMP_LANGUAGE')==='el'?'el':'en';}catch{}
 try{state=restoreSession(sessionStorage.getItem(SESSION_KEY),CARDS);}catch{storageFailed=true;}
-if(state){state.flirting=false;if(state.group==='other')state.group='friends';index=state.profileIndex;count=state.players.length;state.stage='menu';state.players.forEach(p=>{if(typeof p.optionsReady!=='boolean')p.optionsReady=p.ready;p.analyticsConsent=false;p.preference='none';p.forfeitConsent=false;p.spicyConsent=false;if(p.relationship==='other')p.relationship='friend';if(p.roundGroup==='other')p.roundGroup='friends';});}
+if(state){state.flirting=false;if(state.group==='other')state.group='friends';index=state.profileIndex;count=state.players.length;state.stage='menu';state.players.forEach(p=>{if(typeof p.optionsReady!=='boolean')p.optionsReady=p.ready;p.analyticsConsent=false;p.preference='none';p.forfeitConsent=false;p.spicyConsent=p.spicyConsent===true&&Number(p.age)>=18;if(p.relationship==='other')p.relationship='friend';if(p.roundGroup==='other')p.roundGroup='friends';});}
 const t=key=>COPY[key]?.[lang==='el'?1:0]||key;
 const playerName=p=>p.name.trim()||`${t('player')} ${p.id+1}`;
 const currentPlayer=()=>state.players[state.turn%state.players.length];
@@ -67,8 +67,8 @@ function render(focus=false){
  }
  const current=currentPlayer();$('modeBadge').textContent=state.mode==='casual'?'Casual':'Extreme';
  $('turnTitle').textContent=`${t('turn')} ${state.turn+1} · ${t('player')} ${current.id+1}`;
- $('pickCard').hidden=!!state.active;$('card').hidden=!state.active;$('cardActions').hidden=!state.active;$('decline').hidden=!state.active;
- $('pass').textContent=t(state.passUses?'passAgain':'passLeft');$('pass').hidden=!!state.active?.forfeit;$('decline').textContent=t(state.active?.forfeit?'endGame':'decline');
+ $('pickCard').hidden=!!state.active;$('card').hidden=!state.active;$('cardActions').hidden=!state.active;
+ $('pass').textContent=t(state.passUses?'passAgain':'passLeft');$('pass').hidden=!!state.active?.forfeit;
  if(state.active){
   const c=CARDS.find(c=>c.id===state.active.id);const target=state.players.find(p=>p.id===state.active.target);
   $('card').classList.toggle('dare-card',c.type==='dare');$('cardType').textContent=t(state.active.forfeit?'forfeit':c.type);
@@ -92,7 +92,7 @@ function loadProfile(){
 function capture(){
  if(state?.stage!=='profiles')return;
  const p=state.players[index];Object.assign(p,{name:$('playerName').value.trim().slice(0,32),age:$('playerAge').value,gender:$('playerGender').value,customGender:$('playerGender').value==='custom'?$('customGender').value.trim().slice(0,40):'',country:resolveCountry($('playerCountry').value),relationship:$('playerRelationship').value,partner:$('playerRelationship').value==='partner'?$('playerPartner').value:'',preference:'none',analyticsConsent:false});
- p.optionsReady=true;p.forfeitConsent=false;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
+ p.optionsReady=true;p.forfeitConsent=false;p.spicyConsent=p.spicyConsent===true&&Number(p.age)>=18;p.ready=validPlayer(p)&&(p.relationship!=='partner'||p.partner!=='');
 }
 function ensurePlayers(){if(state)return;state={stage:'menu',group:'friends',flirting:false,mode:'casual',players:[makePlayer(0),makePlayer(1)],turn:0,turnStep:'mode',passUses:0,used:[],active:null,profileIndex:0,setupReady:false};}
 function openOptions(){capture();if(state){state.stage='setup';count=state.players.length;}else uiStage='setup';index=0;save();render(true);}
@@ -117,15 +117,15 @@ $('profileForm').onsubmit=e=>{
 };
 $('previousPlayer').onclick=()=>{capture();if(index>0)index--;else state.stage='setup';save();render(true);};
 $('editPlayers').onclick=()=>{state.stage='profiles';state.active=null;state.turnStep='mode';index=0;save();render(true);};
-function enterMode(mode){if(state.mode!==mode){state.active=null;state.passUses=0;}state.mode=mode;state.flirting=mode==='extreme';state.stage='game';state.lastCompleted='';save();render(true);}
-document.querySelectorAll('[data-turn-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.turnMode==='casual'){enterMode('casual');return;}state.stage='extremeGate';$('extremeConsent').checked=false;$('extremeError').textContent='';save();render(true);});
+function enterMode(mode){state.active=null;state.passUses=0;state.mode=mode;state.flirting=mode==='extreme';state.stage='game';state.lastCompleted='';save();render(true);}
+document.querySelectorAll('[data-turn-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.turnMode==='casual'){enterMode('casual');return;}if(state.players.every(p=>Number(p.age)>=18&&p.spicyConsent===true)){enterMode('extreme');return;}state.stage='extremeGate';$('extremeConsent').checked=false;$('extremeError').textContent='';save();render(true);});
 $('extremeForm').onsubmit=e=>{e.preventDefault();if(!$('extremeForm').reportValidity())return;if(state.players.some(p=>Number(p.age)<18)){$('extremeError').textContent=t('extremeAgeError');return;}state.players.forEach(p=>{p.spicyConsent=true;});enterMode('extreme');};
 function backToModes(){state.stage='turn';state.turnStep='mode';save();render(true);}
 $('modeBack').onclick=backToModes;$('extremeBack').onclick=backToModes;
 function choose(type){if(state?.stage!=='game'||state.active)return;const result=drawCard(CARDS,state.mode,type,currentPlayer(),state.players,state.used,Math.random,state.flirting);state.used=result.used;state.active={id:result.id,target:result.target};save();render(true);}
 $('truth').onclick=()=>choose('truth');$('dare').onclick=()=>choose('dare');
 function advance(completed){if(!state?.active)return;state.lastCompleted=completed?playerName(currentPlayer()):'';state.turn++;state.group=currentPlayer().relationship==='partner'?'lovers':'friends';state.passUses=0;state.active=null;state.stage='game';state.turnStep='mode';save();render(true);}
-$('done').onclick=()=>advance(true);$('decline').onclick=()=>state.active?.forfeit?finishGame():advance(false);
+$('done').onclick=()=>advance(true);
 $('pass').onclick=()=>{
  if(!state?.active||state.active.forfeit)return;
  if(!state.passUses){const type=CARDS.find(c=>c.id===state.active.id).type;state.passUses=1;state.active=null;choose(type);return;}
@@ -135,7 +135,7 @@ $('passConsent').onchange=()=>{$('acceptForfeit').disabled=!$('passConsent').che
 $('passDialog').addEventListener('close',()=>{if($('passDialog').returnValue==='end'){finishGame();return;}if(state&&$('passDialog').returnValue==='accept'&&$('passConsent').checked&&canRequestForfeit(state.mode,state.players,currentPlayer(),state.flirting)){currentPlayer().forfeitConsent=true;state.active={id:'supplied-dare-3',target:null,forfeit:true};if(!state.used.includes('supplied-dare-3'))state.used.push('supplied-dare-3');save();render(true);}});
 document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{capture();lang=b.dataset.lang;try{localStorage.setItem('GMP_LANGUAGE',lang);}catch{}save();render();});
 document.addEventListener('click',e=>{if(e.target.closest('.gp-privacy-actions button'))setTimeout(report,0);});window.addEventListener('storage',e=>{if(e.key==='guessplex-analytics-v1')report();});
-$('endGameControl').onclick=()=>{if(!state)return;state.stage='menu';state.active=null;state.turn=0;state.used=[];state.passUses=0;state.lastCompleted='';state.flirting=false;state.players.forEach(p=>{p.spicyConsent=false;p.forfeitConsent=false;});save();render();$('menuPlay').focus();};
+$('endGameControl').onclick=()=>{if(!state)return;state.stage='menu';state.active=null;state.turn=0;state.used=[];state.passUses=0;state.lastCompleted='';state.flirting=false;state.players.forEach(p=>{p.forfeitConsent=false;});save();render();$('menuPlay').focus();};
 $('endSession').onclick=()=>{$('endDialog').showModal();};
 function finishGame(){try{sessionStorage.removeItem(SESSION_KEY);}catch{}state=null;uiStage='menu';index=0;count=2;$('setupForm').reset();$('profileForm').reset();render();$('storageStatus').textContent=t('gameEnded');$('menuPlay').focus();}
 $('endDialog').addEventListener('close',()=>{if($('endDialog').returnValue==='delete')finishGame();});
