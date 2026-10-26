@@ -17,6 +17,7 @@
  function update(){
   const roots=[...document.querySelectorAll('dialog[open]')];const feedback=document.querySelector('main #feedback');if(feedback)roots.push(document.querySelector('#game')||document.querySelector('main'));
   for(const root of roots){
+   root.querySelectorAll('details').forEach(details=>{const summary=details.querySelector('summary');if(details.classList.contains('gmp-game-info')||/how to play|πώς παίζεται|more information|περισσότερες πληροφορίες/i.test(summary?.textContent||''))details.remove();});
    const status=root.querySelector('.op-message')||feedback,won=!!status&&(status.classList.contains('op-won')||/^(Correct!|Σωστά!)/i.test(status.textContent.trim()));let banner=root.querySelector('[data-gmp-feedback]');
    if(root.classList.contains('gmp-result-won')!==won)root.classList.toggle('gmp-result-won',won);
    if(!won){banner?.remove();continue}
