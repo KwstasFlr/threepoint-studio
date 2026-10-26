@@ -28,6 +28,7 @@ window.GMPProgress=(()=>{
    const attempt=count(event.attempt);
    if(!event.round||!event.game||!event.mode||(!sprint&&!attempt))return {points:0};
    if(sprint&&(event.mode!=='sprint'||!count(event.correct)||event.correct>600))return {points:0};
+   if(sprint&&event.elapsedMs!=null&&(!Number.isSafeInteger(event.elapsedMs)||event.elapsedMs<1||event.elapsedMs>60000))return {points:0};
    let profile=null;
    if(!adapter&&ctx.user&&ctx.client){
     const response=await ctx.client.from('profiles').select('*').eq('id',ctx.user.id).single();
@@ -44,7 +45,7 @@ window.GMPProgress=(()=>{
    ctx.state.points=count(ctx.state.points)+points;ctx.state.totalWins=count(ctx.state.totalWins)+1;
    if(!sprint&&attempt===1&&!event.extra)ctx.state.firstWins=count(ctx.state.firstWins)+1;
    if(event.mode==='daily')ctx.state.dailyWins=count(ctx.state.dailyWins)+1;
-   window.GMPCategoryScores.add(ctx.state,event.game,points,sprint||event.extra?0:attempt,sprint?event.correct:0);
+   window.GMPCategoryScores.add(ctx.state,event.game,points,sprint||event.extra?0:attempt,sprint?event.correct:0,sprint?event.elapsedMs:null);
    ledger[token]={points,online:false,guest:!ctx.user};
    }
    // Roll back the stored counters if the ledger cannot be written.
