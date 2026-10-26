@@ -117,6 +117,7 @@ async function boot() {
     $('guessForm').hidden = ended;
     $('next').hidden = !ended;
     $('result').hidden = !ended;
+    $('feedback').dataset.revealKey = 'greek:' + title.id;
     $('feedback').dataset.correctAnswer = won ? title.title : '';
     $('feedback').textContent = ended ? (won ? 'Σωστά! Βρήκες τον τίτλο.' : 'Ολοκληρώθηκαν οι 6 προσπάθειες.') : wrong ? `Δεν είναι αυτός ο τίτλος. ${wrong === 5 ? "Απομένει 1 προσπάθεια." : `Απομένουν ${6 - wrong} προσπάθειες.`} ${wrong <= 5 ? 'Άνοιξε μια νέα βοήθεια παρακάτω.' : 'Χρησιμοποίησε όλες τις βοήθειες για την τελευταία απάντηση.'}` : 'Πάρε τον χρόνο σου. Δεν υπάρχει χρονόμετρο.';
     $('resultHeading').textContent = won ? 'Το βρήκες!' : 'Η σωστή απάντηση';
