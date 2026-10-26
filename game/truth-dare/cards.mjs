@@ -4996,5 +4996,378 @@ const EXTRA_CARDS_19 = [
   }
 ];
 // END EXTRA_CARDS_19
-export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS,...RESEARCH_CARDS_18,...EXTRA_CARDS_19].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})})).map(card=>({...card,variants:TWO_PLAYER_WORDING[card.id]?{two:TWO_PLAYER_WORDING[card.id]}:card.variants,...(card.id==='supplied-dare-32'?{minTargets:0,variants:{two:TWO_PLAYER_WORDING[card.id],group:{en:'Give a very deliberate wink to each of the other players.',el:'Κλείσε επιτηδευμένα το μάτι σε καθένα από τα υπόλοιπα άτομα της παρέας.'}}}:{})}));
+// BEGIN EXTRA_CARDS_20
+const EXTRA_CARDS_20 = [
+  {
+    "id": "extra20-delivery-performance",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Have you ever practised how to answer the door before a delivery arrived?",
+    "el": "Έχεις κάνει πρόβα πώς θα ανοίξεις την πόρτα πριν φτάσει μια παραγγελία;",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-borrowed-opinion",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Which opinion did you borrow from someone else before actually trying the thing yourself?",
+    "el": "Ποια άποψη υιοθέτησες από κάποιον άλλον πριν δοκιμάσεις το πράγμα ο ίδιος;",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-family-recipe",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Which food do you only like when one particular person makes it?",
+    "el": "Ποιο φαγητό σου αρέσει μόνο όταν το φτιάχνει ένα συγκεκριμένο άτομο;",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-unearned-tour-guide",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Have you ever given someone directions confidently and realised afterwards that you had no idea?",
+    "el": "Έχεις δώσει οδηγίες με αυτοπεποίθηση και μετά κατάλαβες ότι δεν είχες ιδέα πού τους έστειλες;",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-school-shortcut",
+    "mode": "casual",
+    "type": "truth",
+    "en": "What shortcut did you use at school that you thought no teacher had noticed?",
+    "el": "Ποια πονηριά έκανες στο σχολείο και νόμιζες ότι δεν την είχε προσέξει κανένας καθηγητής;",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-wrong-souvenir",
+    "mode": "casual",
+    "type": "truth",
+    "en": "What souvenir did you buy on holiday and regret as soon as you got home?",
+    "el": "Ποιο αναμνηστικό αγόρασες σε διακοπές και μετάνιωσες μόλις γύρισες σπίτι;",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-group-instructions-skipper",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Who here would build furniture first and open the instructions only when a piece was left over?",
+    "el": "Ποιος από την παρέα θα έστηνε ένα έπιπλο και θα άνοιγε τις οδηγίες μόνο όταν περίσσευε ένα κομμάτι;",
+    "adult": false,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-group-receipt-keeper",
+    "mode": "casual",
+    "type": "truth",
+    "en": "Who here would still have the receipt for something they bought five years ago?",
+    "el": "Ποιος από την παρέα θα είχε ακόμα την απόδειξη για κάτι που αγόρασε πριν πέντε χρόνια;",
+    "adult": false,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-lift-operator",
+    "mode": "casual",
+    "type": "dare",
+    "en": "Give a ten-second lift announcement for a building with three completely imaginary floors.",
+    "el": "Κάνε μια ανακοίνωση ασανσέρ δέκα δευτερολέπτων για ένα κτίριο με τρεις εντελώς φανταστικούς ορόφους.",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-weather-inside-shoe",
+    "mode": "casual",
+    "type": "dare",
+    "en": "Present the weather forecast for the inside of a shoe after a very long walk.",
+    "el": "Παρουσίασε το δελτίο καιρού για το εσωτερικό ενός παπουτσιού μετά από μια πολύ μεγάλη βόλτα.",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-museum-spoon",
+    "mode": "casual",
+    "type": "dare",
+    "en": "Invent a complaint letter from a spoon that is tired of being used to stir coffee. Read it aloud.",
+    "el": "Γράψε προφορικά μια επιστολή διαμαρτυρίας από ένα κουτάλι που βαρέθηκε να ανακατεύει καφέ. Διάβασέ την δυνατά.",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-alphabet-breakfast",
+    "mode": "casual",
+    "type": "dare",
+    "en": "Name five breakfast foods in alphabetical order. You have twenty seconds.",
+    "el": "Πες πέντε φαγητά πρωινού με αλφαβητική σειρά. Έχεις είκοσι δευτερόλεπτα.",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-reverse-pet-interview",
+    "mode": "casual",
+    "type": "dare",
+    "en": "Pretend a cat is interviewing you for permission to live in its house. Answer three imaginary questions.",
+    "el": "Παίξε ότι μια γάτα σου παίρνει συνέντευξη για να σε αφήσει να μείνεις στο σπίτι της. Απάντησε σε τρεις φανταστικές ερωτήσεις.",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-silent-lemon",
+    "mode": "casual",
+    "type": "dare",
+    "en": "Mime peeling a lemon, tasting it and trying to convince someone it was sweet.",
+    "el": "Δείξε με παντομίμα ότι καθαρίζεις ένα λεμόνι, το δοκιμάζεις και προσπαθείς να πείσεις κάποιον ότι ήταν γλυκό.",
+    "adult": false,
+    "pair": false
+  },
+  {
+    "id": "extra20-group-human-loading",
+    "mode": "casual",
+    "type": "dare",
+    "en": "The group names three imaginary shops. Invent an absurd opening-hours announcement for each one.",
+    "el": "Η παρέα ονομάζει τρία φανταστικά καταστήματα. Φτιάξε μια παράλογη ανακοίνωση ωραρίου για το καθένα.",
+    "adult": false,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-group-restaurant-chaos",
+    "mode": "casual",
+    "type": "dare",
+    "en": "You are a waiter. Each other player invents a ridiculous dish; repeat the entire order from memory.",
+    "el": "Είσαι σερβιτόρος. Κάθε άλλο άτομο επινοεί ένα γελοίο πιάτο· επανάλαβε ολόκληρη την παραγγελία από μνήμης.",
+    "adult": false,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-post-date-debrief",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "What detail from a date have you exaggerated when telling a friend about it afterwards?",
+    "el": "Ποια λεπτομέρεια από ραντεβού έχεις φουσκώσει όταν το περιέγραφες μετά σε φίλο;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-saved-seat",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Has someone ever brought a friend along to what you thought was a date? How did you handle it?",
+    "el": "Έχει φέρει ποτέ κάποιος φίλο μαζί σε μια έξοδο που εσύ νόμιζες ότι ήταν ραντεβού; Πώς το αντιμετώπισες;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-crush-playlist-code",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Have you ever added a song to a shared playlist hoping one particular person would understand the message?",
+    "el": "Έχεις βάλει τραγούδι σε κοινή λίστα ελπίζοντας ότι ένα συγκεκριμένο άτομο θα πιάσει το υπονοούμενο;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-romantic-competition",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Have you ever tried harder to impress someone only after realising another person liked them too?",
+    "el": "Έχεις προσπαθήσει περισσότερο να εντυπωσιάσεις κάποιον μόλις κατάλαβες ότι άρεσε και σε άλλο άτομο;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-morning-after-message",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Have you ever read a message you sent the night before and wished you could edit just one sentence? Which sentence?",
+    "el": "Έχεις διαβάσει το πρωί μήνυμα που έστειλες το προηγούμενο βράδυ και ευχήθηκες να μπορούσες να αλλάξεις μία πρόταση; Ποια;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-fake-accidental-meeting",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Have you ever called a meeting accidental even though you knew exactly where the person would be?",
+    "el": "Έχεις παρουσιάσει μια συνάντηση ως τυχαία ενώ ήξερες ακριβώς πού θα βρισκόταν το άλλο άτομο;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-wrong-name-date",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Has a date ever called you by the wrong name, or have you done it to them? What happened next?",
+    "el": "Σε έχει πει ποτέ ένα ραντεβού με λάθος όνομα ή το έχεις κάνει εσύ; Τι έγινε μετά;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-almost-introduction",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Who almost became your partner but never actually went on a first date with you?",
+    "el": "Ποιο άτομο έφτασε κοντά στο να γίνει σύντροφός σου, αλλά τελικά δεν βγήκατε ούτε πρώτο ραντεβού;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-compliment-rehearsal",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Have you ever discovered on a date that you had previously argued with that person online?",
+    "el": "Έχεις ανακαλύψει σε ραντεβού ότι είχες τσακωθεί παλιότερα με αυτό το άτομο στο διαδίκτυο;",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-group-vacation-flirt",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Who here would return from a weekend away with a love story that lasted longer than the holiday?",
+    "el": "Ποιος από την παρέα θα γύριζε από διήμερο με μια ερωτική ιστορία που κράτησε περισσότερο από τις διακοπές;",
+    "adult": true,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-group-chat-detective",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Who here could work out that two people are dating just from the way they behave in a group chat?",
+    "el": "Ποιος από την παρέα θα καταλάβαινε ότι δύο άτομα βγαίνουν μόνο από τον τρόπο που φέρονται σε μια ομαδική συνομιλία;",
+    "adult": true,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-group-secret-matchmaker",
+    "mode": "extreme",
+    "type": "truth",
+    "en": "Which two fictional characters would you cast as the romantic leads if this group became a film? Explain your casting.",
+    "el": "Ποιους δύο φανταστικούς χαρακτήρες θα έβαζες στους ρομαντικούς πρωταγωνιστικούς ρόλους αν αυτή η παρέα γινόταν ταινία; Εξήγησε την επιλογή σου.",
+    "adult": true,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-date-receipt-review",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Give a dramatic review of an imaginary disastrous date as though you were reviewing a restaurant.",
+    "el": "Κάνε μια δραματική κριτική για ένα φανταστικό καταστροφικό ραντεβού σαν να αξιολογείς εστιατόριο.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-stolen-jacket-case",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Defend yourself in an imaginary court for borrowing a date’s jacket and secretly wanting to keep it.",
+    "el": "Υπερασπίσου τον εαυτό σου σε φανταστικό δικαστήριο επειδή δανείστηκες το μπουφάν ενός ραντεβού και κρυφά θέλεις να το κρατήσεις.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-doorbell-date",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Act out the ten seconds between hearing the doorbell and opening the door for a date you really like.",
+    "el": "Παίξε τα δέκα δευτερόλεπτα ανάμεσα στο κουδούνι και στο άνοιγμα της πόρτας για ένα ραντεβού που σου αρέσει πολύ.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-flirt-tech-support",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Perform a flirting attempt using only phrases that sound like technical support.",
+    "el": "Κάνε μια απόπειρα φλερτ χρησιμοποιώντας μόνο φράσεις που θυμίζουν τεχνική υποστήριξη.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-romantic-lost-luggage",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Act out declaring your feelings while an imaginary airport keeps announcing your lost luggage.",
+    "el": "Παίξε ότι εξομολογείσαι τα αισθήματά σου ενώ ένα φανταστικό αεροδρόμιο κάνει συνέχεια ανακοινώσεις για τη χαμένη βαλίτσα σου.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-group-love-song-jury",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "The group gives you three unrelated words. Make them the chorus of an imaginary love song.",
+    "el": "Η παρέα σού δίνει τρεις άσχετες λέξεις. Κάν’ τες ρεφρέν ενός φανταστικού ερωτικού τραγουδιού.",
+    "adult": true,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-group-romantic-press",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Give a press conference about an imaginary first date. Each other player asks you one question.",
+    "el": "Δώσε συνέντευξη Τύπου για ένα φανταστικό πρώτο ραντεβού. Κάθε άλλο άτομο σου κάνει μία ερώτηση.",
+    "adult": true,
+    "pair": false,
+    "minPlayers": 3
+  },
+  {
+    "id": "extra20-flirty-menu",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Describe three ordinary café orders as though each one were a different style of flirting.",
+    "el": "Περίγραψε τρεις απλές παραγγελίες σε καφέ σαν να είναι τρεις διαφορετικοί τρόποι φλερτ.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-sip-toast-own",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Raise your drink, make a toast to your worst flirting attempt and take one small sip.",
+    "el": "Σήκωσε το ποτό σου, κάνε πρόποση στη χειρότερη απόπειρά σου για φλερτ και πάρε μια μικρή γουλιά.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-sip-film-trailer",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Announce your next small sip like the narrator of an overly dramatic film trailer, then take it.",
+    "el": "Ανακοίνωσε την επόμενη μικρή γουλιά σου σαν αφηγητής υπερβολικά δραματικού τρέιλερ και μετά πιες την.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-sip-dating-award",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Accept an imaginary award for the most awkward first-date greeting, then celebrate with one small sip.",
+    "el": "Παρέλαβε ένα φανταστικό βραβείο για τον πιο αμήχανο χαιρετισμό πρώτου ραντεβού και γιόρτασέ το με μια μικρή γουλιά.",
+    "adult": true,
+    "pair": false
+  },
+  {
+    "id": "extra20-sip-future-self",
+    "mode": "extreme",
+    "type": "dare",
+    "en": "Invent a ridiculous name for your drink, design its imaginary logo in the air and take one small sip.",
+    "el": "Δώσε ένα γελοίο όνομα στο ποτό σου, σχεδίασε το φανταστικό λογότυπό του στον αέρα και πάρε μια μικρή γουλιά.",
+    "adult": true,
+    "pair": false
+  }
+];
+// END EXTRA_CARDS_20
+export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS,...RESEARCH_CARDS_18,...EXTRA_CARDS_19,...EXTRA_CARDS_20].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})})).map(card=>({...card,variants:TWO_PLAYER_WORDING[card.id]?{two:TWO_PLAYER_WORDING[card.id]}:card.variants,...(card.id==='supplied-dare-32'?{minTargets:0,variants:{two:TWO_PLAYER_WORDING[card.id],group:{en:'Give a very deliberate wink to each of the other players.',el:'Κλείσε επιτηδευμένα το μάτι σε καθένα από τα υπόλοιπα άτομα της παρέας.'}}}:{})}));
 export function cardWording(card,language,playerCount){return (playerCount===2?card.variants?.two?.[language]:card.variants?.group?.[language])||card[language];}
