@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   const scriptURL = document.currentScript.src;
-  const manifestURL = new URL('REVEALIMAGES.json?v=20261026review1', scriptURL);
+  const manifestURL = new URL('REVEALIMAGES.json?v=20261026review2', scriptURL);
   let manifestPromise;
   const entries = () => manifestPromise ||= fetch(manifestURL).then(r => {
     if (!r.ok) throw new Error('Image catalog unavailable');
@@ -42,6 +42,7 @@
     const figure = document.createElement('figure');
     figure.className = 'gmp-answer-photo';
     figure.dataset.kind = record.type;
+    if (/^#[0-9a-f]{6}$/i.test(record.background || "")) figure.style.backgroundColor = record.background;
     figure.hidden = true;
     const image = document.createElement('img');
     image.alt = state.status.dataset.correctAnswer || record.title || '';
@@ -49,6 +50,7 @@
     image.referrerPolicy = 'no-referrer';
     image.addEventListener('load', () => {
       if (states.get(root) !== state) return;
+      figure.style.maxWidth = Math.min(image.naturalWidth, record.type === "portrait" ? 440 : record.type === "country" ? 400 : 680) + "px";
       figure.hidden = false;
       root.classList.add('gmp-photo-shown');
     }, {once:true});
