@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   const scriptURL = document.currentScript.src;
-  const manifestURL = new URL('REVEALIMAGES.json?v=20261026review2', scriptURL);
+  const manifestURL = new URL('REVEALIMAGES.json?v=20261027review3', scriptURL);
   let manifestPromise;
   const entries = () => manifestPromise ||= fetch(manifestURL).then(r => {
     if (!r.ok) throw new Error('Image catalog unavailable');
