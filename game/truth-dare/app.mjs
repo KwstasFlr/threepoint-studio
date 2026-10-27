@@ -1,6 +1,6 @@
 import {COUNTRY_CODES,resolveCountry,countryName} from './countries.mjs?v=6';
-import {CARDS,cardWording} from './cards.mjs?v=20';
-import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=16';
+import {CARDS,cardWording} from './cards.mjs?v=21';
+import {SESSION_KEY,makePlayer,validPlayer,drawCard,restoreSession,canOfferForfeit,canRequestForfeit} from './engine.mjs?v=21';
 const $=id=>document.getElementById(id);
 const COPY={
  passConsent:['I consent to this forfeit. I can stop and end the game.','Συναινώ σε αυτή την ποινή. Μπορώ να σταματήσω και να τελειώσω το παιχνίδι.'],
@@ -76,7 +76,7 @@ function render(focus=false){
  if(state.active){
   const c=CARDS.find(c=>c.id===state.active.id);const target=state.players.find(p=>p.id===state.active.target);
   $('card').classList.toggle('dare-card',c.type==='dare'&&!state.active.forfeit);$('card').classList.toggle('forfeit-card',!!state.active.forfeit);$('card').dataset.penaltyTone=String((state.penaltyCount||1)%3);$('forfeitItems').hidden=!state.active.forfeit;$('forfeitItems').textContent=t('forfeitItems');$('cardType').textContent=t(state.active.forfeit?'forfeit':c.type);
-  $('cardText').textContent=state.active.forfeit?t('forfeitText'):cardWording(c,lang,state.players.length).replaceAll('{target}',target?playerName(target):'');
+  $('cardText').textContent=state.active.forfeit?t('forfeitText'):cardWording(c,lang,state.players.length,current).replaceAll('{target}',target?playerName(target):'');
   $('done').textContent=t(state.active.forfeit?'didForfeit':c.type==='truth'?'answered':'didDare');
   $('targetNote').textContent=target?`${t('with')} ${playerName(target)}`:'';
  }

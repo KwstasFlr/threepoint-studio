@@ -1,3 +1,4 @@
+import {BOLD_CARDS} from './bold-cards.mjs?v=21';
 import {SUPPLIED_CARDS} from './supplied-cards.mjs?v=1';
 // Original decks plus the supplied adult deck. Pairings are consent-filtered.
 const decks = {
@@ -5369,5 +5370,12 @@ const EXTRA_CARDS_20 = [
   }
 ];
 // END EXTRA_CARDS_20
-export const CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS,...RESEARCH_CARDS_18,...EXTRA_CARDS_19,...EXTRA_CARDS_20].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})})).map(card=>({...card,variants:TWO_PLAYER_WORDING[card.id]?{two:TWO_PLAYER_WORDING[card.id]}:card.variants,...(card.id==='supplied-dare-32'?{minTargets:0,variants:{two:TWO_PLAYER_WORDING[card.id],group:{en:'Give a very deliberate wink to each of the other players.',el:'Κλείσε επιτηδευμένα το μάτι σε καθένα από τα υπόλοιπα άτομα της παρέας.'}}}:{})}));
-export function cardWording(card,language,playerCount){return (playerCount===2?card.variants?.two?.[language]:card.variants?.group?.[language])||card[language];}
+const LEGACY_CARDS = [...Object.entries(decks).flatMap(([mode,types])=>Object.entries(types).flatMap(([type,rows])=>rows.map(([en,el,pair=false],i)=>({id:`${mode}-${type}-${i+1}`,mode,type,en,el,pair})))),...SUPPLIED_CARDS,...PHOTO_QUESTIONS,...EXTRA_PHOTO_QUESTIONS,...RESEARCH_CARDS_18,...EXTRA_CARDS_19,...EXTRA_CARDS_20].map(card=>({...card,...(ANSWER_ONLY_IDS.has(card.id)?{type:'truth'}:{}),...(GROUP_QUESTION_IDS.has(card.id)?{minPlayers:3}:{})})).map(card=>({...card,variants:TWO_PLAYER_WORDING[card.id]?{two:TWO_PLAYER_WORDING[card.id]}:card.variants,...(card.id==='supplied-dare-32'?{minTargets:0,variants:{two:TWO_PLAYER_WORDING[card.id],group:{en:'Give a very deliberate wink to each of the other players.',el:'Κλείσε επιτηδευμένα το μάτι σε καθένα από τα υπόλοιπα άτομα της παρέας.'}}}:{})}));
+// Old mild Extreme cards are retired, not copied into the all-ages Casual pool.
+// Keep the existing penalty record addressable by the existing pass flow only.
+export const CARDS = [...LEGACY_CARDS.filter(c=>c.mode==='casual'),
+ ...LEGACY_CARDS.filter(c=>c.id==='supplied-dare-3').map(c=>({...c,penaltyOnly:true})),...BOLD_CARDS];
+export function cardWording(card,language,playerCount,player={}){
+ const context=playerCount===2?card.variants?.two:card.variants?.group;
+ return context?.genderWording?.[player.gender]?.[language]||context?.[language]||card.genderWording?.[player.gender]?.[language]||card[language];
+}

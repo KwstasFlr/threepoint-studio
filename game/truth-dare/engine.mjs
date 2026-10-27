@@ -19,7 +19,7 @@ export function cardTargets(card,player,players){
 export function eligibleCards(cards,mode,type,player,players,spicy=false){
   const targets=players.filter(p=>eligiblePair(player,p));
   const adult=spicy&&mode==='extreme'&&optedIn(player);
-  return cards.filter(c=>c.mode===mode&&c.type===type&&Boolean(c.adult)===adult&&(!c.minPlayers||players.length>=c.minPlayers)&&(!c.partnerOnly||cardTargets(c,player,players).length>0)&&(!c.pair||(c.partnerOnly?cardTargets(c,player,players).length>0:spicy&&targets.length))&&(!c.group||players.every(optedIn))&&(!c.minTargets||targets.length>=c.minTargets));
+  return cards.filter(c=>!c.penaltyOnly&&c.mode===mode&&c.type===type&&Boolean(c.adult)===adult&&(!c.minPlayers||players.length>=c.minPlayers)&&(!c.partnerOnly||cardTargets(c,player,players).length>0)&&(!c.pair||(c.partnerOnly?cardTargets(c,player,players).length>0:spicy&&targets.length))&&(!c.group||players.every(optedIn))&&(!c.minTargets||targets.length>=c.minTargets));
 }
 export function canRequestForfeit(mode,players,player,spicy){return mode==='extreme'&&spicy&&optedIn(player)&&players.every(optedIn);}
 export function canOfferForfeit(mode,players,player,spicy){return player.forfeitConsent===true&&canRequestForfeit(mode,players,player,spicy);}
@@ -49,7 +49,7 @@ export function restoreSession(raw,cards){
     s.passUses=s.passUses===1?1:0;
     s.turnStep=s.turnStep==='mode'?'mode':'identity';
     s.profileIndex=Number.isInteger(s.profileIndex)&&s.profileIndex>=0&&s.profileIndex<s.players.length?s.profileIndex:0;
-    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const allowed=c&&eligibleCards(cards,s.mode,c.type,a,s.players,s.flirting).some(x=>x.id===c.id);if(!allowed||(s.active.forfeit&&(c.id!=='supplied-dare-3'||!canOfferForfeit(s.mode,s.players,a,s.flirting))))s.active=null;else if(!c.pair)s.active.target=null;else if(!cardTargets(c,a,s.players).some(p=>p.id===s.active.target))s.active=null;}
+    if(s.active){const c=cards.find(c=>c.id===s.active.id);const a=s.players[s.turn%s.players.length];const allowed=c&&(s.active.forfeit?c.id==='supplied-dare-3'&&canOfferForfeit(s.mode,s.players,a,s.flirting):eligibleCards(cards,s.mode,c.type,a,s.players,s.flirting).some(x=>x.id===c.id));if(!allowed||(s.active.forfeit&&(c.id!=='supplied-dare-3'||!canOfferForfeit(s.mode,s.players,a,s.flirting))))s.active=null;else if(!c.pair)s.active.target=null;else if(!cardTargets(c,a,s.players).some(p=>p.id===s.active.target))s.active=null;}
     return s;
   }catch{return null;}
 }
