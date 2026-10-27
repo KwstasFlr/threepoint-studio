@@ -4149,10 +4149,10 @@ const GAME_DATA = [
 
   {id: "greek", name: "Greek", available: true, category: "CINEMA & TV", description: ["Guess the Greek movie or series", "Μάντεψε την ελληνική ταινία ή σειρά"]},
 
-  {id: "painter", name: "Guess the Painter", available: true, category: "ART", description: ["Guess the painter", "Μάντεψε τον ζωγράφο"]},
-  {id: "people", name: "Guess the Person", available: true, category: "PEOPLE", description: ["Guess the person", "Μάντεψε το πρόσωπο"]},
-  {id: "car", name: "Guess the Car", available: true, category: "MOTORING", description: ["Guess the car", "Μάντεψε το αυτοκίνητο"]},
-  {id: "country", name: "Guess the Country", available: true, category: "GEOGRAPHY", description: ["Guess the country", "Μάντεψε τη χώρα"]},
+  {id: "painter", name: "Painter", available: true, category: "ART", description: ["Guess the painter", "Μάντεψε τον ζωγράφο"]},
+  {id: "people", name: "Figure", available: true, category: "PEOPLE", description: ["Guess the person", "Μάντεψε το πρόσωπο"]},
+  {id: "car", name: "Car", available: true, category: "MOTORING", description: ["Guess the car", "Μάντεψε το αυτοκίνητο"]},
+  {id: "country", name: "Country", available: true, category: "GEOGRAPHY", description: ["Guess the country", "Μάντεψε τη χώρα"]},
   {id: "truth-dare", name: "Can You Handle It?", available: true, category: "PARTY · 18+", description: ["Truth or Dare · 18+", "Αλήθεια ή Θάρρος · 18+"]},
 
   {
