@@ -1,4 +1,4 @@
-// Curated non-explicit flirting deck. Group and partner cards have explicit eligibility.
+// Curated non-explicit flirting cards.
 export const BOLD_CARDS = [
   {
     "id": "bold21-truth-1",
@@ -665,5 +665,161 @@ export const BOLD_CARDS = [
     "el": "Διάλεξε ένα τραγούδι για το άτομο {target} και εξήγησε ποια κοινή σας στιγμή σου το θυμίζει.",
     "pair": true,
     "partnerOnly": true
+  },
+  {
+    "id": "bold22-truth-1",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "Have you ever kept a flirtation secret because admitting it would change everything? What made it complicated?",
+    "el": "Έχεις κρατήσει κρυφό ένα φλερτ επειδή αν το παραδεχόσουν θα άλλαζαν όλα; Τι το έκανε περίπλοκο;"
+  },
+  {
+    "id": "bold22-truth-2",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "What compliment about your appearance makes you lose your usual confidence?",
+    "el": "Ποιο κομπλιμέντο για την εμφάνισή σου σε κάνει να χάνεις την άνεσή σου;"
+  },
+  {
+    "id": "bold22-truth-3",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "Have you ever wanted a friendship to become something more? What gave you away?",
+    "el": "Έχεις θελήσει μια φιλία να γίνει κάτι περισσότερο; Τι σε πρόδωσε;"
+  },
+  {
+    "id": "bold22-truth-4",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "Which would reveal your attraction first: your eyes, your voice or your smile? Tell us about a time it happened.",
+    "el": "Τι προδίδει πρώτο την έλξη σου: το βλέμμα, η φωνή ή το χαμόγελό σου; Πες μια φορά που σου συνέβη."
+  },
+  {
+    "id": "bold22-truth-5",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "Have you ever dressed for an ordinary outing knowing you hoped to meet one particular person?",
+    "el": "Έχεις ντυθεί για μια απλή έξοδο έχοντας στο μυαλό σου ότι μπορεί να συναντήσεις ένα συγκεκριμένο άτομο;"
+  },
+  {
+    "id": "bold22-truth-6",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "What romantic invitation would tempt you to abandon your plans for the evening?",
+    "el": "Ποια ερωτική πρόσκληση θα σε έβαζε στον πειρασμό να αλλάξεις όλα τα σχέδιά σου για το βράδυ;"
+  },
+  {
+    "id": "bold22-truth-7",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "Has a dance ever changed the way you saw someone? What happened?",
+    "el": "Έχει αλλάξει ένας χορός τον τρόπο που έβλεπες ένα άτομο; Τι έγινε;"
+  },
+  {
+    "id": "bold22-truth-8",
+    "mode": "extreme",
+    "type": "truth",
+    "adult": true,
+    "pair": false,
+    "en": "What is a flirty misunderstanding you secretly wished had been true?",
+    "el": "Ποια παρεξήγηση στο φλερτ ευχόσουν κρυφά να ήταν αλήθεια;"
+  },
+  {
+    "id": "bold22-dare-1",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Make up a ten-second dating-profile introduction that shows your bold side without using your age or job.",
+    "el": "Φτιάξε μια εισαγωγή δέκα δευτερολέπτων για προφίλ γνωριμιών που δείχνει την τολμηρή σου πλευρά, χωρίς ηλικία ή επάγγελμα."
+  },
+  {
+    "id": "bold22-dare-2",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Act out both sides of a phone call in which you finally arrange a date after weeks of flirting.",
+    "el": "Παίξε και τις δύο πλευρές ενός τηλεφωνήματος στο οποίο κανονίζετε επιτέλους ραντεβού μετά από εβδομάδες φλερτ."
+  },
+  {
+    "id": "bold22-dare-3",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Describe a perfect date using only five words, then deliver them like a personal invitation.",
+    "el": "Περίγραψε ένα τέλειο ραντεβού με πέντε μόνο λέξεις και μετά πες τες σαν προσωπική πρόσκληση."
+  },
+  {
+    "id": "bold22-dare-4",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Let the other player choose between a playful or a confident tone; use it to say “You have my attention.”",
+    "el": "Άφησε το άλλο άτομο να διαλέξει παιχνιδιάρικο ή σίγουρο ύφος και πες με αυτό «Έχεις όλη μου την προσοχή».",
+    "variants": {
+      "group": {
+        "en": "Let the other players choose between a playful or a confident tone; use it to say “You have my attention.”",
+        "el": "Άφησε τα άλλα άτομα να διαλέξουν παιχνιδιάρικο ή σίγουρο ύφος και πες με αυτό «Έχεις όλη μου την προσοχή»."
+      }
+    }
+  },
+  {
+    "id": "bold22-dare-5",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Perform the same short dance twice: once trying to hide a crush, then once making the attraction obvious.",
+    "el": "Κάνε τον ίδιο σύντομο χορό δύο φορές: πρώτα κρύβοντας ότι σου αρέσει ένα άτομο και μετά δείχνοντάς το ξεκάθαρα."
+  },
+  {
+    "id": "bold22-dare-6",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Give an imaginary crush a memorable goodbye without saying “bye”, “see you” or “goodnight”.",
+    "el": "Αποχαιρέτησε ένα φανταστικό φλερτ με τρόπο που θα του μείνει, χωρίς «γεια», «τα λέμε» ή «καληνύχτα»."
+  },
+  {
+    "id": "bold22-dare-7",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Say “I dare you to ask me out” in three different ways, and let the other player choose the most convincing one.",
+    "el": "Πες «Σε προκαλώ να μου ζητήσεις να βγούμε» με τρεις διαφορετικούς τρόπους και άφησε το άλλο άτομο να διαλέξει τον πιο πειστικό.",
+    "variants": {
+      "group": {
+        "en": "Say “I dare you to ask me out” in three different ways, and let the other players choose the most convincing one.",
+        "el": "Πες «Σε προκαλώ να μου ζητήσεις να βγούμε» με τρεις διαφορετικούς τρόπους και άφησε τα άλλα άτομα να διαλέξουν τον πιο πειστικό."
+      }
+    }
+  },
+  {
+    "id": "bold22-dare-8",
+    "mode": "extreme",
+    "type": "dare",
+    "adult": true,
+    "pair": false,
+    "en": "Invent the title of a romantic film starring you, then speak its opening line directly to the camera you imagine in front of you.",
+    "el": "Δώσε τίτλο σε μια ερωτική ταινία με εσένα πρωταγωνιστικό πρόσωπο και πες την πρώτη της ατάκα στη φανταστική κάμερα μπροστά σου."
   }
 ];

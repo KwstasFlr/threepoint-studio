@@ -1,4 +1,4 @@
-import {BOLD_CARDS} from './bold-cards.mjs?v=21';
+import {BOLD_CARDS} from './bold-cards.mjs?v=22';
 import {SUPPLIED_CARDS} from './supplied-cards.mjs?v=1';
 // Original decks plus the supplied adult deck. Pairings are consent-filtered.
 const decks = {
