@@ -4214,7 +4214,7 @@ const GAME_DATA = [
       "Σε ανάπτυξη"
     ]
   },
-  {id: "knowledge", name: "General Knowledge", available: true, category: "QUIZ", description: ["Beat the clock", "Νίκησε τον χρόνο"]},
+  {id: "knowledge", name: "General Knowledge · Fast Round", available: true, category: "QUIZ", description: ["Beat the clock", "Νίκησε τον χρόνο"]},
 
 ];
 
