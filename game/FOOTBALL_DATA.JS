@@ -2587,5 +2587,5 @@ FB_NEW_PLAYERS.push(...[
 const FB_EXCHANGE = {usdPerEuro:1.1225,date:"2026-10-02",source:"https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"};
 
 // The Daily selection is a curated subset of the full Classic pool.
-const FB_DAILY_ADDITIONAL_IDS = ["neymar", "suarez", "lewandowski", "benzema", "salah", "mane", "debruyne", "hazard", "bale", "ibrahimovic", "aguero", "torres", "villa", "eto", "drogba", "kaka", "figo", "rivaldo", "beckham", "lampard", "rooney", "owen", "shearer", "bergkamp", "vanpersie", "robben", "sneijder", "seedorf", "pirlo", "baggio", "ronaldonazario", "buffon", "cech", "vandersar", "casillas", "gerrard", "xavi", "iniesta", "ramos", "puyol", "lahm"];
+const FB_DAILY_ADDITIONAL_IDS = ["neymar", "suarez", "lewandowski", "benzema", "salah", "mane", "debruyne", "hazard", "bale", "ibrahimovic", "aguero", "torres", "villa", "eto", "drogba", "kaka", "figo", "rivaldo", "beckham", "lampard", "rooney", "owen", "shearer", "bergkamp", "vanpersie", "robben", "sneijder", "seedorf", "pirlo", "baggio", "ronaldonazario", "buffon", "cech", "vandersar", "casillas", "gerrard", "xavi", "iniesta", "ramos", "puyol", "lahm", "kane", "son", "julianalvarez", "lautaro", "nicowilliams", "gavi", "endrick", "estevao", "doue", "joaoneves"];
 const FB_DAILY_EXPANSION_START = "2026-10-19";

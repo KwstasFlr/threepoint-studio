@@ -4108,6 +4108,557 @@ UNLIMITED_PLAYERS.push(...[
   highestMarketValue:null, clubs:[clubA,clubB], image:null
 })));
 
+// Ten verified additions; one record per footballer.
+UNLIMITED_PLAYERS.push(...[
+  {
+    "id": "kane",
+    "name": "Harry Kane",
+    "nation": [
+      "England",
+      "Αγγλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "birthDate": "1993-07-28",
+    "highestMarketValue": 150000000,
+    "status": "active",
+    "aliases": [
+      "Harry Kane",
+      "kane",
+      "χαρι κειν",
+      "Kane"
+    ],
+    "profileSource": "https://fcbayern.com/en/teams/first-team/harry-kane",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/91845%26132098",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Bayern Munich"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Tottenham Hotspur.",
+        "Έχω παίξει στην Tottenham Hotspur."
+      ],
+      [
+        "My role is striker.",
+        "Η θέση μου είναι Σέντερ φορ."
+      ],
+      [
+        "I represent England.",
+        "Αγωνίζομαι με την εθνική: Αγγλία."
+      ],
+      [
+        "I was born on 1993-07-28.",
+        "Γεννήθηκα στις 1993-07-28."
+      ]
+    ]
+  },
+  {
+    "id": "son",
+    "name": "Son Heung-min",
+    "nation": [
+      "South Korea",
+      "Νότια Κορέα"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "birthDate": "1992-07-08",
+    "highestMarketValue": 90000000,
+    "status": "active",
+    "aliases": [
+      "Son Heung-min",
+      "son",
+      "σον χιουνγκ μιν",
+      "Heung-min",
+      "Son",
+      "Heung-min Son",
+      "Son Heung Min"
+    ],
+    "profileSource": "https://www.lafc.com/players/son-heung-min/",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/91845%26132098",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Tottenham Hotspur",
+      "LAFC"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Tottenham Hotspur.",
+        "Έχω παίξει στην Tottenham Hotspur."
+      ],
+      [
+        "My role is winger.",
+        "Η θέση μου είναι Εξτρέμ."
+      ],
+      [
+        "I represent South Korea.",
+        "Αγωνίζομαι με την εθνική: Νότια Κορέα."
+      ],
+      [
+        "I was born on 1992-07-08.",
+        "Γεννήθηκα στις 1992-07-08."
+      ]
+    ]
+  },
+  {
+    "id": "julianalvarez",
+    "name": "Julián Álvarez",
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "birthDate": "2000-01-31",
+    "highestMarketValue": 120000000,
+    "status": "active",
+    "aliases": [
+      "Julián Álvarez",
+      "julianalvarez",
+      "χουλιαν αλβαρες",
+      "Álvarez",
+      "Julian Alvarez"
+    ],
+    "profileSource": "https://www.laliga.com/jugador/julian-alvarez",
+    "source": "https://www.rotascore.com/en/player/julian-alvarez/318q66hvngwvqo9",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "River Plate",
+      "Manchester City"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for River Plate.",
+        "Έχω παίξει στην River Plate."
+      ],
+      [
+        "My role is striker.",
+        "Η θέση μου είναι Σέντερ φορ."
+      ],
+      [
+        "I represent Argentina.",
+        "Αγωνίζομαι με την εθνική: Αργεντινή."
+      ],
+      [
+        "I was born on 2000-01-31.",
+        "Γεννήθηκα στις 2000-01-31."
+      ]
+    ]
+  },
+  {
+    "id": "lautaro",
+    "name": "Lautaro Martínez",
+    "nation": [
+      "Argentina",
+      "Αργεντινή"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "birthDate": "1997-08-22",
+    "highestMarketValue": 110000000,
+    "status": "active",
+    "aliases": [
+      "Lautaro Martínez",
+      "lautaro",
+      "λαουταρο μαρτινες",
+      "Martínez",
+      "Lautaro Martinez"
+    ],
+    "profileSource": "https://www.legaseriea.it/players/lautaro-javier-martinez",
+    "source": "https://www.transfermarkt.co.uk/vergleich/spielervergleich/statistik/def/spieler/576024%26406625",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Racing Club",
+      "Inter Milan"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Racing Club.",
+        "Έχω παίξει στην Racing Club."
+      ],
+      [
+        "My role is striker.",
+        "Η θέση μου είναι Σέντερ φορ."
+      ],
+      [
+        "I represent Argentina.",
+        "Αγωνίζομαι με την εθνική: Αργεντινή."
+      ],
+      [
+        "I was born on 1997-08-22.",
+        "Γεννήθηκα στις 1997-08-22."
+      ]
+    ]
+  },
+  {
+    "id": "nicowilliams",
+    "name": "Nico Williams",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "birthDate": "2002-07-12",
+    "highestMarketValue": 70000000,
+    "status": "active",
+    "aliases": [
+      "Nico Williams",
+      "nicowilliams",
+      "νικο γουιλιαμς",
+      "Williams",
+      "Nicholas Williams Arthuer"
+    ],
+    "profileSource": "https://www.athletic-club.eus/en/players/nicholas-williams-arthuer/",
+    "source": "https://www.transfermarkt.co.uk/vergleich/spielervergleich/statistik/def/spieler/709187%26255508",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Athletic Club"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Athletic Club.",
+        "Έχω παίξει στην Athletic Club."
+      ],
+      [
+        "My role is winger.",
+        "Η θέση μου είναι Εξτρέμ."
+      ],
+      [
+        "I represent Spain.",
+        "Αγωνίζομαι με την εθνική: Ισπανία."
+      ],
+      [
+        "I was born on 2002-07-12.",
+        "Γεννήθηκα στις 2002-07-12."
+      ]
+    ]
+  },
+  {
+    "id": "gavi",
+    "name": "Gavi",
+    "nation": [
+      "Spain",
+      "Ισπανία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "birthDate": "2004-08-05",
+    "highestMarketValue": 90000000,
+    "status": "active",
+    "aliases": [
+      "Gavi",
+      "gavi",
+      "γκαβι",
+      "Pablo Paez Gavira"
+    ],
+    "profileSource": "https://www.fcbarcelona.com/en/football/first-team/news/2284537/present-and-future-gavi",
+    "source": "https://www.transfermarkt.co.uk/vergleich/spielervergleich/statistik/def/spieler/646740%26683840/sort/tore",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "FC Barcelona"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for FC Barcelona.",
+        "Έχω παίξει στην FC Barcelona."
+      ],
+      [
+        "My role is midfielder.",
+        "Η θέση μου είναι Μέσος."
+      ],
+      [
+        "I represent Spain.",
+        "Αγωνίζομαι με την εθνική: Ισπανία."
+      ],
+      [
+        "I was born on 2004-08-05.",
+        "Γεννήθηκα στις 2004-08-05."
+      ]
+    ]
+  },
+  {
+    "id": "endrick",
+    "name": "Endrick",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Striker",
+      "Σέντερ φορ"
+    ],
+    "birthDate": "2006-07-21",
+    "highestMarketValue": 60000000,
+    "status": "active",
+    "aliases": [
+      "Endrick",
+      "endrick",
+      "εντρικ"
+    ],
+    "profileSource": "https://www.realmadrid.com/en-US/football/first-team/players/endrick-felipe-moreira-de-sousa",
+    "source": "https://www.transfermarkt.co.uk/laliga/marktwerte/wettbewerb/ES1/pos//detailpos/0/altersklasse/alle/land_id/0/plus/1/page/2",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Palmeiras",
+      "Real Madrid"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Palmeiras.",
+        "Έχω παίξει στην Palmeiras."
+      ],
+      [
+        "My role is striker.",
+        "Η θέση μου είναι Σέντερ φορ."
+      ],
+      [
+        "I represent Brazil.",
+        "Αγωνίζομαι με την εθνική: Βραζιλία."
+      ],
+      [
+        "I was born on 2006-07-21.",
+        "Γεννήθηκα στις 2006-07-21."
+      ]
+    ]
+  },
+  {
+    "id": "estevao",
+    "name": "Estêvão",
+    "nation": [
+      "Brazil",
+      "Βραζιλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "birthDate": "2007-04-24",
+    "highestMarketValue": 80000000,
+    "status": "active",
+    "aliases": [
+      "Estêvão",
+      "estevao",
+      "εστεβαο",
+      "Estevao Willian"
+    ],
+    "profileSource": "https://www.chelseafc.com/en/teams/profile/estevao",
+    "source": "https://www.transfermarkt.co.uk/premier-league/marktwerte/wettbewerb/GB1/pos//detailpos/0/altersklasse/alle/land_id/0/plus/1",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Palmeiras",
+      "Chelsea"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Palmeiras.",
+        "Έχω παίξει στην Palmeiras."
+      ],
+      [
+        "My role is winger.",
+        "Η θέση μου είναι Εξτρέμ."
+      ],
+      [
+        "I represent Brazil.",
+        "Αγωνίζομαι με την εθνική: Βραζιλία."
+      ],
+      [
+        "I was born on 2007-04-24.",
+        "Γεννήθηκα στις 2007-04-24."
+      ]
+    ]
+  },
+  {
+    "id": "doue",
+    "name": "Désiré Doué",
+    "nation": [
+      "France",
+      "Γαλλία"
+    ],
+    "position": [
+      "Winger",
+      "Εξτρέμ"
+    ],
+    "birthDate": "2005-06-03",
+    "highestMarketValue": 120000000,
+    "status": "active",
+    "aliases": [
+      "Désiré Doué",
+      "doue",
+      "ντεζιρε ντουε",
+      "Doué",
+      "Desire Doue"
+    ],
+    "profileSource": "https://www.psg.fr/joueurs/desire-doue",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/914562%26711980",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Rennes",
+      "Paris Saint-Germain"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Rennes.",
+        "Έχω παίξει στην Rennes."
+      ],
+      [
+        "My role is winger.",
+        "Η θέση μου είναι Εξτρέμ."
+      ],
+      [
+        "I represent France.",
+        "Αγωνίζομαι με την εθνική: Γαλλία."
+      ],
+      [
+        "I was born on 2005-06-03.",
+        "Γεννήθηκα στις 2005-06-03."
+      ]
+    ]
+  },
+  {
+    "id": "joaoneves",
+    "name": "João Neves",
+    "nation": [
+      "Portugal",
+      "Πορτογαλία"
+    ],
+    "position": [
+      "Midfielder",
+      "Μέσος"
+    ],
+    "birthDate": "2004-09-27",
+    "highestMarketValue": 140000000,
+    "status": "active",
+    "aliases": [
+      "João Neves",
+      "joaoneves",
+      "ζοαο νεβες",
+      "Neves",
+      "Joao Neves"
+    ],
+    "profileSource": "https://www.psg.fr/en/players/joao-neves",
+    "source": "https://www.transfermarkt.com/vergleich/spielervergleich/statistik/def/spieler/670681%26487469",
+    "checkedAt": "2026-10-27",
+    "clubs": [
+      "Benfica",
+      "Paris Saint-Germain"
+    ],
+    "image": null,
+    "goals": null,
+    "assists": null,
+    "cleanSheets": null,
+    "teaser": [
+      "Find this footballer.",
+      "Βρες τον ποδοσφαιριστή."
+    ],
+    "clues": [
+      [
+        "I have played for Benfica.",
+        "Έχω παίξει στην Benfica."
+      ],
+      [
+        "My role is midfielder.",
+        "Η θέση μου είναι Μέσος."
+      ],
+      [
+        "I represent Portugal.",
+        "Αγωνίζομαι με την εθνική: Πορτογαλία."
+      ],
+      [
+        "I was born on 2004-09-27.",
+        "Γεννήθηκα στις 2004-09-27."
+      ]
+    ]
+  }
+]);
+const FOOTBALL_DAILY_60_IDS = ["kane", "son", "julianalvarez", "lautaro", "nicowilliams", "gavi", "endrick", "estevao", "doue", "joaoneves"];
+const FOOTBALL_DAILY_60_START = "2026-10-28";
+
 // The Daily selection is a curated subset of the full Classic pool.
 const FOOTBALL_DAILY_ADDITIONS = ["neymar", "suarez", "lewandowski", "benzema", "salah", "mane", "debruyne", "hazard", "bale", "ibrahimovic", "aguero", "torres", "villa", "eto", "drogba", "kaka", "figo", "rivaldo", "beckham", "lampard", "rooney", "owen", "shearer", "bergkamp", "vanpersie", "robben", "sneijder", "seedorf", "pirlo", "baggio", "ronaldonazario", "buffon", "cech", "vandersar", "casillas", "gerrard", "xavi", "iniesta", "ramos", "puyol", "lahm"];
 const FOOTBALL_DAILY_START = "2026-10-19";
@@ -5286,6 +5837,16 @@ function hash(value) {
 }
 
 function playerForDay(value) {
+  // Versioned expansion: keep every Daily answer before 28 October unchanged.
+  const newStart=Math.floor(Date.parse(`${FOOTBALL_DAILY_60_START}T00:00:00Z`)/DAY);
+  if(value>=newStart){
+    const ids=new Set([...P.map(player=>player.id),...FOOTBALL_DAILY_ADDITIONS,...FOOTBALL_DAILY_60_IDS]);
+    const pool=P.concat(UNLIMITED_PLAYERS).filter(player=>ids.has(player.id));
+    const elapsed=value-newStart,cycle=Math.floor(elapsed/pool.length);
+    const order=[...pool].sort((a,b)=>hash(`guessplex-football-60:${cycle}:${a.id}`)-hash(`guessplex-football-60:${cycle}:${b.id}`)||a.id.localeCompare(b.id));
+    return order[elapsed%order.length];
+  }
+
   const expansionStart=Math.floor(Date.parse(`${FOOTBALL_DAILY_START}T00:00:00Z`)/DAY);
   if(value>=expansionStart){
     const ids=new Set([...P.map(player=>player.id),...FOOTBALL_DAILY_ADDITIONS]);
