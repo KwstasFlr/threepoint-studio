@@ -1,10 +1,23 @@
-/* Side-by-side screen categories; keep the established accent colours. */
-main>.grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;width:100%;max-width:820px!important;gap:16px!important;margin:20px 0 24px!important}
-main>.grid:has(>.tile:nth-child(3)){grid-template-columns:repeat(3,minmax(0,1fr))!important}
-main>.grid>.tile{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;min-width:0;min-height:120px;padding:18px 20px;border-radius:14px}
-main>.grid>.tile strong{font-size:23px;line-height:1.25;overflow-wrap:anywhere}
-main>.grid>.tile>span{margin:0;text-align:left;font-size:15px;line-height:1.4}
-@media(max-width:600px){main>.grid,main>.grid:has(>.tile:nth-child(3)){grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}main>.grid:has(>.tile:nth-child(3))>.tile:last-child{grid-column:1/-1}main>.grid>.tile{min-height:108px;padding:16px 14px}main>.grid>.tile strong{font-size:20px}main>.grid>.tile>span{font-size:14px}}
+/* Compact category cards matched to GuessPlex. */
+main>.grid,main>.grid:has(>.tile:nth-child(3)){display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;max-width:380px!important;gap:16px!important;margin:24px 0 28px!important}
+main>.grid>.tile{position:relative;box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:12px;min-width:0;min-height:210px;aspect-ratio:auto;padding:24px!important;border:1px solid #414936!important;border-radius:16px!important;background:linear-gradient(125deg,#282e24,#151a17)!important;color:#f5f7ef!important;box-shadow:inset 0 1px 0 #ffffff09,0 8px 20px #0002;text-decoration:none;transition:background .18s,border-color .18s,transform .18s}
+main>.grid>.tile:nth-child(2){background:linear-gradient(125deg,#222a27,#141a19)!important;border-color:#3b4840!important}
+main>.grid>.tile::before{content:'';position:absolute;left:0;top:24px;bottom:24px;width:3px;background:#d7ff3f;border-radius:0 3px 3px 0;opacity:.7}
+main>.grid>.tile::after{content:'→';position:absolute;right:22px;bottom:22px;color:#d7ff3f;font-size:23px}
+main>.grid>.tile strong{font-size:25px;line-height:1.25;letter-spacing:-.025em;color:#f5f7ef!important;padding-right:28px}
+main>.grid>.tile .symbol{margin:0!important;height:auto;color:#d7ff3f}.tile .symbol svg{width:32px!important;height:32px!important}
+main>.grid>.tile>span{color:#bac1c5!important}
+main>.grid:has(>.tile:nth-child(3))>.tile:last-child{grid-column:1/-1;min-height:74px;padding:20px 24px!important;background:linear-gradient(100deg,#252c20,#171d17)!important;border-color:#48533b!important}
+main>.grid>.tile:nth-child(3) strong{font-size:21px}
+main>.grid>.tile:nth-child(3)::before{top:18px;bottom:18px}
+main>.grid>.tile:hover{border-color:#a7be67!important;background:#2b3527!important;transform:translateY(-2px)}main>.grid>.tile:focus-visible{outline:3px solid #d7ff3f;outline-offset:4px}
+@media(max-width:600px){main>.grid,main>.grid:has(>.tile:nth-child(3)){gap:12px!important}main>.grid>.tile{min-height:180px;padding:20px 17px!important;border-radius:14px!important}main>.grid>.tile strong{font-size:21px}main>.grid>.tile::after{right:15px;bottom:16px;font-size:20px}main>.grid:has(>.tile:nth-child(3))>.tile:last-child{min-height:68px;padding:18px!important}}
+@media(prefers-reduced-motion:reduce){main>.grid>.tile{transition:none}main>.grid>.tile:hover{transform:none}}
 
-main>.grid>.tile{--choice:#98cbff;border:1px solid color-mix(in srgb,var(--choice) 50%,#28333f);border-left:4px solid var(--choice);background:color-mix(in srgb,var(--choice) 12%,#12171d)}
-main>.grid>.tile[href*="filter=hard"]{--choice:#c6a0ff}main>.grid>.tile[href*="filter=color"],main>.grid>.tile[href*="filter=new"]{--choice:#ffbd78}main>.grid>.tile[href*="filter=mix"]{--choice:#bce65b}main>.grid>.tile[href*="filter=bw"]{--choice:#c4cdd8}
+/* All uses the same card dimensions and treatment as every choice. */
+main>.grid>.tile:nth-child(2),main>.grid:has(>.tile:nth-child(3))>.tile:last-child{background:linear-gradient(125deg,#282e24,#151a17)!important;border-color:#414936!important}
+main>.grid:has(>.tile:nth-child(3))>.tile:last-child{grid-column:auto;min-height:210px;padding:24px!important}
+main>.grid>.tile:nth-child(3) strong{font-size:25px}
+main>.grid>.tile:nth-child(3)::before{top:24px;bottom:24px}
+@media(max-width:600px){main>.grid:has(>.tile:nth-child(3))>.tile:last-child{min-height:180px;padding:20px 17px!important}main>.grid>.tile:nth-child(3) strong{font-size:21px}}
+main>.grid>.tile:hover{background:#2b3527!important;border-color:#a7be67!important}

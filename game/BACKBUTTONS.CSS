@@ -13,3 +13,5 @@ header>.gmp-back{flex-shrink:1;align-self:center}
 @media(prefers-reduced-motion:reduce){.gmp-back,.category-back{transition:none}}
 
 .op-dialog .round-number{display:block;margin:16px 0 12px;padding:10px 16px;border-radius:12px}.round-number strong{font-size:28px;line-height:1.3}
+
+header>.gmp-back{order:99;margin-left:auto!important;justify-self:end!important}header>[data-language-picker],header>.languages{order:2}header>.brand{order:0;margin-right:auto}header{flex-wrap:wrap;align-items:center}header>.gmp-back{font-size:14px;padding:8px 12px;min-height:42px}
