@@ -1,7 +1,7 @@
 "use strict";
 window.GMPCategoryScores=(()=>{
- const names={overall:'Top Legends',onepiece:'Top Weebs',gaming:'Top Noobs',football:'Top Footy Nerds',greek:'Top Greek Cinephiles',cinematix:'Top Movie Buffs',painter:'Top Art Lovers',country:'Top Geologist',car:'Top Petrolheads',people:'Top Icons',knowledge:'Fast Pistol'};
- const categories=['football','onepiece','gaming','greek','cinematix','painter','country','car','people','knowledge'];
+ const names={anime:'Top Otaku',overall:'Top Legends',onepiece:'Top Weebs',gaming:'Top Noobs',football:'Top Footy Nerds',greek:'Top Greek Cinephiles',cinematix:'Top Movie Buffs',painter:'Top Art Lovers',country:'Top Geologist',car:'Top Petrolheads',people:'Top Icons',knowledge:'Fast Pistol'};
+ const categories=['anime','football','onepiece','gaming','greek','cinematix','painter','country','car','people','knowledge'];
  const number=n=>Number.isSafeInteger(n)&&n>=0?n:0;
  const duration=n=>Number.isSafeInteger(n)&&n>0&&n<=60000?n:null;
  const sprintOrder=(a,b)=>b.streak-a.streak||(a.bestTimeMs??Infinity)-(b.bestTimeMs??Infinity)||b.points-a.points||b.correct-a.correct||String(a.name).localeCompare(String(b.name));

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "naruto",
+    "name": [
+      "Naruto Uzumaki",
+      "Ναρούτο Ουζουμάκι"
+    ],
+    "series": "Naruto Shippuden",
+    "image": "media/a01.png",
+    "crop": [
+      200,
+      535,
+      190,
+      155
+    ],
+    "size": [
+      600,
+      700
+    ],
+    "source": "https://www.tv-tokyo.co.jp/anime/naruto/chara/index.html",
+    "credit": "TV Tokyo · Masashi Kishimoto / Shueisha / Studio Pierrot",
+    "kind": "series"
+  },
+  {
+    "id": "luffy",
+    "name": [
+      "Monkey D. Luffy",
+      "Μόνκι Ντι Λούφι"
+    ],
+    "series": "One Piece",
+    "image": "media/a02.webp",
+    "crop": [
+      215,
+      935,
+      735,
+      270
+    ],
+    "size": [
+      1220,
+      1220
+    ],
+    "source": "https://opbr-en.bn-ent.net/character/detail/0001.html",
+    "credit": "Official Bounty Rush character artwork · Eiichiro Oda / Shueisha / Toei / Bandai Namco",
+    "kind": "series"
+  },
+  {
+    "id": "ichigo",
+    "name": [
+      "Ichigo Kurosaki",
+      "Ίτσιγκο Κουροσάκι"
+    ],
+    "series": "Bleach: Thousand-Year Blood War",
+    "image": "media/a03.png",
+    "crop": [
+      255,
+      1260,
+      550,
+      205
+    ],
+    "size": [
+      1050,
+      1500
+    ],
+    "source": "https://bleach-anime.com/character/",
+    "credit": "Official anime character artwork · Tite Kubo / Shueisha / TV Tokyo / dentsu / Pierrot",
+    "kind": "series"
+  },
+  {
+    "id": "deku",
+    "name": [
+      "Izuku Midoriya",
+      "Ιζούκου Μιντόριγια"
+    ],
+    "series": "My Hero Academia",
+    "image": "media/a04.png",
+    "crop": [
+      0,
+      900,
+      620,
+      477
+    ],
+    "size": [
+      620,
+      1377
+    ],
+    "source": "https://mhaoj.bn-ent.net/character/ch_h_01.html",
+    "credit": "Official One’s Justice character artwork · Kohei Horikoshi / Shueisha / My Hero Academia Project / Bandai Namco",
+    "kind": "series"
+  },
+  {
+    "id": "goku",
+    "name": [
+      "Son Goku",
+      "Σον Γκόκου"
+    ],
+    "series": "Dragon Ball DAIMA",
+    "image": "media/a05.jpg",
+    "crop": [
+      80,
+      385,
+      175,
+      110
+    ],
+    "size": [
+      518,
+      505
+    ],
+    "source": "https://en.dragon-ball-official.com/news/01_2416.html",
+    "credit": "Official Akira Toriyama character illustration · Bird Studio / Shueisha / Toei Animation",
+    "kind": "series"
+  },
+  {
+    "id": "tanjiro",
+    "name": [
+      "Tanjiro Kamado",
+      "Ταντζίρο Καμάντο"
+    ],
+    "series": "Demon Slayer",
+    "image": "media/a06.png",
+    "crop": [
+      110,
+      385,
+      145,
+      115
+    ],
+    "size": [
+      615,
+      544
+    ],
+    "source": "https://game.kimetsu.com/hinokami/character/",
+    "credit": "Official Hinokami Chronicles character illustration · Koyoharu Gotoge / Shueisha / Aniplex / ufotable / SEGA",
+    "kind": "series"
+  },
+  {
+    "id": "zoro",
+    "name": [
+      "Roronoa Zoro",
+      "Ρορονόα Ζόρο"
+    ],
+    "series": "One Piece",
+    "image": "media/a07.webp",
+    "crop": [
+      130,
+      1040,
+      205,
+      170
+    ],
+    "size": [
+      1220,
+      1220
+    ],
+    "source": "https://opbr-en.bn-ent.net/character/detail/0002.html",
+    "credit": "Official Bounty Rush character artwork · Eiichiro Oda / Shueisha / Toei / Bandai Namco",
+    "kind": "series"
+  },
+  {
+    "id": "krillin",
+    "name": [
+      "Krillin",
+      "Κρίλιν"
+    ],
+    "series": "Dragon Ball DAIMA",
+    "image": "media/a08.jpg",
+    "crop": [
+      345,
+      385,
+      145,
+      110
+    ],
+    "size": [
+      518,
+      505
+    ],
+    "source": "https://en.dragon-ball-official.com/news/01_2416.html",
+    "credit": "Official Akira Toriyama character illustration · Bird Studio / Shueisha / Toei Animation",
+    "kind": "series"
+  },
+  {
+    "id": "kiki",
+    "name": [
+      "Kiki",
+      "Κίκι"
+    ],
+    "series": "Kiki’s Delivery Service",
+    "image": "media/a09.jpg",
+    "crop": [
+      820,
+      810,
+      315,
+      218
+    ],
+    "size": [
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/majo/",
+    "credit": "Official Studio Ghibli still · © 1989 Eiko Kadono / Hayao Miyazaki / Studio Ghibli, N",
+    "kind": "movie"
+  },
+  {
+    "id": "chihiro",
+    "name": [
+      "Chihiro Ogino",
+      "Τσιχίρο Ογκίνο"
+    ],
+    "series": "Spirited Away",
+    "image": "media/a10.jpg",
+    "crop": [
+      1120,
+      760,
+      230,
+      255
+    ],
+    "size": [
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/chihiro/",
+    "credit": "Official Studio Ghibli still · © 2001 Hayao Miyazaki / Studio Ghibli, NDDTM",
+    "kind": "movie"
+  }
+]
