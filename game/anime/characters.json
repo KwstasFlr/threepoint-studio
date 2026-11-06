@@ -19,7 +19,8 @@
     ],
     "source": "https://www.tv-tokyo.co.jp/anime/naruto/chara/index.html",
     "credit": "TV Tokyo · Masashi Kishimoto / Shueisha / Studio Pierrot",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "luffy",
@@ -41,7 +42,8 @@
     ],
     "source": "https://opbr-en.bn-ent.net/character/detail/0001.html",
     "credit": "Official Bounty Rush character artwork · Eiichiro Oda / Shueisha / Toei / Bandai Namco",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "ichigo",
@@ -63,7 +65,8 @@
     ],
     "source": "https://bleach-anime.com/character/",
     "credit": "Official anime character artwork · Tite Kubo / Shueisha / TV Tokyo / dentsu / Pierrot",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "deku",
@@ -85,7 +88,8 @@
     ],
     "source": "https://mhaoj.bn-ent.net/character/ch_h_01.html",
     "credit": "Official One’s Justice character artwork · Kohei Horikoshi / Shueisha / My Hero Academia Project / Bandai Namco",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "goku",
@@ -107,7 +111,8 @@
     ],
     "source": "https://en.dragon-ball-official.com/news/01_2416.html",
     "credit": "Official Akira Toriyama character illustration · Bird Studio / Shueisha / Toei Animation",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "tanjiro",
@@ -129,7 +134,8 @@
     ],
     "source": "https://game.kimetsu.com/hinokami/character/",
     "credit": "Official Hinokami Chronicles character illustration · Koyoharu Gotoge / Shueisha / Aniplex / ufotable / SEGA",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "zoro",
@@ -151,7 +157,8 @@
     ],
     "source": "https://opbr-en.bn-ent.net/character/detail/0002.html",
     "credit": "Official Bounty Rush character artwork · Eiichiro Oda / Shueisha / Toei / Bandai Namco",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "krillin",
@@ -173,7 +180,8 @@
     ],
     "source": "https://en.dragon-ball-official.com/news/01_2416.html",
     "credit": "Official Akira Toriyama character illustration · Bird Studio / Shueisha / Toei Animation",
-    "kind": "series"
+    "kind": "series",
+    "gender": "male"
   },
   {
     "id": "kiki",
@@ -195,7 +203,8 @@
     ],
     "source": "https://www.ghibli.jp/works/majo/",
     "credit": "Official Studio Ghibli still · © 1989 Eiko Kadono / Hayao Miyazaki / Studio Ghibli, N",
-    "kind": "movie"
+    "kind": "movie",
+    "gender": "female"
   },
   {
     "id": "chihiro",
@@ -217,6 +226,283 @@
     ],
     "source": "https://www.ghibli.jp/works/chihiro/",
     "credit": "Official Studio Ghibli still · © 2001 Hayao Miyazaki / Studio Ghibli, NDDTM",
-    "kind": "movie"
+    "kind": "movie",
+    "gender": "female"
+  },
+  {
+    "id": "gon",
+    "name": [
+      "Gon Freecss",
+      "Γκον Φρικς"
+    ],
+    "series": "Hunter × Hunter",
+    "image": "media/a11.png",
+    "crop": [
+      120,
+      1340,
+      1000,
+      650
+    ],
+    "size": [
+      1320,
+      2060
+    ],
+    "source": "https://hunterhunter-ni.bushiroad.com/en/character/gon/",
+    "credit": "Official NEN×IMPACT character artwork · Yoshihiro Togashi / Shueisha / VAP / Nippon TV / Madhouse / Bushiroad",
+    "kind": "series",
+    "gender": "male"
+  },
+  {
+    "id": "killua",
+    "name": [
+      "Killua Zoldyck",
+      "Κίλουα Ζόλντικ"
+    ],
+    "series": "Hunter × Hunter",
+    "image": "media/a12.png",
+    "crop": [
+      515,
+      1600,
+      405,
+      410
+    ],
+    "size": [
+      1320,
+      2060
+    ],
+    "source": "https://hunterhunter-ni.bushiroad.com/en/character/killua/",
+    "credit": "Official NEN×IMPACT character artwork · Yoshihiro Togashi / Shueisha / VAP / Nippon TV / Madhouse / Bushiroad",
+    "kind": "series",
+    "gender": "male"
+  },
+  {
+    "id": "natsu",
+    "name": [
+      "Natsu Dragneel",
+      "Νάτσου Ντράγκνιλ"
+    ],
+    "series": "Fairy Tail",
+    "image": "media/a13.png",
+    "crop": [
+      0,
+      480,
+      115,
+      120
+    ],
+    "size": [
+      485,
+      600
+    ],
+    "source": "https://www.fairytailgame.com/us/#characters",
+    "credit": "Official FAIRY TAIL game character artwork · Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo / Koei Tecmo Games",
+    "kind": "series",
+    "gender": "male"
+  },
+  {
+    "id": "lucy",
+    "name": [
+      "Lucy Heartfilia",
+      "Λούσι Χαρτφίλια"
+    ],
+    "series": "Fairy Tail",
+    "image": "media/a14.png",
+    "crop": [
+      180,
+      420,
+      230,
+      180
+    ],
+    "size": [
+      418,
+      600
+    ],
+    "source": "https://www.fairytailgame.com/us/#characters",
+    "credit": "Official FAIRY TAIL game character artwork · Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo / Koei Tecmo Games",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "erza",
+    "name": [
+      "Erza Scarlet",
+      "Έρζα Σκάρλετ"
+    ],
+    "series": "Fairy Tail",
+    "image": "media/a15.png",
+    "crop": [
+      0,
+      420,
+      217,
+      180
+    ],
+    "size": [
+      217,
+      600
+    ],
+    "source": "https://www.fairytailgame.com/us/#characters",
+    "credit": "Official FAIRY TAIL game character artwork · Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo / Koei Tecmo Games",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "juvia",
+    "name": [
+      "Juvia Lockser",
+      "Τζούβια Λόκσερ"
+    ],
+    "series": "Fairy Tail",
+    "image": "media/a16.png",
+    "crop": [
+      260,
+      990,
+      380,
+      210
+    ],
+    "size": [
+      1000,
+      1200
+    ],
+    "source": "https://www.fairytailgame.com/us/#characters",
+    "credit": "Official FAIRY TAIL game character artwork · Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo / Koei Tecmo Games",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "mirajane",
+    "name": [
+      "Mirajane Strauss",
+      "Μιρατζέιν Στράους"
+    ],
+    "series": "Fairy Tail",
+    "image": "media/a17.png",
+    "crop": [
+      85,
+      495,
+      110,
+      105
+    ],
+    "size": [
+      323,
+      600
+    ],
+    "source": "https://www.fairytailgame.com/us/#characters",
+    "credit": "Official FAIRY TAIL game character artwork · Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo / Koei Tecmo Games",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "wendy",
+    "name": [
+      "Wendy Marvell",
+      "Γουέντι Μάρβελ"
+    ],
+    "series": "Fairy Tail",
+    "image": "media/a18.png",
+    "crop": [
+      120,
+      450,
+      170,
+      150
+    ],
+    "size": [
+      394,
+      600
+    ],
+    "source": "https://www.fairytailgame.com/us/#characters",
+    "credit": "Official FAIRY TAIL game character artwork · Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo / Koei Tecmo Games",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "sakura",
+    "name": [
+      "Sakura Haruno",
+      "Σάκουρα Χαρούνο"
+    ],
+    "series": "Naruto Shippuden",
+    "image": "media/a19.png",
+    "crop": [
+      245,
+      545,
+      115,
+      140
+    ],
+    "size": [
+      600,
+      700
+    ],
+    "source": "https://www.tv-tokyo.co.jp/anime/naruto/chara/index.html",
+    "credit": "TV Tokyo · Masashi Kishimoto / Shueisha / Studio Pierrot",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "hinata",
+    "name": [
+      "Hinata Hyuga",
+      "Χινάτα Χιούγκα"
+    ],
+    "series": "Naruto Shippuden",
+    "image": "media/a20.png",
+    "crop": [
+      255,
+      590,
+      100,
+      90
+    ],
+    "size": [
+      600,
+      700
+    ],
+    "source": "https://www.tv-tokyo.co.jp/anime/naruto/chara/index.html",
+    "credit": "TV Tokyo · Masashi Kishimoto / Shueisha / Studio Pierrot",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "nami",
+    "name": [
+      "Nami",
+      "Νάμι"
+    ],
+    "series": "One Piece",
+    "image": "media/a21.webp",
+    "crop": [
+      910,
+      1050,
+      95,
+      150
+    ],
+    "size": [
+      1220,
+      1220
+    ],
+    "source": "https://opbr-en.bn-ent.net/character/detail/0003.html",
+    "credit": "Official Bounty Rush character artwork · Eiichiro Oda / Shueisha / Toei / Bandai Namco",
+    "kind": "series",
+    "gender": "female"
+  },
+  {
+    "id": "robin",
+    "name": [
+      "Nico Robin",
+      "Νίκο Ρόμπιν"
+    ],
+    "series": "One Piece",
+    "image": "media/a22.webp",
+    "crop": [
+      230,
+      1060,
+      85,
+      150
+    ],
+    "size": [
+      1220,
+      1220
+    ],
+    "source": "https://opbr-en.bn-ent.net/character/detail/0007.html",
+    "credit": "Official Bounty Rush character artwork · Eiichiro Oda / Shueisha / Toei / Bandai Namco",
+    "kind": "series",
+    "gender": "female"
   }
 ]

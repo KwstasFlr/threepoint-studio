@@ -1,0 +1,134 @@
+[
+  {
+    "id": "naruto",
+    "name": [
+      "Naruto",
+      "Ναρούτο"
+    ],
+    "series": "Hidden Leaf Village",
+    "image": "media/s01.jpg",
+    "crop": [
+      0,
+      2820,
+      1935,
+      990
+    ],
+    "size": [
+      1935,
+      4180
+    ],
+    "source": "https://naruto-official.com/special/wallpaper?v=1",
+    "credit": "Official NARUTO village illustration · Masashi Kishimoto / Scott / Shueisha",
+    "kind": "scene"
+  },
+  {
+    "id": "fairy-tail",
+    "name": [
+      "Fairy Tail",
+      "Fairy Tail"
+    ],
+    "series": "Magnolia Cathedral",
+    "image": "media/s02.jpg",
+    "crop": [
+      760,
+      0,
+      500,
+      330
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "source": "https://blog.playstation.com/2020/01/21/how-fairy-tail-developers-breathed-life-into-a-3d-magnolia/",
+    "credit": "Official FAIRY TAIL game scenery · Hiro Mashima / Kodansha / Koei Tecmo Games / PlayStation Blog",
+    "kind": "scene"
+  },
+  {
+    "id": "howl",
+    "name": [
+      "Howl’s Moving Castle",
+      "Το Κινούμενο Κάστρο"
+    ],
+    "series": "The moving castle",
+    "image": "media/s03.jpg",
+    "crop": [
+      0,
+      0,
+      1920,
+      1038
+    ],
+    "size": [
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/howl/",
+    "credit": "Official Studio Ghibli still · © 2004 Studio Ghibli, NDDMT",
+    "kind": "scene"
+  },
+  {
+    "id": "spirited-away",
+    "name": [
+      "Spirited Away",
+      "Ταξίδι στη Χώρα των Θαυμάτων"
+    ],
+    "series": "The bathhouse",
+    "image": "media/s04.jpg",
+    "crop": [
+      0,
+      0,
+      1920,
+      1038
+    ],
+    "size": [
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/chihiro/",
+    "credit": "Official Studio Ghibli still · © 2001 Hayao Miyazaki / Studio Ghibli, NDDTM",
+    "kind": "scene"
+  },
+  {
+    "id": "kiki",
+    "name": [
+      "Kiki’s Delivery Service",
+      "Η Μικρή Μάγισσα Κίκι"
+    ],
+    "series": "The family home",
+    "image": "media/s05.jpg",
+    "crop": [
+      400,
+      0,
+      1100,
+      580
+    ],
+    "size": [
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/majo/",
+    "credit": "Official Studio Ghibli still · © 1989 Eiko Kadono / Hayao Miyazaki / Studio Ghibli, N",
+    "kind": "scene"
+  },
+  {
+    "id": "violet",
+    "name": [
+      "Violet Evergarden",
+      "Violet Evergarden"
+    ],
+    "series": "The postal company building",
+    "image": "media/s06.jpg",
+    "crop": [
+      0,
+      155,
+      1920,
+      720
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "source": "https://violet-evergarden.jp/special/virtualBg/",
+    "credit": "Official Kyoto Animation virtual background · Kana Akatsuki / Kyoto Animation / Violet Evergarden Committee",
+    "kind": "scene"
+  }
+]
