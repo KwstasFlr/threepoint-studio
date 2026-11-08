@@ -4,7 +4,7 @@
  if(typeof GAME_DATA==='undefined'||typeof renderGames!=='function')return;
  if(!GAME_DATA.some(g=>g.id==='anime'))GAME_DATA.push({id:'anime',name:'Anime',available:true,category:'ANIME',description:['Guess the character or anime','Μάντεψε τον χαρακτήρα ή το anime']});
  const previousRender=renderGames;
- renderGames=function(){previousRender();let card=document.querySelector('#gameGrid [data-game="anime"]');if(!card)return;if(card.tagName!=='A'){const link=document.createElement('a');link.className=card.className;link.dataset.game='anime';link.innerHTML=card.innerHTML;card.replaceWith(link);card=link;}card.href='anime/';card.style.textDecoration='none';const image=card.querySelector('img');if(image&&image.getAttribute('src')!=='anime/media/frame-nami.png')image.src='anime/media/frame-nami.png';};
+ renderGames=function(){previousRender();let card=document.querySelector('#gameGrid [data-game="anime"]');if(!card)return;if(card.tagName!=='A'){const link=document.createElement('a');link.className=card.className;link.dataset.game='anime';link.innerHTML=card.innerHTML;card.replaceWith(link);card=link;}card.href='anime/';card.style.textDecoration='none';const image=card.querySelector('img');if(image&&image.getAttribute('src')!=='anime/media/clear-reveal-nami.png')image.src='anime/media/clear-reveal-nami.png';};
  const previousOpen=openGame;
  openGame=function(id){if(id==='anime'){location.href='anime/';return;}return previousOpen(id);};
  renderGames();

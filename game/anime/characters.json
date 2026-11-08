@@ -6,12 +6,12 @@
       "Νάμι"
     ],
     "series": "One Piece",
-    "image": "media/frame-nami.png",
+    "image": "media/clear-nami.png",
     "crop": [
-      790,
-      495,
-      310,
-      155
+      820,
+      210,
+      370,
+      460
     ],
     "size": [
       1280,
@@ -21,7 +21,8 @@
     "kind": "scene-character",
     "adultReviewed": true,
     "source": "https://one-piece.com/character/nami/index.html",
-    "credit": "© Eiichiro Oda / Shueisha / Fuji TV / Toei Animation · Anime scene still"
+    "credit": "© Eiichiro Oda / Shueisha / Fuji TV / Toei Animation · Anime scene still",
+    "revealImage": "media/clear-reveal-nami.png"
   },
   {
     "id": "erza",
@@ -30,12 +31,12 @@
       "Έρζα Σκάρλετ"
     ],
     "series": "Fairy Tail",
-    "image": "media/frame-erza.jpg",
+    "image": "media/clear-erza.jpg",
     "crop": [
-      435,
-      680,
-      225,
-      175
+      470,
+      100,
+      850,
+      780
     ],
     "size": [
       1600,
@@ -45,7 +46,8 @@
     "kind": "scene-character",
     "adultReviewed": true,
     "source": "https://www.fairytail100yq.com/character/",
-    "credit": "© Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo · Anime scene still"
+    "credit": "© Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo · Anime scene still",
+    "revealImage": "media/clear-reveal-erza.jpg"
   },
   {
     "id": "tsunade",
@@ -54,7 +56,7 @@
       "Τσουνάντε"
     ],
     "series": "Naruto",
-    "image": "media/frame-tsunade.png",
+    "image": "media/clear-tsunade.png",
     "crop": [
       600,
       140,
@@ -70,7 +72,7 @@
     "adultReviewed": true,
     "source": "https://naruto-official.com/en/",
     "credit": "© Masashi Kishimoto / Shueisha / Studio Pierrot · Anime scene still",
-    "revealImage": "media/reveal-tsunade.png"
+    "revealImage": "media/clear-reveal-tsunade.png"
   },
   {
     "id": "yoruichi",
@@ -79,23 +81,23 @@
       "Γιορουίτσι Σιχόιν"
     ],
     "series": "Bleach",
-    "image": "media/frame-yoruichi.jpg",
+    "image": "media/clear-yoruichi.jpg",
     "crop": [
-      390,
-      280,
-      470,
-      355
+      0,
+      0,
+      295,
+      479
     ],
     "size": [
-      1073,
-      710
+      295,
+      479
     ],
     "gender": "female",
     "kind": "scene-character",
     "adultReviewed": true,
     "source": "https://bleach-anime.com/",
     "credit": "© Tite Kubo / Shueisha / Studio Pierrot · Anime scene still",
-    "revealImage": "media/reveal-yoruichi.jpg"
+    "revealImage": "media/clear-reveal-yoruichi.jpg"
   },
   {
     "id": "hancock",
@@ -104,7 +106,7 @@
       "Μπόα Χάνκοκ"
     ],
     "series": "One Piece",
-    "image": "media/frame-hancock.png",
+    "image": "media/clear-hancock.png",
     "crop": [
       315,
       200,
@@ -120,7 +122,7 @@
     "adultReviewed": true,
     "source": "https://one-piece.com/character/Boa_Hancock/index.html",
     "credit": "© Eiichiro Oda / Shueisha / Fuji TV / Toei Animation · Anime scene still",
-    "revealImage": "media/reveal-hancock.png"
+    "revealImage": "media/clear-reveal-hancock.png"
   },
   {
     "id": "robin",
@@ -129,7 +131,7 @@
       "Νίκο Ρόμπιν"
     ],
     "series": "One Piece",
-    "image": "media/frame-robin.png",
+    "image": "media/clear-robin.png",
     "crop": [
       755,
       225,
@@ -145,7 +147,7 @@
     "adultReviewed": true,
     "source": "https://one-piece.com/anime/556/index.html",
     "credit": "© Eiichiro Oda / Shueisha / Fuji TV / Toei Animation · Anime scene still",
-    "revealImage": "media/reveal-robin.png"
+    "revealImage": "media/clear-reveal-robin.png"
   },
   {
     "id": "makarov",
@@ -154,7 +156,7 @@
       "Μακάροφ Ντρέγιαρ"
     ],
     "series": "Fairy Tail: 100 Years Quest",
-    "image": "media/frame-makarov.png",
+    "image": "media/clear-makarov.png",
     "crop": [
       490,
       865,
@@ -172,27 +174,77 @@
     "credit": "© Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo · Anime scene still"
   },
   {
-    "id": "howl",
+    "id": "goku",
     "name": [
-      "Howl",
-      "Χάουλ"
+      "Son Goku",
+      "Σον Γκόκου"
     ],
-    "series": "Howl’s Moving Castle",
-    "image": "media/frame-howl.jpg",
+    "series": "Dragon Ball Z",
+    "gender": "male",
+    "source": "https://www.toei-anim.co.jp/tv/dragonz/",
+    "credit": "© Bird Studio / Shueisha / Toei Animation · Anime scene still",
+    "image": "media/clear-goku.png",
     "crop": [
-      1030,
-      610,
-      130,
-      140
+      155,
+      285,
+      290,
+      165
+    ],
+    "size": [
+      640,
+      480
+    ],
+    "adultReviewed": true,
+    "kind": "scene-character"
+  },
+  {
+    "id": "yor",
+    "name": [
+      "Yor Forger",
+      "Γιορ Φόρτζερ"
+    ],
+    "series": "Spy × Family",
+    "gender": "female",
+    "source": "https://spy-family.net/tvseries/episodes/episode35.php",
+    "credit": "© Tatsuya Endo / Shueisha / SPY×FAMILY Project · Anime scene still",
+    "image": "media/clear-yor.jpg",
+    "crop": [
+      620,
+      100,
+      1000,
+      860
     ],
     "size": [
       1920,
-      1038
+      1080
     ],
-    "gender": "male",
-    "kind": "scene-character",
     "adultReviewed": true,
-    "source": "https://www.ghibli.jp/works/howl/",
-    "credit": "© 2004 Studio Ghibli, NDDMT · Anime scene still"
+    "kind": "scene-character",
+    "revealImage": "media/clear-reveal-yor.jpg"
+  },
+  {
+    "id": "faye",
+    "name": [
+      "Faye Valentine",
+      "Φέι Βάλενταϊν"
+    ],
+    "series": "Cowboy Bebop",
+    "gender": "female",
+    "source": "https://www.cowboy-bebop.net/story/03.html",
+    "credit": "© Sunrise · Anime scene still",
+    "image": "media/clear-faye.png",
+    "crop": [
+      160,
+      230,
+      470,
+      375
+    ],
+    "size": [
+      800,
+      609
+    ],
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "revealImage": "media/clear-reveal-faye.png"
   }
 ]
