@@ -246,5 +246,105 @@
     "adultReviewed": true,
     "kind": "scene-character",
     "revealImage": "media/clear-reveal-faye.png"
+  },
+  {
+    "id": "chunli",
+    "name": [
+      "Chun-Li",
+      "Τσουν-Λι"
+    ],
+    "series": "Street Fighter II: The Animated Movie",
+    "image": "media/nov19-chunli.jpg",
+    "size": [
+      1886,
+      1080
+    ],
+    "crop": [
+      170,
+      35,
+      800,
+      800
+    ],
+    "revealImage": "media/nov19-reveal-chunli.jpg",
+    "gender": "female",
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "source": "https://www.youtube.com/watch?v=2JEkneZMNiE",
+    "credit": "© CAPCOM / Group TAC · Original film frame; Midnight Pulp distributor clip"
+  },
+  {
+    "id": "shizune",
+    "name": [
+      "Shizune",
+      "Σιζούνε"
+    ],
+    "series": "Naruto",
+    "image": "media/nov19-shizune.jpg",
+    "size": [
+      1284,
+      964
+    ],
+    "crop": [
+      100,
+      20,
+      640,
+      930
+    ],
+    "revealImage": "media/nov19-reveal-shizune.jpg",
+    "gender": "female",
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "source": "https://naruto-official.com/en/",
+    "credit": "© Masashi Kishimoto / Shueisha / Studio Pierrot · Anime scene still"
+  },
+  {
+    "id": "rangiku",
+    "name": [
+      "Rangiku Matsumoto",
+      "Ρανγκίκου Ματσουμότο"
+    ],
+    "series": "Bleach",
+    "image": "media/nov19-rangiku.jpg",
+    "size": [
+      1286,
+      965
+    ],
+    "crop": [
+      0,
+      410,
+      520,
+      550
+    ],
+    "revealImage": "media/nov19-reveal-rangiku.jpg",
+    "gender": "female",
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "source": "https://bleach-anime.com/",
+    "credit": "© Tite Kubo / Shueisha / Studio Pierrot · Anime scene still"
+  },
+  {
+    "id": "ryu",
+    "name": [
+      "Ryu",
+      "Ρίου"
+    ],
+    "series": "Street Fighter II: The Animated Movie",
+    "image": "media/nov19-ryu.jpg",
+    "size": [
+      1920,
+      1080
+    ],
+    "crop": [
+      600,
+      30,
+      920,
+      940
+    ],
+    "revealImage": "media/nov19-reveal-ryu.jpg",
+    "gender": "male",
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "source": "https://www.youtube.com/watch?v=G2T_sNlLP0A",
+    "credit": "© CAPCOM / Group TAC · Original film frame; Midnight Pulp distributor clip"
   }
 ]

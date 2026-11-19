@@ -130,5 +130,93 @@
     "source": "https://violet-evergarden.jp/special/virtualBg/",
     "credit": "Official Kyoto Animation virtual background · Kana Akatsuki / Kyoto Animation / Violet Evergarden Committee",
     "kind": "scene"
+  },
+  {
+    "id": "laputa",
+    "name": [
+      "Castle in the Sky",
+      "Το Κάστρο στον Ουρανό"
+    ],
+    "series": "Laputa floating castle",
+    "image": "media/nov19-laputa.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      0,
+      0,
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/laputa/",
+    "credit": "© 1986 Hayao Miyazaki / Studio Ghibli · Official film still",
+    "kind": "scene"
+  },
+  {
+    "id": "ponyo",
+    "name": [
+      "Ponyo",
+      "Πόνιο"
+    ],
+    "series": "The house on the cliff",
+    "image": "media/nov19-ponyo.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      0,
+      0,
+      1920,
+      1038
+    ],
+    "source": "https://www.ghibli.jp/works/ponyo/",
+    "credit": "© 2008 Hayao Miyazaki / Studio Ghibli, NDHDMT · Official film still",
+    "kind": "scene"
+  },
+  {
+    "id": "totoro",
+    "name": [
+      "My Neighbor Totoro",
+      "Ο Γείτονάς μου ο Τοτόρο"
+    ],
+    "series": "The Kusakabe family house",
+    "image": "media/nov19-totoro.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      180,
+      0,
+      1500,
+      520
+    ],
+    "source": "https://www.ghibli.jp/works/totoro/",
+    "credit": "© 1988 Hayao Miyazaki / Studio Ghibli · Official film still",
+    "kind": "scene"
+  },
+  {
+    "id": "attack-on-titan",
+    "name": [
+      "Attack on Titan",
+      "Επίθεση των Τιτάνων"
+    ],
+    "series": "Shiganshina and Wall Maria",
+    "image": "media/nov19-attack-on-titan.jpg",
+    "size": [
+      1200,
+      675
+    ],
+    "crop": [
+      350,
+      50,
+      680,
+      390
+    ],
+    "source": "https://www.crunchyroll.com/watch/GY79JJEMR/the-town-where-everything-began",
+    "credit": "© Hajime Isayama / Kodansha / Attack on Titan Production Committee · Episode scene still",
+    "kind": "scene"
   }
 ]
