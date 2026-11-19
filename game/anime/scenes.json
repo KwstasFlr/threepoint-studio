@@ -218,5 +218,27 @@
     "source": "https://www.crunchyroll.com/watch/GY79JJEMR/the-town-where-everything-began",
     "credit": "© Hajime Isayama / Kodansha / Attack on Titan Production Committee · Episode scene still",
     "kind": "scene"
+  },
+  {
+    "id": "nausicaa",
+    "name": [
+      "Nausicaä of the Valley of the Wind",
+      "Ναυσικά της Κοιλάδας των Ανέμων"
+    ],
+    "series": "The Toxic Jungle",
+    "image": "media/nov19b-nausicaa.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      1020,
+      100,
+      880,
+      650
+    ],
+    "source": "https://www.ghibli.jp/works/nausicaa/",
+    "credit": "© 1984 Hayao Miyazaki / Studio Ghibli, H · Official film still",
+    "kind": "scene"
   }
 ]

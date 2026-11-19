@@ -346,5 +346,30 @@
     "kind": "scene-character",
     "source": "https://www.youtube.com/watch?v=G2T_sNlLP0A",
     "credit": "© CAPCOM / Group TAC · Original film frame; Midnight Pulp distributor clip"
+  },
+  {
+    "id": "porco",
+    "name": [
+      "Porco Rosso",
+      "Πόρκο Ρόσο"
+    ],
+    "series": "Porco Rosso",
+    "image": "media/nov19b-porco.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      800,
+      330,
+      380,
+      320
+    ],
+    "revealImage": "media/nov19b-reveal-porco.jpg",
+    "gender": "male",
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "source": "https://www.ghibli.jp/works/porco/",
+    "credit": "© 1992 Hayao Miyazaki / Studio Ghibli, NN · Official film still"
   }
 ]

@@ -1,4 +1,4 @@
-import {AnimeRound,QUESTION_MS} from './engine.mjs?v=20261119-feet';
+import {AnimeRound,QUESTION_MS} from './engine.mjs?v=20261119-extra';
 const $=id=>document.getElementById(id);
 const sceneMode=new URLSearchParams(location.search).get('mode')==='anime';
 const roundKey=sceneMode?'GP_ANIME_SCENE_ROUND':'GP_ANIME_ROUND',bestKey=sceneMode?'GP_ANIME_SCENE_BEST10':'GP_ANIME_CLEAR_BEST10';
@@ -31,5 +31,5 @@ function render(){language();const s=game?.status||'ready';$('intro').hidden=s!=
  }
 }
 async function activate(){const serial=game.serial;await preload(game.item);if(game.activate(serial)){crop(game.item);render();clock();$('playing').scrollIntoView({block:'start',behavior:'instant'});$('question').focus({preventScroll:true});}}
-async function start(){if(starting)return;starting=true;loadError=false;language();$('loadStatus').textContent=t('Loading images…','Φόρτωση εικόνων…');try{if(!bank.length){const response=await fetch((sceneMode?'scenes.json':'characters.json')+'?v=20261119-feet');if(!response.ok)throw Error('bank');bank=await response.json();if(bank.length<4)throw Error('bank');}await Promise.all(bank.map(preload));roundNumber++;write(roundKey,roundNumber);token=crypto.randomUUID();awards=[];recorded=false;game=new AnimeRound(bank);game.start();await activate();}catch{loadError=true;game=null;render();}finally{starting=false;language();}}
+async function start(){if(starting)return;starting=true;loadError=false;language();$('loadStatus').textContent=t('Loading images…','Φόρτωση εικόνων…');try{if(!bank.length){const response=await fetch((sceneMode?'scenes.json':'characters.json')+'?v=20261119-extra');if(!response.ok)throw Error('bank');bank=await response.json();if(bank.length<4)throw Error('bank');}await Promise.all(bank.map(preload));roundNumber++;write(roundKey,roundNumber);token=crypto.randomUUID();awards=[];recorded=false;game=new AnimeRound(bank);game.start();await activate();}catch{loadError=true;game=null;render();}finally{starting=false;language();}}
 $('start').addEventListener('click',start);$('again').addEventListener('click',start);$('next').addEventListener('click',async()=>{if(!game.next())return;render();if(game.status==='finished'){$('resultTitle').focus({preventScroll:true});return;}await activate();});document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{clock();lang=b.dataset.lang;write('GMP_LANGUAGE',lang);render();clock();}));document.addEventListener('visibilitychange',clock);window.addEventListener('focus',clock);setInterval(clock,50);render();
