@@ -22,7 +22,25 @@
     "adultReviewed": true,
     "source": "https://one-piece.com/character/nami/index.html",
     "credit": "© Eiichiro Oda / Shueisha / Fuji TV / Toei Animation · Anime scene still",
-    "revealImage": "media/clear-reveal-nami.png"
+    "revealImage": "media/clear-reveal-nami.png",
+    "views": [
+      {
+        "viewId": "ocean",
+        "image": "media/bare-nami-ocean.png",
+        "size": [
+          1280,
+          720
+        ],
+        "crop": [
+          150,
+          250,
+          450,
+          465
+        ],
+        "barefoot": true,
+        "adultReviewed": true
+      }
+    ]
   },
   {
     "id": "erza",
@@ -47,7 +65,25 @@
     "adultReviewed": true,
     "source": "https://www.fairytail100yq.com/character/",
     "credit": "© Hiro Mashima / Kodansha / FAIRY TAIL Committee / TV Tokyo · Anime scene still",
-    "revealImage": "media/clear-reveal-erza.jpg"
+    "revealImage": "media/clear-reveal-erza.jpg",
+    "views": [
+      {
+        "viewId": "magic",
+        "image": "media/bare-erza-magic.jpg",
+        "size": [
+          1600,
+          900
+        ],
+        "crop": [
+          450,
+          40,
+          850,
+          650
+        ],
+        "barefoot": true,
+        "adultReviewed": true
+      }
+    ]
   },
   {
     "id": "tsunade",
@@ -122,7 +158,25 @@
     "adultReviewed": true,
     "source": "https://one-piece.com/character/Boa_Hancock/index.html",
     "credit": "© Eiichiro Oda / Shueisha / Fuji TV / Toei Animation · Anime scene still",
-    "revealImage": "media/clear-reveal-hancock.png"
+    "revealImage": "media/clear-reveal-hancock.png",
+    "views": [
+      {
+        "viewId": "standing",
+        "image": "media/bare-hancock-standing.png",
+        "size": [
+          1280,
+          720
+        ],
+        "crop": [
+          265,
+          90,
+          420,
+          560
+        ],
+        "barefoot": true,
+        "adultReviewed": true
+      }
+    ]
   },
   {
     "id": "robin",
@@ -220,7 +274,26 @@
     ],
     "adultReviewed": true,
     "kind": "scene-character",
-    "revealImage": "media/clear-reveal-yor.jpg"
+    "revealImage": "media/clear-reveal-yor.jpg",
+    "views": [
+      {
+        "viewId": "castle-heels",
+        "image": "media/hd-next-yor.jpg",
+        "size": [
+          1920,
+          1080
+        ],
+        "crop": [
+          430,
+          130,
+          1140,
+          880
+        ],
+        "revealImage": "media/hd-next-reveal-yor.jpg",
+        "source": "https://www.youtube.com/watch?v=Ipr0YNnwlXA",
+        "adultReviewed": true
+      }
+    ]
   },
   {
     "id": "faye",
@@ -245,7 +318,42 @@
     ],
     "adultReviewed": true,
     "kind": "scene-character",
-    "revealImage": "media/clear-reveal-faye.png"
+    "revealImage": "media/clear-reveal-faye.png",
+    "views": [
+      {
+        "viewId": "forest",
+        "image": "media/bare-faye-forest.png",
+        "size": [
+          800,
+          609
+        ],
+        "crop": [
+          325,
+          0,
+          330,
+          490
+        ],
+        "barefoot": true,
+        "adultReviewed": true
+      },
+      {
+        "viewId": "white-boots",
+        "image": "media/hd-next-faye.jpg",
+        "size": [
+          1920,
+          1080
+        ],
+        "crop": [
+          590,
+          130,
+          800,
+          850
+        ],
+        "revealImage": "media/hd-next-reveal-faye.jpg",
+        "source": "https://www.youtube.com/watch?v=w-tlzyDhE6A",
+        "adultReviewed": true
+      }
+    ]
   },
   {
     "id": "chunli",
@@ -371,5 +479,30 @@
     "kind": "scene-character",
     "source": "https://www.ghibli.jp/works/porco/",
     "credit": "© 1992 Hayao Miyazaki / Studio Ghibli, NN · Official film still"
+  },
+  {
+    "id": "revy",
+    "name": [
+      "Revy",
+      "Ρέβι"
+    ],
+    "series": "Black Lagoon",
+    "image": "media/hd-next-revy.jpg",
+    "size": [
+      1920,
+      1080
+    ],
+    "crop": [
+      925,
+      390,
+      390,
+      580
+    ],
+    "revealImage": "media/hd-next-reveal-revy.jpg",
+    "gender": "female",
+    "adultReviewed": true,
+    "kind": "scene-character",
+    "source": "https://www.youtube.com/watch?v=AkFy8UUyY4U",
+    "credit": "© Rei Hiroe / Shogakukan / Black Lagoon Project · Original episode 24 scene; Crunchyroll clip"
   }
 ]

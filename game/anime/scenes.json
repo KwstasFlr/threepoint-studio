@@ -240,5 +240,71 @@
     "source": "https://www.ghibli.jp/works/nausicaa/",
     "credit": "© 1984 Hayao Miyazaki / Studio Ghibli, H · Official film still",
     "kind": "scene"
+  },
+  {
+    "id": "arrietty",
+    "name": [
+      "The Secret World of Arrietty",
+      "Ο Μυστικός Κόσμος της Αριέττι"
+    ],
+    "series": "The garden house",
+    "image": "media/hd-next-scene-arrietty.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      0,
+      0,
+      1920,
+      1038
+    ],
+    "kind": "scene",
+    "source": "https://www.ghibli.jp/works/karigurashi/",
+    "credit": "© 2010 Studio Ghibli · Official film still"
+  },
+  {
+    "id": "whisper-of-the-heart",
+    "name": [
+      "Whisper of the Heart",
+      "Ψίθυροι της Καρδιάς"
+    ],
+    "series": "The antique shop",
+    "image": "media/hd-next-scene-whisper-of-the-heart.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      40,
+      0,
+      1440,
+      1038
+    ],
+    "kind": "scene",
+    "source": "https://www.ghibli.jp/works/mimi/",
+    "credit": "© 1995 Aoi Hiiragi / Shueisha / Studio Ghibli · Official film still"
+  },
+  {
+    "id": "porco-rosso",
+    "name": [
+      "Porco Rosso",
+      "Πόρκο Ρόσο"
+    ],
+    "series": "The seaplane above the clouds",
+    "image": "media/hd-next-scene-porco-rosso.jpg",
+    "size": [
+      1920,
+      1038
+    ],
+    "crop": [
+      0,
+      0,
+      1920,
+      1038
+    ],
+    "kind": "scene",
+    "source": "https://www.ghibli.jp/works/porco/",
+    "credit": "© 1992 Hayao Miyazaki / Studio Ghibli · Official film still"
   }
 ]
